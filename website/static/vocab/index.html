@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EyeDataHub metadata terms</title>
+  <style>
+    body { font: 17px/1.55 system-ui, sans-serif; max-width: 860px; margin: 3rem auto; padding: 0 1.25rem; color: #17212b; }
+    h1, h2 { line-height: 1.2; }
+    code { background: #eef3f5; padding: 0.1rem 0.25rem; }
+    dt { font-weight: 700; margin-top: 1rem; }
+    dd { margin-left: 0; }
+  </style>
+</head>
+<body>
+  <h1>EyeDataHub metadata terms</h1>
+  <p>
+    This page documents the small EyeDataHub vocabulary used in the release
+    JSON-LD catalog. Standard concepts use DCAT, Dublin Core Terms, and
+    Schema.org. These project terms preserve catalog fields that do not have a
+    direct standard equivalent.
+  </p>
+  <p>
+    Namespace: <code>https://khosravipooya.com/EyeDataHub/vocab/#</code><br>
+    JSON-LD context: <a href="context.jsonld">context.jsonld</a>
+  </p>
+
+  <h2>Terms</h2>
+  <dl>
+    <dt id="sourceLicenseStatement">sourceLicenseStatement</dt>
+    <dd>The source license or access statement recorded in the catalog.</dd>
+
+    <dt id="normalizedSourceTermGroup">normalizedSourceTermGroup</dt>
+    <dd>A curatorial source term group used for filtering, not a legal determination.</dd>
+
+    <dt id="accessBackend">accessBackend</dt>
+    <dd>The direct, platform, or manual route recorded for a resource.</dd>
+
+    <dt id="task">task</dt>
+    <dd>A nonexclusive research or evaluation task associated with a resource.</dd>
+
+    <dt id="sourceReportedRecords">sourceReportedRecords</dt>
+    <dd>An item count reported by the source. Units vary across resources.</dd>
+
+    <dt id="doiString">doiString</dt>
+    <dd>A DOI string found in a source URL or citation. It may identify a dataset or a related publication.</dd>
+
+    <dt id="independentSourceCheckStatus">independentSourceCheckStatus</dt>
+    <dd>The recorded status of an independent row-level source check.</dd>
+
+    <dt id="registrySearchesThrough">registrySearchesThrough</dt>
+    <dd>The project-level end date for catalog discovery searches.</dd>
+
+    <dt id="sourceCheckScope">sourceCheckScope</dt>
+    <dd>A statement describing what the recorded source validation status does and does not establish.</dd>
+  </dl>
+</body>
+</html>

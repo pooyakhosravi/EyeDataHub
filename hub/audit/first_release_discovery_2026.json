@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "title": "EyeDataHub first-release literature and repository discovery audit",
+    "searched_on": "2026-07-14",
+    "last_search_date": "2026-07-21",
+    "release_snapshot_date": "2026-07-21",
+    "working_record_count_before_final_audit": 209,
+    "records_identified_in_final_audit": 30,
+    "draft_records_corrected_before_release": 2,
+    "first_release_registry_count": 239,
+    "literature_refresh_records_added": 14,
+    "records_removed_after_route_review": 3,
+    "author_supplied_records_added_after_search_cutoff": 1,
+    "final_registry_count": 251,
+    "interpretation": "This decision log documents the searches and curation audit used to assemble EyeDataHub and the literature refresh completed through 21 July 2026. The 209-record working count was an internal curation state, not an earlier release. Three records were removed after their official acquisition routes could not be confirmed. One current combined CORN collection record supplied by the authors was added on 25 July 2026 and linked to its overlapping component records. Publicly discoverable means that a documented open, account-based, competition, request, or data-use route exists; it does not imply unrestricted download or reuse."
+  },
+  "eligibility": {
+    "include": [
+      "Eye- or ophthalmology-related data with a stable public landing page and documented access route.",
+      "A reusable dataset, benchmark, annotation layer, or analysis-ready cohort rather than an article-only claim or ordinary figure source-data deposit.",
+      "At least one plausible machine-learning, statistical, measurement, or evaluation task.",
+      "Enough source metadata to record provenance, access, and conservative license text."
+    ],
+    "derived_resource_rule": "Retain a composite, synthetic, or derived resource only when it adds a distinct annotation, representation, longitudinal target, benchmark, or access surface; state known upstream dependencies in notes.",
+    "license_rule": "Use repository or dataset terms, not the article license. Mark unclear or mixed terms as unknown and require source verification."
+  },
+  "searches": [
+    {
+      "source": "Europe PMC",
+      "interface": "REST search API plus primary-paper and data-availability verification",
+      "query": "(TITLE:\"dataset\" OR ABSTRACT:\"public dataset\" OR ABSTRACT:\"publicly available dataset\") AND (ophthalmology OR ophthalmic OR retina OR retinal OR ocular OR cornea OR fundus OR \"optical coherence tomography\") AND FIRST_PDATE:[2024-01-01 TO 2026-12-31]",
+      "purpose": "Identify recent dataset papers missed by platform-only searches."
+    },
+    {
+      "source": "Dryad",
+      "interface": "Dryad v2 search API",
+      "queries": [
+        {"q": "retina", "reported_results": 121},
+        {"q": "ophthalmology", "reported_results": 42},
+        {"q": "ocular", "reported_results": 73},
+        {"q": "fundus", "reported_results": 8},
+        {"q": "glaucoma", "reported_results": 22},
+        {"q": "optical coherence tomography", "reported_results": 26}
+      ],
+      "unique_title_or_abstract_matches": 219,
+      "fully_verified_and_added": 10,
+      "remaining_matches_not_fully_adjudicated": 209,
+      "screening_note": "All 219 unique titles were inspected. Ten clearly reusable clinical, imaging, omics, or ML-oriented resources were selected for full repository-metadata verification during the audit for the first release. The remaining records include basic-science experiment deposits, non-ophthalmic visual-neuroscience false positives, article source data, code-only deposits, and potentially eligible resources that still require full adjudication; they are not represented as definitively excluded."
+    },
+    {
+      "source": "Primary repositories and project pages",
+      "interfaces": ["Zenodo API", "Figshare API", "Mendeley Data", "Tianchi/APTOS", "project websites"],
+      "purpose": "Verify current access routes, repository licenses, file sizes, sample units, and derivative status."
+    },
+    {
+      "source": "Major gaze, pupil, and iris benchmark sweep",
+      "interfaces": ["institutional project pages", "primary dataset papers", "NIST Biometric Research Database Catalog"],
+      "targeted_families": ["appearance-based gaze estimation", "head-mounted pupil and eye tracking", "near-infrared iris recognition", "visible-light iris recognition"],
+      "fully_verified_and_added": 9,
+      "screening_note": "This targeted sentinel search was prompted by the registry's absence of iris-biometrics records and near-absence of eye-tracking records. It was intended to identify major benchmark families but was not a systematic review of all gaze or biometric-eye datasets. Candidates without a current primary access route or without completed source and license adjudication remain listed below."
+    }
+  ],
+  "included": [
+    {
+      "slug": "soul_octa",
+      "source": "https://doi.org/10.6084/m9.figshare.24893358.v3",
+      "evidence": "https://doi.org/10.1038/s41597-024-03665-7",
+      "sample_unit": "178 longitudinal OCTA samples",
+      "license_evidence": "Figshare record: CC BY 4.0"
+    },
+    {
+      "slug": "periorbital_segmentation",
+      "source": "https://doi.org/10.5281/zenodo.13916845",
+      "evidence": "https://doi.org/10.1016/j.xops.2025.100757",
+      "sample_unit": "2,842 cropped periorbital images",
+      "license_evidence": "Zenodo record: CC BY 4.0; upstream face-dataset terms also apply"
+    },
+    {
+      "slug": "amd_dme_3d_oct",
+      "source": "https://doi.org/10.6084/m9.figshare.30582035.v1",
+      "evidence": "https://doi.org/10.1038/s41597-025-06497-1",
+      "sample_unit": "224 three-dimensional OCT volumes",
+      "license_evidence": "Figshare record: CC BY 4.0"
+    },
+    {
+      "slug": "syn_oct",
+      "source": "https://doi.org/10.5281/zenodo.17151869",
+      "evidence": "https://doi.org/10.1038/s41597-026-06946-5",
+      "sample_unit": "200,000 synthetic OCT images",
+      "license_evidence": "Zenodo record: CC BY 4.0"
+    },
+    {
+      "slug": "aroma_octa",
+      "source": "https://doi.org/10.5281/zenodo.18258095",
+      "evidence": "https://doi.org/10.1159/000551126",
+      "sample_unit": "281 OCTA scans (3,934 en-face images)",
+      "license_evidence": "Zenodo record: CC BY 4.0"
+    },
+    {
+      "slug": "fociset_pamm",
+      "source": "https://data.mendeley.com/datasets/mkwxn7rjpm/2",
+      "evidence": "https://doi.org/10.1016/j.dib.2024.111121",
+      "sample_unit": "133 OCT images",
+      "license_evidence": "Mendeley Data record: CC BY 4.0"
+    },
+    {
+      "slug": "angioreport",
+      "source": "https://tianchi.aliyun.com/dataset/170128",
+      "evidence": "https://doi.org/10.1136/bjo-2024-327006",
+      "sample_unit": "55,361 angiography images",
+      "license_evidence": "No clear dataset license visible; classified unknown"
+    },
+    {
+      "slug": "belo",
+      "source": "https://belo-dataset.vercel.app/",
+      "evidence": "https://doi.org/10.1016/j.xops.2025.101050",
+      "sample_unit": "900 multiple-choice questions",
+      "license_evidence": "Mixed upstream question-bank terms; classified unknown"
+    },
+    {
+      "slug": "lmod_plus",
+      "source": "https://kfzyqin.github.io/lmod_plus/",
+      "evidence": "https://doi.org/10.1145/3801746",
+      "sample_unit": "32,633 derived multimodal benchmark instances",
+      "license_evidence": "Nine upstream datasets with component-specific terms; classified unknown"
+    },
+    {
+      "slug": "birdshot_wide",
+      "source": "https://doi.org/10.5281/zenodo.19474623",
+      "evidence": "https://doi.org/10.1038/s41597-026-07494-8",
+      "sample_unit": "6,352 widefield fundus images",
+      "license_evidence": "Restricted Zenodo record: CC BY 4.0 plus access agreement"
+    },
+    {
+      "slug": "goblet_cell_segmentation",
+      "source": "https://doi.org/10.5281/zenodo.18642562",
+      "evidence": "https://doi.org/10.1038/s41597-026-07309-w",
+      "sample_unit": "24 independent microscopy fields (65,108 cells; 1,152 derivative patches)",
+      "license_evidence": "Zenodo record: CC BY 4.0"
+    },
+    {
+      "slug": "dryad_gcc_glaucoma",
+      "source": "https://doi.org/10.5061/dryad.xwdbrv1tn",
+      "sample_unit": "406 eyes from 203 participants",
+      "license_evidence": "Dryad dataset policy: CC0"
+    },
+    {
+      "slug": "dryad_glaucoma_rnfl_vf",
+      "source": "https://doi.org/10.5061/dryad.q6ft5",
+      "sample_unit": "499 examination records",
+      "license_evidence": "Dryad dataset policy: CC0"
+    },
+    {
+      "slug": "dryad_namd_oct_quant",
+      "source": "https://doi.org/10.5061/dryad.2rbnzs7m4",
+      "sample_unit": "2,966 treated eyes",
+      "license_evidence": "Dryad dataset policy: CC0"
+    },
+    {
+      "slug": "dryad_namd_visual_prediction",
+      "source": "https://doi.org/10.5061/dryad.573n5tb5d",
+      "sample_unit": "926 treatment-naive eyes",
+      "license_evidence": "Dryad dataset policy: CC0"
+    },
+    {
+      "slug": "dryad_functional_oct_alzheimer",
+      "source": "https://doi.org/10.5061/dryad.msbcc2ftc",
+      "sample_unit": "Repeated OCT acquisitions across four experiments; unique total not assumed",
+      "license_evidence": "Dryad dataset policy: CC0"
+    },
+    {
+      "slug": "dryad_retinal_vein_cannulation",
+      "source": "https://doi.org/10.5061/dryad.3ffbg79zd",
+      "sample_unit": "26 ex vivo porcine eyes",
+      "license_evidence": "Dryad dataset policy: CC0"
+    },
+    {
+      "slug": "dryad_subretinal_robot",
+      "source": "https://doi.org/10.5061/dryad.w0vt4b91w",
+      "sample_unit": "OCT videos, annotated frames, and pressure traces; independent total not reported",
+      "license_evidence": "Dryad dataset policy: CC0"
+    },
+    {
+      "slug": "dryad_cornea_oct_pentacam",
+      "source": "https://doi.org/10.5061/dryad.tht76hf0c",
+      "sample_unit": "Right-eye OCT and Pentacam records; independent total not reported",
+      "license_evidence": "Dryad dataset policy: CC0"
+    },
+    {
+      "slug": "dryad_aoslo_rpe",
+      "source": "https://doi.org/10.5061/dryad.b41j15h",
+      "sample_unit": "One eye from 10 participants",
+      "license_evidence": "Dryad dataset policy: CC0"
+    },
+    {
+      "slug": "dryad_uveal_melanoma_coog2",
+      "source": "https://doi.org/10.5061/dryad.n8pk0p340",
+      "sample_unit": "1,577 participants",
+      "license_evidence": "Dryad dataset policy: CC0"
+    },
+    {
+      "slug": "gaze_capture",
+      "source": "https://gazecapture.csail.mit.edu/dataset.php",
+      "evidence": "https://arxiv.org/abs/1606.05814",
+      "sample_unit": "2,445,504 frames from 1,474 participants",
+      "license_evidence": "Official access requires registration; no standard license was visible, so classified unknown"
+    },
+    {
+      "slug": "gaze360",
+      "source": "https://gaze360.csail.mit.edu/",
+      "evidence": "https://arxiv.org/abs/1910.10088",
+      "sample_unit": "172,000 labeled frames from 238 participants",
+      "license_evidence": "Official access requires registration; no standard license was visible, so classified unknown"
+    },
+    {
+      "slug": "eth_xgaze",
+      "source": "https://ait.ethz.ch/xgaze",
+      "sample_unit": "1,083,492 high-resolution images from 110 participants",
+      "license_evidence": "Official project page: CC BY-NC-SA 4.0 with additional conditions"
+    },
+    {
+      "slug": "mpii_gaze",
+      "source": "https://www.mpi-inf.mpg.de/de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild",
+      "sample_unit": "213,659 images from 15 participants",
+      "license_evidence": "Institutional page: CC BY-NC-SA 4.0 and non-commercial scientific use"
+    },
+    {
+      "slug": "lpw",
+      "source": "https://www.mpi-inf.mpg.de/de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/labelled-pupils-in-the-wild-lpw/",
+      "sample_unit": "130,856 images in 66 videos from 22 participants",
+      "license_evidence": "Institutional page: non-commercial scientific use only"
+    },
+    {
+      "slug": "teyed",
+      "source": "https://arxiv.org/abs/2102.02115",
+      "sample_unit": "20,666,096 open- or closed-eye frames plus 200,977 no-eye frames",
+      "license_evidence": "Primary paper documents anonymous FTP but states no standard dataset license; classified unknown"
+    },
+    {
+      "slug": "casia_iris_v4",
+      "source": "https://hycasia.github.io/dataset/casia-irisv4/",
+      "sample_unit": "54,601 near-infrared or synthetic iris images",
+      "license_evidence": "A project documentation mirror describes the release as public domain; source access terms still apply"
+    },
+    {
+      "slug": "ubiris_v2",
+      "source": "https://iris.di.ubi.pt/index.html",
+      "evidence": "https://iris.di.ubi.pt/readmeUBIRISv2.pdf",
+      "sample_unit": "11,102 visible-light iris images from 261 participants",
+      "license_evidence": "The site does not state the newer UBIPr license for UBIRIS.v2; classified unknown"
+    },
+    {
+      "slug": "nd_iris_0405",
+      "source": "https://tsapps.nist.gov/BDbC/Search/Details/371",
+      "evidence": "https://arxiv.org/abs/1606.04853",
+      "sample_unit": "64,980 iris images from 356 participants",
+      "license_evidence": "Signed institutional data license and approval required; classified research-only"
+    }
+  ],
+  "corrected": [
+    {
+      "slug": "mmrdr",
+      "changes": [
+        "modality corrected from fundus to multimodal",
+        "source-reported count set to 24,460 images",
+        "repository size updated to 18.61 GB"
+      ],
+      "source": "https://doi.org/10.6084/m9.figshare.29423747.v2",
+      "evidence": "https://doi.org/10.1038/s41597-026-07005-9"
+    },
+    {
+      "slug": "octdl",
+      "changes": [
+        "canonical source corrected from the IEEE DataPort page to Mendeley Data version 4",
+        "download URL corrected to https://data.mendeley.com/datasets/sncdhf53xc/4",
+        "backend corrected from direct to mendeley and the downloader pinned to dataset sncdhf53xc version 4"
+      ],
+      "source": "https://data.mendeley.com/datasets/sncdhf53xc/4",
+      "evidence": "https://doi.org/10.17632/sncdhf53xc.4"
+    }
+  ],
+  "not_included": [
+    {
+      "candidate": "Macretina",
+      "decision": "pending_public_release",
+      "reason": "The paper says the dataset will be made public, but the working Figshare URL is still explicitly marked as a private share link; the claimed public article DOI returned no public API record on the search date.",
+      "evidence": "https://figshare.com/s/4dd5bd1c0816e08a664e"
+    },
+    {
+      "candidate": "GLEAM",
+      "decision": "pending_access_route",
+      "reason": "The manuscript describes a 1,200-sample tri-modal glaucoma dataset, but no stable public download, request, or repository route was found.",
+      "evidence": "https://arxiv.org/abs/2603.12800"
+    },
+    {
+      "candidate": "ScLNet scleral dataset",
+      "decision": "pending_complete_release",
+      "reason": "The linked public repository exposed only example images during verification, not the complete dataset described by the paper.",
+      "evidence": "https://github.com/smallJude/ScLNet"
+    },
+    {
+      "candidate": "LMOD",
+      "decision": "superseded",
+      "reason": "LMOD+ provides the documented downloadable successor, expands the original benchmark by about 50 percent, and preserves a distinct public access route; counting both would add avoidable derivative duplication.",
+      "evidence": "https://aclanthology.org/2025.findings-naacl.135/"
+    },
+    {
+      "candidate": "OpenEDS and OpenEDS2020",
+      "decision": "pending_current_access_route",
+      "reason": "The primary papers document request-based release pages, but all tested Meta/Facebook Research dataset URLs now redirect to the generic Research homepage. Stable papers alone are not a current data-access route.",
+      "evidence": "https://arxiv.org/abs/1905.03702; https://arxiv.org/abs/2005.03876"
+    },
+    {
+      "candidate": "Additional gaze benchmarks (CAVE/Columbia Gaze, EYEDIAP, TabletGaze, UT Multiview, RT-GENE, EVE, NVGaze, SynthesEyes, and UnityEyes)",
+      "decision": "deferred_full_adjudication",
+      "reason": "These established candidates were identified during the bounded sentinel sweep but were not promoted without completing one-by-one primary-source, current-access, overlap, sample-unit, and license verification.",
+      "evidence": "Candidate family retained for the next systematic gaze-dataset pass"
+    },
+    {
+      "candidate": "Additional iris and periocular benchmarks (IITD, MICHE-I, UPOL, MMU, Warsaw BioBase, and LivDet-Iris)",
+      "decision": "deferred_full_adjudication",
+      "reason": "These candidates require one-by-one confirmation of a current owner-controlled access route, version boundaries, and dataset-specific reuse terms before registry inclusion.",
+      "evidence": "Candidate family retained for the next systematic iris-dataset pass"
+    }
+  ]
+}

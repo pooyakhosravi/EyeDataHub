@@ -1,0 +1,137 @@
+---
+id: ichallenge_amd
+title: "iChallenge-AMD: Age-related Macular Degeneration"
+sidebar_label: ichallenge_amd
+description: "400 training fundus images with AMD classification (non-AMD vs AMD) and lesion annotations. Challenge dataset from ISBI 2020."
+tags: ["fundus", "research-only", "manual", "classification"]
+---
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# iChallenge-AMD: Age-related Macular Degeneration
+
+400 training fundus images with AMD classification (non-AMD vs AMD) and lesion annotations. Challenge dataset from ISBI 2020.
+
+## At a glance
+
+| Field | Value |
+| --- | --- |
+| **Short name** | `ichallenge_amd` |
+| **Full name** | iChallenge-AMD: Age-related Macular Degeneration |
+| **Primary category** | `fundus` |
+| **Contained modalities** | fundus |
+| **Tasks** | classification |
+| **Samples** | 400 |
+| **Classes** | 2 (Non-AMD, AMD) |
+| **Splits** | train, test |
+| **Size** | 1.5 GB |
+| **Source-stated terms** | Research only — requires registration |
+| **Normalized terms** | `research-only` |
+| **Descriptive screening label** | Research or challenge restriction recorded; check source |
+| **Terms scope** | `dataset_files` |
+| **Access friction** | `self_service_authenticated` |
+| **Route backend** | Manual (upstream-gated) |
+| **Availability** | `available` (checked 2026-07-21) |
+| **Acquisition support** | `guided_instructions_only` |
+| **Legacy sample-loader status** | Standard loader included |
+
+
+## Notes
+
+> Grand Challenge login is required:
+>   https://amd.grand-challenge.org/download/
+> The original Baidu BROAD portal has returned intermittent 5xx errors since 2024. Alternative partial resource:
+> - PaddleSeg optic-disc subset (~19 MB, direct HTTPS, no login): https://paddleseg.bj.bcebos.com/dataset/optic_disc_seg.zip
+> The full 1.5 GB dataset is only via Grand Challenge or the Baidu portal.
+
+## Access preflight and acquisition
+
+<Tabs>
+  <TabItem value="cli" label="CLI" default>
+
+```bash
+# Read-only preflight
+eyehub download ichallenge_amd --data-dir ./data --dry-run --json
+
+# Explicit transfer, only when preflight reports supported behavior
+eyehub download ichallenge_amd --data-dir ./data
+```
+
+  </TabItem>
+  <TabItem value="python" label="Python">
+
+```python
+from eyedatahub.acquisition import preflight_dataset
+from eyedatahub.datasets.registry import REGISTRY
+
+ds = REGISTRY.get_dataset('ichallenge_amd')
+print(preflight_dataset(ds, './data'))  # no transfer
+```
+
+  </TabItem>
+</Tabs>
+
+**Upstream page:** [amd.grand-challenge.org/download](https://amd.grand-challenge.org/download/)
+
+**Source-term evidence:** [amd.grand-challenge.org/download](https://amd.grand-challenge.org/download/)
+
+## Loader example
+
+This entry includes a standard `DatasetSample` loader.
+
+```python
+from pathlib import Path
+from eyedatahub.datasets.registry import REGISTRY
+
+data_dir = Path('~/.eyedatahub/data').expanduser()
+ds = REGISTRY.get_dataset('ichallenge_amd')
+samples = ds.load(data_dir, split='test')
+for s in samples[:5]:
+    print(s.sample_id, s.label, s.image_path)
+```
+
+## Citation
+
+<Tabs>
+  <TabItem value="bibtex" label="BibTeX" default>
+
+```bibtex
+@misc{ichallenge_amd,
+  title  = { iChallenge-AMD: Age-related Macular Degeneration },
+  note   = { Fu et al., 'Age-Related Macular Degeneration and Pathologic Myopia Fundus Image Analysis Challenge', ISBI 2020 },
+  year   = { 2020 },
+  url    = { https://amd.grand-challenge.org/download/ },
+}
+```
+
+  </TabItem>
+  <TabItem value="apa" label="Plain text">
+
+```text
+Fu et al., 'Age-Related Macular Degeneration and Pathologic Myopia Fundus Image Analysis Challenge', ISBI 2020.
+```
+
+  </TabItem>
+</Tabs>
+
+## Source-stated terms
+
+- **Raw source string:** Research only — requires registration
+- **Normalized category:** `research-only`
+- **Apparent scope:** `dataset_files`
+- **Descriptive screening label:** Research or challenge restriction recorded; check source
+
+> :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
+
+## Related datasets with shared modalities
+
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)

@@ -1,0 +1,15 @@
+# Aider config for EyeDataHub.
+# https://aider.chat/docs/config/aider_conf.html
+
+# Read the canonical agent guide + LLM entry points on every session.
+read:
+  - CLAUDE.md
+  - AGENTS.md
+  - llms.txt
+  - CONTRIBUTING.md
+
+# Do not include large auto-generated docs in default context.
+watch-files: false
+
+# Fenced code diffs preferred for structured reviews.
+edit-format: diff

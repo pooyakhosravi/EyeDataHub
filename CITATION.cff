@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use EyeDataHub in your research, please cite the software record and each dataset used."
+title: "EyeDataHub: a command-line tool for finding and accessing ophthalmology datasets"
+abstract: >
+  EyeDataHub is a versioned, community-extensible, source-term- and
+  access-aware command-line tool backed by a manually curated snapshot of 251
+  ophthalmology data resources across 18 primary categories. It supports
+  discovery, inspection, separate dataset and article citations, acquisition
+  preflight, and transfer from supported official sources. It does not host or
+  redistribute the indexed third-party datasets, accept agreements for users,
+  provide legal advice, or establish scientific suitability.
+type: software
+authors:
+  - given-names: "Pooya"
+    family-names: "Khosravi"
+    name-suffix: "MS"
+    email: "pooya32kh@gmail.com"
+    affiliation: "Department of Computer Science, UC Irvine; Department of Ophthalmology and Visual Sciences, UC Irvine School of Medicine; Brunson Center for Translational Vision Research, UC Irvine"
+  - given-names: "Parsa"
+    family-names: "Riazi Esfehani"
+    name-suffix: "BS"
+    affiliation: "Department of Ophthalmology and Visual Sciences, UC Irvine School of Medicine; Brunson Center for Translational Vision Research, UC Irvine; California University of Science and Medicine"
+  - given-names: "Andrew W."
+    family-names: "Browne"
+    name-suffix: "MD, PhD"
+    affiliation: "Department of Ophthalmology and Visual Sciences, UC Irvine School of Medicine; Brunson Center for Translational Vision Research, UC Irvine; Department of Biomedical Engineering, UC Irvine Henry Samueli School of Engineering"
+  - given-names: "Xiaohui"
+    family-names: "Xie"
+    name-suffix: "PhD"
+    affiliation: "Department of Computer Science, UC Irvine Donald Bren School of Information and Computer Sciences"
+repository-code: "https://github.com/pooyakhosravi/EyeDataHub"
+url: "https://khosravipooya.com/EyeDataHub/"
+license: MIT
+version: "0.2.2"
+date-released: "2026-07-25"
+doi: "10.5281/zenodo.21614657"
+keywords:
+  - ophthalmology
+  - retinal imaging
+  - dataset catalog
+  - software
+  - reproducibility
+  - licensing
+  - machine readable metadata
+  - data access

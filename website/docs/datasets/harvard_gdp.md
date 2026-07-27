@@ -1,0 +1,129 @@
+---
+id: harvard_gdp
+title: "Harvard GDP: Glaucoma Detection and Progression Dataset"
+sidebar_label: harvard_gdp
+description: "1,000 patients with OCT RNFLT maps (225×225), visual field measurements, and demographics for glaucoma detection (binary) and longitudinal progression forecasting (6 definitions). First public glaucom"
+tags: ["oct", "visual_field", "tabular", "cc-by-nc-nd", "gdrive", "classification", "progression"]
+---
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Harvard GDP: Glaucoma Detection and Progression Dataset
+
+1,000 patients with OCT RNFLT maps (225×225), visual field measurements, and demographics for glaucoma detection (binary) and longitudinal progression forecasting (6 definitions). First public glaucoma progression dataset from Harvard Ophthalmology AI Lab.
+
+## At a glance
+
+| Field | Value |
+| --- | --- |
+| **Short name** | `harvard_gdp` |
+| **Full name** | Harvard GDP: Glaucoma Detection and Progression Dataset |
+| **Primary category** | `oct` |
+| **Contained modalities** | oct, visual_field, tabular |
+| **Tasks** | classification, progression |
+| **Samples** | 1,000 |
+| **Classes** | 2 (Non-Glaucoma, Glaucoma) |
+| **Splits** | train, val, test |
+| **Size** | 2.0 GB |
+| **Source-stated terms** | CC BY-NC-ND 4.0 |
+| **Normalized terms** | `cc-by-nc-nd` |
+| **Descriptive screening label** | Explicit noncommercial clause recorded; check source |
+| **Terms scope** | `dataset_files` |
+| **Access friction** | `anonymous_direct` |
+| **Route backend** | Google Drive |
+| **Availability** | `available` (checked 2026-07-21) |
+| **Acquisition support** | `guided_instructions_only` |
+| **Legacy sample-loader status** | Standard loader included |
+
+
+## Access preflight and acquisition
+
+<Tabs>
+  <TabItem value="cli" label="CLI" default>
+
+```bash
+# Read-only preflight
+eyehub download harvard_gdp --data-dir ./data --dry-run --json
+
+# Explicit transfer, only when preflight reports supported behavior
+eyehub download harvard_gdp --data-dir ./data
+```
+
+  </TabItem>
+  <TabItem value="python" label="Python">
+
+```python
+from eyedatahub.acquisition import preflight_dataset
+from eyedatahub.datasets.registry import REGISTRY
+
+ds = REGISTRY.get_dataset('harvard_gdp')
+print(preflight_dataset(ds, './data'))  # no transfer
+```
+
+  </TabItem>
+</Tabs>
+
+**Upstream page:** [drive.google.com/drive](https://drive.google.com/drive/folders/1JMi_HCql113uc9X0DOaMkNfEWfxaDlEz)
+
+**Source-term evidence:** [drive.google.com/drive](https://drive.google.com/drive/folders/1JMi_HCql113uc9X0DOaMkNfEWfxaDlEz)
+
+## Loader example
+
+This entry includes a standard `DatasetSample` loader.
+
+```python
+from pathlib import Path
+from eyedatahub.datasets.registry import REGISTRY
+
+data_dir = Path('~/.eyedatahub/data').expanduser()
+ds = REGISTRY.get_dataset('harvard_gdp')
+samples = ds.load(data_dir, split='test')
+for s in samples[:5]:
+    print(s.sample_id, s.label, s.image_path)
+```
+
+## Citation
+
+<Tabs>
+  <TabItem value="bibtex" label="BibTeX" default>
+
+```bibtex
+@misc{harvard_gdp,
+  title  = { Harvard GDP: Glaucoma Detection and Progression Dataset },
+  note   = { Luo Z et al., 'Glaucoma Progression Prediction Using Retinal Thickness via Deep Learning', arXiv 2308.13411, 2023. https://github.com/Harvard-Ophthalmology-AI-Lab/Harvard-GDP },
+  year   = { 2023 },
+  url    = { https://drive.google.com/drive/folders/1JMi_HCql113uc9X0DOaMkNfEWfxaDlEz },
+}
+```
+
+  </TabItem>
+  <TabItem value="apa" label="Plain text">
+
+```text
+Luo Z et al., 'Glaucoma Progression Prediction Using Retinal Thickness via Deep Learning', arXiv 2308.13411, 2023. https://github.com/Harvard-Ophthalmology-AI-Lab/Harvard-GDP
+```
+
+  </TabItem>
+</Tabs>
+
+## Source-stated terms
+
+- **Raw source string:** CC BY-NC-ND 4.0
+- **Normalized category:** `cc-by-nc-nd`
+- **Apparent scope:** `dataset_files`
+- **Descriptive screening label:** Explicit noncommercial clause recorded; check source
+
+> :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
+
+## Related datasets with shared modalities
+
+- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 records, `cc0`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 records, `cc-by`)
+- [dryad_namd_oct_quant](./dryad_namd_oct_quant.md): Moorfields nAMD Quantitative OCT Biomarker Dataset (2,966 records, `cc0`)
+- [dryad_namd_visual_prediction](./dryad_namd_visual_prediction.md): Moorfields nAMD Visual-Change Prediction Dataset (926 records, `cc0`)
+- [dryad_glaucoma_rnfl_vf](./dryad_glaucoma_rnfl_vf.md): RNFL and Visual-Field Glaucoma Diagnosis Dataset (499 records, `cc0`)
+- [stage_task1](./stage_task1.md): STAGE 2023 Task 1 — Mean Deviation Prediction from OCT (400 records, `research-only`)
+- [stage_task2](./stage_task2.md): STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction (400 records, `research-only`)

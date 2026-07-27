@@ -1,0 +1,39 @@
+# Cursor rules for EyeDataHub
+
+Read these files in order before making changes:
+
+1. `CLAUDE.md` — canonical agent guide (intent, layout, conventions).
+2. `CONTRIBUTING.md` — human-facing PR workflow that agent PRs must
+   match, especially the license-verification checklist.
+3. `llms.txt` — repo-level LLM-discovery entry points.
+4. `.claude/skills/` — modular skills for the four most-common workflows
+   (add-dataset, benchmark-model, license-filter, build-hf-subset).
+
+Rules of thumb:
+
+- Do not guess licenses. Every dataset PR must carry the license label
+  from the original source page, not a Kaggle re-upload.
+- Do not add top-level dependencies. Optional features go in
+  `pyproject.toml::[project.optional-dependencies]`.
+- Do not run `eyehub download --datasets all` during exploration —
+  ~2.5 TB.
+- Do not modify existing dataset entries in `configs/datasets.yaml`
+  unless the change is verified against the upstream source page.
+- Prefer editing existing files to creating new ones.
+- Programmatic access to the registry:
+    from eyedatahub.datasets.registry import REGISTRY
+    ds = REGISTRY.get_dataset('brset')
+    ds.info.modality, ds.info.license_family, ds.info.download_type
+
+Structured output for scripts / agents:
+
+- `eyehub list datasets --json` — machine-readable catalog.
+- `eyehub show <name> --json` — machine-readable single-dataset.
+- `eyehub show <name> --copy {cli,python,bibtex,apa,url}` — one
+  snippet only, pipe-friendly.
+- `python -m eyedatahub.agent.mcp_server` — stdio MCP JSON-RPC server.
+
+Windows notes:
+
+- PowerShell 5.1: `&&` and `||` are not available. Use `;` or
+  `if ($?) { ... }`. Environment variables: `$env:VAR`, not `$VAR`.

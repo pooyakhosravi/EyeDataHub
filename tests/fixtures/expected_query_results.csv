@@ -1,0 +1,6 @@
+case_id,query,modalities,tasks,access_friction,acquisition_support,expected_record_ids
+oct_multitask,,oct,segmentation|classification,,,amd_dme_3d_oct|duke_rpedc|gamma|goals|grape|hassan_composite_retina|ichallenge_oct|oct5k|rvo_me|syn_oct
+unavailable_routes,,,,unavailable,,
+complete_transfer_evidence,,,,,end_to_end_tested,ophthalwechat
+punctuation_and_case,OphthalWeChat,,,,,ophthalwechat
+empty_result,definitely-not-a-catalog-record,,,,,

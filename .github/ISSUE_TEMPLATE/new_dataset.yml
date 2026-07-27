@@ -1,0 +1,259 @@
+name: New dataset
+description: Propose a new ophthalmic or eye-related catalog record for EyeDataHub
+title: "[dataset] <short-name>"
+labels: ["dataset", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a dataset. Please fill in what you know. Fields
+        use `unknown` when evidence is insufficient. Source terms, access
+        requirements, identifiers, relationships, and verification evidence
+        help maintainers review the proposal.
+
+        Before submitting, please check for duplicates with:
+
+        ```bash
+        eyehub search --json
+        eyehub show <possible_slug> --json
+        ```
+
+        The full contribution workflow is in `CONTRIBUTING.md`. Agent assisted
+        PRs can also use `.claude/skills/add-dataset/NEW_DATASET_PR_TEMPLATE.md`.
+
+  - type: input
+    id: short_name
+    attributes:
+      label: Short name
+      description: "Proposed snake_case catalog identifier, e.g. `airogs`, `kermany_oct`."
+      placeholder: my_dataset
+    validations:
+      required: true
+
+  - type: input
+    id: full_name
+    attributes:
+      label: Full name and year
+      placeholder: "EXAMPLE-DR: Example Diabetic Retinopathy Dataset (2025)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: modality
+    attributes:
+      label: Modality
+      options:
+        - fundus
+        - oct
+        - octa
+        - uwf_fundus
+        - visual_field
+        - confocal
+        - surgical_video
+        - multimodal
+        - text
+        - tabular
+        - eye_tracking
+        - electrophysiology
+        - corneal_topography
+        - adaptive_optics
+        - cell_microscopy
+        - external_eye
+        - iris_biometrics
+        - omics
+        - other (explain in Notes)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tasks
+    attributes:
+      label: Tasks
+      options:
+        - label: classification
+        - label: grading
+        - label: segmentation
+        - label: multilabel
+        - label: regression
+        - label: progression
+        - label: quality
+        - label: registration
+        - label: detection
+        - label: evaluation
+        - label: fairness_analysis
+        - label: gaze_estimation
+        - label: landmark_detection
+        - label: measurement
+        - label: prognosis
+        - label: pupil_detection
+        - label: question_answering
+        - label: reasoning
+        - label: report_generation
+        - label: retrieval
+        - label: surgical_workflow
+        - label: text_generation
+        - label: visual_question_answering
+        - label: other (explain in Notes)
+
+  - type: input
+    id: samples
+    attributes:
+      label: Sample count
+      description: "Use the unit reported by the source, e.g. images, volumes, eyes, patients, videos, questions."
+      placeholder: "e.g. 1500 images, 200 patients"
+
+  - type: input
+    id: size_gb
+    attributes:
+      label: Download size (GB)
+      placeholder: "e.g. 2.5"
+
+  - type: input
+    id: license
+    attributes:
+      label: Source-stated terms
+      description: "Exact text from the official source, e.g. `CC BY 4.0`, `Research only`, `Unknown`."
+      placeholder: "CC BY 4.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: terms_scope
+    attributes:
+      label: Terms scope
+      options:
+        - dataset files
+        - metadata or index files
+        - code
+        - associated publication
+        - challenge participation
+        - mixed components
+        - unknown
+    validations:
+      required: true
+
+  - type: input
+    id: terms_evidence_url
+    attributes:
+      label: Terms evidence URL
+      description: "Page or file that states the recorded terms and their scope."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: access_friction
+    attributes:
+      label: Access-friction category
+      options:
+        - anonymous_direct
+        - self_service_authenticated
+        - self_service_clickthrough
+        - controlled_or_manual
+        - author_contact
+        - model_to_data_or_secure_environment
+        - unavailable
+        - unverified
+    validations:
+      required: true
+
+  - type: textarea
+    id: access_flags
+    attributes:
+      label: Access requirements
+      description: "State true, false, or unknown for registration, authentication, API token, click-through, manual approval, data-use agreement, author contact, payment, and geographic/institutional restriction."
+      placeholder: "registration=true; authentication=true; api_token=false; clickthrough=unknown; manual_approval=false; data_use_agreement=false; author_contact=false; payment=false; geographic_or_institutional_restriction=none"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: download_type
+    attributes:
+      label: Access or download backend
+      options:
+        - direct
+        - kaggle
+        - huggingface
+        - zenodo
+        - mendeley
+        - figshare
+        - dryad
+        - dataverse
+        - physionet
+        - gdrive
+        - synapse
+        - github
+        - manual
+        - other (explain in Notes)
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Official source URL
+      description: "Prefer the original dataset page, DOI record, institutional page, challenge page, or repository."
+      placeholder: "https://doi.org/10.xxxx/example"
+    validations:
+      required: true
+
+  - type: input
+    id: citation
+    attributes:
+      label: Citation
+      placeholder: "Author et al. Title. Journal or venue. Year. DOI: 10.xxxx/xxxxx"
+
+  - type: textarea
+    id: identifiers
+    attributes:
+      label: Typed identifiers
+      description: "List dataset DOI/accession/repository ID, associated-publication DOI, software DOI, and challenge ID separately; do not use a publication DOI as a dataset DOI."
+
+  - type: input
+    id: verification_date
+    attributes:
+      label: Verification date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: textarea
+    id: acquisition_support
+    attributes:
+      label: Loader or official instructions
+      description: "Record the backend, supported command or instructions, verification level, test scope/result, and limitations."
+
+  - type: dropdown
+    id: provenance_type
+    attributes:
+      label: Provenance type
+      options:
+        - original dataset
+        - mirror of existing dataset
+        - derivative annotation layer
+        - composite of existing datasets
+        - benchmark split or challenge packaging
+        - unsure
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: |
+        Include modality and task evidence, count and unit evidence, access
+        limitations, duplicate/derivation/version/overlap relationships,
+        split information, data format, and any planned PR timeline.
+      placeholder: "Requires accepting source terms on the institutional page; bundle is one zip containing nested DICOMs."
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues and the `eyehub search --json` output for duplicates and relationships.
+          required: true
+        - label: I represented access restrictions and unknowns explicitly and did not describe a manual, controlled, paid, unavailable, or unverified route as self-service.
+          required: true
+        - label: I checked source-stated terms and scope against official evidence rather than inferring them from a mirror, paper, website, or code license.
+          required: true

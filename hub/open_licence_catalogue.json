@@ -1,0 +1,5442 @@
+[
+  {
+    "name": "dryad_aoslo_rpe",
+    "full_name": "AOSLO RPE Cell Morphometry and Cone Mosaic Dataset",
+    "modality": "adaptive_optics",
+    "tasks": [
+      "segmentation",
+      "measurement"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 10,
+    "size_gb": 0.084,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.b41j15h",
+    "citation": "Human retinal pigment epithelium: in vivo cell morphometry, multispectral autofluorescence, and relationship to cone mosaic. Dryad. 2019. doi:10.5061/dryad.b41j15h",
+    "tags": [
+      "dryad",
+      "adaptive_optics",
+      "aoslo",
+      "rpe",
+      "cone_mosaic",
+      "autofluorescence"
+    ],
+    "notes": "Contains one-eye data from 10 normal participants for short-wave autofluorescence and photoreceptor reflectance; infrared autofluorescence is available for seven participants with overlap.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "goblet_cell_segmentation",
+    "full_name": "Human Conjunctival Goblet Cell Segmentation Dataset",
+    "modality": "cell_microscopy",
+    "tasks": [
+      "segmentation",
+      "counting"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 24,
+    "size_gb": 0.514,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://doi.org/10.5281/zenodo.18642562",
+    "citation": "Fineide FA, Bair J, Utheim TP, Riegler MA, Dartt DA. Development of Human Conjunctival Goblet Cell Segmentation Datasets to Improve Quantitation. Scientific Data. 2026. doi:10.1038/s41597-026-07309-w",
+    "tags": [
+      "conjunctiva",
+      "goblet_cells",
+      "phase_contrast",
+      "cell_microscopy",
+      "instance_segmentation",
+      "zenodo"
+    ],
+    "notes": "The independent unit is 24 unpatched 2048x1536 fields with 65,108 cell instances. The release also contains 1,152 derivative 256x256 patches (75,597 counted instances because boundary cells can recur).",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "corn_collection",
+    "full_name": "CORN: Corneal Confocal Microscope Dataset Collection",
+    "modality": "confocal",
+    "tasks": [
+      "segmentation",
+      "grading",
+      "classification",
+      "quality"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": null,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "Creative Commons Attribution 4.0 International",
+    "license_family": "cc-by",
+    "download_type": "manual",
+    "download_url": "https://zenodo.org/records/19689814",
+    "citation": "iMED. CORN: corneal confocal microscope dataset. Zenodo, Version v2, 2026. doi:10.5281/zenodo.19689814",
+    "tags": [
+      "confocal",
+      "cornea",
+      "corneal_nerve",
+      "langerhans_cells",
+      "stromal_cells",
+      "segmentation",
+      "tortuosity",
+      "grading",
+      "restricted"
+    ],
+    "notes": "The Zenodo record is publicly visible, but its files require a logged-in access request containing the user's name, organization, work, and intended use. EyeDataHub displays those instructions and does not submit the request. This collection includes and overlaps the separately indexed CORN-1500 and CORN-Pro records; its six subsets must not be counted as independent cohorts.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "corn_pro",
+    "full_name": "CORN Pro: Corneal Nerve Confocal Microscopy Dataset",
+    "modality": "confocal",
+    "tasks": [
+      "segmentation",
+      "grading",
+      "classification"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 688,
+    "size_gb": 0.5,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "manual",
+    "download_url": "https://zenodo.org/records/14263883",
+    "citation": "CORN database (https://imed.nimte.ac.cn/CORN.html). Zenodo record 14263883: https://zenodo.org/records/14263883",
+    "tags": [
+      "confocal",
+      "cornea",
+      "nerve",
+      "segmentation",
+      "grading",
+      "ivcm"
+    ],
+    "notes": "Restricted access. Steps to obtain:\n  1. Create a free account at https://zenodo.org\n  2. Visit https://zenodo.org/records/14263883\n  3. Click 'Request access' with affiliation & purpose\nFull CORN database: https://imed.nimte.ac.cn/CORN.html",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "corneal_epithelium_confocal",
+    "full_name": "Keratoconus Corneal Epithelium Confocal Fluorescence Dataset",
+    "modality": "confocal",
+    "tasks": [
+      "classification",
+      "segmentation"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 7,
+    "size_gb": 0.1,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/n3gky25brh/2",
+    "citation": "Keratoconus corneal epithelium confocal fluorescence dataset. Mendeley Data, V2, 2025. doi:10.17632/n3gky25brh.2",
+    "tags": [
+      "mendeley",
+      "confocal",
+      "cornea",
+      "keratoconus"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "cornorb",
+    "full_name": "CornOrb: Orbscan Corneal Topography and Clinical Annotations",
+    "modality": "corneal_topography",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 1454,
+    "size_gb": 0.68,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/20542091",
+    "citation": "CornOrb: A Multimodal Dataset of Orbscan Corneal Topography and Clinical Annotations for Keratoconus Detection. Zenodo, 2026. doi:10.5281/zenodo.20542091",
+    "tags": [
+      "zenodo",
+      "cornea",
+      "keratoconus",
+      "topography",
+      "algeria"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "leops_erg",
+    "full_name": "LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset",
+    "modality": "electrophysiology",
+    "tasks": [
+      "classification",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": 9743,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/w3yx7hdds7/1",
+    "citation": "Constable P, Thompson D, Lee I, Loh L, Zhdanov A, Kulyabin M, Maier A. Light-Adapted Electroretinogram and Oscillatory Potentials (LEOPs) Dataset for Autism Spectrum Disorder and Typically Developing Individuals. Mendeley Data, V1, 2026. doi:10.17632/w3yx7hdds7.1",
+    "tags": [
+      "mendeley",
+      "electrophysiology",
+      "erg",
+      "retina",
+      "pediatric",
+      "waveforms"
+    ],
+    "notes": "Source reports 5,309 averaged ERG waveforms, 4,434 OP waveforms, 253 participant JSON files, and 558 electrode-position eye images.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "perg_ioba",
+    "full_name": "PERG-IOBA Ocular Electrophysiology Dataset",
+    "modality": "electrophysiology",
+    "tasks": [
+      "classification",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": 1354,
+    "size_gb": 0.1,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "ODC-BY 1.0 (Open Data Commons Attribution)",
+    "license_family": "odc-by",
+    "download_type": "physionet",
+    "download_url": "https://physionet.org/content/perg-ioba-dataset/1.0.0/",
+    "citation": "The PERG-IOBA Dataset. PhysioNet, 2024. doi:10.13026/d24m-w054",
+    "tags": [
+      "physionet",
+      "perg",
+      "electrophysiology",
+      "glaucoma"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "external_eye_blepharitis",
+    "full_name": "External Eye Photographs for Screening Referable Blepharitis",
+    "modality": "external_eye",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": null,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/bp37vw4z8d/1",
+    "citation": "Yoo T. External Eye Photographs for Screening Referable Blepharitis. Mendeley Data, V1, 2025. doi:10.17632/bp37vw4z8d.1",
+    "tags": [
+      "mendeley",
+      "external_eye",
+      "eyelid",
+      "blepharitis",
+      "classification"
+    ],
+    "notes": "Web-sourced external photographs; verify source provenance before clinical validation or redistribution.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "eye_conjunctiva_segmentation",
+    "full_name": "Eye Conjunctiva Segmentation Dataset",
+    "modality": "external_eye",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 547,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/yxwjgcndg2/1",
+    "citation": "Rahman MM, Faruk O, Ullah SSA, Alam MJ, Sadman SMS. Eye Conjunctiva Segmentation Dataset. Mendeley Data, V1, 2023. doi:10.17632/yxwjgcndg2.1",
+    "tags": [
+      "mendeley",
+      "external_eye",
+      "conjunctiva",
+      "segmentation",
+      "smartphone"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "periorbital_segmentation",
+    "full_name": "Open-Source Periorbital Segmentation Dataset",
+    "modality": "external_eye",
+    "tasks": [
+      "segmentation",
+      "measurement"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 2842,
+    "size_gb": 0.19,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://doi.org/10.5281/zenodo.13916845",
+    "citation": "Nahass GR, Koehler E, Tomaras N, et al. Open-Source Periorbital Segmentation Dataset for Ophthalmic Applications. Ophthalmology Science. 2025;5:100757. doi:10.1016/j.xops.2025.100757",
+    "tags": [
+      "external_eye",
+      "periorbital",
+      "iris",
+      "sclera",
+      "eyelid",
+      "multi_annotator",
+      "derived",
+      "zenodo"
+    ],
+    "notes": "Five annotators labeled crops derived from the Chicago Face Database and CelebAMask-HQ. The Zenodo record is CC BY 4.0, but users should also verify the terms of both upstream face datasets.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "popeye_nir",
+    "full_name": "PopEYE Infrared Ocular Image Dataset",
+    "modality": "external_eye",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 14976,
+    "size_gb": 3.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/18430187",
+    "citation": "Gibertoni G, Borghi G, Rovati L. PopEYE - Infrared Ocular Image Dataset for Eye State and Gaze-Direction Classification. Zenodo, 2026. doi:10.5281/zenodo.18430187",
+    "tags": [
+      "zenodo",
+      "external_eye",
+      "nir",
+      "eye_state",
+      "gaze",
+      "pupillometry"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "thyroid_ophthalmopathy_external",
+    "full_name": "Thyroid Ophthalmopathy External Ocular Images",
+    "modality": "external_eye",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": null,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/z7ys7r4bdn/2",
+    "citation": "Yoo T. Thyriod ophthalmopathy - external ocular images. Mendeley Data, V2, 2024. doi:10.17632/z7ys7r4bdn.2",
+    "tags": [
+      "mendeley",
+      "external_eye",
+      "thyroid_eye_disease",
+      "ophthalmopathy",
+      "classification"
+    ],
+    "notes": "Source title spells thyroid as 'Thyriod'. Web-sourced photographs; verify image provenance before clinical validation or redistribution.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "glaucoma_eye_movements",
+    "full_name": "Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss",
+    "modality": "eye_tracking",
+    "tasks": [
+      "regression",
+      "classification"
+    ],
+    "task_category": "regression",
+    "num_samples": 270,
+    "size_gb": 0.1,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/7761477",
+    "citation": "Data on eye movements of glaucoma patients with asymmetrical visual field loss during free viewing. Zenodo, 2023. doi:10.5281/zenodo.7761477",
+    "tags": [
+      "zenodo",
+      "eye_tracking",
+      "glaucoma",
+      "visual_field"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "acrima",
+    "full_name": "ACRIMA: Glaucoma Optic Disc Fundus Database",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 705,
+    "size_gb": 0.5,
+    "splits": [
+      "train"
+    ],
+    "num_classes": 2,
+    "classes": [
+      "Normal",
+      "Glaucoma"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://figshare.com/s/c2d31f850af14c5b5232",
+    "citation": "Diaz-Pinto et al., 'Retinal Image Synthesis and Semi-Supervised Learning for Glaucoma Assessment', IEEE TMI 2019. Data: https://figshare.com/s/c2d31f850af14c5b5232",
+    "tags": [
+      "glaucoma",
+      "fundus",
+      "figshare",
+      "classification",
+      "optic_disc"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "afio_fundus_vessels",
+    "full_name": "AFIO Fundus Images for Vessel Segmentation and Disease Annotation",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation",
+      "classification"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 100,
+    "size_gb": 0.2,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/3csr652p9y/2",
+    "citation": "Akram MU et al. Data on Fundus Images for Vessels Segmentation, Detection of Hypertensive Retinopathy, Diabetic Retinopathy and Papilledema. Mendeley Data, V2, 2019. doi:10.17632/3csr652p9y.2",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "vessels",
+      "papilledema",
+      "pakistan"
+    ],
+    "notes": "Mendeley Data may block automated URL probes with HTTP 403 (no bot allowed); browser link is valid.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "agar300",
+    "full_name": "AGAR300 Microaneurysm Fundus Image Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "lesion_detection"
+    ],
+    "task_category": "classification",
+    "num_samples": 28,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 1,
+    "classes": [
+      "microaneurysm"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "manual",
+    "download_url": "https://ieee-dataport.org/open-access/diabetic-retinopathy-fundus-image-datasetagar300",
+    "citation": "Derwin J, Shan P. Diabetic Retinopathy - Fundus Image Dataset (AGAR300). IEEE DataPort. 2020. doi:10.21227/fsnq-tn19",
+    "tags": [
+      "fundus",
+      "diabetic_retinopathy",
+      "microaneurysm",
+      "ieee_dataport"
+    ],
+    "notes": "The source paper describes a larger 300 image clinical collection. The DOI record states that the public first release contains 28 images. All released images contain microaneurysms, and the release does not include spatial annotations. An IEEE DataPort account may be required to download it.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "amdnet23",
+    "full_name": "AMDNet23 Fundus Image Dataset for AMD Detection",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 2000,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/yj35kjgrv3/1",
+    "citation": "Ali MA. AMDNet23: Fundus Image Dataset for Age-Related Macular Degeneration Disease Detection. Mendeley Data, V1, 2025. doi:10.17632/yj35kjgrv3.1",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "amd",
+      "diabetic_retinopathy",
+      "cataract",
+      "composite"
+    ],
+    "notes": "Composite/preprocessed dataset compiled from ODIR, DR_200, Fundus Dataset, RFMiD, HRF, and ARIA; avoid treating it as an independent primary cohort.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "aptos_arcade_onh_masks",
+    "full_name": "APTOS Vascular Arcade and Optic Nerve Head Masks",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 500,
+    "size_gb": 0.1,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "Apache-2.0",
+    "license_family": "apache",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/20711325",
+    "citation": "APTOS vascular arcade and optic nerve head masks. Zenodo, 2026. doi:10.5281/zenodo.20711325",
+    "tags": [
+      "zenodo",
+      "fundus",
+      "aptos",
+      "derivative",
+      "segmentation"
+    ],
+    "notes": "Derivative annotation layer for APTOS 2019; does not represent a new image cohort.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "bajwa_multi_eye",
+    "full_name": "Bajwa Hospital Multi Eye Disease Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 300,
+    "size_gb": 0.2,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/rgwpd4m785/3",
+    "citation": "Kaur P. Bajwa Hospital (Multi Eye Disease Dataset). Mendeley Data, V3, 2022. doi:10.17632/rgwpd4m785.3",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "cataract",
+      "glaucoma",
+      "multi_disease"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "bmrd",
+    "full_name": "Bangladesh Multi-Disease Retinal Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification",
+      "grading"
+    ],
+    "task_category": "grading",
+    "num_samples": 1786,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/959whsbc6v/1",
+    "citation": "Ema RR. Bangladesh Multi-Disease Retinal Dataset (BMRD). Mendeley Data, V1, 2025. doi:10.17632/959whsbc6v.1",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "diabetic_retinopathy",
+      "amd",
+      "glaucoma",
+      "bangladesh"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "chaksu",
+    "full_name": "CHAKSU: Multi-Device Glaucoma Fundus Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification",
+      "segmentation"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 1345,
+    "size_gb": 5.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 3,
+    "classes": [
+      "background",
+      "optic_disc",
+      "optic_cup"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.20123135",
+    "citation": "Kumar et al., 'CHAKSU: A glaucoma-specific fundus image database', Scientific Data 2023.",
+    "tags": [
+      "fundus",
+      "glaucoma",
+      "multi_device",
+      "optic_disc"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "chase_db1",
+    "full_name": "CHASE_DB1: Child Heart and Health Study in England",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 28,
+    "size_gb": 0.05,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "manual",
+    "download_url": "https://researchinnovation.kingston.ac.uk/en/datasets/chasedb1-retinal-vessel-reference-dataset-4/",
+    "citation": "Owen et al., 'Measuring retinal vessel tortuosity in 10-year-old children: validation of the computer-assisted image analysis of the retina (CAIAR) program', Invest Ophthalmol Vis Sci 2009. Data: https://researchinnovation.kingston.ac.uk/en/datasets/chasedb1-retinal-vessel-reference-dataset-4/; CHASE-AV reference: https://researchinnovation.kingston.ac.uk/en/datasets/chase-av-retinal-vessel-reference-dataset/",
+    "tags": [
+      "vessel_segmentation",
+      "fundus",
+      "pediatric"
+    ],
+    "notes": "Manual access only. Kingston landing pages: CHASE_DB1: https://researchinnovation.kingston.ac.uk/en/datasets/chasedb1-retinal-vessel-reference-dataset-4/; CHASE-AV: https://researchinnovation.kingston.ac.uk/en/datasets/chase-av-retinal-vessel-reference-dataset/",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "coph100",
+    "full_name": "COph100: Comprehensive Infant Fundus Image Registration Dataset (RIDIRP)",
+    "modality": "fundus",
+    "tasks": [
+      "regression",
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 982,
+    "size_gb": 1.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.27061084.v1",
+    "citation": "Hu Y, et al., 'COph100: A comprehensive fundus image registration dataset from infants constituting the RIDIRP database', Scientific Data 2025;12:99.",
+    "tags": [
+      "fundus",
+      "pediatric",
+      "rop",
+      "registration",
+      "infant",
+      "vessel"
+    ],
+    "notes": "Adds infant fundus registration; complements ROP classification datasets.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "corneal_curvature_fundus",
+    "full_name": "Corneal Curvature Prediction Using Fundus Photography",
+    "modality": "fundus",
+    "tasks": [
+      "classification",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": 150,
+    "size_gb": 0.1,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/bc2jfr7dv9/1",
+    "citation": "Corneal curvature prediction using fundus photography dataset. Mendeley Data, V1, 2022. doi:10.17632/bc2jfr7dv9.1",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "cornea",
+      "curvature"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "csc_fundus_segmentation",
+    "full_name": "Central Serous Chorioretinopathy Fundus Segmentation Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation",
+      "classification"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 287,
+    "size_gb": 0.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/4k64fwnp4k/5",
+    "citation": "Yang HK et al. Data for deep-learning-based segmentation of central serous chorioretinopathy in fundus photographs. Mendeley Data, V5, 2022. doi:10.17632/4k64fwnp4k.5",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "csc",
+      "segmentation",
+      "tvst"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "csdi",
+    "full_name": "CSDI: Cataract Severity Diagnostic Image Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "task_category": "grading",
+    "num_samples": 187,
+    "size_gb": 1.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "huggingface",
+    "download_url": "https://huggingface.co/datasets/RainyNight/CSDI",
+    "citation": "Scientific Data 2026. doi:10.1038/s41597-026-06684-8",
+    "tags": [
+      "fundus",
+      "cataract",
+      "severity",
+      "report_generation",
+      "mllm"
+    ],
+    "notes": "First public fundus dataset with paired professional cataract reports. Canonical Hugging Face repository: RainyNight/CSDI.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "ddr",
+    "full_name": "DDR: Diabetic Retinopathy Detection & Grading",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "task_category": "grading",
+    "num_samples": 12522,
+    "size_gb": 4.0,
+    "splits": [
+      "train",
+      "valid",
+      "test"
+    ],
+    "num_classes": 6,
+    "classes": [
+      "No DR",
+      "Mild",
+      "Moderate",
+      "Severe",
+      "Proliferative",
+      "Ungradable"
+    ],
+    "license": "MIT",
+    "license_family": "mit",
+    "download_type": "gdrive",
+    "download_url": "https://drive.google.com/drive/folders/1z6tSFmxW_aNayUqVxx6h6bY4kwGzUTEC",
+    "citation": "Li et al., 'Diagnostic Assessment of Deep Learning Algorithms for Diabetic Retinopathy Screening', Information Sciences 2019. Data: https://github.com/nkicsl/DDR-dataset — GDrive: https://drive.google.com/drive/folders/1z6tSFmxW_aNayUqVxx6h6bY4kwGzUTEC",
+    "tags": [
+      "diabetic_retinopathy",
+      "grading",
+      "fundus"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "deepdrid",
+    "full_name": "DeepDRiD: Diabetic Retinopathy Grading and Image Quality Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification",
+      "quality"
+    ],
+    "task_category": "grading",
+    "num_samples": 2256,
+    "size_gb": 3.0,
+    "splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "num_classes": 5,
+    "classes": [
+      "No DR",
+      "Mild NPDR",
+      "Moderate NPDR",
+      "Severe NPDR",
+      "Proliferative DR"
+    ],
+    "license": "CC BY-SA 4.0",
+    "license_family": "cc-by-sa",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/8248825",
+    "citation": "Liu R et al., 'DeepDRiD: Diabetic Retinopathy—Grading and Image Quality Estimation Challenge', Patterns 2022. Zenodo: https://zenodo.org/records/8248825",
+    "tags": [
+      "dr",
+      "fundus",
+      "uwf",
+      "zenodo",
+      "grading",
+      "quality"
+    ],
+    "notes": "Contains both regular fundus (2000 images in dual-field pairs) and ultra-widefield fundus (256 images). Labels CSV includes DR grade (0-4) and quality score.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "eye_disease_image_mendeley",
+    "full_name": "Eye Disease Image Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 5335,
+    "size_gb": 1.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/s9bfhswzjb/1",
+    "citation": "Eye Disease Image Dataset. Mendeley Data, V1, 2024. doi:10.17632/s9bfhswzjb.1",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "multi_disease",
+      "augmented"
+    ],
+    "notes": "Includes augmented images; use original subset for clinical validation.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "farfum_rop",
+    "full_name": "FARFUM-ROP: Fundus Annotation Repository for Retinopathy of Prematurity",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 1533,
+    "size_gb": 1.0,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 3,
+    "classes": [
+      "Normal",
+      "Pre-Plus",
+      "Plus"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.c.6721269",
+    "citation": "Riazi-Esfahani H et al., 'FARFUM-RoP: A dataset for machine learning-based plus disease diagnosis in retinopathy of prematurity', Scientific Data 2024. https://doi.org/10.6084/m9.figshare.c.6721269",
+    "tags": [
+      "rop",
+      "fundus",
+      "figshare",
+      "classification",
+      "pediatric"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "fimd",
+    "full_name": "Fundus Image Myopia Development Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "registration",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": 70,
+    "size_gb": 0.2,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/jkzsh6pcv4/1",
+    "citation": "Wang Z, Zou H, Guo Y, Guo S, Zhao X, Wang Y, Sun M. Fundus Image Myopia Development (FIMD) dataset. Mendeley Data, V1, 2023. doi:10.17632/jkzsh6pcv4.1",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "myopia",
+      "registration"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "fiqs",
+    "full_name": "FIQS: Fundus Image Quality Scores Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "quality",
+      "grading",
+      "regression"
+    ],
+    "task_category": "grading",
+    "num_samples": 2246,
+    "size_gb": 9.07,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 3,
+    "classes": [
+      "good",
+      "usable",
+      "reject"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.28129847.v1",
+    "citation": "Gong Z. FIQS Dataset (Fundus Image Quality Scores). Figshare. 2025. doi:10.6084/m9.figshare.28129847.v1",
+    "tags": [
+      "fundus",
+      "image_quality",
+      "grading",
+      "regression",
+      "figshare"
+    ],
+    "notes": "The deposit provides original resolution images, standardized 1024 by 1024 versions, aggregate scores, and individual grader scores.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "fives",
+    "full_name": "FIVES: Fundus Image Vessel Segmentation",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 800,
+    "size_gb": 1.1,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.19688169",
+    "citation": "Jin et al., 'FIVES: A Fundus Image Dataset for Artificial Intelligence based Vessel Segmentation', Scientific Data 2022.",
+    "tags": [
+      "vessel_segmentation",
+      "fundus",
+      "high_resolution"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "fundus_avseg",
+    "full_name": "Fundus-AVSeg: Artery-Vein-Crossing Segmentation",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 100,
+    "size_gb": 0.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 4,
+    "classes": [
+      "background",
+      "artery",
+      "vein",
+      "crossing"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.27938034",
+    "citation": "Fundus-AVSeg dataset, Figshare project 229986 (2025). Companion paper: Basit & Alam, 'AVSeg-XAI', BioData Mining, doi:10.1186/s13040-026-00573-x (2026). Sci. Data DOI 10.1038/s41597-025-05381-2 was the paper venue at time of indexing — verify at final publication.",
+    "tags": [
+      "fundus",
+      "vessel",
+      "artery",
+      "vein",
+      "crossing",
+      "segmentation"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "fundus_domain_generalization",
+    "full_name": "Fundus Dataset for Domain Generalization in Optic Disc/Cup Segmentation",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": null,
+    "size_gb": 0.62,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/8009107",
+    "citation": "A Fundus Image Dataset for Domain Generalization in Joint Segmentation of Optic Disc and Optic Cup. Zenodo, 2023. doi:10.5281/zenodo.8009107",
+    "tags": [
+      "zenodo",
+      "optic_disc",
+      "optic_cup",
+      "domain_generalization",
+      "derivative"
+    ],
+    "notes": "Composite of datasets already indexed separately; retained as a benchmark split/annotation resource.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "g1020",
+    "full_name": "G1020: Glaucoma Benchmark Fundus Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 1020,
+    "size_gb": 2.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 2,
+    "classes": [
+      "Non-glaucoma",
+      "Glaucoma"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "kaggle",
+    "download_url": "https://arxiv.org/abs/2006.09158",
+    "citation": "Bajwa et al., 'G1020: A Benchmark Retinal Fundus Image Dataset for Computer-Aided Glaucoma Detection', arXiv 2020.",
+    "tags": [
+      "glaucoma",
+      "classification",
+      "fundus"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "harvard_glaucoma",
+    "full_name": "Harvard Glaucoma Fundus Image Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 1000,
+    "size_gb": 1.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 2,
+    "classes": [
+      "Non-glaucoma",
+      "Glaucoma"
+    ],
+    "license": "CC0 1.0 (Public Domain)",
+    "license_family": "cc0",
+    "download_type": "direct",
+    "download_url": "https://doi.org/10.7910/DVN/1YRRAC",
+    "citation": "Luo X. et al., 'Harvard Glaucoma Detection and Progression Dataset', Harvard Dataverse, doi:10.7910/DVN/1YRRAC, 2023.",
+    "tags": [
+      "glaucoma",
+      "classification",
+      "fundus",
+      "harvard"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "hpmi",
+    "full_name": "HPMI: High & Pathological Myopia Identification",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 4011,
+    "size_gb": 2.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 2,
+    "classes": [
+      "high_myopia",
+      "pathological_myopia"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.24800232",
+    "citation": "Huang et al., 'HPMI: A retinal fundus image dataset for identification of high and pathological myopia based on deep learning', Figshare 2024. doi:10.6084/m9.figshare.24800232",
+    "tags": [
+      "fundus",
+      "myopia",
+      "high_myopia",
+      "pathological_myopia"
+    ],
+    "notes": "Complements EyeDataHub's PALM (pathological-myopia challenge).",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "hrf",
+    "full_name": "HRF: High-Resolution Fundus Image Database",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 45,
+    "size_gb": 0.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "manual",
+    "download_url": "https://www5.cs.fau.de/research/data/fundus-images/",
+    "citation": "Budai et al., 'Robust vessel segmentation in fundus images', Intl Journal of Biomedical Imaging 2013.",
+    "tags": [
+      "vessel_segmentation",
+      "fundus",
+      "high_resolution"
+    ],
+    "notes": "Requires manual download from FAU Erlangen-Nuremberg website.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "hrf_seg_plus",
+    "full_name": "HRF-Seg+: Multi-Structure Fundus Annotations",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 45,
+    "size_gb": 0.01,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/16744782",
+    "citation": "HRF-Seg+: A multi-structure annotated fundus image dataset. Zenodo, 2026. doi:10.5281/zenodo.16744782",
+    "tags": [
+      "zenodo",
+      "hrf",
+      "segmentation",
+      "derivative",
+      "optic_disc"
+    ],
+    "notes": "Derivative annotation layer for existing HRF images.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "hygd",
+    "full_name": "HYGD: Hillel Yaffe Glaucoma Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 747,
+    "size_gb": 1.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 2,
+    "classes": [
+      "non_glaucoma",
+      "glaucoma"
+    ],
+    "license": "ODC-BY 1.0 (Open Data Commons Attribution)",
+    "license_family": "odc-by",
+    "download_type": "physionet",
+    "download_url": "https://doi.org/10.13026/pdxv-m215",
+    "citation": "Hillel Yaffe Glaucoma Dataset, PhysioNet 2024 (v1.1.0). Labels gold-standardized via OCT + visual field. doi:10.13026/pdxv-m215",
+    "tags": [
+      "fundus",
+      "glaucoma",
+      "multimodal_confirmed",
+      "physionet"
+    ],
+    "notes": "Open-access (ODC-BY) — no PhysioNet credentialing required.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "idrid",
+    "full_name": "IDRiD: Indian Diabetic Retinopathy Image Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification",
+      "segmentation"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 516,
+    "size_gb": 2.5,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 5,
+    "classes": [
+      "Grade 0",
+      "Grade 1",
+      "Grade 2",
+      "Grade 3",
+      "Grade 4"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "manual",
+    "download_url": "https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid",
+    "citation": "Porwal et al., 'Indian diabetic retinopathy image dataset (IDRiD): A database for diabetic retinopathy screening research', Data 2018.",
+    "tags": [
+      "diabetic_retinopathy",
+      "grading",
+      "segmentation",
+      "fundus"
+    ],
+    "notes": "Requires IEEE DataPort account (free).",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "irfdrd",
+    "full_name": "Iraqi Retinal Fundus Diabetic Retinopathy Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification",
+      "grading"
+    ],
+    "task_category": "grading",
+    "num_samples": null,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/12552326",
+    "citation": "Iraqi Retinal Fundus Diabetic Retinopathy Dataset. Zenodo, 2024. doi:10.5281/zenodo.12552326",
+    "tags": [
+      "zenodo",
+      "fundus",
+      "diabetic_retinopathy",
+      "iraq"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "jichi",
+    "full_name": "Jichi Medical University Diabetic Retinopathy Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "task_category": "grading",
+    "num_samples": 9939,
+    "size_gb": 10.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 4,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.4879853",
+    "citation": "Takahashi et al., 'Applying artificial intelligence to disease staging: Deep learning for improved staging of diabetic retinopathy', PLOS ONE 2017. Article: https://pmc.ncbi.nlm.nih.gov/articles/PMC5480986/",
+    "tags": [
+      "fundus",
+      "dr",
+      "grading",
+      "japan"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "maples_dr",
+    "full_name": "MAPLES-DR: Montreal Annotation Project for DR",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation",
+      "grading",
+      "classification"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 198,
+    "size_gb": 0.5,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 5,
+    "classes": [
+      "No DR",
+      "Mild DR",
+      "Moderate DR",
+      "Severe DR",
+      "PDR"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.24328660",
+    "citation": "Morin et al., 'MAPLES-DR: MESSIDOR Annotation Project for Lesion and Structures Evaluation in Diabetic Retinopathy', Scientific Data 2024.",
+    "tags": [
+      "dr",
+      "segmentation",
+      "lesions",
+      "fundus",
+      "multi_task"
+    ],
+    "notes": "Segmentation maps for 10 retinal biomarkers.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "mfiddr",
+    "full_name": "MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification",
+      "multilabel"
+    ],
+    "task_category": "grading",
+    "num_samples": 34452,
+    "size_gb": 30.0,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 5,
+    "classes": null,
+    "license": "MIT (form-gated download)",
+    "license_family": "mit",
+    "download_type": "manual",
+    "download_url": "https://github.com/mfiddr/MFIDDR",
+    "citation": "MFIDDR Multi-Field Imaging Dataset for DR. github.com/mfiddr/MFIDDR",
+    "tags": [
+      "fundus",
+      "dr",
+      "multi_field",
+      "screening",
+      "large_scale"
+    ],
+    "notes": "Google Form gates the Drive link — no static download ID.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "mshf",
+    "full_name": "Multi-Source Heterogeneous Fundus Dataset for Image Quality Assessment",
+    "modality": "fundus",
+    "tasks": [
+      "quality_assessment",
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": null,
+    "size_gb": 1.06,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.21507564",
+    "citation": "Jin K, Gao Z, Jiang X, Wang Y, Ma X, Li Y, Ye J. MSHF: A Multi-Source Heterogeneous Fundus Dataset for Image Quality Assessment. Figshare, 2023. doi:10.6084/m9.figshare.21507564",
+    "tags": [
+      "figshare",
+      "fundus",
+      "image_quality",
+      "quality_assessment",
+      "multi_source"
+    ],
+    "notes": "Multi-source quality-assessment dataset; review source composition before treating all images as a single independent cohort.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "msila_fundus_dr",
+    "full_name": "M'Sila Retinal Fundus Dataset for Diabetic Retinopathy Classification",
+    "modality": "fundus",
+    "tasks": [
+      "classification",
+      "grading"
+    ],
+    "task_category": "grading",
+    "num_samples": 1335,
+    "size_gb": 1.47,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/19169587",
+    "citation": "M'Sila retinal fundus dataset for diabetic retinopathy classification. Zenodo, 2026. doi:10.5281/zenodo.19169587",
+    "tags": [
+      "zenodo",
+      "fundus",
+      "diabetic_retinopathy",
+      "algeria"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "mured",
+    "full_name": "MuReD: Multi-label Retinal Diseases Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "multilabel",
+      "classification"
+    ],
+    "task_category": "multilabel",
+    "num_samples": 2208,
+    "size_gb": 2.0,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 20,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/pc4mb3h8hz/1",
+    "citation": "Rodriguez MA, AlMarzouqi H, Liatsis P, 'Multi-label Retinal Disease Classification using Transformers', IEEE Journal of Biomedical and Health Informatics 27(6):2739-2750, 2022. arXiv:2207.02335",
+    "tags": [
+      "fundus",
+      "multilabel",
+      "multi_disease"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "myopic_regression_fundus",
+    "full_name": "Myopic Regression after Corneal Refractive Surgery Fundus Sample",
+    "modality": "fundus",
+    "tasks": [
+      "regression",
+      "classification"
+    ],
+    "task_category": "regression",
+    "num_samples": 330,
+    "size_gb": 0.2,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/k34rvfw3dg/2",
+    "citation": "Machine learning predicting myopic regression after corneal refractive surgery. Mendeley Data, V2, 2021. doi:10.17632/k34rvfw3dg.2",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "myopia",
+      "refractive_surgery"
+    ],
+    "notes": "Public sample release; not the full original clinical study dataset.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "odir2019",
+    "full_name": "ODIR-2019: Ocular Disease Intelligent Recognition",
+    "modality": "fundus",
+    "tasks": [
+      "multilabel",
+      "classification"
+    ],
+    "task_category": "multilabel",
+    "num_samples": 8000,
+    "size_gb": 3.5,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 8,
+    "classes": [
+      "Normal",
+      "Diabetes",
+      "Glaucoma",
+      "Cataract",
+      "AMD",
+      "Hypertension",
+      "Myopia",
+      "Other"
+    ],
+    "license": "CC BY-SA 4.0",
+    "license_family": "cc-by-sa",
+    "download_type": "kaggle",
+    "download_url": "https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k",
+    "citation": "Li et al., 'An Annotation-Free Restoration Network for Cataractous Fundus Images', arXiv 2021.",
+    "tags": [
+      "multi_disease",
+      "multilabel",
+      "fundus",
+      "kaggle"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "papila",
+    "full_name": "PAPILA: Glaucoma Fundus Dataset with Clinical Data",
+    "modality": "fundus",
+    "tasks": [
+      "classification",
+      "segmentation"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 488,
+    "size_gb": 0.4,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 3,
+    "classes": [
+      "Healthy",
+      "Glaucoma suspect",
+      "Glaucoma"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "direct",
+    "download_url": "https://zenodo.org/records/6379970",
+    "citation": "Kovalyk et al., 'PAPILA: Dataset with fundus images and clinical data of both eyes of the same patient for glaucoma assessment', Scientific Data 2022.",
+    "tags": [
+      "glaucoma",
+      "classification",
+      "segmentation",
+      "fundus",
+      "clinical"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "paraguay_dr",
+    "full_name": "Paraguay Color Fundus DR Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "task_category": "grading",
+    "num_samples": 757,
+    "size_gb": 0.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 7,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/record/4647952",
+    "citation": "Castillo Benítez et al., Paraguay DR Dataset, Zenodo 2021. doi:10.5281/zenodo.4647952",
+    "tags": [
+      "fundus",
+      "dr",
+      "grading",
+      "latin_america",
+      "paraguay"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "rao_fundus",
+    "full_name": "RAO Retinal Artery Occlusion Fundus Photography Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": null,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/5428684j44/1",
+    "citation": "Yoo T. RAO (retinal artery occlusion) fundus photography dataset. Mendeley Data, V1, 2024. doi:10.17632/5428684j44.1",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "retinal_artery_occlusion",
+      "classification",
+      "derivative"
+    ],
+    "notes": "Source reports use of web-based public data plus RFMiD and JSIEC. Retained as a distinct RAO task resource, but not an independent primary cohort.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "reta_benchmark",
+    "full_name": "RETA Benchmark for Retinal Vascular Tree Analysis",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation",
+      "vessel_analysis"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 81,
+    "size_gb": 0.84,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.16960855",
+    "citation": "Lyu X, Cheng L, Zhang S. The RETA Benchmark for Retinal Vascular Tree Analysis. Scientific Data. 2022;9:397. doi:10.1038/s41597-022-01507-y",
+    "tags": [
+      "figshare",
+      "fundus",
+      "retinal_vessels",
+      "artery_vein",
+      "segmentation",
+      "idrid",
+      "derivative"
+    ],
+    "notes": "RETA inherits the 81 images from the first subset of IDRiD and adds retinal vascular-tree annotations; keep it separate as an annotation/benchmark layer, not an independent imaging cohort.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "retina_age_analysis",
+    "full_name": "Retina Age Analysis",
+    "modality": "fundus",
+    "tasks": [
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": 9857,
+    "size_gb": 1.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "MIT",
+    "license_family": "mit",
+    "download_type": "huggingface",
+    "download_url": "https://huggingface.co/datasets/ramankamran/retina-age-analysis",
+    "citation": "ramankamran/retina-age-analysis. Hugging Face dataset, accessed 2026-07.",
+    "tags": [
+      "huggingface",
+      "fundus",
+      "age_prediction",
+      "regression"
+    ],
+    "notes": "Provenance should be verified before clinical use.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "retinal_vessel_robustness",
+    "full_name": "Natural Robustness Benchmark for Retinal Vessel Segmentation",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": null,
+    "size_gb": 8.15,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "MIT",
+    "license_family": "mit",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/12659652",
+    "citation": "Evaluation benchmark for natural robustness evaluation of retinal vessel segmentation models. Zenodo, 2024. doi:10.5281/zenodo.12659652",
+    "tags": [
+      "zenodo",
+      "vessels",
+      "robustness",
+      "drive",
+      "stare",
+      "chase_db1",
+      "derivative"
+    ],
+    "notes": "Derivative robustness benchmark from existing vessel datasets.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "rfmid",
+    "full_name": "RFMiD: Retinal Fundus Multi-disease Image Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "multilabel",
+      "classification"
+    ],
+    "task_category": "multilabel",
+    "num_samples": 3200,
+    "size_gb": 1.5,
+    "splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "num_classes": 29,
+    "classes": [
+      "Disease_Risk",
+      "DR",
+      "ARMD",
+      "MH",
+      "DN",
+      "MYA",
+      "BRVO",
+      "TSLN",
+      "ERM",
+      "LS",
+      "MS",
+      "CSR",
+      "ODC",
+      "CRVO",
+      "TV",
+      "AH",
+      "ODP",
+      "ODE",
+      "ST",
+      "AION",
+      "PT",
+      "RT",
+      "RS",
+      "CRS",
+      "EDN",
+      "RPEC",
+      "MHL",
+      "RP",
+      "other"
+    ],
+    "license": "CC BY-SA 4.0",
+    "license_family": "cc-by-sa",
+    "download_type": "kaggle",
+    "download_url": "https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification",
+    "citation": "Pachade et al., 'Retinal Fundus Multi-disease Image Dataset (RFMiD): A Dataset for Multi-Disease Detection Research', Data 2021.",
+    "tags": [
+      "multi_disease",
+      "multilabel",
+      "fundus",
+      "kaggle"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "rfmid2",
+    "full_name": "RFMiD 2.0 Auxiliary Multi-Disease Fundus Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification",
+      "multilabel"
+    ],
+    "task_category": "multilabel",
+    "num_samples": 860,
+    "size_gb": 0.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/7505822",
+    "citation": "RFMiD 2.0. Zenodo, 2022. doi:10.5281/zenodo.7505822",
+    "tags": [
+      "zenodo",
+      "fundus",
+      "rfmid",
+      "multi_disease",
+      "extension"
+    ],
+    "notes": "Versioned extension of existing `rfmid`; retain as separate auxiliary release.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "riga_plus",
+    "full_name": "RIGA+ Domain Adaptation Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": null,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/6325549",
+    "citation": "RIGA+ for domain adaptation. Zenodo, 2022. doi:10.5281/zenodo.6325549",
+    "tags": [
+      "zenodo",
+      "riga",
+      "messidor",
+      "derivative",
+      "domain_adaptation"
+    ],
+    "notes": "Derivative benchmark based on existing RIGA/MESSIDOR resources.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "rimone_dl",
+    "full_name": "RIM-ONE DL",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 485,
+    "size_gb": 0.5,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 2,
+    "classes": [
+      "Normal",
+      "Glaucoma"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "kaggle",
+    "download_url": "https://www.kaggle.com/datasets/orvile/rim-one-retinal-dataset-for-assessing-glaucoma",
+    "citation": "Fumero et al., 'RIM-ONE DL: A Unified Retinal Image Database for Assessing Glaucoma Using Deep Learning', Intl. Image Analysis and Ophthalmology 2020.",
+    "tags": [
+      "glaucoma",
+      "classification",
+      "fundus"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "rop_ostrava",
+    "full_name": "Retinal Image Dataset of Infants and ROP (Ostrava)",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 6004,
+    "size_gb": 5.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "kaggle",
+    "download_url": "https://www.kaggle.com/datasets/jananowakova/retinal-image-dataset-of-infants-and-rop",
+    "citation": "Timkovic et al., 'Retinal Image Dataset of Infants and ROP', Scientific Data 2024. doi:10.1038/s41597-024-03409-7",
+    "tags": [
+      "fundus",
+      "pediatric",
+      "rop",
+      "retcam",
+      "european_cohort"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "rop_synthetic_mendeley",
+    "full_name": "Synthetic Medical Images for ROP Diagnosis",
+    "modality": "fundus",
+    "tasks": [
+      "classification",
+      "segmentation"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 5842,
+    "size_gb": 2.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/fscyyhg6vt/1",
+    "citation": "Coyner AS et al. Synthetic Medical Images for Robust, Privacy-Preserving Training of AI: Application to ROP Diagnosis. Mendeley Data, V1, 2022. doi:10.17632/fscyyhg6vt.1",
+    "tags": [
+      "mendeley",
+      "rop",
+      "synthetic",
+      "fundus",
+      "pediatric"
+    ],
+    "notes": "Includes synthetic images; keep separate from primary clinical cohorts in validation.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "rop_uwf_intelligent",
+    "full_name": "Fundus Dataset for Intelligent ROP System",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "task_category": "grading",
+    "num_samples": 1099,
+    "size_gb": 4.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.25514449",
+    "citation": "Zhao X, Chen S, Zhang S, et al., 'A fundus image dataset for intelligent retinopathy of prematurity system', Scientific Data 11:543, 2024. doi:10.1038/s41597-024-03362-5",
+    "tags": [
+      "fundus",
+      "pediatric",
+      "rop",
+      "stage"
+    ],
+    "notes": "Slug says `uwf` but the paper describes standard RetCam fundus imaging, not ultra-widefield. 1,099 images from 483 infants — earlier metadata claimed ~5,000.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "smdg",
+    "full_name": "SMDG-19: Standardized Multi-channel Glaucoma Benchmark",
+    "modality": "fundus",
+    "tasks": [
+      "classification",
+      "segmentation"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 12449,
+    "size_gb": 5.0,
+    "splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "num_classes": 3,
+    "classes": [
+      "non_glaucoma",
+      "glaucoma",
+      "suspect"
+    ],
+    "license": "CC0 1.0 (Public Domain)",
+    "license_family": "cc0",
+    "download_type": "kaggle",
+    "download_url": "https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset",
+    "citation": "Kiefer, 'Standardized Multi-channel Dataset for Glaucoma (SMDG-19)', Kaggle 2022. Breakdown: 7,499 non-glaucoma + 4,817 glaucoma + 133 suspect.",
+    "tags": [
+      "fundus",
+      "glaucoma",
+      "aggregator",
+      "multi_channel"
+    ],
+    "notes": "Aggregator — overlaps with several EyeDataHub-indexed glaucoma datasets. Useful for unified multi-source training.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "sustech_sysu",
+    "full_name": "SUSTech-SYSU Diabetic Retinopathy + Exudate Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "segmentation",
+      "classification"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 1219,
+    "size_gb": 3.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 5,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.12570770",
+    "citation": "Lin et al., 'The SUSTech-SYSU dataset for automated exudate detection and diabetic retinopathy grading', Scientific Data 2020.",
+    "tags": [
+      "fundus",
+      "dr",
+      "exudate",
+      "segmentation",
+      "grading"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "toxofundus",
+    "full_name": "ToxoFundus: Ocular Toxoplasmosis Fundus Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 412,
+    "size_gb": 0.2,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 3,
+    "classes": [
+      "Normal",
+      "Active Toxoplasmosis",
+      "Inactive Toxoplasmosis"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "kaggle",
+    "download_url": "https://www.kaggle.com/datasets/nafin59/ocular-toxoplasmosis-fundus-images-dataset",
+    "citation": "Nafisi & Sadri, 'ToxoFundus: Ocular Toxoplasmosis Fundus Image Dataset', Data in Brief 2023. Zenodo: https://zenodo.org/records/5156953 — Kaggle: https://www.kaggle.com/datasets/nafin59/ocular-toxoplasmosis-fundus-images-dataset",
+    "tags": [
+      "toxoplasmosis",
+      "fundus",
+      "kaggle",
+      "classification",
+      "infection"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "trend2_fundus",
+    "full_name": "TREND2 Chronic Disease Portable Fundus Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation",
+      "regression"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 28,
+    "size_gb": 0.1,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/7678656",
+    "citation": "TREND2 chronic disease portable fundus dataset. Zenodo, 2023. doi:10.5281/zenodo.7678656",
+    "tags": [
+      "zenodo",
+      "fundus",
+      "microvasculature",
+      "portable"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "trend_fundus",
+    "full_name": "TREND Portable Fundus Microvascular Network Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation",
+      "regression"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 82,
+    "size_gb": 0.1,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/4521044",
+    "citation": "TREND portable fundus microvascular network dataset. Zenodo, 2021. doi:10.5281/zenodo.4521044",
+    "tags": [
+      "zenodo",
+      "fundus",
+      "microvasculature",
+      "portable"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "casia_iris_v4",
+    "full_name": "CASIA-IrisV4 Iris Image Database",
+    "modality": "iris_biometrics",
+    "tasks": [
+      "biometric_recognition",
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 54601,
+    "size_gb": 1.86,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "Public domain; source access terms apply",
+    "license_family": "cc0",
+    "download_type": "manual",
+    "download_url": "https://hycasia.github.io/dataset/casia-irisv4/",
+    "citation": "Chinese Academy of Sciences Institute of Automation. CASIA Iris Image Database Version 4.0. Dataset documentation.",
+    "tags": [
+      "iris",
+      "biometrics",
+      "near_infrared",
+      "synthetic",
+      "twins",
+      "public_domain"
+    ],
+    "notes": "The project documentation mirror reports 54,601 images from more than 1,800 genuine and 1,000 virtual subjects, with possible subject overlap across four subsets, and describes the release as public domain. The linked download service may require login.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "data_oct_fundus_glaucoma",
+    "full_name": "Data on OCT and Fundus Images",
+    "modality": "multimodal",
+    "tasks": [
+      "classification",
+      "grading"
+    ],
+    "task_category": "grading",
+    "num_samples": 50,
+    "size_gb": 0.1,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/2rnnz5nz74/2",
+    "citation": "Raja H, Akram MU, Ramzan A, Khalil T, Nazid N. Data on OCT and Fundus Images. Mendeley Data, V2, 2020. doi:10.17632/2rnnz5nz74.2",
+    "tags": [
+      "mendeley",
+      "glaucoma",
+      "oct",
+      "fundus",
+      "cdr"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dme_vqa",
+    "full_name": "Diabetic Macular Edema Visual Question Answering Dataset",
+    "modality": "multimodal",
+    "tasks": [
+      "visual_question_answering",
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": null,
+    "size_gb": 0.1,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/6784358",
+    "citation": "Diabetic Macular Edema Visual Question Answering Dataset. Zenodo, 2022. doi:10.5281/zenodo.6784358",
+    "tags": [
+      "zenodo",
+      "vqa",
+      "dme",
+      "idrid",
+      "e_ophtha",
+      "derivative"
+    ],
+    "notes": "Derivative VQA layer built from existing fundus datasets.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dme_vqa_logical",
+    "full_name": "DME VQA Dataset with Logical Relations",
+    "modality": "multimodal",
+    "tasks": [
+      "visual_question_answering"
+    ],
+    "task_category": "classification",
+    "num_samples": null,
+    "size_gb": 0.1,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/7777849",
+    "citation": "DME VQA dataset with logical relations. Zenodo, 2023. doi:10.5281/zenodo.7777849",
+    "tags": [
+      "zenodo",
+      "vqa",
+      "dme",
+      "logical_relations",
+      "derivative"
+    ],
+    "notes": "Derivative extension of DME VQA; not an independent image cohort.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dryad_cornea_oct_pentacam",
+    "full_name": "Corneal OCT and Pentacam Tomography Dataset",
+    "modality": "multimodal",
+    "tasks": [
+      "segmentation",
+      "measurement",
+      "registration"
+    ],
+    "task_category": "segmentation",
+    "num_samples": null,
+    "size_gb": 0.392,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.tht76hf0c",
+    "citation": "Ran Z. Dataset for RSOS-211108. Dryad. 2021. doi:10.5061/dryad.tht76hf0c",
+    "tags": [
+      "dryad",
+      "cornea",
+      "anterior_segment_oct",
+      "pentacam",
+      "scheimpflug"
+    ],
+    "notes": "The source describes right-eye OCT and OCULUS Pentacam tomography plus custom segmentation code but does not expose a reliable record count in the repository metadata.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dryad_retinal_vein_cannulation",
+    "full_name": "Autonomous Retinal Vein Cannulation Data and Code",
+    "modality": "multimodal",
+    "tasks": [
+      "classification",
+      "navigation",
+      "surgical_workflow"
+    ],
+    "task_category": "classification",
+    "num_samples": 26,
+    "size_gb": 7.511,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.3ffbg79zd",
+    "citation": "Zhang P, Gehlbach P, Taylor R, Iordachita I, Kobilarov M. Data and code from: Deep learning-based autonomous retinal vein cannulation in ex vivo porcine eyes. Dryad. 2025. doi:10.5061/dryad.3ffbg79zd",
+    "tags": [
+      "dryad",
+      "surgical_robotics",
+      "ioct",
+      "porcine",
+      "ex_vivo",
+      "retinal_vein"
+    ],
+    "notes": "Experiments used 20 static and six motion-simulated ex vivo porcine eyes. The large release contains model-training data and code.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dryad_subretinal_robot",
+    "full_name": "Head-Mounted Robot Subretinal Injection Dataset",
+    "modality": "multimodal",
+    "tasks": [
+      "segmentation",
+      "surgical_workflow",
+      "regression"
+    ],
+    "task_category": "segmentation",
+    "num_samples": null,
+    "size_gb": 2.481,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.w0vt4b91w",
+    "citation": "Data and code from: Head-mounted surgical robots are an enabling technology for subretinal injections. Dryad. 2025. doi:10.5061/dryad.w0vt4b91w",
+    "tags": [
+      "dryad",
+      "surgical_robotics",
+      "subretinal_injection",
+      "oct",
+      "porcine",
+      "ex_vivo"
+    ],
+    "notes": "All images and videos are from ex vivo porcine eyes. The repository also includes MATLAB bleb masks and pressure-sensor measurements.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "fovea",
+    "full_name": "FOVEA: Pre/Intra-Operative Fundus + Biomicroscopy",
+    "modality": "multimodal",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 40,
+    "size_gb": 4.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.28329338",
+    "citation": "Ravasio et al., 'FOVEA: paired pre- and intra-operative fundus + biomicroscopy', Scientific Data 2025. doi:10.1038/s41597-025-04965-2",
+    "tags": [
+      "multimodal",
+      "surgery",
+      "fundus",
+      "biomicroscopy",
+      "vessel",
+      "optic_disc"
+    ],
+    "notes": "Unique pre-op/intra-op paired modality — only public example.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "fundus_report_dataset",
+    "full_name": "Fundus Report Dataset",
+    "modality": "multimodal",
+    "tasks": [
+      "report_generation",
+      "text_generation"
+    ],
+    "task_category": "classification",
+    "num_samples": 422,
+    "size_gb": 0.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "huggingface",
+    "download_url": "https://huggingface.co/datasets/zzzzineun/fundus-report-dataset",
+    "citation": "zzzzineun/fundus-report-dataset. Hugging Face dataset, accessed 2026-07.",
+    "tags": [
+      "huggingface",
+      "fundus",
+      "report_generation",
+      "uwf",
+      "derivative"
+    ],
+    "notes": "Derivative report-generation view; verify source image terms row by row.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "grape",
+    "full_name": "GRAPE: Glaucoma Real-world Appraisal Progression Ensemble",
+    "modality": "multimodal",
+    "tasks": [
+      "regression",
+      "segmentation",
+      "classification"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 1115,
+    "size_gb": 1.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 2,
+    "classes": [
+      "Stable",
+      "Progressing"
+    ],
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.c.6406319",
+    "citation": "Wen et al., 'GRAPE: A multi-modal dataset for glaucoma progression ',Figshare collection 2022.",
+    "tags": [
+      "glaucoma",
+      "visual_field",
+      "fundus",
+      "oct",
+      "longitudinal",
+      "multimodal"
+    ],
+    "notes": "Multi-modal: contains fundus images, VF data, OCT measurements, and clinical metadata. Requires manual download from Figshare.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "hassan_composite_retina",
+    "full_name": "Composite Retinal Fundus and OCT Dataset with Clinical Markings",
+    "modality": "multimodal",
+    "tasks": [
+      "segmentation",
+      "classification",
+      "grading"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": null,
+    "size_gb": 2.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/trghs22fpg/4",
+    "citation": "Hassan T, Akram MU, Nazir MN. A Composite Retinal Fundus and OCT Dataset with Detailed Clinical Markings. Mendeley Data, V4, 2021. doi:10.17632/trghs22fpg.4",
+    "tags": [
+      "mendeley",
+      "fundus",
+      "oct",
+      "macular_edema",
+      "glaucoma"
+    ],
+    "notes": "Composite dataset; verify component provenance before treating as an independent cohort.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "lmod_cataract_1k_cot",
+    "full_name": "Cataract-1K Surgical Analysis Chain-of-Thought Dataset",
+    "modality": "multimodal",
+    "tasks": [
+      "visual_question_answering",
+      "text_generation"
+    ],
+    "task_category": "classification",
+    "num_samples": null,
+    "size_gb": 1.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "MIT",
+    "license_family": "mit",
+    "download_type": "huggingface",
+    "download_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot",
+    "citation": "mehti/LMOD-Cataract-1K-surgical-analysis-cot. Hugging Face dataset, accessed 2026-07.",
+    "tags": [
+      "huggingface",
+      "cataract1k",
+      "cot",
+      "synthetic",
+      "derivative"
+    ],
+    "notes": "Synthetic instruction layer derived from Cataract-1K; not an independent clinical dataset.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "mcoa",
+    "full_name": "MCOA: Multimodal Corneal Opacity Assessment Dataset",
+    "modality": "multimodal",
+    "tasks": [
+      "classification",
+      "grading"
+    ],
+    "task_category": "grading",
+    "num_samples": 6664,
+    "size_gb": 8.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 4,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.28123088.v1",
+    "citation": "Ma X, et al., 'MCOA: A comprehensive multimodal dataset for advancing deep learning in corneal opacity assessment', Scientific Data 2025.",
+    "tags": [
+      "anterior_segment",
+      "cornea",
+      "as_oct",
+      "opacity",
+      "multimodal",
+      "grading"
+    ],
+    "notes": "Anterior-segment expansion; modality otherwise sparse.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "mmrdr",
+    "full_name": "MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset",
+    "modality": "multimodal",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "task_category": "grading",
+    "num_samples": 24460,
+    "size_gb": 18.61,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 5,
+    "classes": [
+      "No DR",
+      "Mild DR",
+      "Moderate DR",
+      "Severe DR",
+      "Proliferative DR"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.29423747",
+    "citation": "MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset. Nature Scientific Data 2026. Figshare: https://doi.org/10.6084/m9.figshare.29423747 — GitHub: https://github.com/Vladimirovich2019/MMRDR_Evaluation",
+    "tags": [
+      "dr",
+      "fundus",
+      "oct",
+      "uwf",
+      "multimodal",
+      "figshare",
+      "grading"
+    ],
+    "notes": "Contains 24,460 images across CFP, OCT, and UWF modalities. The source-reported unit is images rather than unique patients. Evaluation code: https://github.com/Vladimirovich2019/MMRDR_Evaluation",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "multieye",
+    "full_name": "MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark",
+    "modality": "multimodal",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 58036,
+    "size_gb": 27.3,
+    "splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "num_classes": 8,
+    "classes": null,
+    "license": "MIT",
+    "license_family": "mit",
+    "download_type": "huggingface",
+    "download_url": "https://huggingface.co/datasets/Luxuriant16/MultiEYE",
+    "citation": "MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark, IEEE TMI 2025; arXiv:2412.09402",
+    "tags": [
+      "multimodal",
+      "fundus",
+      "oct",
+      "cross_modal",
+      "distillation"
+    ],
+    "notes": "Re-aggregates several source datasets — image licenses inherit from their original sources. Verify per-component before reuse.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "ophthalvqa",
+    "full_name": "OphthalVQA Dataset",
+    "modality": "multimodal",
+    "tasks": [
+      "visual_question_answering",
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": null,
+    "size_gb": 0.03,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.25624917",
+    "citation": "Xu P, Chen X, Zhao Z, Shi D. OphthalVQA Dataset. Figshare, 2025. doi:10.6084/m9.figshare.25624917",
+    "tags": [
+      "figshare",
+      "vqa",
+      "multimodal",
+      "ophthalmology",
+      "llm"
+    ],
+    "notes": "Supplementary benchmark for ophthalmic VQA and multimodal model evaluation; inspect image provenance and splits before leakage-sensitive validation.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "tear_meniscus",
+    "full_name": "Multicentre Tear Meniscus Segmentation Dataset",
+    "modality": "multimodal",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 3432,
+    "size_gb": 1.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 2,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.28650536.v2",
+    "citation": "Multicentre tear meniscus segmentation dataset, Scientific Data 2025.",
+    "tags": [
+      "ocular_surface",
+      "tear_meniscus",
+      "dry_eye",
+      "segmentation",
+      "multicenter",
+      "new_modality"
+    ],
+    "notes": "Figshare marks the deposited files CC BY 4.0. Adds a dry-eye and tear-film modality that is otherwise absent.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "tom500",
+    "full_name": "TOM500: Multi-Organ Annotated Orbital MRI Dataset for Thyroid Eye Disease",
+    "modality": "multimodal",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 500,
+    "size_gb": 20.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.27133389.v1",
+    "citation": "Zhang H, et al., 'TOM500: A multi-organ annotated orbital MRI dataset for thyroid eye disease', Scientific Data 2025.",
+    "tags": [
+      "orbital_mri",
+      "thyroid_eye_disease",
+      "segmentation",
+      "multi_organ",
+      "new_modality"
+    ],
+    "notes": "Adds orbital MRI; modality outside typical ophthalmic imaging.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "uveitis_smote",
+    "full_name": "Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation",
+    "modality": "multimodal",
+    "tasks": [
+      "classification",
+      "text_generation"
+    ],
+    "task_category": "classification",
+    "num_samples": 3245,
+    "size_gb": 0.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/n9zp473wfw/2",
+    "citation": "Bitto AK, Ahmed M. Image Dataset on Eye Diseases Classification (Uveitis, Conjunctivitis, Cataract, Eyelid) with Symptoms and SMOTE Validation. Mendeley Data, V2, 2024. doi:10.17632/n9zp473wfw.2",
+    "tags": [
+      "mendeley",
+      "multimodal",
+      "uveitis",
+      "conjunctivitis",
+      "cataract",
+      "eyelid",
+      "smote"
+    ],
+    "notes": "Web-sourced images and SMOTE-based synthetic balancing are reported. Use original images, not synthetic oversampling, for clinical validation where possible.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "amd_dme_3d_oct",
+    "full_name": "Comprehensive 3D OCT Dataset for AMD and DME",
+    "modality": "oct",
+    "tasks": [
+      "segmentation",
+      "classification"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 224,
+    "size_gb": 19.65,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.30582035.v1",
+    "citation": "Huang W, Qin L, Xu M, et al. Comprehensive 3D Optical Coherence Tomography Dataset for AMD and DME: Facilitating Deep-Learning-Based 3D Segmentation. Scientific Data. 2026;13:224. doi:10.1038/s41597-025-06497-1",
+    "tags": [
+      "oct",
+      "3d",
+      "volume",
+      "amd",
+      "dme",
+      "ped",
+      "intraretinal_fluid",
+      "figshare"
+    ],
+    "notes": "The release contains 122 AMD and 102 DME volumes. Of these, 104 volumes are labeled (62 AMD and 42 DME) and 120 are unlabeled.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "as_oct_keratitis",
+    "full_name": "AS-OCT Keratitis Segmentation Dataset",
+    "modality": "oct",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 1168,
+    "size_gb": 1.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 4,
+    "classes": [
+      "background",
+      "lesion",
+      "cornea",
+      "iris"
+    ],
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.c.7036994.v1",
+    "citation": "Sun Y, et al., 'An AS-OCT image dataset for deep learning-enabled segmentation and 3D reconstruction for keratitis', Scientific Data 2024.",
+    "tags": [
+      "anterior_segment",
+      "cornea",
+      "keratitis",
+      "as_oct",
+      "segmentation",
+      "3d"
+    ],
+    "notes": "Adds corneal infectious disease + 3D AS-OCT use case.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dryad_functional_oct_alzheimer",
+    "full_name": "Functional OCT Retinal Response Dataset",
+    "modality": "oct",
+    "tasks": [
+      "classification",
+      "registration",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": null,
+    "size_gb": 2.058,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.msbcc2ftc",
+    "citation": "Bissig D, Zhou C, Le V, Bernard J. A practical approach to functional optical coherence tomography shows abnormal retinal responses in Alzheimer's disease. Dryad. 2020. doi:10.5061/dryad.msbcc2ftc",
+    "tags": [
+      "dryad",
+      "oct",
+      "functional_oct",
+      "alzheimer",
+      "light_response",
+      "raw_images"
+    ],
+    "notes": "The release contains repeated acquisitions across four experiments; source groups include eight young adults, three participants with aquaporin-4 antibodies, 14 early-onset Alzheimer patients, and 14 age-matched controls. Group overlap is not assumed in num_samples.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "fociset_pamm",
+    "full_name": "FociSet PAMM OCT Lesion Dataset",
+    "modality": "oct",
+    "tasks": [
+      "detection",
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 133,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/mkwxn7rjpm/2",
+    "citation": "FociSet: A dataset for detection and segmentation of paracentral acute middle maculopathy lesions in OCT images. Data in Brief. 2024;57:111121. doi:10.1016/j.dib.2024.111121",
+    "tags": [
+      "oct",
+      "pamm",
+      "lesion_detection",
+      "yolo",
+      "polygon_masks",
+      "mendeley"
+    ],
+    "notes": "Contains 133 OCT images with PAMM foci annotated in YOLO bounding-box and JSON polygon formats.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "goals",
+    "full_name": "GOALS — Glaucoma OCT Layer Segmentation (MICCAI 2022)",
+    "modality": "oct",
+    "tasks": [
+      "segmentation",
+      "classification"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 300,
+    "size_gb": 0.5,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 3,
+    "classes": [
+      "RNFL",
+      "GCIPL",
+      "Choroid"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "gdrive",
+    "download_url": "https://aistudio.baidu.com/competition/detail/783/0/introduction",
+    "citation": "Fang H. et al., 'GOALS Challenge: A Large-Scale OCT Image Dataset for Glaucoma Analysis', MICCAI 2022 Workshop.",
+    "tags": [
+      "oct",
+      "glaucoma",
+      "segmentation",
+      "layers",
+      "goals",
+      "ichallenge"
+    ],
+    "notes": "Primary challenge page: https://aistudio.baidu.com/competition/detail/783/0/introduction. Automated downloader still tries the known Google Drive mirror (https://drive.google.com/file/d/1P1cLm9_Pwq4fum4lB1-LGUayO-NMvF5I/view) and then Zenodo record 6362363.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "kermany_oct",
+    "full_name": "Kermany OCT 2018: Retinal OCT Image Classification",
+    "modality": "oct",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 84484,
+    "size_gb": 6.0,
+    "splits": [
+      "train",
+      "test",
+      "val"
+    ],
+    "num_classes": 4,
+    "classes": [
+      "CNV",
+      "DME",
+      "DRUSEN",
+      "NORMAL"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "kaggle",
+    "download_url": "https://www.kaggle.com/datasets/paultimothymooney/kermany2018",
+    "citation": "Kermany et al., 'Identifying medical diagnoses and treatable diseases by image-based deep learning', Cell 2018.",
+    "tags": [
+      "oct",
+      "classification",
+      "cataract",
+      "amd"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "mario",
+    "full_name": "MARIO: AMD-Progression Longitudinal OCT (MICCAI 2024)",
+    "modality": "oct",
+    "tasks": [
+      "classification",
+      "progression"
+    ],
+    "task_category": "classification",
+    "num_samples": 30000,
+    "size_gb": 25.0,
+    "splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "num_classes": 4,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/15270469",
+    "citation": "Quellec G, Zeghlache R, et al., 'MARIO: Monitoring AMD Progression from OCT — MICCAI 2024 Challenge', arXiv 2506.02976. Data: Zenodo doi:10.5281/zenodo.15270469 (2025). Peer-reviewed proceedings pending.",
+    "tags": [
+      "oct",
+      "amd",
+      "longitudinal",
+      "progression",
+      "miccai_2024"
+    ],
+    "notes": "Distributed as 21 multi-part split zips (Task_1.zip.001-014 + Task_2.zip.001-007, ~21.8 GB). After download, reassemble with `cat Task_1.zip.* > Task_1.zip` then extract with 7-Zip. The Zenodo files are marked CC BY 4.0. Check any separate challenge rules before entering a competition.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "nehut",
+    "full_name": "NEH-UT Retinal OCT Dataset",
+    "modality": "oct",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 16822,
+    "size_gb": 3.65,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 3,
+    "classes": [
+      "Normal",
+      "Drusen",
+      "CNV"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/8kt969dhx6/2",
+    "citation": "Labeled Retinal OCT Dataset for Classification of Normal, Drusen, and CNV Cases. Mendeley Data, V2. doi:10.17632/8kt969dhx6.2",
+    "tags": [
+      "oct",
+      "mendeley",
+      "classification",
+      "drusen",
+      "cnv"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "oct5k",
+    "full_name": "OCT5k: Multi-Disease Retinal Layer Annotations",
+    "modality": "oct",
+    "tasks": [
+      "segmentation",
+      "classification"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 1672,
+    "size_gb": 1.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 8,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "direct",
+    "download_url": "https://doi.org/10.5522/04/22128671",
+    "citation": "Morano et al., 'OCT5k: a dataset of multi-disease and multi-graded annotations for retinal layers in OCT images', Scientific Data 2024. doi:10.1038/s41597-024-04259-z",
+    "tags": [
+      "oct",
+      "layer_segmentation",
+      "amd",
+      "dme",
+      "multi_grader"
+    ],
+    "notes": "UCL Research Data Repository — Figshare-backed, free download.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "octave",
+    "full_name": "OCTAVE: 3D SD-OCT Retinal Segmentation Dataset",
+    "modality": "oct",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 198,
+    "size_gb": 15.0,
+    "splits": [
+      "train"
+    ],
+    "num_classes": 13,
+    "classes": [
+      "RET",
+      "CHO",
+      "VIT",
+      "RPE",
+      "HYA",
+      "RHS",
+      "ERM",
+      "SES",
+      "ART",
+      "HRM",
+      "FLU",
+      "SRM",
+      "HTD"
+    ],
+    "license": "CC BY-SA 4.0",
+    "license_family": "cc-by-sa",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/14580071",
+    "citation": "Kermany DS et al., 'Identifying Retinal Features Using a Self-Configuring CNN for Clinical Intervention', Investigative Ophthalmology & Visual Science 66(6):55 (2025). doi:10.1167/iovs.66.6.55 — Zenodo: https://zenodo.org/records/14580071",
+    "tags": [
+      "oct",
+      "segmentation",
+      "3d",
+      "zenodo",
+      "nnunet",
+      "multi_class"
+    ],
+    "notes": "nnU-Net layout: nnUNet_raw/Dataset001_OCTAVE/imagesTr+labelsTr/. External test sets under nnUNet_raw/external_tests/. 19 standardised B-scans per volume after preprocessing. GitHub: https://github.com/Translational-Biophotonics-Laboratory/octvision3d",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "octdl",
+    "full_name": "OCTDL: OCT Deep Learning Dataset",
+    "modality": "oct",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 2000,
+    "size_gb": 0.8,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 7,
+    "classes": [
+      "AMD",
+      "DME",
+      "ERM",
+      "NO",
+      "RAO",
+      "RVO",
+      "VID"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/sncdhf53xc/4",
+    "citation": "Kulyabin et al., 'OCTDL: Optical Coherence Tomography Dataset for Image-Based Deep Learning Methods', Scientific Data 2024.",
+    "tags": [
+      "oct",
+      "classification",
+      "7-class"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "octid",
+    "full_name": "OCTID: OCT Image Database",
+    "modality": "oct",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 500,
+    "size_gb": 0.3,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 5,
+    "classes": [
+      "NORMAL",
+      "AMD",
+      "CSC",
+      "DR",
+      "MH"
+    ],
+    "license": "CC0 1.0 Universal",
+    "license_family": "cc0",
+    "download_type": "manual",
+    "download_url": "https://borealisdata.ca/dataverse/OCTID",
+    "citation": "Gholami et al., 'OCTID: Optical Coherence Tomography Image Database', Elsevier 2020.",
+    "tags": [
+      "oct",
+      "classification",
+      "amd"
+    ],
+    "notes": "Freely available from Borealis Data Repository. No account required.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "oimhs",
+    "full_name": "OIMHS: OCT Image Macular Hole Segmentation Dataset",
+    "modality": "oct",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 3859,
+    "size_gb": 2.0,
+    "splits": [
+      "train"
+    ],
+    "num_classes": 4,
+    "classes": [
+      "Retina",
+      "Macular Hole",
+      "Intraretinal Cysts",
+      "Choroid"
+    ],
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.23508453",
+    "citation": "Ye X et al., 'OIMHS: An Optical Coherence Tomography Image Dataset Based on Macular Hole Manual Segmentation', Scientific Data 10, 769 (2023). doi:10.1038/s41597-023-02675-1",
+    "tags": [
+      "oct",
+      "segmentation",
+      "macular_hole",
+      "figshare"
+    ],
+    "notes": "Images are side-by-side PNGs (left=raw, right=mask). 125 eye-level subfolders under images/. No official split — apply your own train/val/test division.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "olives",
+    "full_name": "OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics",
+    "modality": "oct",
+    "tasks": [
+      "multilabel",
+      "classification"
+    ],
+    "task_category": "multilabel",
+    "num_samples": 9408,
+    "size_gb": 20.0,
+    "splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "num_classes": 8,
+    "classes": [
+      "Fluid",
+      "Hard Exudate",
+      "Soft Exudate",
+      "Drusen",
+      "Scar",
+      "Laser Scar",
+      "Fibrovascular PED",
+      "Serous PED"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/7105232",
+    "citation": "Prabhushankar M et al., 'OLIVES Dataset: Ophthalmic Labels for Investigating Visual Eye Semantics', NeurIPS Datasets & Benchmarks 2022. https://zenodo.org/records/7105232",
+    "tags": [
+      "oct",
+      "amd",
+      "dme",
+      "multilabel",
+      "zenodo",
+      "longitudinal"
+    ],
+    "notes": "9,408 biomarker-labelled B-scans from 96 patients (6 clinical visits × 49 B-scans/visit). Full OCT volume set ~62,000 B-scans. Also available on HuggingFace: gOLIVES/OLIVES_Dataset. Contains paired fundus photos and clinical metadata.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "retinal_corrugations_oct",
+    "full_name": "Outer Retinal Corrugations Imaging Dataset",
+    "modality": "oct",
+    "tasks": [
+      "segmentation",
+      "regression"
+    ],
+    "task_category": "segmentation",
+    "num_samples": null,
+    "size_gb": 0.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/bzsc7gd9p3/1",
+    "citation": "Darabad RR et al. Outer Retinal Corrugations: Mechanical Models and Imaging Dataset. Mendeley Data, V1, 2022. doi:10.17632/bzsc7gd9p3.1",
+    "tags": [
+      "mendeley",
+      "oct",
+      "retinal_detachment",
+      "biomechanics"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "rvo_me",
+    "full_name": "RVO-ME: Retinal Vein Occlusion Macular Edema OCT Dataset",
+    "modality": "oct",
+    "tasks": [
+      "segmentation",
+      "classification"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 3012,
+    "size_gb": 2.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.29804435.v1",
+    "citation": "Xiong F, et al., 'RVO-ME: A dual-task OCT dataset for segmentation and detection of macular lesions in retinal vein occlusion', Scientific Data 2026.",
+    "tags": [
+      "oct",
+      "rvo",
+      "macular_edema",
+      "fluid_segmentation",
+      "layer_segmentation"
+    ],
+    "notes": "Sci Data 2026 release; verify source license before reuse.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "syn_oct",
+    "full_name": "SYN-OCT Synthetic Glaucoma OCT Dataset",
+    "modality": "oct",
+    "tasks": [
+      "classification",
+      "segmentation",
+      "regression"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 200000,
+    "size_gb": 3.255,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://doi.org/10.5281/zenodo.17151869",
+    "citation": "SYN-OCT: A synthetic dataset of ocular optical coherence tomography images from healthy and glaucoma eyes. Scientific Data. 2026. doi:10.1038/s41597-026-06946-5",
+    "tags": [
+      "oct",
+      "synthetic",
+      "glaucoma",
+      "rnfl",
+      "layer_segmentation",
+      "zenodo"
+    ],
+    "notes": "Contains 100,000 synthetic glaucoma and 100,000 synthetic normal circumpapillary OCT images. No real patient images are released.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "tian_oct",
+    "full_name": "Tian OCTRIMA 3D OCT Layer Segmentation Dataset",
+    "modality": "oct",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 10,
+    "size_gb": 0.2,
+    "splits": [
+      "test"
+    ],
+    "num_classes": 8,
+    "classes": [
+      "ILM",
+      "RNFL_GCL_IPL",
+      "IPL_INL",
+      "INL_OPL",
+      "OPL_ONL",
+      "ELM",
+      "IS_OS",
+      "OS_RPE"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "direct",
+    "download_url": "https://doi.org/10.1371/journal.pone.0133908.s002",
+    "citation": "Tian J et al., 'Real-Time Automatic Segmentation of Optical Coherence Tomography Volume Data of the Macular Region', PLOS ONE 10(8):e0133908 (2015). doi:10.1371/journal.pone.0133908",
+    "tags": [
+      "oct",
+      "segmentation",
+      "layer",
+      "boundary",
+      "matlab",
+      "healthy"
+    ],
+    "notes": "Primarily a benchmark/test set (10 volumes, 2 observers). Each .mat file contains: raw OCT volume, OCTRIMA 3D automatic segmentation, Observer 1 manual, Observer 2 manual. Supplement URL: https://doi.org/10.1371/journal.pone.0133908.s002",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "aroma_octa",
+    "full_name": "AROMA Retinal OCTA Artifact Dataset",
+    "modality": "octa",
+    "tasks": [
+      "quality_assessment",
+      "classification",
+      "grading"
+    ],
+    "task_category": "grading",
+    "num_samples": 281,
+    "size_gb": 1.011,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://doi.org/10.5281/zenodo.18258095",
+    "citation": "Szwarcberg L, Anwer A, Gozlan A, et al. The AROMA Dataset for Automatic Detection of Artifact Type and Severity in Retinal Optical Coherence Tomography Angiography. Ophthalmic Research. 2026. doi:10.1159/000551126",
+    "tags": [
+      "octa",
+      "artifacts",
+      "image_quality",
+      "severity",
+      "quality_control",
+      "zenodo"
+    ],
+    "notes": "The source reports 281 scans from 115 patients. Fourteen en-face images per scan yield 3,934 derived images with seven artifact types graded on a four-level severity scale.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "drac22",
+    "full_name": "DRAC 2022: Diabetic Retinopathy Analysis Challenge",
+    "modality": "octa",
+    "tasks": [
+      "segmentation",
+      "classification",
+      "grading"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 174,
+    "size_gb": 0.3,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 3,
+    "classes": [
+      "No DR",
+      "Non-proliferative DR",
+      "Proliferative DR"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/10280359",
+    "citation": "Qin et al., 'DRAC: Diabetic Retinopathy Analysis Challenge with Ultra-Wide Optical Coherence Tomography Angiography Images', Medical Image Analysis 2024.",
+    "tags": [
+      "octa",
+      "dr",
+      "segmentation",
+      "classification"
+    ],
+    "notes": "Available from Grand Challenge after free registration.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "octa_macula_coronal",
+    "full_name": "OCTA Macula Coronal Views",
+    "modality": "octa",
+    "tasks": [
+      "classification",
+      "visualization"
+    ],
+    "task_category": "classification",
+    "num_samples": 82560,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 4,
+    "classes": [
+      "normal",
+      "diabetic_retinopathy",
+      "amd",
+      "cnv"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/p5h7x55zw7/1",
+    "citation": "Al-Hinnawi AR. OCTA Macula Coronal Views. Mendeley Data. 2023. doi:10.17632/p5h7x55zw7.1",
+    "tags": [
+      "octa",
+      "macula",
+      "coronal_views",
+      "derived",
+      "mendeley"
+    ],
+    "notes": "The sample count is the number of derived PNG views. They come from 129 subject-level OCTA scans, so analysis and splitting should remain grouped by subject.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "rose",
+    "full_name": "ROSE: Retinal OCT-Angiography Vessel Segmentation",
+    "modality": "octa",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 229,
+    "size_gb": 0.8,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 2,
+    "classes": [
+      "background",
+      "vessel"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/doi/10.5281/zenodo.12775880",
+    "citation": "Ma et al., 'ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model', IEEE TMI 2021. Zenodo mirror: doi:10.5281/zenodo.12775880 (CC BY 4.0).",
+    "tags": [
+      "octa",
+      "vessel",
+      "segmentation"
+    ],
+    "notes": "Zenodo mirror (2024) publishes ROSE-1 + ROSE-2 under CC BY 4.0 — upgraded from the previous form-gated academic-only distribution on imed.nimte.ac.cn. EyeDataHub auto-downloads from Zenodo record 12775880.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "soul_octa",
+    "full_name": "SOUL: OCTA Human-Machine Collaborative Annotation Dataset",
+    "modality": "octa",
+    "tasks": [
+      "segmentation",
+      "classification",
+      "progression_analysis"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 178,
+    "size_gb": 0.113,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.24893358.v3",
+    "citation": "Xue J, Feng Z, Zeng L, et al. Soul: An OCTA dataset based on Human Machine Collaborative Annotation Framework. Scientific Data. 2024;11. doi:10.1038/s41597-024-03665-7",
+    "tags": [
+      "octa",
+      "vessel_segmentation",
+      "longitudinal",
+      "anti_vegf",
+      "clinical_text",
+      "figshare"
+    ],
+    "notes": "The six source-reported longitudinal subsets total 178 samples. The release includes raw images, vessel annotations, and clinical text.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dryad_uveal_melanoma_coog2",
+    "full_name": "COOG2.1 Uveal Melanoma Prognostic Dataset",
+    "modality": "omics",
+    "tasks": [
+      "classification",
+      "survival_analysis",
+      "prognosis"
+    ],
+    "task_category": "classification",
+    "num_samples": 1577,
+    "size_gb": 8.4e-05,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.n8pk0p340",
+    "citation": "15-gene expression profile and PRAME as an integrated prognostic test for uveal melanoma: First report of Collaborative Ocular Oncology Group Study No. 2 (COOG2.1). Dryad. 2025. doi:10.5061/dryad.n8pk0p340",
+    "tags": [
+      "dryad",
+      "uveal_melanoma",
+      "gene_expression",
+      "prame",
+      "survival",
+      "multicenter"
+    ],
+    "notes": "Contains 1,577 subjects enrolled across 26 centers with a 15-gene expression profile, PRAME status, clinical variables, and follow-up.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "cataract101_extended_labels",
+    "full_name": "Cataract-101 Extended Labels",
+    "modality": "surgical_video",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 101,
+    "size_gb": 0.01,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/4984167",
+    "citation": "Cataract101 extended labels. Zenodo, 2021. doi:10.5281/zenodo.4984167",
+    "tags": [
+      "zenodo",
+      "cataract_101",
+      "surgical_video",
+      "labels",
+      "derivative"
+    ],
+    "notes": "Derivative label layer for existing `cataract_101` images/videos.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "cataracts2017",
+    "full_name": "CATARACTS 2017: Surgical Tool Detection Challenge",
+    "modality": "surgical_video",
+    "tasks": [
+      "classification",
+      "multilabel"
+    ],
+    "task_category": "multilabel",
+    "num_samples": 50,
+    "size_gb": 50.0,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 21,
+    "classes": null,
+    "license": "CC BY 4.0 (IEEE DataPort)",
+    "license_family": "cc-by",
+    "download_type": "manual",
+    "download_url": "https://ieee-dataport.org/open-access/cataracts",
+    "citation": "Al Hajj et al., 'CATARACTS: Challenge on Automatic Tool Annotation for cataRACT Surgery', Medical Image Analysis 2019.",
+    "tags": [
+      "surgical_video",
+      "cataract",
+      "tool_detection",
+      "classical"
+    ],
+    "notes": "IEEE DataPort free account login required.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "lmod_cataract_1k",
+    "full_name": "LMOD-Cataract-1K",
+    "modality": "surgical_video",
+    "tasks": [
+      "segmentation",
+      "detection"
+    ],
+    "task_category": "segmentation",
+    "num_samples": null,
+    "size_gb": 2.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "huggingface",
+    "download_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K",
+    "citation": "mehti/LMOD-Cataract-1K. Hugging Face dataset, accessed 2026-07.",
+    "tags": [
+      "huggingface",
+      "cataract1k",
+      "surgical_video",
+      "derivative"
+    ],
+    "notes": "Derivative/processed view of existing Cataract-1K.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "migs_video",
+    "full_name": "Multicenter Fine-Annotated MIGS Surgical Video Dataset",
+    "modality": "surgical_video",
+    "tasks": [
+      "classification",
+      "segmentation"
+    ],
+    "task_category": "segmentation+classification",
+    "num_samples": 186,
+    "size_gb": 10.23,
+    "splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/19438128",
+    "citation": "Wang D, Zhang Y, Li Y, et al., 'Multicenter fine annotated surgical video dataset for minimally invasive glaucoma surgery', Scientific Data 2026. doi:10.1038/s41597-026-07535-2",
+    "tags": [
+      "surgical_video",
+      "glaucoma",
+      "migs",
+      "phase_recognition",
+      "multicenter"
+    ],
+    "notes": "The current Zenodo version is 10.5281/zenodo.19438128 under CC BY 4.0; the version-independent concept DOI is 10.5281/zenodo.18231908. The associated article cites the earlier deposit version 10.5281/zenodo.18231909.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "anterior_segment_smile",
+    "full_name": "Anterior Segment Parameters After SMILE Surgery",
+    "modality": "tabular",
+    "tasks": [
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": null,
+    "size_gb": 0.01,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/vkdxsnhkrm/1",
+    "citation": "Sun C. Anterior Segment Parameter Analysis After SMILE Surgery and Its Impact on the Calculation of Effective Intraocular Lens Position. Mendeley Data, V1, 2026. doi:10.17632/vkdxsnhkrm.1",
+    "tags": [
+      "mendeley",
+      "tabular",
+      "anterior_segment",
+      "cornea",
+      "smile",
+      "slit_lamp"
+    ],
+    "notes": "Source page reports clinical examination, Pentacam, and IOLMaster measurements; sample count was not exposed during curation.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "chronic_corneal_disorders",
+    "full_name": "Chronic Corneal Disorders Clinical Dataset",
+    "modality": "tabular",
+    "tasks": [
+      "classification",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": 332,
+    "size_gb": 0.01,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/mcwv6thk8m/1",
+    "citation": "Kusumesh R, Sinha BP, Anand A, Kumar A. Epidemiological and Clinical Profile of Chronic Corneal Disorders: Insights from a Tertiary Care Hospital in Eastern India. Mendeley Data, V1, 2025. doi:10.17632/mcwv6thk8m.1",
+    "tags": [
+      "mendeley",
+      "tabular",
+      "cornea",
+      "keratitis",
+      "slit_lamp",
+      "clinical"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "corneal_parameters_kc",
+    "full_name": "Corneal Parameters Keratoconus Study",
+    "modality": "tabular",
+    "tasks": [
+      "classification",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": 77,
+    "size_gb": 0.01,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/3nz4fkwn3y/1",
+    "citation": "Luguzis A, Liduma S. corneal-parameters-KC-study_2020-07-03. Mendeley Data, V1, 2020. doi:10.17632/3nz4fkwn3y.1",
+    "tags": [
+      "mendeley",
+      "tabular",
+      "cornea",
+      "keratoconus",
+      "visual_acuity"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "corneal_tomography_iol",
+    "full_name": "Multi-Parameter Corneal Tomography Dataset for IOL Selection",
+    "modality": "tabular",
+    "tasks": [
+      "classification",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": 61,
+    "size_gb": 0.01,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/wddj7bh9p9/1",
+    "citation": "Multi-parameter corneal tomography dataset for IOL selection. Mendeley Data, V1, 2025. doi:10.17632/wddj7bh9p9.1",
+    "tags": [
+      "mendeley",
+      "corneal_topography",
+      "iol",
+      "tabular"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dryad_gcc_glaucoma",
+    "full_name": "Glaucoma Ganglion Cell Complex Clinical Dataset",
+    "modality": "tabular",
+    "tasks": [
+      "classification",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": 406,
+    "size_gb": 1.3e-05,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.xwdbrv1tn",
+    "citation": "Poudel A, Gautam Adhikari P, Ghimire B, Thapa M. Diagnostic capability of ganglion cell complex thickness via spectral domain optical coherence tomography in glaucoma. Dryad. 2026. doi:10.5061/dryad.xwdbrv1tn",
+    "tags": [
+      "dryad",
+      "glaucoma",
+      "oct",
+      "gcc",
+      "nepal",
+      "clinical"
+    ],
+    "notes": "Contains 406 eye-level rows from 203 participants (POAG, glaucoma suspect, and control). Both eyes can occur, so analyses must account for within-participant correlation.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dryad_glaucoma_rnfl_vf",
+    "full_name": "RNFL and Visual-Field Glaucoma Diagnosis Dataset",
+    "modality": "tabular",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 499,
+    "size_gb": 3.2e-05,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.q6ft5",
+    "citation": "Development of machine learning models for diagnosis of glaucoma. Dryad. 2018. doi:10.5061/dryad.q6ft5",
+    "tags": [
+      "dryad",
+      "glaucoma",
+      "rnfl",
+      "visual_field",
+      "clinical"
+    ],
+    "notes": "The source reports 399 training/validation cases and 100 held-out test cases. The archive contains examination-record features rather than raw OCT or visual-field images.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dryad_namd_oct_quant",
+    "full_name": "Moorfields nAMD Quantitative OCT Biomarker Dataset",
+    "modality": "tabular",
+    "tasks": [
+      "regression",
+      "prognosis",
+      "fairness_analysis"
+    ],
+    "task_category": "regression",
+    "num_samples": 2966,
+    "size_gb": 0.0032,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.2rbnzs7m4",
+    "citation": "Moraes G, Fu DJ, Wilson M, et al. Quantitative analysis of optical coherence tomography for neovascular age-related macular degeneration using deep learning. Dryad. 2020. doi:10.5061/dryad.2rbnzs7m4",
+    "tags": [
+      "dryad",
+      "amd",
+      "oct",
+      "biomarkers",
+      "clinical",
+      "moorfields",
+      "derived"
+    ],
+    "notes": "Contains derived OCT feature volumes and metadata for 2,473 first-treated and 493 second-treated eyes. Raw OCT scans are not part of this Dryad release.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "dryad_namd_visual_prediction",
+    "full_name": "Moorfields nAMD Visual-Change Prediction Dataset",
+    "modality": "tabular",
+    "tasks": [
+      "regression",
+      "prognosis"
+    ],
+    "task_category": "regression",
+    "num_samples": 926,
+    "size_gb": 0.0016,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC0 1.0",
+    "license_family": "cc0",
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.573n5tb5d",
+    "citation": "Predicting incremental and future visual change in neovascular age-related macular degeneration using deep learning. Dryad. 2021. doi:10.5061/dryad.573n5tb5d",
+    "tags": [
+      "dryad",
+      "amd",
+      "oct",
+      "visual_acuity",
+      "anti_vegf",
+      "longitudinal",
+      "derived"
+    ],
+    "notes": "Primary analyses used 926 treatment-naive first-treated eyes from a larger Moorfields cohort. This resource overlaps the Moorfields AMD source cohort but exposes a distinct longitudinal prediction task.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "ophthalwechat",
+    "full_name": "OphthalWeChat Dataset",
+    "modality": "text",
+    "tasks": [
+      "visual_question_answering",
+      "retrieval"
+    ],
+    "task_category": "classification",
+    "num_samples": null,
+    "size_gb": 0.002,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0 for the deposited Figshare files",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.29064149",
+    "citation": "Xu P. OphthalWeChat. Figshare, 2025. doi:10.6084/m9.figshare.29064149",
+    "tags": [
+      "figshare",
+      "wechat",
+      "text",
+      "vqa",
+      "ophthalmology",
+      "linked_content_review"
+    ],
+    "notes": "Figshare marks the deposited index files CC BY 4.0. The record exposes URLs and WeChat article identifiers rather than redistributing image files, so original content permissions still need separate review.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "ophtho_readability",
+    "full_name": "Language and Readability Barriers in Ophthalmology Dataset",
+    "modality": "text",
+    "tasks": [
+      "text_generation",
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": null,
+    "size_gb": 0.01,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/16592100",
+    "citation": "Language and readability barriers in ophthalmology dataset. Zenodo, 2025. doi:10.5281/zenodo.16592100",
+    "tags": [
+      "zenodo",
+      "text",
+      "readability",
+      "ophthalmology",
+      "llm"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "ru_medical_texts_ophthalmology",
+    "full_name": "Ophthalmology Russian-English Medical Text Translations",
+    "modality": "text",
+    "tasks": [
+      "translation",
+      "text_generation"
+    ],
+    "task_category": "classification",
+    "num_samples": 3473,
+    "size_gb": 0.01,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "kaggle",
+    "download_url": "https://www.kaggle.com/datasets/cheshrcat/ru-medical-texts-ophtalmology",
+    "citation": "Ophthalmology Russian/English translations. Kaggle, accessed 2026-07.",
+    "tags": [
+      "kaggle",
+      "text",
+      "translation",
+      "ophthalmology",
+      "llm"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "birdshot_wide",
+    "full_name": "Birdshot-WIDE Widefield Fundus Dataset",
+    "modality": "uwf_fundus",
+    "tasks": [
+      "classification",
+      "progression_analysis",
+      "quality_assessment"
+    ],
+    "task_category": "classification",
+    "num_samples": 6352,
+    "size_gb": null,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "manual",
+    "download_url": "https://doi.org/10.5281/zenodo.19474623",
+    "citation": "Foulonneau T, Memmi C, Monnet D, Brezin AP, Vienne-Jumeau A. A Dataset of Widefield Fundus Images From Patients With Birdshot Chorioretinitis and Matched Control. Scientific Data. 2026. doi:10.1038/s41597-026-07494-8",
+    "tags": [
+      "uwf",
+      "birdshot_chorioretinitis",
+      "uveitis",
+      "longitudinal",
+      "controlled_access",
+      "zenodo"
+    ],
+    "notes": "Restricted Zenodo record requiring an access request. The source reports 5,042 images from 742 affected eyes and 1,310 images from 742 matched control eyes; the birdshot cohort has a median 4.31-year follow-up. CC BY 4.0 does not remove the access agreement.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "oculoscope",
+    "full_name": "OculoScope: Fairer AI in Ophthalmology Dataset",
+    "modality": "uwf_fundus",
+    "tasks": [
+      "classification",
+      "multilabel"
+    ],
+    "task_category": "multilabel",
+    "num_samples": 16530,
+    "size_gb": 20.0,
+    "splits": [
+      "train",
+      "test"
+    ],
+    "num_classes": 38,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://figshare.com/s/926c2c2ef9e77ab5eb9d",
+    "citation": "FairerOPTH Study — OculoScope Dataset. Nature Communications 2024. https://www.nature.com/articles/s41467-024-48972-0 — Data: https://figshare.com/s/926c2c2ef9e77ab5eb9d",
+    "tags": [
+      "uwf",
+      "fundus",
+      "figshare",
+      "multi_disease",
+      "fairness"
+    ],
+    "notes": "Also annotates 67 fine-grained fundus features in addition to 38 disease-level labels. Full class list in dataset CSV.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "prime_fp20",
+    "full_name": "PRIME-FP20: Ultra-Widefield Vessel Segmentation",
+    "modality": "uwf_fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "task_category": "segmentation",
+    "num_samples": 15,
+    "size_gb": 0.5,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 2,
+    "classes": [
+      "background",
+      "vessel"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "manual",
+    "download_url": "https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset",
+    "citation": "Ding et al., 'A Novel Deep Learning Pipeline for Retinal Vessel Detection in Fluorescein Angiography', IEEE TMI 2021.",
+    "tags": [
+      "uwf",
+      "fundus",
+      "vessel",
+      "segmentation"
+    ],
+    "notes": "IEEE DataPort free account login required.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "uwf_dr_peng",
+    "full_name": "UWF Fundus DR Dataset (Peng et al., 2026)",
+    "modality": "uwf_fundus",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "task_category": "grading",
+    "num_samples": 1630,
+    "size_gb": 3.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 5,
+    "classes": [
+      "0_no_dr",
+      "1_mild",
+      "2_moderate",
+      "3_severe",
+      "4_proliferative"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.31259494",
+    "citation": "Peng et al., 'A UWF fundus DR dataset with senior-ophthalmologist labels', Scientific Data 2026. doi:10.1038/s41597-026-07093-7",
+    "tags": [
+      "uwf",
+      "fundus",
+      "dr",
+      "grading"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "uwf_tumor",
+    "full_name": "UWF Fundus Intraocular Tumor Dataset",
+    "modality": "uwf_fundus",
+    "tasks": [
+      "classification"
+    ],
+    "task_category": "classification",
+    "num_samples": 2031,
+    "size_gb": 2.0,
+    "splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "num_classes": 6,
+    "classes": [
+      "Normal",
+      "Choroidal Hemangioma",
+      "Retinal Capillary Hemangioma",
+      "Choroidal Osteoma",
+      "Retinoblastoma",
+      "Uveal Melanoma"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.27986258",
+    "citation": "UWF Intraocular Tumor Dataset. Scientific Data 2025. https://www.nature.com/articles/s41597-025-05864-2 — Figshare: https://doi.org/10.6084/m9.figshare.27986258",
+    "tags": [
+      "uwf",
+      "fundus",
+      "tumor",
+      "figshare",
+      "classification"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "uwf_zhejiang",
+    "full_name": "Open UWF Fundus Dataset with Disease + Quality Labels",
+    "modality": "uwf_fundus",
+    "tasks": [
+      "classification",
+      "quality"
+    ],
+    "task_category": "classification",
+    "num_samples": 700,
+    "size_gb": 2.0,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.26936446",
+    "citation": "He S, Ye X, Xie W, et al., 'Open ultrawidefield fundus image dataset with disease diagnosis and clinical image quality assessment', Scientific Data 11:1251, 2024. doi:10.1038/s41597-024-04113-2",
+    "tags": [
+      "uwf",
+      "fundus",
+      "quality",
+      "multi_disease"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "eyecatcher_visual_field",
+    "full_name": "Eyecatcher Tablet-Based Visual Field Home-Monitoring Data",
+    "modality": "visual_field",
+    "tasks": [
+      "regression",
+      "classification"
+    ],
+    "task_category": "regression",
+    "num_samples": 440,
+    "size_gb": 0.01,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "mendeley",
+    "download_url": "https://data.mendeley.com/datasets/swsfj47cxw/2",
+    "citation": "Jones P. Data for glaucoma home-monitoring using a tablet-based visual field test (Eyecatcher). Mendeley Data, V2, 2021. doi:10.17632/swsfj47cxw.2",
+    "tags": [
+      "mendeley",
+      "visual_field",
+      "glaucoma",
+      "perimetry",
+      "home_monitoring"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "uwhvf",
+    "full_name": "UWHVF: University of Washington Humphrey Visual Field",
+    "modality": "visual_field",
+    "tasks": [
+      "classification",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": 28943,
+    "size_gb": 0.05,
+    "splits": [
+      "all"
+    ],
+    "num_classes": 2,
+    "classes": [
+      "Non-glaucoma",
+      "Glaucoma"
+    ],
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "direct",
+    "download_url": "https://github.com/uw-biomedical-ml/uwhvf/archive/refs/heads/master.zip",
+    "citation": "Boland et al., 'The University of Washington Humphrey Visual Field database', Ophthalmic Epidemiology 2022.",
+    "tags": [
+      "visual_field",
+      "glaucoma",
+      "perimetry",
+      "longitudinal",
+      "non_image"
+    ],
+    "notes": "Non-imaging dataset. Samples are 52-element visual field arrays. Models must accept 1D/2D VF arrays, not RGB images.",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  },
+  {
+    "name": "visual_field_testing_experiment",
+    "full_name": "Visual Field Testing Experiment",
+    "modality": "visual_field",
+    "tasks": [
+      "classification",
+      "regression"
+    ],
+    "task_category": "regression",
+    "num_samples": null,
+    "size_gb": 0.01,
+    "splits": [
+      "all"
+    ],
+    "num_classes": null,
+    "classes": null,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "kaggle",
+    "download_url": "https://www.kaggle.com/datasets/shozosaeki/visual-field-testing-experiment",
+    "citation": "Visual Field Testing Experiment. Kaggle, accessed 2026-07.",
+    "tags": [
+      "kaggle",
+      "visual_field",
+      "psychophysics",
+      "scotoma"
+    ],
+    "notes": "",
+    "geography": null,
+    "scanner_device": null,
+    "demographics": {
+      "age_range": null,
+      "sex_distribution": null,
+      "ethnicity": null,
+      "num_patients": null
+    }
+  }
+]

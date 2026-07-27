@@ -1,0 +1,678 @@
+/**
+ * EyeDataHub Docusaurus custom styling.
+ */
+
+:root {
+  --ifm-color-primary: #2e6bd6;
+  --ifm-color-primary-dark: #2860c1;
+  --ifm-color-primary-darker: #265bb6;
+  --ifm-color-primary-darkest: #1f4b96;
+  --ifm-color-primary-light: #4780db;
+  --ifm-color-primary-lighter: #5388de;
+  --ifm-color-primary-lightest: #71a1e5;
+  --ifm-code-font-size: 92%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+  --edh-tooltip-bg: #111827;
+  --edh-tooltip-fg: #ffffff;
+  --edh-tooltip-border: rgba(255, 255, 255, 0.14);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #61a4ff;
+  --ifm-color-primary-dark: #3f92ff;
+  --ifm-color-primary-darker: #2e88ff;
+  --ifm-color-primary-darkest: #006dee;
+  --ifm-color-primary-light: #83b6ff;
+  --ifm-color-primary-lighter: #94c0ff;
+  --ifm-color-primary-lightest: #c9dfff;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.10);
+  --edh-tooltip-bg: #f8fafc;
+  --edh-tooltip-fg: #111827;
+  --edh-tooltip-border: rgba(15, 23, 42, 0.16);
+}
+
+/* Slightly bigger dataset table density */
+table td, table th {
+  padding: 0.35rem 0.55rem;
+}
+
+/* Keep DOI and source links readable in generated Markdown pages. */
+.theme-doc-markdown a,
+.theme-doc-markdown td,
+.theme-doc-markdown th {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Compact list spacing on modality index pages */
+main ul li {
+  margin-bottom: 0.15rem;
+}
+
+.edh-dashboard {
+  margin-top: 1rem;
+}
+
+.edh-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(360px, 0.9fr);
+  gap: 2rem;
+  align-items: center;
+  padding: 1.25rem 0 0.75rem;
+}
+
+.edh-kicker {
+  color: var(--ifm-color-primary);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 0 0.4rem;
+  text-transform: uppercase;
+}
+
+.edh-hero h1 {
+  font-size: clamp(2rem, 3vw, 2.85rem);
+  line-height: 1.08;
+  margin: 0 0 0.75rem;
+  max-width: 20ch;
+}
+
+.edh-hero p {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1rem;
+  line-height: 1.65;
+  max-width: 60ch;
+}
+
+.edh-nowrap {
+  white-space: nowrap;
+}
+
+.edh-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.edh-code-panel {
+  align-self: center;
+  background: var(--ifm-code-background);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  overflow: visible;
+  width: 100%;
+}
+
+.edh-code-title {
+  background: var(--ifm-color-emphasis-100);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px 8px 0 0;
+  font-weight: 700;
+  padding: 0.7rem 0.9rem;
+}
+
+.edh-command-list {
+  display: grid;
+  gap: 0.55rem;
+  padding: 0.85rem;
+}
+
+.edh-command-row {
+  align-items: center;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 6px;
+  display: grid;
+  gap: 0.55rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  min-height: 42px;
+  padding: 0.35rem 0.4rem 0.35rem 0.65rem;
+}
+
+.edh-command-row code {
+  background: transparent;
+  border: 0;
+  display: block;
+  font-size: 0.78rem;
+  overflow-x: auto;
+  padding: 0;
+  scrollbar-width: thin;
+  white-space: nowrap;
+}
+
+.edh-icon-copy {
+  align-items: center;
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 5px;
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  display: inline-flex;
+  height: 2rem;
+  justify-content: center;
+  min-width: 2rem;
+  padding: 0;
+  position: relative;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+  vertical-align: middle;
+}
+
+.edh-icon-copy:hover,
+.edh-icon-copy:focus-visible {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
+  outline: none;
+}
+
+.edh-icon-copy.is-copied {
+  background: #e9f8ef;
+  border-color: #22a45a;
+  color: #168447;
+}
+
+.edh-icon-copy:disabled,
+.edh-icon-copy:disabled:hover {
+  background: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-500);
+  cursor: not-allowed;
+}
+
+.edh-icon-copy::after {
+  background: var(--edh-tooltip-bg);
+  border: 1px solid var(--edh-tooltip-border);
+  border-radius: 5px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.22);
+  bottom: calc(100% + 0.45rem);
+  color: var(--edh-tooltip-fg);
+  content: attr(data-tooltip);
+  font-size: 0.72rem;
+  font-weight: 700;
+  left: 50%;
+  line-height: 1.2;
+  max-width: 15rem;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0.3rem 0.45rem;
+  pointer-events: none;
+  position: absolute;
+  text-overflow: ellipsis;
+  transform: translate(-50%, 0.25rem);
+  transition: opacity 120ms ease, transform 120ms ease;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.edh-icon-copy:hover::after,
+.edh-icon-copy:focus-visible::after,
+.edh-icon-copy.is-copied::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.edh-copy-icon {
+  display: block;
+  fill: none;
+  height: 1rem;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+  width: 1rem;
+}
+
+.edh-sr-only {
+  clip: rect(0 0 0 0);
+  border: 0;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.edh-metrics {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  margin: 1.15rem 0 1.35rem;
+}
+
+.edh-metrics div,
+.edh-workflows div {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 0.85rem;
+}
+
+.edh-metrics strong {
+  display: block;
+  font-size: clamp(1.35rem, 2.2vw, 1.65rem);
+  line-height: 1.1;
+}
+
+.edh-metrics span {
+  color: var(--ifm-color-emphasis-700);
+  display: block;
+  font-size: 0.84rem;
+  margin-top: 0.2rem;
+}
+
+.edh-workflows {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0.9rem 0 1.7rem;
+}
+
+.edh-workflows h2,
+.edh-section-head h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.edh-workflows p,
+.edh-section-head p,
+.edh-table-note {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.edh-agent-story {
+  background:
+    radial-gradient(circle at top right, rgba(46, 107, 214, 0.12), transparent 42%),
+    var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  display: grid;
+  gap: 1.25rem 1.6rem;
+  grid-template-columns: minmax(0, 0.9fr) minmax(340px, 1.1fr);
+  margin: 1.2rem 0 2rem;
+  padding: 1.25rem;
+}
+
+.edh-agent-story h2 {
+  font-size: clamp(1.4rem, 2.2vw, 1.85rem);
+  line-height: 1.2;
+  margin: 0 0 0.65rem;
+  max-width: 25ch;
+}
+
+.edh-agent-story-copy > p:not(.edh-kicker),
+.edh-agent-flow p,
+.edh-agent-boundary,
+.edh-command-note {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.edh-agent-flow {
+  display: grid;
+  gap: 0.55rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.edh-agent-flow li {
+  align-items: start;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: 1.8rem minmax(0, 1fr);
+  padding: 0.65rem 0.75rem;
+}
+
+.edh-agent-flow li > span {
+  align-items: center;
+  background: var(--ifm-color-primary);
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 0.76rem;
+  font-weight: 800;
+  height: 1.8rem;
+  justify-content: center;
+  width: 1.8rem;
+}
+
+.edh-agent-flow strong {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+
+.edh-agent-flow p {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.edh-agent-boundary {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 0.86rem;
+  grid-column: 1 / -1;
+  margin: 0;
+  padding-top: 0.85rem;
+}
+
+.edh-explorer {
+  margin-top: 1.5rem;
+}
+
+.edh-section-head {
+  align-items: end;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.edh-filters {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: minmax(220px, 1.35fr) repeat(5, minmax(136px, 1fr));
+  margin: 0.9rem 0;
+}
+
+.edh-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.edh-filters span {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.edh-filters input,
+.edh-filters select {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  color: var(--ifm-font-color-base);
+  font: inherit;
+  min-height: 38px;
+  padding: 0.45rem 0.55rem;
+}
+
+.edh-selected {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  margin: 0.95rem 0 1rem;
+  padding: 0.85rem;
+}
+
+.edh-selected-head {
+  align-items: start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.edh-selected-head h3 {
+  font-size: 1rem;
+  margin: 0 0 0.15rem;
+}
+
+.edh-selected-head p {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.84rem;
+  margin: 0;
+}
+
+.edh-selected-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  justify-content: flex-end;
+}
+
+.edh-selected-actions button,
+.edh-text-button {
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 5px;
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.24rem 0.42rem;
+  white-space: nowrap;
+}
+
+.edh-selected-actions button:hover,
+.edh-text-button:hover {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
+}
+
+.edh-selected-actions button:disabled,
+.edh-selected-actions button:disabled:hover {
+  background: var(--ifm-color-emphasis-100);
+  border-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-500);
+  cursor: not-allowed;
+}
+
+.edh-download-command {
+  margin-bottom: 0.35rem;
+}
+
+.edh-command-note {
+  font-size: 0.78rem;
+  margin: 0 0 0.75rem;
+}
+
+.edh-selected-table-wrap {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 7px;
+  max-height: 260px;
+  overflow: auto;
+}
+
+.edh-selected-table {
+  font-size: 0.82rem;
+  margin: 0;
+  min-width: 720px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.edh-selected-table thead th {
+  background: var(--ifm-background-surface-color);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.edh-selected-table th:nth-child(1) { width: 42%; }
+.edh-selected-table th:nth-child(2) { width: 18%; }
+.edh-selected-table th:nth-child(3) { width: 22%; }
+.edh-selected-table th:nth-child(4) { width: 18%; }
+
+.edh-selected-table td strong {
+  display: inline-block;
+  margin-right: 0.4rem;
+}
+
+.edh-selected-table .edh-icon-copy {
+  height: 1.75rem;
+  min-width: 1.75rem;
+}
+
+.edh-dataset-name {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.45rem;
+}
+
+.edh-modality-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.edh-modality-tags span {
+  background: color-mix(in srgb, var(--ifm-color-primary) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 30%, transparent);
+  border-radius: 999px;
+  color: var(--ifm-color-primary-darkest);
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 650;
+  line-height: 1.25;
+  padding: 0.18rem 0.42rem;
+}
+
+[data-theme='dark'] .edh-modality-tags span {
+  color: var(--ifm-color-primary-lightest);
+}
+
+.edh-table-wrap {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  max-height: 720px;
+  overflow: auto;
+}
+
+.edh-dataset-table {
+  display: table;
+  font-size: 0.86rem;
+  margin: 0;
+  min-width: 1240px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.edh-dataset-table thead th {
+  background: var(--ifm-background-surface-color);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  white-space: nowrap;
+  word-break: normal;
+}
+
+.edh-dataset-table th:nth-child(1) { width: 5%; }
+.edh-dataset-table th:nth-child(2) { width: 23%; }
+.edh-dataset-table th:nth-child(3) { width: 9%; }
+.edh-dataset-table th:nth-child(4) { width: 15%; }
+.edh-dataset-table th:nth-child(5) { width: 10%; }
+.edh-dataset-table th:nth-child(6) { width: 9%; }
+.edh-dataset-table th:nth-child(7) { width: 9%; }
+.edh-dataset-table th:nth-child(8) { width: 9%; }
+.edh-dataset-table th:nth-child(9) { width: 11%; }
+
+.edh-dataset-table td {
+  vertical-align: top;
+}
+
+.edh-dataset-table td:first-child {
+  text-align: center;
+}
+
+.edh-dataset-table td:first-child input {
+  height: 1rem;
+  width: 1rem;
+}
+
+.edh-dataset-table td:nth-child(2) > span {
+  color: var(--ifm-color-emphasis-700);
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.25;
+  margin-top: 0.2rem;
+}
+
+.edh-dataset-table td:nth-child(4) em {
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 0.72rem;
+  font-style: normal;
+  margin: 0.1rem 0.2rem 0.1rem 0;
+  padding: 0.08rem 0.42rem;
+}
+
+.edh-dataset-table td:last-child {
+  white-space: normal;
+}
+
+.edh-dataset-table td:last-child a + a {
+  margin-left: 0;
+}
+
+.edh-dataset-table td:last-child a {
+  display: inline-block;
+  margin-right: 0.6rem;
+}
+
+.edh-dataset-table td:last-child .edh-icon-copy {
+  margin-top: 0.25rem;
+}
+
+.edh-loading {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  color: var(--ifm-color-emphasis-700);
+  padding: 1rem;
+}
+
+@media (max-width: 996px) {
+  .edh-hero,
+  .edh-workflows,
+  .edh-agent-story {
+    grid-template-columns: 1fr;
+  }
+
+  .edh-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .edh-filters {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .edh-code-panel {
+    max-width: 620px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .edh-filters {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .edh-metrics,
+  .edh-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .edh-section-head {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .edh-hero h1 {
+    font-size: 2rem;
+    max-width: none;
+  }
+
+  .edh-actions .button {
+    width: 100%;
+  }
+}

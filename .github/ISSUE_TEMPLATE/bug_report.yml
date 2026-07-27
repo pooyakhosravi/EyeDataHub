@@ -1,0 +1,59 @@
+name: Bug report
+description: Report a problem with EyeDataHub
+title: "[bug] <short summary>"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      placeholder: "What did you try to do? What happened instead?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: "Minimal command + Python snippet that triggers the bug."
+      render: bash
+      placeholder: |
+        eyehub download --datasets aptos2019
+        # error message ↓
+    validations:
+      required: true
+
+  - type: textarea
+    id: traceback
+    attributes:
+      label: Full traceback / error output
+      render: shell
+
+  - type: input
+    id: EyeDataHub_version
+    attributes:
+      label: EyeDataHub version
+      placeholder: "0.1.0 (run `pip show EyeDataHub`)"
+    validations:
+      required: true
+
+  - type: input
+    id: python_version
+    attributes:
+      label: Python version
+      placeholder: "3.11"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "Ubuntu 22.04 / macOS 14.5 / Windows 11"
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?

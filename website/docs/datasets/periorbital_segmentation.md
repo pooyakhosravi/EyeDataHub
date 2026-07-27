@@ -1,0 +1,122 @@
+---
+id: periorbital_segmentation
+title: "Open-Source Periorbital Segmentation Dataset"
+sidebar_label: periorbital_segmentation
+description: "Cropped periorbital images with multi-structure masks for the iris, sclera, eyelid, caruncle, and eyebrow."
+tags: ["external_eye", "cc-by", "zenodo", "segmentation", "measurement"]
+---
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Open-Source Periorbital Segmentation Dataset
+
+Cropped periorbital images with multi-structure masks for the iris, sclera, eyelid, caruncle, and eyebrow.
+
+## At a glance
+
+| Field | Value |
+| --- | --- |
+| **Short name** | `periorbital_segmentation` |
+| **Full name** | Open-Source Periorbital Segmentation Dataset |
+| **Primary category** | `external_eye` |
+| **Contained modalities** | external_eye |
+| **Tasks** | segmentation, measurement |
+| **Samples** | 2,842 |
+| **Classes** | Not reported (Not reported) |
+| **Splits** | all |
+| **Size** | 0.19 GB |
+| **Source-stated terms** | CC BY 4.0 |
+| **Normalized terms** | `cc-by` |
+| **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
+| **Terms scope** | `dataset_files` |
+| **Access friction** | `anonymous_direct` |
+| **Route backend** | Zenodo |
+| **Availability** | `available` (checked 2026-07-21) |
+| **Acquisition support** | `standard_platform_supported` |
+| **Legacy sample-loader status** | Metadata and access only |
+
+
+## Notes
+
+> Five annotators labeled crops derived from the Chicago Face Database and CelebAMask-HQ. The Zenodo record is CC BY 4.0, but users should also verify the terms of both upstream face datasets.
+
+## Access preflight and acquisition
+
+<Tabs>
+  <TabItem value="cli" label="CLI" default>
+
+```bash
+# Read-only preflight
+eyehub download periorbital_segmentation --data-dir ./data --dry-run --json
+
+# Explicit transfer, only when preflight reports supported behavior
+eyehub download periorbital_segmentation --data-dir ./data
+```
+
+  </TabItem>
+  <TabItem value="python" label="Python">
+
+```python
+from eyedatahub.acquisition import preflight_dataset
+from eyedatahub.datasets.registry import REGISTRY
+
+ds = REGISTRY.get_dataset('periorbital_segmentation')
+print(preflight_dataset(ds, './data'))  # no transfer
+```
+
+  </TabItem>
+</Tabs>
+
+**Upstream page:** [https://doi.org/10.5281/zenodo.13916845](https://doi.org/10.5281/zenodo.13916845)
+
+**Source-term evidence:** [https://doi.org/10.5281/zenodo.13916845](https://doi.org/10.5281/zenodo.13916845)
+
+## Loader status
+
+This catalog record provides metadata and access instructions, but it does not yet include a standard `DatasetSample` loader. Inspect the source file structure or contribute a loader before using it in a training pipeline.
+
+## Citation
+
+<Tabs>
+  <TabItem value="bibtex" label="BibTeX" default>
+
+```bibtex
+@misc{periorbital_segmentation,
+  title  = { Open-Source Periorbital Segmentation Dataset },
+  note   = { Nahass GR, Koehler E, Tomaras N, et al. Open-Source Periorbital Segmentation Dataset for Ophthalmic Applications. Ophthalmology Science. 2025;5:100757. doi:10.1016/j.xops.2025.100757 },
+  year   = { 2025 },
+  url    = { https://doi.org/10.5281/zenodo.13916845 },
+}
+```
+
+  </TabItem>
+  <TabItem value="apa" label="Plain text">
+
+```text
+Nahass GR, Koehler E, Tomaras N, et al. Open-Source Periorbital Segmentation Dataset for Ophthalmic Applications. Ophthalmology Science. 2025;5:100757. doi:10.1016/j.xops.2025.100757
+```
+
+  </TabItem>
+</Tabs>
+
+## Source-stated terms
+
+- **Raw source string:** CC BY 4.0
+- **Normalized category:** `cc-by`
+- **Apparent scope:** `dataset_files`
+- **Descriptive screening label:** Standard label without an explicit NC clause; not a permission finding
+
+> :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
+
+## Related datasets with shared modalities
+
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
+- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,700 records, `unknown`)
+- [popeye_nir](./popeye_nir.md): PopEYE Infrared Ocular Image Dataset (14,976 records, `cc-by`)
+- [mcoa](./mcoa.md): MCOA: Multimodal Corneal Opacity Assessment Dataset (6,664 records, `cc-by`)
+- [tear_meniscus](./tear_meniscus.md): Multicentre Tear Meniscus Segmentation Dataset (3,432 records, `cc-by`)
+- [uveitis_smote](./uveitis_smote.md): Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation (3,245 records, `cc-by`)
+- [eed_astig](./eed_astig.md): EED-Astig Pediatric External-Eye Dataset (3,088 records, `research-only`)

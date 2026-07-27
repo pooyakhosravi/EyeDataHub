@@ -1,0 +1,284 @@
+[
+  {
+    "name": "brset",
+    "full_name": "BRSET: Brazilian Multilabel Ophthalmological Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "multilabel",
+      "classification",
+      "quality"
+    ],
+    "num_samples": 16266,
+    "num_classes": 14,
+    "size_gb": 9.0,
+    "license": "PhysioNet Credentialed Health Data License 1.5.0 (Research only)",
+    "license_family": "research-only",
+    "download_type": "physionet",
+    "download_url": "https://physionet.org/content/brazilian-ophthalmological/1.0.1/",
+    "citation": "Nakayama et al., 'A Brazilian Multilabel Ophthalmological Dataset (BRSET)', PLOS Digital Health 2024. doi:10.1371/journal.pdig.0000454",
+    "notes": "Requires PhysioNet credentialed-user account + CITI training + signed Data Use Agreement. Set PHYSIONET_USERNAME and PHYSIONET_PASSWORD in .env to auto-download."
+  },
+  {
+    "name": "mbrset",
+    "full_name": "mBRSET: Mobile Brazilian Retinal Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "num_samples": 5164,
+    "num_classes": 5,
+    "size_gb": 3.0,
+    "license": "PhysioNet Credentialed Health Data License 1.5.0 (Research only)",
+    "license_family": "research-only",
+    "download_type": "physionet",
+    "download_url": "https://physionet.org/content/mbrset/1.0/",
+    "citation": "Nakayama et al., 'A Mobile Brazilian Retinal Dataset (mBRSET) captured with a portable handheld fundus camera', Scientific Data 2025. doi:10.1038/s41597-025-04627-3",
+    "notes": "Same PhysioNet credentialed flow as BRSET. Modality EyeDataHub otherwise lacks (portable smartphone-based fundus)."
+  },
+  {
+    "name": "harvard_fairvision",
+    "full_name": "Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT)",
+    "modality": "multimodal",
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": 30000,
+    "num_classes": 2,
+    "size_gb": 600.0,
+    "license": "CC BY-NC-ND 4.0",
+    "license_family": "cc-by-nc-nd",
+    "download_type": "manual",
+    "download_url": "https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k",
+    "citation": "Luo et al., 'FairVision: Equitable Deep Learning for Eye Disease Screening via Fair Identity Scaling', arXiv 2310.02492; Harvard Ophthalmology AI Lab 2024.",
+    "notes": "Application-gated (Harvard form). No automated mirror. Sub-repos: github.com/Harvard-Ophthalmology-AI-Lab/Harvard-{AMD,DR,Glaucoma}."
+  },
+  {
+    "name": "oct5k",
+    "full_name": "OCT5k: Multi-Disease Retinal Layer Annotations",
+    "modality": "oct",
+    "tasks": [
+      "segmentation",
+      "classification"
+    ],
+    "num_samples": 1672,
+    "num_classes": 8,
+    "size_gb": 1.0,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "direct",
+    "download_url": "https://doi.org/10.5522/04/22128671",
+    "citation": "Morano et al., 'OCT5k: a dataset of multi-disease and multi-graded annotations for retinal layers in OCT images', Scientific Data 2024. doi:10.1038/s41597-024-04259-z",
+    "notes": "UCL Research Data Repository \u2014 Figshare-backed, free download."
+  },
+  {
+    "name": "mario",
+    "full_name": "MARIO: AMD-Progression Longitudinal OCT (MICCAI 2024)",
+    "modality": "oct",
+    "tasks": [
+      "classification",
+      "progression"
+    ],
+    "num_samples": 30000,
+    "num_classes": 4,
+    "size_gb": 25.0,
+    "license": "CC BY-NC 4.0 (challenge-specific agreement)",
+    "license_family": "cc-by-nc",
+    "download_type": "zenodo",
+    "download_url": "https://zenodo.org/records/15270469",
+    "citation": "MARIO Challenge MICCAI 2024 (arXiv 2506.02976). Zenodo: doi:10.5281/zenodo.15270469",
+    "notes": "Distributed as 21 multi-part split zips (Task_1.zip.001-014 + Task_2.zip.001-007, ~21.8 GB). After download, reassemble with `cat Task_1.zip.* > Task_1.zip` then extract with 7-Zip."
+  },
+  {
+    "name": "multieye",
+    "full_name": "MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark",
+    "modality": "multimodal",
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": 58036,
+    "num_classes": 8,
+    "size_gb": 27.3,
+    "license": "MIT (per HF dataset card)",
+    "license_family": "cc-by",
+    "download_type": "huggingface",
+    "download_url": "https://huggingface.co/datasets/Luxuriant16/MultiEYE",
+    "citation": "MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark, IEEE TMI 2025; arXiv:2412.09402",
+    "notes": "Re-aggregates several source datasets \u2014 image licenses inherit from their original sources. Verify per-component before reuse."
+  },
+  {
+    "name": "uwf_zhejiang",
+    "full_name": "Open UWF Fundus Dataset with Disease + Quality Labels",
+    "modality": "uwf_fundus",
+    "tasks": [
+      "classification",
+      "quality"
+    ],
+    "num_samples": 700,
+    "num_classes": null,
+    "size_gb": 2.0,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.26936446",
+    "citation": "Scientific Data 2024. doi:10.1038/s41597-024-04113-2",
+    "notes": ""
+  },
+  {
+    "name": "uwf_dr_peng",
+    "full_name": "UWF Fundus DR Dataset (Peng et al., 2026)",
+    "modality": "uwf_fundus",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "num_samples": 1630,
+    "num_classes": 5,
+    "size_gb": 3.0,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.31259494",
+    "citation": "Peng et al., 'A UWF fundus DR dataset with senior-ophthalmologist labels', Scientific Data 2026. doi:10.1038/s41597-026-07093-7",
+    "notes": ""
+  },
+  {
+    "name": "rop_ostrava",
+    "full_name": "Retinal Image Dataset of Infants and ROP (Ostrava)",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": 6004,
+    "num_classes": null,
+    "size_gb": 5.0,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "kaggle",
+    "download_url": "https://www.kaggle.com/datasets/jananowakova/retinal-image-dataset-of-infants-and-rop",
+    "citation": "Timkovic et al., 'Retinal Image Dataset of Infants and ROP', Scientific Data 2024. doi:10.1038/s41597-024-03409-7",
+    "notes": ""
+  },
+  {
+    "name": "rop_uwf_intelligent",
+    "full_name": "Fundus Dataset for Intelligent ROP System",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "num_samples": 5000,
+    "num_classes": null,
+    "size_gb": 4.0,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.25514449",
+    "citation": "Zhao et al., Scientific Data 2024. doi:10.1038/s41597-024-03362-5",
+    "notes": ""
+  },
+  {
+    "name": "fovea",
+    "full_name": "FOVEA: Pre/Intra-Operative Fundus + Biomicroscopy",
+    "modality": "multimodal",
+    "tasks": [
+      "segmentation"
+    ],
+    "num_samples": 40,
+    "num_classes": null,
+    "size_gb": 4.0,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.28329338",
+    "citation": "Ravasio et al., 'FOVEA: paired pre- and intra-operative fundus + biomicroscopy', Scientific Data 2025. doi:10.1038/s41597-025-04965-2",
+    "notes": "Unique pre-op/intra-op paired modality \u2014 only public example."
+  },
+  {
+    "name": "fundus_avseg",
+    "full_name": "Fundus-AVSeg: Artery-Vein-Crossing Segmentation",
+    "modality": "fundus",
+    "tasks": [
+      "segmentation"
+    ],
+    "num_samples": 100,
+    "num_classes": 4,
+    "size_gb": 0.5,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://figshare.com/articles/dataset/27938034",
+    "citation": "Scientific Data 2025. doi:10.1038/s41597-025-05381-2",
+    "notes": ""
+  },
+  {
+    "name": "hpmi",
+    "full_name": "HPMI: High & Pathological Myopia Identification",
+    "modality": "fundus",
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": 4011,
+    "num_classes": 2,
+    "size_gb": 2.0,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "figshare",
+    "download_url": "https://doi.org/10.6084/m9.figshare.24800232.v2",
+    "citation": "Huang et al., 'HPMI: A retinal fundus image dataset for identification of high and pathological myopia based on deep learning', Figshare 2024. doi:10.6084/m9.figshare.24800232.v2",
+    "notes": "Complements EyeDataHub's PALM (pathological-myopia challenge)."
+  },
+  {
+    "name": "csdi",
+    "full_name": "CSDI: Cataract Severity Diagnostic Image Dataset",
+    "modality": "fundus",
+    "tasks": [
+      "grading",
+      "classification"
+    ],
+    "num_samples": 187,
+    "num_classes": null,
+    "size_gb": 1.0,
+    "license": "CC BY 4.0",
+    "license_family": "cc-by",
+    "download_type": "huggingface",
+    "download_url": "https://huggingface.co/datasets/rainyNighti/CSDI",
+    "citation": "Scientific Data 2026. doi:10.1038/s41597-026-06684-8",
+    "notes": "First public fundus dataset with paired professional cataract reports. HF dataset requires `huggingface-cli login` (HF returned 401 on unauthenticated audit 2026-07). Mirror at github.com/rainyNighti/CSDI."
+  },
+  {
+    "name": "slid",
+    "full_name": "SLID: Slit-Lamp Image Dataset",
+    "modality": "multimodal",
+    "tasks": [
+      "segmentation",
+      "classification"
+    ],
+    "num_samples": 2617,
+    "num_classes": null,
+    "size_gb": 1.0,
+    "license": "See repo (no LICENSE file as of 2026-06; assume research-only)",
+    "license_family": "unknown",
+    "download_type": "direct",
+    "download_url": "https://github.com/xumingyu-hub/SLID",
+    "citation": "Xu et al., 'SLID: Slit-Lamp Image Dataset', Frontiers Digital Health 2025. doi:10.3389/fdgth.2025.1716501",
+    "notes": "Modality EyeDataHub otherwise lacks (slit-lamp anterior-segment). Annotations CSV is at github.com/xumingyu-hub/SLID/raw/main/Annotations.csv."
+  },
+  {
+    "name": "eyecare_100k",
+    "full_name": "Eyecare-100K: Multimodal Ophthalmology VQA Corpus",
+    "modality": "multimodal",
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": 102000,
+    "num_classes": null,
+    "size_gb": 30.0,
+    "license": "Mixed (inherits source-dataset licenses) \u2014 needs per-row check",
+    "license_family": "unknown",
+    "download_type": "huggingface",
+    "download_url": "https://github.com/DCDmllm/EyecareGPT",
+    "citation": "EyecareGPT: arXiv 2504.13650; ACM MM 2025. github.com/DCDmllm/EyecareGPT",
+    "notes": "Status: PENDING RELEASE. Largest open ophthalmology VQA corpus when published. EyecareGPT models are out (LLSuzy/* on HF) but the VQA dataset itself is not yet public as of 2026-06."
+  }
+]

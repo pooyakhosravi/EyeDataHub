@@ -1,0 +1,112 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-package-and-catalog:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install package + dev deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          pip install build ruff pytest pyyaml jsonschema
+
+      - name: Build package
+        run: python -m build
+
+      - name: Lint with ruff
+        run: ruff check eyedatahub/ hub/ --output-format=github
+        continue-on-error: true   # do not block PRs on baseline style cleanup yet
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Import smoke test
+        run: |
+          python -c "import eyedatahub; print('eyedatahub', eyedatahub.__file__)"
+          python -c "from eyedatahub.datasets.registry import REGISTRY; assert len(REGISTRY.list_datasets()) == 251; print(f'{len(REGISTRY.list_datasets())} catalog records loaded')"
+
+      - name: CLI smoke test
+        run: |
+          eyehub --help
+          eyehub --version
+          eyehub search --modality oct --json > /tmp/oct.json
+          eyehub show airogs --json > /tmp/airogs.json
+          eyehub cite airogs --type dataset --format json > /tmp/citation.json
+          eyehub preflight ophthalwechat --json > /tmp/preflight.json
+          python -m json.tool /tmp/oct.json > /dev/null
+          python -m json.tool /tmp/airogs.json > /dev/null
+          python -m json.tool /tmp/citation.json > /dev/null
+          python -m json.tool /tmp/preflight.json > /dev/null
+
+      - name: Validate catalog metadata fields
+        run: |
+          python - <<'PY'
+          import sys
+          from eyedatahub.datasets.registry import REGISTRY
+          required = {"name", "full_name", "primary_category", "modalities", "tasks", "source_terms", "terms_scope", "access_friction", "availability_status", "acquisition_support"}
+          missing = []
+          for ds in REGISTRY.list_datasets():
+              info = ds.info
+              for field in required:
+                  if not getattr(info, field):
+                      missing.append(f"{info.name or '?'} missing {field}")
+          if missing:
+              print("Schema errors:")
+              for m in missing:
+                  print(f"  - {m}")
+              sys.exit(1)
+          print(f"OK: {len(REGISTRY.list_datasets())} catalog records pass field checks")
+          PY
+
+      - name: Validate metadata.json
+        run: |
+          python - <<'PY'
+          import json, sys
+          with open("hub/metadata.json") as f:
+              data = json.load(f)
+          if not isinstance(data, list):
+              sys.exit("metadata.json must be a list")
+          for d in data:
+              for field in ("name", "full_name", "license", "license_family", "modality"):
+                  if field not in d:
+                      sys.exit(f"{d.get('name', '?')} missing {field}")
+          print(f"OK: {len(data)} metadata entries")
+          PY
+
+      - name: Validate URL audit artifact
+        run: |
+          python - <<'PY'
+          import json, sys
+          with open("hub/audit/url_report.json", encoding="utf-8") as f:
+              report = json.load(f)
+          for key in ("metadata", "summary", "findings"):
+              if key not in report:
+                  sys.exit(f"url_report.json missing {key}")
+          from eyedatahub.datasets.registry import REGISTRY
+          expected = len(REGISTRY.list_datasets())
+          if report["summary"].get("total") != expected:
+              sys.exit(f"URL audit does not cover {expected} datasets")
+          metadata = report["metadata"]
+          for key in ("generated_at", "package_version", "timeout_seconds", "concurrency", "status_definitions"):
+              if key not in metadata:
+                  sys.exit(f"URL audit metadata missing {key}")
+          print("OK: URL audit artifact has provenance metadata")
+          PY

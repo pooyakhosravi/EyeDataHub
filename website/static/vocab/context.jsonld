@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "edh": "https://khosravipooya.com/EyeDataHub/vocab/#",
+    "sourceLicenseStatement": "edh:sourceLicenseStatement",
+    "normalizedSourceTermGroup": "edh:normalizedSourceTermGroup",
+    "accessBackend": "edh:accessBackend",
+    "task": "edh:task",
+    "sourceReportedRecords": "edh:sourceReportedRecords",
+    "doiString": "edh:doiString",
+    "independentSourceCheckStatus": "edh:independentSourceCheckStatus",
+    "registrySearchesThrough": "edh:registrySearchesThrough",
+    "sourceCheckScope": "edh:sourceCheckScope"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "_comment": "EyeDataHub unified label harmonization schema",
+
+  "diabetic_retinopathy": {
+    "_description": "Universal 0-4 ETDRS/ICDR DR severity scale (plus null for ungradable)",
+    "universal_grades": {
+      "0": "No DR",
+      "1": "Mild NPDR",
+      "2": "Moderate NPDR",
+      "3": "Severe NPDR",
+      "4": "PDR / Proliferative"
+    },
+    "dataset_mappings": {
+      "aptos2019": {
+        "source_field": "diagnosis",
+        "mapping": {"0": 0, "1": 1, "2": 2, "3": 3, "4": 4},
+        "note": "Native 0-4, no remapping needed"
+      },
+      "idrid": {
+        "source_field": "Retinopathy grade",
+        "mapping": {"0": 0, "1": 1, "2": 2, "3": 3, "4": 4},
+        "note": "Native 0-4 per ICDR, no remapping needed"
+      },
+      "ddr": {
+        "source_field": "label (text file per image)",
+        "mapping": {"0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": null},
+        "note": "Grade 5 = ungradable; mapped to null and excluded from grading tasks"
+      },
+      "maples_dr": {
+        "source_field": "DR_grade (CSV column)",
+        "mapping": {"0": 0, "1": 1, "2": 2, "3": 3, "4": 4},
+        "lesion_tasks": ["MA", "HE", "EX", "SE", "NV"],
+        "note": "MAPLES-DR also provides lesion segmentation masks; grade from CSV"
+      },
+      "deepdrid": {
+        "source_field": "DR_grade",
+        "mapping": {"0": 0, "1": 1, "2": 2, "3": 3, "4": 4},
+        "note": "Dual-view (left/right) and UWF subsets; both use 0-4 ICDR"
+      },
+      "drac22": {
+        "source_field": "DR_grade (0=no DR, 1=NPDR, 2=PDR)",
+        "mapping": {"0": 0, "1": 2, "2": 4},
+        "note": "3-class coarse; mapped to 0/2/4 on the 0-4 scale (no mild/severe distinction)"
+      },
+      "mmrdr": {
+        "source_field": "label",
+        "mapping": {"0": 0, "1": 1, "2": 2, "3": 3, "4": 4},
+        "note": "Multi-modal (fundus+OCT+UWF); uses same 0-4 ICDR scale"
+      },
+      "odir2019": {
+        "source_field": "diagnostic_keywords (multi-label CSV)",
+        "dr_keywords": ["Diabetic Retinopathy", "Proliferative Diabetic Retinopathy",
+                        "Mild Nonproliferative Retinopathy",
+                        "Moderate Non-proliferative Retinopathy",
+                        "Severe Non-proliferative Retinopathy"],
+        "mapping": {
+          "Normal fundus": 0,
+          "Mild Nonproliferative Retinopathy": 1,
+          "Moderate Non-proliferative Retinopathy": 2,
+          "Severe Non-proliferative Retinopathy": 3,
+          "Proliferative Diabetic Retinopathy": 4,
+          "Diabetic Retinopathy": 2
+        },
+        "note": "ODIR is multi-label; DR grade inferred from keyword; non-DR rows excluded from DR task"
+      }
+    }
+  },
+
+  "glaucoma": {
+    "_description": "Binary referral decision: 0 = non-referable, 1 = referable/glaucoma",
+    "universal_grades": {
+      "0": "Non-referable / Healthy",
+      "1": "Referable / Glaucoma suspected or confirmed"
+    },
+    "dataset_mappings": {
+      "airogs": {
+        "source_field": "label (NRG / RG)",
+        "mapping": {"NRG": 0, "RG": 1},
+        "note": "Native binary, no remapping"
+      },
+      "g1020": {
+        "source_field": "label (0=normal, 1=glaucoma)",
+        "mapping": {"0": 0, "1": 1}
+      },
+      "acrima": {
+        "source_field": "folder name (Glaucoma / No_Glaucoma)",
+        "mapping": {"Glaucoma": 1, "No_Glaucoma": 0}
+      },
+      "rimone_dl": {
+        "source_field": "folder name (Glaucoma / Normal)",
+        "mapping": {"Glaucoma": 1, "Normal": 0}
+      },
+      "papila": {
+        "source_field": "Diagnosis (metadata CSV)",
+        "mapping": {"Normal": 0, "Glaucoma": 1, "Suspect": 1},
+        "note": "Suspects treated as referable per clinical convention"
+      },
+      "origa": {
+        "source_field": "Label (0=normal, 1=glaucoma)",
+        "mapping": {"0": 0, "1": 1}
+      },
+      "harvard_glaucoma": {
+        "source_field": "label (0=normal, 1=glaucoma)",
+        "mapping": {"0": 0, "1": 1}
+      },
+      "drishti_gs": {
+        "source_field": "folder (Glaucoma / Non-Glaucoma)",
+        "mapping": {"Glaucoma": 1, "Non-Glaucoma": 0},
+        "note": "Research-only; not in open subset but schema defined for completeness"
+      }
+    },
+    "cup_disc_ratio": {
+      "_description": "CDR is a continuous auxiliary label for glaucoma severity",
+      "datasets_with_cdr": ["papila", "origa", "rimone_dl", "refuge2018", "refuge2"],
+      "field_name": "cdr",
+      "dtype": "float32",
+      "range": [0.0, 1.0]
+    }
+  },
+
+  "vessel_segmentation": {
+    "_description": "Binary pixel-level vessel masks",
+    "pixel_values": {
+      "0": "Background",
+      "1": "Vessel"
+    },
+    "conversion_note": "Source masks may be 0/255 PNG — divide by 255 and cast to uint8",
+    "dataset_mappings": {
+      "chase_db1": {
+        "mask_format": "PNG 0/255",
+        "mask_suffix": "_1stHO.png",
+        "convert": "mask // 255"
+      },
+      "hrf": {
+        "mask_format": "PNG 0/255",
+        "mask_suffix": ".tif vessel mask",
+        "convert": "mask // 255"
+      },
+      "fives": {
+        "mask_format": "PNG 0/255 (G channel for vessels)",
+        "convert": "(mask[:,:,1] > 127).astype(uint8)"
+      }
+    },
+    "optic_disc_cup": {
+      "pixel_values": {
+        "0": "Background / retina",
+        "1": "Optic Disc (OD)",
+        "2": "Optic Cup (OC)"
+      },
+      "datasets": ["origa", "papila", "rimone_dl", "refuge2018", "refuge2", "drishti_gs"],
+      "conversion_note": "Some datasets store OD and OC as separate binary PNGs; merge: disc=1 where disc_mask>0, cup=2 where cup_mask>0"
+    }
+  },
+
+  "oct_disease_classification": {
+    "_description": "Unified OCT disease labels — coarse 5-class scheme",
+    "universal_classes": {
+      "0": "NORMAL",
+      "1": "CNV (Choroidal Neovascularization)",
+      "2": "DME (Diabetic Macular Edema)",
+      "3": "DRUSEN / AMD (dry)",
+      "4": "OTHER (MH, CSR, TSR, etc.)"
+    },
+    "dataset_mappings": {
+      "kermany_oct": {
+        "source_folders": ["CNV", "DME", "DRUSEN", "NORMAL"],
+        "mapping": {"NORMAL": 0, "CNV": 1, "DME": 2, "DRUSEN": 3}
+      },
+      "octid": {
+        "source_classes": ["NORMAL", "AMD", "CNV", "CSR", "DR", "MH", "TSR_SRF"],
+        "mapping": {
+          "NORMAL": 0, "CNV": 1, "DME": 2, "AMD": 3,
+          "DR": 2, "CSR": 4, "MH": 4, "TSR_SRF": 4
+        },
+        "note": "AMD→DRUSEN class; DR→DME class; CSR/MH/TSR_SRF→OTHER"
+      },
+      "oct_cirrus": {
+        "source_folders": ["AMD", "DME", "NORMAL"],
+        "mapping": {"NORMAL": 0, "DME": 2, "AMD": 3}
+      },
+      "octdl": {
+        "source_classes": ["NORMAL", "CNV", "DME", "DRUSEN", "MH", "CSR", "AO"],
+        "mapping": {
+          "NORMAL": 0, "CNV": 1, "DME": 2, "DRUSEN": 3,
+          "MH": 4, "CSR": 4, "AO": 4
+        }
+      },
+      "nehut": {
+        "source_classes": ["Normal", "CNV", "DME", "DRUSEN"],
+        "mapping": {"Normal": 0, "CNV": 1, "DME": 2, "DRUSEN": 3}
+      }
+    }
+  },
+
+  "oct_layer_segmentation": {
+    "_description": "Pixel-level retinal layer labels for OCT B-scans",
+    "universal_layers": {
+      "0":  "Background (vitreous / choroid)",
+      "1":  "ILM — Inner Limiting Membrane (boundary marker)",
+      "2":  "RNFL — Retinal Nerve Fiber Layer",
+      "3":  "GCL+IPL — Ganglion Cell + Inner Plexiform",
+      "4":  "INL — Inner Nuclear Layer",
+      "5":  "OPL — Outer Plexiform Layer",
+      "6":  "ONL — Outer Nuclear Layer",
+      "7":  "IS/OS — Inner/Outer Segment junction",
+      "8":  "RPE — Retinal Pigment Epithelium",
+      "9":  "Fluid (IRF/SRF)",
+      "10": "Hard Exudate / Other lesion"
+    },
+    "dataset_mappings": {
+      "oimhs": {
+        "classes": ["background", "retina", "choroid", "macular_hole"],
+        "mapping": {"background": 0, "retina": 2, "choroid": 8, "macular_hole": 9}
+      },
+      "octave": {
+        "classes_13": ["BG","ILM","RNFL","GCL","IPL","INL","OPL","ONL","ELM","MZ","IZ","RPE","BM"],
+        "mapping": {"BG":0,"ILM":1,"RNFL":2,"GCL":3,"IPL":3,"INL":4,"OPL":5,"ONL":6,"ELM":7,"MZ":7,"IZ":7,"RPE":8,"BM":0}
+      },
+      "goals": {
+        "classes": ["background", "RNFL", "GCIPL", "choroid"],
+        "mapping": {"background": 0, "RNFL": 2, "GCIPL": 3, "choroid": 8}
+      },
+      "tian_oct": {
+        "note": "Boundary coordinates (not pixel masks); 8 boundary lines → 7 layer regions",
+        "boundaries": ["ILM","RNFL-GCL","IPL-INL","INL-OPL","OPL-ONL","IS-OS","RPE"],
+        "region_ids": [2, 3, 4, 5, 6, 7, 8]
+      }
+    }
+  },
+
+  "multilabel_fundus": {
+    "_description": "Multi-label disease presence for ODIR/RFMiD",
+    "universal_labels": [
+      "Normal", "Diabetic Retinopathy", "Glaucoma", "Cataract",
+      "AMD", "Hypertension", "Myopia", "Other"
+    ],
+    "dataset_mappings": {
+      "rfmid": {
+        "source_labels": 45,
+        "coarse_mapping": {
+          "DR": "Diabetic Retinopathy", "TSLN": "Other",
+          "ERM": "Other", "LS": "Other", "MH": "Other",
+          "DN": "Other", "MYA": "Myopia", "BRVO": "Other",
+          "CRVO": "Other", "TV": "Other", "AH": "Other",
+          "ODP": "Other", "ODE": "Other", "ST": "Other",
+          "AION": "Other", "PT": "Other", "RT": "Other",
+          "RS": "Other", "CRS": "Other", "EDN": "Other",
+          "RPEC": "Other", "MHL": "Other", "RP": "Other",
+          "CWS": "Hypertension", "CB": "Other", "ODPM": "Other",
+          "PRH": "Other", "MNF": "Other", "HR": "Other",
+          "CRAO": "Other", "TD": "Other", "CME": "Other",
+          "PTCR": "Other", "CF": "Cataract", "VH": "Other",
+          "MCA": "AMD", "VS": "Other", "BRAO": "Other",
+          "PLQ": "Other", "HPED": "AMD", "CL": "Other"
+        }
+      },
+      "odir2019": {
+        "left_right_per_eye": true,
+        "columns": ["Left-Diagnostic Keywords", "Right-Diagnostic Keywords"],
+        "coarse_mapping": {
+          "Normal fundus": "Normal",
+          "Diabetic Retinopathy": "Diabetic Retinopathy",
+          "Proliferative Diabetic Retinopathy": "Diabetic Retinopathy",
+          "Glaucoma": "Glaucoma",
+          "Cataract": "Cataract",
+          "Age-related Macular Degeneration": "AMD",
+          "Macular Degeneration": "AMD",
+          "Hypertensive Retinopathy": "Hypertension",
+          "Pathological Myopia": "Myopia"
+        }
+      }
+    }
+  },
+
+  "visual_field": {
+    "_description": "24-2 Humphrey Visual Field test data",
+    "fields": {
+      "td": "Total Deviation (dB array, 54 locations)",
+      "pd": "Pattern Deviation (dB array, 54 locations)",
+      "md": "Mean Deviation (scalar dB)",
+      "vfi": "Visual Field Index (0-100 %)",
+      "pattern": "GHT category"
+    },
+    "dataset_mappings": {
+      "uwhvf": {
+        "source_format": "JSON per patient",
+        "fields": ["td", "pd", "md", "age", "eye", "label"],
+        "label_mapping": {"0": 0, "1": 1}
+      }
+    }
+  }
+}

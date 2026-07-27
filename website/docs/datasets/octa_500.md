@@ -1,0 +1,118 @@
+---
+id: octa_500
+title: "OCTA-500: Large-scale OCTA Multi-task Benchmark"
+sidebar_label: octa_500
+description: "500 subjects with OCTA volumes, vessel segmentation, FAZ (foveal avascular zone) annotations, and layer segmentation. Largest public OCTA dataset."
+tags: ["octa", "research-only", "manual", "segmentation", "classification"]
+---
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# OCTA-500: Large-scale OCTA Multi-task Benchmark
+
+500 subjects with OCTA volumes, vessel segmentation, FAZ (foveal avascular zone) annotations, and layer segmentation. Largest public OCTA dataset.
+
+## At a glance
+
+| Field | Value |
+| --- | --- |
+| **Short name** | `octa_500` |
+| **Full name** | OCTA-500: Large-scale OCTA Multi-task Benchmark |
+| **Primary category** | `octa` |
+| **Contained modalities** | octa |
+| **Tasks** | segmentation, classification |
+| **Samples** | 500 |
+| **Classes** | 4 (Not reported) |
+| **Splits** | train, val, test |
+| **Size** | 70.0 GB |
+| **Source-stated terms** | IEEE DataPort Open Access (research only) |
+| **Normalized terms** | `research-only` |
+| **Descriptive screening label** | Research or challenge restriction recorded; check source |
+| **Terms scope** | `dataset_files` |
+| **Access friction** | `author_contact` |
+| **Route backend** | Manual (upstream-gated) |
+| **Availability** | `available` (checked 2026-07-21) |
+| **Acquisition support** | `manual_access_blocked` |
+| **Legacy sample-loader status** | Metadata and access only |
+
+
+## Notes
+
+> IEEE login + password-protected zip — email chen2qiang@njust.edu.cn for the unlock password.
+
+## Access preflight and acquisition
+
+<Tabs>
+  <TabItem value="cli" label="CLI" default>
+
+```bash
+# This route requires upstream human action; no transfer starts.
+eyehub download octa_500 --data-dir ./data --dry-run --json
+# Follow the official instructions shown by preflight.
+```
+
+  </TabItem>
+  <TabItem value="python" label="Python">
+
+```python
+from eyedatahub.acquisition import preflight_dataset
+from eyedatahub.datasets.registry import REGISTRY
+
+ds = REGISTRY.get_dataset('octa_500')
+print(preflight_dataset(ds, './data'))  # returns manual_access_blocked
+```
+
+  </TabItem>
+</Tabs>
+
+**Upstream page:** [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/octa-500)
+
+**Source-term evidence:** [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/octa-500)
+
+## Loader status
+
+This catalog record provides metadata and access instructions, but it does not yet include a standard `DatasetSample` loader. Inspect the source file structure or contribute a loader before using it in a training pipeline.
+
+## Citation
+
+<Tabs>
+  <TabItem value="bibtex" label="BibTeX" default>
+
+```bibtex
+@misc{octa_500,
+  title  = { OCTA-500: Large-scale OCTA Multi-task Benchmark },
+  note   = { Li et al., 'OCTA-500: A retinal dataset for optical coherence tomography angiography study', Medical Image Analysis 2024 },
+  year   = { 2024 },
+  url    = { https://ieee-dataport.org/open-access/octa-500 },
+}
+```
+
+  </TabItem>
+  <TabItem value="apa" label="Plain text">
+
+```text
+Li et al., 'OCTA-500: A retinal dataset for optical coherence tomography angiography study', Medical Image Analysis 2024.
+```
+
+  </TabItem>
+</Tabs>
+
+## Source-stated terms
+
+- **Raw source string:** IEEE DataPort Open Access (research only)
+- **Normalized category:** `research-only`
+- **Apparent scope:** `dataset_files`
+- **Descriptive screening label:** Research or challenge restriction recorded; check source
+
+> :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
+
+## Related datasets with shared modalities
+
+- [octa_macula_coronal](./octa_macula_coronal.md): OCTA Macula Coronal Views (82,560 records, `cc-by`)
+- [aroma_octa](./aroma_octa.md): AROMA Retinal OCTA Artifact Dataset (281 records, `cc-by`)
+- [rose](./rose.md): ROSE: Retinal OCT-Angiography Vessel Segmentation (229 records, `cc-by`)
+- [soul_octa](./soul_octa.md): SOUL: OCTA Human-Machine Collaborative Annotation Dataset (178 records, `cc-by`)
+- [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 records, `cc-by`)
+- [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (count not reported records, `unknown`)

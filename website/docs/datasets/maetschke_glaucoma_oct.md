@@ -1,0 +1,122 @@
+---
+id: maetschke_glaucoma_oct
+title: "OCT Volumes for Glaucoma Detection"
+sidebar_label: maetschke_glaucoma_oct
+description: "A set of 1,110 optic nerve head OCT volumes from 624 patients, including 847 scans with primary open angle glaucoma and 263 healthy scans."
+tags: ["oct", "cc-by-nc", "zenodo", "classification"]
+---
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# OCT Volumes for Glaucoma Detection
+
+A set of 1,110 optic nerve head OCT volumes from 624 patients, including 847 scans with primary open angle glaucoma and 263 healthy scans.
+
+## At a glance
+
+| Field | Value |
+| --- | --- |
+| **Short name** | `maetschke_glaucoma_oct` |
+| **Full name** | OCT Volumes for Glaucoma Detection |
+| **Primary category** | `oct` |
+| **Contained modalities** | oct |
+| **Tasks** | classification |
+| **Samples** | 1,110 |
+| **Classes** | 2 (healthy, primary_open_angle_glaucoma) |
+| **Splits** | train, val, test |
+| **Size** | 0.43 GB |
+| **Source-stated terms** | CC BY-NC 4.0 |
+| **Normalized terms** | `cc-by-nc` |
+| **Descriptive screening label** | Explicit noncommercial clause recorded; check source |
+| **Terms scope** | `dataset_files` |
+| **Access friction** | `anonymous_direct` |
+| **Route backend** | Zenodo |
+| **Availability** | `available` (checked 2026-07-21) |
+| **Acquisition support** | `standard_platform_supported` |
+| **Legacy sample-loader status** | Metadata and access only |
+
+
+## Notes
+
+> The paper reports patient-grouped splits of 888 training, 112 validation, and 110 test scans. Volumes are stored as NumPy arrays.
+
+## Access preflight and acquisition
+
+<Tabs>
+  <TabItem value="cli" label="CLI" default>
+
+```bash
+# Read-only preflight
+eyehub download maetschke_glaucoma_oct --data-dir ./data --dry-run --json
+
+# Explicit transfer, only when preflight reports supported behavior
+eyehub download maetschke_glaucoma_oct --data-dir ./data
+```
+
+  </TabItem>
+  <TabItem value="python" label="Python">
+
+```python
+from eyedatahub.acquisition import preflight_dataset
+from eyedatahub.datasets.registry import REGISTRY
+
+ds = REGISTRY.get_dataset('maetschke_glaucoma_oct')
+print(preflight_dataset(ds, './data'))  # no transfer
+```
+
+  </TabItem>
+</Tabs>
+
+**Upstream page:** [https://doi.org/10.5281/zenodo.1481223](https://doi.org/10.5281/zenodo.1481223)
+
+**Source-term evidence:** [https://doi.org/10.5281/zenodo.1481223](https://doi.org/10.5281/zenodo.1481223)
+
+## Loader status
+
+This catalog record provides metadata and access instructions, but it does not yet include a standard `DatasetSample` loader. Inspect the source file structure or contribute a loader before using it in a training pipeline.
+
+## Citation
+
+<Tabs>
+  <TabItem value="bibtex" label="BibTeX" default>
+
+```bibtex
+@misc{maetschke_glaucoma_oct,
+  title  = { OCT Volumes for Glaucoma Detection },
+  note   = { Maetschke S, Antony B, Ishikawa H, Wollstein G, Schuman J, Garnavi R. A feature agnostic approach for glaucoma detection in OCT volumes. PLoS One. 2019;14:e0219126. doi:10.1371/journal.pone.0219126. Data: doi:10.5281/zenodo.1481223 },
+  year   = { 2019 },
+  url    = { https://doi.org/10.5281/zenodo.1481223 },
+}
+```
+
+  </TabItem>
+  <TabItem value="apa" label="Plain text">
+
+```text
+Maetschke S, Antony B, Ishikawa H, Wollstein G, Schuman J, Garnavi R. A feature agnostic approach for glaucoma detection in OCT volumes. PLoS One. 2019;14:e0219126. doi:10.1371/journal.pone.0219126. Data: doi:10.5281/zenodo.1481223
+```
+
+  </TabItem>
+</Tabs>
+
+## Source-stated terms
+
+- **Raw source string:** CC BY-NC 4.0
+- **Normalized category:** `cc-by-nc`
+- **Apparent scope:** `dataset_files`
+- **Descriptive screening label:** Explicit noncommercial clause recorded; check source
+
+> :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
+
+## Related datasets with shared modalities
+
+- [syn_oct](./syn_oct.md): SYN-OCT Synthetic Glaucoma OCT Dataset (200,000 records, `cc-by`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
+- [kermany_oct](./kermany_oct.md): Kermany OCT 2018: Retinal OCT Image Classification (84,484 records, `cc-by`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
+- [harvard_fairvision](./harvard_fairvision.md): Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) (30,000 records, `cc-by-nc-nd`)
+- [mario](./mario.md): MARIO: AMD-Progression Longitudinal OCT (MICCAI 2024) (30,000 records, `cc-by`)
+- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 records, `cc-by`)

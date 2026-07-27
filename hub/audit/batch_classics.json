@@ -1,0 +1,425 @@
+[
+    {
+        "name":  "messidor1",
+        "full_name":  "MESSIDOR (Original)",
+        "modality":  "fundus",
+        "tasks":  [
+                      "grading",
+                      "classification"
+                  ],
+        "num_samples":  1200,
+        "num_classes":  4,
+        "size_gb":  3.0,
+        "license":  "Research only (free with registration; withdrawn 2018)",
+        "license_family":  "research-only",
+        "download_type":  "manual",
+        "download_url":  "https://www.adcis.net/en/third-party/messidor/",
+        "citation":  "Decencière et al., \u0027Feedback on a Publicly Distributed Image Database: The Messidor Database\u0027, Image Anal Stereol 2014.",
+        "notes":  "DEPRECATED: ADCIS withdrew MESSIDOR-1 in 2018. Use `messidor2` (already in EyeDataHub) instead. Kept for reproducing pre-2018 benchmark papers."
+    },
+    {
+        "name":  "e_ophtha",
+        "full_name":  "E-ophtha (EX + MA): Exudate and Microaneurysm Segmentation",
+        "modality":  "fundus",
+        "tasks":  [
+                      "segmentation"
+                  ],
+        "num_samples":  463,
+        "num_classes":  2,
+        "size_gb":  1.0,
+        "license":  "Research only (TeleOphta project; Kaggle mirror)",
+        "license_family":  "research-only",
+        "download_type":  "kaggle",
+        "download_url":  "https://www.kaggle.com/datasets/samriddhibagchi/e-ophtha-diabetic-retinopathy-datasets-ex-ma",
+        "citation":  "Decencière et al., \u0027TeleOphta: Machine Learning and Image Processing Methods for Teleophthalmology\u0027, IRBM 2013.",
+        "notes":  "Official source (ADCIS) requires a request form. EyeDataHub uses the Kaggle community mirror. Verify license terms with the original ADCIS distribution before commercial use."
+    },
+    {
+        "name":  "roc",
+        "full_name":  "ROC: Retinopathy Online Challenge",
+        "modality":  "fundus",
+        "tasks":  [
+                      "segmentation",
+                      "classification"
+                  ],
+        "num_samples":  100,
+        "num_classes":  2,
+        "size_gb":  0.3,
+        "license":  "Research only (free for research, University of Iowa)",
+        "license_family":  "research-only",
+        "download_type":  "manual",
+        "download_url":  "http://webeye.ophth.uiowa.edu/ROC/",
+        "citation":  "Niemeijer et al., \u0027Retinopathy Online Challenge: Automatic Detection of Microaneurysms in Digital Color Fundus Photographs\u0027, IEEE TMI 2010.",
+        "notes":  "University of Iowa registration form required — no auto path."
+    },
+    {
+        "name":  "drions_db",
+        "full_name":  "DRIONS-DB: Digital Retinal Images for Optic Nerve Segmentation",
+        "modality":  "fundus",
+        "tasks":  [
+                      "segmentation"
+                  ],
+        "num_samples":  110,
+        "num_classes":  2,
+        "size_gb":  0.2,
+        "license":  "Research only (UNED public release)",
+        "license_family":  "research-only",
+        "download_type":  "direct",
+        "download_url":  "https://www.ia.uned.es/~ejcarmona/DRIONS-DB.html",
+        "citation":  "Carmona et al., \u0027Identification of the Optic Nerve Head with Genetic Algorithms\u0027, Artificial Intelligence in Medicine 2008.",
+        "notes":  "UNED host serves an expired SSL certificate as of 2026-07. EyeDataHub falls back to an unverified HTTPS request; set PYTHONHTTPSVERIFY=0 in your environment if requests still fails cert validation. Distributed as .rar — needs `unrar` (Linux: `apt install unrar`; macOS: `brew install rar`; Windows: 7-Zip)."
+    },
+    {
+        "name":  "rite",
+        "full_name":  "RITE: Retinal Images Vessel Tree Extraction (Artery/Vein)",
+        "modality":  "fundus",
+        "tasks":  [
+                      "segmentation"
+                  ],
+        "num_samples":  40,
+        "num_classes":  4,
+        "size_gb":  0.1,
+        "license":  "Research only (Iowa Qualtrics request form)",
+        "license_family":  "research-only",
+        "download_type":  "manual",
+        "download_url":  "https://eye.medicine.uiowa.edu/rite-dataset",
+        "citation":  "Hu et al., \u0027Automated Separation of Binary Overlapping Trees in Low-Contrast Color Retinal Images\u0027, MICCAI 2013.",
+        "notes":  "Iowa Qualtrics form gates download — no auto path."
+    },
+    {
+        "name":  "fire",
+        "full_name":  "FIRE: Fundus Image Registration Dataset",
+        "modality":  "fundus",
+        "tasks":  [
+                      "regression"
+                  ],
+        "num_samples":  268,
+        "num_classes":  null,
+        "size_gb":  1.0,
+        "license":  "Research only (FORTH CVRL)",
+        "license_family":  "research-only",
+        "download_type":  "direct",
+        "download_url":  "https://projects.ics.forth.gr/cvrl/fire/",
+        "citation":  "Hernandez-Matas et al., \u0027FIRE: Fundus Image Registration Dataset\u0027, Journal of Modeling in Ophthalmology 2017.",
+        "notes":  "FORTH host serves an expired SSL cert as of 2026-07. Set REQUESTS_CA_BUNDLE=/path/to/bundle or PYTHONHTTPSVERIFY=0. Distributed as 7z — extract with 7-Zip / `7z x FIRE.7z`."
+    },
+    {
+        "name":  "dr_hagis",
+        "full_name":  "DR-HAGIS: DR, Hypertension, AMD, Glaucoma Image Set",
+        "modality":  "fundus",
+        "tasks":  [
+                      "segmentation"
+                  ],
+        "num_samples":  39,
+        "num_classes":  2,
+        "size_gb":  0.1,
+        "license":  "Research only (free with citation, Manchester)",
+        "license_family":  "research-only",
+        "download_type":  "manual",
+        "download_url":  "https://personalpages.manchester.ac.uk/staff/niall.p.mcloughlin/",
+        "citation":  "Holm et al., \u0027DR-HAGIS — A Fundus Image Database for the Automatic Extraction of Retinal Surface Vessels from Diabetic Patients\u0027, J. Medical Imaging 2017.",
+        "notes":  "STALE LINK: Original Manchester URL returns 404 as of 2026-06. Try contacting the author or searching for community mirrors before relying on this entry."
+    },
+    {
+        "name":  "riga",
+        "full_name":  "RIGA: Retinal Fundus Images for Glaucoma Analysis",
+        "modality":  "fundus",
+        "tasks":  [
+                      "segmentation"
+                  ],
+        "num_samples":  750,
+        "num_classes":  3,
+        "size_gb":  2.0,
+        "license":  "CC BY-NC 4.0",
+        "license_family":  "cc-by-nc",
+        "download_type":  "direct",
+        "download_url":  "https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z",
+        "citation":  "Almazroa et al., \u0027Retinal Fundus Images for Glaucoma Analysis: The RIGA Dataset\u0027, J. Medical Imaging 2018.",
+        "notes":  "Three sub-archives (BinRushed, Magrabi, MESSIDOR). The MESSIDOR sub-archive is large; if download fails, try the Academic Torrents mirror (infohash eb9dd9216a1c9a622250ad70a400204e7531196d)."
+    },
+    {
+        "name":  "lag",
+        "full_name":  "LAG: Large-scale Attention-based Glaucoma Database",
+        "modality":  "fundus",
+        "tasks":  [
+                      "classification",
+                      "segmentation"
+                  ],
+        "num_samples":  11760,
+        "num_classes":  2,
+        "size_gb":  3.0,
+        "license":  "Research only (no redistribution; password by email)",
+        "license_family":  "research-only",
+        "download_type":  "manual",
+        "download_url":  "https://github.com/smilell/AG-CNN",
+        "citation":  "Li et al., \u0027Attention Based Glaucoma Detection: A Large-scale Database and CNN Model\u0027, CVPR 2019.",
+        "notes":  "Dropbox link gated by password — email liliu1995@buaa.edu.cn to request access. Cannot be auto-downloaded."
+    },
+    {
+        "name":  "chaksu",
+        "full_name":  "CHAKSU: Multi-Device Glaucoma Fundus Dataset",
+        "modality":  "fundus",
+        "tasks":  [
+                      "classification",
+                      "segmentation"
+                  ],
+        "num_samples":  1345,
+        "num_classes":  3,
+        "size_gb":  5.0,
+        "license":  "CC BY 4.0",
+        "license_family":  "cc-by",
+        "download_type":  "figshare",
+        "download_url":  "https://figshare.com/articles/dataset/Ch_k_u_A_glaucoma_specific_fundus_image_database/20123135",
+        "citation":  "Kumar et al., \u0027CHAKSU: A glaucoma-specific fundus image database\u0027, Scientific Data 2023.",
+        "notes":  ""
+    },
+    {
+        "name":  "hygd",
+        "full_name":  "HYGD: Hillel Yaffe Glaucoma Dataset",
+        "modality":  "fundus",
+        "tasks":  [
+                      "classification"
+                  ],
+        "num_samples":  747,
+        "num_classes":  2,
+        "size_gb":  1.0,
+        "license":  "ODC-BY 1.0 (Open Data Commons Attribution)",
+        "license_family":  "unknown",
+        "download_type":  "physionet",
+        "download_url":  "https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.1.0/",
+        "citation":  "Hillel Yaffe Glaucoma Dataset, PhysioNet 2024 (v1.1.0). Labels gold-standardized via OCT + visual field.",
+        "notes":  "Open-access (ODC-BY) — no PhysioNet credentialing required."
+    },
+    {
+        "name":  "smdg",
+        "full_name":  "SMDG-19: Standardized Multi-channel Glaucoma Benchmark",
+        "modality":  "fundus",
+        "tasks":  [
+                      "classification",
+                      "segmentation"
+                  ],
+        "num_samples":  12000,
+        "num_classes":  2,
+        "size_gb":  5.0,
+        "license":  "CC0 1.0 (Public Domain)",
+        "license_family":  "cc0",
+        "download_type":  "kaggle",
+        "download_url":  "https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset",
+        "citation":  "Kiefer, \u0027Standardized Multi-channel Dataset for Glaucoma (SMDG-19)\u0027, Kaggle 2022.",
+        "notes":  "Aggregator — overlaps with several EyeDataHub-indexed glaucoma datasets. Useful for unified multi-source training."
+    },
+    {
+        "name":  "mured",
+        "full_name":  "MuReD: Multi-label Retinal Diseases Dataset",
+        "modality":  "fundus",
+        "tasks":  [
+                      "multilabel",
+                      "classification"
+                  ],
+        "num_samples":  2208,
+        "num_classes":  20,
+        "size_gb":  2.0,
+        "license":  "CC BY 4.0",
+        "license_family":  "cc-by",
+        "download_type":  "mendeley",
+        "download_url":  "https://data.mendeley.com/datasets/pc4mb3h8hz/1",
+        "citation":  "Rodriguez et al., \u0027Multi-label Retinal Disease Classification using Transformers\u0027, CIBM 2022.",
+        "notes":  ""
+    },
+    {
+        "name":  "sustech_sysu",
+        "full_name":  "SUSTech-SYSU Diabetic Retinopathy + Exudate Dataset",
+        "modality":  "fundus",
+        "tasks":  [
+                      "grading",
+                      "segmentation",
+                      "classification"
+                  ],
+        "num_samples":  1219,
+        "num_classes":  5,
+        "size_gb":  3.0,
+        "license":  "CC BY 4.0",
+        "license_family":  "cc-by",
+        "download_type":  "figshare",
+        "download_url":  "https://figshare.com/articles/dataset/SUSTech-SYSU_dataset/12570283",
+        "citation":  "Lin et al., \u0027The SUSTech-SYSU dataset for automated exudate detection and diabetic retinopathy grading\u0027, Scientific Data 2020.",
+        "notes":  ""
+    },
+    {
+        "name":  "paraguay_dr",
+        "full_name":  "Paraguay Color Fundus DR Dataset",
+        "modality":  "fundus",
+        "tasks":  [
+                      "grading",
+                      "classification"
+                  ],
+        "num_samples":  757,
+        "num_classes":  7,
+        "size_gb":  0.5,
+        "license":  "CC BY 4.0",
+        "license_family":  "cc-by",
+        "download_type":  "zenodo",
+        "download_url":  "https://zenodo.org/record/4647952",
+        "citation":  "Castillo Benítez et al., Paraguay DR Dataset, Zenodo 2021. doi:10.5281/zenodo.4647952",
+        "notes":  ""
+    },
+    {
+        "name":  "jichi",
+        "full_name":  "Jichi Medical University Diabetic Retinopathy Dataset",
+        "modality":  "fundus",
+        "tasks":  [
+                      "grading",
+                      "classification"
+                  ],
+        "num_samples":  9939,
+        "num_classes":  4,
+        "size_gb":  10.0,
+        "license":  "CC BY 4.0",
+        "license_family":  "cc-by",
+        "download_type":  "figshare",
+        "download_url":  "https://figshare.com/articles/dataset/Davis_Grading_of_One_and_Concatenated_Figures/4879853",
+        "citation":  "Takahashi et al., \u0027Applying artificial intelligence to disease staging: Deep learning for improved staging of diabetic retinopathy\u0027, PLOS ONE 2017.",
+        "notes":  ""
+    },
+    {
+        "name":  "drtid",
+        "full_name":  "DRTiD: Diabetic Retinopathy Two-field Image Dataset",
+        "modality":  "fundus",
+        "tasks":  [
+                      "grading",
+                      "classification"
+                  ],
+        "num_samples":  3100,
+        "num_classes":  5,
+        "size_gb":  3.0,
+        "license":  "Research only (application form)",
+        "license_family":  "research-only",
+        "download_type":  "manual",
+        "download_url":  "https://github.com/FDU-VTS/DRTiD",
+        "citation":  "Hou et al., \u0027Cross-Field Transformer for Diabetic Retinopathy Grading on Two-field Fundus Images\u0027, MICCAI 2022.",
+        "notes":  "Wenjuanxing application form — no auto path."
+    },
+    {
+        "name":  "mfiddr",
+        "full_name":  "MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy",
+        "modality":  "fundus",
+        "tasks":  [
+                      "grading",
+                      "classification",
+                      "multilabel"
+                  ],
+        "num_samples":  34452,
+        "num_classes":  5,
+        "size_gb":  30.0,
+        "license":  "MIT (form-gated download)",
+        "license_family":  "cc-by",
+        "download_type":  "manual",
+        "download_url":  "https://github.com/mfiddr/MFIDDR",
+        "citation":  "MFIDDR Multi-Field Imaging Dataset for DR. github.com/mfiddr/MFIDDR",
+        "notes":  "Google Form gates the Drive link — no static download ID."
+    },
+    {
+        "name":  "retouch",
+        "full_name":  "RETOUCH: RETinal OCT Fluid Challenge",
+        "modality":  "oct",
+        "tasks":  [
+                      "segmentation"
+                  ],
+        "num_samples":  112,
+        "num_classes":  4,
+        "size_gb":  5.0,
+        "license":  "Research only (signed DUA via Grand Challenge)",
+        "license_family":  "research-only",
+        "download_type":  "manual",
+        "download_url":  "https://retouch.grand-challenge.org/",
+        "citation":  "Bogunovic et al., \u0027RETOUCH — The Retinal OCT Fluid Detection and Segmentation Benchmark and Challenge\u0027, IEEE TMI 2019.",
+        "notes":  "Grand Challenge account + signed DUA required."
+    },
+    {
+        "name":  "rose",
+        "full_name":  "ROSE: Retinal OCT-Angiography Vessel Segmentation",
+        "modality":  "octa",
+        "tasks":  [
+                      "segmentation"
+                  ],
+        "num_samples":  229,
+        "num_classes":  2,
+        "size_gb":  0.8,
+        "license":  "Research only (academic use)",
+        "license_family":  "research-only",
+        "download_type":  "zenodo",
+        "download_url":  "https://zenodo.org/doi/10.5281/zenodo.12775880",
+        "citation":  "Ma et al., \u0027ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New Model\u0027, IEEE TMI 2021.",
+        "notes":  "Moved from form-gated imed.nimte.ac.cn to public Zenodo — EyeDataHub auto-downloads from Zenodo (record 12775880)."
+    },
+    {
+        "name":  "octa_500",
+        "full_name":  "OCTA-500: Large-scale OCTA Multi-task Benchmark",
+        "modality":  "octa",
+        "tasks":  [
+                      "segmentation",
+                      "classification"
+                  ],
+        "num_samples":  500,
+        "num_classes":  4,
+        "size_gb":  70.0,
+        "license":  "IEEE DataPort Open Access (research only)",
+        "license_family":  "research-only",
+        "download_type":  "manual",
+        "download_url":  "https://ieee-dataport.org/open-access/octa-500",
+        "citation":  "Li et al., \u0027OCTA-500: A retinal dataset for optical coherence tomography angiography study\u0027, Medical Image Analysis 2024.",
+        "notes":  "IEEE login + password-protected zip — email chen2qiang@njust.edu.cn for the unlock password."
+    },
+    {
+        "name":  "prime_fp20",
+        "full_name":  "PRIME-FP20: Ultra-Widefield Vessel Segmentation",
+        "modality":  "uwf_fundus",
+        "tasks":  [
+                      "segmentation"
+                  ],
+        "num_samples":  15,
+        "num_classes":  2,
+        "size_gb":  0.5,
+        "license":  "CC BY 4.0",
+        "license_family":  "cc-by",
+        "download_type":  "manual",
+        "download_url":  "https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset",
+        "citation":  "Ding et al., \u0027A Novel Deep Learning Pipeline for Retinal Vessel Detection in Fluorescein Angiography\u0027, IEEE TMI 2021.",
+        "notes":  "IEEE DataPort free account login required."
+    },
+    {
+        "name":  "cataracts2017",
+        "full_name":  "CATARACTS 2017: Surgical Tool Detection Challenge",
+        "modality":  "surgical_video",
+        "tasks":  [
+                      "classification",
+                      "multilabel"
+                  ],
+        "num_samples":  50,
+        "num_classes":  21,
+        "size_gb":  50.0,
+        "license":  "CC BY 4.0 (IEEE DataPort)",
+        "license_family":  "cc-by",
+        "download_type":  "manual",
+        "download_url":  "https://ieee-dataport.org/open-access/cataracts",
+        "citation":  "Al Hajj et al., \u0027CATARACTS: Challenge on Automatic Tool Annotation for cataRACT Surgery\u0027, Medical Image Analysis 2019.",
+        "notes":  "IEEE DataPort free account login required."
+    },
+    {
+        "name":  "deepeyenet",
+        "full_name":  "DeepEyeNet (DEN): Fundus Report Generation Dataset",
+        "modality":  "fundus",
+        "tasks":  [
+                      "classification"
+                  ],
+        "num_samples":  15709,
+        "num_classes":  null,
+        "size_gb":  5.0,
+        "license":  "Research only (NDA via email request)",
+        "license_family":  "research-only",
+        "download_type":  "manual",
+        "download_url":  "https://github.com/Jhhuangkay/DeepOpht-Medical-Report-Generation-for-Retinal-Images-via-Deep-Models-and-Visual-Explanation",
+        "citation":  "Huang et al., \u0027DeepOpht: Medical Report Generation for Retinal Images via Deep Models and Visual Explanation\u0027, WACV 2021.",
+        "notes":  "NDA gated — email deepeyenet.den@gmail.com to request. No automated mirror exists."
+    }
+]

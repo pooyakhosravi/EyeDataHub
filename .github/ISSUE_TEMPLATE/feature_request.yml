@@ -1,0 +1,29 @@
+name: Feature request
+description: Propose a new EyeDataHub feature (not a dataset — use the dataset template for those)
+title: "[feature] <short summary>"
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: "What are you trying to do that EyeDataHub currently doesn't support well?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context

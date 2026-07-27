@@ -1,0 +1,52 @@
+# EyeDataHub
+
+> Versioned command-line access tool backed by a manually curated snapshot of
+> 251 ophthalmology data resources across 18 categories.
+
+EyeDataHub helps software clients find, inspect, cite, preflight, and acquire
+supported resources from official hosts. It does not host third-party data,
+accept agreements for a user, or determine legal permission, ethics, data
+quality, or scientific suitability. Access friction, acquisition automation,
+and source-stated terms are separate fields; unknown values remain unknown.
+
+## Read first
+
+- [CLAUDE.md](CLAUDE.md): canonical repository guide.
+- [AGENTS.md](AGENTS.md): cross-tool pointer.
+- [CONTRIBUTING.md](CONTRIBUTING.md): reviewed contribution requirements.
+- [DATASETS.md](DATASETS.md): current counts and operational boundaries.
+- [llms-full.txt](llms-full.txt): compact record-level catalog.
+- [catalog guide](DATASETS.md): catalog fields, access terms, and command examples.
+
+## Structured interfaces
+
+- `eyehub search --json`: deterministic, read-only catalog search.
+- `eyehub show <name> --json`: full record and dated verification fields.
+- `eyehub cite <name> --type {dataset,article,software} --format json`:
+  object-specific citations and identifiers.
+- `eyehub preflight <name> --json`: source terms, evidence, access
+  requirements, route, intended behavior, and warnings; no transfer.
+- `eyehub download <name> --data-dir <path> --dry-run --json`: explicit
+  acquisition plan; no transfer in dry-run mode.
+- `eyehub download <name> --data-dir <path>`: supported official-source
+  transfer and local provenance manifest.
+- `from eyedatahub.datasets.registry import REGISTRY`: direct Python access;
+  `REGISTRY` is a retained internal compatibility name.
+- `python -m eyedatahub.agent.mcp_server`: optional read-only MCP access to the
+  shared metadata implementation.
+
+Use `eyedatahub` for Python imports and `eyehub` for CLI commands.
+
+## Guardrails
+
+- Search, show, cite, Python, JSON, and MCP operations are read-only.
+- Transfer starts only through an explicit non-dry-run download command.
+- Never bypass authentication, click-through, manual approval, author-contact,
+  institutional, or geographic controls.
+- Never infer dataset-file terms from a paper, website, mirror, or code
+  license. Inspect the recorded scope and official evidence.
+- A source-term group is descriptive and does not establish permission.
+- A loader label is not evidence of a complete live download; inspect
+  `acquisition_support`, `loader_test_scope`, and `loader_test_result`.
+- Never put credentials or third-party dataset files in issues, pull requests,
+  logs, manifests, or the EyeDataHub repository.

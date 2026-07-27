@@ -1,0 +1,122 @@
+---
+id: oct_fundus_dme_dr_mexico
+title: "OCT and Eye Fundus Dataset for DME and DR"
+sidebar_label: oct_fundus_dme_dr_mexico
+description: "Linked color fundus and macular OCT images for diabetic macular edema and diabetic retinopathy classification, with CSV labels and shared patient/eye/image nomenclature."
+tags: ["multimodal", "fundus", "oct", "unknown", "github", "classification", "grading"]
+---
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# OCT and Eye Fundus Dataset for DME and DR
+
+Linked color fundus and macular OCT images for diabetic macular edema and diabetic retinopathy classification, with CSV labels and shared patient/eye/image nomenclature.
+
+## At a glance
+
+| Field | Value |
+| --- | --- |
+| **Short name** | `oct_fundus_dme_dr_mexico` |
+| **Full name** | OCT and Eye Fundus Dataset for DME and DR |
+| **Primary category** | `multimodal` |
+| **Contained modalities** | fundus, oct |
+| **Tasks** | classification, grading |
+| **Samples** | 2,661 |
+| **Classes** | Not reported (Not reported) |
+| **Splits** | all |
+| **Size** | 0.49 GB |
+| **Source-stated terms** | Unknown; no repository license declared |
+| **Normalized terms** | `unknown` |
+| **Descriptive screening label** | Unknown or unclear; do not assume permission |
+| **Terms scope** | `unknown` |
+| **Access friction** | `anonymous_direct` |
+| **Route backend** | GitHub |
+| **Availability** | `available` (checked 2026-07-21) |
+| **Acquisition support** | `loader_implemented_not_live_tested` |
+| **Legacy sample-loader status** | Metadata and access only |
+
+
+## Notes
+
+> Repository README reports 1,548 fundus images and 1,113 OCT images collected between 2015 and 2022, with DME and DR labels in CSV files and shared patient/eye/modality/sample identifiers. No license file is declared; verify source terms before reuse.
+
+## Access preflight and acquisition
+
+<Tabs>
+  <TabItem value="cli" label="CLI" default>
+
+```bash
+# Read-only preflight
+eyehub download oct_fundus_dme_dr_mexico --data-dir ./data --dry-run --json
+
+# Explicit transfer, only when preflight reports supported behavior
+eyehub download oct_fundus_dme_dr_mexico --data-dir ./data
+```
+
+  </TabItem>
+  <TabItem value="python" label="Python">
+
+```python
+from eyedatahub.acquisition import preflight_dataset
+from eyedatahub.datasets.registry import REGISTRY
+
+ds = REGISTRY.get_dataset('oct_fundus_dme_dr_mexico')
+print(preflight_dataset(ds, './data'))  # no transfer
+```
+
+  </TabItem>
+</Tabs>
+
+**Upstream page:** [github.com/Traslational-Visual-Health-Laboratory](https://github.com/Traslational-Visual-Health-Laboratory/OCT-AND-EYE-FUNDUS-DATASET)
+
+**Source-term evidence:** [github.com/Traslational-Visual-Health-Laboratory](https://github.com/Traslational-Visual-Health-Laboratory/OCT-AND-EYE-FUNDUS-DATASET)
+
+## Loader status
+
+This catalog record provides metadata and access instructions, but it does not yet include a standard `DatasetSample` loader. Inspect the source file structure or contribute a loader before using it in a training pipeline.
+
+## Citation
+
+<Tabs>
+  <TabItem value="bibtex" label="BibTeX" default>
+
+```bibtex
+@misc{oct_fundus_dme_dr_mexico,
+  title  = { OCT and Eye Fundus Dataset for DME and DR },
+  note   = { Hughes Cano JA, Olivares Pinto U, Thebault SC. Dataset of Eye Fundus and OCT Images for the study of Diabetic Macular Edema and Diabetic Retinopathy. GitHub repository, accessed 2026 },
+  year   = { 2026 },
+  url    = { https://github.com/Traslational-Visual-Health-Laboratory/OCT-AND-EYE-FUNDUS-DATASET },
+}
+```
+
+  </TabItem>
+  <TabItem value="apa" label="Plain text">
+
+```text
+Hughes Cano JA, Olivares Pinto U, Thebault SC. Dataset of Eye Fundus and OCT Images for the study of Diabetic Macular Edema and Diabetic Retinopathy. GitHub repository, accessed 2026.
+```
+
+  </TabItem>
+</Tabs>
+
+## Source-stated terms
+
+- **Raw source string:** Unknown; no repository license declared
+- **Normalized category:** `unknown`
+- **Apparent scope:** `unknown`
+- **Descriptive screening label:** Unknown or unclear; do not assume permission
+
+> :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
+
+## Related datasets with shared modalities
+
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
+- [harvard_fairvision](./harvard_fairvision.md): Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) (30,000 records, `cc-by-nc-nd`)
+- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 records, `cc-by`)
+- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,700 records, `unknown`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 records, `cc-by`)
+- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 records, `cc0`)

@@ -1,0 +1,133 @@
+---
+id: oculoscope
+title: "OculoScope: Fairer AI in Ophthalmology Dataset"
+sidebar_label: oculoscope
+description: "16,530 ultra-widefield fundus images from 8,405+ patients (age 0–90) annotated for 38 ophthalmic diseases and 67 fundus features. Released alongside the FairerOPTH study on sexism and ageism in ophtha"
+tags: ["uwf_fundus", "tabular", "cc-by", "figshare", "classification", "multilabel"]
+---
+
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# OculoScope: Fairer AI in Ophthalmology Dataset
+
+16,530 ultra-widefield fundus images from 8,405+ patients (age 0–90) annotated for 38 ophthalmic diseases and 67 fundus features. Released alongside the FairerOPTH study on sexism and ageism in ophthalmic AI (Nature Communications 2024).
+
+## At a glance
+
+| Field | Value |
+| --- | --- |
+| **Short name** | `oculoscope` |
+| **Full name** | OculoScope: Fairer AI in Ophthalmology Dataset |
+| **Primary category** | `uwf_fundus` |
+| **Contained modalities** | uwf_fundus, tabular |
+| **Tasks** | classification, multilabel |
+| **Samples** | 16,530 |
+| **Classes** | 38 (Not reported) |
+| **Splits** | train, test |
+| **Size** | 20.0 GB |
+| **Source-stated terms** | CC BY 4.0 |
+| **Normalized terms** | `cc-by` |
+| **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
+| **Terms scope** | `dataset_files` |
+| **Access friction** | `anonymous_direct` |
+| **Route backend** | Figshare |
+| **Availability** | `available` (checked 2026-07-21) |
+| **Acquisition support** | `guided_instructions_only` |
+| **Legacy sample-loader status** | Standard loader included |
+
+
+## Notes
+
+> Also annotates 67 fine-grained fundus features in addition to 38 disease-level labels. Full class list in dataset CSV.
+
+## Access preflight and acquisition
+
+<Tabs>
+  <TabItem value="cli" label="CLI" default>
+
+```bash
+# Read-only preflight
+eyehub download oculoscope --data-dir ./data --dry-run --json
+
+# Explicit transfer, only when preflight reports supported behavior
+eyehub download oculoscope --data-dir ./data
+```
+
+  </TabItem>
+  <TabItem value="python" label="Python">
+
+```python
+from eyedatahub.acquisition import preflight_dataset
+from eyedatahub.datasets.registry import REGISTRY
+
+ds = REGISTRY.get_dataset('oculoscope')
+print(preflight_dataset(ds, './data'))  # no transfer
+```
+
+  </TabItem>
+</Tabs>
+
+**Upstream page:** [Figshare private-share page](https://figshare.com/s/926c2c2ef9e77ab5eb9d)
+
+**Source-term evidence:** [Figshare private-share page](https://figshare.com/s/926c2c2ef9e77ab5eb9d)
+
+## Loader example
+
+This entry includes a standard `DatasetSample` loader.
+
+```python
+from pathlib import Path
+from eyedatahub.datasets.registry import REGISTRY
+
+data_dir = Path('~/.eyedatahub/data').expanduser()
+ds = REGISTRY.get_dataset('oculoscope')
+samples = ds.load(data_dir, split='test')
+for s in samples[:5]:
+    print(s.sample_id, s.label, s.image_path)
+```
+
+## Citation
+
+<Tabs>
+  <TabItem value="bibtex" label="BibTeX" default>
+
+```bibtex
+@misc{oculoscope,
+  title  = { OculoScope: Fairer AI in Ophthalmology Dataset },
+  note   = { FairerOPTH Study — OculoScope Dataset. Nature Communications 2024. https://www.nature.com/articles/s41467-024-48972-0 — Data: https://figshare.com/s/926c2c2ef9e77ab5eb9d },
+  year   = { 2024 },
+  url    = { https://figshare.com/s/926c2c2ef9e77ab5eb9d },
+}
+```
+
+  </TabItem>
+  <TabItem value="apa" label="Plain text">
+
+```text
+FairerOPTH Study — OculoScope Dataset. Nature Communications 2024. https://www.nature.com/articles/s41467-024-48972-0 — Data: https://figshare.com/s/926c2c2ef9e77ab5eb9d
+```
+
+  </TabItem>
+</Tabs>
+
+## Source-stated terms
+
+- **Raw source string:** CC BY 4.0
+- **Normalized category:** `cc-by`
+- **Apparent scope:** `dataset_files`
+- **Descriptive screening label:** Standard label without an explicit NC clause; not a permission finding
+
+> :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
+
+## Related datasets with shared modalities
+
+- [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
+- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 records, `cc-by`)
+- [tsukazaki_uwf](./tsukazaki_uwf.md): Tsukazaki Hospital UWF Fundus Dataset (13,047 records, `research-only`)
+- [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 records, `cc-by`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 records, `cc-by`)
+- [birdshot_wide](./birdshot_wide.md): Birdshot-WIDE Widefield Fundus Dataset (6,352 records, `cc-by`)
+- [fprm_retina](./fprm_retina.md): FPRM Multimodal Eye Imaging and Psychological Assessment Dataset (3,361 records, `research-only`)

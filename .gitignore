@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# EyeDataHub data cache
+*.json.bak
+.download_complete
+
+# Legacy benchmark run outputs (v1 CLI omits benchmarking)
+results/
+
+# Stray desktop screenshots at repo root
+/b-scan_cutoff.png
+
+# External clones (not part of EyeDataHub)
+MIRAGE/
+
+# Generated reports
+reports/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+node_modules/
+website/.serve-logs/
+website/.docusaurus/
+website/build/
+
+# Distribution
+dist/
+*.whl
+
+# Kaggle API key
+kaggle.json
+
+# Local credentials / secrets — never commit these
+.env
+.env.local
+.env.*.local
+
+# External workspaces and submission bundles are maintained separately.
+paper/
+release/
+*manuscript*.zip
+*scientific-release*.zip
+*submission-package*.zip
