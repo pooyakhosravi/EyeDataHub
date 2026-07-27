@@ -1,0 +1,114 @@
+name: Publish Python package
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Package version to publish, without the leading v
+        required: true
+        type: string
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pypi-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build and validate distributions
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out the release source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Verify the release version
+        env:
+          MANUAL_VERSION: ${{ inputs.version }}
+        shell: python
+        run: |
+          import os
+          import pathlib
+          import re
+          import tomllib
+
+          project_version = tomllib.loads(
+              pathlib.Path("pyproject.toml").read_text(encoding="utf-8")
+          )["project"]["version"]
+          package_source = pathlib.Path("eyedatahub/__init__.py").read_text(
+              encoding="utf-8"
+          )
+          match = re.search(r'^__version__\s*=\s*"([^"]+)"', package_source, re.M)
+          if not match:
+              raise SystemExit("Could not read eyedatahub.__version__")
+          package_version = match.group(1)
+          if package_version != project_version:
+              raise SystemExit(
+                  f"Version mismatch: package={package_version}, project={project_version}"
+              )
+
+          ref_type = os.environ.get("GITHUB_REF_TYPE", "")
+          ref_name = os.environ.get("GITHUB_REF_NAME", "")
+          if ref_type == "tag" and ref_name.removeprefix("v") != project_version:
+              raise SystemExit(
+                  f"Tag {ref_name} does not match package version {project_version}"
+              )
+
+          manual_version = os.environ.get("MANUAL_VERSION", "").strip()
+          if manual_version and manual_version.removeprefix("v") != project_version:
+              raise SystemExit(
+                  f"Requested version {manual_version} does not match "
+                  f"package version {project_version}"
+              )
+
+          print(f"Validated EyeDataHub {project_version}")
+
+      - name: Install build tools
+        run: python -m pip install --upgrade build twine
+
+      - name: Build wheel and source distribution
+        run: python -m build
+
+      - name: Validate distribution metadata
+        run: python -m twine check dist/*
+
+      - name: Store distributions for the publish job
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: python-package-distributions
+          path: dist/
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    name: Publish to PyPI
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: pypi
+      url: https://pypi.org/p/eyedatahub
+    permissions:
+      id-token: write
+
+    steps:
+      - name: Retrieve validated distributions
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
+        with:
+          name: python-package-distributions
+          path: dist/
+
+      - name: Publish package distributions
+        uses: pypa/gh-action-pypi-publish@ba38be9e461d3875417946c167d0b5f3d385a247 # release/v1
