@@ -11,16 +11,23 @@ EyeDataHub is a Python package with a command-line entry point named `eyehub`.
 
 ## Requirements
 
-- Python 3.10 or newer
+- Python 3.10 through 3.14
 - Optional platform credentials for gated hosts such as Kaggle, PhysioNet, or
   Hugging Face
 - Enough local disk for datasets you intentionally download
+
+## From PyPI
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install "eyedatahub==0.2.2"
+```
 
 ## From GitHub
 
 ```bash
 python -m pip install --upgrade pip
-pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.2.2"
+python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.2.2"
 ```
 
 ## Editable Developer Install

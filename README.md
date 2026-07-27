@@ -38,6 +38,8 @@ PyPI: [pypi.org/project/eyedatahub](https://pypi.org/project/eyedatahub/)
 python -m pip install "eyedatahub==0.2.2"
 ```
 
+EyeDataHub is tested on Python 3.10 through 3.14.
+
 To install the same release directly from its Git tag:
 
 ```bash
