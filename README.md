@@ -32,6 +32,14 @@ and all other loader states are labelled by their actual test scope.
 
 ## Install
 
+PyPI: [pypi.org/project/eyedatahub](https://pypi.org/project/eyedatahub/)
+
+```bash
+python -m pip install "eyedatahub==0.2.2"
+```
+
+To install the same release directly from its Git tag:
+
 ```bash
 python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.2.2"
 ```
