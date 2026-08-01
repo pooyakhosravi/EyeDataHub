@@ -235,7 +235,7 @@ def _git_value(*args: str) -> str | None:
 
 
 def audit_metadata(elapsed: float) -> dict[str, Any]:
-    dirty = _git_value("status", "--short")
+    dirty = _git_value("status", "--short", "--untracked-files=no")
     return {
         "generated_at": datetime.now(UTC).isoformat(),
         "elapsed_seconds": round(elapsed, 1),
