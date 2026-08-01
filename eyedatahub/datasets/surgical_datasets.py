@@ -367,7 +367,7 @@ class OphoraDataset(EyeDataHubDataset):
     """
     Ophora-160K: Ophthalmic Surgical Video Instruction Dataset.
 
-    160,185 video clip-instruction pair samples derived from 9,819
+    162,185 video clip-instruction pair samples derived from 9,819
     ophthalmic surgical videos across multiple procedure types. Released
     alongside the Ophora text-guided surgical video generation model.
 
@@ -385,14 +385,15 @@ class OphoraDataset(EyeDataHubDataset):
             name="ophora",
             full_name="Ophora-160K: Ophthalmic Surgical Video Instruction Dataset",
             description=(
-                "160,185 video clip-instruction pair samples from 9,819 ophthalmic "
+                "162,185 video clip-instruction pair samples from 9,819 ophthalmic "
                 "surgical videos, covering multiple procedure types. Designed for "
                 "text-guided surgical video generation and understanding. "
                 "Published at MICCAI 2025."
             ),
             modality="surgical_video",
             tasks=["classification", "phase_recognition"],
-            num_samples=160185,
+            num_samples=162185,
+            item_count_unit="video_clip_instruction_pairs",
             splits=["train"],
             classes=None,
             num_classes=None,

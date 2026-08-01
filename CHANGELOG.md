@@ -10,6 +10,12 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ### Added
 
+- Added a catalog-wide, source-supported relationship graph with 131 directed
+  assertions involving 91 records, plus one review row for every catalog
+  record and separate unresolved and rejected-candidate logs.
+- Added controlled relationship types for derivation, subsets, versions,
+  mirrors, collection components, extensions, replacements, and documented
+  cohort overlap.
 - Added a 251-row acquisition-verification ledger with separate controlled
   vocabularies for acquisition method and strongest verification evidence.
 - Added machine-readable acquisition summaries by backend, access route,
@@ -20,6 +26,9 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ### Changed
 
+- Corrected source-supported metadata for FairVLMed, CORN Pro, MuReD, Ophora,
+  and X-PCR, and replaced unsupported name-based overlap claims with reviewed
+  relationship assertions.
 - Improved resumable transfers, retry behavior, archive extraction safety,
   platform error handling, and dataset-specific completion checks.
 - Reclassified HYAMD as controlled or manual access after source

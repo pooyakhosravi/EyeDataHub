@@ -14,24 +14,19 @@ third-party datasets.
 |---|---:|
 | Catalog records | 251 |
 | Primary categories | 18 |
-| Anonymous direct routes | 170 |
+| No-account source links | 170 |
 | Self-service authenticated routes | 34 |
 | Self-service click-through routes | 11 |
 | Controlled or manual routes | 28 |
 | Author-contact routes | 8 |
-| Complete current-deposit transfers through EyeDataHub | 47 |
-| Representative pre-existing holdings | 5 |
-| Listing-only strongest evidence | 4 |
-| Route-only strongest evidence | 195 |
-| Cumulative metadata or listing confirmations | 14 |
-| Unresolved automated listing failures | 2 |
+| Credential-free downloads supported by EyeDataHub | 47 |
+| Source-supported directed relationship assertions | 131 |
+| Records participating in documented relationships | 91 |
 
-Access friction, acquisition implementation, verification evidence, and
-source-stated terms are independent dimensions. The strongest evidence levels
-above are mutually exclusive; the cumulative listing count overlaps eight
-complete transfers and two representative holdings. A self-service route does
-not establish permission for a proposed reuse, and a route confirmation is not
-a file transfer.
+Access requirements, download implementation, source review, and source-stated
+terms are independent dimensions. A self-service route does not establish
+permission for a proposed reuse. Relationship counts are directed assertions,
+not counts of independent cohorts.
 
 The descriptive source-term groups are:
 

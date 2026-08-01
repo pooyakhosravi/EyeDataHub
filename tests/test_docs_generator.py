@@ -5,10 +5,10 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from eyedatahub.agent.planner import loader_status
-from eyedatahub.datasets.registry import REGISTRY
-from hub.docs.generate_dataset_pages import build_page, build_static_dataset_index
-from hub.docs.generate_llms_full import build as build_llms_full
+from eyedatahub.agent.planner import loader_status  # noqa: E402
+from eyedatahub.datasets.registry import REGISTRY  # noqa: E402
+from hub.docs.generate_dataset_pages import build_page, build_static_dataset_index  # noqa: E402
+from hub.docs.generate_llms_full import build as build_llms_full  # noqa: E402
 
 
 def test_generated_pages_report_loader_status_honestly():

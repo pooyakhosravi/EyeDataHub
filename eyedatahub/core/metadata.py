@@ -1090,6 +1090,27 @@ def _derive_relationships(info: Any) -> List[Dict[str, str]]:
     return relationships
 
 
+def _merge_relationships(info: Any) -> List[Dict[str, str]]:
+    """Merge class-level, legacy-tag, and centrally curated relationships."""
+    from eyedatahub.core.relationships import relationships_for
+
+    candidates = [
+        *(getattr(info, "relationships", []) or []),
+        *_derive_relationships(info),
+        *relationships_for(info.name),
+    ]
+    unique: Dict[tuple[str, str], Dict[str, str]] = {}
+    for relationship in candidates:
+        relationship_type = str(relationship.get("type", "")).strip()
+        target = str(relationship.get("target", "")).strip()
+        if relationship_type and target and target != info.name:
+            unique[(relationship_type, target)] = {
+                "type": relationship_type,
+                "target": target,
+            }
+    return [unique[key] for key in sorted(unique)]
+
+
 def enrich_dataset_info(info: Any) -> None:
     """Populate unset rich metadata fields on a ``DatasetInfo`` instance."""
     text = _text(info)
@@ -1187,7 +1208,7 @@ def enrich_dataset_info(info: Any) -> None:
         _set_if_empty(info, key, value)
 
     _set_if_empty(info, "resource_version", None)
-    _set_if_empty(info, "relationships", _derive_relationships(info))
+    info.relationships = _merge_relationships(info)
     _set_if_empty(info, "author_source_checked", True)
     _set_if_empty(info, "source_check_date", "2026-07-21")
     _set_if_empty(info, "source_check_status", "checked_against_cited_source")

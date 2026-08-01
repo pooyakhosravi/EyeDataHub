@@ -109,6 +109,6 @@ Keratoconus corneal epithelium confocal fluorescence dataset. Mendeley Data, V2,
 ## Related datasets with shared modalities
 
 - [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (1,500 records, `unknown`)
-- [corn_pro](./corn_pro.md): CORN Pro: Corneal Nerve Confocal Microscopy Dataset (688 records, `cc-by`)
+- [corn_pro](./corn_pro.md): CORN Pro: Corneal Nerve Confocal Microscopy Dataset (1,120 records, `cc-by`)
 - [superccm_fineset](./superccm_fineset.md): SuperCCM-FineSet (210 records, `unknown`)
 - [corn_collection](./corn_collection.md): CORN: Corneal Confocal Microscope Dataset Collection (count not reported records, `cc-by`)

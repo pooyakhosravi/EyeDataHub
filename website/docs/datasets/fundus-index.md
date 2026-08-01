@@ -7,7 +7,7 @@ description: "121 resources containing fundus data in EyeDataHub."
 
 # Fundus datasets
 
-**121 datasets · 1,018,140 samples · 1159.0 GB total** - this page indexes every EyeDataHub resource tagged as containing `fundus` data. A resource can appear on more than one modality page.
+**121 datasets · 1,028,175 samples · 1159.0 GB total** - this page indexes every EyeDataHub resource tagged as containing `fundus` data. A resource can appear on more than one modality page.
 
 | Name | Full name | Samples | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -25,13 +25,14 @@ description: "121 resources containing fundus data in EyeDataHub."
 | [`harvard_fairvision`](./harvard_fairvision.md) | Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) | 30,000 | 600.0 GB | `cc-by-nc-nd` | Manual (upstream-gated) |
 | [`eyeq`](./eyeq.md) | EyeQ Retinal Image Quality Assessment Dataset | 28,792 | Not reported | `unknown` | GitHub |
 | [`mmrdr`](./mmrdr.md) | MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset | 24,460 | 18.6 GB | `cc-by` | Figshare |
-| [`x_pcr`](./x_pcr.md) | X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark | 18,700 | 5.0 GB | `unknown` | HuggingFace Hub |
+| [`x_pcr`](./x_pcr.md) | X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark | 18,735 | 5.0 GB | `unknown` | HuggingFace Hub |
 | [`brset`](./brset.md) | BRSET: Brazilian Multilabel Ophthalmological Dataset | 16,266 | 9.0 GB | `research-only` | PhysioNet |
 | [`deepeyenet`](./deepeyenet.md) | DeepEyeNet (DEN): Fundus Report Generation Dataset | 15,709 | 5.0 GB | `research-only` | Manual (upstream-gated) |
 | [`aod`](./aod.md) | AOD: Augmented Ocular Diseases Dataset | 14,813 | 2.0 GB | `unknown` | Kaggle |
 | [`ddr`](./ddr.md) | DDR: Diabetic Retinopathy Detection & Grading | 12,522 | 4.0 GB | `mit` | Google Drive |
 | [`smdg`](./smdg.md) | SMDG-19: Standardized Multi-channel Glaucoma Benchmark | 12,449 | 5.0 GB | `cc0` | Kaggle |
 | [`lag`](./lag.md) | LAG: Large-scale Attention-based Glaucoma Database | 11,760 | 3.0 GB | `research-only` | Manual (upstream-gated) |
+| [`fairvlmed`](./fairvlmed.md) | FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset | 10,000 | 10.0 GB | `cc-by-nc-nd` | HuggingFace Hub |
 | [`jichi`](./jichi.md) | Jichi Medical University Diabetic Retinopathy Dataset | 9,939 | 10.0 GB | `cc-by` | Figshare |
 | [`retina_age_analysis`](./retina_age_analysis.md) | Retina Age Analysis | 9,857 | 1.0 GB | `mit` | HuggingFace Hub |
 | [`olives`](./olives.md) | OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics | 9,408 | 20.0 GB | `cc-by` | Zenodo |
@@ -118,7 +119,6 @@ description: "121 resources containing fundus data in EyeDataHub."
 | [`agar300`](./agar300.md) | AGAR300 Microaneurysm Fundus Image Dataset | 28 | Not reported | `cc-by` | Manual (upstream-gated) |
 | [`stare`](./stare.md) | STARE: Structured Analysis of the Retina | 20 | 0.0 GB | `research-only` | Direct HTTP |
 | [`mm_retinal_reason`](./mm_retinal_reason.md) | MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset | Not reported | 15.0 GB | `unknown` | HuggingFace Hub |
-| [`fairvlmed`](./fairvlmed.md) | FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset | Not reported | 10.0 GB | `unknown` | HuggingFace Hub |
 | [`paired_retina`](./paired_retina.md) | Paired Retina Dataset: Cross-Device Fundus Pairs | Not reported | 3.0 GB | `unknown` | HuggingFace Hub |
 | [`retinal_dr_longitudinal`](./retinal_dr_longitudinal.md) | Retinal DR Longitudinal Fundus Pairs | Not reported | 4.0 GB | `unknown` | HuggingFace Hub |
 | [`hassan_composite_retina`](./hassan_composite_retina.md) | Composite Retinal Fundus and OCT Dataset with Clinical Markings | Not reported | 2.0 GB | `cc-by` | Mendeley Data |

@@ -7,7 +7,7 @@ slug: /datasets
 
 # All datasets in EyeDataHub
 
-**251 catalog records; 30,244,993 mixed source reported records; 3081.6 GB reported; 191 nonmanual access routes**
+**251 catalog records; 30,257,460 mixed source reported records; 3081.6 GB reported; 191 nonmanual access routes**
 
 Each resource has one primary category for navigation and one or more contained-modality tags. Counts below overlap because a resource with fundus photographs and OCT is included under both modalities.
 
@@ -71,9 +71,9 @@ Each resource has one primary category for navigation and one or more contained-
 | --- | ---:|
 | `cc-by` | 105 |
 | `research-only` | 52 |
-| `unknown` | 43 |
+| `unknown` | 42 |
 | `cc0` | 19 |
-| `cc-by-nc-nd` | 9 |
+| `cc-by-nc-nd` | 10 |
 | `cc-by-nc-sa` | 7 |
 | `mit` | 6 |
 | `cc-by-sa` | 4 |

@@ -38,6 +38,10 @@ import TabItem from '@theme/TabItem';
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Notes
+
+> The official source states that images from STARE, RFMiD, and ARIA were post-processed for this release. ARIA is not a separate EyeDataHub record.
+
 ## Access preflight and acquisition
 
 <Tabs>

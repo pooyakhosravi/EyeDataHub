@@ -2,8 +2,8 @@
 id: fairvlmed
 title: "FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset"
 sidebar_label: fairvlmed
-description: "Ophthalmic clinical text + NPZ records covering glaucoma, cataract, and neuro-ophthalmology with paired age, sex, race/ethnicity, and language attributes. Derived from the same Harvard clinical popula"
-tags: ["multimodal", "fundus", "visual_field", "text", "tabular", "unknown", "huggingface", "classification"]
+description: "10,000 scanning-laser ophthalmoscopy fundus images paired with de-identified clinical notes, visual-field measurements, glaucoma labels, and demographic attributes."
+tags: ["multimodal", "fundus", "visual_field", "text", "tabular", "cc-by-nc-nd", "huggingface", "classification", "report_generation", "fairness_analysis"]
 ---
 
 
@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 # FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset
 
-Ophthalmic clinical text + NPZ records covering glaucoma, cataract, and neuro-ophthalmology with paired age, sex, race/ethnicity, and language attributes. Derived from the same Harvard clinical population as Harvard-FairVision.
+10,000 scanning-laser ophthalmoscopy fundus images paired with de-identified clinical notes, visual-field measurements, glaucoma labels, and demographic attributes.
 
 ## At a glance
 
@@ -22,15 +22,15 @@ Ophthalmic clinical text + NPZ records covering glaucoma, cataract, and neuro-op
 | **Full name** | FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset |
 | **Primary category** | `multimodal` |
 | **Contained modalities** | fundus, visual_field, text, tabular |
-| **Tasks** | classification |
-| **Samples** | Not reported |
+| **Tasks** | classification, report_generation, fairness_analysis |
+| **Samples** | 10,000 |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | train, val, test |
 | **Size** | 10.0 GB |
-| **Source-stated terms** | See Harvard AI Robotics terms |
-| **Normalized terms** | `unknown` |
-| **Descriptive screening label** | Unknown or unclear; do not assume permission |
-| **Terms scope** | `unknown` |
+| **Source-stated terms** | CC BY-NC-ND 4.0 |
+| **Normalized terms** | `cc-by-nc-nd` |
+| **Descriptive screening label** | Explicit noncommercial clause recorded; check source |
+| **Terms scope** | `dataset_files` |
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | HuggingFace Hub |
 | **Availability** | `available` (checked 2026-07-21) |
@@ -40,7 +40,7 @@ Ophthalmic clinical text + NPZ records covering glaucoma, cataract, and neuro-op
 
 ## Notes
 
-> OVERLAP: Derived from the same Harvard clinical cohort as `harvard_fairvision` (already indexed). Kept for VLM/text researchers who specifically need the text+NPZ view.
+> The official dataset card reports 10,000 patients and 10,000 samples (7,000 train, 1,000 validation, 2,000 test). No source statement supporting cohort identity with the separate Harvard-FairVision record was found, so no catalog relationship is asserted.
 
 ## Access preflight and acquisition
 
@@ -103,10 +103,10 @@ Harvard AI Robotics, FairVLMed: Fair vision-language medical ophthalmic dataset.
 
 ## Source-stated terms
 
-- **Raw source string:** See Harvard AI Robotics terms
-- **Normalized category:** `unknown`
-- **Apparent scope:** `unknown`
-- **Descriptive screening label:** Unknown or unclear; do not assume permission
+- **Raw source string:** CC BY-NC-ND 4.0
+- **Normalized category:** `cc-by-nc-nd`
+- **Apparent scope:** `dataset_files`
+- **Descriptive screening label:** Explicit noncommercial clause recorded; check source
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
@@ -118,5 +118,5 @@ Harvard AI Robotics, FairVLMed: Fair vision-language medical ophthalmic dataset.
 - [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,700 records, `unknown`)
+- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 records, `unknown`)
 - [deepeyenet](./deepeyenet.md): DeepEyeNet (DEN): Fundus Report Generation Dataset (15,709 records, `research-only`)

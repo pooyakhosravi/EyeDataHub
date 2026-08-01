@@ -7,7 +7,7 @@ description: "62 resources containing oct data in EyeDataHub."
 
 # Oct datasets
 
-**62 datasets · 684,976 samples · 887.5 GB total** - this page indexes every EyeDataHub resource tagged as containing `oct` data. A resource can appear on more than one modality page.
+**62 datasets · 685,011 samples · 887.5 GB total** - this page indexes every EyeDataHub resource tagged as containing `oct` data. A resource can appear on more than one modality page.
 
 | Name | Full name | Samples | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -20,7 +20,7 @@ description: "62 resources containing oct data in EyeDataHub."
 | [`mario`](./mario.md) | MARIO: AMD-Progression Longitudinal OCT (MICCAI 2024) | 30,000 | 25.0 GB | `cc-by` | Zenodo |
 | [`mmrdr`](./mmrdr.md) | MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset | 24,460 | 18.6 GB | `cc-by` | Figshare |
 | [`oct_c8`](./oct_c8.md) | Retinal OCT-C8: 8-Class OCT Classification | 24,000 | 2.5 GB | `unknown` | Kaggle |
-| [`x_pcr`](./x_pcr.md) | X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark | 18,700 | 5.0 GB | `unknown` | HuggingFace Hub |
+| [`x_pcr`](./x_pcr.md) | X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark | 18,735 | 5.0 GB | `unknown` | HuggingFace Hub |
 | [`nehut`](./nehut.md) | NEH-UT Retinal OCT Dataset | 16,822 | 3.6 GB | `cc-by` | Mendeley Data |
 | [`olives`](./olives.md) | OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics | 9,408 | 20.0 GB | `cc-by` | Zenodo |
 | [`mcoa`](./mcoa.md) | MCOA: Multimodal Corneal Opacity Assessment Dataset | 6,664 | 8.0 GB | `cc-by` | Figshare |

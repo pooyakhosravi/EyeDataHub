@@ -3,7 +3,7 @@
   "total": 251,
   "summary": {
     "datasets": 251,
-    "samples": 30244993,
+    "samples": 30257460,
     "size_gb": 3081.6,
     "nonmanual_routes": 191,
     "loaders_implemented": 75,
@@ -15,7 +15,7 @@
     "controlled_routes": 28,
     "author_contact_routes": 8,
     "transfer_tested_routes": 52,
-    "text_or_qa": 18
+    "text_or_qa": 19
   },
   "facets": {
     "modality": {
@@ -50,14 +50,14 @@
       "apache": 1,
       "cc-by": 105,
       "cc-by-nc": 3,
-      "cc-by-nc-nd": 9,
+      "cc-by-nc-nd": 10,
       "cc-by-nc-sa": 7,
       "cc-by-sa": 4,
       "cc0": 19,
       "mit": 6,
       "odc-by": 2,
       "research-only": 52,
-      "unknown": 43
+      "unknown": 42
     },
     "download_type": {
       "direct": 13,
@@ -1310,18 +1310,16 @@
     {
       "name": "corn_pro",
       "full_name": "CORN Pro: Corneal Nerve Confocal Microscopy Dataset",
-      "description": "Professional/extended CORN database with in-vivo confocal microscopy images of the corneal subbasal nerve plexus. Supports nerve fiber segmentation, image quality enhancement, and tortuosity grading (4 levels). 384\u00d7384 px, 400\u00d7400 \u00b5m FOV. Based on the CORN-2 dataset (~688 annotated images: train 340 low-quality + 288 high-quality, test 60).",
+      "description": "1,120 in-vivo confocal microscopy images with pixel-level annotations for corneal subbasal nerves and corneal cells. The source describes 560 images with nerves and Langerhans cells and 560 images with nerves and/or stromal cells.",
       "modality": "confocal",
       "primary_category": "confocal",
       "modalities": [
         "confocal"
       ],
       "tasks": [
-        "segmentation",
-        "grading",
-        "classification"
+        "segmentation"
       ],
-      "samples": 688,
+      "samples": 1120,
       "size_gb": 0.5,
       "license": "CC BY 4.0",
       "license_family": "cc-by",
@@ -2725,7 +2723,7 @@
     {
       "name": "fairvlmed",
       "full_name": "FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset",
-      "description": "Ophthalmic clinical text + NPZ records covering glaucoma, cataract, and neuro-ophthalmology with paired age, sex, race/ethnicity, and language attributes. Derived from the same Harvard clinical population as Harvard-FairVision.",
+      "description": "10,000 scanning-laser ophthalmoscopy fundus images paired with de-identified clinical notes, visual-field measurements, glaucoma labels, and demographic attributes.",
       "modality": "multimodal",
       "primary_category": "multimodal",
       "modalities": [
@@ -2735,14 +2733,16 @@
         "tabular"
       ],
       "tasks": [
-        "classification"
+        "classification",
+        "report_generation",
+        "fairness_analysis"
       ],
-      "samples": null,
+      "samples": 10000,
       "size_gb": 10.0,
-      "license": "See Harvard AI Robotics terms",
-      "license_family": "unknown",
-      "source_terms": "See Harvard AI Robotics terms",
-      "terms_scope": "unknown",
+      "license": "CC BY-NC-ND 4.0",
+      "license_family": "cc-by-nc-nd",
+      "source_terms": "CC BY-NC-ND 4.0",
+      "terms_scope": "dataset_files",
       "terms_evidence_url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
       "download_type": "huggingface",
       "download_url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
@@ -2753,7 +2753,7 @@
       "loader_status": "metadata_only",
       "doc_path": "/datasets/fairvlmed",
       "citation": "Harvard AI Robotics, FairVLMed: Fair vision-language medical ophthalmic dataset. HuggingFace, 2024.",
-      "notes": "OVERLAP: Derived from the same Harvard clinical cohort as `harvard_fairvision` (already indexed). Kept for VLM/text researchers who specifically need the text+NPZ view."
+      "notes": "The official dataset card reports 10,000 patients and 10,000 samples (7,000 train, 1,000 validation, 2,000 test). No source statement supporting cohort identity with the separate Harvard-FairVision record was found, so no catalog relationship is asserted."
     },
     {
       "name": "fang_sbsdi_oct",
@@ -4881,7 +4881,7 @@
       "loader_status": "metadata_only",
       "doc_path": "/datasets/mured",
       "citation": "Rodriguez MA, AlMarzouqi H, Liatsis P, 'Multi-label Retinal Disease Classification using Transformers', IEEE Journal of Biomedical and Health Informatics 27(6):2739-2750, 2022. arXiv:2207.02335",
-      "notes": ""
+      "notes": "The official source states that images from STARE, RFMiD, and ARIA were post-processed for this release. ARIA is not a separate EyeDataHub record."
     },
     {
       "name": "myopic_regression_fundus",
@@ -5534,7 +5534,7 @@
     {
       "name": "ophora",
       "full_name": "Ophora-160K: Ophthalmic Surgical Video Instruction Dataset",
-      "description": "160,185 video clip-instruction pair samples from 9,819 ophthalmic surgical videos, covering multiple procedure types. Designed for text-guided surgical video generation and understanding. Published at MICCAI 2025.",
+      "description": "162,185 video clip-instruction pair samples from 9,819 ophthalmic surgical videos, covering multiple procedure types. Designed for text-guided surgical video generation and understanding. Published at MICCAI 2025.",
       "modality": "surgical_video",
       "primary_category": "surgical_video",
       "modalities": [
@@ -5545,7 +5545,7 @@
         "classification",
         "phase_recognition"
       ],
-      "samples": 160185,
+      "samples": 162185,
       "size_gb": 500.0,
       "license": "Unknown \u2014 no license stated",
       "license_family": "unknown",
@@ -7851,7 +7851,7 @@
     {
       "name": "x_pcr",
       "full_name": "X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark",
-      "description": "Ophthalmic image-text VQA/reasoning benchmark with retinal modalities and expert-verified question-answer pairs.",
+      "description": "The version-pinned public deposit contains 18,735 ophthalmic image-text benchmark rows across CFP, external-eye, FFA, OCT, and RetCam subsets.",
       "modality": "multimodal",
       "primary_category": "multimodal",
       "modalities": [
@@ -7866,7 +7866,7 @@
         "visual_question_answering",
         "classification"
       ],
-      "samples": 18700,
+      "samples": 18735,
       "size_gb": 5.0,
       "license": "Unknown",
       "license_family": "unknown",
@@ -7882,7 +7882,7 @@
       "loader_status": "metadata_only",
       "doc_path": "/datasets/x_pcr",
       "citation": "Fantasy666/X-PCR. Hugging Face dataset, accessed 2026-07.",
-      "notes": "Viewer shows 18.7k rows; dataset card describes broader image/VQA provenance from public ophthalmic datasets."
+      "notes": "The public deposit at commit 06a318fd852230326386e3c6514d8a11b7a6b4af has 18,735 rows. The dataset card describes a broader benchmark of 26,415 images and 177,868 VQA pairs; these units and scopes are not interchangeable."
     }
   ]
 }

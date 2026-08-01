@@ -816,7 +816,20 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.17632/yj35kjgrv3.1",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "hrf"
+        },
+        {
+          "type": "derived_from",
+          "target": "odir2019"
+        },
+        {
+          "type": "derived_from",
+          "target": "rfmid"
+        }
+      ],
       "item_count_evidence_url": "https://data.mendeley.com/datasets/yj35kjgrv3/1",
       "modality_evidence_url": "https://data.mendeley.com/datasets/yj35kjgrv3/1",
       "task_evidence_url": "https://data.mendeley.com/datasets/yj35kjgrv3/1",
@@ -1285,7 +1298,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.20711325",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "aptos2019"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/20711325",
       "modality_evidence_url": "https://zenodo.org/records/20711325",
       "task_evidence_url": "https://zenodo.org/records/20711325",
@@ -1882,7 +1900,7 @@
         "fundus",
         "kaggle",
         "grading",
-        "duplicate_of_eyepacs"
+        "eyepacs_training_split"
       ],
       "size_gb": 1.0,
       "notes": "OVERLAP: BiDR is a Kaggle re-upload of the EyePACS Kaggle 2015 competition TRAIN split (35,126 images). Already in EyeDataHub as `eyepacs` (full 88,702 train+test) and also as `dr_arranged` (Tianchi mirror of the same train split). Kept for users who specifically reference the BiDR slug.",
@@ -1933,6 +1951,10 @@
       "relationships": [
         {
           "type": "mirror_of",
+          "target": "dr_arranged"
+        },
+        {
+          "type": "subset_of",
           "target": "eyepacs"
         }
       ],
@@ -2295,7 +2317,16 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://physionet.org/content/embedding-brset-mbrset/1.0.0/",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "brset"
+        },
+        {
+          "type": "derived_from",
+          "target": "mbrset"
+        }
+      ],
       "item_count_evidence_url": "https://physionet.org/content/embedding-brset-mbrset/1.0.0/",
       "modality_evidence_url": "https://physionet.org/content/embedding-brset-mbrset/1.0.0/",
       "task_evidence_url": "https://physionet.org/content/embedding-brset-mbrset/1.0.0/",
@@ -2385,7 +2416,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://cataracts-semantic-segmentation2020.grand-challenge.org/",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "cataracts2017"
+        }
+      ],
       "item_count_evidence_url": "https://cataracts-semantic-segmentation2020.grand-challenge.org/",
       "modality_evidence_url": "https://cataracts-semantic-segmentation2020.grand-challenge.org/",
       "task_evidence_url": "https://cataracts-semantic-segmentation2020.grand-challenge.org/",
@@ -2655,7 +2691,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.4984167",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "cataract_101"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/4984167",
       "modality_evidence_url": "https://zenodo.org/records/4984167",
       "task_evidence_url": "https://zenodo.org/records/4984167",
@@ -3583,7 +3624,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://zenodo.org/records/5880419",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target": "corn_collection"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/5880419",
       "modality_evidence_url": "https://zenodo.org/records/5880419",
       "task_evidence_url": "https://zenodo.org/records/5880419",
@@ -3683,11 +3729,11 @@
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.19689814",
       "relationships": [
         {
-          "type": "same_or_overlapping_cohort_as",
+          "type": "has_component",
           "target": "corn1500"
         },
         {
-          "type": "same_or_overlapping_cohort_as",
+          "type": "has_component",
           "target": "corn_pro"
         }
       ],
@@ -3709,17 +3755,14 @@
     {
       "name": "corn_pro",
       "full_name": "CORN Pro: Corneal Nerve Confocal Microscopy Dataset",
-      "description": "Professional/extended CORN database with in-vivo confocal microscopy images of the corneal subbasal nerve plexus. Supports nerve fiber segmentation, image quality enhancement, and tortuosity grading (4 levels). 384×384 px, 400×400 µm FOV. Based on the CORN-2 dataset (~688 annotated images: train 340 low-quality + 288 high-quality, test 60).",
+      "description": "1,120 in-vivo confocal microscopy images with pixel-level annotations for corneal subbasal nerves and corneal cells. The source describes 560 images with nerves and Langerhans cells and 560 images with nerves and/or stromal cells.",
       "modality": "confocal",
       "tasks": [
-        "segmentation",
-        "grading",
-        "classification"
+        "segmentation"
       ],
-      "num_samples": 688,
+      "num_samples": 1120,
       "splits": [
-        "train",
-        "test"
+        "all"
       ],
       "classes": null,
       "num_classes": null,
@@ -3735,8 +3778,9 @@
         "confocal",
         "cornea",
         "nerve",
+        "langerhans_cells",
+        "stromal_cells",
         "segmentation",
-        "grading",
         "ivcm"
       ],
       "size_gb": 0.5,
@@ -3785,7 +3829,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://zenodo.org/records/14263883",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target": "corn_collection"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/14263883",
       "modality_evidence_url": "https://zenodo.org/records/14263883",
       "task_evidence_url": "https://zenodo.org/records/14263883",
@@ -4873,7 +4922,16 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.6784358",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "e_ophtha"
+        },
+        {
+          "type": "derived_from",
+          "target": "idrid"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/6784358",
       "modality_evidence_url": "https://zenodo.org/records/6784358",
       "task_evidence_url": "https://zenodo.org/records/6784358",
@@ -4962,7 +5020,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.7777849",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "dme_vqa"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/7777849",
       "modality_evidence_url": "https://zenodo.org/records/7777849",
       "task_evidence_url": "https://zenodo.org/records/7777849",
@@ -5010,7 +5073,7 @@
         "fundus",
         "manual",
         "grading",
-        "duplicate_of_eyepacs"
+        "eyepacs_training_split"
       ],
       "size_gb": 8.0,
       "notes": "OVERLAP: This is the EyePACS Kaggle 2015 competition TRAIN split (35,126 images) mirrored on Tianchi. Same content as `bidr` (Kaggle mirror) and a strict subset of `eyepacs` (full 88,702). Kept for users who specifically reference the Tianchi 93926 mirror.\nRequires free registration at https://tianchi.aliyun.com. Log in → Datasets → 93926 → Download.",
@@ -5061,6 +5124,10 @@
       "relationships": [
         {
           "type": "mirror_of",
+          "target": "bidr"
+        },
+        {
+          "type": "subset_of",
           "target": "eyepacs"
         }
       ],
@@ -6152,7 +6219,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5061/dryad.2rbnzs7m4",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "same_or_overlapping_cohort_as",
+          "target": "dryad_namd_visual_prediction"
+        }
+      ],
       "item_count_evidence_url": "https://doi.org/10.5061/dryad.2rbnzs7m4",
       "modality_evidence_url": "https://doi.org/10.5061/dryad.2rbnzs7m4",
       "task_evidence_url": "https://doi.org/10.5061/dryad.2rbnzs7m4",
@@ -6244,7 +6316,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5061/dryad.573n5tb5d",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "same_or_overlapping_cohort_as",
+          "target": "dryad_namd_oct_quant"
+        }
+      ],
       "item_count_evidence_url": "https://doi.org/10.5061/dryad.573n5tb5d",
       "modality_evidence_url": "https://doi.org/10.5061/dryad.573n5tb5d",
       "task_evidence_url": "https://doi.org/10.5061/dryad.573n5tb5d",
@@ -7812,7 +7889,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://github.com/HzFu/EyeQ",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "eyepacs"
+        }
+      ],
       "item_count_evidence_url": "https://github.com/HzFu/EyeQ",
       "modality_evidence_url": "https://github.com/HzFu/EyeQ",
       "task_evidence_url": "https://github.com/HzFu/EyeQ",
@@ -7831,12 +7913,14 @@
     {
       "name": "fairvlmed",
       "full_name": "FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset",
-      "description": "Ophthalmic clinical text + NPZ records covering glaucoma, cataract, and neuro-ophthalmology with paired age, sex, race/ethnicity, and language attributes. Derived from the same Harvard clinical population as Harvard-FairVision.",
+      "description": "10,000 scanning-laser ophthalmoscopy fundus images paired with de-identified clinical notes, visual-field measurements, glaucoma labels, and demographic attributes.",
       "modality": "multimodal",
       "tasks": [
-        "classification"
+        "classification",
+        "report_generation",
+        "fairness_analysis"
       ],
-      "num_samples": null,
+      "num_samples": 10000,
       "splits": [
         "train",
         "val",
@@ -7847,18 +7931,22 @@
       "image_size": null,
       "download_type": "huggingface",
       "download_url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
-      "license": "See Harvard AI Robotics terms",
+      "license": "CC BY-NC-ND 4.0",
       "citation": "Harvard AI Robotics, FairVLMed: Fair vision-language medical ophthalmic dataset. HuggingFace, 2024.",
       "tags": [
         "multimodal",
+        "fundus",
+        "slo",
+        "visual_field",
+        "tabular",
         "vlm",
         "fairness",
         "harvard",
         "clinical_text",
-        "derivative"
+        "glaucoma"
       ],
       "size_gb": 10.0,
-      "notes": "OVERLAP: Derived from the same Harvard clinical cohort as `harvard_fairvision` (already indexed). Kept for VLM/text researchers who specifically need the text+NPZ view.",
+      "notes": "The official dataset card reports 10,000 patients and 10,000 samples (7,000 train, 1,000 validation, 2,000 test). No source statement supporting cohort identity with the separate Harvard-FairVision record was found, so no catalog relationship is asserted.",
       "primary_category": "multimodal",
       "modalities": [
         "fundus",
@@ -7866,7 +7954,7 @@
         "text",
         "tabular"
       ],
-      "item_count_unit": "records",
+      "item_count_unit": "images",
       "source_landing_page_url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
       "preferred_route_type": "data_platform",
       "preferred_route_url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
@@ -7894,9 +7982,9 @@
       "loader_test_result": "not_live_tested",
       "tested_command": null,
       "failure_reason": null,
-      "source_terms": "See Harvard AI Robotics terms",
+      "source_terms": "CC BY-NC-ND 4.0",
       "terms_evidence_url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
-      "terms_scope": "unknown",
+      "terms_scope": "dataset_files",
       "terms_component_notes": "Review the cited source for component-specific terms.",
       "dataset_doi": null,
       "dataset_accession": null,
@@ -7919,8 +8007,8 @@
       "transfer_check_status": "not_live_tested",
       "record_id": "fairvlmed",
       "canonical_name": "FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset",
-      "normalized_source_term_category": "unknown",
-      "license_family": "unknown"
+      "normalized_source_term_category": "cc-by-nc-nd",
+      "license_family": "cc-by-nc-nd"
     },
     {
       "name": "fang_sbsdi_oct",
@@ -9173,7 +9261,20 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.8009107",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "drishti_gs"
+        },
+        {
+          "type": "derived_from",
+          "target": "refuge2018"
+        },
+        {
+          "type": "derived_from",
+          "target": "riga"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/8009107",
       "modality_evidence_url": "https://zenodo.org/records/8009107",
       "task_evidence_url": "https://zenodo.org/records/8009107",
@@ -9264,7 +9365,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://huggingface.co/datasets/zzzzineun/fundus-report-dataset",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "deepdrid"
+        }
+      ],
       "item_count_evidence_url": "https://huggingface.co/datasets/zzzzineun/fundus-report-dataset",
       "modality_evidence_url": "https://huggingface.co/datasets/zzzzineun/fundus-report-dataset",
       "task_evidence_url": "https://huggingface.co/datasets/zzzzineun/fundus-report-dataset",
@@ -9452,7 +9558,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "component_of",
+          "target": "ichallenge_oct"
+        }
+      ],
       "item_count_evidence_url": "https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view",
       "modality_evidence_url": "https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view",
       "task_evidence_url": "https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view",
@@ -10825,7 +10936,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.16744782",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "hrf"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/16744782",
       "modality_evidence_url": "https://zenodo.org/records/16744782",
       "task_evidence_url": "https://zenodo.org/records/16744782",
@@ -11182,7 +11298,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "http://hdmilab.cn/ichallenge",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "has_component",
+          "target": "gamma"
+        }
+      ],
       "item_count_evidence_url": "http://hdmilab.cn/ichallenge",
       "modality_evidence_url": "http://hdmilab.cn/ichallenge",
       "task_evidence_url": "http://hdmilab.cn/ichallenge",
@@ -11366,7 +11487,16 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://ftp.itec.aau.at/datasets/ovid/InSegCat/",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "cadis"
+        },
+        {
+          "type": "derived_from",
+          "target": "cataract_101"
+        }
+      ],
       "item_count_evidence_url": "https://ftp.itec.aau.at/datasets/ovid/InSegCat/",
       "modality_evidence_url": "https://ftp.itec.aau.at/datasets/ovid/InSegCat/",
       "task_evidence_url": "https://ftp.itec.aau.at/datasets/ovid/InSegCat/",
@@ -11454,7 +11584,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://www.kaggle.com/datasets/zeeshanahmed13/intraretinal-cystoid-fluid",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "kermany_oct"
+        }
+      ],
       "item_count_evidence_url": "https://www.kaggle.com/datasets/zeeshanahmed13/intraretinal-cystoid-fluid",
       "modality_evidence_url": "https://www.kaggle.com/datasets/zeeshanahmed13/intraretinal-cystoid-fluid",
       "task_evidence_url": "https://www.kaggle.com/datasets/zeeshanahmed13/intraretinal-cystoid-fluid",
@@ -12391,7 +12526,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "cataract1k"
+        }
+      ],
       "item_count_evidence_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K",
       "modality_evidence_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K",
       "task_evidence_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K",
@@ -12481,7 +12621,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "lmod_cataract_1k"
+        }
+      ],
       "item_count_evidence_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot",
       "modality_evidence_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot",
       "task_evidence_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot",
@@ -12578,7 +12723,28 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://kfzyqin.github.io/lmod_plus/",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "cataract1k"
+        },
+        {
+          "type": "derived_from",
+          "target": "g1020"
+        },
+        {
+          "type": "derived_from",
+          "target": "idrid"
+        },
+        {
+          "type": "derived_from",
+          "target": "oimhs"
+        },
+        {
+          "type": "derived_from",
+          "target": "refuge2018"
+        }
+      ],
       "item_count_evidence_url": "https://kfzyqin.github.io/lmod_plus/",
       "modality_evidence_url": "https://kfzyqin.github.io/lmod_plus/",
       "task_evidence_url": "https://kfzyqin.github.io/lmod_plus/",
@@ -13594,7 +13760,144 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "acrima"
+        },
+        {
+          "type": "derived_from",
+          "target": "aptos2019"
+        },
+        {
+          "type": "derived_from",
+          "target": "chaksu"
+        },
+        {
+          "type": "derived_from",
+          "target": "ddr"
+        },
+        {
+          "type": "derived_from",
+          "target": "deepdrid"
+        },
+        {
+          "type": "derived_from",
+          "target": "drishti_gs"
+        },
+        {
+          "type": "derived_from",
+          "target": "duke_chiu_boe"
+        },
+        {
+          "type": "derived_from",
+          "target": "e_ophtha"
+        },
+        {
+          "type": "derived_from",
+          "target": "eyepacs"
+        },
+        {
+          "type": "derived_from",
+          "target": "fives"
+        },
+        {
+          "type": "derived_from",
+          "target": "g1020"
+        },
+        {
+          "type": "derived_from",
+          "target": "gamma"
+        },
+        {
+          "type": "derived_from",
+          "target": "goals"
+        },
+        {
+          "type": "derived_from",
+          "target": "hassan_composite_retina"
+        },
+        {
+          "type": "derived_from",
+          "target": "hrf"
+        },
+        {
+          "type": "derived_from",
+          "target": "idrid"
+        },
+        {
+          "type": "derived_from",
+          "target": "jichi"
+        },
+        {
+          "type": "derived_from",
+          "target": "kermany_oct"
+        },
+        {
+          "type": "derived_from",
+          "target": "lag"
+        },
+        {
+          "type": "derived_from",
+          "target": "oct_c8"
+        },
+        {
+          "type": "derived_from",
+          "target": "octa_500"
+        },
+        {
+          "type": "derived_from",
+          "target": "octdl"
+        },
+        {
+          "type": "derived_from",
+          "target": "octid"
+        },
+        {
+          "type": "derived_from",
+          "target": "oimhs"
+        },
+        {
+          "type": "derived_from",
+          "target": "palm"
+        },
+        {
+          "type": "derived_from",
+          "target": "papila"
+        },
+        {
+          "type": "derived_from",
+          "target": "paraguay_dr"
+        },
+        {
+          "type": "derived_from",
+          "target": "refuge2018"
+        },
+        {
+          "type": "derived_from",
+          "target": "rfmid"
+        },
+        {
+          "type": "derived_from",
+          "target": "roc"
+        },
+        {
+          "type": "derived_from",
+          "target": "stage_task1"
+        },
+        {
+          "type": "derived_from",
+          "target": "stage_task2"
+        },
+        {
+          "type": "derived_from",
+          "target": "stare"
+        },
+        {
+          "type": "derived_from",
+          "target": "sustech_sysu"
+        }
+      ],
       "item_count_evidence_url": "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason",
       "modality_evidence_url": "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason",
       "task_evidence_url": "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason",
@@ -14052,7 +14355,60 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://huggingface.co/datasets/Luxuriant16/MultiEYE",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "ddr"
+        },
+        {
+          "type": "derived_from",
+          "target": "eyepacs"
+        },
+        {
+          "type": "derived_from",
+          "target": "fives"
+        },
+        {
+          "type": "derived_from",
+          "target": "goals"
+        },
+        {
+          "type": "derived_from",
+          "target": "hassan_composite_retina"
+        },
+        {
+          "type": "derived_from",
+          "target": "kermany_oct"
+        },
+        {
+          "type": "derived_from",
+          "target": "messidor2"
+        },
+        {
+          "type": "derived_from",
+          "target": "octid"
+        },
+        {
+          "type": "derived_from",
+          "target": "odir2019"
+        },
+        {
+          "type": "derived_from",
+          "target": "rfmid"
+        },
+        {
+          "type": "derived_from",
+          "target": "rfmid2"
+        },
+        {
+          "type": "derived_from",
+          "target": "stare"
+        },
+        {
+          "type": "derived_from",
+          "target": "vietai_retinal_disease"
+        }
+      ],
       "item_count_evidence_url": "https://huggingface.co/datasets/Luxuriant16/MultiEYE",
       "modality_evidence_url": "https://huggingface.co/datasets/Luxuriant16/MultiEYE",
       "task_evidence_url": "https://huggingface.co/datasets/Luxuriant16/MultiEYE",
@@ -14095,7 +14451,7 @@
         "multi_disease"
       ],
       "size_gb": 2.0,
-      "notes": "",
+      "notes": "The official source states that images from STARE, RFMiD, and ARIA were post-processed for this release. ARIA is not a separate EyeDataHub record.",
       "primary_category": "fundus",
       "modalities": [
         "fundus"
@@ -14132,15 +14488,24 @@
       "terms_evidence_url": "https://data.mendeley.com/datasets/pc4mb3h8hz/1",
       "terms_scope": "dataset_files",
       "terms_component_notes": "Review the cited source for component-specific terms.",
-      "dataset_doi": null,
+      "dataset_doi": "10.17632/pc4mb3h8hz.1",
       "dataset_accession": null,
       "repository_record_id": "pc4mb3h8hz/1",
       "associated_publication_doi": null,
       "software_doi": null,
       "challenge_identifier": null,
       "resource_version": null,
-      "canonical_resolver_url": "https://data.mendeley.com/datasets/pc4mb3h8hz/1",
-      "relationships": [],
+      "canonical_resolver_url": "https://doi.org/10.17632/pc4mb3h8hz.1",
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "rfmid"
+        },
+        {
+          "type": "derived_from",
+          "target": "stare"
+        }
+      ],
       "item_count_evidence_url": "https://data.mendeley.com/datasets/pc4mb3h8hz/1",
       "modality_evidence_url": "https://data.mendeley.com/datasets/pc4mb3h8hz/1",
       "task_evidence_url": "https://data.mendeley.com/datasets/pc4mb3h8hz/1",
@@ -16132,13 +16497,13 @@
     {
       "name": "ophora",
       "full_name": "Ophora-160K: Ophthalmic Surgical Video Instruction Dataset",
-      "description": "160,185 video clip-instruction pair samples from 9,819 ophthalmic surgical videos, covering multiple procedure types. Designed for text-guided surgical video generation and understanding. Published at MICCAI 2025.",
+      "description": "162,185 video clip-instruction pair samples from 9,819 ophthalmic surgical videos, covering multiple procedure types. Designed for text-guided surgical video generation and understanding. Published at MICCAI 2025.",
       "modality": "surgical_video",
       "tasks": [
         "classification",
         "phase_recognition"
       ],
-      "num_samples": 160185,
+      "num_samples": 162185,
       "splits": [
         "train"
       ],
@@ -16163,7 +16528,7 @@
         "surgical_video",
         "text"
       ],
-      "item_count_unit": "videos",
+      "item_count_unit": "video_clip_instruction_pairs",
       "source_landing_page_url": "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K",
       "preferred_route_type": "data_platform",
       "preferred_route_url": "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K",
@@ -17563,7 +17928,16 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.17632/5428684j44.1",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "jsiec"
+        },
+        {
+          "type": "derived_from",
+          "target": "rfmid"
+        }
+      ],
       "item_count_evidence_url": "https://data.mendeley.com/datasets/5428684j44/1",
       "modality_evidence_url": "https://data.mendeley.com/datasets/5428684j44/1",
       "task_evidence_url": "https://data.mendeley.com/datasets/5428684j44/1",
@@ -18019,7 +18393,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "refuge2018"
+        }
+      ],
       "item_count_evidence_url": "https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view",
       "modality_evidence_url": "https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view",
       "task_evidence_url": "https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view",
@@ -18114,7 +18493,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "version_of",
+          "target": "refuge2018"
+        }
+      ],
       "item_count_evidence_url": "https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view",
       "modality_evidence_url": "https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view",
       "task_evidence_url": "https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view",
@@ -18298,7 +18682,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.6084/m9.figshare.16960855",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "idrid"
+        }
+      ],
       "item_count_evidence_url": "https://doi.org/10.6084/m9.figshare.16960855",
       "modality_evidence_url": "https://doi.org/10.6084/m9.figshare.16960855",
       "task_evidence_url": "https://doi.org/10.6084/m9.figshare.16960855",
@@ -18652,7 +19041,20 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.12659652",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "chase_db1"
+        },
+        {
+          "type": "derived_from",
+          "target": "drive"
+        },
+        {
+          "type": "derived_from",
+          "target": "stare"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/12659652",
       "modality_evidence_url": "https://zenodo.org/records/12659652",
       "task_evidence_url": "https://zenodo.org/records/12659652",
@@ -18955,7 +19357,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.7505822",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "extension_of",
+          "target": "rfmid"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/7505822",
       "modality_evidence_url": "https://zenodo.org/records/7505822",
       "task_evidence_url": "https://zenodo.org/records/7505822",
@@ -19135,7 +19542,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.6325549",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "riga"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/6325549",
       "modality_evidence_url": "https://zenodo.org/records/6325549",
       "task_evidence_url": "https://zenodo.org/records/6325549",
@@ -19319,7 +19731,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://eye.medicine.uiowa.edu/rite-dataset",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "drive"
+        }
+      ],
       "item_count_evidence_url": "https://eye.medicine.uiowa.edu/rite-dataset",
       "modality_evidence_url": "https://eye.medicine.uiowa.edu/rite-dataset",
       "task_evidence_url": "https://eye.medicine.uiowa.edu/rite-dataset",
@@ -20298,7 +20715,48 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "airogs"
+        },
+        {
+          "type": "derived_from",
+          "target": "beh"
+        },
+        {
+          "type": "derived_from",
+          "target": "drishti_gs"
+        },
+        {
+          "type": "derived_from",
+          "target": "fives"
+        },
+        {
+          "type": "derived_from",
+          "target": "g1020"
+        },
+        {
+          "type": "derived_from",
+          "target": "hrf"
+        },
+        {
+          "type": "derived_from",
+          "target": "jsiec"
+        },
+        {
+          "type": "derived_from",
+          "target": "odir2019"
+        },
+        {
+          "type": "derived_from",
+          "target": "papila"
+        },
+        {
+          "type": "derived_from",
+          "target": "refuge2018"
+        }
+      ],
       "item_count_evidence_url": "https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset",
       "modality_evidence_url": "https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset",
       "task_evidence_url": "https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset",
@@ -20482,7 +20940,16 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "same_or_overlapping_cohort_as",
+          "target": "stage_task2"
+        },
+        {
+          "type": "same_or_overlapping_cohort_as",
+          "target": "stage_task3"
+        }
+      ],
       "item_count_evidence_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
       "modality_evidence_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
       "task_evidence_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
@@ -20626,7 +21093,16 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "same_or_overlapping_cohort_as",
+          "target": "stage_task1"
+        },
+        {
+          "type": "same_or_overlapping_cohort_as",
+          "target": "stage_task3"
+        }
+      ],
       "item_count_evidence_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
       "modality_evidence_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
       "task_evidence_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
@@ -20770,7 +21246,16 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "same_or_overlapping_cohort_as",
+          "target": "stage_task1"
+        },
+        {
+          "type": "same_or_overlapping_cohort_as",
+          "target": "stage_task2"
+        }
+      ],
       "item_count_evidence_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
       "modality_evidence_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
       "task_evidence_url": "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets",
@@ -21864,7 +22349,12 @@
       "challenge_identifier": null,
       "resource_version": null,
       "canonical_resolver_url": "https://doi.org/10.5281/zenodo.7678656",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "extension_of",
+          "target": "trend_fundus"
+        }
+      ],
       "item_count_evidence_url": "https://zenodo.org/records/7678656",
       "modality_evidence_url": "https://zenodo.org/records/7678656",
       "task_evidence_url": "https://zenodo.org/records/7678656",
@@ -23093,13 +23583,13 @@
     {
       "name": "x_pcr",
       "full_name": "X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark",
-      "description": "Ophthalmic image-text VQA/reasoning benchmark with retinal modalities and expert-verified question-answer pairs.",
+      "description": "The version-pinned public deposit contains 18,735 ophthalmic image-text benchmark rows across CFP, external-eye, FFA, OCT, and RetCam subsets.",
       "modality": "multimodal",
       "tasks": [
         "visual_question_answering",
         "classification"
       ],
-      "num_samples": 18700,
+      "num_samples": 18735,
       "splits": [
         "all"
       ],
@@ -23118,7 +23608,7 @@
         "derivative"
       ],
       "size_gb": 5.0,
-      "notes": "Viewer shows 18.7k rows; dataset card describes broader image/VQA provenance from public ophthalmic datasets.",
+      "notes": "The public deposit at commit 06a318fd852230326386e3c6514d8a11b7a6b4af has 18,735 rows. The dataset card describes a broader benchmark of 26,415 images and 177,868 VQA pairs; these units and scopes are not interchangeable.",
       "primary_category": "multimodal",
       "modalities": [
         "fundus",
@@ -23128,7 +23618,7 @@
         "retcam",
         "text"
       ],
-      "item_count_unit": "unknown",
+      "item_count_unit": "rows",
       "source_landing_page_url": "https://huggingface.co/datasets/Fantasy666/X-PCR",
       "preferred_route_type": "data_platform",
       "preferred_route_url": "https://huggingface.co/datasets/Fantasy666/X-PCR",
@@ -23166,9 +23656,66 @@
       "associated_publication_doi": null,
       "software_doi": null,
       "challenge_identifier": null,
-      "resource_version": null,
+      "resource_version": "06a318fd852230326386e3c6514d8a11b7a6b4af",
       "canonical_resolver_url": "https://huggingface.co/datasets/Fantasy666/X-PCR",
-      "relationships": [],
+      "relationships": [
+        {
+          "type": "derived_from",
+          "target": "aptos2019"
+        },
+        {
+          "type": "derived_from",
+          "target": "beh"
+        },
+        {
+          "type": "derived_from",
+          "target": "deepdrid"
+        },
+        {
+          "type": "derived_from",
+          "target": "eye_disease_image_mendeley"
+        },
+        {
+          "type": "derived_from",
+          "target": "eyepacs"
+        },
+        {
+          "type": "derived_from",
+          "target": "harvard_gdp"
+        },
+        {
+          "type": "derived_from",
+          "target": "jsiec"
+        },
+        {
+          "type": "derived_from",
+          "target": "kermany_oct"
+        },
+        {
+          "type": "derived_from",
+          "target": "mured"
+        },
+        {
+          "type": "derived_from",
+          "target": "oct_c8"
+        },
+        {
+          "type": "derived_from",
+          "target": "octid"
+        },
+        {
+          "type": "derived_from",
+          "target": "odir2019"
+        },
+        {
+          "type": "derived_from",
+          "target": "oimhs"
+        },
+        {
+          "type": "derived_from",
+          "target": "rfmid2"
+        }
+      ],
       "item_count_evidence_url": "https://huggingface.co/datasets/Fantasy666/X-PCR",
       "modality_evidence_url": "https://huggingface.co/datasets/Fantasy666/X-PCR",
       "task_evidence_url": "https://huggingface.co/datasets/Fantasy666/X-PCR",

@@ -608,6 +608,13 @@ class MuReDDataset(_StubLoadMixin, EyeDataHubDataset):
             ),
             tags=["fundus", "multilabel", "multi_disease"],
             size_gb=2.0,
+            notes=(
+                "The official source states that images from STARE, RFMiD, "
+                "and ARIA were post-processed for this release. ARIA is not "
+                "a separate EyeDataHub record."
+            ),
+            dataset_doi="10.17632/pc4mb3h8hz.1",
+            canonical_resolver_url="https://doi.org/10.17632/pc4mb3h8hz.1",
         )
 
     def download(self, data_dir: Union[str, Path]) -> None:

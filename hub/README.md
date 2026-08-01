@@ -7,7 +7,7 @@ registry.
 
 | Path | Purpose |
 |---|---|
-| `audit/` | URL audit runner and JSON/Markdown reports. |
+| `audit/` | URL, route, and inter-record relationship review tools and reports. |
 | `docs/` | Docusaurus and `llms-full.txt` generators. |
 | `stats/` | Catalog statistics and figure-data scripts. |
 | `open_catalogue.py` | Filter the registry to open-license datasets. |
@@ -21,6 +21,7 @@ registry.
 ```bash
 python -m hub.docs.generate_dataset_pages --out website/docs
 python -m hub.docs.generate_llms_full
+python hub/audit/generate_relationship_review.py
 python -m hub.audit.verify_urls --out hub/audit/url_report.json --md hub/audit/url_report.md
 python -m hub.stats.run_all --metadata hub/metadata.json --out reports/figures/auto
 ```

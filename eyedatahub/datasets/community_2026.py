@@ -721,8 +721,7 @@ class OcularChatVQADataset(_StubLoadMixin, EyeDataHubDataset):
 
 
 class FairVLMedDataset(_StubLoadMixin, EyeDataHubDataset):
-    """FairVLMed: ophthalmic clinical text + NPZ records (HF / Harvard AI Robotics).
-    Note: overlaps with Harvard-FairVision — flagged as derivative."""
+    """FairVLMed: glaucoma SLO images, clinical notes, and tabular fields."""
 
     _SUBDIR = "fairvlmed"
     _HF_REPO = "harvardairobotics/FairVLMed"
@@ -733,29 +732,40 @@ class FairVLMedDataset(_StubLoadMixin, EyeDataHubDataset):
             name="fairvlmed",
             full_name="FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset",
             description=(
-                "Ophthalmic clinical text + NPZ records covering glaucoma, "
-                "cataract, and neuro-ophthalmology with paired age, sex, "
-                "race/ethnicity, and language attributes. Derived from the "
-                "same Harvard clinical population as Harvard-FairVision."
+                "10,000 scanning-laser ophthalmoscopy fundus images paired "
+                "with de-identified clinical notes, visual-field measurements, "
+                "glaucoma labels, and demographic attributes."
             ),
             modality="multimodal",
-            tasks=["classification"],
-            num_samples=None,
+            tasks=["classification", "report_generation", "fairness_analysis"],
+            num_samples=10000,
             splits=["train", "val", "test"],
             download_type="huggingface",
             download_url="https://huggingface.co/datasets/harvardairobotics/FairVLMed",
-            license="See Harvard AI Robotics terms",
+            license="CC BY-NC-ND 4.0",
             citation=(
                 "Harvard AI Robotics, FairVLMed: Fair vision-language medical "
                 "ophthalmic dataset. HuggingFace, 2024."
             ),
-            tags=["multimodal", "vlm", "fairness", "harvard", "clinical_text",
-                  "derivative"],
+            tags=[
+                "multimodal",
+                "fundus",
+                "slo",
+                "visual_field",
+                "tabular",
+                "vlm",
+                "fairness",
+                "harvard",
+                "clinical_text",
+                "glaucoma",
+            ],
             size_gb=10.0,
             notes=(
-                "OVERLAP: Derived from the same Harvard clinical cohort as "
-                "`harvard_fairvision` (already indexed). Kept for VLM/text "
-                "researchers who specifically need the text+NPZ view."
+                "The official dataset card reports 10,000 patients and "
+                "10,000 samples (7,000 train, 1,000 validation, 2,000 test). "
+                "No source statement supporting cohort identity with the "
+                "separate Harvard-FairVision record was found, so no catalog "
+                "relationship is asserted."
             ),
         )
 

@@ -711,7 +711,7 @@ class BiDRDataset(EyeDataHubDataset):
                 "BiDR Dataset. Kaggle. "
                 "https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy"
             ),
-            tags=["dr", "fundus", "kaggle", "grading", "duplicate_of_eyepacs"],
+            tags=["dr", "fundus", "kaggle", "grading", "eyepacs_training_split"],
             size_gb=1.0,
             notes=(
                 "OVERLAP: BiDR is a Kaggle re-upload of the EyePACS Kaggle "
@@ -853,7 +853,7 @@ class DRArrangedDataset(EyeDataHubDataset):
                 "Tianchi Open Datasets, dataset ID 93926. "
                 "https://tianchi.aliyun.com/dataset/93926"
             ),
-            tags=["dr", "fundus", "manual", "grading", "duplicate_of_eyepacs"],
+            tags=["dr", "fundus", "manual", "grading", "eyepacs_training_split"],
             size_gb=8.0,
             notes=(
                 "OVERLAP: This is the EyePACS Kaggle 2015 competition TRAIN "

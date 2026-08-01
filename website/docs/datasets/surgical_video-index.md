@@ -7,11 +7,11 @@ description: "17 resources containing surgical_video data in EyeDataHub."
 
 # Surgical Video datasets
 
-**17 datasets · 204,425 samples · 1490.2 GB total** - this page indexes every EyeDataHub resource tagged as containing `surgical_video` data. A resource can appear on more than one modality page.
+**17 datasets · 206,425 samples · 1490.2 GB total** - this page indexes every EyeDataHub resource tagged as containing `surgical_video` data. A resource can appear on more than one modality page.
 
 | Name | Full name | Samples | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
-| [`ophora`](./ophora.md) | Ophora-160K: Ophthalmic Surgical Video Instruction Dataset | 160,185 | 500.0 GB | `unknown` | HuggingFace Hub |
+| [`ophora`](./ophora.md) | Ophora-160K: Ophthalmic Surgical Video Instruction Dataset | 162,185 | 500.0 GB | `unknown` | HuggingFace Hub |
 | [`lmod_plus`](./lmod_plus.md) | LMOD+ Multimodal Ophthalmology Benchmark | 32,633 | Not reported | `unknown` | Manual (upstream-gated) |
 | [`cadis`](./cadis.md) | CaDIS: Cataract Dataset for Image Segmentation | 4,670 | 15.0 GB | `research-only` | Manual (upstream-gated) |
 | [`cataract_lmm`](./cataract_lmm.md) | Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark | 3,000 | 200.0 GB | `cc-by-nc-nd` | HuggingFace Hub |

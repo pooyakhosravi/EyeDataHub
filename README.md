@@ -13,26 +13,30 @@ suitability.
 [![License: MIT](https://img.shields.io/badge/code-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 [![Catalog](https://img.shields.io/badge/catalog-251%20records-brightgreen.svg)](DATASETS.md)
-[![Tests](https://img.shields.io/badge/tests-57%20passing-brightgreen.svg)](tests)
+[![Tests](https://img.shields.io/badge/tests-61%20passing-brightgreen.svg)](tests)
 
 ## One-minute overview
 
 The current catalog contains 251 manually source-checked records across 18
 primary categories. At the catalog cutoff on 25 July 2026:
 
-- 170 routes were anonymous direct;
+- 170 used a source link requiring neither an account nor manual approval;
 - 34 required immediate self-service authentication;
 - 11 required user click-through;
 - 28 required controlled or manual access;
 - 8 required author contact.
 
-Acquisition implementation is separate from validation evidence. The archived
-record-level ledger reports 47 complete current-deposit transfers through
-EyeDataHub, five representative pre-existing holdings, four listing-only
-strongest evidence levels, and 195 route-only strongest evidence levels.
-Fourteen records have cumulative metadata or listing evidence because some
-later progressed to stronger evidence. Initial Mendeley HTTP 403 and Kaggle
-HTTP 401 automated listing failures remain unresolved.
+For a practical route summary, 67 records do not require platform credentials:
+47 are supported directly by EyeDataHub and 20 use source-hosted web, Google
+Drive, or GitHub links. Another 124 use platform clients or APIs with the user's
+corresponding credentials or client configuration. The remaining 60 use
+manual, controlled, institutional, or author-contact procedures.
+
+All 251 records were also reviewed for documented reuse, derivation, subset,
+version, mirror, component, and cohort-overlap relationships. The reviewed
+graph contains 131 directed assertions involving 91 records. The complete
+record matrix, edge evidence, unresolved upstream resources, and rejected
+false-positive links are in `hub/audit/resource_relationship_*_2026-08-01.*`.
 
 The complete machine-readable exports are `hub/catalog.json` and
 `hub/catalog.csv`. The similarly named `hub/metadata.*` files contain the
@@ -137,7 +141,7 @@ authentication category or credential presence, never credential values.
 
 Supported backends include official Figshare, Zenodo, Mendeley Data, Dryad,
 Kaggle, Hugging Face, PhysioNet, Dataverse, Synapse, GitHub, Google Drive, and
-direct-file routes. Support varies by record and is exposed through
+source-hosted file links. Support varies by record and is exposed through
 `acquisition_support` and `loader_test_scope`.
 
 ## Release record

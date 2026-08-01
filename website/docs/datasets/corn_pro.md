@@ -2,8 +2,8 @@
 id: corn_pro
 title: "CORN Pro: Corneal Nerve Confocal Microscopy Dataset"
 sidebar_label: corn_pro
-description: "Professional/extended CORN database with in-vivo confocal microscopy images of the corneal subbasal nerve plexus. Supports nerve fiber segmentation, image quality enhancement, and tortuosity grading ("
-tags: ["confocal", "cc-by", "manual", "segmentation", "grading", "classification"]
+description: "1,120 in-vivo confocal microscopy images with pixel-level annotations for corneal subbasal nerves and corneal cells. The source describes 560 images with nerves and Langerhans cells and 560 images wit"
+tags: ["confocal", "cc-by", "manual", "segmentation"]
 ---
 
 
@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 # CORN Pro: Corneal Nerve Confocal Microscopy Dataset
 
-Professional/extended CORN database with in-vivo confocal microscopy images of the corneal subbasal nerve plexus. Supports nerve fiber segmentation, image quality enhancement, and tortuosity grading (4 levels). 384×384 px, 400×400 µm FOV. Based on the CORN-2 dataset (~688 annotated images: train 340 low-quality + 288 high-quality, test 60).
+1,120 in-vivo confocal microscopy images with pixel-level annotations for corneal subbasal nerves and corneal cells. The source describes 560 images with nerves and Langerhans cells and 560 images with nerves and/or stromal cells.
 
 ## At a glance
 
@@ -22,10 +22,10 @@ Professional/extended CORN database with in-vivo confocal microscopy images of t
 | **Full name** | CORN Pro: Corneal Nerve Confocal Microscopy Dataset |
 | **Primary category** | `confocal` |
 | **Contained modalities** | confocal |
-| **Tasks** | segmentation, grading, classification |
-| **Samples** | 688 |
+| **Tasks** | segmentation |
+| **Samples** | 1,120 |
 | **Classes** | Not reported (Not reported) |
-| **Splits** | train, test |
+| **Splits** | all |
 | **Size** | 0.5 GB |
 | **Source-stated terms** | CC BY 4.0 |
 | **Normalized terms** | `cc-by` |
@@ -85,7 +85,7 @@ from eyedatahub.datasets.registry import REGISTRY
 
 data_dir = Path('~/.eyedatahub/data').expanduser()
 ds = REGISTRY.get_dataset('corn_pro')
-samples = ds.load(data_dir, split='test')
+samples = ds.load(data_dir, split='all')
 for s in samples[:5]:
     print(s.sample_id, s.label, s.image_path)
 ```

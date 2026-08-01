@@ -2,7 +2,7 @@
 id: x_pcr
 title: "X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark"
 sidebar_label: x_pcr
-description: "Ophthalmic image-text VQA/reasoning benchmark with retinal modalities and expert-verified question-answer pairs."
+description: "The version-pinned public deposit contains 18,735 ophthalmic image-text benchmark rows across CFP, external-eye, FFA, OCT, and RetCam subsets."
 tags: ["multimodal", "fundus", "fundus_angiography", "oct", "external_eye", "retcam", "text", "unknown", "huggingface", "visual_question_answering", "classification"]
 ---
 
@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 # X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark
 
-Ophthalmic image-text VQA/reasoning benchmark with retinal modalities and expert-verified question-answer pairs.
+The version-pinned public deposit contains 18,735 ophthalmic image-text benchmark rows across CFP, external-eye, FFA, OCT, and RetCam subsets.
 
 ## At a glance
 
@@ -23,7 +23,7 @@ Ophthalmic image-text VQA/reasoning benchmark with retinal modalities and expert
 | **Primary category** | `multimodal` |
 | **Contained modalities** | fundus, fundus_angiography, oct, external_eye, retcam, text |
 | **Tasks** | visual_question_answering, classification |
-| **Samples** | 18,700 |
+| **Samples** | 18,735 |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 5.0 GB |
@@ -40,7 +40,7 @@ Ophthalmic image-text VQA/reasoning benchmark with retinal modalities and expert
 
 ## Notes
 
-> Viewer shows 18.7k rows; dataset card describes broader image/VQA provenance from public ophthalmic datasets.
+> The public deposit at commit 06a318fd852230326386e3c6514d8a11b7a6b4af has 18,735 rows. The dataset card describes a broader benchmark of 26,415 images and 177,868 VQA pairs; these units and scopes are not interchangeable.
 
 ## Access preflight and acquisition
 

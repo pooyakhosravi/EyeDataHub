@@ -2,7 +2,7 @@
 id: ophora
 title: "Ophora-160K: Ophthalmic Surgical Video Instruction Dataset"
 sidebar_label: ophora
-description: "160,185 video clip-instruction pair samples from 9,819 ophthalmic surgical videos, covering multiple procedure types. Designed for text-guided surgical video generation and understanding. Published at"
+description: "162,185 video clip-instruction pair samples from 9,819 ophthalmic surgical videos, covering multiple procedure types. Designed for text-guided surgical video generation and understanding. Published at"
 tags: ["surgical_video", "text", "unknown", "huggingface", "classification", "phase_recognition"]
 ---
 
@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 # Ophora-160K: Ophthalmic Surgical Video Instruction Dataset
 
-160,185 video clip-instruction pair samples from 9,819 ophthalmic surgical videos, covering multiple procedure types. Designed for text-guided surgical video generation and understanding. Published at MICCAI 2025.
+162,185 video clip-instruction pair samples from 9,819 ophthalmic surgical videos, covering multiple procedure types. Designed for text-guided surgical video generation and understanding. Published at MICCAI 2025.
 
 ## At a glance
 
@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `surgical_video` |
 | **Contained modalities** | surgical_video, text |
 | **Tasks** | classification, phase_recognition |
-| **Samples** | 160,185 |
+| **Samples** | 162,185 |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | train |
 | **Size** | 500.0 GB |

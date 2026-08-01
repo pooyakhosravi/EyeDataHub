@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "catalog_version": "0.3.0",
+  "catalog_search_cutoff": "2026-07-25",
+  "relationship_review_date": "2026-08-01",
+  "catalog_record_count": 251,
+  "reviewed_record_count": 251,
+  "directed_relationship_edge_count": 131,
+  "records_participating_in_confirmed_relationships": 91,
+  "records_with_outgoing_relationships": 43,
+  "records_with_incoming_relationships": 65,
+  "unique_symmetric_overlap_pairs": 4,
+  "relationship_counts_by_type": {
+    "component_of": 3,
+    "derived_from": 110,
+    "extension_of": 2,
+    "has_component": 3,
+    "mirror_of": 2,
+    "same_or_overlapping_cohort_as": 8,
+    "subset_of": 2,
+    "version_of": 1
+  },
+  "review_outcomes": {
+    "confirmed_catalog_relationship": 91,
+    "external_or_unresolved_relationship_only": 9,
+    "no_documented_catalog_relationship_identified": 151
+  },
+  "unresolved_or_external_item_count": 54,
+  "reviewed_rejected_candidate_count": 16,
+  "relationship_definitions": {
+    "derived_from": "The source record reuses data from the target and adds processing, annotations, labels, questions, representations, or benchmark structure.",
+    "subset_of": "The source record contains a documented proper subset of the target.",
+    "version_of": "The source record is a later named release that retains all or part of the earlier target release.",
+    "mirror_of": "The source record republishes the same data payload or documented split as the target record.",
+    "component_of": "The source record is a named component of the target collection.",
+    "has_component": "The source collection includes the named target record.",
+    "replaces": "The source record explicitly supersedes the target record.",
+    "extension_of": "The source record extends the target project with additional data but is not documented as the same cohort or a complete replacement.",
+    "same_or_overlapping_cohort_as": "The records are documented to share a cohort or source images, but exact containment cannot be established from public evidence."
+  },
+  "counting_note": "Relationship edges are directed. Inverse component edges and both directions of symmetric cohort-overlap edges are included. Counts therefore describe catalog assertions, not independent cohorts.",
+  "third_party_dataset_files_included": false
+}

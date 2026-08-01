@@ -7,13 +7,13 @@ description: "15 resources containing external_eye data in EyeDataHub."
 
 # External Eye datasets
 
-**15 datasets · 191,744 samples · 49.6 GB total** - this page indexes every EyeDataHub resource tagged as containing `external_eye` data. A resource can appear on more than one modality page.
+**15 datasets · 191,779 samples · 49.6 GB total** - this page indexes every EyeDataHub resource tagged as containing `external_eye` data. A resource can appear on more than one modality page.
 
 | Name | Full name | Samples | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
 | [`eyecare_100k`](./eyecare_100k.md) | Eyecare-100K: Multimodal Ophthalmology VQA Corpus | 102,000 | 30.0 GB | `unknown` | HuggingFace Hub |
 | [`lmod_plus`](./lmod_plus.md) | LMOD+ Multimodal Ophthalmology Benchmark | 32,633 | Not reported | `unknown` | Manual (upstream-gated) |
-| [`x_pcr`](./x_pcr.md) | X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark | 18,700 | 5.0 GB | `unknown` | HuggingFace Hub |
+| [`x_pcr`](./x_pcr.md) | X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark | 18,735 | 5.0 GB | `unknown` | HuggingFace Hub |
 | [`popeye_nir`](./popeye_nir.md) | PopEYE Infrared Ocular Image Dataset | 14,976 | 3.0 GB | `cc-by` | Zenodo |
 | [`mcoa`](./mcoa.md) | MCOA: Multimodal Corneal Opacity Assessment Dataset | 6,664 | 8.0 GB | `cc-by` | Figshare |
 | [`tear_meniscus`](./tear_meniscus.md) | Multicentre Tear Meniscus Segmentation Dataset | 3,432 | 1.5 GB | `cc-by` | Figshare |

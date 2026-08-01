@@ -7,13 +7,14 @@ description: "27 resources containing tabular data in EyeDataHub."
 
 # Tabular datasets
 
-**27 datasets · 934,404 samples · 67.9 GB total** - this page indexes every EyeDataHub resource tagged as containing `tabular` data. A resource can appear on more than one modality page.
+**27 datasets · 944,404 samples · 67.9 GB total** - this page indexes every EyeDataHub resource tagged as containing `tabular` data. A resource can appear on more than one modality page.
 
 | Name | Full name | Samples | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
 | [`ocular_chat_vqa`](./ocular_chat_vqa.md) | OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset | 844,000 | 8.0 GB | `cc-by-nc-sa` | HuggingFace Hub |
 | [`lmod_plus`](./lmod_plus.md) | LMOD+ Multimodal Ophthalmology Benchmark | 32,633 | Not reported | `unknown` | Manual (upstream-gated) |
 | [`oculoscope`](./oculoscope.md) | OculoScope: Fairer AI in Ophthalmology Dataset | 16,530 | 20.0 GB | `cc-by` | Figshare |
+| [`fairvlmed`](./fairvlmed.md) | FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset | 10,000 | 10.0 GB | `cc-by-nc-nd` | HuggingFace Hub |
 | [`leops_erg`](./leops_erg.md) | LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset | 9,743 | Not reported | `cc-by` | Mendeley Data |
 | [`olives`](./olives.md) | OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics | 9,408 | 20.0 GB | `cc-by` | Zenodo |
 | [`fprm_retina`](./fprm_retina.md) | FPRM Multimodal Eye Imaging and Psychological Assessment Dataset | 3,361 | Not reported | `research-only` | Manual (upstream-gated) |
@@ -33,7 +34,6 @@ description: "27 resources containing tabular data in EyeDataHub."
 | [`soul_octa`](./soul_octa.md) | SOUL: OCTA Human-Machine Collaborative Annotation Dataset | 178 | 0.1 GB | `cc-by` | Figshare |
 | [`corneal_parameters_kc`](./corneal_parameters_kc.md) | Corneal Parameters Keratoconus Study | 77 | 0.0 GB | `cc-by` | Mendeley Data |
 | [`corneal_tomography_iol`](./corneal_tomography_iol.md) | Multi-Parameter Corneal Tomography Dataset for IOL Selection | 61 | 0.0 GB | `cc-by` | Mendeley Data |
-| [`fairvlmed`](./fairvlmed.md) | FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset | Not reported | 10.0 GB | `unknown` | HuggingFace Hub |
 | [`anterior_segment_smile`](./anterior_segment_smile.md) | Anterior Segment Parameters After SMILE Surgery | Not reported | 0.0 GB | `cc-by` | Mendeley Data |
 | [`ophtho_readability`](./ophtho_readability.md) | Language and Readability Barriers in Ophthalmology Dataset | Not reported | 0.0 GB | `cc-by` | Zenodo |
 | [`brset_mbrset_embeddings`](./brset_mbrset_embeddings.md) | Embedding-Based Representations for BRSET and mBRSET | Not reported | Not reported | `unknown` | PhysioNet |

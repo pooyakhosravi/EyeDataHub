@@ -271,11 +271,8 @@ class CORNProDataset(EyeDataHubDataset):
     """
     CORN Pro: Professional corneal confocal microscopy dataset (Zenodo 14263883).
 
-    An extended/professional version of the CORN database for corneal nerve
-    analysis. Covers:
-      - Nerve fiber segmentation (pixel-level annotations)
-      - Image quality assessment / enhancement
-      - Tortuosity grading (4 levels)
+    A 1,120-image corneal confocal microscopy resource for pixel-level
+    segmentation of nerve fibers, Langerhans cells, and stromal cells.
 
     Part of the CORN database series: https://imed.nimte.ac.cn/CORN.html
     Access is restricted — request access at https://zenodo.org/records/14263883
@@ -291,17 +288,15 @@ class CORNProDataset(EyeDataHubDataset):
             name="corn_pro",
             full_name="CORN Pro: Corneal Nerve Confocal Microscopy Dataset",
             description=(
-                "Professional/extended CORN database with in-vivo confocal "
-                "microscopy images of the corneal subbasal nerve plexus. "
-                "Supports nerve fiber segmentation, image quality enhancement, "
-                "and tortuosity grading (4 levels). 384×384 px, 400×400 µm FOV. "
-                "Based on the CORN-2 dataset (~688 annotated images: train 340 "
-                "low-quality + 288 high-quality, test 60)."
+                "1,120 in-vivo confocal microscopy images with pixel-level "
+                "annotations for corneal subbasal nerves and corneal cells. "
+                "The source describes 560 images with nerves and Langerhans "
+                "cells and 560 images with nerves and/or stromal cells."
             ),
             modality="confocal",
-            tasks=["segmentation", "grading", "classification"],
-            num_samples=688,
-            splits=["train", "test"],
+            tasks=["segmentation"],
+            num_samples=1120,
+            splits=["all"],
             image_size=(384, 384),
             download_type="manual",
             download_url=self._ZENODO_URL,
@@ -310,7 +305,15 @@ class CORNProDataset(EyeDataHubDataset):
                 "CORN database (https://imed.nimte.ac.cn/CORN.html). "
                 "Zenodo record 14263883: https://zenodo.org/records/14263883"
             ),
-            tags=["confocal", "cornea", "nerve", "segmentation", "grading", "ivcm"],
+            tags=[
+                "confocal",
+                "cornea",
+                "nerve",
+                "langerhans_cells",
+                "stromal_cells",
+                "segmentation",
+                "ivcm",
+            ],
             size_gb=0.5,
             notes=(
                 "Restricted access. Steps to obtain:\n"
@@ -530,16 +533,6 @@ class CORNCollectionDataset(EyeDataHubDataset):
             repository_record_id="zenodo:19689814",
             resource_version="Version v2",
             canonical_resolver_url="https://doi.org/10.5281/zenodo.19689814",
-            relationships=[
-                {
-                    "type": "same_or_overlapping_cohort_as",
-                    "target": "corn1500",
-                },
-                {
-                    "type": "same_or_overlapping_cohort_as",
-                    "target": "corn_pro",
-                },
-            ],
             item_count_evidence_url=self._ZENODO_URL,
             modality_evidence_url=self._ZENODO_URL,
             task_evidence_url=self._ZENODO_URL,
