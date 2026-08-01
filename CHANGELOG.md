@@ -6,7 +6,7 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ## [Unreleased]
 
-## [0.3.0] - 2026-07-31
+## [0.3.0] - 2026-08-01
 
 ### Added
 
