@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-08-01T22:34:27.386689+00:00",
-    "elapsed_seconds": 42.8,
+    "generated_at": "2026-08-01T22:44:05.428362+00:00",
+    "elapsed_seconds": 43.4,
     "command": "python.exe -m hub.audit.verify_urls",
     "package": "eyedatahub",
     "package_version": "0.3.0",
-    "git_commit": "8b60634bbd01e625f16a29f198110aa2b459ce5f",
-    "git_dirty": true,
+    "git_commit": "cda164c5a269daa1e06ffd2b43bce1e47b68de2f",
+    "git_dirty": false,
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "timeout_seconds": 30,
     "concurrency": 8,
@@ -27,17 +27,23 @@
   "summary": {
     "total": 251,
     "by_status": {
-      "ok": 171,
+      "ok": 170,
       "credentials_or_client_required": 67,
       "forbidden": 10,
-      "ssl_error": 3
+      "ssl_error": 3,
+      "timeout": 1
     },
-    "broken_count": 3,
+    "broken_count": 4,
     "broken": [
       {
         "name": "stare",
         "status": "ssl_error",
         "url": "https://cecas.clemson.edu/~ahoover/stare/"
+      },
+      {
+        "name": "harvard_fairvision",
+        "status": "timeout",
+        "url": "https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k"
       },
       {
         "name": "drions_db",
@@ -322,7 +328,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1YdZm-sioiAbTdBRy4oej1q6tZL8Baft7/edit",
-      "content_length": "122490",
+      "content_length": "122318",
       "status": "ok"
     },
     {
@@ -466,7 +472,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://borealisdata.ca/dataverse/OCTID",
-      "content_length": "12997",
+      "content_length": "13001",
       "status": "ok"
     },
     {
@@ -478,7 +484,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/10Ys4xsw81evjHewZEvqHy4Kri0my8C2S/view",
-      "content_length": "122097",
+      "content_length": "121983",
       "status": "ok"
     },
     {
@@ -550,7 +556,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu/edit",
-      "content_length": "122382",
+      "content_length": "122430",
       "status": "ok"
     },
     {
@@ -778,7 +784,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/14XWD6kX0dVRfAyEc7FkZGKZibWEkvnyv/view",
-      "content_length": "122277",
+      "content_length": "122334",
       "status": "ok"
     },
     {
@@ -790,7 +796,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Qlkqj74SW8DJRKdYL_-ApC_0H5Z7uyvr/view",
-      "content_length": "122161",
+      "content_length": "122220",
       "status": "ok"
     },
     {
@@ -802,7 +808,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Uz5x0aqXb0aecjzNWQ4522oCxaRDZxBt/view",
-      "content_length": "122219",
+      "content_length": "122145",
       "status": "ok"
     },
     {
@@ -814,7 +820,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view",
-      "content_length": "122377",
+      "content_length": "122482",
       "status": "ok"
     },
     {
@@ -826,7 +832,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view",
-      "content_length": "122360",
+      "content_length": "122061",
       "status": "ok"
     },
     {
@@ -838,7 +844,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view",
-      "content_length": "122305",
+      "content_length": "122304",
       "status": "ok"
     },
     {
@@ -991,11 +997,7 @@
       "download_type": "manual",
       "download_url": "https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k",
       "url": "https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://ophai.hms.harvard.edu/code/fairvision/",
-      "content_length": null,
-      "status": "ok"
+      "status": "timeout"
     },
     {
       "name": "oct5k",

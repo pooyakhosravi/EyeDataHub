@@ -1,21 +1,22 @@
 # EyeDataHub URL Audit Report
 
 - **Total datasets checked**: 251
-- **Broken URLs**: 3
-- **Generated at**: 2026-08-01T22:34:27.386689+00:00
+- **Broken URLs**: 4
+- **Generated at**: 2026-08-01T22:44:05.428362+00:00
 - **EyeDataHub version**: 0.3.0
-- **Git commit**: 8b60634bbd01e625f16a29f198110aa2b459ce5f
-- **Git dirty**: True
+- **Git commit**: cda164c5a269daa1e06ffd2b43bce1e47b68de2f
+- **Git dirty**: False
 - **Timeout / concurrency**: 30 s / 8
 
 ## Status distribution
 
 | Status | Count |
 | --- | ---:|
-| ok | 171 |
+| ok | 170 |
 | credentials_or_client_required | 67 |
 | forbidden | 10 |
 | ssl_error | 3 |
+| timeout | 1 |
 
 ## Status definitions
 
@@ -38,6 +39,7 @@
 | Dataset | Status | URL |
 | --- | --- | --- |
 | `stare` | `ssl_error` | [cecas.clemson.edu/~ahoover](https://cecas.clemson.edu/~ahoover/stare/) |
+| `harvard_fairvision` | `timeout` | [ophai.hms.harvard.edu/datasets](https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k) |
 | `drions_db` | `ssl_error` | [ia.uned.es/~ejcarmona](https://www.ia.uned.es/~ejcarmona/DRIONS-DB.html) |
 | `fire` | `ssl_error` | [projects.ics.forth.gr/cvrl](https://projects.ics.forth.gr/cvrl/fire/) |
 
@@ -193,7 +195,6 @@
 | `gaze_capture` | `manual` | `ok` | 200 | [gazecapture.csail.mit.edu/dataset.php](https://gazecapture.csail.mit.edu/dataset.php) |
 | `goals` | `gdrive` | `ok` | 200 | [aistudio.baidu.com/competition](https://aistudio.baidu.com/competition/detail/783/0/introduction) |
 | `grape` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.c.6406319](https://doi.org/10.6084/m9.figshare.c.6406319) |
-| `harvard_fairvision` | `manual` | `ok` | 200 | [ophai.hms.harvard.edu/datasets](https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k) |
 | `harvard_gdp` | `gdrive` | `ok` | 200 | [drive.google.com/drive](https://drive.google.com/drive/folders/1JMi_HCql113uc9X0DOaMkNfEWfxaDlEz) |
 | `harvard_glaucoma` | `direct` | `ok` | 202 | [https://doi.org/10.7910/DVN/1YRRAC](https://doi.org/10.7910/DVN/1YRRAC) |
 | `hei_med` | `github` | `ok` | 200 | [github.com/lgiancaUTH](https://github.com/lgiancaUTH/HEI-MED) |
@@ -296,3 +297,4 @@
 | `drions_db` | `direct` | `ssl_error` | — | [ia.uned.es/~ejcarmona](https://www.ia.uned.es/~ejcarmona/DRIONS-DB.html) |
 | `fire` | `direct` | `ssl_error` | — | [projects.ics.forth.gr/cvrl](https://projects.ics.forth.gr/cvrl/fire/) |
 | `stare` | `direct` | `ssl_error` | — | [cecas.clemson.edu/~ahoover](https://cecas.clemson.edu/~ahoover/stare/) |
+| `harvard_fairvision` | `manual` | `timeout` | — | [ophai.hms.harvard.edu/datasets](https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k) |
