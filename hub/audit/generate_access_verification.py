@@ -3,8 +3,9 @@
 The ledger combines author-conducted source reconciliation with the automated
 URL probe.  A successful HTTP response is never promoted to route verification
 on its own, and an automated probe failure does not overwrite a documented
-manual source check.  Transfer evidence is represented separately through the
-acquisition-support fields and acquisition validation log.
+manual source check. Transfer evidence is represented separately in the
+record-level acquisition-verification ledger and is never inferred from an
+implementation label here.
 """
 from __future__ import annotations
 
@@ -37,13 +38,11 @@ def _authentication_state(info: Any) -> str:
 
 
 def _verification_level(info: Any) -> str:
-    if info.acquisition_support == "end_to_end_tested":
-        return "4_complete_download_validated"
-    if info.acquisition_support == "transfer_tested_partial":
-        return "3_transfer_initiated"
     if info.availability_status == "available":
-        return "2_acquisition_route_verified"
-    return "1_source_page_checked"
+        return "route_confirmed"
+    if info.availability_status == "unavailable":
+        return "unavailable_or_failed"
+    return "source_page_reviewed"
 
 
 def generate_rows(url_report: dict[str, Any]) -> list[dict[str, Any]]:
@@ -99,11 +98,7 @@ def generate_rows(url_report: dict[str, Any]) -> list[dict[str, Any]]:
                 "independent_audit_status": info.independent_audit_status,
                 "source_terms_evidence_url": info.terms_evidence_url or "",
                 "dataset_files_transferred_for_this_row": (
-                    "complete"
-                    if info.acquisition_support == "end_to_end_tested"
-                    else "partial_or_metadata_only"
-                    if info.acquisition_support == "transfer_tested_partial"
-                    else "none"
+                    "not_assessed_in_access_verification_log"
                 ),
                 "environment": (
                     f"{platform.system()} | Python {platform.python_version()} | "
@@ -123,12 +118,12 @@ def write_rows(rows: list[dict[str, Any]], output: Path, url_report: dict[str, A
     output.with_suffix(".json").write_text(
         json.dumps(
             {
-                "schema_version": "1.0",
+                "schema_version": "2.0",
                 "verification_protocol": {
-                    "level_1": "official source page checked",
-                    "level_2": "current acquisition route checked and reconciled with the record",
-                    "level_3": "official metadata, file listing, API request, or representative transfer succeeded",
-                    "level_4": "complete official deposit or complete official test artifact transferred",
+                    "source_page_reviewed": "official source page checked",
+                    "route_confirmed": "current acquisition route checked and reconciled with the record",
+                    "unavailable_or_failed": "source or represented route unavailable or failed at the verification date",
+                    "transfer_evidence_location": "data/acquisition_verification_ledger.csv",
                     "http_probe_limitation": (
                         "HTTP reachability is supporting evidence only and does not establish "
                         "that a response is the intended acquisition endpoint."

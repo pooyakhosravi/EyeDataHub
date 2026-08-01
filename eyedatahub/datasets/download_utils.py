@@ -3,7 +3,11 @@ from __future__ import annotations
 
 import hashlib
 import os
+import shutil
+import subprocess
 import tarfile
+import urllib.error
+import urllib.request
 import zipfile
 from pathlib import Path
 from typing import List, Optional
@@ -29,7 +33,132 @@ def _load_dotenv() -> None:
 
 console = Console()
 
-CHUNK_SIZE = 8192  # bytes
+CHUNK_SIZE = 1024 * 1024  # 1 MiB
+DOWNLOAD_ATTEMPTS = 3
+
+
+def _response_total(headers: object, completed: int) -> int:
+    """Return the full transfer size when response headers expose it."""
+    content_range = headers.get("content-range", "")  # type: ignore[attr-defined]
+    if "/" in content_range:
+        value = content_range.rsplit("/", 1)[-1]
+        if value.isdigit():
+            return int(value)
+    content_length = headers.get("content-length", "")  # type: ignore[attr-defined]
+    return completed + int(content_length) if str(content_length).isdigit() else 0
+
+
+def _stream_requests_download(
+    url: str,
+    partial_path: Path,
+    label: str,
+    headers: dict,
+) -> None:
+    """Write one requests-based attempt, resuming a partial file when possible."""
+    completed = partial_path.stat().st_size if partial_path.exists() else 0
+    request_headers = dict(headers)
+    # An open-ended range also avoids long start-up delays observed for some
+    # multi-gigabyte repository objects. Servers that ignore ranges return 200
+    # and are handled as ordinary fresh transfers.
+    request_headers.setdefault("Range", f"bytes={completed}-")
+
+    with requests.get(
+        url,
+        stream=True,
+        timeout=(20, 60),
+        headers=request_headers,
+    ) as response:
+        response.raise_for_status()
+        ranged = response.status_code == 206
+        append = completed > 0 and ranged
+        if ranged:
+            content_range = response.headers.get("content-range", "")
+            if not content_range.startswith(f"bytes {completed}-"):
+                raise RuntimeError(
+                    "The server returned an unexpected byte range while "
+                    f"resuming {partial_path.name}: {content_range or 'missing'}"
+                )
+        else:
+            completed = 0
+
+        total = _response_total(response.headers, completed)
+        with Progress(
+            TextColumn(f"[bold cyan]{label}"),
+            BarColumn(),
+            DownloadColumn(),
+            TransferSpeedColumn(),
+            TimeRemainingColumn(),
+            console=console,
+        ) as progress:
+            task = progress.add_task(
+                "Downloading",
+                total=total if total else None,
+                completed=completed,
+            )
+            with partial_path.open("ab" if append else "wb") as handle:
+                for chunk in response.iter_content(chunk_size=CHUNK_SIZE):
+                    if chunk:
+                        handle.write(chunk)
+                        progress.advance(task, len(chunk))
+        if total and partial_path.stat().st_size < total:
+            raise IOError(
+                f"Incomplete transfer for {partial_path.name}: "
+                f"{partial_path.stat().st_size} of {total} bytes"
+            )
+
+
+def _stream_system_trust_download(
+    url: str,
+    partial_path: Path,
+    label: str,
+    headers: dict,
+) -> None:
+    """Download through urllib, which uses the operating-system trust store."""
+    completed = partial_path.stat().st_size if partial_path.exists() else 0
+    request_headers = dict(headers)
+    request_headers.setdefault("Range", f"bytes={completed}-")
+    request = urllib.request.Request(url, headers=request_headers)
+
+    with urllib.request.urlopen(request, timeout=60) as response:
+        status = getattr(response, "status", response.getcode())
+        ranged = status == 206
+        append = completed > 0 and ranged
+        if ranged:
+            content_range = response.headers.get("content-range", "")
+            if not content_range.startswith(f"bytes {completed}-"):
+                raise RuntimeError(
+                    "The server returned an unexpected byte range while "
+                    f"resuming {partial_path.name}: {content_range or 'missing'}"
+                )
+        else:
+            completed = 0
+
+        total = _response_total(response.headers, completed)
+        with Progress(
+            TextColumn(f"[bold cyan]{label}"),
+            BarColumn(),
+            DownloadColumn(),
+            TransferSpeedColumn(),
+            TimeRemainingColumn(),
+            console=console,
+        ) as progress:
+            task = progress.add_task(
+                "Downloading",
+                total=total if total else None,
+                completed=completed,
+            )
+            with partial_path.open("ab" if append else "wb") as handle:
+                while True:
+                    chunk = response.read(CHUNK_SIZE)
+                    if not chunk:
+                        break
+                    handle.write(chunk)
+                    progress.advance(task, len(chunk))
+        if total and partial_path.stat().st_size < total:
+            raise IOError(
+                f"Incomplete transfer for {partial_path.name}: "
+                f"{partial_path.stat().st_size} of {total} bytes"
+            )
 
 
 def download_file(
@@ -55,30 +184,66 @@ def download_file(
     dest_path.parent.mkdir(parents=True, exist_ok=True)
 
     label = desc or dest_path.name
+    partial_path = dest_path.with_name(f"{dest_path.name}.part")
+    last_error: Optional[Exception] = None
 
-    with requests.get(url, stream=True, timeout=60, headers=headers or {}) as response:
-        response.raise_for_status()
-        total = int(response.headers.get("content-length", 0))
+    for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
+        try:
+            try:
+                _stream_requests_download(
+                    url,
+                    partial_path,
+                    label,
+                    headers or {},
+                )
+            except requests.exceptions.SSLError:
+                console.print(
+                    "[yellow]Certificate validation through requests failed; "
+                    "retrying with the operating-system trust store.[/]"
+                )
+                _stream_system_trust_download(
+                    url,
+                    partial_path,
+                    label,
+                    headers or {},
+                )
+            last_error = None
+            break
+        except (KeyboardInterrupt, SystemExit):
+            raise
+        except Exception as exc:
+            last_error = exc
+            status_code = None
+            if isinstance(exc, requests.exceptions.HTTPError):
+                status_code = (
+                    exc.response.status_code
+                    if exc.response is not None
+                    else None
+                )
+            elif isinstance(exc, urllib.error.HTTPError):
+                status_code = exc.code
+            if (
+                status_code is not None
+                and 400 <= status_code < 500
+                and status_code not in {408, 425, 429}
+            ):
+                raise
+            if attempt == DOWNLOAD_ATTEMPTS:
+                raise
+            console.print(
+                f"[yellow]Download attempt {attempt}/{DOWNLOAD_ATTEMPTS} "
+                f"failed for {label}: {exc}. Retrying from the partial file.[/]"
+            )
 
-        with Progress(
-            TextColumn(f"[bold cyan]{label}"),
-            BarColumn(),
-            DownloadColumn(),
-            TransferSpeedColumn(),
-            TimeRemainingColumn(),
-            console=console,
-        ) as progress:
-            task = progress.add_task("Downloading", total=total if total else None)
-
-            md5 = hashlib.md5()
-            with open(dest_path, "wb") as f:
-                for chunk in response.iter_content(chunk_size=CHUNK_SIZE):
-                    if chunk:
-                        f.write(chunk)
-                        md5.update(chunk)
-                        progress.advance(task, len(chunk))
+    if last_error is not None:
+        raise last_error
+    partial_path.replace(dest_path)
 
     if expected_md5:
+        md5 = hashlib.md5()
+        with dest_path.open("rb") as handle:
+            for chunk in iter(lambda: handle.read(CHUNK_SIZE), b""):
+                md5.update(chunk)
         actual = md5.hexdigest()
         if actual != expected_md5:
             dest_path.unlink(missing_ok=True)
@@ -92,9 +257,26 @@ def download_file(
     return dest_path
 
 
+def _is_supported_archive(path: str | Path) -> bool:
+    name = Path(path).name.lower()
+    return any(
+        name.endswith(extension)
+        for extension in (
+            ".zip",
+            ".tar.gz",
+            ".tgz",
+            ".tar.bz2",
+            ".tar.xz",
+            ".tar",
+            ".rar",
+            ".7z",
+        )
+    )
+
+
 def extract_archive(archive_path: str | Path, extract_to: str | Path) -> None:
     """
-    Extract a zip, tar.gz, or tar.bz2 archive.
+    Safely extract a ZIP, TAR, RAR, or 7z archive.
 
     Args:
         archive_path: Path to the archive file
@@ -125,11 +307,80 @@ def extract_archive(archive_path: str | Path, extract_to: str | Path) -> None:
                     f"Archive member type is not permitted: {member.name}"
                 )
 
+    def _extract_with_system_tar() -> None:
+        executable = shutil.which("tar")
+        if not executable:
+            raise ValueError(
+                f"Unsupported archive format: {archive_path.suffix}. "
+                "Install bsdtar/libarchive or 7-Zip to extract this archive."
+            )
+
+        listing = subprocess.run(
+            [executable, "-tf", str(archive_path)],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            check=False,
+        )
+        if listing.returncode != 0:
+            raise ValueError(
+                f"Could not list {archive_path.name} with {Path(executable).name}: "
+                f"{(listing.stderr or listing.stdout).strip()}"
+            )
+        members = [line for line in listing.stdout.splitlines() if line]
+        if not members:
+            raise ValueError(f"Archive contains no members: {archive_path.name}")
+        for member_name in members:
+            _safe_destination(member_name)
+
+        verbose = subprocess.run(
+            [executable, "-tvf", str(archive_path)],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            check=False,
+        )
+        if verbose.returncode != 0:
+            raise ValueError(
+                f"Could not inspect {archive_path.name} with "
+                f"{Path(executable).name}: "
+                f"{(verbose.stderr or verbose.stdout).strip()}"
+            )
+        for line in verbose.stdout.splitlines():
+            if line and line[0].lower() in {"l", "h", "b", "c", "p", "s"}:
+                raise ValueError(
+                    "Archive links and special files are not permitted: "
+                    f"{line}"
+                )
+
+        extraction = subprocess.run(
+            [executable, "-xf", str(archive_path), "-C", str(extract_to)],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            check=False,
+        )
+        if extraction.returncode != 0:
+            raise ValueError(
+                f"Could not extract {archive_path.name} with "
+                f"{Path(executable).name}: "
+                f"{(extraction.stderr or extraction.stdout).strip()}"
+            )
+
     if name.endswith(".zip"):
-        with zipfile.ZipFile(archive_path, "r") as zf:
-            for member in zf.infolist():
-                _safe_destination(member.filename)
-            zf.extractall(extract_to)
+        try:
+            with zipfile.ZipFile(archive_path, "r") as zf:
+                for member in zf.infolist():
+                    _safe_destination(member.filename)
+                zf.extractall(extract_to)
+        except zipfile.BadZipFile:
+            # Some sources publish an ordinary ZIP split into numbered byte
+            # ranges. After reassembly, libarchive is more tolerant of the
+            # original multi-volume metadata than Python's zipfile module.
+            _extract_with_system_tar()
 
     elif name.endswith(".tar.gz") or name.endswith(".tgz"):
         with tarfile.open(archive_path, "r:gz") as tf:
@@ -141,10 +392,18 @@ def extract_archive(archive_path: str | Path, extract_to: str | Path) -> None:
             _validate_tar_members(tf.getmembers())
             tf.extractall(extract_to)
 
+    elif name.endswith(".tar.xz"):
+        with tarfile.open(archive_path, "r:xz") as tf:
+            _validate_tar_members(tf.getmembers())
+            tf.extractall(extract_to)
+
     elif name.endswith(".tar"):
         with tarfile.open(archive_path, "r:") as tf:
             _validate_tar_members(tf.getmembers())
             tf.extractall(extract_to)
+
+    elif name.endswith(".rar") or name.endswith(".7z"):
+        _extract_with_system_tar()
 
     else:
         raise ValueError(f"Unsupported archive format: {archive_path.suffix}")
@@ -381,7 +640,7 @@ def download_figshare_private(
             console.print(f"[cyan]  Downloading {fname} (Figshare private share)...[/]")
             download_file(file_url, dest_path, desc=fname)
             downloaded.append(dest_path)
-            if extract and any(fname.endswith(ext) for ext in (".zip", ".tar.gz", ".tgz", ".tar.bz2")):
+            if extract and _is_supported_archive(fname):
                 try:
                     extract_archive(dest_path, dest_dir)
                 except Exception as e:
@@ -491,7 +750,7 @@ def download_zenodo(
         download_file(file_url, dest_path, desc=fname, headers=dl_headers)
         downloaded.append(dest_path)
 
-        if extract and dest_path.suffix in (".zip", ".gz", ".bz2", ".tar"):
+        if extract and _is_supported_archive(dest_path):
             try:
                 extract_archive(dest_path, dest_dir)
             except Exception as e:
@@ -575,7 +834,7 @@ def download_figshare(
         download_file(file_url, dest_path, desc=fname)
         downloaded.append(dest_path)
 
-        if extract and any(fname.endswith(ext) for ext in (".zip", ".tar.gz", ".tgz", ".tar.bz2")):
+        if extract and _is_supported_archive(fname):
             try:
                 extract_archive(dest_path, dest_dir)
             except Exception as e:
@@ -632,6 +891,7 @@ def download_dryad(
     doi: str,
     dest_dir: str | Path,
     extract: bool = True,
+    token: Optional[str] = None,
 ) -> List[Path]:
     """Download all files from the latest public version of a Dryad dataset.
 
@@ -639,10 +899,16 @@ def download_dryad(
         doi: Dryad DOI, with or without the ``doi:`` prefix.
         dest_dir: Directory in which to preserve the Dryad file paths.
         extract: Automatically extract supported archives (default True).
+        token: Optional Dryad bearer token. Large records that exceed Dryad's
+            public ZIP limit require authenticated per-file API downloads.
 
     Returns:
         Paths to the downloaded files.
     """
+    _load_dotenv()
+    token = token or os.environ.get("DRYAD_TOKEN")
+    headers = {"Authorization": f"Bearer {token}"} if token else {}
+
     identifier = doi if doi.startswith("doi:") else f"doi:{doi}"
     dest_dir = Path(dest_dir)
     dest_dir.mkdir(parents=True, exist_ok=True)
@@ -652,7 +918,7 @@ def download_dryad(
         "https://datadryad.org/api/v2/datasets/" f"{encoded_identifier}"
     )
     console.print(f"[cyan]Fetching Dryad dataset {identifier[4:]}...[/]")
-    response = requests.get(dataset_url, timeout=30)
+    response = requests.get(dataset_url, headers=headers, timeout=30)
     if response.status_code == 404:
         raise FileNotFoundError(
             f"Dryad dataset '{identifier[4:]}' was not found.\n"
@@ -669,10 +935,56 @@ def download_dryad(
         )
 
     version_url = f"https://datadryad.org{version_href}"
-    version_response = requests.get(version_url, timeout=30)
+    version_response = requests.get(version_url, headers=headers, timeout=30)
     version_response.raise_for_status()
+    version_payload = version_response.json()
+    version_download_href = (
+        version_payload.get("_links", {})
+        .get("stash:download", {})
+        .get("href")
+    )
+    if version_download_href:
+        version_download_url = (
+            version_download_href
+            if version_download_href.startswith("http")
+            else f"https://datadryad.org{version_download_href}"
+        )
+        archive = dest_dir / "dryad-version.zip"
+        console.print(
+            f"[cyan]  Downloading the public Dryad version archive for "
+            f"{identifier[4:]}...[/]"
+        )
+        try:
+            download_file(
+                version_download_url,
+                archive,
+                desc=f"Dryad {identifier[4:]}",
+                headers=headers,
+            )
+        except requests.exceptions.HTTPError as exc:
+            if exc.response is None or exc.response.status_code != 405:
+                raise
+            archive.unlink(missing_ok=True)
+            console.print(
+                "[yellow]  Dryad does not assemble a whole-version ZIP for "
+                "this record; falling back to its per-file API.[/]"
+            )
+        else:
+            if not extract:
+                return [archive]
+            extract_archive(archive, dest_dir)
+            archive.unlink(missing_ok=True)
+            extracted = sorted(
+                path for path in dest_dir.rglob("*") if path.is_file()
+            )
+            if not extracted:
+                raise RuntimeError(
+                    f"Dryad version archive for {identifier[4:]} was empty."
+                )
+            return extracted
+
     files_href = (
-        version_response.json()
+        version_payload
         .get("_links", {})
         .get("stash:files", {})
         .get("href")
@@ -690,13 +1002,25 @@ def download_dryad(
             if next_href.startswith("http")
             else f"https://datadryad.org{next_href}"
         )
-        files_response = requests.get(files_url, timeout=30)
+        files_response = requests.get(
+            files_url,
+            headers=headers,
+            timeout=30,
+        )
         files_response.raise_for_status()
         payload = files_response.json()
         files.extend(payload.get("_embedded", {}).get("stash:files", []))
         next_href = payload.get("_links", {}).get("next", {}).get("href")
 
     downloaded: List[Path] = []
+    if files and not token:
+        raise RuntimeError(
+            "Dryad does not provide a whole-version archive for "
+            f"{identifier[4:]}. Its per-file API requires a bearer token. "
+            "Set DRYAD_TOKEN or download the files from the official Dryad "
+            "landing page."
+        )
+
     for file_info in files:
         relative_path = Path(file_info.get("path") or "file")
         if relative_path.is_absolute() or ".." in relative_path.parts:
@@ -727,14 +1051,16 @@ def download_dryad(
         console.print(
             f"[cyan]  Downloading {relative_path.as_posix()} from Dryad...[/]"
         )
-        download_file(file_url, dest_path, desc=relative_path.name)
+        download_file(
+            file_url,
+            dest_path,
+            desc=relative_path.name,
+            headers=headers,
+        )
         downloaded.append(dest_path)
 
         name = dest_path.name.lower()
-        if extract and any(
-            name.endswith(ext)
-            for ext in (".zip", ".tar.gz", ".tgz", ".tar.bz2", ".tar")
-        ):
+        if extract and _is_supported_archive(name):
             try:
                 extract_archive(dest_path, dest_path.parent)
             except Exception as exc:
@@ -860,7 +1186,7 @@ def download_mendeley(
         download_file(file_url, dest_path, desc=fname)
         downloaded.append(dest_path)
 
-        if extract and any(fname.endswith(ext) for ext in (".zip", ".tar.gz", ".tgz", ".tar.bz2")):
+        if extract and _is_supported_archive(fname):
             try:
                 extract_archive(dest_path, dest_dir)
             except Exception as e:
@@ -943,7 +1269,7 @@ def download_dataverse(
         download_file(file_url, dest_path, desc=fname, headers=dl_headers)
         downloaded.append(dest_path)
 
-        if extract and any(fname.endswith(ext) for ext in (".zip", ".tar.gz", ".tgz", ".tar.bz2")):
+        if extract and _is_supported_archive(fname):
             try:
                 extract_archive(dest_path, dest_dir)
             except Exception as e:

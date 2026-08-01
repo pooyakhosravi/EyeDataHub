@@ -34,13 +34,13 @@ import TabItem from '@theme/TabItem';
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | Direct HTTP |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `loader_implemented_not_live_tested` |
+| **Acquisition support** | `guided_instructions_only` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 
 ## Notes
 
-> Three sub-archives (BinRushed, Magrabi, MESSIDOR). The MESSIDOR sub-archive is large; if download fails, try the Academic Torrents mirror (infohash eb9dd9216a1c9a622250ad70a400204e7531196d).
+> Deep Blue provides BinRushed, Magrabi, and MESSIDOR components. Its current documentation directs users to Globus for the large MESSIDOR component.
 
 ## Access preflight and acquisition
 

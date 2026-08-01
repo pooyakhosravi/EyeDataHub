@@ -34,7 +34,7 @@ A collection of 1,800 preprocessed retinal OCT B-scans, with 600 images each for
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | GitHub |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `loader_implemented_not_live_tested` |
+| **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 

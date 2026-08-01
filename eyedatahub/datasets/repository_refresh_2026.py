@@ -556,7 +556,20 @@ REFRESH_RECORDS: list[dict[str, Any]] = [
             "The release contains repeated acquisitions across four experiments; "
             "source groups include eight young adults, three participants with "
             "aquaporin-4 antibodies, 14 early-onset Alzheimer patients, and 14 "
-            "age-matched controls. Group overlap is not assumed in num_samples."
+            "age-matched controls. Group overlap is not assumed in num_samples. "
+            "Dryad declines whole-version archive assembly for this record; "
+            "EyeDataHub therefore directs users to the official landing page. "
+            "Authenticated per-file API transfer is available when a user "
+            "configures DRYAD_TOKEN."
+        ),
+        "acquisition_support": "guided_instructions_only",
+        "loader_live_tested": False,
+        "loader_test_date": "2026-07-30",
+        "loader_test_scope": "live_archive_request",
+        "loader_test_result": "whole_archive_refused_per_file_api_requires_token",
+        "failure_reason": (
+            "Dryad returned HTTP 405 for the whole-version archive and requires "
+            "a bearer token for per-file API transfer."
         ),
         "source": {"doi": "10.5061/dryad.msbcc2ftc"},
     },
@@ -655,7 +668,19 @@ REFRESH_RECORDS: list[dict[str, Any]] = [
         "notes": (
             "The source describes right-eye OCT and OCULUS Pentacam tomography "
             "plus custom segmentation code but does not expose a reliable record "
-            "count in the repository metadata."
+            "count in the repository metadata. Dryad declines whole-version "
+            "archive assembly for this record; EyeDataHub therefore directs "
+            "users to the official landing page. Authenticated per-file API "
+            "transfer is available when a user configures DRYAD_TOKEN."
+        ),
+        "acquisition_support": "guided_instructions_only",
+        "loader_live_tested": False,
+        "loader_test_date": "2026-07-30",
+        "loader_test_scope": "live_archive_request",
+        "loader_test_result": "whole_archive_refused_per_file_api_requires_token",
+        "failure_reason": (
+            "Dryad returned HTTP 405 for the whole-version archive and requires "
+            "a bearer token for per-file API transfer."
         ),
         "source": {"doi": "10.5061/dryad.tht76hf0c"},
     },

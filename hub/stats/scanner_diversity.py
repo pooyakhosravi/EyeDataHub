@@ -7,7 +7,6 @@ from __future__ import annotations
 
 import argparse
 import csv
-import re
 from collections import Counter, defaultdict
 from pathlib import Path
 

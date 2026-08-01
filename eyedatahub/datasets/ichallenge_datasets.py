@@ -14,9 +14,6 @@ from __future__ import annotations
 from pathlib import Path
 from typing import List, Union
 
-import numpy as np
-from PIL import Image
-
 from eyedatahub.core.dataset import DatasetInfo, DatasetSample, EyeDataHubDataset
 from eyedatahub.datasets.download_utils import (
     download_gdrive,
@@ -767,11 +764,33 @@ class GOALSDataset(EyeDataHubDataset):
 
     def load(self, data_dir: Union[str, Path], split: str = "train") -> List[DatasetSample]:
         root = Path(data_dir) / self._SUBDIR
+        image_directories = [
+            path
+            for path in root.rglob("*")
+            if path.is_dir()
+            and path.name.casefold() == "image"
+            and "__macosx" not in {part.casefold() for part in path.parts}
+        ]
         images = sorted(
-            p for ext in (".jpg", ".jpeg", ".png", ".bmp")
-            for p in root.rglob(f"*{ext}")
-            if "mask" not in p.stem.lower() and "label" not in p.stem.lower()
+            path
+            for directory in image_directories
+            for path in directory.iterdir()
+            if path.is_file()
+            and path.suffix.casefold() in {".jpg", ".jpeg", ".png", ".bmp"}
+            and not path.name.startswith("._")
         )
+        if not images:
+            images = sorted(
+                path
+                for path in root.rglob("*")
+                if path.is_file()
+                and path.suffix.casefold() in {".jpg", ".jpeg", ".png", ".bmp"}
+                and "__macosx"
+                not in {part.casefold() for part in path.parts}
+                and not path.name.startswith("._")
+                and "mask" not in path.stem.casefold()
+                and "label" not in path.stem.casefold()
+            )
         if not images:
             raise FileNotFoundError(f"No images in {root}.")
 

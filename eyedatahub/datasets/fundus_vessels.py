@@ -1,7 +1,8 @@
 """Fundus vessel segmentation datasets: STARE, CHASE_DB1, HRF, FIVES, RAVIR."""
 from __future__ import annotations
 
-import re
+import gzip
+import shutil
 from pathlib import Path
 from typing import List, Union
 
@@ -28,6 +29,15 @@ class STAREDataset(EyeDataHubDataset):
 
     _SUBDIR = "STARE"
 
+    @staticmethod
+    def _decompress_members(root: Path) -> None:
+        for compressed in root.rglob("*.gz"):
+            destination = compressed.with_suffix("")
+            with gzip.open(compressed, "rb") as source:
+                with destination.open("wb") as output:
+                    shutil.copyfileobj(source, output)
+            compressed.unlink()
+
     @property
     def info(self) -> DatasetInfo:
         return DatasetInfo(
@@ -52,24 +62,29 @@ class STAREDataset(EyeDataHubDataset):
 
     def is_downloaded(self, data_dir: Union[str, Path]) -> bool:
         root = Path(data_dir) / self._SUBDIR
-        return len(list(root.glob("*.ppm"))) > 0 or len(list(root.glob("*.tif"))) > 0
+        return any(root.rglob("*.ppm")) or any(root.rglob("*.tif"))
 
     def download(self, data_dir: Union[str, Path]) -> None:
         root = Path(data_dir) / self._SUBDIR
         root.mkdir(parents=True, exist_ok=True)
-        base_url = "https://cecas.clemson.edu/~ahoover/stare/probing"
+        # The official HTTPS host currently presents a certificate chain that
+        # is rejected by common Python CA bundles. The same official static
+        # files are served over HTTP.
+        base_url = "http://cecas.clemson.edu/~ahoover/stare/probing"
 
         # Images
         img_tar = root / "stare-images.tar"
         download_file(f"{base_url}/stare-images.tar", img_tar, desc="STARE images")
         extract_archive(img_tar, root / "images")
         img_tar.unlink(missing_ok=True)
+        self._decompress_members(root / "images")
 
         # Labels (first annotator)
         lbl_tar = root / "labels-ah.tar"
         download_file(f"{base_url}/labels-ah.tar", lbl_tar, desc="STARE labels (ah)")
         extract_archive(lbl_tar, root / "labels_ah")
         lbl_tar.unlink(missing_ok=True)
+        self._decompress_members(root / "labels_ah")
 
     def load(
         self, data_dir: Union[str, Path], split: str = "all"
@@ -325,9 +340,20 @@ class FIVESDataset(EyeDataHubDataset):
 
     def load(self, data_dir: Union[str, Path], split: str = "test") -> List[DatasetSample]:
         root = Path(data_dir) / self._SUBDIR
-        split_dir = root / split
-        if not split_dir.exists():
-            split_dir = root  # flat layout
+        split_dirs = [
+            candidate
+            for candidate in root.rglob("*")
+            if candidate.is_dir() and candidate.name.casefold() == split.casefold()
+        ]
+        split_dir = next(
+            (
+                candidate
+                for candidate in split_dirs
+                if (candidate / "Original").is_dir()
+                or (candidate / "images").is_dir()
+            ),
+            split_dirs[0] if split_dirs else root,
+        )
 
         img_dirs = [split_dir / "Original", split_dir / "images", split_dir]
         img_dir = next((d for d in img_dirs if d.exists()), split_dir)
@@ -336,7 +362,8 @@ class FIVESDataset(EyeDataHubDataset):
         mask_dir = next((d for d in mask_dirs if d.exists()), None)
 
         samples = []
-        for img_path in sorted(img_dir.glob("*.png")) + sorted(img_dir.glob("*.jpg")):
+        image_paths = sorted(img_dir.glob("*.png")) + sorted(img_dir.glob("*.jpg"))
+        for img_path in image_paths:
             stem = img_path.stem
             mask_path = ""
             if mask_dir:

@@ -222,7 +222,8 @@ def test_dryad_backend_resolves_latest_version(monkeypatch, tmp_path):
         def raise_for_status(self):
             return None
 
-    def fake_get(url, timeout):
+    def fake_get(url, headers, timeout):
+        assert headers == {"Authorization": "Bearer test-token"}
         if "/datasets/" in url:
             return FakeResponse(
                 {"_links": {"stash:version": {"href": "/api/v2/versions/1"}}}
@@ -249,7 +250,8 @@ def test_dryad_backend_resolves_latest_version(monkeypatch, tmp_path):
             }
         )
 
-    def fake_download_file(url, dest_path, desc=None):
+    def fake_download_file(url, dest_path, desc=None, headers=None):
+        assert headers == {"Authorization": "Bearer test-token"}
         destination = Path(dest_path)
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_text("value\n1\n", encoding="utf-8")
@@ -259,7 +261,10 @@ def test_dryad_backend_resolves_latest_version(monkeypatch, tmp_path):
     monkeypatch.setattr(download_utils, "download_file", fake_download_file)
 
     paths = download_utils.download_dryad(
-        "10.5061/dryad.example", tmp_path, extract=False
+        "10.5061/dryad.example",
+        tmp_path,
+        extract=False,
+        token="test-token",
     )
     assert paths == [tmp_path / "nested" / "data.csv"]
     assert paths[0].read_text(encoding="utf-8") == "value\n1\n"

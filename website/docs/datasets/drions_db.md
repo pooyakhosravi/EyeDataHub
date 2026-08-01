@@ -34,7 +34,7 @@ import TabItem from '@theme/TabItem';
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | Direct HTTP |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `loader_implemented_not_live_tested` |
+| **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 

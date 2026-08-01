@@ -12,7 +12,6 @@ import csv
 from pathlib import Path
 
 import matplotlib.pyplot as plt
-import numpy as np
 
 from hub.stats._common import load_metadata, save_both, setup_style
 

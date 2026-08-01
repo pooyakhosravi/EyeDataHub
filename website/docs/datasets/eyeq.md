@@ -34,7 +34,7 @@ Quality labels for 28,792 EyePACS fundus images, graded as good, usable, or reje
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | GitHub |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `loader_implemented_not_live_tested` |
+| **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 

@@ -86,7 +86,7 @@ mmrdr,MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset,multimodal,grading
 multieye,MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark,multimodal,classification,58036.0,27.3,MIT,mit,huggingface,https://huggingface.co/datasets/Luxuriant16/MultiEYE,,,,,,
 ophthalvqa,OphthalVQA Dataset,multimodal,visual_question_answering|classification,,0.03,CC BY 4.0,cc-by,figshare,https://doi.org/10.6084/m9.figshare.25624917,,,,,,
 tear_meniscus,Multicentre Tear Meniscus Segmentation Dataset,multimodal,segmentation,3432.0,1.5,CC BY 4.0,cc-by,figshare,https://doi.org/10.6084/m9.figshare.28650536.v2,,,,,,
-tom500,TOM500: Multi-Organ Annotated Orbital MRI Dataset for Thyroid Eye Disease,multimodal,segmentation,500.0,20.0,CC0 1.0,cc0,figshare,https://doi.org/10.6084/m9.figshare.27133389.v1,,,,,,
+tom500,TOM500: Multi-Organ Annotated Orbital MRI Dataset for Thyroid Eye Disease,multimodal,segmentation,500.0,2.31,CC0 1.0,cc0,figshare,https://doi.org/10.6084/m9.figshare.27133389.v1,,,,,,
 uveitis_smote,Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation,multimodal,classification|text_generation,3245.0,0.5,CC BY 4.0,cc-by,mendeley,https://data.mendeley.com/datasets/n9zp473wfw/2,,,,,,
 amd_dme_3d_oct,Comprehensive 3D OCT Dataset for AMD and DME,oct,segmentation|classification,224.0,19.65,CC BY 4.0,cc-by,figshare,https://doi.org/10.6084/m9.figshare.30582035.v1,,,,,,
 as_oct_keratitis,AS-OCT Keratitis Segmentation Dataset,oct,segmentation,1168.0,1.5,CC0 1.0,cc0,figshare,https://doi.org/10.6084/m9.figshare.c.7036994.v1,,,,,,
@@ -96,7 +96,7 @@ goals,GOALS — Glaucoma OCT Layer Segmentation (MICCAI 2022),oct,segmentation|c
 kermany_oct,Kermany OCT 2018: Retinal OCT Image Classification,oct,classification,84484.0,6.0,CC BY 4.0,cc-by,kaggle,https://www.kaggle.com/datasets/paultimothymooney/kermany2018,USA (UC San Diego + China — Shenzhen Aier Eye Hospital),Heidelberg Spectralis OCT,not reported,not reported,mixed (US + Chinese),
 mario,MARIO: AMD-Progression Longitudinal OCT (MICCAI 2024),oct,classification|progression,30000.0,25.0,CC BY 4.0,cc-by,zenodo,https://zenodo.org/records/15270469,,,,,,
 nehut,NEH-UT Retinal OCT Dataset,oct,classification,16822.0,3.65,CC BY 4.0,cc-by,mendeley,https://data.mendeley.com/datasets/8kt969dhx6/2,"USA (San Antonio, TX — UT Health San Antonio)",Zeiss Cirrus HD-OCT,not reported,not reported,not reported,
-oct5k,OCT5k: Multi-Disease Retinal Layer Annotations,oct,segmentation|classification,1672.0,1.0,CC0 1.0,cc0,direct,https://doi.org/10.5522/04/22128671,,,,,,
+oct5k,OCT5k: Multi-Disease Retinal Layer Annotations,oct,segmentation|classification,1672.0,0.05,CC0 1.0,cc0,figshare,https://doi.org/10.5522/04/22128671,,,,,,
 octave,OCTAVE: 3D SD-OCT Retinal Segmentation Dataset,oct,segmentation,198.0,15.0,CC BY-SA 4.0,cc-by-sa,zenodo,https://zenodo.org/records/14580071,"Not specified (multi-center, details in paper)",Zeiss Cirrus HD-OCT (1024×200×1024 volumes),not reported,not reported,not reported,
 octdl,OCTDL: OCT Deep Learning Dataset,oct,classification,2000.0,0.8,CC BY 4.0,cc-by,mendeley,https://data.mendeley.com/datasets/sncdhf53xc/4,Germany (multiple ophthalmology clinics),Heidelberg Spectralis OCT,not reported,not reported,German,2000.0
 octid,OCTID: OCT Image Database,oct,classification,500.0,0.3,CC0 1.0 Universal,cc0,manual,https://borealisdata.ca/dataverse/OCTID,"Canada (Edmonton, Alberta — University of Alberta)",Heidelberg Spectralis OCT (512×496 px B-scans),not reported,not reported,not reported,206.0

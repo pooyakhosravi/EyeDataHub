@@ -34,7 +34,7 @@ Ophthalmic visual question-answering benchmark dataset released as supplementary
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `standard_platform_supported` |
+| **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 

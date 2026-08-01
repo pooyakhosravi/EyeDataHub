@@ -84,26 +84,79 @@ GUIDED_ONLY_SLUGS = {
     "tear_meniscus",
 }
 
-# Date-stamped acquisition evidence. These statuses describe exactly
-# what was exercised for the catalog release; they are deliberately narrower
-# than loader implementation or platform support.
-PARTIAL_TRANSFER_TESTED_SLUGS = {
-    "as_oct_keratitis",
-    "coph100",
-    "dryad_gcc_glaucoma",
+# Date-stamped acquisition evidence. Runtime loader fields expose the strongest
+# archived scope, while the publication ledger keeps acquisition method and
+# verification evidence as separate record-level dimensions.
+REPRESENTATIVE_FILE_SLUGS = {
     "fives",
-    "grape",
-    "jsiec",
-    "mcoa",
-    "migs_video",
-    "mm_retinal_reason",
     "perg_ioba",
-    "rvo_me",
-    "tear_meniscus",
-    "tom500",
 }
 
-END_TO_END_TESTED_SLUGS = {"ophthalwechat"}
+METADATA_OR_LISTING_CONFIRMED_SLUGS = {
+    "jsiec",
+    "migs_video",
+    "mm_retinal_reason",
+    "tsukazaki_uwf",
+}
+
+PARTIAL_TRANSFER_TESTED_SLUGS = (
+    REPRESENTATIVE_FILE_SLUGS | METADATA_OR_LISTING_CONFIRMED_SLUGS
+)
+
+END_TO_END_TESTED_SLUGS = {
+    "amd_dme_3d_oct",
+    "as_oct_keratitis",
+    "chaksu",
+    "coph100",
+    "drions_db",
+    "dryad_aoslo_rpe",
+    "dryad_gcc_glaucoma",
+    "dryad_glaucoma_rnfl_vf",
+    "dryad_namd_oct_quant",
+    "dryad_namd_visual_prediction",
+    "dryad_uveal_melanoma_coog2",
+    "eyeq",
+    "farfum_rop",
+    "fiqs",
+    "fire",
+    "fundus_avseg",
+    "grape",
+    "harvard_glaucoma",
+    "hei_med",
+    "hpmi",
+    "hygd",
+    "jichi",
+    "mcoa",
+    "mmrdr",
+    "mshf",
+    "oct5k",
+    "oct_fundus_dme_dr_mexico",
+    "oimhs",
+    "ophthalvqa",
+    "ophthalwechat",
+    "rbad",
+    "reta_benchmark",
+    "rop_uwf_intelligent",
+    "rvo_me",
+    "slid",
+    "soul_octa",
+    "stare",
+    "sustech_sysu",
+    "tear_meniscus",
+    "thoct1800",
+    "tian_oct",
+    "tom500",
+    "umn_parhi_oct",
+    "uwf_dr_peng",
+    "uwf_tumor",
+    "uwf_zhejiang",
+    "uwhvf",
+}
+
+UNRESOLVED_LISTING_FAILURES = {
+    "aptos2019": ("HTTP_401", "official Kaggle file listing returned HTTP 401"),
+    "octdl": ("HTTP_403", "official Mendeley Data file listing returned HTTP 403"),
+}
 
 # High-confidence route exceptions that cannot be recovered safely from the
 # legacy ``download_type`` value alone.
@@ -123,6 +176,19 @@ ACCESS_OVERRIDES: Dict[str, Dict[str, Any]] = {
         "requires_clickthrough": True,
         "requires_manual_approval": True,
         "requires_data_use_agreement": True,
+    },
+    "hyamd": {
+        "access_friction": "controlled_or_manual",
+        "requires_registration": True,
+        "requires_authentication": True,
+        "requires_api_token": False,
+        "requires_clickthrough": True,
+        "requires_manual_approval": False,
+        "requires_data_use_agreement": True,
+        "requires_author_contact": False,
+        "requires_payment": False,
+        "availability_status": "available",
+        "route_check_result": "acquisition_route_verified",
     },
     "justraigs": {
         "access_friction": "self_service_clickthrough",
@@ -1084,28 +1150,38 @@ def enrich_dataset_info(info: Any) -> None:
 
     _set_if_empty(info, "loader_backend", backend)
     _set_if_empty(info, "loader_name", f"{backend}_loader")
-    _set_if_empty(info, "loader_version", "0.2.2")
+    _set_if_empty(info, "loader_version", "0.3.0")
     _set_if_empty(info, "loader_live_tested", False)
     _set_if_empty(info, "loader_test_scope", "unit_or_mocked_only")
     _set_if_empty(info, "loader_test_result", "not_live_tested")
     _set_if_empty(info, "failure_reason", None)
 
-    if info.name in PARTIAL_TRANSFER_TESTED_SLUGS:
+    if info.name in REPRESENTATIVE_FILE_SLUGS:
         info.loader_live_tested = False
-        info.loader_test_date = (
-            "2026-07-25" if info.name == "migs_video" else "2026-07-21"
-        )
+        info.loader_test_date = "2026-07-31"
+        info.loader_test_scope = "representative_local_files_recognized"
+        info.loader_test_result = "representative_file_downloaded"
+        info.tested_command = "python hub/audit/verify_download_and_load.py run"
+    elif info.name in METADATA_OR_LISTING_CONFIRMED_SLUGS:
+        info.loader_live_tested = False
+        info.loader_test_date = "2026-07-25"
         info.loader_test_scope = "official_metadata_or_file_listing"
-        info.loader_test_result = "partial_route_test_passed"
+        info.loader_test_result = "metadata_or_file_listing_confirmed"
         info.tested_command = "python hub/audit/validate_acquisition.py"
     elif info.name in END_TO_END_TESTED_SLUGS:
         info.loader_live_tested = True
-        info.loader_test_date = "2026-07-21"
-        info.loader_test_scope = "complete_official_deposit_transfer"
-        info.loader_test_result = "complete_download_passed"
-        info.tested_command = (
-            "eyehub download ophthalwechat --data-dir <directory> --json"
-        )
+        info.loader_test_date = "2026-07-31"
+        info.loader_test_scope = "complete_current_deposit_downloaded"
+        info.loader_test_result = "complete_current_deposit_downloaded"
+        info.tested_command = "python hub/audit/verify_download_and_load.py run"
+    elif info.name in UNRESOLVED_LISTING_FAILURES:
+        error_code, message = UNRESOLVED_LISTING_FAILURES[info.name]
+        info.loader_live_tested = False
+        info.loader_test_date = "2026-07-25"
+        info.loader_test_scope = "official_metadata_or_file_listing"
+        info.loader_test_result = f"unresolved_{error_code.lower()}"
+        info.failure_reason = message
+        info.tested_command = "python hub/audit/validate_acquisition.py"
 
     for key, value in _derive_identifiers(info).items():
         _set_if_empty(info, key, value)

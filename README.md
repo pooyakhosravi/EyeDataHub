@@ -1,6 +1,6 @@
 # EyeDataHub
 
-EyeDataHub is a versioned, community-extensible, license- and access-aware
+EyeDataHub is a versioned, community-extensible, source-terms- and access-aware
 command-line tool backed by a manually curated ophthalmology dataset snapshot.
 It helps users find, inspect, cite, preflight, and acquire supported resources
 from their official sources.
@@ -13,29 +13,38 @@ suitability.
 [![License: MIT](https://img.shields.io/badge/code-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 [![Catalog](https://img.shields.io/badge/catalog-251%20records-brightgreen.svg)](DATASETS.md)
-[![Tests](https://img.shields.io/badge/tests-46%20passing-brightgreen.svg)](tests)
+[![Tests](https://img.shields.io/badge/tests-57%20passing-brightgreen.svg)](tests)
 
 ## One-minute overview
 
 The current catalog contains 251 manually source-checked records across 18
-primary categories. At the final catalog update on 25 July 2026:
+primary categories. At the catalog cutoff on 25 July 2026:
 
-- 171 routes were anonymous direct;
+- 170 routes were anonymous direct;
 - 34 required immediate self-service authentication;
 - 11 required user click-through;
-- 27 required controlled or manual access;
+- 28 required controlled or manual access;
 - 8 required author contact.
 
-Acquisition support is separate from access: one official deposit completed an
-end-to-end transfer test, 13 routes passed partial API or file-listing checks,
-and all other loader states are labelled by their actual test scope.
+Acquisition implementation is separate from validation evidence. The archived
+record-level ledger reports 47 complete current-deposit transfers through
+EyeDataHub, five representative pre-existing holdings, four listing-only
+strongest evidence levels, and 195 route-only strongest evidence levels.
+Fourteen records have cumulative metadata or listing evidence because some
+later progressed to stronger evidence. Initial Mendeley HTTP 403 and Kaggle
+HTTP 401 automated listing failures remain unresolved.
+
+The complete machine-readable exports are `hub/catalog.json` and
+`hub/catalog.csv`. The similarly named `hub/metadata.*` files contain the
+137-record enriched EyeDataHub-Open subset used by descriptive statistics.
 
 ## Install
 
-PyPI: [pypi.org/project/eyedatahub](https://pypi.org/project/eyedatahub/)
+After the 0.3.0 release is published to
+[PyPI](https://pypi.org/project/eyedatahub/):
 
 ```bash
-python -m pip install "eyedatahub==0.2.2"
+python -m pip install "eyedatahub==0.3.0"
 ```
 
 EyeDataHub is tested on Python 3.10 through 3.14.
@@ -43,7 +52,7 @@ EyeDataHub is tested on Python 3.10 through 3.14.
 To install the same release directly from its Git tag:
 
 ```bash
-python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.2.2"
+python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.3.0"
 ```
 
 For development:
@@ -80,7 +89,7 @@ server are read-only. Only an explicit non-dry-run `download` command may start
 transfer. Manual, controlled, author-contact, unavailable, and unsupported
 routes return structured status and instructions instead of imitating success.
 
-## What “license-aware” means
+## What source-terms-aware means
 
 Before acquisition, EyeDataHub displays:
 
@@ -133,10 +142,13 @@ direct-file routes. Support varies by record and is exposed through
 
 ## Release record
 
-The release DOI is
-[doi:10.5281/zenodo.21614657](https://doi.org/10.5281/zenodo.21614657).
-The Zenodo record contains a README that directs users to this repository;
-software and catalog files are distributed from GitHub.
+The 0.3.0 scientific archive is prepared for the reserved version-specific DOI
+[doi:10.5281/zenodo.21614657](https://doi.org/10.5281/zenodo.21614657). The
+complete archive and PyPI 0.3.0 package must be published and verified before
+the manuscript is submitted. The prepared archive contains the catalog,
+schema, evidence ledger, validation logs, resource citations, figure and table
+source data, regeneration scripts, and file-level checksums, but no indexed
+third-party dataset files.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for reviewed additions and
 [CLAUDE.md](CLAUDE.md) for the canonical agent guide.

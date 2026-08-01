@@ -624,8 +624,17 @@ class OCTDLDataset(EyeDataHubDataset):
     def load(self, data_dir: Union[str, Path], split: str = "all") -> List[DatasetSample]:
         root = Path(data_dir) / self._SUBDIR
         class_to_idx = {c: i for i, c in enumerate(OCTDL_CLASSES)}
+        candidates = [root]
+        candidates.extend(path for path in root.iterdir() if path.is_dir())
+        class_root = max(
+            candidates,
+            key=lambda path: sum(
+                (path / class_name).is_dir()
+                for class_name in OCTDL_CLASSES
+            ),
+        )
         samples = []
-        for cls_dir in sorted(root.iterdir()):
+        for cls_dir in sorted(class_root.iterdir()):
             if not cls_dir.is_dir():
                 continue
             label = class_to_idx.get(cls_dir.name.upper(), -1)

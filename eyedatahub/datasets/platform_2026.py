@@ -8,6 +8,7 @@ and are flagged in ``notes``.
 """
 from __future__ import annotations
 
+from dataclasses import fields as dataclass_fields
 from pathlib import Path
 from typing import Any, List, Union
 
@@ -35,6 +36,29 @@ class PlatformDiscoveryDataset(EyeDataHubDataset):
     @property
     def info(self) -> DatasetInfo:
         r = self.record
+        explicit_fields = {
+            "name",
+            "full_name",
+            "description",
+            "modality",
+            "tasks",
+            "num_samples",
+            "splits",
+            "classes",
+            "num_classes",
+            "download_type",
+            "download_url",
+            "license",
+            "citation",
+            "tags",
+            "size_gb",
+            "notes",
+        }
+        extra = {
+            item.name: r[item.name]
+            for item in dataclass_fields(DatasetInfo)
+            if item.name not in explicit_fields and item.name in r
+        }
         return DatasetInfo(
             name=r["name"],
             full_name=r["full_name"],
@@ -52,6 +76,7 @@ class PlatformDiscoveryDataset(EyeDataHubDataset):
             tags=r.get("tags", []),
             size_gb=r.get("size_gb"),
             notes=r.get("notes", ""),
+            **extra,
         )
 
     def is_downloaded(self, data_dir: Union[str, Path]) -> bool:
@@ -60,7 +85,10 @@ class PlatformDiscoveryDataset(EyeDataHubDataset):
             return True
         ignored = {".download_complete", "eyedatahub-acquisition-manifest.json"}
         return root.exists() and any(
-            path.is_file() and path.name not in ignored for path in root.rglob("*")
+            path.is_file()
+            and path.name not in ignored
+            and path.stat().st_size > 0
+            for path in root.rglob("*")
         )
 
     def download(self, data_dir: Union[str, Path]) -> None:
@@ -1245,12 +1273,25 @@ DISCOVERY_RECORDS: list[dict[str, Any]] = [
         "tasks": ["classification"],
         "num_samples": 1560,
         "download_type": "physionet",
-        "download_url": "https://doi.org/10.13026/f0dn-8q46",
-        "license": "PhysioNet open access terms",
-        "citation": "Meisel M, Cohen BA, Baskin M, Tiosano B, Behar J, Berkowitz E. HYAMD High-Resolution Fundus Image Dataset for AMD Diagnosis. PhysioNet, 2025. doi:10.13026/f0dn-8q46",
+        "download_url": "https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/",
+        "license": "PhysioNet Restricted Health Data License 1.5.0",
+        "citation": "Meisel M, Cohen BA, Baskin M, Tiosano B, Behar J, Berkowitz E. HYAMD High-Resolution Fundus Image Dataset for AMD Diagnosis. PhysioNet, version 1.0.0, 2025. doi:10.13026/ydf1-z238",
         "tags": ["physionet", "fundus", "amd", "hillel_yaffe"],
         "size_gb": None,
-        "source": {"slug": "hillel-yaffe-fundus-amd", "version": "1.0.0", "credentialed": False},
+        "notes": (
+            "PhysioNet requires registration and the project-specific "
+            "Restricted Health Data Use Agreement before file access."
+        ),
+        "dataset_doi": "10.13026/ydf1-z238",
+        "resource_version": "1.0.0",
+        "canonical_resolver_url": "https://doi.org/10.13026/ydf1-z238",
+        "terms_scope": "dataset_files",
+        "terms_evidence_url": "https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/",
+        "source": {
+            "slug": "hillel-yaffe-fundus-amd",
+            "version": "1.0.0",
+            "credentialed": True,
+        },
     },
     {
         "name": "perg_ioba",

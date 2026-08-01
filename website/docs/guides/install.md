@@ -18,16 +18,18 @@ EyeDataHub is a Python package with a command-line entry point named `eyehub`.
 
 ## From PyPI
 
+After the 0.3.0 package is published:
+
 ```bash
 python -m pip install --upgrade pip
-python -m pip install "eyedatahub==0.2.2"
+python -m pip install "eyedatahub==0.3.0"
 ```
 
 ## From GitHub
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.2.2"
+python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.3.0"
 ```
 
 ## Editable Developer Install

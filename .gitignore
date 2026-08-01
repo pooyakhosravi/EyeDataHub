@@ -71,3 +71,7 @@ release/
 *manuscript*.zip
 *scientific-release*.zip
 *submission-package*.zip
+
+# Private catalog-wide audit log contains local absolute paths. The public
+# archive uses the redacted metadata file and path-free CSV row export.
+hub/audit/download_load_verification_2026-07-30.json

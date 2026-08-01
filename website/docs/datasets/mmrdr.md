@@ -34,7 +34,7 @@ Multi-modal DR dataset combining color fundus photographs (CFP), OCT B-scans, an
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `standard_platform_supported` |
+| **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Standard loader included |
 
 

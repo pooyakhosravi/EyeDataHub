@@ -34,13 +34,13 @@ import TabItem from '@theme/TabItem';
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | Direct HTTP |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `loader_implemented_not_live_tested` |
+| **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 
 ## Notes
 
-> FORTH host serves an expired SSL cert as of 2026-07. Set REQUESTS_CA_BUNDLE=/path/to/bundle or PYTHONHTTPSVERIFY=0. Distributed as 7z — extract with 7-Zip / `7z x FIRE.7z`.
+> Distributed as a 7z archive. EyeDataHub validates archive member paths before extracting it.
 
 ## Access preflight and acquisition
 

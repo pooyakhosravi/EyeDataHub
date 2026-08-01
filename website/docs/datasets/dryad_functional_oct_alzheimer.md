@@ -34,13 +34,13 @@ Repeated light/dark SD-OCT acquisitions and retinal reflectivity profiles from h
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | Dryad |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `standard_platform_supported` |
+| **Acquisition support** | `guided_instructions_only` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 
 ## Notes
 
-> The release contains repeated acquisitions across four experiments; source groups include eight young adults, three participants with aquaporin-4 antibodies, 14 early-onset Alzheimer patients, and 14 age-matched controls. Group overlap is not assumed in num_samples.
+> The release contains repeated acquisitions across four experiments; source groups include eight young adults, three participants with aquaporin-4 antibodies, 14 early-onset Alzheimer patients, and 14 age-matched controls. Group overlap is not assumed in num_samples. Dryad declines whole-version archive assembly for this record; EyeDataHub therefore directs users to the official landing page. Authenticated per-file API transfer is available when a user configures DRYAD_TOKEN.
 
 ## Access preflight and acquisition
 

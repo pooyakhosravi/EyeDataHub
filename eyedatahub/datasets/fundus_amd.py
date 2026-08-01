@@ -4,7 +4,6 @@ from __future__ import annotations
 from pathlib import Path
 from typing import List, Union
 
-import pandas as pd
 
 from eyedatahub.core.dataset import DatasetInfo, DatasetSample, EyeDataHubDataset
 from eyedatahub.datasets.download_utils import print_manual_download_instructions

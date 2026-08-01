@@ -619,7 +619,7 @@ class TOM500Dataset(_StubLoadMixin, EyeDataHubDataset):
             ),
             tags=["orbital_mri", "thyroid_eye_disease", "segmentation",
                   "multi_organ", "new_modality"],
-            size_gb=20.0,
+            size_gb=2.31,
             notes="Adds orbital MRI; modality outside typical ophthalmic imaging.",
             modalities=["multimodal", "orbital_mri"],
             dataset_doi=self._DATA_DOI,

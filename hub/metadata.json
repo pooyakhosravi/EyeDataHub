@@ -2936,7 +2936,7 @@
       "pentacam",
       "scheimpflug"
     ],
-    "notes": "The source describes right-eye OCT and OCULUS Pentacam tomography plus custom segmentation code but does not expose a reliable record count in the repository metadata.",
+    "notes": "The source describes right-eye OCT and OCULUS Pentacam tomography plus custom segmentation code but does not expose a reliable record count in the repository metadata. Dryad declines whole-version archive assembly for this record; EyeDataHub therefore directs users to the official landing page. Authenticated per-file API transfer is available when a user configures DRYAD_TOKEN.",
     "geography": null,
     "scanner_device": null,
     "demographics": {
@@ -3432,7 +3432,7 @@
     ],
     "task_category": "segmentation",
     "num_samples": 500,
-    "size_gb": 20.0,
+    "size_gb": 2.31,
     "splits": [
       "all"
     ],
@@ -3614,7 +3614,7 @@
       "light_response",
       "raw_images"
     ],
-    "notes": "The release contains repeated acquisitions across four experiments; source groups include eight young adults, three participants with aquaporin-4 antibodies, 14 early-onset Alzheimer patients, and 14 age-matched controls. Group overlap is not assumed in num_samples.",
+    "notes": "The release contains repeated acquisitions across four experiments; source groups include eight young adults, three participants with aquaporin-4 antibodies, 14 early-onset Alzheimer patients, and 14 age-matched controls. Group overlap is not assumed in num_samples. Dryad declines whole-version archive assembly for this record; EyeDataHub therefore directs users to the official landing page. Authenticated per-file API transfer is available when a user configures DRYAD_TOKEN.",
     "geography": null,
     "scanner_device": null,
     "demographics": {
@@ -3841,7 +3841,7 @@
     ],
     "task_category": "segmentation+classification",
     "num_samples": 1672,
-    "size_gb": 1.0,
+    "size_gb": 0.05,
     "splits": [
       "all"
     ],
@@ -3849,7 +3849,7 @@
     "classes": null,
     "license": "CC0 1.0",
     "license_family": "cc0",
-    "download_type": "direct",
+    "download_type": "figshare",
     "download_url": "https://doi.org/10.5522/04/22128671",
     "citation": "Morano et al., 'OCT5k: a dataset of multi-disease and multi-graded annotations for retinal layers in OCT images', Scientific Data 2024. doi:10.1038/s41597-024-04259-z",
     "tags": [

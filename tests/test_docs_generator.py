@@ -36,7 +36,7 @@ def test_dashboard_index_includes_loader_counts_and_status():
     assert payload["summary"]["datasets"] == 251
     assert payload["summary"]["loaders_implemented"] == 75
     assert payload["summary"]["primary_categories"] == 18
-    assert payload["summary"]["transfer_tested_routes"] == 14
+    assert payload["summary"]["transfer_tested_routes"] == 52
     assert payload["facets"]["modality"]["fundus"] == 121
     assert payload["facets"]["modality"]["confocal"] == 5
     assert rows["airogs"]["loader_status"] == "implemented"

@@ -95,7 +95,9 @@ def plot_regions(regions: Counter, out_dir: Path) -> None:
     labels = [k for k, _ in items]
     sizes = [v for _, v in items]
     total = sum(sizes)
-    autopct = lambda p: f"{p:.0f}%\n({int(round(p * total / 100))})"
+    def autopct(percent: float) -> str:
+        return f"{percent:.0f}%\n({int(round(percent * total / 100))})"
+
     ax.pie(sizes, labels=labels, autopct=autopct, startangle=90,
            wedgeprops={"edgecolor": "white", "linewidth": 1.5})
     ax.set_title(f"EyeDataHub dataset origin by region (n = {total})")

@@ -312,7 +312,7 @@ def test_dataset_and_article_citations_remain_separate():
     payload = citation_payload(REGISTRY.get_dataset("rvo_me").info)
     assert payload["dataset"]["doi"] == "10.6084/m9.figshare.29804435.v1"
     assert payload["dataset"]["doi"] != payload["associated_article"]["doi"]
-    assert payload["software"]["version"] == "0.2.2"
+    assert payload["software"]["version"] == "0.3.0"
 
 
 def test_explicit_dataset_doi_is_not_reclassified_as_an_article_doi():

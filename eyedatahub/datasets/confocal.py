@@ -38,12 +38,9 @@ from __future__ import annotations
 from pathlib import Path
 from typing import List, Union
 
-import numpy as np
 
 from eyedatahub.core.dataset import DatasetInfo, DatasetSample, EyeDataHubDataset
 from eyedatahub.datasets.download_utils import (
-    download_file,
-    extract_archive,
     print_manual_download_instructions,
 )
 
@@ -513,7 +510,7 @@ class CORNCollectionDataset(EyeDataHubDataset):
             acquisition_support="manual_access_blocked",
             loader_backend="manual",
             loader_name="manual_access_instructions",
-            loader_version="0.2.2",
+            loader_version="0.3.0",
             loader_live_tested=False,
             loader_test_date="2026-07-25",
             loader_test_scope="preflight_and_manual_blocking",

@@ -1,0 +1,252 @@
+record_id,canonical_name,modalities,download_type,selection,estimated_size_gb,existing_file_count,existing_recognized,route_check_result,acquisition_status,transfer_started,downloaded_file_count,downloaded_size_bytes,load_status,load_split,loaded_sample_count,sample_path_exists,image_decode_status,scratch_cleanup_status,record_completed
+acrima,ACRIMA: Glaucoma Optic Disc Fundus Database,fundus,figshare,preflight_blocked,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+adam_challenge,ADAM — Automatic Detection of AMD Challenge,fundus,gdrive,route_check_only,1.5,0,False,passed_landing_page,not_run_route_check_only,False,,,not_run,,,,,,True
+afio_fundus_vessels,AFIO Fundus Images for Vessel Segmentation and Disease Annotation,fundus,mendeley,excluded_known_platform,0.2,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+agar300,AGAR300 Microaneurysm Fundus Image Dataset,fundus,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+age_challenge,AGE — Angle-Closure Glaucoma Evaluation Challenge (AS-OCT),oct,gdrive,route_check_only,1.2,0,False,passed_landing_page,not_run_route_check_only,False,,,not_run,,,,,,True
+airogs,AIROGS: AI for Robust Glaucoma Screening,fundus,direct,preflight_blocked,40.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+amd_dme_3d_oct,Comprehensive 3D OCT Dataset for AMD and DME,oct,figshare,eligible_download,19.65,0,False,not_applicable,completed,True,297,59343568840,not_implemented,all,,,not_applicable,removed,True
+amd_sd,AMD-SD: OCT Wet AMD Lesion Segmentation Dataset,oct,kaggle,excluded_known_platform,2.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+amdnet23,AMDNet23 Fundus Image Dataset for AMD Detection,fundus,mendeley,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+angioreport,AngioReport Fundus Angiography Report Dataset,fundus|fundus_angiography|text,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+anterior_segment_smile,Anterior Segment Parameters After SMILE Surgery,tabular,mendeley,excluded_known_platform,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+aod,AOD: Augmented Ocular Diseases Dataset,fundus,kaggle,excluded_known_platform,2.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+aptos2019,APTOS 2019 Blindness Detection,fundus,kaggle,excluded_known_platform,9.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+aptos_arcade_onh_masks,APTOS Vascular Arcade and Optic Nerve Head Masks,fundus,zenodo,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+aroi,AROI: Annotated Retinal OCT Images Database,oct,gdrive,route_check_only,0.5,6781,True,passed_landing_page,not_run_route_check_only,False,,,passed,train,6780,True,passed,,True
+aroma_octa,AROMA Retinal OCTA Artifact Dataset,octa,zenodo,excluded_known_platform,1.011,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+as_oct_keratitis,AS-OCT Keratitis Segmentation Dataset,oct,figshare,eligible_download,1.5,0,False,not_applicable,completed,True,4691,10270933114,not_implemented,all,,,not_applicable,removed,True
+bajwa_multi_eye,Bajwa Hospital Multi Eye Disease Dataset,fundus,mendeley,excluded_known_platform,0.2,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+beh,BEH: Bangladesh Eye Hospital Glaucoma Dataset,fundus,gdrive,route_check_only,0.3,0,False,passed_landing_page,not_run_route_check_only,False,,,not_run,,,,,,True
+belo,BELO Benchmark for Evaluating Language Models in Ophthalmology,text,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+bidr,BiDR: Diabetic Retinopathy Diagnosis Dataset,fundus,kaggle,excluded_known_platform,1.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+birdshot_wide,Birdshot-WIDE Widefield Fundus Dataset,uwf_fundus,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+bmrd,Bangladesh Multi-Disease Retinal Dataset,fundus,mendeley,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+brset,BRSET: Brazilian Multilabel Ophthalmological Dataset,fundus,physionet,preflight_blocked,9.0,1,True,not_applicable,not_run_excluded_or_blocked,False,,,not_implemented,all,,,not_applicable,,True
+brset_mbrset_embeddings,Embedding-Based Representations for BRSET and mBRSET,tabular,physionet,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+cadis,CaDIS: Cataract Dataset for Image Segmentation,surgical_video,manual,excluded_surgical_video,15.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+casia_iris_v4,CASIA-IrisV4 Iris Image Database,iris_biometrics,manual,preflight_blocked,1.86,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+cataract,Cataract Fundus Classification Dataset,fundus,kaggle,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+cataract101_extended_labels,Cataract-101 Extended Labels,surgical_video,zenodo,excluded_surgical_video,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+cataract1k,Cataract-1K: Large-Scale Cataract Surgery Video Dataset,surgical_video,manual,excluded_surgical_video,50.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+cataract_101,Cataract-101: 101 Cataract Surgery Videos with Phase Annotations,surgical_video,manual,excluded_surgical_video,25.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+cataract_lmm,Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark,surgical_video,huggingface,excluded_surgical_video,200.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+cataracts2017,CATARACTS 2017: Surgical Tool Detection Challenge,surgical_video,manual,excluded_surgical_video,50.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+cavri,CAVRI: Computer Analysis of VitreoRetinal Interface Dataset,oct,manual,preflight_blocked,3.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+chaksu,CHAKSU: Multi-Device Glaucoma Fundus Dataset,fundus,figshare,eligible_download,5.0,0,False,not_applicable,completed,True,66415,241865635595,not_implemented,all,,,not_applicable,removed,True
+chase_db1,CHASE_DB1: Child Heart and Health Study in England,fundus,manual,preflight_blocked,0.05,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+chronic_corneal_disorders,Chronic Corneal Disorders Clinical Dataset,tabular,mendeley,excluded_known_platform,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+coph100,COph100: Comprehensive Infant Fundus Image Registration Dataset (RIDIRP),fundus,figshare,eligible_download,1.0,0,False,not_applicable,completed,True,1300,259752680,not_implemented,all,,,not_applicable,removed,True
+corn1500,CORN-1500: Corneal Nerve Tortuosity Grading,confocal,manual,preflight_blocked,0.2,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+corn_collection,CORN: Corneal Confocal Microscope Dataset Collection,confocal,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+corn_pro,CORN Pro: Corneal Nerve Confocal Microscopy Dataset,confocal,manual,preflight_blocked,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+corneal_curvature_fundus,Corneal Curvature Prediction Using Fundus Photography,fundus,mendeley,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+corneal_epithelium_confocal,Keratoconus Corneal Epithelium Confocal Fluorescence Dataset,confocal,mendeley,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+corneal_parameters_kc,Corneal Parameters Keratoconus Study,tabular,mendeley,excluded_known_platform,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+corneal_tomography_iol,Multi-Parameter Corneal Tomography Dataset for IOL Selection,tabular,mendeley,excluded_known_platform,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+cornorb,CornOrb: Orbscan Corneal Topography and Clinical Annotations,corneal_topography,zenodo,excluded_known_platform,0.68,5630,True,not_applicable,not_run_excluded_or_blocked,False,,,not_implemented,all,,,not_applicable,,True
+csc_fundus_segmentation,Central Serous Chorioretinopathy Fundus Segmentation Dataset,fundus,mendeley,excluded_known_platform,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+csdi,CSDI: Cataract Severity Diagnostic Image Dataset,fundus|text,huggingface,excluded_known_platform,1.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+data_oct_fundus_glaucoma,Data on OCT and Fundus Images,fundus|oct,mendeley,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ddr,DDR: Diabetic Retinopathy Detection & Grading,fundus,gdrive,route_check_only,4.0,6846,True,passed_landing_page,not_run_route_check_only,False,,,passed,train,2729,True,passed,,True
+deepdrid,DeepDRiD: Diabetic Retinopathy Grading and Image Quality Dataset,fundus|uwf_fundus,zenodo,excluded_known_platform,3.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+deepeyenet,DeepEyeNet (DEN): Fundus Report Generation Dataset,fundus|text,manual,preflight_blocked,5.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+dme_vqa,Diabetic Macular Edema Visual Question Answering Dataset,fundus|text,zenodo,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+dme_vqa_logical,DME VQA Dataset with Logical Relations,fundus|text,zenodo,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+dr_arranged,Diabetic Retinopathy Arranged Dataset (Tianchi 93926),fundus,manual,preflight_blocked,8.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+drac22,DRAC 2022: Diabetic Retinopathy Analysis Challenge,octa,zenodo,excluded_known_platform,0.3,1508,True,not_applicable,not_run_excluded_or_blocked,False,,,passed,train,1504,True,passed,,True
+dridb,DRiDB: Diabetic Retinopathy Image Database,fundus,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+drions_db,DRIONS-DB: Digital Retinal Images for Optic Nerve Segmentation,fundus,direct,eligible_download,0.2,0,False,not_applicable,completed,True,1,2658526,not_implemented,all,,,not_applicable,removed,True
+drishti_gs,DRISHTI-GS: Optic Disc and Cup Segmentation,fundus,kaggle,excluded_known_platform,0.8,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+drive,DRIVE: Digital Retinal Images for Vessel Extraction,fundus,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+drtid,DRTiD: Diabetic Retinopathy Two-field Image Dataset,fundus,manual,preflight_blocked,3.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+dryad_aoslo_rpe,AOSLO RPE Cell Morphometry and Cone Mosaic Dataset,adaptive_optics,dryad,eligible_download,0.084,0,False,not_applicable,completed,True,20,84397437,not_implemented,all,,,not_applicable,removed,True
+dryad_cornea_oct_pentacam,Corneal OCT and Pentacam Tomography Dataset,oct|corneal_topography,dryad,preflight_blocked,0.392,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+dryad_functional_oct_alzheimer,Functional OCT Retinal Response Dataset,oct,dryad,preflight_blocked,2.058,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+dryad_gcc_glaucoma,Glaucoma Ganglion Cell Complex Clinical Dataset,tabular,dryad,eligible_download,1.3e-05,0,False,not_applicable,completed,True,2,12543,not_implemented,all,,,not_applicable,removed,True
+dryad_glaucoma_rnfl_vf,RNFL and Visual-Field Glaucoma Diagnosis Dataset,tabular|visual_field,dryad,eligible_download,3.2e-05,0,False,not_applicable,completed,True,1,12461,not_implemented,all,,,not_applicable,removed,True
+dryad_namd_oct_quant,Moorfields nAMD Quantitative OCT Biomarker Dataset,tabular|oct,dryad,eligible_download,0.0032,0,False,not_applicable,completed,True,2,707701,not_implemented,all,,,not_applicable,removed,True
+dryad_namd_visual_prediction,Moorfields nAMD Visual-Change Prediction Dataset,tabular|oct,dryad,eligible_download,0.0016,0,False,not_applicable,completed,True,3,1498898,not_implemented,all,,,not_applicable,removed,True
+dryad_retinal_vein_cannulation,Autonomous Retinal Vein Cannulation Data and Code,surgical_video|oct,dryad,excluded_surgical_video,7.511,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+dryad_subretinal_robot,Head-Mounted Robot Subretinal Injection Dataset,surgical_video|oct|tabular,dryad,excluded_surgical_video,2.481,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+dryad_uveal_melanoma_coog2,COOG2.1 Uveal Melanoma Prognostic Dataset,omics,dryad,eligible_download,8.4e-05,0,False,not_applicable,completed,True,2,84124,not_implemented,all,,,not_applicable,removed,True
+duke_amd_chiu,Duke AMD Pathology OCT Segmentation Dataset,oct,manual,preflight_blocked,0.54,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+duke_chiu_boe,Duke OCT DME Dataset (Chiu BOE 2014),oct,direct,excluded_known_platform_dependency,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+duke_rpedc,Duke RPE-Drusen Complex OCT Dataset,oct,manual,preflight_blocked,20.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+e_ophtha,E-ophtha (EX + MA): Exudate and Microaneurysm Segmentation,fundus,kaggle,excluded_known_platform,1.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+eed_astig,EED-Astig Pediatric External-Eye Dataset,external_eye|tabular,manual,preflight_blocked,0.42,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+erdes,ERDES: Ocular Ultrasound Video Benchmark (Retinal Detachment + Macula),ocular_ultrasound,manual,preflight_blocked,5.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+eth_xgaze,ETH-XGaze Extreme-Pose Gaze Estimation Dataset,eye_tracking,manual,preflight_blocked,130.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+external_eye_blepharitis,External Eye Photographs for Screening Referable Blepharitis,external_eye,mendeley,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+eye_conjunctiva_segmentation,Eye Conjunctiva Segmentation Dataset,external_eye,mendeley,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+eye_disease_image_mendeley,Eye Disease Image Dataset,fundus,mendeley,excluded_known_platform,1.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+eyecare_100k,Eyecare-100K: Multimodal Ophthalmology VQA Corpus,fundus|fundus_angiography|fundus_autofluorescence|oct|ocular_ultrasound|external_eye|ct|text,huggingface,excluded_known_platform,30.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+eyecatcher_visual_field,Eyecatcher Tablet-Based Visual Field Home-Monitoring Data,visual_field,mendeley,excluded_known_platform,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+eyepacs,EyePACS — Diabetic Retinopathy Detection (Kaggle 2015),fundus,kaggle,excluded_known_platform,89.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+eyeq,EyeQ Retinal Image Quality Assessment Dataset,fundus,github,eligible_download,,0,False,not_applicable,completed,True,35,5441353,not_implemented,train,,,not_applicable,removed,True
+fairvlmed,FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset,fundus|visual_field|text|tabular,huggingface,excluded_known_platform,10.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+fang_sbsdi_oct,Duke Fang SBSDI Retinal OCT Dataset,oct,manual,preflight_blocked,0.45,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+farfum_rop,FARFUM-ROP: Fundus Annotation Repository for Retinopathy of Prematurity,fundus,figshare,eligible_download,1.0,0,False,not_applicable,completed,True,1603,4321454537,passed,train,1533,True,passed,removed,True
+ffa_ir,FFA-IR Medical Report Dataset,fundus|fundus_angiography|text,physionet,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+fimd,Fundus Image Myopia Development Dataset,fundus,mendeley,excluded_known_platform,0.2,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+fiqs,FIQS: Fundus Image Quality Scores Dataset,fundus,figshare,eligible_download,9.07,0,False,not_applicable,completed,True,4525,19479792456,not_implemented,all,,,not_applicable,removed,True
+fire,FIRE: Fundus Image Registration Dataset,fundus,direct,eligible_download,1.0,0,False,not_applicable,completed,True,405,501293176,not_implemented,all,,,not_applicable,removed,True
+fives,FIVES: Fundus Image Vessel Segmentation,fundus,figshare,eligible_download,1.1,1603,True,not_applicable,skipped_existing_data_preserved,False,,,passed,train,600,True,passed,,True
+fociset_pamm,FociSet PAMM OCT Lesion Dataset,oct,mendeley,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+fovea,FOVEA: Pre/Intra-Operative Fundus + Biomicroscopy,fundus|surgical_video,figshare,excluded_surgical_video,4.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+fprm_retina,FPRM Multimodal Eye Imaging and Psychological Assessment Dataset,fundus|retinal_oximetry|pupillometry|tabular,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+fundus_105k,Fundus-105K Text Dataset,text,huggingface,excluded_known_platform,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+fundus_avseg,Fundus-AVSeg: Artery-Vein-Crossing Segmentation,fundus,figshare,eligible_download,0.5,0,False,not_applicable,completed,True,204,427068425,not_implemented,all,,,not_applicable,removed,True
+fundus_cc_2_5m,Fundus-CC-2.5M Text Corpus,text,huggingface,excluded_known_platform,5.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+fundus_domain_generalization,Fundus Dataset for Domain Generalization in Optic Disc/Cup Segmentation,fundus,zenodo,excluded_known_platform,0.62,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+fundus_report_dataset,Fundus Report Dataset,fundus|uwf_fundus|text,huggingface,excluded_known_platform,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+g1020,G1020: Glaucoma Benchmark Fundus Dataset,fundus,kaggle,excluded_known_platform,2.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+gamma,GAMMA — Glaucoma Grading from Multi-Modality Images,fundus|oct,gdrive,route_check_only,5.0,0,False,passed_landing_page,not_run_route_check_only,False,,,not_run,,,,,,True
+gaze360,Gaze360 Physically Unconstrained Gaze Dataset,eye_tracking,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+gaze_capture,GazeCapture Mobile Eye-Tracking Dataset,eye_tracking,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ghana_eye_screening,Eye Screening Data for First-Year University Students in Ghana,tabular,mendeley,excluded_known_platform,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+glaucoma_eye_movements,Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss,eye_tracking,zenodo,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+goals,GOALS — Glaucoma OCT Layer Segmentation (MICCAI 2022),oct,gdrive,route_check_only,0.5,1811,True,passed_landing_page,not_run_route_check_only,False,,,passed,train,100,True,passed,,True
+goblet_cell_segmentation,Human Conjunctival Goblet Cell Segmentation Dataset,cell_microscopy,zenodo,excluded_known_platform,0.514,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+grape,GRAPE: Glaucoma Real-world Appraisal Progression Ensemble,fundus|oct|visual_field|tabular,figshare,eligible_download,1.5,0,False,not_applicable,completed,True,2546,2393554379,passed,all,631,True,passed,removed,True
+harvard_fairvision,"Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT)",fundus|oct,manual,preflight_blocked,600.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+harvard_gdp,Harvard GDP: Glaucoma Detection and Progression Dataset,oct|visual_field|tabular,gdrive,route_check_only,2.0,0,False,passed_landing_page,not_run_route_check_only,False,,,not_run,,,,,,True
+harvard_glaucoma,Harvard Glaucoma Fundus Image Dataset,fundus,direct,eligible_download,1.5,0,False,not_applicable,completed,True,1546,247766266,passed,all,1544,True,passed,removed,True
+hassan_composite_retina,Composite Retinal Fundus and OCT Dataset with Clinical Markings,fundus|oct,mendeley,excluded_known_platform,2.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+hei_med,HEI-MED: Hamilton Eye Institute Macular Edema Dataset,fundus,github,eligible_download,0.32,0,False,not_applicable,completed,True,858,342538682,not_implemented,all,,,not_applicable,removed,True
+hpmi,HPMI: High & Pathological Myopia Identification,fundus,figshare,eligible_download,2.0,0,False,not_applicable,completed,True,1,78489248,not_implemented,all,,,not_applicable,removed,True
+hrf,HRF: High-Resolution Fundus Image Database,fundus,manual,preflight_blocked,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+hrf_seg_plus,HRF-Seg+: Multi-Structure Fundus Annotations,fundus,zenodo,excluded_known_platform,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+hyamd,HYAMD High-Resolution Fundus Image Dataset for AMD Diagnosis,fundus,physionet,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+hygd,HYGD: Hillel Yaffe Glaucoma Dataset,fundus,physionet,eligible_download,1.0,0,False,not_applicable,completed,True,751,131865715,not_implemented,all,,,not_applicable,removed,True
+ichallenge_amd,iChallenge-AMD: Age-related Macular Degeneration,fundus,manual,preflight_blocked,1.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ichallenge_oct,iChallenge OCT Datasets (HDMILab / OMIA Workshops),oct,manual,preflight_blocked,2.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+idrid,IDRiD: Indian Diabetic Retinopathy Image Dataset,fundus,manual,preflight_blocked,2.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+insegcat,InSegCat: Instance Segmentation for Cataract Surgery,surgical_video,manual,excluded_surgical_video,10.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+intraretinal_cystoid_fluid,Intraretinal Cystoid Fluid OCT Segmentation Dataset,oct,kaggle,excluded_known_platform,1.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+irfdrd,Iraqi Retinal Fundus Diabetic Retinopathy Dataset,fundus,zenodo,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+jichi,Jichi Medical University Diabetic Retinopathy Dataset,fundus,figshare,eligible_download,10.0,0,False,not_applicable,completed,True,1,886820858,not_implemented,all,,,not_applicable,removed,True
+jrc_multimodal_vessels,JRC Multi-Modal Retinal Vessel Segmentation,fundus|fundus_angiography|fundus_autofluorescence|infrared,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+jsiec,JSIEC Fundus Photo Dataset,fundus,zenodo,excluded_known_platform,0.4,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+justraigs,JustRAIGS: Just Referral AI Glaucoma Screening Dataset,fundus,zenodo,excluded_known_platform,100.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+keratoconus_detection_kaggle,Keratoconus Detection Corneal Maps,corneal_topography,kaggle,excluded_known_platform,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+kermany_oct,Kermany OCT 2018: Retinal OCT Image Classification,oct,kaggle,excluded_known_platform,6.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+lag,LAG: Large-scale Attention-based Glaucoma Database,fundus,manual,preflight_blocked,3.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+leops_erg,LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset,electrophysiology|tabular,mendeley,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+lmod_cataract_1k,LMOD-Cataract-1K,surgical_video,huggingface,excluded_surgical_video,2.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+lmod_cataract_1k_cot,Cataract-1K Surgical Analysis Chain-of-Thought Dataset,surgical_video|text,huggingface,excluded_surgical_video,1.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+lmod_plus,LMOD+ Multimodal Ophthalmology Benchmark,fundus|oct|external_eye|surgical_video|text|tabular,manual,excluded_surgical_video,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+lpw,LPW Labelled Pupils in the Wild,eye_tracking,manual,preflight_blocked,2.4,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+maetschke_glaucoma_oct,OCT Volumes for Glaucoma Detection,oct,zenodo,excluded_known_platform,0.43,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+maples_dr,MAPLES-DR: Montreal Annotation Project for DR,fundus,figshare,eligible_download,0.5,7169,True,not_applicable,skipped_existing_data_preserved,False,,,passed,train,1,True,passed,,True
+mario,MARIO: AMD-Progression Longitudinal OCT (MICCAI 2024),oct,zenodo,excluded_known_platform,25.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+mbrset,mBRSET: Mobile Brazilian Retinal Dataset,fundus,physionet,preflight_blocked,3.0,1,True,not_applicable,not_run_excluded_or_blocked,False,,,not_implemented,all,,,not_applicable,,True
+mcoa,MCOA: Multimodal Corneal Opacity Assessment Dataset,oct|external_eye,figshare,eligible_download,8.0,0,False,not_applicable,completed,True,9848,29601597656,not_implemented,all,,,not_applicable,removed,True
+messidor2,MESSIDOR-2,fundus,manual,preflight_blocked,3.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+mfiddr,MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy,fundus,manual,preflight_blocked,30.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+mgd1k,MGD-1k Meibomian Gland Dataset,external_eye,github,eligible_download,,3006,True,not_applicable,skipped_existing_data_preserved,False,,,not_implemented,all,,,not_applicable,,True
+migs_video,Multicenter Fine-Annotated MIGS Surgical Video Dataset,surgical_video,zenodo,excluded_surgical_video,10.23,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+mm_retinal_reason,MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset,fundus|fundus_angiography|oct|text,huggingface,excluded_known_platform,15.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+mmrdr,MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset,fundus|oct|uwf_fundus,figshare,eligible_download,18.61,0,False,not_applicable,completed,True,24464,19914810908,passed,train,24460,True,passed,removed,True
+mpii_gaze,MPIIGaze Appearance-Based Gaze Estimation Dataset,eye_tracking,manual,preflight_blocked,2.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+mshf,Multi-Source Heterogeneous Fundus Dataset for Image Quality Assessment,fundus,figshare,eligible_download,1.06,0,False,not_applicable,completed,True,3890,2348221065,not_implemented,all,,,not_applicable,removed,True
+msila_fundus_dr,M'Sila Retinal Fundus Dataset for Diabetic Retinopathy Classification,fundus,zenodo,excluded_known_platform,1.47,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+multieye,MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark,fundus|oct,huggingface,excluded_known_platform,27.3,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+mured,MuReD: Multi-label Retinal Diseases Dataset,fundus,mendeley,excluded_known_platform,2.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+myopic_regression_fundus,Myopic Regression after Corneal Refractive Surgery Fundus Sample,fundus,mendeley,excluded_known_platform,0.2,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+nd_iris_0405,ND-IRIS-0405 Iris Image Dataset,iris_biometrics,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+nehut,NEH-UT Retinal OCT Dataset,oct,mendeley,excluded_known_platform,3.65,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ochid,OCHID: OCT Choroidal Image Dataset,oct,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+oct5k,OCT5k: Multi-Disease Retinal Layer Annotations,oct,figshare,eligible_download,0.05,0,False,not_applicable,completed,True,23834,188425687,not_implemented,all,,,not_applicable,removed,True
+oct_c8,Retinal OCT-C8: 8-Class OCT Classification,oct,kaggle,excluded_known_platform,2.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+oct_cirrus,Duke Srinivasan Retinal OCT Dataset,oct,manual,preflight_blocked,0.58,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+oct_fundus_dme_dr_mexico,OCT and Eye Fundus Dataset for DME and DR,fundus|oct,github,eligible_download,0.49,0,False,not_applicable,completed,True,2666,495785172,not_implemented,all,,,not_applicable,removed,True
+oct_macular_hole_postsurgery,HD-OCT of Macular Hole Before and After Surgery,oct,kaggle,excluded_known_platform,1.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+oct_ms_jhu,OCT Retinal Layer Segmentation — MS & Healthy Controls (JHU/IACL),oct,direct,eligible_download,1.8,72,True,not_applicable,skipped_existing_data_preserved,False,,,passed,all,35,True,not_applicable,,True
+octa_500,OCTA-500: Large-scale OCTA Multi-task Benchmark,octa,manual,preflight_blocked,70.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+octa_macula_coronal,OCTA Macula Coronal Views,octa,mendeley,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+octave,OCTAVE: 3D SD-OCT Retinal Segmentation Dataset,oct,zenodo,excluded_known_platform,15.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+octdl,OCTDL: OCT Deep Learning Dataset,oct,mendeley,excluded_known_platform,0.8,2065,True,not_applicable,not_run_excluded_or_blocked,False,,,passed,all,2064,True,passed,,True
+octid,OCTID: OCT Image Database,oct,manual,preflight_blocked,0.3,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ocular_chat_vqa,OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset,text|tabular,huggingface,excluded_known_platform,8.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+oculoscope,OculoScope: Fairer AI in Ophthalmology Dataset,uwf_fundus|tabular,figshare,preflight_blocked,20.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+odir2019,ODIR-2019: Ocular Disease Intelligent Recognition,fundus,kaggle,excluded_known_platform,3.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+oimhs,OIMHS: OCT Image Macular Hole Segmentation Dataset,oct,figshare,eligible_download,2.0,0,False,not_applicable,completed,True,3862,1970164267,passed,train,3859,True,passed,removed,True
+olives,OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics,oct|fundus|tabular,zenodo,excluded_known_platform,20.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ophnet2024,OphNet2024: Ophthalmic Surgical Video Dataset,surgical_video,huggingface,excluded_surgical_video,583.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ophora,Ophora-160K: Ophthalmic Surgical Video Instruction Dataset,surgical_video|text,huggingface,excluded_surgical_video,500.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ophthalmology_eqa_v3,Ophthalmology-EQA-v3,text,huggingface,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ophthalmology_mcqa_v3,Ophthalmology-MCQA-v3,text,huggingface,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ophthalmology_pubmed_corpus,Ophthalmology PubMed Corpus,text,huggingface,excluded_known_platform,0.2,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ophthalvqa,OphthalVQA Dataset,fundus|fundus_angiography|oct|ocular_ultrasound|external_eye|text,figshare,eligible_download,0.03,0,False,not_applicable,completed,True,10,8680550,not_implemented,all,,,not_applicable,removed,True
+ophthalwechat,OphthalWeChat Dataset,text,figshare,eligible_download,0.002,0,False,not_applicable,completed,True,2,2206929,not_implemented,all,,,not_applicable,removed,True
+ophtho_readability,Language and Readability Barriers in Ophthalmology Dataset,text|tabular,zenodo,excluded_known_platform,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+paired_retina,Paired Retina Dataset: Cross-Device Fundus Pairs,fundus,huggingface,excluded_known_platform,3.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+palm,PALM — iChallenge Pathologic Myopia,fundus,gdrive,route_check_only,1.5,0,False,passed_landing_page,not_run_route_check_only,False,,,not_run,,,,,,True
+papila,PAPILA: Glaucoma Fundus Dataset with Clinical Data,fundus|tabular,direct,preflight_blocked,0.4,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+paraguay_dr,Paraguay Color Fundus DR Dataset,fundus,zenodo,excluded_known_platform,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+perg_ioba,PERG-IOBA Ocular Electrophysiology Dataset,electrophysiology|tabular,physionet,eligible_download,0.1,340,True,not_applicable,skipped_existing_data_preserved,False,,,not_implemented,all,,,not_applicable,,True
+periorbital_segmentation,Open-Source Periorbital Segmentation Dataset,external_eye,zenodo,excluded_known_platform,0.19,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+popeye_nir,PopEYE Infrared Ocular Image Dataset,external_eye,zenodo,excluded_known_platform,3.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+prime_fp20,PRIME-FP20: Ultra-Widefield Vessel Segmentation,uwf_fundus,manual,preflight_blocked,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+rao_fundus,RAO Retinal Artery Occlusion Fundus Photography Dataset,fundus,mendeley,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+rasti_oct,"Rasti OCT Dataset (Noor Eye Hospital, Tehran)",oct,manual,preflight_blocked,2.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ravir,RAVIR: Retinal Artery/Vein Segmentation in IR,fundus,gdrive,route_check_only,0.05,0,False,passed_landing_page,not_run_route_check_only,False,,,not_run,,,,,,True
+rbad,RBAD Retinal Branching-Angle Detection Benchmark,fundus,github,eligible_download,,0,False,not_applicable,completed,True,296,81321666,not_implemented,all,,,not_applicable,removed,True
+real_fundus,Real Fundus Clinical Image Restoration Benchmark,fundus,manual,preflight_blocked,1.02,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+refuge1_multirater,REFUGE Multi-Rater — Glaucoma with Multi-Expert Annotations,fundus,gdrive,route_check_only,0.8,0,False,passed_landing_page,not_run_route_check_only,False,,,not_run,,,,,,True
+refuge2,REFUGE2 — Retinal Fundus Glaucoma Challenge 2,fundus,gdrive,route_check_only,1.2,0,False,passed_landing_page,not_run_route_check_only,False,,,not_run,,,,,,True
+refuge2018,REFUGE 2018: Retinal Fundus Glaucoma Challenge,fundus,manual,preflight_blocked,2.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+reta_benchmark,RETA Benchmark for Retinal Vascular Tree Analysis,fundus,figshare,eligible_download,0.84,0,False,not_applicable,completed,True,2857,1769014013,not_implemented,all,,,not_applicable,removed,True
+retina_age_analysis,Retina Age Analysis,fundus,huggingface,excluded_known_platform,1.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+retinal_corrugations_oct,Outer Retinal Corrugations Imaging Dataset,oct,mendeley,excluded_known_platform,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+retinal_dr_longitudinal,Retinal DR Longitudinal Fundus Pairs,fundus,huggingface,excluded_known_platform,4.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+retinal_vessel_robustness,Natural Robustness Benchmark for Retinal Vessel Segmentation,fundus,zenodo,excluded_known_platform,8.15,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+retouch,RETOUCH: RETinal OCT Fluid Challenge,oct,manual,preflight_blocked,5.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+rfmid,RFMiD: Retinal Fundus Multi-disease Image Dataset,fundus,kaggle,excluded_known_platform,1.5,3203,True,not_applicable,not_run_excluded_or_blocked,False,,,passed,train,1920,True,passed,,True
+rfmid2,RFMiD 2.0 Auxiliary Multi-Disease Fundus Dataset,fundus,zenodo,excluded_known_platform,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+riga,RIGA: Retinal Fundus Images for Glaucoma Analysis,fundus,direct,preflight_blocked,2.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+riga_plus,RIGA+ Domain Adaptation Dataset,fundus,zenodo,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+rimone_dl,RIM-ONE DL,fundus,kaggle,excluded_known_platform,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+rite,RITE: Retinal Images Vessel Tree Extraction (Artery/Vein),fundus,manual,preflight_blocked,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+roc,ROC: Retinopathy Online Challenge,fundus,manual,preflight_blocked,0.3,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+rocc,ROCC: Retinal OCT Classification Challenge,oct,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+rop_ostrava,Retinal Image Dataset of Infants and ROP (Ostrava),fundus,kaggle,excluded_known_platform,5.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+rop_synthetic_mendeley,Synthetic Medical Images for ROP Diagnosis,fundus,mendeley,excluded_known_platform,2.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+rop_uwf_intelligent,Fundus Dataset for Intelligent ROP System,fundus,figshare,eligible_download,4.0,0,False,not_applicable,completed,True,1101,406031288,not_implemented,all,,,not_applicable,removed,True
+rose,ROSE: Retinal OCT-Angiography Vessel Segmentation,octa,zenodo,excluded_known_platform,0.8,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ru_medical_texts_ophthalmology,Ophthalmology Russian-English Medical Text Translations,text,kaggle,excluded_known_platform,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+rvo_me,RVO-ME: Retinal Vein Occlusion Macular Edema OCT Dataset,oct,figshare,eligible_download,2.0,0,False,not_applicable,completed,True,15064,2447726653,not_implemented,all,,,not_applicable,removed,True
+sics155,SICS-155 Small Incision Cataract Surgery Videos,surgical_video,zenodo,excluded_surgical_video,30.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+slid,SLID: Slit-Lamp Image Dataset,external_eye,direct,eligible_download,1.0,0,False,not_applicable,completed,True,5236,735164746,not_implemented,all,,,not_applicable,removed,True
+smdg,SMDG-19: Standardized Multi-channel Glaucoma Benchmark,fundus,kaggle,excluded_known_platform,5.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+soul_octa,SOUL: OCTA Human-Machine Collaborative Annotation Dataset,octa|text|tabular,figshare,eligible_download,0.113,0,False,not_applicable,completed,True,2049,228815604,not_implemented,all,,,not_applicable,removed,True
+stage_task1,STAGE 2023 Task 1 — Mean Deviation Prediction from OCT,oct|visual_field,manual,preflight_blocked,5.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+stage_task2,STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction,oct|visual_field,manual,preflight_blocked,5.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+stage_task3,STAGE 2023 Task 3 — Pattern Deviation Probability Map,oct|visual_field,manual,preflight_blocked,5.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+stare,STARE: Structured Analysis of the Retina,fundus,direct,eligible_download,0.02,80,True,not_applicable,completed,True,40,33881276,passed,all,20,True,passed,removed,True
+superccm_fineset,SuperCCM-FineSet,confocal,manual,preflight_blocked,0.05,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+sustech_sysu,SUSTech-SYSU Diabetic Retinopathy + Exudate Dataset,fundus,figshare,eligible_download,3.0,0,False,not_applicable,completed,True,3007,949909521,not_implemented,all,,,not_applicable,removed,True
+syn_oct,SYN-OCT Synthetic Glaucoma OCT Dataset,oct,zenodo,excluded_known_platform,3.255,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+tear_meniscus,Multicentre Tear Meniscus Segmentation Dataset,external_eye|infrared,figshare,eligible_download,1.5,0,False,not_applicable,completed,True,6865,9201461433,not_implemented,all,,,not_applicable,removed,True
+teyed,TEyeD Real-World Eye-Tracking Dataset,eye_tracking,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+thoct1800,THOCT1800 Retinal OCT Dataset,oct,github,eligible_download,,0,False,not_applicable,completed,True,20,29836071,not_implemented,all,,,not_applicable,removed,True
+thyroid_ophthalmopathy_external,Thyroid Ophthalmopathy External Ocular Images,external_eye,mendeley,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+tian_oct,Tian OCTRIMA 3D OCT Layer Segmentation Dataset,oct,direct,eligible_download,0.2,0,False,not_applicable,completed,True,11,52385466,passed,test,10,True,not_applicable,removed,True
+tom500,TOM500: Multi-Organ Annotated Orbital MRI Dataset for Thyroid Eye Disease,orbital_mri|tabular,figshare,eligible_download,2.31,0,False,not_applicable,completed,True,1001,5011851819,not_implemented,all,,,not_applicable,removed,True
+toxofundus,ToxoFundus: Ocular Toxoplasmosis Fundus Dataset,fundus,kaggle,excluded_known_platform,0.2,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+trend2_fundus,TREND2 Chronic Disease Portable Fundus Dataset,fundus,zenodo,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+trend_fundus,TREND Portable Fundus Microvascular Network Dataset,fundus,zenodo,excluded_known_platform,0.1,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+tsukazaki_uwf,Tsukazaki Hospital UWF Fundus Dataset,uwf_fundus,github,preflight_blocked,15.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+ubiris_v2,UBIRIS.v2 Noisy Visible-Wavelength Iris Database,iris_biometrics,manual,preflight_blocked,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+umn_parhi_oct,UMN Parhi Lab AMD OCT Fluid Segmentation Dataset,oct,direct,eligible_download,0.5,0,False,not_applicable,completed,True,2,263178207,passed,all,600,True,not_applicable,removed,True
+ut_fsocta,UTHealth Fundus and Synthetic OCTA Dataset,fundus|octa,zenodo,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+uveitis_smote,Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation,external_eye|tabular,mendeley,excluded_known_platform,0.5,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+uwf_dr,UWF DR Reasoning Dataset,uwf_fundus,gdrive,route_check_only,2.0,0,False,passed_landing_page,not_run_route_check_only,False,,,not_run,,,,,,True
+uwf_dr_peng,"UWF Fundus DR Dataset (Peng et al., 2026)",uwf_fundus,figshare,eligible_download,3.0,0,False,not_applicable,completed,True,1634,802760901,not_implemented,all,,,not_applicable,removed,True
+uwf_tumor,UWF Fundus Intraocular Tumor Dataset,uwf_fundus,figshare,eligible_download,2.0,0,False,not_applicable,completed,True,2032,4118013406,passed,train,2031,True,passed,removed,True
+uwf_zhejiang,Open UWF Fundus Dataset with Disease + Quality Labels,uwf_fundus,figshare,eligible_download,2.0,0,False,not_applicable,completed,True,704,21618715613,not_implemented,all,,,not_applicable,removed,True
+uwhvf,UWHVF: University of Washington Humphrey Visual Field,visual_field,direct,eligible_download,0.05,0,False,not_applicable,completed,True,22,113220045,passed,all,7428,True,not_applicable,removed,True
+vietai_retinal_disease,VietAI Retinal Disease Detection 2020,fundus,kaggle,excluded_known_platform,,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+visual_field_testing_experiment,Visual Field Testing Experiment,visual_field,kaggle,excluded_known_platform,0.01,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True
+x_pcr,X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark,fundus|fundus_angiography|oct|external_eye|retcam|text,huggingface,excluded_known_platform,5.0,0,False,not_applicable,not_run_excluded_or_blocked,False,,,not_run_no_existing_data,,,,,,True

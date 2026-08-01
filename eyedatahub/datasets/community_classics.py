@@ -19,9 +19,9 @@ concrete parsers welcome PR.
 from __future__ import annotations
 
 from pathlib import Path
-from typing import List, Union
+from typing import Union
 
-from eyedatahub.core.dataset import DatasetInfo, DatasetSample, EyeDataHubDataset
+from eyedatahub.core.dataset import DatasetInfo, EyeDataHubDataset
 from eyedatahub.datasets.community_recent import _StubLoadMixin
 from eyedatahub.datasets.download_utils import (
     download_figshare,
@@ -116,7 +116,7 @@ class EOphthaDataset(_StubLoadMixin, EyeDataHubDataset):
             splits=["all"],
             num_classes=2,
             download_type="kaggle",
-            download_url=f"https://www.kaggle.com/datasets/samriddhibagchi/e-ophtha-diabetic-retinopathy-datasets-ex-ma",
+            download_url="https://www.kaggle.com/datasets/samriddhibagchi/e-ophtha-diabetic-retinopathy-datasets-ex-ma",
             license="Research only (TeleOphta project; Kaggle mirror)",
             citation=(
                 "Decencière et al., 'TeleOphta: Machine Learning and Image "
@@ -316,9 +316,8 @@ class FIREDataset(_StubLoadMixin, EyeDataHubDataset):
             tags=["fundus", "registration", "image_pairs", "classical"],
             size_gb=1.0,
             notes=(
-                "FORTH host serves an expired SSL cert as of 2026-07. Set "
-                "REQUESTS_CA_BUNDLE=/path/to/bundle or PYTHONHTTPSVERIFY=0. "
-                "Distributed as 7z — extract with 7-Zip / `7z x FIRE.7z`."
+                "Distributed as a 7z archive. EyeDataHub validates archive "
+                "member paths before extracting it."
             ),
         )
 
@@ -326,17 +325,9 @@ class FIREDataset(_StubLoadMixin, EyeDataHubDataset):
         dest = Path(data_dir) / self._SUBDIR
         dest.mkdir(parents=True, exist_ok=True)
         archive = dest / "FIRE.7z"
-        try:
-            download_file(self._SEVENZ_URL, archive, desc="FIRE")
-        except Exception as e:
-            print(
-                f"\nFIRE download failed ({e}). Retry with PYTHONHTTPSVERIFY=0 "
-                "if SSL is the issue, or download manually from FORTH.\n"
-            )
-            raise
-        print(
-            f"FIRE downloaded to {archive}. Extract with 7-Zip or `7z x FIRE.7z`."
-        )
+        download_file(self._SEVENZ_URL, archive, desc="FIRE")
+        extract_archive(archive, dest)
+        archive.unlink(missing_ok=True)
 
 
 # ===========================================================================
@@ -348,14 +339,6 @@ class RIGADataset(_StubLoadMixin, EyeDataHubDataset):
     """RIGA: multi-annotator OD/OC segmentation."""
 
     _SUBDIR = "riga"
-    # Deep Blue direct file URLs (3 sub-archives). The MESSIDOR sub-archive
-    # is large; if it 404s, fall back to the Academic Torrents mirror.
-    _DEEPBLUE_FILES = [
-        ("BinRushed.zip", "https://deepblue.lib.umich.edu/data/downloads/x346d4209"),
-        ("Magrabi.zip", "https://deepblue.lib.umich.edu/data/downloads/dn39x186m"),
-        ("MESSIDOR.zip", "https://deepblue.lib.umich.edu/data/downloads/zw12z637n"),
-    ]
-
     @property
     def info(self) -> DatasetInfo:
         return DatasetInfo(
@@ -381,29 +364,36 @@ class RIGADataset(_StubLoadMixin, EyeDataHubDataset):
             tags=["fundus", "glaucoma", "optic_disc", "optic_cup", "multi_rater"],
             size_gb=2.0,
             notes=(
-                "Three sub-archives (BinRushed, Magrabi, MESSIDOR). The "
-                "MESSIDOR sub-archive is large; if download fails, try the "
-                "Academic Torrents mirror "
-                "(infohash eb9dd9216a1c9a622250ad70a400204e7531196d)."
+                "Deep Blue provides BinRushed, Magrabi, and MESSIDOR "
+                "components. Its current documentation directs users to "
+                "Globus for the large MESSIDOR component."
+            ),
+            acquisition_support="guided_instructions_only",
+            loader_live_tested=False,
+            loader_test_scope="official_instructions_checked",
+            loader_test_result="automation_not_supported",
+            failure_reason=(
+                "The current official Deep Blue workflow is not supported "
+                "end to end by the EyeDataHub downloader."
             ),
         )
 
     def download(self, data_dir: Union[str, Path]) -> None:
         dest = Path(data_dir) / self._SUBDIR
-        dest.mkdir(parents=True, exist_ok=True)
-        for name, url in self._DEEPBLUE_FILES:
-            archive = dest / name
-            if archive.exists():
-                continue
-            try:
-                download_file(url, archive, desc=f"RIGA: {name}")
-                extract_archive(archive, dest)
-                archive.unlink(missing_ok=True)
-            except Exception as e:
-                print(f"RIGA: {name} download failed ({e}). Falling back to manual.")
-                print_manual_download_instructions(
-                    f"RIGA / {name}", self.info.download_url, dest,
-                )
+        print_manual_download_instructions(
+            "RIGA",
+            self.info.download_url,
+            dest,
+            extra_notes=(
+                "Download the BinRushed and Magrabi components from Deep Blue. "
+                "Use the official Globus route for MESSIDOR, as directed by "
+                "the source documentation."
+            ),
+        )
+        raise RuntimeError(
+            "RIGA currently uses the official Deep Blue/Globus instructions; "
+            "automatic transfer is not implemented."
+        )
 
 
 class LAGDataset(_StubLoadMixin, EyeDataHubDataset):
@@ -562,7 +552,7 @@ class SMDGDataset(_StubLoadMixin, EyeDataHubDataset):
             num_classes=3,
             classes=["non_glaucoma", "glaucoma", "suspect"],
             download_type="kaggle",
-            download_url=f"https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset",
+            download_url="https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset",
             license="CC0 1.0 (Public Domain)",
             citation=(
                 "Kiefer, 'Standardized Multi-channel Dataset for Glaucoma "

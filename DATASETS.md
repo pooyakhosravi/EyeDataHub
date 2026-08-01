@@ -1,5 +1,7 @@
 # EyeDataHub catalog snapshot
 
+This documentation describes the 0.3.0 catalog release.
+
 The catalog contains 251 manually source-checked ophthalmology data
 resources across 18 primary navigation categories. This is a bounded,
 date-stamped catalog, not a complete census and not a collection of 251
@@ -12,22 +14,24 @@ third-party datasets.
 |---|---:|
 | Catalog records | 251 |
 | Primary categories | 18 |
-| Anonymous direct routes | 171 |
+| Anonymous direct routes | 170 |
 | Self-service authenticated routes | 34 |
 | Self-service click-through routes | 11 |
-| Controlled or manual routes | 27 |
+| Controlled or manual routes | 28 |
 | Author-contact routes | 8 |
-| Complete transfer validations | 1 |
-| Partial route/transfer validations | 13 |
-| Standard-platform-supported records | 135 |
-| Implemented but not live-tested loaders | 26 |
-| Guided-instructions-only records | 41 |
-| Routes intentionally blocked from automation | 35 |
+| Complete current-deposit transfers through EyeDataHub | 47 |
+| Representative pre-existing holdings | 5 |
+| Listing-only strongest evidence | 4 |
+| Route-only strongest evidence | 195 |
+| Cumulative metadata or listing confirmations | 14 |
+| Unresolved automated listing failures | 2 |
 
-Access friction, acquisition automation, and source-stated terms are
-independent dimensions. A self-service route does not establish permission for
-a proposed reuse, and a familiar source-term label does not establish that a
-transfer is anonymous or automated.
+Access friction, acquisition implementation, verification evidence, and
+source-stated terms are independent dimensions. The strongest evidence levels
+above are mutually exclusive; the cumulative listing count overlaps eight
+complete transfers and two representative holdings. A self-service route does
+not establish permission for a proposed reuse, and a route confirmation is not
+a file transfer.
 
 The descriptive source-term groups are:
 
@@ -70,9 +74,12 @@ checksums, citations, warnings, and completion scope.
 
 ## Catalog exports
 
-Machine-readable catalog exports are provided in `hub/metadata.json`,
-`hub/metadata.csv`, `hub/open_licence_catalogue.json`, and
-`website/static/datasets.json`. Run `python -m pytest -q` to validate the
+Complete machine-readable catalog exports are provided in `hub/catalog.json`,
+`hub/catalog.csv`, and `website/static/datasets.json`. The files
+`hub/open_licence_catalogue.json`, `hub/metadata.json`, and `hub/metadata.csv`
+contain the 137-record enriched EyeDataHub-Open subset and must not be used as
+the complete-catalog denominator. Run `python hub/export_catalog.py` to
+regenerate the complete exports and `python -m pytest -q` to validate the
 catalog and command-line behavior.
 
 The live Python implementation retains

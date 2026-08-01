@@ -34,7 +34,7 @@ Fundus images for glaucoma detection from Harvard Medical School / Mass Eye and 
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | Direct HTTP |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `loader_implemented_not_live_tested` |
+| **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Standard loader included |
 
 

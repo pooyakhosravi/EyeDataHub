@@ -27,16 +27,20 @@ High-resolution fundus images from Hillel Yaffe Medical Center for age-related m
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
-| **Source-stated terms** | PhysioNet open access terms |
+| **Source-stated terms** | PhysioNet Restricted Health Data License 1.5.0 |
 | **Normalized terms** | `unknown` |
 | **Descriptive screening label** | Unknown or unclear; do not assume permission |
-| **Terms scope** | `unknown` |
-| **Access friction** | `anonymous_direct` |
+| **Terms scope** | `dataset_files` |
+| **Access friction** | `controlled_or_manual` |
 | **Route backend** | PhysioNet |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `standard_platform_supported` |
+| **Acquisition support** | `manual_access_blocked` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Notes
+
+> PhysioNet requires registration and the project-specific Restricted Health Data Use Agreement before file access.
 
 ## Access preflight and acquisition
 
@@ -44,11 +48,9 @@ High-resolution fundus images from Hillel Yaffe Medical Center for age-related m
   <TabItem value="cli" label="CLI" default>
 
 ```bash
-# Read-only preflight
+# This route requires upstream human action; no transfer starts.
 eyehub download hyamd --data-dir ./data --dry-run --json
-
-# Explicit transfer, only when preflight reports supported behavior
-eyehub download hyamd --data-dir ./data
+# Follow the official instructions shown by preflight.
 ```
 
   </TabItem>
@@ -59,15 +61,15 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('hyamd')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # returns manual_access_blocked
 ```
 
   </TabItem>
 </Tabs>
 
-**Upstream page:** [https://doi.org/10.13026/f0dn-8q46](https://doi.org/10.13026/f0dn-8q46)
+**Upstream page:** [physionet.org/content](https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/)
 
-**Source-term evidence:** [https://doi.org/10.13026/f0dn-8q46](https://doi.org/10.13026/f0dn-8q46)
+**Source-term evidence:** [physionet.org/content](https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/)
 
 ## Loader status
 
@@ -81,9 +83,9 @@ This catalog record provides metadata and access instructions, but it does not y
 ```bibtex
 @misc{hyamd,
   title  = { HYAMD High-Resolution Fundus Image Dataset for AMD Diagnosis },
-  note   = { Meisel M, Cohen BA, Baskin M, Tiosano B, Behar J, Berkowitz E. HYAMD High-Resolution Fundus Image Dataset for AMD Diagnosis. PhysioNet, 2025. doi:10.13026/f0dn-8q46 },
+  note   = { Meisel M, Cohen BA, Baskin M, Tiosano B, Behar J, Berkowitz E. HYAMD High-Resolution Fundus Image Dataset for AMD Diagnosis. PhysioNet, version 1.0.0, 2025. doi:10.13026/ydf1-z238 },
   year   = { 2025 },
-  url    = { https://doi.org/10.13026/f0dn-8q46 },
+  url    = { https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/ },
 }
 ```
 
@@ -91,7 +93,7 @@ This catalog record provides metadata and access instructions, but it does not y
   <TabItem value="apa" label="Plain text">
 
 ```text
-Meisel M, Cohen BA, Baskin M, Tiosano B, Behar J, Berkowitz E. HYAMD High-Resolution Fundus Image Dataset for AMD Diagnosis. PhysioNet, 2025. doi:10.13026/f0dn-8q46
+Meisel M, Cohen BA, Baskin M, Tiosano B, Behar J, Berkowitz E. HYAMD High-Resolution Fundus Image Dataset for AMD Diagnosis. PhysioNet, version 1.0.0, 2025. doi:10.13026/ydf1-z238
 ```
 
   </TabItem>
@@ -99,9 +101,9 @@ Meisel M, Cohen BA, Baskin M, Tiosano B, Behar J, Berkowitz E. HYAMD High-Resolu
 
 ## Source-stated terms
 
-- **Raw source string:** PhysioNet open access terms
+- **Raw source string:** PhysioNet Restricted Health Data License 1.5.0
 - **Normalized category:** `unknown`
-- **Apparent scope:** `unknown`
+- **Apparent scope:** `dataset_files`
 - **Descriptive screening label:** Unknown or unclear; do not assume permission
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.

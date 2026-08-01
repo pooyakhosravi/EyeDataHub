@@ -17,10 +17,8 @@ GitHub references:
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Any, List, Optional, Union
+from typing import Any, List, Union
 
-import numpy as np
-from PIL import Image
 
 from eyedatahub.core.dataset import DatasetInfo, DatasetSample, EyeDataHubDataset
 from eyedatahub.datasets.download_utils import print_manual_download_instructions

@@ -264,13 +264,27 @@ class GRAPEDataset(EyeDataHubDataset):
         self, data_dir: Union[str, Path], split: str = "all"
     ) -> List[DatasetSample]:
         """Load GRAPE samples (fundus image paths with associated VF/clinical data)."""
-        import csv
-
         root = Path(data_dir) / self._SUBDIR
 
-        # Discover fundus images
-        img_dirs = [root / "fundus_images", root / "images", root]
-        img_dir = next((d for d in img_dirs if d.exists()), root)
+        # Figshare collections are stored under one directory per article.
+        # Prefer the collection's CFP folders, then fall back to a recursive
+        # image search for older manually arranged copies.
+        image_suffixes = {".jpg", ".jpeg", ".png"}
+        cfp_dirs = sorted(
+            path
+            for path in root.rglob("*")
+            if path.is_dir()
+            and path.name.casefold() in {"cfps", "fundus_images"}
+        )
+        search_roots = cfp_dirs or [root]
+        image_paths = sorted(
+            {
+                path
+                for search_root in search_roots
+                for path in search_root.rglob("*")
+                if path.is_file() and path.suffix.casefold() in image_suffixes
+            }
+        )
 
         # Load clinical data if available
         label_map: Dict[str, int] = {}
@@ -290,7 +304,7 @@ class GRAPEDataset(EyeDataHubDataset):
                 pass
 
         samples = []
-        for img_path in sorted(img_dir.glob("*.jpg")) + sorted(img_dir.glob("*.png")):
+        for img_path in image_paths:
             stem = img_path.stem
             label = label_map.get(stem, 0)
             meta = meta_map.get(stem, {})

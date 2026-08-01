@@ -34,7 +34,7 @@ Linked color fundus and macular OCT images for diabetic macular edema and diabet
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | GitHub |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `loader_implemented_not_live_tested` |
+| **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 

@@ -387,25 +387,57 @@ class DDRDataset(EyeDataHubDataset):
         self, data_dir: Union[str, Path], split: str = "test"
     ) -> List[DatasetSample]:
         root = Path(data_dir) / self._SUBDIR
-        split_dir = root / split
-        img_dir = split_dir / "image"
+        grading_roots = [root]
+        grading_roots.extend(
+            candidate
+            for candidate in root.rglob("DR_grading")
+            if candidate.is_dir()
+        )
+        grading_root = next(
+            (
+                candidate
+                for candidate in grading_roots
+                if (candidate / split).is_dir()
+            ),
+            grading_roots[-1],
+        )
+        split_dir = grading_root / split
+        img_dir = (
+            split_dir / "image"
+            if (split_dir / "image").is_dir()
+            else split_dir
+        )
         lbl_dir = split_dir / "label"
 
         if not img_dir.exists():
-            raise FileNotFoundError(f"DDR {split} image directory not found: {img_dir}")
+            raise FileNotFoundError(
+                f"DDR {split} image directory not found below {grading_root}"
+            )
 
         # Build label mapping from text files
         label_map: dict = {}
+        split_label_file = grading_root / f"{split}.txt"
+        if split_label_file.is_file():
+            with split_label_file.open(encoding="utf-8") as handle:
+                for line in handle:
+                    parts = line.strip().split()
+                    if len(parts) >= 2:
+                        label_map[parts[0]] = int(parts[1])
         if lbl_dir.exists():
             for txt in lbl_dir.glob("*.txt"):
-                with open(txt) as f:
-                    for line in f:
+                with txt.open(encoding="utf-8") as handle:
+                    for line in handle:
                         parts = line.strip().split()
                         if len(parts) >= 2:
                             label_map[parts[0]] = int(parts[1])
 
         samples = []
-        for img_path in sorted(img_dir.glob("*.jpg")):
+        image_paths = (
+            sorted(img_dir.glob("*.jpg"))
+            + sorted(img_dir.glob("*.jpeg"))
+            + sorted(img_dir.glob("*.png"))
+        )
+        for img_path in image_paths:
             label = label_map.get(img_path.name, label_map.get(img_path.stem, -1))
             if label == -1:
                 continue
@@ -994,6 +1026,28 @@ class MMRDRDataset(EyeDataHubDataset):
         dest = Path(data_dir) / self._SUBDIR
         try:
             download_figshare(self._FIGSHARE_ID, dest)
+            first_parts = sorted(dest.glob("*.zip.001"))
+            for first_part in first_parts:
+                prefix = first_part.name[:-4]
+                parts = sorted(
+                    dest.glob(f"{prefix}.[0-9][0-9][0-9]"),
+                    key=lambda path: int(path.suffix[1:]),
+                )
+                numbers = [int(path.suffix[1:]) for path in parts]
+                if numbers != list(range(1, max(numbers) + 1)):
+                    raise RuntimeError(
+                        f"MMRDR split archive is incomplete: {numbers}"
+                    )
+                combined = dest / prefix
+                with combined.open("wb") as output:
+                    for part in parts:
+                        with part.open("rb") as source:
+                            while chunk := source.read(16 * 1024 * 1024):
+                                output.write(chunk)
+                extract_archive(combined, dest)
+                combined.unlink(missing_ok=True)
+                for part in parts:
+                    part.unlink(missing_ok=True)
             for archive in list(dest.glob("*.zip")) + list(dest.glob("*.tar*")):
                 extract_archive(archive, dest)
         except Exception:

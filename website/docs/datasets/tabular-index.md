@@ -7,7 +7,7 @@ description: "27 resources containing tabular data in EyeDataHub."
 
 # Tabular datasets
 
-**27 datasets · 934,404 samples · 85.6 GB total** - this page indexes every EyeDataHub resource tagged as containing `tabular` data. A resource can appear on more than one modality page.
+**27 datasets · 934,404 samples · 67.9 GB total** - this page indexes every EyeDataHub resource tagged as containing `tabular` data. A resource can appear on more than one modality page.
 
 | Name | Full name | Samples | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -25,7 +25,7 @@ description: "27 resources containing tabular data in EyeDataHub."
 | [`grape`](./grape.md) | GRAPE: Glaucoma Real-world Appraisal Progression Ensemble | 1,115 | 1.5 GB | `cc0` | Figshare |
 | [`harvard_gdp`](./harvard_gdp.md) | Harvard GDP: Glaucoma Detection and Progression Dataset | 1,000 | 2.0 GB | `cc-by-nc-nd` | Google Drive |
 | [`dryad_namd_visual_prediction`](./dryad_namd_visual_prediction.md) | Moorfields nAMD Visual-Change Prediction Dataset | 926 | 0.0 GB | `cc0` | Dryad |
-| [`tom500`](./tom500.md) | TOM500: Multi-Organ Annotated Orbital MRI Dataset for Thyroid Eye Disease | 500 | 20.0 GB | `cc0` | Figshare |
+| [`tom500`](./tom500.md) | TOM500: Multi-Organ Annotated Orbital MRI Dataset for Thyroid Eye Disease | 500 | 2.3 GB | `cc0` | Figshare |
 | [`dryad_glaucoma_rnfl_vf`](./dryad_glaucoma_rnfl_vf.md) | RNFL and Visual-Field Glaucoma Diagnosis Dataset | 499 | 0.0 GB | `cc0` | Dryad |
 | [`papila`](./papila.md) | PAPILA: Glaucoma Fundus Dataset with Clinical Data | 488 | 0.4 GB | `cc-by` | Direct HTTP |
 | [`dryad_gcc_glaucoma`](./dryad_gcc_glaucoma.md) | Glaucoma Ganglion Cell Complex Clinical Dataset | 406 | 0.0 GB | `cc0` | Dryad |

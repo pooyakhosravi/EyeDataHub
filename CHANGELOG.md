@@ -6,6 +6,28 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-07-31
+
+### Added
+
+- Added a 251-row acquisition-verification ledger with separate controlled
+  vocabularies for acquisition method and strongest verification evidence.
+- Added machine-readable acquisition summaries by backend, access route,
+  method, and evidence level, plus retained initial failure outcomes and a
+  resource-level citation file.
+- Added record-level acquisition and loader reliability tests and a redacted
+  evidence package for the Scientific Data submission.
+
+### Changed
+
+- Improved resumable transfers, retry behavior, archive extraction safety,
+  platform error handling, and dataset-specific completion checks.
+- Reclassified HYAMD as controlled or manual access after source
+  reconciliation, giving 170 anonymous and 28 controlled or manual routes.
+- Revised the manuscript evidence taxonomy so completed transfers, existing
+  local holdings, file listings, route confirmations, and unresolved loader
+  failures are reported separately.
+
 ## [0.2.2] - 2026-07-25
 
 ### Added

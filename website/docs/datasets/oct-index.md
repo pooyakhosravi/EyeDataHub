@@ -7,7 +7,7 @@ description: "62 resources containing oct data in EyeDataHub."
 
 # Oct datasets
 
-**62 datasets · 684,976 samples · 888.4 GB total** - this page indexes every EyeDataHub resource tagged as containing `oct` data. A resource can appear on more than one modality page.
+**62 datasets · 684,976 samples · 887.5 GB total** - this page indexes every EyeDataHub resource tagged as containing `oct` data. A resource can appear on more than one modality page.
 
 | Name | Full name | Samples | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -35,7 +35,7 @@ description: "62 resources containing oct data in EyeDataHub."
 | [`octdl`](./octdl.md) | OCTDL: OCT Deep Learning Dataset | 2,000 | 0.8 GB | `cc-by` | Mendeley Data |
 | [`thoct1800`](./thoct1800.md) | THOCT1800 Retinal OCT Dataset | 1,800 | Not reported | `research-only` | GitHub |
 | [`oct_ms_jhu`](./oct_ms_jhu.md) | OCT Retinal Layer Segmentation — MS & Healthy Controls (JHU/IACL) | 1,715 | 1.8 GB | `cc-by-nc-nd` | Direct HTTP |
-| [`oct5k`](./oct5k.md) | OCT5k: Multi-Disease Retinal Layer Annotations | 1,672 | 1.0 GB | `cc0` | Direct HTTP |
+| [`oct5k`](./oct5k.md) | OCT5k: Multi-Disease Retinal Layer Annotations | 1,672 | 0.1 GB | `cc0` | Figshare |
 | [`intraretinal_cystoid_fluid`](./intraretinal_cystoid_fluid.md) | Intraretinal Cystoid Fluid OCT Segmentation Dataset | 1,460 | 1.0 GB | `cc-by-nc-sa` | Kaggle |
 | [`as_oct_keratitis`](./as_oct_keratitis.md) | AS-OCT Keratitis Segmentation Dataset | 1,168 | 1.5 GB | `cc0` | Figshare |
 | [`aroi`](./aroi.md) | AROI: Annotated Retinal OCT Images Database | 1,136 | 0.5 GB | `research-only` | Google Drive |

@@ -27,7 +27,6 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 import os
 from pathlib import Path
 
@@ -36,8 +35,7 @@ import pandas as pd
 from eyedatahub.utils.credentials import load_credentials
 
 try:
-    import datasets as hf_datasets
-    from datasets import Dataset, DatasetDict, Features, Image, Value, Sequence
+    from datasets import Dataset, DatasetDict, Image
     from huggingface_hub import HfApi, create_repo
     HF_AVAILABLE = True
 except ImportError:
@@ -260,7 +258,7 @@ def main():
     )
 
     total_datasets = sum(len(v) for v in configs_to_run.values())
-    print(f"\nEyeDataHub-Open HuggingFace builder")
+    print("\nEyeDataHub-Open HuggingFace builder")
     print(f"  Repo: {args.repo_id}")
     print(f"  Configs: {list(configs_to_run.keys())}")
     print(f"  Datasets: {total_datasets}")
@@ -324,12 +322,12 @@ def main():
 
         available_names = [n for n in ds_names if _find_parquet(processed_dir, n)]
         if not available_names:
-            print(f"  No processed data found — skipping")
+            print("  No processed data found — skipping")
             continue
 
         split_dfs = _load_split_dict(processed_dir, available_names)
         if not split_dfs:
-            print(f"  Empty after loading parquets — skipping")
+            print("  Empty after loading parquets — skipping")
             continue
 
         hf_splits: dict[str, Dataset] = {}
@@ -337,7 +335,7 @@ def main():
             print(f"  Building split '{split}' ({len(df):,} rows)…")
             # Try to find image base dir from first available dataset
             image_base = _resolve_image_base(processed_dir, available_names[0])
-            hf_splits[split] = _df_to_hf_dataset(df, image_base=processed_dir)
+            hf_splits[split] = _df_to_hf_dataset(df, image_base=image_base)
 
         dd = DatasetDict(hf_splits)
 

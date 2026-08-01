@@ -51,7 +51,12 @@ class _StubLoadMixin:
         if not root.exists():
             return False
         ignored = {".download_complete", "eyedatahub-acquisition-manifest.json"}
-        return any(path.is_file() and path.name not in ignored for path in root.rglob("*"))
+        return any(
+            path.is_file()
+            and path.name not in ignored
+            and path.stat().st_size > 0
+            for path in root.rglob("*")
+        )
 
     def load(self, data_dir: Union[str, Path], split: str = "test") -> List[DatasetSample]:
         raise NotImplementedError(
@@ -242,7 +247,7 @@ class OCT5kDataset(_StubLoadMixin, EyeDataHubDataset):
     Sci. Data 2024). 1,672 B-scans, 5,016 multi-grader labels."""
 
     _SUBDIR = "oct5k"
-    _UCL_RDR_URL = "https://rdr.ucl.ac.uk/ndownloader/articles/22128671/versions/2"
+    _FIGSHARE_ID = "22128671"
 
     @property
     def info(self) -> DatasetInfo:
@@ -258,7 +263,7 @@ class OCT5kDataset(_StubLoadMixin, EyeDataHubDataset):
             num_samples=1672,
             splits=["all"],
             num_classes=8,
-            download_type="direct",
+            download_type="figshare",
             download_url="https://doi.org/10.5522/04/22128671",
             license="CC0 1.0",
             citation=(
@@ -267,20 +272,13 @@ class OCT5kDataset(_StubLoadMixin, EyeDataHubDataset):
                 "Scientific Data 2024. doi:10.1038/s41597-024-04259-z"
             ),
             tags=["oct", "layer_segmentation", "amd", "dme", "multi_grader"],
-            size_gb=1.0,
+            size_gb=0.05,
             notes="UCL Research Data Repository — Figshare-backed, free download.",
         )
 
     def download(self, data_dir: Union[str, Path]) -> None:
         dest = Path(data_dir) / self._SUBDIR
-        dest.mkdir(parents=True, exist_ok=True)
-        archive = dest / "oct5k.zip"
-        download_file(self._UCL_RDR_URL, archive, desc="OCT5k")
-        try:
-            extract_archive(archive, dest)
-            archive.unlink(missing_ok=True)
-        except Exception:
-            pass
+        download_figshare(self._FIGSHARE_ID, dest, extract=True)
 
 
 class MARIODataset(_StubLoadMixin, EyeDataHubDataset):

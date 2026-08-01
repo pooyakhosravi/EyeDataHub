@@ -34,13 +34,13 @@ Right-eye corneal OCT and rotating Scheimpflug tomography data with MATLAB code 
 | **Access friction** | `anonymous_direct` |
 | **Route backend** | Dryad |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `standard_platform_supported` |
+| **Acquisition support** | `guided_instructions_only` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 
 ## Notes
 
-> The source describes right-eye OCT and OCULUS Pentacam tomography plus custom segmentation code but does not expose a reliable record count in the repository metadata.
+> The source describes right-eye OCT and OCULUS Pentacam tomography plus custom segmentation code but does not expose a reliable record count in the repository metadata. Dryad declines whole-version archive assembly for this record; EyeDataHub therefore directs users to the official landing page. Authenticated per-file API transfer is available when a user configures DRYAD_TOKEN.
 
 ## Access preflight and acquisition
 

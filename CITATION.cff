@@ -31,8 +31,8 @@ authors:
 repository-code: "https://github.com/pooyakhosravi/EyeDataHub"
 url: "https://khosravipooya.com/EyeDataHub/"
 license: MIT
-version: "0.2.2"
-date-released: "2026-07-25"
+version: "0.3.0"
+date-released: "2026-07-31"
 doi: "10.5281/zenodo.21614657"
 keywords:
   - ophthalmology

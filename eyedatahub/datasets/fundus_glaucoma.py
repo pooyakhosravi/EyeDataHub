@@ -11,7 +11,6 @@ from eyedatahub.datasets.download_utils import (
     download_dataverse,
     download_figshare,
     download_figshare_private,
-    download_file,
     download_gdrive,
     download_gdrive_folder,
     download_kaggle,
@@ -1187,7 +1186,6 @@ class HarvardGDPDataset(EyeDataHubDataset):
         )
 
     def download(self, data_dir: Union[str, Path]) -> None:
-        from eyedatahub.datasets.download_utils import download_gdrive_folder
         dest = Path(data_dir) / self._SUBDIR
         try:
             download_gdrive_folder(self._GDRIVE_FOLDER_ID, dest)
