@@ -23,7 +23,7 @@ Longitudinal near-infrared iris images with subject, eye, age, sex, and ethnicit
 | **Primary category** | `iris_biometrics` |
 | **Contained modalities** | iris_biometrics |
 | **Tasks** | biometric_recognition, classification, demographic_analysis |
-| **Samples** | 64,980 |
+| **Primary reported quantity** | 64,980 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -37,6 +37,14 @@ Longitudinal near-infrared iris images with subject, eye, age, sex, and ethnicit
 | **Acquisition support** | `manual_access_blocked` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 64,980 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [tsapps.nist.gov/BDbC](https://tsapps.nist.gov/BDbC/Search/Details/371) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -108,7 +116,7 @@ Bowyer KW, Flynn PJ. The ND-IRIS-0405 Iris Image Dataset. arXiv:1606.04853. 2016
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [casia_iris_v4](./casia_iris_v4.md): CASIA-IrisV4 Iris Image Database (54,601 records, `cc0`)
-- [ubiris_v2](./ubiris_v2.md): UBIRIS.v2 Noisy Visible-Wavelength Iris Database (11,102 records, `unknown`)
+- [casia_iris_v4](./casia_iris_v4.md): CASIA-IrisV4 Iris Image Database (54,601 images, `cc0`)
+- [ubiris_v2](./ubiris_v2.md): UBIRIS.v2 Noisy Visible-Wavelength Iris Database (11,102 images, `unknown`)

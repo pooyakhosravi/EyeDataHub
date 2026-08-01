@@ -3,7 +3,7 @@ id: drive
 title: "DRIVE: Digital Retinal Images for Vessel Extraction"
 sidebar_label: drive
 description: "Forty color fundus photographs from a diabetic retinopathy screening program, divided into 20 training and 20 test images, with vessel reference annotations and field of view masks."
-tags: ["fundus", "unknown", "manual", "segmentation"]
+tags: ["fundus", "unknown", "manual", "segmentation", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Forty color fundus photographs from a diabetic retinopathy screening program, di
 | **Primary category** | `fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
-| **Samples** | 40 |
+| **Primary reported quantity** | 40 images |
 | **Classes** | 2 (background, vessel) |
 | **Splits** | train, test |
 | **Size** | Not reported |
@@ -38,9 +38,24 @@ Forty color fundus photographs from a diabetic retinopathy screening program, di
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 40 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [drive.grand-challenge.org/DRIVE](https://drive.grand-challenge.org/DRIVE/) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > The official page reports 768 by 584 pixel images, one manual vessel segmentation for each training image, and hidden test references used by the evaluation server. Verify reuse terms with the source before redistribution.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [retinal_vessel_robustness](./retinal_vessel_robustness.md) is `derived from` this record: The robustness benchmark contains augmented versions of DRIVE, STARE, and CHASE_DB1 images. ([evidence](https://zenodo.org/records/12659652))
+- [rite](./rite.md) is `derived from` this record: RITE adds artery, vein, and vessel-tree labels to the same 40 DRIVE images. ([evidence](https://medicine.uiowa.edu/eye/rite-dataset))
 
 ## Access preflight and acquisition
 
@@ -110,13 +125,13 @@ Staal J, Abramoff MD, Niemeijer M, Viergever MA, van Ginneken B. Ridge-based ves
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
-- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 images, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)

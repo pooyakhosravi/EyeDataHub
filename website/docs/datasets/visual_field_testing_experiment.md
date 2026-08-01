@@ -23,7 +23,7 @@ Visual-field and psychophysics experiment data for scotoma-detection comparisons
 | **Primary category** | `visual_field` |
 | **Contained modalities** | visual_field |
 | **Tasks** | classification, regression |
-| **Samples** | Not reported |
+| **Primary reported quantity** | 78 visual fields |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.01 GB |
@@ -37,6 +37,16 @@ Visual-field and psychophysics experiment data for scotoma-detection comparisons
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 78 | `visual_fields` | Rows and distinct IDs in fields.csv | `current_deposit_table` | [kaggle.com/datasets](https://www.kaggle.com/datasets/shozosaeki/visual-field-testing-experiment) |
+| Additional | 15,678 | `measurement_rows` | Eye-guided measurement rows in display_results.csv | `current_deposit_table` | [kaggle.com/datasets](https://www.kaggle.com/datasets/shozosaeki/visual-field-testing-experiment) |
+| Additional | 4,212 | `measurement_rows` | Humphrey field-analyzer rows in hfa_results.csv | `current_deposit_table` | [kaggle.com/datasets](https://www.kaggle.com/datasets/shozosaeki/visual-field-testing-experiment) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Access preflight and acquisition
 
@@ -106,13 +116,13 @@ Visual Field Testing Experiment. Kaggle, accessed 2026-07.
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [uwhvf](./uwhvf.md): UWHVF: University of Washington Humphrey Visual Field (28,943 records, `cc-by`)
-- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 records, `cc-by-nc-nd`)
-- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 records, `cc0`)
-- [harvard_gdp](./harvard_gdp.md): Harvard GDP: Glaucoma Detection and Progression Dataset (1,000 records, `cc-by-nc-nd`)
+- [uwhvf](./uwhvf.md): UWHVF: University of Washington Humphrey Visual Field (28,943 visual field tests, `cc-by`)
+- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
+- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
+- [harvard_gdp](./harvard_gdp.md): Harvard GDP: Glaucoma Detection and Progression Dataset (1,000 participants, `cc-by-nc-nd`)
 - [dryad_glaucoma_rnfl_vf](./dryad_glaucoma_rnfl_vf.md): RNFL and Visual-Field Glaucoma Diagnosis Dataset (499 records, `cc0`)
-- [eyecatcher_visual_field](./eyecatcher_visual_field.md): Eyecatcher Tablet-Based Visual Field Home-Monitoring Data (440 records, `cc-by`)
-- [stage_task1](./stage_task1.md): STAGE 2023 Task 1 — Mean Deviation Prediction from OCT (400 records, `research-only`)
-- [stage_task2](./stage_task2.md): STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction (400 records, `research-only`)
+- [eyecatcher_visual_field](./eyecatcher_visual_field.md): Eyecatcher Tablet-Based Visual Field Home-Monitoring Data (440 visual field tests, `cc-by`)
+- [stage_task1](./stage_task1.md): STAGE 2023 Task 1 — Mean Deviation Prediction from OCT (400 volumes, `research-only`)
+- [stage_task2](./stage_task2.md): STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction (400 volumes, `research-only`)

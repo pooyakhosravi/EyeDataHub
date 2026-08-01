@@ -3,7 +3,7 @@ id: x_pcr
 title: "X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark"
 sidebar_label: x_pcr
 description: "The version-pinned public deposit contains 18,735 ophthalmic image-text benchmark rows across CFP, external-eye, FFA, OCT, and RetCam subsets."
-tags: ["multimodal", "fundus", "fundus_angiography", "oct", "external_eye", "retcam", "text", "unknown", "huggingface", "visual_question_answering", "classification"]
+tags: ["multimodal", "fundus", "fundus_angiography", "oct", "external_eye", "retcam", "text", "unknown", "huggingface", "visual_question_answering", "classification", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ The version-pinned public deposit contains 18,735 ophthalmic image-text benchmar
 | **Primary category** | `multimodal` |
 | **Contained modalities** | fundus, fundus_angiography, oct, external_eye, retcam, text |
 | **Tasks** | visual_question_answering, classification |
-| **Samples** | 18,735 |
+| **Primary reported quantity** | 18,735 rows |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 5.0 GB |
@@ -38,9 +38,36 @@ The version-pinned public deposit contains 18,735 ophthalmic image-text benchmar
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 18,735 | `rows` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [huggingface.co/datasets](https://huggingface.co/datasets/Fantasy666/X-PCR) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > The public deposit at commit 06a318fd852230326386e3c6514d8a11b7a6b4af has 18,735 rows. The dataset card describes a broader benchmark of 26,415 images and 177,868 VQA pairs; these units and scopes are not interchangeable.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- This record is `derived from` [aptos2019](./aptos2019.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [beh](./beh.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [deepdrid](./deepdrid.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [eye_disease_image_mendeley](./eye_disease_image_mendeley.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [eyepacs](./eyepacs.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [harvard_gdp](./harvard_gdp.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [jsiec](./jsiec.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [kermany_oct](./kermany_oct.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [mured](./mured.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [oct_c8](./oct_c8.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [octid](./octid.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [odir2019](./odir2019.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [oimhs](./oimhs.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
+- This record is `derived from` [rfmid2](./rfmid2.md): Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
 
 ## Access preflight and acquisition
 
@@ -110,13 +137,13 @@ Fantasy666/X-PCR. Hugging Face dataset, accessed 2026-07.
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [ophthalvqa](./ophthalvqa.md): OphthalVQA Dataset (count not reported records, `cc-by`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [mm_retinal_reason](./mm_retinal_reason.md): MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset (count not reported records, `unknown`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [harvard_fairvision](./harvard_fairvision.md): Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) (30,000 records, `cc-by-nc-nd`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [ophthalvqa](./ophthalvqa.md): OphthalVQA Dataset (600 question answer pairs, `cc-by`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [mm_retinal_reason](./mm_retinal_reason.md): MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset (130 question answer pairs, `unknown`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [harvard_fairvision](./harvard_fairvision.md): Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) (30,000 participants, `cc-by-nc-nd`)

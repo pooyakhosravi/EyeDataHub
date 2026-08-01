@@ -3,7 +3,7 @@ id: jsiec
 title: "JSIEC Fundus Photo Dataset"
 sidebar_label: jsiec
 description: "1,000 fundus images spanning 39 ophthalmic disease categories from the Joint Shantou International Eye Center. Used for multi-class fundus disease classification."
-tags: ["fundus", "unknown", "zenodo", "classification"]
+tags: ["fundus", "unknown", "zenodo", "classification", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
-| **Samples** | 1,000 |
+| **Primary reported quantity** | 1,000 images |
 | **Classes** | 39 (0.0.Normal, 0.1.Tessellated fundus, 0.2.Large optic cup, 0.3.DR1, 1.0.DR2, 1.1.DR3, 10.0.Possible glaucoma, 10.1.Optic atrophy, 11.Severe hypertensive retinopathy, 12.Disc swelling and elevation, 13.Dragged Disc, 14.Congenital disc abnormality, 15.0.Retinitis pigmentosa, 15.1.Bietti crystalline dystrophy, 16.Peripheral retinal degeneration and break, 17.Myelinated nerve fiber, 18.Vitreous particles, 19.Fundus neoplasm, 2.0.BRVO, 2.1.CRVO, 20.Massive hard exudates, 21.Yellow-white spots-flecks, 22.Cotton-wool spots, 23.Vessel tortuosity, 24.Chorioretinal atrophy-coloboma, 25.Preretinal hemorrhage, 26.Fibrosis, 27.Laser Spots, 28.Silicon oil in eye, 29.0.Blur fundus without PDR, 29.1.Blur fundus with suspected PDR, 3.RAO, 4.Rhegmatogenous RD, 5.0.CSCR, 5.1.VKH disease, 6.Maculopathy, 7.ERM, 8.MH, 9.Pathological myopia) |
 | **Splits** | all |
 | **Size** | 0.4 GB |
@@ -38,9 +38,25 @@ import TabItem from '@theme/TabItem';
 | **Legacy sample-loader status** | Standard loader included |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 1,000 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [zenodo.org/record](https://zenodo.org/record/3477553) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Zenodo labels the deposit as other open access but does not name a standard reuse license. Verify terms before redistribution.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [rao_fundus](./rao_fundus.md) is `derived from` this record: The RAO source reports use of public web images plus RFMiD and JSIEC images. ([evidence](https://doi.org/10.17632/5428684j44.2))
+- [smdg](./smdg.md) is `derived from` this record: The official SMDG source table lists this catalog record among the 19 standardized source domains. ([evidence](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset))
+- [x_pcr](./x_pcr.md) is `derived from` this record: Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
 
 ## Access preflight and acquisition
 
@@ -121,13 +137,13 @@ Cen et al., 'Automatic detection of 39 fundus diseases and conditions in retinal
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
-- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 images, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)

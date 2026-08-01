@@ -3,7 +3,7 @@ id: hassan_composite_retina
 title: "Composite Retinal Fundus and OCT Dataset with Clinical Markings"
 sidebar_label: hassan_composite_retina
 description: "Composite fundus and OCT dataset with retinal layer, retinal lesion, and macular/glaucomatous disorder markings."
-tags: ["multimodal", "fundus", "oct", "cc-by", "mendeley", "segmentation", "classification", "grading"]
+tags: ["multimodal", "fundus", "oct", "cc-by", "mendeley", "segmentation", "classification", "grading", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Composite fundus and OCT dataset with retinal layer, retinal lesion, and macular
 | **Primary category** | `multimodal` |
 | **Contained modalities** | fundus, oct |
 | **Tasks** | segmentation, classification, grading |
-| **Samples** | Not reported |
+| **Primary reported quantity** | Not reported |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 2.0 GB |
@@ -38,9 +38,25 @@ Composite fundus and OCT dataset with retinal layer, retinal lesion, and macular
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Additional | 64 | `images` | Fundus component described by the associated publication The count was not confirmed as the exact content of the cataloged Mendeley v4 archive. | `associated_publication` | [https://doi.org/10.1016/B978-0-12-817438-8.00005-5](https://doi.org/10.1016/B978-0-12-817438-8.00005-5) |
+| Additional | 2,497 | `b_scans` | OCT component described by the associated publication The count was not confirmed as the exact content of the cataloged Mendeley v4 archive. | `associated_publication` | [https://doi.org/10.1016/B978-0-12-817438-8.00005-5](https://doi.org/10.1016/B978-0-12-817438-8.00005-5) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Composite dataset; verify component provenance before treating as an independent cohort.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
+- [multieye](./multieye.md) is `derived from` this record: The MultiEYE paper names this record as one of the public fundus or OCT sources assembled for the benchmark. ([evidence](https://arxiv.org/abs/2412.09402))
 
 ## Access preflight and acquisition
 
@@ -110,13 +126,13 @@ Hassan T, Akram MU, Nazir MN. A Composite Retinal Fundus and OCT Dataset with De
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [harvard_fairvision](./harvard_fairvision.md): Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) (30,000 records, `cc-by-nc-nd`)
-- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 records, `cc-by`)
-- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 records, `unknown`)
-- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 records, `cc-by`)
-- [oct_fundus_dme_dr_mexico](./oct_fundus_dme_dr_mexico.md): OCT and Eye Fundus Dataset for DME and DR (2,661 records, `unknown`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [harvard_fairvision](./harvard_fairvision.md): Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) (30,000 participants, `cc-by-nc-nd`)
+- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 images, `cc-by`)
+- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 rows, `unknown`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
+- [oct_fundus_dme_dr_mexico](./oct_fundus_dme_dr_mexico.md): OCT and Eye Fundus Dataset for DME and DR (2,661 images, `unknown`)

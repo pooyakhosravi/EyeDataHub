@@ -3,7 +3,7 @@ id: vietai_retinal_disease
 title: "VietAI Retinal Disease Detection 2020"
 sidebar_label: vietai_retinal_disease
 description: "A multilabel fundus classification challenge with 3,435 labeled training images and 350 test images covering six disease groups and normal findings."
-tags: ["fundus", "unknown", "kaggle", "multilabel", "classification"]
+tags: ["fundus", "unknown", "kaggle", "multilabel", "classification", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ A multilabel fundus classification challenge with 3,435 labeled training images 
 | **Primary category** | `fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | multilabel, classification |
-| **Samples** | 3,785 |
+| **Primary reported quantity** | 3,785 images |
 | **Classes** | 7 (opacity, diabetic_retinopathy, glaucoma, macular_edema, macular_degeneration, retinal_vein_occlusion, normal) |
 | **Splits** | train, test |
 | **Size** | Not reported |
@@ -38,9 +38,23 @@ A multilabel fundus classification challenge with 3,435 labeled training images 
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 3,785 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [kaggle.com/competitions](https://www.kaggle.com/competitions/vietai-advance-retinal-disease-detection-2020/data) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Kaggle authentication and acceptance of the competition rules may be required. Derivative archives that mix these images with unverified sources were excluded from the registry.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [multieye](./multieye.md) is `derived from` this record: The MultiEYE paper names this record as one of the public fundus or OCT sources assembled for the benchmark. ([evidence](https://arxiv.org/abs/2412.09402))
 
 ## Access preflight and acquisition
 
@@ -110,13 +124,13 @@ VietAI Advance Course Retinal Disease Detection. Kaggle. 2020.
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
-- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 images, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)

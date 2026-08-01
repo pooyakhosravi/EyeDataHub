@@ -3,7 +3,7 @@ id: aod
 title: "AOD: Augmented Ocular Diseases Dataset"
 sidebar_label: aod
 description: "Augmented ODIR-5K fundus photographs for 8-class ocular disease classification: Normal, Diabetes, Glaucoma, Cataract, AMD, Hypertension, Myopia, Other. Preprocessing includes CLAHE and standard augmen"
-tags: ["fundus", "unknown", "kaggle", "classification"]
+tags: ["fundus", "unknown", "kaggle", "classification", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Augmented ODIR-5K fundus photographs for 8-class ocular disease classification: 
 | **Primary category** | `fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
-| **Samples** | 14,813 |
+| **Primary reported quantity** | 14,813 images |
 | **Classes** | 8 (Normal, Diabetes, Glaucoma, Cataract, AMD, Hypertension, Myopia, Other) |
 | **Splits** | train, test |
 | **Size** | 2.0 GB |
@@ -38,9 +38,23 @@ Augmented ODIR-5K fundus photographs for 8-class ocular disease classification: 
 | **Legacy sample-loader status** | Standard loader included |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 14,813 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [kaggle.com/datasets](https://www.kaggle.com/datasets/nurmukhammed7/augemnted-ocular-diseases) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > OVERLAP: AOD is an augmented variant of ODIR-2019 (already in EyeDataHub as `odir2019`). Preprocessing (CLAHE) and augmentation explain the 14,813 vs 16,000 image count delta. Kept because the augmented split appears in downstream benchmarks separately.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- This record is `derived from` [odir2019](./odir2019.md): The AOD deposit describes an augmented and preprocessed ODIR-5K resource. ([evidence](https://doi.org/10.17632/d73g6m8d5m.1))
 
 ## Access preflight and acquisition
 
@@ -120,13 +134,13 @@ AOD Dataset. Kaggle. https://www.kaggle.com/datasets/nurmukhammed7/augemnted-ocu
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
-- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 images, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)

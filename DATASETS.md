@@ -20,6 +20,7 @@ third-party datasets.
 | Controlled or manual routes | 28 |
 | Author-contact routes | 8 |
 | Credential-free downloads supported by EyeDataHub | 47 |
+| Records with a resolved primary source-reported quantity | 245 |
 | Source-supported directed relationship assertions | 131 |
 | Records participating in documented relationships | 91 |
 
@@ -76,6 +77,14 @@ contain the 137-record enriched EyeDataHub-Open subset and must not be used as
 the complete-catalog denominator. Run `python hub/export_catalog.py` to
 regenerate the complete exports and `python -m pytest -q` to validate the
 catalog and command-line behavior.
+
+Each complete-catalog record includes `reported_quantities`: an ordered list
+of source-linked count objects with `count`, `unit`, `scope`, `evidence_url`,
+`evidence_basis`, `primary`, `exactness`, `review_date`, and `notes`. The
+backward-compatible `num_samples` and `item_count_unit` fields match the one
+primary quantity when a primary quantity is resolved. Units are controlled
+vocabulary values; totals are reported only within the same unit and must not
+be interpreted as independent cohort totals.
 
 The live Python implementation retains
 `eyedatahub.datasets.registry.REGISTRY` as an internal compatibility name.

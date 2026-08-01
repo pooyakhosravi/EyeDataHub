@@ -3,7 +3,7 @@ id: lmod_cataract_1k
 title: "LMOD-Cataract-1K"
 sidebar_label: lmod_cataract_1k
 description: "Processed Cataract-1K surgical-frame dataset for segmentation/object-detection workflows."
-tags: ["surgical_video", "cc-by", "huggingface", "segmentation", "detection"]
+tags: ["surgical_video", "cc-by", "huggingface", "segmentation", "detection", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Processed Cataract-1K surgical-frame dataset for segmentation/object-detection w
 | **Primary category** | `surgical_video` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | segmentation, detection |
-| **Samples** | Not reported |
+| **Primary reported quantity** | 2,256 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 2.0 GB |
@@ -38,9 +38,24 @@ Processed Cataract-1K surgical-frame dataset for segmentation/object-detection w
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 2,256 | `images` | Rows in the versioned Hugging Face deposit | `current_deposit_table` | [huggingface.co/datasets](https://huggingface.co/datasets/mehti/LMOD-Cataract-1K) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Derivative/processed view of existing Cataract-1K.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [lmod_cataract_1k_cot](./lmod_cataract_1k_cot.md) is `derived from` this record: The dataset card identifies LMOD-Cataract-1K as its image source. ([evidence](https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot))
+- This record is `derived from` [cataract1k](./cataract1k.md): The dataset card identifies Cataract-1K as the source of the processed surgical frames. ([evidence](https://huggingface.co/datasets/mehti/LMOD-Cataract-1K))
 
 ## Access preflight and acquisition
 
@@ -110,13 +125,13 @@ mehti/LMOD-Cataract-1K. Hugging Face dataset, accessed 2026-07.
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [ophora](./ophora.md): Ophora-160K: Ophthalmic Surgical Video Instruction Dataset (162,185 records, `unknown`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [cadis](./cadis.md): CaDIS: Cataract Dataset for Image Segmentation (4,670 records, `research-only`)
-- [cataract_lmm](./cataract_lmm.md): Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark (3,000 records, `cc-by-nc-nd`)
-- [ophnet2024](./ophnet2024.md): OphNet2024: Ophthalmic Surgical Video Dataset (2,278 records, `cc-by-nc-sa`)
-- [cataract1k](./cataract1k.md): Cataract-1K: Large-Scale Cataract Surgery Video Dataset (1,000 records, `research-only`)
-- [migs_video](./migs_video.md): Multicenter Fine-Annotated MIGS Surgical Video Dataset (186 records, `cc-by`)
-- [sics155](./sics155.md): SICS-155 Small Incision Cataract Surgery Videos (155 records, `cc-by-nc`)
+- [ophora](./ophora.md): Ophora-160K: Ophthalmic Surgical Video Instruction Dataset (162,185 video clip instruction pairs, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [insegcat](./insegcat.md): InSegCat: Instance Segmentation for Cataract Surgery (5,581 annotated images, `research-only`)
+- [cadis](./cadis.md): CaDIS: Cataract Dataset for Image Segmentation (4,670 images, `research-only`)
+- [cataract_lmm](./cataract_lmm.md): Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark (3,000 videos, `cc-by-nc-nd`)
+- [ophnet2024](./ophnet2024.md): OphNet2024: Ophthalmic Surgical Video Dataset (2,278 videos, `cc-by-nc-sa`)
+- [lmod_cataract_1k_cot](./lmod_cataract_1k_cot.md): Cataract-1K Surgical Analysis Chain-of-Thought Dataset (2,256 images, `mit`)
+- [cataract1k](./cataract1k.md): Cataract-1K: Large-Scale Cataract Surgery Video Dataset (1,000 videos, `research-only`)

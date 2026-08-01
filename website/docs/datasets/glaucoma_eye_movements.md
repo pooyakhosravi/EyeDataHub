@@ -23,7 +23,7 @@ Raw and processed eye-tracking data from glaucoma patients with asymmetrical vis
 | **Primary category** | `eye_tracking` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | regression, classification |
-| **Samples** | 270 |
+| **Primary reported quantity** | 270 participants |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.1 GB |
@@ -37,6 +37,14 @@ Raw and processed eye-tracking data from glaucoma patients with asymmetrical vis
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 270 | `participants` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [zenodo.org/records](https://zenodo.org/records/7761477) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Access preflight and acquisition
 
@@ -106,11 +114,11 @@ Data on eye movements of glaucoma patients with asymmetrical visual field loss d
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [teyed](./teyed.md): TEyeD Real-World Eye-Tracking Dataset (20,666,096 records, `unknown`)
-- [gaze_capture](./gaze_capture.md): GazeCapture Mobile Eye-Tracking Dataset (2,445,504 records, `unknown`)
-- [eth_xgaze](./eth_xgaze.md): ETH-XGaze Extreme-Pose Gaze Estimation Dataset (1,083,492 records, `cc-by-nc-sa`)
-- [mpii_gaze](./mpii_gaze.md): MPIIGaze Appearance-Based Gaze Estimation Dataset (213,659 records, `cc-by-nc-sa`)
-- [gaze360](./gaze360.md): Gaze360 Physically Unconstrained Gaze Dataset (172,000 records, `unknown`)
-- [lpw](./lpw.md): LPW Labelled Pupils in the Wild (130,856 records, `research-only`)
+- [teyed](./teyed.md): TEyeD Real-World Eye-Tracking Dataset (20,666,096 images, `unknown`)
+- [gaze_capture](./gaze_capture.md): GazeCapture Mobile Eye-Tracking Dataset (2,445,504 frames, `unknown`)
+- [eth_xgaze](./eth_xgaze.md): ETH-XGaze Extreme-Pose Gaze Estimation Dataset (1,083,492 images, `cc-by-nc-sa`)
+- [mpii_gaze](./mpii_gaze.md): MPIIGaze Appearance-Based Gaze Estimation Dataset (213,659 images, `cc-by-nc-sa`)
+- [gaze360](./gaze360.md): Gaze360 Physically Unconstrained Gaze Dataset (172,000 frames, `unknown`)
+- [lpw](./lpw.md): LPW Labelled Pupils in the Wild (130,856 frames, `research-only`)

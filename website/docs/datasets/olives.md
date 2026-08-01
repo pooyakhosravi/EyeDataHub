@@ -23,7 +23,7 @@ Longitudinal OCT + fundus dataset from AMD/DME patients across multiple clinical
 | **Primary category** | `oct` |
 | **Contained modalities** | oct, fundus, tabular |
 | **Tasks** | multilabel, classification |
-| **Samples** | 9,408 |
+| **Primary reported quantity** | 9,408 b scans |
 | **Classes** | 8 (Fluid, Hard Exudate, Soft Exudate, Drusen, Scar, Laser Scar, Fibrovascular PED, Serous PED) |
 | **Splits** | train, val, test |
 | **Size** | 20.0 GB |
@@ -37,6 +37,16 @@ Longitudinal OCT + fundus dataset from AMD/DME patients across multiple clinical
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Standard loader included |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 9,408 | `b_scans` | Biomarker-labeled OCT B-scans | `official_source_description` | [zenodo.org/records](https://zenodo.org/records/7105232) |
+| Additional | 1,268 | `images` | Paired fundus photographs | `official_source_description` | [zenodo.org/records](https://zenodo.org/records/7105232) |
+| Additional | 96 | `eyes` | Longitudinal eye-level cohort | `official_source_description` | [zenodo.org/records](https://zenodo.org/records/7105232) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -121,13 +131,13 @@ Prabhushankar M et al., 'OLIVES Dataset: Ophthalmic Labels for Investigating Vis
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 records, `cc0`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [harvard_fairvision](./harvard_fairvision.md): Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) (30,000 records, `cc-by-nc-nd`)
-- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 records, `cc-by`)
-- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 records, `unknown`)
-- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 records, `cc-by-nc-nd`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [harvard_fairvision](./harvard_fairvision.md): Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) (30,000 participants, `cc-by-nc-nd`)
+- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 images, `cc-by`)
+- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 rows, `unknown`)
+- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)

@@ -7,8 +7,8 @@ description: "1 resources containing omics data in EyeDataHub."
 
 # Omics datasets
 
-**1 datasets · 1,577 samples · 0.0 GB total** - this page indexes every EyeDataHub resource tagged as containing `omics` data. A resource can appear on more than one modality page.
+**1 datasets; 1 with a primary reported quantity; 0.0 GB total** - this page indexes every EyeDataHub resource tagged as containing `omics` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
-| Name | Full name | Samples | Size | License | Backend |
+| Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
-| [`dryad_uveal_melanoma_coog2`](./dryad_uveal_melanoma_coog2.md) | COOG2.1 Uveal Melanoma Prognostic Dataset | 1,577 | 0.0 GB | `cc0` | Dryad |
+| [`dryad_uveal_melanoma_coog2`](./dryad_uveal_melanoma_coog2.md) | COOG2.1 Uveal Melanoma Prognostic Dataset | 1,577 participants | 0.0 GB | `cc0` | Dryad |

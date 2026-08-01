@@ -7,9 +7,9 @@ slug: /datasets
 
 # All datasets in EyeDataHub
 
-**251 catalog records; 30,257,460 mixed source reported records; 3081.6 GB reported; 191 nonmanual access routes**
+**251 catalog records; 245 with a primary reported quantity; 3081.6 GB reported; 191 nonmanual access routes**
 
-Each resource has one primary category for navigation and one or more contained-modality tags. Counts below overlap because a resource with fundus photographs and OCT is included under both modalities.
+Each resource has one primary category for navigation and one or more contained-modality tags. Counts below overlap because a resource with fundus photographs and OCT is included under both modalities. Primary quantities retain their source-reported units on each resource page; they are not summed across the catalog.
 
 ## By contained modality
 
@@ -96,3 +96,35 @@ Each resource has one primary category for navigation and one or more contained-
 | `dryad` | 10 |
 | `github` | 7 |
 | `physionet` | 7 |
+
+## Primary reported quantity units
+
+| Unit | Records reporting this primary quantity |
+| --- | ---:|
+| `images` | 158 |
+| `volumes` | 16 |
+| `participants` | 14 |
+| `videos` | 8 |
+| `question_answer_pairs` | 6 |
+| `eyes` | 5 |
+| `b_scans` | 4 |
+| `image_pairs` | 4 |
+| `frames` | 3 |
+| `questions` | 3 |
+| `records` | 3 |
+| `documents` | 2 |
+| `experimental_eyes` | 2 |
+| `signals` | 2 |
+| `text_items` | 2 |
+| `visual_field_tests` | 2 |
+| `annotated_images` | 1 |
+| `annotated_instances` | 1 |
+| `embedding_vectors` | 1 |
+| `examinations` | 1 |
+| `image_report_pairs` | 1 |
+| `longitudinal_samples` | 1 |
+| `rows` | 1 |
+| `sentence_pairs` | 1 |
+| `video_clip_instruction_pairs` | 1 |
+| `video_clips` | 1 |
+| `visual_fields` | 1 |

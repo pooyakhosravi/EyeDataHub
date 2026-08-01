@@ -3,7 +3,7 @@ id: rao_fundus
 title: "RAO Retinal Artery Occlusion Fundus Photography Dataset"
 sidebar_label: rao_fundus
 description: "Fundus-photography dataset for retinal artery occlusion diagnosis, based on web-derived public data and public fundus datasets."
-tags: ["fundus", "cc-by", "mendeley", "classification"]
+tags: ["fundus", "cc-by", "mendeley", "classification", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Fundus-photography dataset for retinal artery occlusion diagnosis, based on web-
 | **Primary category** | `fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
-| **Samples** | Not reported |
+| **Primary reported quantity** | Not reported |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -38,9 +38,22 @@ Fundus-photography dataset for retinal artery occlusion diagnosis, based on web-
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+No reproducible primary item count was exposed for the cataloged source version.
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Source reports use of web-based public data plus RFMiD and JSIEC. Retained as a distinct RAO task resource, but not an independent primary cohort.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- This record is `derived from` [jsiec](./jsiec.md): The RAO source reports use of public web images plus RFMiD and JSIEC images. ([evidence](https://doi.org/10.17632/5428684j44.2))
+- This record is `derived from` [rfmid](./rfmid.md): The RAO source reports use of public web images plus RFMiD and JSIEC images. ([evidence](https://doi.org/10.17632/5428684j44.2))
 
 ## Access preflight and acquisition
 
@@ -69,9 +82,9 @@ print(preflight_dataset(ds, './data'))  # no transfer
   </TabItem>
 </Tabs>
 
-**Upstream page:** [data.mendeley.com/datasets](https://data.mendeley.com/datasets/5428684j44/1)
+**Upstream page:** [data.mendeley.com/datasets](https://data.mendeley.com/datasets/5428684j44/2)
 
-**Source-term evidence:** [data.mendeley.com/datasets](https://data.mendeley.com/datasets/5428684j44/1)
+**Source-term evidence:** [data.mendeley.com/datasets](https://data.mendeley.com/datasets/5428684j44/2)
 
 ## Loader status
 
@@ -85,9 +98,9 @@ This catalog record provides metadata and access instructions, but it does not y
 ```bibtex
 @misc{rao_fundus,
   title  = { RAO Retinal Artery Occlusion Fundus Photography Dataset },
-  note   = { Yoo T. RAO (retinal artery occlusion) fundus photography dataset. Mendeley Data, V1, 2024. doi:10.17632/5428684j44.1 },
+  note   = { Yoo T. RAO (retinal artery occlusion) fundus photography dataset. Mendeley Data, V2, 2024. doi:10.17632/5428684j44.2 },
   year   = { 2024 },
-  url    = { https://data.mendeley.com/datasets/5428684j44/1 },
+  url    = { https://data.mendeley.com/datasets/5428684j44/2 },
 }
 ```
 
@@ -95,7 +108,7 @@ This catalog record provides metadata and access instructions, but it does not y
   <TabItem value="apa" label="Plain text">
 
 ```text
-Yoo T. RAO (retinal artery occlusion) fundus photography dataset. Mendeley Data, V1, 2024. doi:10.17632/5428684j44.1
+Yoo T. RAO (retinal artery occlusion) fundus photography dataset. Mendeley Data, V2, 2024. doi:10.17632/5428684j44.2
 ```
 
   </TabItem>
@@ -110,13 +123,13 @@ Yoo T. RAO (retinal artery occlusion) fundus photography dataset. Mendeley Data,
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
-- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 images, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)

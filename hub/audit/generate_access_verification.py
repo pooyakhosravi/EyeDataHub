@@ -21,9 +21,20 @@ from eyedatahub.datasets.registry import REGISTRY
 
 
 CHECK_DATE = "2026-07-21"
+PLATFORM_CLIENT_BACKENDS = {
+    "dryad",
+    "figshare",
+    "huggingface",
+    "kaggle",
+    "mendeley",
+    "physionet",
+    "zenodo",
+}
 
 
 def _authentication_state(info: Any) -> str:
+    if info.download_type in PLATFORM_CLIENT_BACKENDS:
+        return "platform_credentials_or_client_configuration_required"
     if info.access_friction == "anonymous_direct":
         return "unauthenticated"
     if info.requires_api_token is True:
@@ -60,7 +71,11 @@ def generate_rows(url_report: dict[str, Any]) -> list[dict[str, Any]]:
             result = "insufficient_evidence_for_current_acquisition_route"
             limitation = info.failure_reason or info.route_check_notes
             current_route_visible = "unknown"
-        elif probe_status in {"ok", "auth_required"}:
+        elif probe_status in {
+            "ok",
+            "auth_required",
+            "credentials_or_client_required",
+        }:
             result = info.route_check_result
             limitation = info.route_check_notes
             current_route_visible = "true"

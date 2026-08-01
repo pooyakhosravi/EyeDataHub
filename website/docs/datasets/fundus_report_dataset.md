@@ -3,7 +3,7 @@ id: fundus_report_dataset
 title: "Fundus Report Dataset"
 sidebar_label: fundus_report_dataset
 description: "Fundus/UWF image-report dataset derived from DeepDRiD and OUWFD-style resources for report-generation research."
-tags: ["multimodal", "fundus", "uwf_fundus", "text", "cc-by", "huggingface", "report_generation", "text_generation"]
+tags: ["multimodal", "fundus", "uwf_fundus", "text", "cc-by", "huggingface", "report_generation", "text_generation", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Fundus/UWF image-report dataset derived from DeepDRiD and OUWFD-style resources 
 | **Primary category** | `multimodal` |
 | **Contained modalities** | fundus, uwf_fundus, text |
 | **Tasks** | report_generation, text_generation |
-| **Samples** | 422 |
+| **Primary reported quantity** | 422 image report pairs |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.5 GB |
@@ -38,9 +38,23 @@ Fundus/UWF image-report dataset derived from DeepDRiD and OUWFD-style resources 
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 422 | `image_report_pairs` | Fundus or UWF image-report rows | `official_source_description` | [huggingface.co/datasets](https://huggingface.co/datasets/zzzzineun/fundus-report-dataset) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Derivative report-generation view; verify source image terms row by row.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- This record is `derived from` [deepdrid](./deepdrid.md): The dataset card reports 203 source images from DeepDRiD and 219 from OUWFD. ([evidence](https://huggingface.co/datasets/zzzzineun/fundus-report-dataset))
 
 ## Access preflight and acquisition
 
@@ -110,13 +124,13 @@ zzzzineun/fundus-report-dataset. Hugging Face dataset, accessed 2026-07.
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 records, `cc-by`)
-- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 records, `unknown`)
-- [deepeyenet](./deepeyenet.md): DeepEyeNet (DEN): Fundus Report Generation Dataset (15,709 records, `research-only`)
-- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 records, `cc-by-nc-nd`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 images, `cc-by`)
+- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 rows, `unknown`)
+- [deepeyenet](./deepeyenet.md): DeepEyeNet (DEN): Fundus Report Generation Dataset (15,709 images, `research-only`)
+- [dme_vqa](./dme_vqa.md): Diabetic Macular Edema Visual Question Answering Dataset (13,470 question answer pairs, `cc-by`)

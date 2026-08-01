@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `multimodal` |
 | **Contained modalities** | external_eye, infrared |
 | **Tasks** | segmentation |
-| **Samples** | 3,432 |
+| **Primary reported quantity** | 3,432 images |
 | **Classes** | 2 (Not reported) |
 | **Splits** | all |
 | **Size** | 1.5 GB |
@@ -37,6 +37,14 @@ import TabItem from '@theme/TabItem';
 | **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 3,432 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [https://doi.org/10.6084/m9.figshare.28650536.v2](https://doi.org/10.6084/m9.figshare.28650536.v2) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -110,13 +118,13 @@ Multicentre tear meniscus segmentation dataset, Scientific Data 2025.
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 records, `unknown`)
-- [popeye_nir](./popeye_nir.md): PopEYE Infrared Ocular Image Dataset (14,976 records, `cc-by`)
-- [mcoa](./mcoa.md): MCOA: Multimodal Corneal Opacity Assessment Dataset (6,664 records, `cc-by`)
-- [uveitis_smote](./uveitis_smote.md): Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation (3,245 records, `cc-by`)
-- [eed_astig](./eed_astig.md): EED-Astig Pediatric External-Eye Dataset (3,088 records, `research-only`)
-- [periorbital_segmentation](./periorbital_segmentation.md): Open-Source Periorbital Segmentation Dataset (2,842 records, `cc-by`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 rows, `unknown`)
+- [popeye_nir](./popeye_nir.md): PopEYE Infrared Ocular Image Dataset (14,976 images, `cc-by`)
+- [mcoa](./mcoa.md): MCOA: Multimodal Corneal Opacity Assessment Dataset (6,664 images, `cc-by`)
+- [uveitis_smote](./uveitis_smote.md): Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation (3,245 images, `cc-by`)
+- [eed_astig](./eed_astig.md): EED-Astig Pediatric External-Eye Dataset (3,088 images, `research-only`)
+- [periorbital_segmentation](./periorbital_segmentation.md): Open-Source Periorbital Segmentation Dataset (2,842 images, `cc-by`)

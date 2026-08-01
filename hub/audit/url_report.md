@@ -2,9 +2,9 @@
 
 - **Total datasets checked**: 251
 - **Broken URLs**: 3
-- **Generated at**: 2026-07-26T05:38:02.388526+00:00
-- **EyeDataHub version**: 0.2.2
-- **Git commit**: 9eb179cb47ed3f443c04b97523e9008b470f521a
+- **Generated at**: 2026-08-01T22:34:27.386689+00:00
+- **EyeDataHub version**: 0.3.0
+- **Git commit**: 8b60634bbd01e625f16a29f198110aa2b459ce5f
 - **Git dirty**: True
 - **Timeout / concurrency**: 30 s / 8
 
@@ -13,7 +13,7 @@
 | Status | Count |
 | --- | ---:|
 | ok | 171 |
-| no_bot_allowed | 67 |
+| credentials_or_client_required | 67 |
 | forbidden | 10 |
 | ssl_error | 3 |
 
@@ -23,7 +23,7 @@
 | --- | --- |
 | `ok` | HTTP 2xx response after redirects; technical reachability only. |
 | `forbidden` | HTTP 403 response; often bot-blocked, browser-gated, or manually accessible. |
-| `no_bot_allowed` | Mendeley Data or Zenodo returned HTTP 403 to automated probes even though manually checked source links were healthy; this reflects bot blocking, not a dead link. |
+| `credentials_or_client_required` | The official platform requires credentials, a configured client, or a browser-mediated request; this is an access requirement, not a dataset download failure. |
 | `auth_required` | HTTP 401 or known access-controlled host requiring authentication. |
 | `not_found` | HTTP 404 response; source-page review or replacement URL required. |
 | `connect_error` | Connection failure during automated request. |
@@ -45,6 +45,73 @@
 
 | Dataset | Backend | Status | HTTP | Source URL |
 | --- | --- | --- | ---:| --- |
+| `afio_fundus_vessels` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3csr652p9y/2) |
+| `airogs` | `direct` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/5793241) |
+| `amdnet23` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yj35kjgrv3/1) |
+| `anterior_segment_smile` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/vkdxsnhkrm/1) |
+| `aptos_arcade_onh_masks` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/20711325) |
+| `bajwa_multi_eye` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/rgwpd4m785/3) |
+| `bmrd` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/959whsbc6v/1) |
+| `cataract101_extended_labels` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/4984167) |
+| `chronic_corneal_disorders` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/mcwv6thk8m/1) |
+| `corn1500` | `manual` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/5880419) |
+| `corn_collection` | `manual` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/19689814) |
+| `corn_pro` | `manual` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/14263883) |
+| `corneal_curvature_fundus` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bc2jfr7dv9/1) |
+| `corneal_epithelium_confocal` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/n3gky25brh/2) |
+| `corneal_parameters_kc` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3nz4fkwn3y/1) |
+| `corneal_tomography_iol` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/wddj7bh9p9/1) |
+| `cornorb` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/20542091) |
+| `csc_fundus_segmentation` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/4k64fwnp4k/5) |
+| `data_oct_fundus_glaucoma` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/2rnnz5nz74/2) |
+| `deepdrid` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/8248825) |
+| `dme_vqa` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/6784358) |
+| `dme_vqa_logical` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/7777849) |
+| `drac22` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/10280359) |
+| `external_eye_blepharitis` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bp37vw4z8d/1) |
+| `eye_conjunctiva_segmentation` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yxwjgcndg2/1) |
+| `eye_disease_image_mendeley` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/s9bfhswzjb/1) |
+| `eyecatcher_visual_field` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/swsfj47cxw/2) |
+| `fimd` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/jkzsh6pcv4/1) |
+| `fociset_pamm` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/mkwxn7rjpm/2) |
+| `fundus_domain_generalization` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/8009107) |
+| `ghana_eye_screening` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/mfv6sb5wyc/4) |
+| `glaucoma_eye_movements` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/7761477) |
+| `hassan_composite_retina` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/trghs22fpg/4) |
+| `hrf_seg_plus` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/16744782) |
+| `irfdrd` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/12552326) |
+| `jrc_multimodal_vessels` | `manual` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/17874693) |
+| `jsiec` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/record](https://zenodo.org/record/3477553) |
+| `justraigs` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/10035093) |
+| `leops_erg` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/w3yx7hdds7/1) |
+| `mario` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/15270469) |
+| `migs_video` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/19438128) |
+| `msila_fundus_dr` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/19169587) |
+| `mured` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/pc4mb3h8hz/1) |
+| `myopic_regression_fundus` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/k34rvfw3dg/2) |
+| `nehut` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/8kt969dhx6/2) |
+| `octa_macula_coronal` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/p5h7x55zw7/1) |
+| `octave` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/14580071) |
+| `octdl` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/sncdhf53xc/4) |
+| `olives` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/7105232) |
+| `ophtho_readability` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/16592100) |
+| `papila` | `direct` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/6379970) |
+| `paraguay_dr` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/record](https://zenodo.org/record/4647952) |
+| `popeye_nir` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/18430187) |
+| `rao_fundus` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/5428684j44/2) |
+| `retinal_corrugations_oct` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bzsc7gd9p3/2) |
+| `retinal_vessel_robustness` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/12659652) |
+| `rfmid2` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/7505822) |
+| `riga_plus` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/6325549) |
+| `rop_synthetic_mendeley` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/fscyyhg6vt/1) |
+| `rose` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/doi](https://zenodo.org/doi/10.5281/zenodo.12775880) |
+| `sics155` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/19482928) |
+| `superccm_fineset` | `manual` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/17051148) |
+| `thyroid_ophthalmopathy_external` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/z7ys7r4bdn/2) |
+| `trend2_fundus` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/7678656) |
+| `trend_fundus` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/4521044) |
+| `ut_fsocta` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/6476639) |
+| `uveitis_smote` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/n9zp473wfw/2) |
 | `aroma_octa` | `zenodo` | `forbidden` | 403 | [https://doi.org/10.5281/zenodo.18258095](https://doi.org/10.5281/zenodo.18258095) |
 | `birdshot_wide` | `manual` | `forbidden` | 403 | [https://doi.org/10.5281/zenodo.19474623](https://doi.org/10.5281/zenodo.19474623) |
 | `eed_astig` | `manual` | `forbidden` | 403 | [https://doi.org/10.5281/zenodo.18976824](https://doi.org/10.5281/zenodo.18976824) |
@@ -55,73 +122,6 @@
 | `periorbital_segmentation` | `zenodo` | `forbidden` | 403 | [https://doi.org/10.5281/zenodo.13916845](https://doi.org/10.5281/zenodo.13916845) |
 | `riga` | `direct` | `forbidden` | 403 | [deepblue.lib.umich.edu/data](https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z) |
 | `syn_oct` | `zenodo` | `forbidden` | 403 | [https://doi.org/10.5281/zenodo.17151869](https://doi.org/10.5281/zenodo.17151869) |
-| `afio_fundus_vessels` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3csr652p9y/2) |
-| `airogs` | `direct` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/5793241) |
-| `amdnet23` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yj35kjgrv3/1) |
-| `anterior_segment_smile` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/vkdxsnhkrm/1) |
-| `aptos_arcade_onh_masks` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/20711325) |
-| `bajwa_multi_eye` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/rgwpd4m785/3) |
-| `bmrd` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/959whsbc6v/1) |
-| `cataract101_extended_labels` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/4984167) |
-| `chronic_corneal_disorders` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/mcwv6thk8m/1) |
-| `corn1500` | `manual` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/5880419) |
-| `corn_collection` | `manual` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/19689814) |
-| `corn_pro` | `manual` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/14263883) |
-| `corneal_curvature_fundus` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bc2jfr7dv9/1) |
-| `corneal_epithelium_confocal` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/n3gky25brh/2) |
-| `corneal_parameters_kc` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3nz4fkwn3y/1) |
-| `corneal_tomography_iol` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/wddj7bh9p9/1) |
-| `cornorb` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/20542091) |
-| `csc_fundus_segmentation` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/4k64fwnp4k/5) |
-| `data_oct_fundus_glaucoma` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/2rnnz5nz74/2) |
-| `deepdrid` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/8248825) |
-| `dme_vqa` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/6784358) |
-| `dme_vqa_logical` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/7777849) |
-| `drac22` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/10280359) |
-| `external_eye_blepharitis` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bp37vw4z8d/1) |
-| `eye_conjunctiva_segmentation` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yxwjgcndg2/1) |
-| `eye_disease_image_mendeley` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/s9bfhswzjb/1) |
-| `eyecatcher_visual_field` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/swsfj47cxw/2) |
-| `fimd` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/jkzsh6pcv4/1) |
-| `fociset_pamm` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/mkwxn7rjpm/2) |
-| `fundus_domain_generalization` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/8009107) |
-| `ghana_eye_screening` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/mfv6sb5wyc/4) |
-| `glaucoma_eye_movements` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/7761477) |
-| `hassan_composite_retina` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/trghs22fpg/4) |
-| `hrf_seg_plus` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/16744782) |
-| `irfdrd` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/12552326) |
-| `jrc_multimodal_vessels` | `manual` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/17874693) |
-| `jsiec` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/record](https://zenodo.org/record/3477553) |
-| `justraigs` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/10035093) |
-| `leops_erg` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/w3yx7hdds7/1) |
-| `mario` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/15270469) |
-| `migs_video` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/19438128) |
-| `msila_fundus_dr` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/19169587) |
-| `mured` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/pc4mb3h8hz/1) |
-| `myopic_regression_fundus` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/k34rvfw3dg/2) |
-| `nehut` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/8kt969dhx6/2) |
-| `octa_macula_coronal` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/p5h7x55zw7/1) |
-| `octave` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/14580071) |
-| `octdl` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/sncdhf53xc/4) |
-| `olives` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/7105232) |
-| `ophtho_readability` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/16592100) |
-| `papila` | `direct` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/6379970) |
-| `paraguay_dr` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/record](https://zenodo.org/record/4647952) |
-| `popeye_nir` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/18430187) |
-| `rao_fundus` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/5428684j44/1) |
-| `retinal_corrugations_oct` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bzsc7gd9p3/1) |
-| `retinal_vessel_robustness` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/12659652) |
-| `rfmid2` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/7505822) |
-| `riga_plus` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/6325549) |
-| `rop_synthetic_mendeley` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/fscyyhg6vt/1) |
-| `rose` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/doi](https://zenodo.org/doi/10.5281/zenodo.12775880) |
-| `sics155` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/19482928) |
-| `superccm_fineset` | `manual` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/17051148) |
-| `thyroid_ophthalmopathy_external` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/z7ys7r4bdn/2) |
-| `trend2_fundus` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/7678656) |
-| `trend_fundus` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/4521044) |
-| `ut_fsocta` | `zenodo` | `no_bot_allowed` | 403 | [zenodo.org/records](https://zenodo.org/records/6476639) |
-| `uveitis_smote` | `mendeley` | `no_bot_allowed` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/n9zp473wfw/2) |
 | `acrima` | `figshare` | `ok` | 202 | [figshare.com/s](https://figshare.com/s/c2d31f850af14c5b5232) |
 | `adam_challenge` | `gdrive` | `ok` | 200 | [drive.google.com/file](https://drive.google.com/file/d/1Uz5x0aqXb0aecjzNWQ4522oCxaRDZxBt/view) |
 | `agar300` | `manual` | `ok` | 200 | [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/diabetic-retinopathy-fundus-image-datasetagar300) |
@@ -199,7 +199,7 @@
 | `hei_med` | `github` | `ok` | 200 | [github.com/lgiancaUTH](https://github.com/lgiancaUTH/HEI-MED) |
 | `hpmi` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.24800232](https://doi.org/10.6084/m9.figshare.24800232) |
 | `hrf` | `manual` | `ok` | 200 | [www5.cs.fau.de/research](https://www5.cs.fau.de/research/data/fundus-images/) |
-| `hyamd` | `physionet` | `ok` | 200 | [https://doi.org/10.13026/f0dn-8q46](https://doi.org/10.13026/f0dn-8q46) |
+| `hyamd` | `physionet` | `ok` | 200 | [physionet.org/content](https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/) |
 | `hygd` | `physionet` | `ok` | 200 | [https://doi.org/10.13026/pdxv-m215](https://doi.org/10.13026/pdxv-m215) |
 | `ichallenge_oct` | `manual` | `ok` | 200 | [hdmilab.cn/ichallenge](http://hdmilab.cn/ichallenge) |
 | `idrid` | `manual` | `ok` | 200 | [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid) |
@@ -226,7 +226,7 @@
 | `multieye` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/Luxuriant16/MultiEYE) |
 | `nd_iris_0405` | `manual` | `ok` | 200 | [tsapps.nist.gov/BDbC](https://tsapps.nist.gov/BDbC/Search/Details/371) |
 | `ochid` | `manual` | `ok` | 200 | [imed.nimte.ac.cn/OCHID.html](https://imed.nimte.ac.cn/OCHID.html) |
-| `oct5k` | `direct` | `ok` | 202 | [https://doi.org/10.5522/04/22128671](https://doi.org/10.5522/04/22128671) |
+| `oct5k` | `figshare` | `ok` | 202 | [https://doi.org/10.5522/04/22128671](https://doi.org/10.5522/04/22128671) |
 | `oct_c8` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/obulisainaren/retinal-oct-c8) |
 | `oct_cirrus` | `manual` | `ok` | 200 | [people.duke.edu/~sf59](https://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm) |
 | `oct_fundus_dme_dr_mexico` | `github` | `ok` | 200 | [github.com/Traslational-Visual-Health-Laboratory](https://github.com/Traslational-Visual-Health-Laboratory/OCT-AND-EYE-FUNDUS-DATASET) |

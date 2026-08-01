@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `octa` |
 | **Contained modalities** | octa |
 | **Tasks** | segmentation, classification, grading |
-| **Samples** | 174 |
+| **Primary reported quantity** | 174 images |
 | **Classes** | 3 (No DR, Non-proliferative DR, Proliferative DR) |
 | **Splits** | train, test |
 | **Size** | 0.3 GB |
@@ -37,6 +37,14 @@ import TabItem from '@theme/TabItem';
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Standard loader included |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 174 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [zenodo.org/records](https://zenodo.org/records/10280359) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -121,11 +129,11 @@ Qin et al., 'DRAC: Diabetic Retinopathy Analysis Challenge with Ultra-Wide Optic
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [octa_macula_coronal](./octa_macula_coronal.md): OCTA Macula Coronal Views (82,560 records, `cc-by`)
-- [octa_500](./octa_500.md): OCTA-500: Large-scale OCTA Multi-task Benchmark (500 records, `research-only`)
-- [aroma_octa](./aroma_octa.md): AROMA Retinal OCTA Artifact Dataset (281 records, `cc-by`)
-- [rose](./rose.md): ROSE: Retinal OCT-Angiography Vessel Segmentation (229 records, `cc-by`)
-- [soul_octa](./soul_octa.md): SOUL: OCTA Human-Machine Collaborative Annotation Dataset (178 records, `cc-by`)
-- [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (count not reported records, `unknown`)
+- [octa_macula_coronal](./octa_macula_coronal.md): OCTA Macula Coronal Views (82,560 images, `cc-by`)
+- [octa_500](./octa_500.md): OCTA-500: Large-scale OCTA Multi-task Benchmark (500 participants, `research-only`)
+- [aroma_octa](./aroma_octa.md): AROMA Retinal OCTA Artifact Dataset (281 images, `cc-by`)
+- [rose](./rose.md): ROSE: Retinal OCT-Angiography Vessel Segmentation (229 images, `cc-by`)
+- [soul_octa](./soul_octa.md): SOUL: OCTA Human-Machine Collaborative Annotation Dataset (178 longitudinal samples, `cc-by`)
+- [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (112 participants, `unknown`)

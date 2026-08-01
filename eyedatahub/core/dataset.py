@@ -157,6 +157,7 @@ class DatasetInfo:
     primary_category: str = ""
     modalities: List[str] = field(default_factory=list)
     item_count_unit: str = ""
+    reported_quantities: List[Dict[str, Any]] = field(default_factory=list)
     source_landing_page_url: Optional[str] = None
     preferred_route_type: str = ""
     preferred_route_url: Optional[str] = None

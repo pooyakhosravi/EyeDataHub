@@ -23,7 +23,7 @@ Small corneal confocal fluorescence imaging dataset for keratoconus epithelium a
 | **Primary category** | `confocal` |
 | **Contained modalities** | confocal |
 | **Tasks** | classification, segmentation |
-| **Samples** | 7 |
+| **Primary reported quantity** | 7 participants |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.1 GB |
@@ -37,6 +37,14 @@ Small corneal confocal fluorescence imaging dataset for keratoconus epithelium a
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 7 | `participants` | Keratoconus patients with both-eye measurements | `official_source_description` | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/n3gky25brh/2) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Access preflight and acquisition
 
@@ -106,9 +114,9 @@ Keratoconus corneal epithelium confocal fluorescence dataset. Mendeley Data, V2,
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (1,500 records, `unknown`)
-- [corn_pro](./corn_pro.md): CORN Pro: Corneal Nerve Confocal Microscopy Dataset (1,120 records, `cc-by`)
-- [superccm_fineset](./superccm_fineset.md): SuperCCM-FineSet (210 records, `unknown`)
-- [corn_collection](./corn_collection.md): CORN: Corneal Confocal Microscope Dataset Collection (count not reported records, `cc-by`)
+- [corn_collection](./corn_collection.md): CORN: Corneal Confocal Microscope Dataset Collection (12,931 images, `cc-by`)
+- [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (1,500 images, `unknown`)
+- [corn_pro](./corn_pro.md): CORN Pro: Corneal Nerve Confocal Microscopy Dataset (1,120 images, `cc-by`)
+- [superccm_fineset](./superccm_fineset.md): SuperCCM-FineSet (210 images, `unknown`)

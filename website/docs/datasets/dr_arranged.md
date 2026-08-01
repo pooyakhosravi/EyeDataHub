@@ -3,7 +3,7 @@ id: dr_arranged
 title: "Diabetic Retinopathy Arranged Dataset (Tianchi 93926)"
 sidebar_label: dr_arranged
 description: "35,126 fundus images organised for 5-class DR severity grading (ICDR grades 0-4): No DR 25,810 / Mild 2,443 / Moderate 5,292 / Severe 873 / Proliferative 708. Hosted on Alibaba Tianchi."
-tags: ["fundus", "cc-by-nc-sa", "manual", "grading", "classification"]
+tags: ["fundus", "cc-by-nc-sa", "manual", "grading", "classification", "documented-relationship", "relationship-mirror_of", "relationship-subset_of"]
 ---
 
 
@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification |
-| **Samples** | 35,126 |
+| **Primary reported quantity** | 35,126 images |
 | **Classes** | 5 (No DR, Mild DR, Moderate DR, Severe DR, Proliferative DR) |
 | **Splits** | train, test |
 | **Size** | 8.0 GB |
@@ -38,10 +38,26 @@ import TabItem from '@theme/TabItem';
 | **Legacy sample-loader status** | Standard loader included |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 35,126 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [tianchi.aliyun.com/dataset](https://tianchi.aliyun.com/dataset/93926) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > OVERLAP: This is the EyePACS Kaggle 2015 competition TRAIN split (35,126 images) mirrored on Tianchi. Same content as `bidr` (Kaggle mirror) and a strict subset of `eyepacs` (full 88,702). Kept for users who specifically reference the Tianchi 93926 mirror.
 > Requires free registration at https://tianchi.aliyun.com. Log in → Datasets → 93926 → Download.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [bidr](./bidr.md) is `mirror of` this record: BiDR and the Tianchi arranged record contain the same documented EyePACS training split. ([evidence](https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy))
+- This record is `mirror of` [bidr](./bidr.md): The Tianchi arranged record and BiDR contain the same documented EyePACS training split. ([evidence](https://tianchi.aliyun.com/dataset/93926))
+- This record is `subset of` [eyepacs](./eyepacs.md): The Tianchi record republishes the 35,126-image EyePACS competition training split. ([evidence](https://tianchi.aliyun.com/dataset/93926))
 
 ## Access preflight and acquisition
 
@@ -121,13 +137,13 @@ Diabetic Retinopathy Arranged Dataset. Tianchi Open Datasets, dataset ID 93926. 
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
-- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 images, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)

@@ -3,7 +3,7 @@ id: gamma
 title: "GAMMA — Glaucoma Grading from Multi-Modality Images"
 sidebar_label: gamma
 description: "300 paired fundus + 3D OCT volumes. Glaucoma grading into Normal / Early / Advanced plus OD/OC segmentation and fovea location."
-tags: ["multimodal", "fundus", "oct", "cc-by-nc-nd", "gdrive", "grading", "classification", "segmentation"]
+tags: ["multimodal", "fundus", "oct", "cc-by-nc-nd", "gdrive", "grading", "classification", "segmentation", "documented-relationship", "relationship-derived_from", "relationship-has_component", "relationship-component_of"]
 ---
 
 
@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `multimodal` |
 | **Contained modalities** | fundus, oct |
 | **Tasks** | grading, classification, segmentation |
-| **Samples** | 300 |
+| **Primary reported quantity** | 300 volumes |
 | **Classes** | 3 (Normal, Early, Advanced) |
 | **Splits** | train, test |
 | **Size** | 5.0 GB |
@@ -37,6 +37,22 @@ import TabItem from '@theme/TabItem';
 | **Acquisition support** | `loader_implemented_not_live_tested` |
 | **Legacy sample-loader status** | Standard loader included |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 300 | `volumes` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [drive.google.com/file](https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
+- [ichallenge_oct](./ichallenge_oct.md) is `has component` this record: The cataloged iChallenge OCT portal record explicitly includes the GAMMA multimodal challenge resource. ([evidence](http://hdmilab.cn/ichallenge))
+- This record is `component of` [ichallenge_oct](./ichallenge_oct.md): GAMMA is one of the named resources exposed through the cataloged iChallenge OCT portal record. ([evidence](http://hdmilab.cn/ichallenge))
 
 ## Access preflight and acquisition
 
@@ -117,13 +133,13 @@ Wu J. et al., 'GAMMA Challenge: Glaucoma Grading from Multi-Modality Imaging', M
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [harvard_fairvision](./harvard_fairvision.md): Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) (30,000 records, `cc-by-nc-nd`)
-- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 records, `cc-by`)
-- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 records, `unknown`)
-- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 records, `cc-by`)
-- [oct_fundus_dme_dr_mexico](./oct_fundus_dme_dr_mexico.md): OCT and Eye Fundus Dataset for DME and DR (2,661 records, `unknown`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [harvard_fairvision](./harvard_fairvision.md): Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) (30,000 participants, `cc-by-nc-nd`)
+- [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 images, `cc-by`)
+- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 rows, `unknown`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
+- [oct_fundus_dme_dr_mexico](./oct_fundus_dme_dr_mexico.md): OCT and Eye Fundus Dataset for DME and DR (2,661 images, `unknown`)

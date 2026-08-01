@@ -23,7 +23,7 @@ OCT screen recordings, annotated frames, and pressure data from robot-assisted s
 | **Primary category** | `multimodal` |
 | **Contained modalities** | surgical_video, oct, tabular |
 | **Tasks** | segmentation, surgical_workflow, regression |
-| **Samples** | Not reported |
+| **Primary reported quantity** | 21 experimental eyes |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 2.481 GB |
@@ -37,6 +37,14 @@ OCT screen recordings, annotated frames, and pressure data from robot-assisted s
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 21 | `experimental_eyes` | Bleb-formation attempts in ex vivo porcine eyes The current deposit does not expose a reproducible frame or video count. | `associated_publication` | [https://doi.org/10.1126/scirobotics.adp7700](https://doi.org/10.1126/scirobotics.adp7700) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -110,13 +118,13 @@ Data and code from: Head-mounted surgical robots are an enabling technology for 
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 records, `cc-by`)
-- [dryad_namd_oct_quant](./dryad_namd_oct_quant.md): Moorfields nAMD Quantitative OCT Biomarker Dataset (2,966 records, `cc0`)
-- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 records, `cc0`)
-- [harvard_gdp](./harvard_gdp.md): Harvard GDP: Glaucoma Detection and Progression Dataset (1,000 records, `cc-by-nc-nd`)
-- [dryad_namd_visual_prediction](./dryad_namd_visual_prediction.md): Moorfields nAMD Visual-Change Prediction Dataset (926 records, `cc0`)
-- [dryad_retinal_vein_cannulation](./dryad_retinal_vein_cannulation.md): Autonomous Retinal Vein Cannulation Data and Code (26 records, `cc0`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
+- [dryad_namd_oct_quant](./dryad_namd_oct_quant.md): Moorfields nAMD Quantitative OCT Biomarker Dataset (2,966 volumes, `cc0`)
+- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
+- [harvard_gdp](./harvard_gdp.md): Harvard GDP: Glaucoma Detection and Progression Dataset (1,000 participants, `cc-by-nc-nd`)
+- [dryad_namd_visual_prediction](./dryad_namd_visual_prediction.md): Moorfields nAMD Visual-Change Prediction Dataset (926 eyes, `cc0`)
+- [dryad_retinal_vein_cannulation](./dryad_retinal_vein_cannulation.md): Autonomous Retinal Vein Cannulation Data and Code (26 experimental eyes, `cc0`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)

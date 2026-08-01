@@ -23,7 +23,7 @@ Fundus photography, multispectral and functional retinal imaging, retinal blood-
 | **Primary category** | `multimodal` |
 | **Contained modalities** | fundus, retinal_oximetry, pupillometry, tabular |
 | **Tasks** | classification, quality_assessment, regression |
-| **Samples** | 3,361 |
+| **Primary reported quantity** | 3,361 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -37,6 +37,16 @@ Fundus photography, multispectral and functional retinal imaging, retinal blood-
 | **Acquisition support** | `manual_access_blocked` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 3,361 | `images` | Fundus photographs | `associated_publication` | [https://doi.org/10.1038/s41597-024-03690-6](https://doi.org/10.1038/s41597-024-03690-6) |
+| Additional | 1,683 | `participants` | Participants contributing fundus photographs | `associated_publication` | [https://doi.org/10.1038/s41597-024-03690-6](https://doi.org/10.1038/s41597-024-03690-6) |
+| Additional | 384 | `participants` | Participants contributing additional multimodal imaging This group is not added to the fundus cohort because overlap is not resolved here. | `associated_publication` | [https://doi.org/10.1038/s41597-024-03690-6](https://doi.org/10.1038/s41597-024-03690-6) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -108,13 +118,13 @@ Zhang G, Qu Y, Zhang Y, et al. Multimodal Eye Imaging, Retina Characteristics, a
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 records, `cc-by-nc-nd`)
-- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 records, `cc-by`)
-- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 records, `cc0`)
-- [papila](./papila.md): PAPILA: Glaucoma Fundus Dataset with Clinical Data (488 records, `cc-by`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
+- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
+- [papila](./papila.md): PAPILA: Glaucoma Fundus Dataset with Clinical Data (488 images, `cc-by`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)

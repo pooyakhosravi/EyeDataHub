@@ -23,7 +23,7 @@ Multicenter uveal-melanoma gene-expression, PRAME, clinical, and metastasis-free
 | **Primary category** | `omics` |
 | **Contained modalities** | omics |
 | **Tasks** | classification, survival_analysis, prognosis |
-| **Samples** | 1,577 |
+| **Primary reported quantity** | 1,577 participants |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 8.4e-05 GB |
@@ -37,6 +37,14 @@ Multicenter uveal-melanoma gene-expression, PRAME, clinical, and metastasis-free
 | **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 1,577 | `participants` | Multicenter prognostic cohort | `official_source_description` | [https://doi.org/10.5061/dryad.n8pk0p340](https://doi.org/10.5061/dryad.n8pk0p340) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 

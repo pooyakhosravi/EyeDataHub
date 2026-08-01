@@ -266,7 +266,7 @@ RELATIONSHIP_EVIDENCE: tuple[RelationshipEvidence, ...] = (
     ),
     _edge(
         "dme_vqa_logical",
-        "derived_from",
+        "extension_of",
         "dme_vqa",
         "https://zenodo.org/records/7777849",
         "This release adds logical-relation annotations to the earlier DME VQA resource.",
@@ -356,7 +356,7 @@ RELATIONSHIP_EVIDENCE: tuple[RelationshipEvidence, ...] = (
     *_derived_many(
         "rao_fundus",
         ("rfmid", "jsiec"),
-        "https://doi.org/10.17632/5428684j44.1",
+        "https://doi.org/10.17632/5428684j44.2",
         "The RAO source reports use of public web images plus RFMiD and JSIEC images.",
         evidence_source_type="official_repository_metadata",
     ),
@@ -651,4 +651,3 @@ def evidence_by_record() -> Dict[str, List[RelationshipEvidence]]:
     for edge in RELATIONSHIP_EVIDENCE:
         indexed.setdefault(edge.source_record_id, []).append(edge)
     return indexed
-

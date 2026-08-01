@@ -23,7 +23,7 @@ Crowdsourced iPhone and iPad face videos with screen-fixation coordinates for ap
 | **Primary category** | `eye_tracking` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | gaze_estimation, regression |
-| **Samples** | 2,445,504 |
+| **Primary reported quantity** | 2,445,504 frames |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -37,6 +37,15 @@ Crowdsourced iPhone and iPad face videos with screen-fixation coordinates for ap
 | **Acquisition support** | `guided_instructions_only` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 2,445,504 | `frames` | Labeled mobile-camera frames | `official_source_description` | [gazecapture.csail.mit.edu](https://gazecapture.csail.mit.edu/) |
+| Additional | 1,474 | `participants` | Crowdsourced participants | `official_source_description` | [gazecapture.csail.mit.edu](https://gazecapture.csail.mit.edu/) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -110,11 +119,11 @@ Krafka K, Khosla A, Kellnhofer P, et al. Eye Tracking for Everyone. CVPR. 2016:2
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [teyed](./teyed.md): TEyeD Real-World Eye-Tracking Dataset (20,666,096 records, `unknown`)
-- [eth_xgaze](./eth_xgaze.md): ETH-XGaze Extreme-Pose Gaze Estimation Dataset (1,083,492 records, `cc-by-nc-sa`)
-- [mpii_gaze](./mpii_gaze.md): MPIIGaze Appearance-Based Gaze Estimation Dataset (213,659 records, `cc-by-nc-sa`)
-- [gaze360](./gaze360.md): Gaze360 Physically Unconstrained Gaze Dataset (172,000 records, `unknown`)
-- [lpw](./lpw.md): LPW Labelled Pupils in the Wild (130,856 records, `research-only`)
-- [glaucoma_eye_movements](./glaucoma_eye_movements.md): Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss (270 records, `cc-by`)
+- [teyed](./teyed.md): TEyeD Real-World Eye-Tracking Dataset (20,666,096 images, `unknown`)
+- [eth_xgaze](./eth_xgaze.md): ETH-XGaze Extreme-Pose Gaze Estimation Dataset (1,083,492 images, `cc-by-nc-sa`)
+- [mpii_gaze](./mpii_gaze.md): MPIIGaze Appearance-Based Gaze Estimation Dataset (213,659 images, `cc-by-nc-sa`)
+- [gaze360](./gaze360.md): Gaze360 Physically Unconstrained Gaze Dataset (172,000 frames, `unknown`)
+- [lpw](./lpw.md): LPW Labelled Pupils in the Wild (130,856 frames, `research-only`)
+- [glaucoma_eye_movements](./glaucoma_eye_movements.md): Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss (270 participants, `cc-by`)

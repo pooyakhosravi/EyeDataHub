@@ -3,7 +3,7 @@ id: brset_mbrset_embeddings
 title: "Embedding-Based Representations for BRSET and mBRSET"
 sidebar_label: brset_mbrset_embeddings
 description: "Precomputed image embeddings for BRSET and mBRSET to support efficient ophthalmic AI research without raw-image redistribution."
-tags: ["tabular", "unknown", "physionet", "classification", "retrieval"]
+tags: ["tabular", "unknown", "physionet", "classification", "retrieval", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Precomputed image embeddings for BRSET and mBRSET to support efficient ophthalmi
 | **Primary category** | `tabular` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, retrieval |
-| **Samples** | Not reported |
+| **Primary reported quantity** | 53,188 embedding vectors |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -38,9 +38,25 @@ Precomputed image embeddings for BRSET and mBRSET to support efficient ophthalmi
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 53,188 | `embedding_vectors` | Rows across six model-specific CSV files Two BRSET files contain 16,266 rows each and four mBRSET files contain 5,164 rows each. | `derived_from_reported_components` | [physionet.org/content](https://physionet.org/content/embedding-brset-mbrset/1.0.0/) |
+| Additional | 21,430 | `images` | Distinct parent images represented by at least one embedding This is 16,266 BRSET plus 5,164 mBRSET images; it is not a new image cohort. | `derived_from_reported_components` | [physionet.org/content](https://physionet.org/content/embedding-brset-mbrset/1.0.0/) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Derivative representation layer for existing BRSET/mBRSET cohorts.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- This record is `derived from` [brset](./brset.md): The PhysioNet record supplies precomputed representations for BRSET images. ([evidence](https://physionet.org/content/embedding-brset-mbrset/1.0.0/))
+- This record is `derived from` [mbrset](./mbrset.md): The PhysioNet record supplies precomputed representations for mBRSET images. ([evidence](https://physionet.org/content/embedding-brset-mbrset/1.0.0/))
 
 ## Access preflight and acquisition
 
@@ -108,13 +124,13 @@ Embedding-Based Representations for BRSET and mBRSET. PhysioNet, 2026.
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 records, `cc-by`)
-- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 records, `cc-by-nc-nd`)
-- [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 records, `cc-by`)
-- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 records, `cc-by`)
-- [fprm_retina](./fprm_retina.md): FPRM Multimodal Eye Imaging and Psychological Assessment Dataset (3,361 records, `research-only`)
-- [uveitis_smote](./uveitis_smote.md): Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation (3,245 records, `cc-by`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
+- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
+- [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
+- [fprm_retina](./fprm_retina.md): FPRM Multimodal Eye Imaging and Psychological Assessment Dataset (3,361 images, `research-only`)
+- [uveitis_smote](./uveitis_smote.md): Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation (3,245 images, `cc-by`)

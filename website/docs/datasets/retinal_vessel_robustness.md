@@ -3,7 +3,7 @@ id: retinal_vessel_robustness
 title: "Natural Robustness Benchmark for Retinal Vessel Segmentation"
 sidebar_label: retinal_vessel_robustness
 description: "Augmented DRIVE, STARE, and CHASE_DB1 vessel-segmentation images for out-of-distribution robustness evaluation."
-tags: ["fundus", "mit", "zenodo", "segmentation"]
+tags: ["fundus", "mit", "zenodo", "segmentation", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Augmented DRIVE, STARE, and CHASE_DB1 vessel-segmentation images for out-of-dist
 | **Primary category** | `fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
-| **Samples** | Not reported |
+| **Primary reported quantity** | 13,024 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 8.15 GB |
@@ -38,9 +38,25 @@ Augmented DRIVE, STARE, and CHASE_DB1 vessel-segmentation images for out-of-dist
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 13,024 | `images` | Files under the images directories in all three current archives Includes 5,920 DRIVE, 4,144 CHASE, and 2,960 STARE original or augmented images; parent datasets overlap catalog records. | `current_deposit_file_listing` | [zenodo.org/records](https://zenodo.org/records/12659652) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Derivative robustness benchmark from existing vessel datasets.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- This record is `derived from` [chase_db1](./chase_db1.md): The robustness benchmark contains augmented versions of DRIVE, STARE, and CHASE_DB1 images. ([evidence](https://zenodo.org/records/12659652))
+- This record is `derived from` [drive](./drive.md): The robustness benchmark contains augmented versions of DRIVE, STARE, and CHASE_DB1 images. ([evidence](https://zenodo.org/records/12659652))
+- This record is `derived from` [stare](./stare.md): The robustness benchmark contains augmented versions of DRIVE, STARE, and CHASE_DB1 images. ([evidence](https://zenodo.org/records/12659652))
 
 ## Access preflight and acquisition
 
@@ -110,13 +126,13 @@ Evaluation benchmark for natural robustness evaluation of retinal vessel segment
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
-- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 images, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)

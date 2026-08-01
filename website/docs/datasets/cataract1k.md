@@ -3,7 +3,7 @@ id: cataract1k
 title: "Cataract-1K: Large-Scale Cataract Surgery Video Dataset"
 sidebar_label: cataract1k
 description: "1000 cataract surgery videos from multiple surgeons annotated for 10 surgical phases, instrument segmentation, and tool presence detection. First large-scale cataract surgical video dataset."
-tags: ["surgical_video", "research-only", "manual", "phase_recognition", "segmentation", "detection"]
+tags: ["surgical_video", "research-only", "manual", "phase_recognition", "segmentation", "detection", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `surgical_video` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | phase_recognition, segmentation, detection |
-| **Samples** | 1,000 |
+| **Primary reported quantity** | 1,000 videos |
 | **Classes** | 10 (Incision, Viscoelastic, Capsulorhexis, Hydrodissection, Phacoemulsification, Irrigation-Aspiration, Capsule Polishing, Lens Implant, Viscoelastic Suction, Tonifying-Antibiotics) |
 | **Splits** | train, val, test |
 | **Size** | 50.0 GB |
@@ -38,9 +38,24 @@ import TabItem from '@theme/TabItem';
 | **Legacy sample-loader status** | Standard loader included |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 1,000 | `videos` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [synapse.org](https://www.synapse.org/#!Synapse:syn53404917) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Data hosted on Synapse (free registration required). Install synapseclient: pip install synapseclient. Then: synapse get syn53404917
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [lmod_cataract_1k](./lmod_cataract_1k.md) is `derived from` this record: The dataset card identifies Cataract-1K as the source of the processed surgical frames. ([evidence](https://huggingface.co/datasets/mehti/LMOD-Cataract-1K))
+- [lmod_plus](./lmod_plus.md) is `derived from` this record: The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
 
 ## Access preflight and acquisition
 
@@ -119,13 +134,13 @@ Ghamsarian N et al., 'Cataract-1K: Cataract Surgery Dataset for Domain Generaliz
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [ophora](./ophora.md): Ophora-160K: Ophthalmic Surgical Video Instruction Dataset (162,185 records, `unknown`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [cadis](./cadis.md): CaDIS: Cataract Dataset for Image Segmentation (4,670 records, `research-only`)
-- [cataract_lmm](./cataract_lmm.md): Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark (3,000 records, `cc-by-nc-nd`)
-- [ophnet2024](./ophnet2024.md): OphNet2024: Ophthalmic Surgical Video Dataset (2,278 records, `cc-by-nc-sa`)
-- [migs_video](./migs_video.md): Multicenter Fine-Annotated MIGS Surgical Video Dataset (186 records, `cc-by`)
-- [sics155](./sics155.md): SICS-155 Small Incision Cataract Surgery Videos (155 records, `cc-by-nc`)
-- [cataract101_extended_labels](./cataract101_extended_labels.md): Cataract-101 Extended Labels (101 records, `cc-by`)
+- [ophora](./ophora.md): Ophora-160K: Ophthalmic Surgical Video Instruction Dataset (162,185 video clip instruction pairs, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [insegcat](./insegcat.md): InSegCat: Instance Segmentation for Cataract Surgery (5,581 annotated images, `research-only`)
+- [cadis](./cadis.md): CaDIS: Cataract Dataset for Image Segmentation (4,670 images, `research-only`)
+- [cataract_lmm](./cataract_lmm.md): Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark (3,000 videos, `cc-by-nc-nd`)
+- [ophnet2024](./ophnet2024.md): OphNet2024: Ophthalmic Surgical Video Dataset (2,278 videos, `cc-by-nc-sa`)
+- [lmod_cataract_1k](./lmod_cataract_1k.md): LMOD-Cataract-1K (2,256 images, `cc-by`)
+- [lmod_cataract_1k_cot](./lmod_cataract_1k_cot.md): Cataract-1K Surgical Analysis Chain-of-Thought Dataset (2,256 images, `mit`)

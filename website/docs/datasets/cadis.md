@@ -3,7 +3,7 @@ id: cadis
 title: "CaDIS: Cataract Dataset for Image Segmentation"
 sidebar_label: cadis
 description: "Semantic segmentation labels for 4,670 frames from 25 cataract surgery videos (CATARACTS challenge). 25 anatomy and instrument classes."
-tags: ["surgical_video", "research-only", "manual", "segmentation"]
+tags: ["surgical_video", "research-only", "manual", "segmentation", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Semantic segmentation labels for 4,670 frames from 25 cataract surgery videos (C
 | **Primary category** | `surgical_video` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | segmentation |
-| **Samples** | 4,670 |
+| **Primary reported quantity** | 4,670 images |
 | **Classes** | 25 (Not reported) |
 | **Splits** | train, val, test |
 | **Size** | 15.0 GB |
@@ -38,9 +38,24 @@ Semantic segmentation labels for 4,670 frames from 25 cataract surgery videos (C
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 4,670 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [cataracts-semantic-segmentation2020.grand-challenge.org](https://cataracts-semantic-segmentation2020.grand-challenge.org/) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Standard cataract-scene segmentation benchmark. Grand Challenge account required.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [insegcat](./insegcat.md) is `derived from` this record: InSegCat Dataset 2 converts CaDIS semantic masks to instance masks and boxes. ([evidence](https://ftp.itec.aau.at/datasets/ovid/InSegCat/))
+- This record is `derived from` [cataracts2017](./cataracts2017.md): CaDIS adds semantic segmentation labels to frames selected from CATARACTS videos. ([evidence](https://cataracts-semantic-segmentation2020.grand-challenge.org/))
 
 ## Access preflight and acquisition
 
@@ -110,13 +125,13 @@ Grammatikopoulou M, Flouty E, Kadkhodamohammadi A, et al., 'CaDIS: Cataract data
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [ophora](./ophora.md): Ophora-160K: Ophthalmic Surgical Video Instruction Dataset (162,185 records, `unknown`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [cataract_lmm](./cataract_lmm.md): Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark (3,000 records, `cc-by-nc-nd`)
-- [ophnet2024](./ophnet2024.md): OphNet2024: Ophthalmic Surgical Video Dataset (2,278 records, `cc-by-nc-sa`)
-- [cataract1k](./cataract1k.md): Cataract-1K: Large-Scale Cataract Surgery Video Dataset (1,000 records, `research-only`)
-- [migs_video](./migs_video.md): Multicenter Fine-Annotated MIGS Surgical Video Dataset (186 records, `cc-by`)
-- [sics155](./sics155.md): SICS-155 Small Incision Cataract Surgery Videos (155 records, `cc-by-nc`)
-- [cataract101_extended_labels](./cataract101_extended_labels.md): Cataract-101 Extended Labels (101 records, `cc-by`)
+- [ophora](./ophora.md): Ophora-160K: Ophthalmic Surgical Video Instruction Dataset (162,185 video clip instruction pairs, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [insegcat](./insegcat.md): InSegCat: Instance Segmentation for Cataract Surgery (5,581 annotated images, `research-only`)
+- [cataract_lmm](./cataract_lmm.md): Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark (3,000 videos, `cc-by-nc-nd`)
+- [ophnet2024](./ophnet2024.md): OphNet2024: Ophthalmic Surgical Video Dataset (2,278 videos, `cc-by-nc-sa`)
+- [lmod_cataract_1k](./lmod_cataract_1k.md): LMOD-Cataract-1K (2,256 images, `cc-by`)
+- [lmod_cataract_1k_cot](./lmod_cataract_1k_cot.md): Cataract-1K Surgical Analysis Chain-of-Thought Dataset (2,256 images, `mit`)
+- [cataract1k](./cataract1k.md): Cataract-1K: Large-Scale Cataract Surgery Video Dataset (1,000 videos, `research-only`)

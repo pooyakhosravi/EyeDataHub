@@ -6,8 +6,14 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from eyedatahub.agent.planner import loader_status  # noqa: E402
+from eyedatahub.core.relationships import RELATIONSHIP_EVIDENCE  # noqa: E402
 from eyedatahub.datasets.registry import REGISTRY  # noqa: E402
-from hub.docs.generate_dataset_pages import build_page, build_static_dataset_index  # noqa: E402
+from hub.docs.generate_dataset_pages import (  # noqa: E402
+    build_datasets_root,
+    build_modality_index,
+    build_page,
+    build_static_dataset_index,
+)
 from hub.docs.generate_llms_full import build as build_llms_full  # noqa: E402
 
 
@@ -43,6 +49,41 @@ def test_dashboard_index_includes_loader_counts_and_status():
     assert rows["nd_iris_0405"]["loader_status"] == "metadata_only"
     assert rows["olives"]["modalities"] == ["oct", "fundus", "tabular"]
     assert rows["corn_collection"]["access_friction"] == "controlled_or_manual"
+    assert rows["olives"]["item_count_unit"] == "b_scans"
+    assert rows["olives"]["reported_quantities"][0]["unit"] == "b_scans"
+    assert any(
+        relationship["relationship_type"] == "derived_from"
+        and relationship["target_name"] == "odir2019"
+        and relationship["target_doc_path"] == "/datasets/odir2019"
+        and relationship["evidence_url"].startswith("https://")
+        for relationship in rows["aod"]["relationships"]
+    )
+    assert any(
+        relationship["direction"] == "incoming"
+        and relationship["target_name"] == "aod"
+        for relationship in rows["odir2019"]["relationships"]
+    )
+    assert payload["summary"]["documented_relationship_edges"] == len(RELATIONSHIP_EVIDENCE)
+    assert payload["summary"]["datasets_with_documented_relationships"] > 0
+    assert payload["facets"]["relationship_type"]["derived_from"] > 0
+
+
+def test_quantity_indexes_do_not_sum_unlike_primary_units():
+    aod = REGISTRY.get_dataset("aod")
+    odir = REGISTRY.get_dataset("odir2019")
+
+    modality_page = build_modality_index("test", [aod, odir])
+    root_page = build_datasets_root([aod, odir])
+
+    assert "Primary quantity" in modality_page
+    assert "14,813 images" in modality_page
+    assert "8,000 participants" in modality_page
+    assert "22,813 samples" not in modality_page
+    assert "mixed source reported records" not in root_page
+    assert "not summed across the catalog" in root_page
+    assert "Primary reported quantity units" in root_page
+    assert "`images`" in root_page
+    assert "`participants`" in root_page
 
 
 def test_llms_full_exposes_tasks_sources_access_and_loader_status(tmp_path: Path):
@@ -54,4 +95,7 @@ def test_llms_full_exposes_tasks_sources_access_and_loader_status(tmp_path: Path
     assert "LOAD=implemented" in text
     assert "LOAD=metadata_only" in text
     assert "URL=https://" in text
+    assert "245 with a primary reported quantity" in text
+    assert "N=69_b_scans" in text
+    assert "mixed source records" not in text
     assert "ds.download(" not in text

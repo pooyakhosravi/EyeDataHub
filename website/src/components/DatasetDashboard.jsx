@@ -16,6 +16,14 @@ function formatNumber(value) {
   return Number(value).toLocaleString();
 }
 
+function formatPrimaryQuantity(row) {
+  if (row.samples === null || row.samples === undefined) return 'Not reported';
+  const unit = row.item_count_unit && row.item_count_unit !== 'unknown'
+    ? row.item_count_unit.replace(/_/g, ' ')
+    : 'unit not resolved';
+  return `${formatNumber(row.samples)} ${unit}`;
+}
+
 function titleCase(value) {
   return String(value || '')
     .replace(/_/g, ' ')
@@ -65,7 +73,8 @@ export default function DatasetDashboard() {
   const [license, setLicense] = React.useState('all');
   const [backend, setBackend] = React.useState('all');
   const [reuse, setReuse] = React.useState('all');
-  const [sort, setSort] = React.useState('samples');
+  const [relationshipType, setRelationshipType] = React.useState('all');
+  const [sort, setSort] = React.useState('name');
   const [copiedToken, setCopiedToken] = React.useState(null);
   const [selectedNames, setSelectedNames] = React.useState([]);
 
@@ -110,13 +119,21 @@ export default function DatasetDashboard() {
         row.download_type,
         row.loader_status,
         ...(row.tasks || []),
+        ...((row.relationships || []).flatMap((relationship) => [
+          relationship.relationship_type,
+          relationship.target_name,
+          relationship.target_full_name,
+        ])),
       ].join(' ').toLowerCase();
       return (
         (!q || haystack.includes(q)) &&
         (modality === 'all' || (row.modalities || []).includes(modality)) &&
         (license === 'all' || row.license_family === license) &&
         (backend === 'all' || row.download_type === backend) &&
-        (reuse === 'all' || reuseBucket(row) === reuse)
+        (reuse === 'all' || reuseBucket(row) === reuse) &&
+        (relationshipType === 'all' || (row.relationships || []).some(
+          (relationship) => relationship.relationship_type === relationshipType,
+        ))
       );
     });
 
@@ -130,7 +147,7 @@ export default function DatasetDashboard() {
       return (b.samples || 0) - (a.samples || 0) || a.name.localeCompare(b.name);
     });
     return result;
-  }, [rows, query, modality, license, backend, reuse, sort]);
+  }, [rows, query, modality, license, backend, reuse, relationshipType, sort]);
 
   const visibleRows = React.useMemo(() => filtered.slice(0, 120), [filtered]);
   const selectedRows = React.useMemo(
@@ -197,6 +214,7 @@ export default function DatasetDashboard() {
         <div><strong>{formatNumber(summary.controlled_routes)}</strong><span>controlled or manual routes</span></div>
         <div><strong>{formatNumber(summary.author_contact_routes)}</strong><span>author-contact routes</span></div>
         <div><strong>{formatNumber(summary.transfer_tested_routes)}</strong><span>complete or partial transfer tests</span></div>
+        <div><strong>{formatNumber(summary.documented_relationship_edges)}</strong><span>source-backed relationships</span></div>
       </section>
 
       <section className="edh-workflows">
@@ -298,9 +316,20 @@ export default function DatasetDashboard() {
             </select>
           </label>
           <label>
+            <span>Relationship</span>
+            <select value={relationshipType} onChange={(e) => setRelationshipType(e.target.value)}>
+              <option value="all">All relationships</option>
+              {Object.keys(facets.relationship_type || {}).map((key) => (
+                <option key={key} value={key}>
+                  {titleCase(key)} ({facets.relationship_type[key]})
+                </option>
+              ))}
+            </select>
+          </label>
+          <label>
             <span>Sort</span>
             <select value={sort} onChange={(e) => setSort(e.target.value)}>
-              <option value="samples">Largest first</option>
+              <option value="samples">Numeric quantity (mixed units)</option>
               <option value="name">Name</option>
               <option value="modality">Modality</option>
               <option value="license">License</option>
@@ -403,10 +432,11 @@ export default function DatasetDashboard() {
                 <th>Dataset</th>
                 <th>Modality</th>
                 <th>Tasks</th>
-                <th>Reported records</th>
+                <th>Primary quantity</th>
                 <th>License</th>
                 <th>Access</th>
                 <th>Loader</th>
+                <th>Relationships</th>
                 <th>Links</th>
               </tr>
             </thead>
@@ -441,10 +471,37 @@ export default function DatasetDashboard() {
                     </div>
                   </td>
                   <td>{(row.tasks || []).slice(0, 3).map((task) => <em key={task}>{task}</em>)}</td>
-                  <td>{formatNumber(row.samples)}</td>
+                  <td>{formatPrimaryQuantity(row)}</td>
                   <td><code>{row.license_family}</code></td>
                   <td>{titleCase(row.download_type)}</td>
                   <td>{row.loader_status === 'implemented' ? 'Included' : 'Metadata only'}</td>
+                  <td>
+                    {(row.relationships || []).length ? (
+                      <div className="edh-relationship-tags">
+                        {row.relationships.slice(0, 4).map((relationship) => (
+                          <a
+                            className="edh-relationship-tag"
+                            href={withBase(relationship.target_doc_path)}
+                            key={`${relationship.direction}-${relationship.relationship_type}-${relationship.target_name}`}
+                            title={relationship.evidence_summary}
+                          >
+                            {titleCase(relationship.relationship_type)}
+                            {' '}{relationship.direction === 'outgoing' ? '->' : '<-'}{' '}
+                            {relationship.target_name}
+                          </a>
+                        ))}
+                        {row.relationships.length > 4 ? (
+                          <a
+                            className="edh-relationship-tag"
+                            href={withBase(row.doc_path)}
+                            title="Open the record page to view every documented relationship"
+                          >
+                            +{row.relationships.length - 4} more
+                          </a>
+                        ) : null}
+                      </div>
+                    ) : <span>-</span>}
+                  </td>
                   <td>
                     <a href={withBase(row.doc_path)}>Docs</a>
                     {row.download_url ? <a href={row.download_url}>Source</a> : null}

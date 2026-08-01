@@ -1113,6 +1113,8 @@ def _merge_relationships(info: Any) -> List[Dict[str, str]]:
 
 def enrich_dataset_info(info: Any) -> None:
     """Populate unset rich metadata fields on a ``DatasetInfo`` instance."""
+    from eyedatahub.core.quantities import primary_quantity_for, quantities_for
+
     text = _text(info)
     backend = (getattr(info, "download_type", "") or "manual").lower()
     url = getattr(info, "download_url", None) or ""
@@ -1133,6 +1135,18 @@ def enrich_dataset_info(info: Any) -> None:
     _set_if_empty(info, "modality_evidence_url", url or None)
     _set_if_empty(info, "task_evidence_url", url or None)
     _set_if_empty(info, "citation_evidence_url", url or None)
+
+    reviewed_primary = primary_quantity_for(info.name)
+    if reviewed_primary is not None:
+        info.num_samples = reviewed_primary.count
+        info.item_count_unit = reviewed_primary.unit
+        info.item_count_evidence_url = reviewed_primary.evidence_url or url or None
+    info.reported_quantities = quantities_for(
+        info.name,
+        info.num_samples,
+        info.item_count_unit,
+        info.item_count_evidence_url,
+    )
 
     for key, value in _derive_access(info, text).items():
         _set_if_empty(info, key, value)

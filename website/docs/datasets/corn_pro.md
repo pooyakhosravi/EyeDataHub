@@ -3,7 +3,7 @@ id: corn_pro
 title: "CORN Pro: Corneal Nerve Confocal Microscopy Dataset"
 sidebar_label: corn_pro
 description: "1,120 in-vivo confocal microscopy images with pixel-level annotations for corneal subbasal nerves and corneal cells. The source describes 560 images with nerves and Langerhans cells and 560 images wit"
-tags: ["confocal", "cc-by", "manual", "segmentation"]
+tags: ["confocal", "cc-by", "manual", "segmentation", "documented-relationship", "relationship-has_component", "relationship-component_of"]
 ---
 
 
@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `confocal` |
 | **Contained modalities** | confocal |
 | **Tasks** | segmentation |
-| **Samples** | 1,120 |
+| **Primary reported quantity** | 1,120 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.5 GB |
@@ -38,6 +38,14 @@ import TabItem from '@theme/TabItem';
 | **Legacy sample-loader status** | Standard loader included |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 1,120 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [zenodo.org/records](https://zenodo.org/records/14263883) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Restricted access. Steps to obtain:
@@ -45,6 +53,13 @@ import TabItem from '@theme/TabItem';
 >   2. Visit https://zenodo.org/records/14263883
 >   3. Click 'Request access' with affiliation & purpose
 > Full CORN database: https://imed.nimte.ac.cn/CORN.html
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [corn_collection](./corn_collection.md) is `has component` this record: The CORN collection lists CORN-Pro as one of its six component deposits. ([evidence](https://zenodo.org/records/19689814))
+- This record is `component of` [corn_collection](./corn_collection.md): CORN-Pro is a named component of the combined CORN collection. ([evidence](https://zenodo.org/records/19689814))
 
 ## Access preflight and acquisition
 
@@ -122,9 +137,9 @@ CORN database (https://imed.nimte.ac.cn/CORN.html). Zenodo record 14263883: http
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (1,500 records, `unknown`)
-- [superccm_fineset](./superccm_fineset.md): SuperCCM-FineSet (210 records, `unknown`)
-- [corneal_epithelium_confocal](./corneal_epithelium_confocal.md): Keratoconus Corneal Epithelium Confocal Fluorescence Dataset (7 records, `cc-by`)
-- [corn_collection](./corn_collection.md): CORN: Corneal Confocal Microscope Dataset Collection (count not reported records, `cc-by`)
+- [corn_collection](./corn_collection.md): CORN: Corneal Confocal Microscope Dataset Collection (12,931 images, `cc-by`)
+- [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (1,500 images, `unknown`)
+- [superccm_fineset](./superccm_fineset.md): SuperCCM-FineSet (210 images, `unknown`)
+- [corneal_epithelium_confocal](./corneal_epithelium_confocal.md): Keratoconus Corneal Epithelium Confocal Fluorescence Dataset (7 participants, `cc-by`)

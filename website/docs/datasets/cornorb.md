@@ -23,7 +23,7 @@ Orbscan corneal topography maps and structured clinical annotations for keratoco
 | **Primary category** | `corneal_topography` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | classification |
-| **Samples** | 1,454 |
+| **Primary reported quantity** | 1,454 eyes |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.68 GB |
@@ -37,6 +37,14 @@ Orbscan corneal topography maps and structured clinical annotations for keratoco
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 1,454 | `eyes` | Rows in the current clinical-data table | `current_deposit_table` | [zenodo.org/records](https://zenodo.org/records/20542091) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Access preflight and acquisition
 
@@ -106,7 +114,7 @@ CornOrb: A Multimodal Dataset of Orbscan Corneal Topography and Clinical Annotat
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [keratoconus_detection_kaggle](./keratoconus_detection_kaggle.md): Keratoconus Detection Corneal Maps (573 records, `unknown`)
-- [dryad_cornea_oct_pentacam](./dryad_cornea_oct_pentacam.md): Corneal OCT and Pentacam Tomography Dataset (count not reported records, `cc0`)
+- [keratoconus_detection_kaggle](./keratoconus_detection_kaggle.md): Keratoconus Detection Corneal Maps (573 images, `unknown`)
+- [dryad_cornea_oct_pentacam](./dryad_cornea_oct_pentacam.md): Corneal OCT and Pentacam Tomography Dataset (Not reported, `cc0`)

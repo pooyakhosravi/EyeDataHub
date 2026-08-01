@@ -3,7 +3,7 @@ id: eyeq
 title: "EyeQ Retinal Image Quality Assessment Dataset"
 sidebar_label: eyeq
 description: "Quality labels for 28,792 EyePACS fundus images, graded as good, usable, or reject and divided into the original EyePACS train and test partitions."
-tags: ["fundus", "unknown", "github", "quality", "grading"]
+tags: ["fundus", "unknown", "github", "quality", "grading", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Quality labels for 28,792 EyePACS fundus images, graded as good, usable, or reje
 | **Primary category** | `fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | quality, grading |
-| **Samples** | 28,792 |
+| **Primary reported quantity** | 28,792 images |
 | **Classes** | 3 (good, usable, reject) |
 | **Splits** | train, test |
 | **Size** | Not reported |
@@ -38,9 +38,23 @@ Quality labels for 28,792 EyePACS fundus images, graded as good, usable, or reje
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 28,792 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [github.com/HzFu](https://github.com/HzFu/EyeQ) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > EyeQ is a distinct annotation layer over EyePACS. The repository license covers the code but does not clearly license the quality labels. It does not provide the source images. Users must obtain EyePACS separately and comply with its terms.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- This record is `derived from` [eyepacs](./eyepacs.md): EyeQ provides quality labels for 28,792 images from the EyePACS train and test partitions. ([evidence](https://github.com/HzFu/EyeQ))
 
 ## Access preflight and acquisition
 
@@ -110,13 +124,13 @@ Fu H, Wang B, Shen J, et al. Evaluation of retinal image quality assessment netw
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
-- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 images, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)

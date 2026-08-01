@@ -3,7 +3,7 @@ id: dryad_namd_visual_prediction
 title: "Moorfields nAMD Visual-Change Prediction Dataset"
 sidebar_label: dryad_namd_visual_prediction
 description: "Longitudinal quantitative OCT biomarkers and treatment-response variables for predicting visual acuity in neovascular AMD."
-tags: ["tabular", "oct", "cc0", "dryad", "regression", "prognosis"]
+tags: ["tabular", "oct", "cc0", "dryad", "regression", "prognosis", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
 ---
 
 
@@ -23,7 +23,7 @@ Longitudinal quantitative OCT biomarkers and treatment-response variables for pr
 | **Primary category** | `tabular` |
 | **Contained modalities** | tabular, oct |
 | **Tasks** | regression, prognosis |
-| **Samples** | 926 |
+| **Primary reported quantity** | 926 eyes |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.0016 GB |
@@ -38,9 +38,24 @@ Longitudinal quantitative OCT biomarkers and treatment-response variables for pr
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 926 | `eyes` | Treatment-naive first-treated eyes in the primary analysis | `official_source_description` | [https://doi.org/10.5061/dryad.573n5tb5d](https://doi.org/10.5061/dryad.573n5tb5d) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Primary analyses used 926 treatment-naive first-treated eyes from a larger Moorfields cohort. This resource overlaps the Moorfields AMD source cohort but exposes a distinct longitudinal prediction task.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [dryad_namd_oct_quant](./dryad_namd_oct_quant.md) is `same or overlapping cohort as` this record: Both records draw from the Moorfields AMD database; public descriptions do not establish exact containment. ([evidence](https://doi.org/10.5061/dryad.2rbnzs7m4))
+- This record is `same or overlapping cohort as` [dryad_namd_oct_quant](./dryad_namd_oct_quant.md): Both records draw from the Moorfields AMD database; public descriptions do not establish exact containment. ([evidence](https://doi.org/10.5061/dryad.573n5tb5d))
 
 ## Access preflight and acquisition
 
@@ -110,13 +125,13 @@ Predicting incremental and future visual change in neovascular age-related macul
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 records, `cc-by`)
-- [dryad_namd_oct_quant](./dryad_namd_oct_quant.md): Moorfields nAMD Quantitative OCT Biomarker Dataset (2,966 records, `cc0`)
-- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 records, `cc0`)
-- [harvard_gdp](./harvard_gdp.md): Harvard GDP: Glaucoma Detection and Progression Dataset (1,000 records, `cc-by-nc-nd`)
-- [dryad_subretinal_robot](./dryad_subretinal_robot.md): Head-Mounted Robot Subretinal Injection Dataset (count not reported records, `cc0`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
+- [dryad_namd_oct_quant](./dryad_namd_oct_quant.md): Moorfields nAMD Quantitative OCT Biomarker Dataset (2,966 volumes, `cc0`)
+- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
+- [harvard_gdp](./harvard_gdp.md): Harvard GDP: Glaucoma Detection and Progression Dataset (1,000 participants, `cc-by-nc-nd`)
+- [dryad_subretinal_robot](./dryad_subretinal_robot.md): Head-Mounted Robot Subretinal Injection Dataset (21 experimental eyes, `cc0`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [syn_oct](./syn_oct.md): SYN-OCT Synthetic Glaucoma OCT Dataset (200,000 records, `cc-by`)
+- [syn_oct](./syn_oct.md): SYN-OCT Synthetic Glaucoma OCT Dataset (200,000 images, `cc-by`)

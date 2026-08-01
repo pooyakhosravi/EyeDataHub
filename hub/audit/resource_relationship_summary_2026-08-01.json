@@ -12,8 +12,8 @@
   "unique_symmetric_overlap_pairs": 4,
   "relationship_counts_by_type": {
     "component_of": 3,
-    "derived_from": 110,
-    "extension_of": 2,
+    "derived_from": 109,
+    "extension_of": 3,
     "has_component": 3,
     "mirror_of": 2,
     "same_or_overlapping_cohort_as": 8,

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-07-26T05:38:02.388526+00:00",
-    "elapsed_seconds": 48.4,
+    "generated_at": "2026-08-01T22:34:27.386689+00:00",
+    "elapsed_seconds": 42.8,
     "command": "python.exe -m hub.audit.verify_urls",
     "package": "eyedatahub",
-    "package_version": "0.2.2",
-    "git_commit": "9eb179cb47ed3f443c04b97523e9008b470f521a",
+    "package_version": "0.3.0",
+    "git_commit": "8b60634bbd01e625f16a29f198110aa2b459ce5f",
     "git_dirty": true,
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "timeout_seconds": 30,
@@ -13,7 +13,7 @@
     "status_definitions": {
       "ok": "HTTP 2xx response after redirects; technical reachability only.",
       "forbidden": "HTTP 403 response; often bot-blocked, browser-gated, or manually accessible.",
-      "no_bot_allowed": "Mendeley Data or Zenodo returned HTTP 403 to automated probes even though manually checked source links were healthy; this reflects bot blocking, not a dead link.",
+      "credentials_or_client_required": "The official platform requires credentials, a configured client, or a browser-mediated request; this is an access requirement, not a dataset download failure.",
       "auth_required": "HTTP 401 or known access-controlled host requiring authentication.",
       "not_found": "HTTP 404 response; source-page review or replacement URL required.",
       "connect_error": "Connection failure during automated request.",
@@ -28,7 +28,7 @@
     "total": 251,
     "by_status": {
       "ok": 171,
-      "no_bot_allowed": 67,
+      "credentials_or_client_required": 67,
       "forbidden": 10,
       "ssl_error": 3
     },
@@ -142,7 +142,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid",
-      "content_length": "24159",
+      "content_length": "24171",
       "status": "ok"
     },
     {
@@ -275,7 +275,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/5793241",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "papila",
@@ -287,7 +287,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/6379970",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "harvard_glaucoma",
@@ -322,7 +322,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1YdZm-sioiAbTdBRy4oej1q6tZL8Baft7/edit",
-      "content_length": "122733",
+      "content_length": "122490",
       "status": "ok"
     },
     {
@@ -383,7 +383,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/record/3477553",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "cataract",
@@ -407,7 +407,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/8kt969dhx6/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "aod",
@@ -466,7 +466,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://borealisdata.ca/dataverse/OCTID",
-      "content_length": "12998",
+      "content_length": "12997",
       "status": "ok"
     },
     {
@@ -478,7 +478,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/10Ys4xsw81evjHewZEvqHy4Kri0my8C2S/view",
-      "content_length": "122524",
+      "content_length": "122097",
       "status": "ok"
     },
     {
@@ -491,7 +491,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/10280359",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "oct_c8",
@@ -515,7 +515,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/sncdhf53xc/4",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "oct_cirrus",
@@ -539,7 +539,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/7105232",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "rasti_oct",
@@ -550,7 +550,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu/edit",
-      "content_length": "122410",
+      "content_length": "122382",
       "status": "ok"
     },
     {
@@ -647,7 +647,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/14580071",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "cavri",
@@ -669,7 +669,7 @@
       "url": "https://doi.org/10.1371/journal.pone.0133908.s002",
       "method": "HEAD",
       "http_status": 200,
-      "final_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0133908/1/pone.0133908.s002.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20260726%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260726T053722Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=8dd00f94c9496d29e87fabbb0db4b4841ae52e1e2a061fa24376bccb0d3c3f3c2e3fa69784e9faf8ba2b52dc89842c49b3a6685d41699bbbc703abac1086f6496bf87da79f2da6f4747042de963750c064e1e1a864b1d4a4c7abf211f8d4ad71b37c5c64b9d641879dfd230ba358f007bade6aa69ebf94ff31b587c4dedacc41279121ee32a3f25719fe4c21646791f002487b8f96b3bdb347ce247083959cd4d717ec3133efefef1a61311a8d16a9173bb1d9ee4c4b83d27d62d5c92a486b8d4963687ddf6a46bd265df31f644d77cecdf554f8fb4b1fbe410b378b75b17cf72cc8432478a1d032c56d2c4fefdd7c3d5dfb7b319c12dda9fb72c545740f11fd",
+      "final_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0133908/1/pone.0133908.s002.zip",
       "content_length": "26193810",
       "status": "ok"
     },
@@ -707,7 +707,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/5880419",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "corn_pro",
@@ -719,7 +719,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/14263883",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "corn_collection",
@@ -731,7 +731,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/19689814",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "stage_task1",
@@ -778,7 +778,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/14XWD6kX0dVRfAyEc7FkZGKZibWEkvnyv/view",
-      "content_length": "122584",
+      "content_length": "122277",
       "status": "ok"
     },
     {
@@ -790,7 +790,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Qlkqj74SW8DJRKdYL_-ApC_0H5Z7uyvr/view",
-      "content_length": "122365",
+      "content_length": "122161",
       "status": "ok"
     },
     {
@@ -802,7 +802,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Uz5x0aqXb0aecjzNWQ4522oCxaRDZxBt/view",
-      "content_length": "122423",
+      "content_length": "122219",
       "status": "ok"
     },
     {
@@ -814,7 +814,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view",
-      "content_length": "122561",
+      "content_length": "122377",
       "status": "ok"
     },
     {
@@ -826,7 +826,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view",
-      "content_length": "122585",
+      "content_length": "122360",
       "status": "ok"
     },
     {
@@ -838,7 +838,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view",
-      "content_length": "122388",
+      "content_length": "122305",
       "status": "ok"
     },
     {
@@ -863,7 +863,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/10035093",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "tsukazaki_uwf",
@@ -911,7 +911,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/8248825",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "uwf_dr",
@@ -946,7 +946,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/xioamiyh/OphNet2024",
-      "content_length": "115654",
+      "content_length": "115678",
       "status": "ok"
     },
     {
@@ -958,7 +958,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K",
-      "content_length": "139719",
+      "content_length": "139743",
       "status": "ok"
     },
     {
@@ -1000,7 +1000,7 @@
     {
       "name": "oct5k",
       "modality": "oct",
-      "download_type": "direct",
+      "download_type": "figshare",
       "download_url": "https://doi.org/10.5522/04/22128671",
       "url": "https://doi.org/10.5522/04/22128671",
       "method": "HEAD",
@@ -1019,7 +1019,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/15270469",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "multieye",
@@ -1030,7 +1030,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/Luxuriant16/MultiEYE",
-      "content_length": "408547",
+      "content_length": "408771",
       "status": "ok"
     },
     {
@@ -1126,7 +1126,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/RainyNight/CSDI",
-      "content_length": "420562",
+      "content_length": "420786",
       "status": "ok"
     },
     {
@@ -1195,7 +1195,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://eye.medicine.uiowa.edu/rite-dataset",
-      "content_length": "36648",
+      "content_length": "11006",
       "status": "ok"
     },
     {
@@ -1277,7 +1277,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/pc4mb3h8hz/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "sustech_sysu",
@@ -1301,7 +1301,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/record/4647952",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "jichi",
@@ -1361,7 +1361,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/doi/10.5281/zenodo.12775880",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "octa_500",
@@ -1372,7 +1372,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/octa-500",
-      "content_length": "17711",
+      "content_length": "17728",
       "status": "ok"
     },
     {
@@ -1384,7 +1384,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset",
-      "content_length": "17370",
+      "content_length": "17379",
       "status": "ok"
     },
     {
@@ -1396,7 +1396,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/cataracts",
-      "content_length": "18243",
+      "content_length": "18233",
       "status": "ok"
     },
     {
@@ -1420,7 +1420,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/mjahmadi/Cataract-LMM",
-      "content_length": "178060",
+      "content_length": "178084",
       "status": "ok"
     },
     {
@@ -1433,7 +1433,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/19438128",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "cataract_101",
@@ -1564,7 +1564,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason",
-      "content_length": "190855",
+      "content_length": "191623",
       "status": "ok"
     },
     {
@@ -1576,7 +1576,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/ncbi/OcularChat-VQA",
-      "content_length": "505319",
+      "content_length": "505343",
       "status": "ok"
     },
     {
@@ -1588,7 +1588,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
-      "content_length": "916551",
+      "content_length": "916575",
       "status": "ok"
     },
     {
@@ -1600,7 +1600,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/smartretina2025/paired_retina",
-      "content_length": "473693",
+      "content_length": "473919",
       "status": "ok"
     },
     {
@@ -1612,7 +1612,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/usama10/retinal-dr-longitudinal",
-      "content_length": "350599",
+      "content_length": "350623",
       "status": "ok"
     },
     {
@@ -1661,7 +1661,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/2rnnz5nz74/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "afio_fundus_vessels",
@@ -1673,7 +1673,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/3csr652p9y/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "hassan_composite_retina",
@@ -1685,7 +1685,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/trghs22fpg/4",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "csc_fundus_segmentation",
@@ -1697,7 +1697,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/4k64fwnp4k/5",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "eye_disease_image_mendeley",
@@ -1709,7 +1709,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/s9bfhswzjb/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "external_eye_blepharitis",
@@ -1721,7 +1721,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/bp37vw4z8d/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "eye_conjunctiva_segmentation",
@@ -1733,7 +1733,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/yxwjgcndg2/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "thyroid_ophthalmopathy_external",
@@ -1745,7 +1745,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/z7ys7r4bdn/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "bmrd",
@@ -1757,19 +1757,19 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/959whsbc6v/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "rao_fundus",
       "modality": "fundus",
       "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/5428684j44/1",
-      "url": "https://data.mendeley.com/datasets/5428684j44/1",
+      "download_url": "https://data.mendeley.com/datasets/5428684j44/2",
+      "url": "https://data.mendeley.com/datasets/5428684j44/2",
       "method": "GET(stream)",
       "http_status": 403,
-      "final_url": "https://data.mendeley.com/datasets/5428684j44/1",
+      "final_url": "https://data.mendeley.com/datasets/5428684j44/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "amdnet23",
@@ -1781,7 +1781,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/yj35kjgrv3/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "eyecatcher_visual_field",
@@ -1793,7 +1793,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/swsfj47cxw/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "leops_erg",
@@ -1805,7 +1805,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/w3yx7hdds7/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "bajwa_multi_eye",
@@ -1817,19 +1817,19 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/rgwpd4m785/3",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "retinal_corrugations_oct",
       "modality": "oct",
       "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/bzsc7gd9p3/1",
-      "url": "https://data.mendeley.com/datasets/bzsc7gd9p3/1",
+      "download_url": "https://data.mendeley.com/datasets/bzsc7gd9p3/2",
+      "url": "https://data.mendeley.com/datasets/bzsc7gd9p3/2",
       "method": "GET(stream)",
       "http_status": 403,
-      "final_url": "https://data.mendeley.com/datasets/bzsc7gd9p3/1",
+      "final_url": "https://data.mendeley.com/datasets/bzsc7gd9p3/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "myopic_regression_fundus",
@@ -1841,7 +1841,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/k34rvfw3dg/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "corneal_curvature_fundus",
@@ -1853,7 +1853,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/bc2jfr7dv9/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "corneal_tomography_iol",
@@ -1865,7 +1865,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/wddj7bh9p9/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "ghana_eye_screening",
@@ -1877,7 +1877,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/mfv6sb5wyc/4",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "uveitis_smote",
@@ -1889,7 +1889,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/n9zp473wfw/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "corneal_parameters_kc",
@@ -1901,7 +1901,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/3nz4fkwn3y/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "chronic_corneal_disorders",
@@ -1913,7 +1913,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/mcwv6thk8m/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "anterior_segment_smile",
@@ -1925,7 +1925,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/vkdxsnhkrm/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "corneal_epithelium_confocal",
@@ -1937,7 +1937,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/n3gky25brh/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "fimd",
@@ -1949,7 +1949,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/jkzsh6pcv4/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "rop_synthetic_mendeley",
@@ -1961,7 +1961,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/fscyyhg6vt/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "msila_fundus_dr",
@@ -1973,7 +1973,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/19169587",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "popeye_nir",
@@ -1985,7 +1985,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/18430187",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "superccm_fineset",
@@ -1997,7 +1997,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/17051148",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "eed_astig",
@@ -2021,7 +2021,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/20542091",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "jrc_multimodal_vessels",
@@ -2033,7 +2033,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/17874693",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "irfdrd",
@@ -2045,7 +2045,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/12552326",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "glaucoma_eye_movements",
@@ -2057,7 +2057,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/7761477",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "trend_fundus",
@@ -2069,7 +2069,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/4521044",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "trend2_fundus",
@@ -2081,7 +2081,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/7678656",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "aptos_arcade_onh_masks",
@@ -2093,7 +2093,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/20711325",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "dme_vqa",
@@ -2105,7 +2105,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/6784358",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "dme_vqa_logical",
@@ -2117,7 +2117,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/7777849",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "sics155",
@@ -2129,7 +2129,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/19482928",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "cataract101_extended_labels",
@@ -2141,7 +2141,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/4984167",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "rfmid2",
@@ -2153,7 +2153,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/7505822",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "hrf_seg_plus",
@@ -2165,7 +2165,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/16744782",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "ut_fsocta",
@@ -2177,7 +2177,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/6476639",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "riga_plus",
@@ -2189,7 +2189,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/6325549",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "fundus_domain_generalization",
@@ -2201,7 +2201,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/8009107",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "retinal_vessel_robustness",
@@ -2213,7 +2213,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/12659652",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "ophtho_readability",
@@ -2225,7 +2225,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/16592100",
       "content_length": "763",
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "fprm_retina",
@@ -2356,7 +2356,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/Fantasy666/X-PCR",
-      "content_length": "905712",
+      "content_length": "905774",
       "status": "ok"
     },
     {
@@ -2368,7 +2368,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-MCQA-v3",
-      "content_length": "716334",
+      "content_length": "716358",
       "status": "ok"
     },
     {
@@ -2380,7 +2380,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-EQA-v3",
-      "content_length": "330547",
+      "content_length": "330571",
       "status": "ok"
     },
     {
@@ -2392,7 +2392,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus",
-      "content_length": "434797",
+      "content_length": "434821",
       "status": "ok"
     },
     {
@@ -2404,7 +2404,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/zzzzineun/fundus-report-dataset",
-      "content_length": "561778",
+      "content_length": "561802",
       "status": "ok"
     },
     {
@@ -2416,7 +2416,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K",
-      "content_length": "1694200",
+      "content_length": "1695108",
       "status": "ok"
     },
     {
@@ -2428,7 +2428,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot",
-      "content_length": "909876",
+      "content_length": "909901",
       "status": "ok"
     },
     {
@@ -2440,7 +2440,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/ramankamran/retina-age-analysis",
-      "content_length": "1086303",
+      "content_length": "1086325",
       "status": "ok"
     },
     {
@@ -2452,7 +2452,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/PJMixers-Dev/Fundus-105K",
-      "content_length": "534623",
+      "content_length": "534647",
       "status": "ok"
     },
     {
@@ -2464,15 +2464,15 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://huggingface.co/datasets/PJMixers-Dev/Fundus-CC-2.5M",
-      "content_length": "603530",
+      "content_length": "603556",
       "status": "ok"
     },
     {
       "name": "hyamd",
       "modality": "fundus",
       "download_type": "physionet",
-      "download_url": "https://doi.org/10.13026/f0dn-8q46",
-      "url": "https://doi.org/10.13026/f0dn-8q46",
+      "download_url": "https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/",
+      "url": "https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/",
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/",
@@ -2597,7 +2597,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/mkwxn7rjpm/2",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "angioreport",
@@ -2896,7 +2896,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/diabetic-retinopathy-fundus-image-datasetagar300",
-      "content_length": "17993",
+      "content_length": "17977",
       "status": "ok"
     },
     {
@@ -2981,7 +2981,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/p5h7x55zw7/1",
       "content_length": null,
-      "status": "no_bot_allowed"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "fang_sbsdi_oct",

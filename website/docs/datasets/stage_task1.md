@@ -3,7 +3,7 @@ id: stage_task1
 title: "STAGE 2023 Task 1 — Mean Deviation Prediction from OCT"
 sidebar_label: stage_task1
 description: "400 macular OCT volumes; predict glaucoma Mean Deviation (MD, dB) from 24-2 Humphrey visual field test. Scalar regression task."
-tags: ["oct", "visual_field", "research-only", "manual", "regression"]
+tags: ["oct", "visual_field", "research-only", "manual", "regression", "documented-relationship", "relationship-derived_from", "relationship-same_or_overlapping_cohort_as"]
 ---
 
 
@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `oct` |
 | **Contained modalities** | oct, visual_field |
 | **Tasks** | regression |
-| **Samples** | 400 |
+| **Primary reported quantity** | 400 volumes |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | train, test |
 | **Size** | 5.0 GB |
@@ -38,9 +38,27 @@ import TabItem from '@theme/TabItem';
 | **Legacy sample-loader status** | Standard loader included |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 400 | `volumes` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [aistudio.baidu.com/aistudio](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Registration on Baidu AI Studio required. All 3 tasks share the same OCT volume set (~5 GB).
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
+- [stage_task2](./stage_task2.md) is `same or overlapping cohort as` this record: STAGE Tasks 1 and 2 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
+- [stage_task3](./stage_task3.md) is `same or overlapping cohort as` this record: STAGE Tasks 1 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
+- This record is `same or overlapping cohort as` [stage_task2](./stage_task2.md): STAGE Tasks 1 and 2 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
+- This record is `same or overlapping cohort as` [stage_task3](./stage_task3.md): STAGE Tasks 1 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
 
 ## Access preflight and acquisition
 
@@ -121,13 +139,13 @@ MICCAI 2023 STAGE Challenge. https://aistudio.baidu.com/aistudio/competition/det
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 records, `cc0`)
-- [harvard_gdp](./harvard_gdp.md): Harvard GDP: Glaucoma Detection and Progression Dataset (1,000 records, `cc-by-nc-nd`)
-- [stage_task2](./stage_task2.md): STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction (400 records, `research-only`)
-- [stage_task3](./stage_task3.md): STAGE 2023 Task 3 — Pattern Deviation Probability Map (400 records, `research-only`)
-- [syn_oct](./syn_oct.md): SYN-OCT Synthetic Glaucoma OCT Dataset (200,000 records, `cc-by`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [kermany_oct](./kermany_oct.md): Kermany OCT 2018: Retinal OCT Image Classification (84,484 records, `cc-by`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
+- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
+- [harvard_gdp](./harvard_gdp.md): Harvard GDP: Glaucoma Detection and Progression Dataset (1,000 participants, `cc-by-nc-nd`)
+- [stage_task2](./stage_task2.md): STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction (400 volumes, `research-only`)
+- [stage_task3](./stage_task3.md): STAGE 2023 Task 3 — Pattern Deviation Probability Map (400 volumes, `research-only`)
+- [syn_oct](./syn_oct.md): SYN-OCT Synthetic Glaucoma OCT Dataset (200,000 images, `cc-by`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [kermany_oct](./kermany_oct.md): Kermany OCT 2018: Retinal OCT Image Classification (84,484 images, `cc-by`)

@@ -952,9 +952,8 @@ class RastiDataset(EyeDataHubDataset):
     Hospital, Tehran. Three-class volume-level classification: Normal (50),
     AMD (48), DME (50). Variable B-scan counts per volume (19/25/31/61 slices).
 
-    Password-protected Google Drive:
+    Password-protected Google Drive archive:
       Main archive: https://drive.google.com/file/d/1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu
-      Password: MCME2017
     DME labels:    https://drive.google.com/file/d/1ocxB44TiiInE-jnt8Go6XQNmFwdTxOyN
     AMD labels:    https://drive.google.com/file/d/1yaNiK40QL_s7fgMLM98l_F3TCMwFERnP
 
@@ -965,7 +964,6 @@ class RastiDataset(EyeDataHubDataset):
     _GDRIVE_MAIN_ID = "1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu"
     _GDRIVE_DME_LABELS = "1ocxB44TiiInE-jnt8Go6XQNmFwdTxOyN"
     _GDRIVE_AMD_LABELS = "1yaNiK40QL_s7fgMLM98l_F3TCMwFERnP"
-    _PASSWORD = "MCME2017"
 
     @property
     def info(self) -> DatasetInfo:
@@ -1000,8 +998,8 @@ class RastiDataset(EyeDataHubDataset):
             tags=["oct", "classification", "amd", "dme", "gdrive", "manual"],
             size_gb=2.0,
             notes=(
-                "Google Drive is password-protected (password: MCME2017). "
-                "Download manually:\n"
+                "The Google Drive archive is password-protected. Obtain the "
+                "current archive password from the official source and download manually:\n"
                 "  Main archive: https://drive.google.com/file/d/"
                 "1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu\n"
                 "  DME labels:   https://drive.google.com/file/d/"
@@ -1028,14 +1026,14 @@ class RastiDataset(EyeDataHubDataset):
             f"https://drive.google.com/file/d/{self._GDRIVE_MAIN_ID}",
             dest,
             extra_notes=(
-                "The Google Drive archive is password-protected.\n"
-                f"Password: {self._PASSWORD}\n\n"
-                "Step 1 — Download main archive (requires Google sign-in + password):\n"
+                "The Google Drive archive is password-protected. Obtain the current "
+                "archive password from the official source.\n\n"
+                "Step 1 - Download main archive:\n"
                 f"  https://drive.google.com/file/d/{self._GDRIVE_MAIN_ID}\n\n"
-                "Step 2 — Download label files:\n"
+                "Step 2 - Download label files:\n"
                 f"  DME labels: https://drive.google.com/file/d/{self._GDRIVE_DME_LABELS}\n"
                 f"  AMD labels: https://drive.google.com/file/d/{self._GDRIVE_AMD_LABELS}\n\n"
-                f"Step 3 — Extract archive and label files into:\n  {dest}\n\n"
+                f"Step 3 - Extract archive and label files into:\n  {dest}\n\n"
                 "Dataset is also described on Hossein Rabbani's lab website:\n"
                 "  https://hrabbani.site123.me/available-datasets"
             ),

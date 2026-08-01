@@ -23,7 +23,7 @@ Retinal OCTA scans labeled for artifact type, artifact severity, signal strength
 | **Primary category** | `octa` |
 | **Contained modalities** | octa |
 | **Tasks** | quality_assessment, classification, grading |
-| **Samples** | 281 |
+| **Primary reported quantity** | 281 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 1.011 GB |
@@ -37,6 +37,14 @@ Retinal OCTA scans labeled for artifact type, artifact severity, signal strength
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 281 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [https://doi.org/10.5281/zenodo.18258095](https://doi.org/10.5281/zenodo.18258095) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -110,11 +118,11 @@ Szwarcberg L, Anwer A, Gozlan A, et al. The AROMA Dataset for Automatic Detectio
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [octa_macula_coronal](./octa_macula_coronal.md): OCTA Macula Coronal Views (82,560 records, `cc-by`)
-- [octa_500](./octa_500.md): OCTA-500: Large-scale OCTA Multi-task Benchmark (500 records, `research-only`)
-- [rose](./rose.md): ROSE: Retinal OCT-Angiography Vessel Segmentation (229 records, `cc-by`)
-- [soul_octa](./soul_octa.md): SOUL: OCTA Human-Machine Collaborative Annotation Dataset (178 records, `cc-by`)
-- [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 records, `cc-by`)
-- [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (count not reported records, `unknown`)
+- [octa_macula_coronal](./octa_macula_coronal.md): OCTA Macula Coronal Views (82,560 images, `cc-by`)
+- [octa_500](./octa_500.md): OCTA-500: Large-scale OCTA Multi-task Benchmark (500 participants, `research-only`)
+- [rose](./rose.md): ROSE: Retinal OCT-Angiography Vessel Segmentation (229 images, `cc-by`)
+- [soul_octa](./soul_octa.md): SOUL: OCTA Human-Machine Collaborative Annotation Dataset (178 longitudinal samples, `cc-by`)
+- [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 images, `cc-by`)
+- [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (112 participants, `unknown`)

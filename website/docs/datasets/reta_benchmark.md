@@ -3,7 +3,7 @@ id: reta_benchmark
 title: "RETA Benchmark for Retinal Vascular Tree Analysis"
 sidebar_label: reta_benchmark
 description: "Retinal vessel analysis benchmark with vessel masks, artery/vein masks and skeletons, bifurcation points, vascular trees, and abnormality annotations."
-tags: ["fundus", "cc-by", "figshare", "segmentation", "vessel_analysis"]
+tags: ["fundus", "cc-by", "figshare", "segmentation", "vessel_analysis", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Retinal vessel analysis benchmark with vessel masks, artery/vein masks and skele
 | **Primary category** | `fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation, vessel_analysis |
-| **Samples** | 81 |
+| **Primary reported quantity** | 81 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.84 GB |
@@ -38,9 +38,23 @@ Retinal vessel analysis benchmark with vessel masks, artery/vein masks and skele
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 81 | `images` | IDRiD-derived images with vascular-tree annotations | `official_source_description` | [https://doi.org/10.6084/m9.figshare.16960855](https://doi.org/10.6084/m9.figshare.16960855) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > RETA inherits the 81 images from the first subset of IDRiD and adds retinal vascular-tree annotations; keep it separate as an annotation/benchmark layer, not an independent imaging cohort.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- This record is `derived from` [idrid](./idrid.md): RETA reuses 81 images from the first IDRiD subset and adds vascular-tree annotations. ([evidence](https://doi.org/10.6084/m9.figshare.16960855))
 
 ## Access preflight and acquisition
 
@@ -110,13 +124,13 @@ Lyu X, Cheng L, Zhang S. The RETA Benchmark for Retinal Vascular Tree Analysis. 
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
-- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 images, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)

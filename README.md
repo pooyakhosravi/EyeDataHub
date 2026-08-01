@@ -38,6 +38,12 @@ graph contains 131 directed assertions involving 91 records. The complete
 record matrix, edge evidence, unresolved upstream resources, and rejected
 false-positive links are in `hub/audit/resource_relationship_*_2026-08-01.*`.
 
+A separate source review resolved a primary reported quantity for 245 records
+and retained 305 quantity-evidence rows. Totals are reported only within exact
+units because related resources can overlap and different modalities use
+different counting units. The record, evidence, unit-summary, and unresolved
+files are in `hub/audit/resource_quantity_*_2026-08-01.*`.
+
 The complete machine-readable exports are `hub/catalog.json` and
 `hub/catalog.csv`. The similarly named `hub/metadata.*` files contain the
 137-record enriched EyeDataHub-Open subset used by descriptive statistics.

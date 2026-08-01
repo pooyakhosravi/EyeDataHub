@@ -29,8 +29,8 @@ def build(root: Path) -> Path:
         "> software clients. One line per record. Regenerate with:",
         ">   python -m hub.docs.generate_llms_full",
         "",
-        f"## Summary: {len(all_ds)} datasets; "
-        f"{sum(d.info.num_samples or 0 for d in all_ds):,} mixed source records; "
+        f"## Summary: {len(all_ds)} records; "
+        f"{sum(d.info.num_samples is not None for d in all_ds)} with a primary reported quantity; "
         f"{sum(d.info.size_gb or 0 for d in all_ds):.0f} GB",
         "",
         "## Legend",
@@ -44,7 +44,7 @@ def build(root: Path) -> Path:
         "## Format",
         "",
         "```",
-        "<name> | <modality> | TASK=<tasks> | FAM=<family> SNC=<y/n/?> | BAK=<backend> ACCESS=<state> LOAD=<status> | N=<reported_count> | URL=<source> | <full_name>: <description>",
+        "<name> | <modality> | TASK=<tasks> | FAM=<family> SNC=<y/n/?> | BAK=<backend> ACCESS=<state> LOAD=<status> | N=<reported_count and unit> | URL=<source> | <full_name>: <description>",
         "```",
         "",
     ]
@@ -58,7 +58,11 @@ def build(root: Path) -> Path:
         com = "Y" if info.license_family in STANDARD_NO_NC else (
             "?" if info.license_family == "unknown" else "N"
         )
-        n = f"{info.num_samples:,}" if info.num_samples else "?"
+        if info.num_samples is None:
+            n = "?"
+        else:
+            unit = (info.item_count_unit or "unit_not_resolved").replace(" ", "_")
+            n = f"{info.num_samples:,}_{unit}"
         tasks = ",".join(info.tasks or []) or "?"
         source = info.download_url or "?"
         lines.append(

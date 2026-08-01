@@ -23,7 +23,7 @@ Adaptive-optics scanning-light-ophthalmoscopy montages and regions of interest f
 | **Primary category** | `adaptive_optics` |
 | **Contained modalities** | adaptive_optics |
 | **Tasks** | segmentation, measurement |
-| **Samples** | 10 |
+| **Primary reported quantity** | 10 participants |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.084 GB |
@@ -37,6 +37,14 @@ Adaptive-optics scanning-light-ophthalmoscopy montages and regions of interest f
 | **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 10 | `participants` | Normal participants in the primary cohort | `official_source_description` | [https://doi.org/10.5061/dryad.b41j15h](https://doi.org/10.5061/dryad.b41j15h) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 

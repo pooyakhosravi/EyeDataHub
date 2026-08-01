@@ -3,7 +3,7 @@ id: dme_vqa
 title: "Diabetic Macular Edema Visual Question Answering Dataset"
 sidebar_label: dme_vqa
 description: "Fundus-image VQA dataset for diabetic macular edema derived from IDRiD and e-ophtha."
-tags: ["multimodal", "fundus", "text", "cc-by", "zenodo", "visual_question_answering", "classification"]
+tags: ["multimodal", "fundus", "text", "cc-by", "zenodo", "visual_question_answering", "classification", "documented-relationship", "relationship-extension_of", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Fundus-image VQA dataset for diabetic macular edema derived from IDRiD and e-oph
 | **Primary category** | `multimodal` |
 | **Contained modalities** | fundus, text |
 | **Tasks** | visual_question_answering, classification |
-| **Samples** | Not reported |
+| **Primary reported quantity** | 13,470 question answer pairs |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.1 GB |
@@ -38,9 +38,26 @@ Fundus-image VQA dataset for diabetic macular edema derived from IDRiD and e-oph
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 13,470 | `question_answer_pairs` | Train, validation, and test QA pairs | `derived_from_reported_components` | [zenodo.org/records](https://zenodo.org/records/6784358) |
+| Additional | 679 | `images` | Train, validation, and test images | `derived_from_reported_components` | [zenodo.org/records](https://zenodo.org/records/6784358) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Derivative VQA layer built from existing fundus datasets.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [dme_vqa_logical](./dme_vqa_logical.md) is `extension of` this record: This release adds logical-relation annotations to the earlier DME VQA resource. ([evidence](https://zenodo.org/records/7777849))
+- This record is `derived from` [e_ophtha](./e_ophtha.md): The DME VQA deposit identifies e-ophtha images as source material. ([evidence](https://zenodo.org/records/6784358))
+- This record is `derived from` [idrid](./idrid.md): The DME VQA deposit identifies IDRiD images as source material. ([evidence](https://zenodo.org/records/6784358))
 
 ## Access preflight and acquisition
 
@@ -110,13 +127,13 @@ Diabetic Macular Edema Visual Question Answering Dataset. Zenodo, 2022. doi:10.5
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 records, `unknown`)
-- [deepeyenet](./deepeyenet.md): DeepEyeNet (DEN): Fundus Report Generation Dataset (15,709 records, `research-only`)
-- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 records, `cc-by-nc-nd`)
-- [fundus_report_dataset](./fundus_report_dataset.md): Fundus Report Dataset (422 records, `cc-by`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 rows, `unknown`)
+- [deepeyenet](./deepeyenet.md): DeepEyeNet (DEN): Fundus Report Generation Dataset (15,709 images, `research-only`)
+- [dme_vqa_logical](./dme_vqa_logical.md): DME VQA Dataset with Logical Relations (13,470 question answer pairs, `cc-by`)
+- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)

@@ -23,7 +23,7 @@ Phase-contrast microscopy fields of cultured human conjunctival goblet cells wit
 | **Primary category** | `cell_microscopy` |
 | **Contained modalities** | cell_microscopy |
 | **Tasks** | segmentation, counting |
-| **Samples** | 24 |
+| **Primary reported quantity** | 24 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.514 GB |
@@ -37,6 +37,15 @@ Phase-contrast microscopy fields of cultured human conjunctival goblet cells wit
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 24 | `images` | Unpatched microscopy fields | `official_source_description` | [https://doi.org/10.5281/zenodo.18642562](https://doi.org/10.5281/zenodo.18642562) |
+| Additional | 1,152 | `images` | Derivative 256 by 256 patches Patches derive from the 24 primary fields and must not be added as independent source images. | `official_source_description` | [https://doi.org/10.5281/zenodo.18642562](https://doi.org/10.5281/zenodo.18642562) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 

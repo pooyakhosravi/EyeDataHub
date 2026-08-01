@@ -10,6 +10,11 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ### Added
 
+- Added a source-reported quantity model and dated review covering all 251
+  records, with 245 resolved primary quantities, 305 evidence rows, and exact
+  units kept separate.
+- Added clickable relationship tags and filters to the website explorer and
+  record pages.
 - Added a catalog-wide, source-supported relationship graph with 131 directed
   assertions involving 91 records, plus one review row for every catalog
   record and separate unresolved and rejected-candidate logs.
@@ -26,6 +31,11 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ### Changed
 
+- Corrected the current RAO and Retinal Corrugations deposits to version 2 and
+  reconciled their identifiers, quantities, and source citations.
+- Classified official platform authentication responses as credential or
+  client requirements rather than dataset download failures, and removed
+  signed redirect query strings and credential values from public artifacts.
 - Corrected source-supported metadata for FairVLMed, CORN Pro, MuReD, Ophora,
   and X-PCR, and replaced unsupported name-based overlap claims with reviewed
   relationship assertions.

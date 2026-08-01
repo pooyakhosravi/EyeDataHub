@@ -23,7 +23,7 @@ Large-scale multi-procedure ophthalmic surgical video dataset covering 66 surger
 | **Primary category** | `surgical_video` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | classification, phase_recognition, detection |
-| **Samples** | 2,278 |
+| **Primary reported quantity** | 2,278 videos |
 | **Classes** | 8 (Cataract Surgery, Vitreoretinal Surgery, Glaucoma Surgery, Corneal Surgery, Refractive Surgery, Oculoplastic Surgery, Strabismus Surgery, Other) |
 | **Splits** | train, val, test |
 | **Size** | 583.0 GB |
@@ -37,6 +37,17 @@ Large-scale multi-procedure ophthalmic surgical video dataset covering 66 surger
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Standard loader included |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 2,278 | `videos` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [huggingface.co/datasets](https://huggingface.co/datasets/xioamiyh/OphNet2024) |
+| Additional | 1,969 | `videos` | Untrimmed videos | `official_source_description` | [huggingface.co/datasets](https://huggingface.co/datasets/xioamiyh/OphNet2024) |
+| Additional | 17,508 | `video_clips` | Trimmed operation-level clips | `official_source_description` | [huggingface.co/datasets](https://huggingface.co/datasets/xioamiyh/OphNet2024) |
+| Additional | 14,674 | `video_clips` | Trimmed phase-level clips | `official_source_description` | [huggingface.co/datasets](https://huggingface.co/datasets/xioamiyh/OphNet2024) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -121,13 +132,13 @@ Hu M et al., 'OphNet: A Large-Scale Video Benchmark for Ophthalmic Surgical Work
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [ophora](./ophora.md): Ophora-160K: Ophthalmic Surgical Video Instruction Dataset (162,185 records, `unknown`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 records, `unknown`)
-- [cadis](./cadis.md): CaDIS: Cataract Dataset for Image Segmentation (4,670 records, `research-only`)
-- [cataract_lmm](./cataract_lmm.md): Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark (3,000 records, `cc-by-nc-nd`)
-- [cataract1k](./cataract1k.md): Cataract-1K: Large-Scale Cataract Surgery Video Dataset (1,000 records, `research-only`)
-- [migs_video](./migs_video.md): Multicenter Fine-Annotated MIGS Surgical Video Dataset (186 records, `cc-by`)
-- [sics155](./sics155.md): SICS-155 Small Incision Cataract Surgery Videos (155 records, `cc-by-nc`)
-- [cataract101_extended_labels](./cataract101_extended_labels.md): Cataract-101 Extended Labels (101 records, `cc-by`)
+- [ophora](./ophora.md): Ophora-160K: Ophthalmic Surgical Video Instruction Dataset (162,185 video clip instruction pairs, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [insegcat](./insegcat.md): InSegCat: Instance Segmentation for Cataract Surgery (5,581 annotated images, `research-only`)
+- [cadis](./cadis.md): CaDIS: Cataract Dataset for Image Segmentation (4,670 images, `research-only`)
+- [cataract_lmm](./cataract_lmm.md): Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark (3,000 videos, `cc-by-nc-nd`)
+- [lmod_cataract_1k](./lmod_cataract_1k.md): LMOD-Cataract-1K (2,256 images, `cc-by`)
+- [lmod_cataract_1k_cot](./lmod_cataract_1k_cot.md): Cataract-1K Surgical Analysis Chain-of-Thought Dataset (2,256 images, `mit`)
+- [cataract1k](./cataract1k.md): Cataract-1K: Large-Scale Cataract Surgery Video Dataset (1,000 videos, `research-only`)

@@ -3,7 +3,7 @@ id: octa_500
 title: "OCTA-500: Large-scale OCTA Multi-task Benchmark"
 sidebar_label: octa_500
 description: "500 subjects with OCTA volumes, vessel segmentation, FAZ (foveal avascular zone) annotations, and layer segmentation. Largest public OCTA dataset."
-tags: ["octa", "research-only", "manual", "segmentation", "classification"]
+tags: ["octa", "research-only", "manual", "segmentation", "classification", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `octa` |
 | **Contained modalities** | octa |
 | **Tasks** | segmentation, classification |
-| **Samples** | 500 |
+| **Primary reported quantity** | 500 participants |
 | **Classes** | 4 (Not reported) |
 | **Splits** | train, val, test |
 | **Size** | 70.0 GB |
@@ -38,9 +38,23 @@ import TabItem from '@theme/TabItem';
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 500 | `participants` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/octa-500) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > IEEE login + password-protected zip — email chen2qiang@njust.edu.cn for the unlock password.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 
 ## Access preflight and acquisition
 
@@ -108,11 +122,11 @@ Li et al., 'OCTA-500: A retinal dataset for optical coherence tomography angiogr
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [octa_macula_coronal](./octa_macula_coronal.md): OCTA Macula Coronal Views (82,560 records, `cc-by`)
-- [aroma_octa](./aroma_octa.md): AROMA Retinal OCTA Artifact Dataset (281 records, `cc-by`)
-- [rose](./rose.md): ROSE: Retinal OCT-Angiography Vessel Segmentation (229 records, `cc-by`)
-- [soul_octa](./soul_octa.md): SOUL: OCTA Human-Machine Collaborative Annotation Dataset (178 records, `cc-by`)
-- [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 records, `cc-by`)
-- [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (count not reported records, `unknown`)
+- [octa_macula_coronal](./octa_macula_coronal.md): OCTA Macula Coronal Views (82,560 images, `cc-by`)
+- [aroma_octa](./aroma_octa.md): AROMA Retinal OCTA Artifact Dataset (281 images, `cc-by`)
+- [rose](./rose.md): ROSE: Retinal OCT-Angiography Vessel Segmentation (229 images, `cc-by`)
+- [soul_octa](./soul_octa.md): SOUL: OCTA Human-Machine Collaborative Annotation Dataset (178 longitudinal samples, `cc-by`)
+- [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 images, `cc-by`)
+- [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (112 participants, `unknown`)

@@ -3,7 +3,7 @@ id: mbrset
 title: "mBRSET: Mobile Brazilian Retinal Dataset"
 sidebar_label: mbrset
 description: "5,164 fundus images from 1,291 patients captured with the Phelcom Eyer handheld smartphone-based fundus camera. Labels for DR grading + clinical/demographic prediction."
-tags: ["fundus", "research-only", "physionet", "grading", "classification"]
+tags: ["fundus", "research-only", "physionet", "grading", "classification", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | **Primary category** | `fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification |
-| **Samples** | 5,164 |
+| **Primary reported quantity** | 5,164 images |
 | **Classes** | 5 (0_no_dr, 1_mild, 2_moderate, 3_severe, 4_proliferative) |
 | **Splits** | all |
 | **Size** | 3.0 GB |
@@ -38,9 +38,23 @@ import TabItem from '@theme/TabItem';
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 5,164 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [physionet.org/content](https://physionet.org/content/mbrset/1.0/) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Same PhysioNet credentialed flow as BRSET. Modality EyeDataHub otherwise lacks (portable smartphone-based fundus).
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [brset_mbrset_embeddings](./brset_mbrset_embeddings.md) is `derived from` this record: The PhysioNet record supplies precomputed representations for mBRSET images. ([evidence](https://physionet.org/content/embedding-brset-mbrset/1.0.0/))
 
 ## Access preflight and acquisition
 
@@ -108,13 +122,13 @@ Wu C, Restrepo D, Nakayama LF, et al., 'A portable retina fundus photos dataset 
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 records, `cc-by-nc-nd`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 records, `cc-by-nc-nd`)
-- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 records, `research-only`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (58,036 records, `mit`)
-- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 records, `unknown`)
-- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 records, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 records, `unknown`)
+- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
+- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [justraigs](./justraigs.md): JustRAIGS: Just Referral AI Glaucoma Screening Dataset (101,442 images, `cc-by-nc-nd`)
+- [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
+- [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
+- [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
+- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)

@@ -7,14 +7,14 @@ description: "7 resources containing octa data in EyeDataHub."
 
 # Octa datasets
 
-**7 datasets · 83,922 samples · 72.2 GB total** - this page indexes every EyeDataHub resource tagged as containing `octa` data. A resource can appear on more than one modality page.
+**7 datasets; 7 with a primary reported quantity; 72.2 GB total** - this page indexes every EyeDataHub resource tagged as containing `octa` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
-| Name | Full name | Samples | Size | License | Backend |
+| Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
-| [`octa_macula_coronal`](./octa_macula_coronal.md) | OCTA Macula Coronal Views | 82,560 | Not reported | `cc-by` | Mendeley Data |
-| [`octa_500`](./octa_500.md) | OCTA-500: Large-scale OCTA Multi-task Benchmark | 500 | 70.0 GB | `research-only` | Manual (upstream-gated) |
-| [`aroma_octa`](./aroma_octa.md) | AROMA Retinal OCTA Artifact Dataset | 281 | 1.0 GB | `cc-by` | Zenodo |
-| [`rose`](./rose.md) | ROSE: Retinal OCT-Angiography Vessel Segmentation | 229 | 0.8 GB | `cc-by` | Zenodo |
-| [`soul_octa`](./soul_octa.md) | SOUL: OCTA Human-Machine Collaborative Annotation Dataset | 178 | 0.1 GB | `cc-by` | Figshare |
-| [`drac22`](./drac22.md) | DRAC 2022: Diabetic Retinopathy Analysis Challenge | 174 | 0.3 GB | `cc-by` | Zenodo |
-| [`ut_fsocta`](./ut_fsocta.md) | UTHealth Fundus and Synthetic OCTA Dataset | Not reported | Not reported | `unknown` | Zenodo |
+| [`octa_macula_coronal`](./octa_macula_coronal.md) | OCTA Macula Coronal Views | 82,560 images | Not reported | `cc-by` | Mendeley Data |
+| [`octa_500`](./octa_500.md) | OCTA-500: Large-scale OCTA Multi-task Benchmark | 500 participants | 70.0 GB | `research-only` | Manual (upstream-gated) |
+| [`aroma_octa`](./aroma_octa.md) | AROMA Retinal OCTA Artifact Dataset | 281 images | 1.0 GB | `cc-by` | Zenodo |
+| [`rose`](./rose.md) | ROSE: Retinal OCT-Angiography Vessel Segmentation | 229 images | 0.8 GB | `cc-by` | Zenodo |
+| [`soul_octa`](./soul_octa.md) | SOUL: OCTA Human-Machine Collaborative Annotation Dataset | 178 longitudinal samples | 0.1 GB | `cc-by` | Figshare |
+| [`drac22`](./drac22.md) | DRAC 2022: Diabetic Retinopathy Analysis Challenge | 174 images | 0.3 GB | `cc-by` | Zenodo |
+| [`ut_fsocta`](./ut_fsocta.md) | UTHealth Fundus and Synthetic OCTA Dataset | 112 participants | Not reported | `unknown` | Zenodo |

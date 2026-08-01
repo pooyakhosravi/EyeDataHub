@@ -23,7 +23,7 @@ Six near-infrared or synthetic iris subsets spanning close-range, lamp variation
 | **Primary category** | `iris_biometrics` |
 | **Contained modalities** | iris_biometrics |
 | **Tasks** | biometric_recognition, classification |
-| **Samples** | 54,601 |
+| **Primary reported quantity** | 54,601 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 1.86 GB |
@@ -37,6 +37,14 @@ Six near-infrared or synthetic iris subsets spanning close-range, lamp variation
 | **Acquisition support** | `guided_instructions_only` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 54,601 | `images` | Six CASIA-IrisV4 subsets | `official_source_description` | [hycasia.github.io/dataset](https://hycasia.github.io/dataset/casia-irisv4/) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -109,7 +117,7 @@ Chinese Academy of Sciences Institute of Automation. CASIA Iris Image Database V
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [nd_iris_0405](./nd_iris_0405.md): ND-IRIS-0405 Iris Image Dataset (64,980 records, `research-only`)
-- [ubiris_v2](./ubiris_v2.md): UBIRIS.v2 Noisy Visible-Wavelength Iris Database (11,102 records, `unknown`)
+- [nd_iris_0405](./nd_iris_0405.md): ND-IRIS-0405 Iris Image Dataset (64,980 images, `research-only`)
+- [ubiris_v2](./ubiris_v2.md): UBIRIS.v2 Noisy Visible-Wavelength Iris Database (11,102 images, `unknown`)

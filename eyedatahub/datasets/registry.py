@@ -12,6 +12,12 @@ from eyedatahub.core.metadata import (
     TERMS_SCOPE_VALUES,
     normalize_modality_label,
 )
+from eyedatahub.core.quantities import (
+    EVIDENCE_BASES,
+    EXACTNESS_VALUES,
+    PUBLIC_QUANTITY_FIELDS,
+    QUANTITY_UNITS,
+)
 
 
 class DatasetRegistry:
@@ -75,6 +81,56 @@ class DatasetRegistry:
                 not isinstance(info.num_samples, int) or info.num_samples <= 0
             ):
                 errors.append(f"{prefix} num_samples must be a positive integer or None")
+            quantities = info.reported_quantities
+            if not isinstance(quantities, list):
+                errors.append(f"{prefix} reported_quantities must be a list")
+                quantities = []
+            primary_quantities = []
+            for quantity_index, quantity in enumerate(quantities, start=1):
+                quantity_prefix = f"{prefix} reported_quantities[{quantity_index}]"
+                if not isinstance(quantity, dict):
+                    errors.append(f"{quantity_prefix} must be an object")
+                    continue
+                if set(quantity) != set(PUBLIC_QUANTITY_FIELDS):
+                    errors.append(f"{quantity_prefix} does not match the quantity schema")
+                    continue
+                count = quantity["count"]
+                if (
+                    not isinstance(count, int)
+                    or isinstance(count, bool)
+                    or count < 0
+                ):
+                    errors.append(f"{quantity_prefix}.count must be a non-negative integer")
+                if quantity["unit"] not in QUANTITY_UNITS:
+                    errors.append(f"{quantity_prefix}.unit is not in the controlled vocabulary")
+                if quantity["evidence_basis"] not in EVIDENCE_BASES:
+                    errors.append(f"{quantity_prefix}.evidence_basis is invalid")
+                if quantity["exactness"] not in EXACTNESS_VALUES:
+                    errors.append(f"{quantity_prefix}.exactness is invalid")
+                if not isinstance(quantity["primary"], bool):
+                    errors.append(f"{quantity_prefix}.primary must be boolean")
+                if any(
+                    not isinstance(quantity[field], str)
+                    for field in ("scope", "evidence_url", "review_date", "notes")
+                ):
+                    errors.append(f"{quantity_prefix} text fields must be strings")
+                elif quantity["evidence_url"] and urlparse(quantity["evidence_url"]).scheme not in {
+                    "http",
+                    "https",
+                }:
+                    errors.append(f"{quantity_prefix}.evidence_url must use HTTP or HTTPS")
+                if quantity["primary"] is True:
+                    primary_quantities.append(quantity)
+            if len(primary_quantities) > 1:
+                errors.append(f"{prefix} reported_quantities must contain at most one primary")
+            elif primary_quantities:
+                primary = primary_quantities[0]
+                if primary["count"] != info.num_samples:
+                    errors.append(f"{prefix} primary quantity count must match num_samples")
+                if primary["unit"] != info.item_count_unit:
+                    errors.append(f"{prefix} primary quantity unit must match item_count_unit")
+            elif info.num_samples is not None:
+                errors.append(f"{prefix} num_samples requires a primary reported quantity")
             if info.size_gb is not None and info.size_gb <= 0:
                 errors.append(f"{prefix} size_gb must be positive or None")
             if info.download_url and urlparse(info.download_url).scheme not in {

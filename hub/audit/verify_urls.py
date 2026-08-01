@@ -23,7 +23,7 @@ import time
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlparse, urlsplit, urlunsplit
 
 import requests
 
@@ -40,10 +40,35 @@ USER_AGENT = (
 TIMEOUT = 30  # seconds
 CONCURRENCY = 8
 
+SENSITIVE_QUERY_KEYS = {
+    "access_token",
+    "api_key",
+    "credential",
+    "key",
+    "sig",
+    "signature",
+    "token",
+}
+
+
+def sanitize_public_url(url: str) -> str:
+    """Remove signed or credential-bearing query strings from public reports."""
+    parsed = urlsplit(str(url))
+    query_keys = {key.lower() for key, _ in parse_qsl(parsed.query, keep_blank_values=True)}
+    has_sensitive_query = any(
+        key in SENSITIVE_QUERY_KEYS
+        or key.startswith("x-amz-")
+        or key.startswith("x-goog-")
+        for key in query_keys
+    )
+    if not has_sensitive_query:
+        return str(url)
+    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, "", parsed.fragment))
+
 STATUS_DEFINITIONS = {
     "ok": "HTTP 2xx response after redirects; technical reachability only.",
     "forbidden": "HTTP 403 response; often bot-blocked, browser-gated, or manually accessible.",
-    "no_bot_allowed": "Mendeley Data or Zenodo returned HTTP 403 to automated probes even though manually checked source links were healthy; this reflects bot blocking, not a dead link.",
+    "credentials_or_client_required": "The official platform requires credentials, a configured client, or a browser-mediated request; this is an access requirement, not a dataset download failure.",
     "auth_required": "HTTP 401 or known access-controlled host requiring authentication.",
     "not_found": "HTTP 404 response; source-page review or replacement URL required.",
     "connect_error": "Connection failure during automated request.",
@@ -70,7 +95,7 @@ def check_url(url: str) -> dict[str, Any]:
     def _record(r, method: str) -> None:
         result["method"] = method
         result["http_status"] = r.status_code
-        result["final_url"] = r.url
+        result["final_url"] = sanitize_public_url(r.url)
         result["content_length"] = r.headers.get("content-length")
 
     try:
@@ -120,16 +145,27 @@ def check_url(url: str) -> dict[str, Any]:
 
 
 def _classify(status: int, url: str) -> str:
+    platform_hosts = (
+        "datadryad.org",
+        "data.mendeley.com",
+        "figshare.com",
+        "huggingface.co",
+        "kaggle.com",
+        "physionet.org",
+        "zenodo.org",
+    )
     if 200 <= status < 300:
         return "ok"
     if status in (301, 302, 303, 307, 308):
         return "redirect"
     if status == 401:
+        if any(host in url for host in platform_hosts):
+            return "credentials_or_client_required"
         return "auth_required"
     if status == 403:
         # Some hosts return 403 to bots — annotate rather than fail
-        if "data.mendeley.com" in url or "zenodo.org" in url:
-            return "no_bot_allowed"
+        if any(host in url for host in platform_hosts):
+            return "credentials_or_client_required"
         return "auth_required" if "physionet" in url or "ieee-dataport" in url else "forbidden"
     if status == 404:
         return "not_found"

@@ -23,7 +23,7 @@ A derived OCT angiography resource with 640 coronal PNG views for each of 129 su
 | **Primary category** | `octa` |
 | **Contained modalities** | octa |
 | **Tasks** | classification, visualization |
-| **Samples** | 82,560 |
+| **Primary reported quantity** | 82,560 images |
 | **Classes** | 4 (normal, diabetic_retinopathy, amd, cnv) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -37,6 +37,15 @@ A derived OCT angiography resource with 640 coronal PNG views for each of 129 su
 | **Acquisition support** | `standard_platform_supported` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 82,560 | `images` | Derived coronal PNG views | `derived_from_reported_components` | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/p5h7x55zw7/1) |
+| Additional | 129 | `participants` | Subject-level OCTA scans | `official_source_description` | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/p5h7x55zw7/1) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -110,11 +119,11 @@ Al-Hinnawi AR. OCTA Macula Coronal Views. Mendeley Data. 2023. doi:10.17632/p5h7
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [octa_500](./octa_500.md): OCTA-500: Large-scale OCTA Multi-task Benchmark (500 records, `research-only`)
-- [aroma_octa](./aroma_octa.md): AROMA Retinal OCTA Artifact Dataset (281 records, `cc-by`)
-- [rose](./rose.md): ROSE: Retinal OCT-Angiography Vessel Segmentation (229 records, `cc-by`)
-- [soul_octa](./soul_octa.md): SOUL: OCTA Human-Machine Collaborative Annotation Dataset (178 records, `cc-by`)
-- [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 records, `cc-by`)
-- [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (count not reported records, `unknown`)
+- [octa_500](./octa_500.md): OCTA-500: Large-scale OCTA Multi-task Benchmark (500 participants, `research-only`)
+- [aroma_octa](./aroma_octa.md): AROMA Retinal OCTA Artifact Dataset (281 images, `cc-by`)
+- [rose](./rose.md): ROSE: Retinal OCT-Angiography Vessel Segmentation (229 images, `cc-by`)
+- [soul_octa](./soul_octa.md): SOUL: OCTA Human-Machine Collaborative Annotation Dataset (178 longitudinal samples, `cc-by`)
+- [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 images, `cc-by`)
+- [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (112 participants, `unknown`)

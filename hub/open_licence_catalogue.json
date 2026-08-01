@@ -88,7 +88,7 @@
       "quality"
     ],
     "task_category": "segmentation+classification",
-    "num_samples": null,
+    "num_samples": 12931,
     "size_gb": null,
     "splits": [
       "all"
@@ -126,16 +126,13 @@
     "full_name": "CORN Pro: Corneal Nerve Confocal Microscopy Dataset",
     "modality": "confocal",
     "tasks": [
-      "segmentation",
-      "grading",
-      "classification"
+      "segmentation"
     ],
-    "task_category": "segmentation+classification",
-    "num_samples": 688,
+    "task_category": "segmentation",
+    "num_samples": 1120,
     "size_gb": 0.5,
     "splits": [
-      "train",
-      "test"
+      "all"
     ],
     "num_classes": null,
     "classes": null,
@@ -148,8 +145,9 @@
       "confocal",
       "cornea",
       "nerve",
+      "langerhans_cells",
+      "stromal_cells",
       "segmentation",
-      "grading",
       "ivcm"
     ],
     "notes": "Restricted access. Steps to obtain:\n  1. Create a free account at https://zenodo.org\n  2. Visit https://zenodo.org/records/14263883\n  3. Click 'Request access' with affiliation & purpose\nFull CORN database: https://imed.nimte.ac.cn/CORN.html",
@@ -891,7 +889,7 @@
       "segmentation"
     ],
     "task_category": "segmentation",
-    "num_samples": 982,
+    "num_samples": 491,
     "size_gb": 1.0,
     "splits": [
       "all"
@@ -1372,7 +1370,7 @@
       "segmentation"
     ],
     "task_category": "segmentation",
-    "num_samples": null,
+    "num_samples": 1441,
     "size_gb": 0.62,
     "splits": [
       "all"
@@ -1682,7 +1680,7 @@
       "grading"
     ],
     "task_category": "grading",
-    "num_samples": null,
+    "num_samples": 700,
     "size_gb": null,
     "splits": [
       "all"
@@ -1842,7 +1840,7 @@
       "classification"
     ],
     "task_category": "classification",
-    "num_samples": null,
+    "num_samples": 1302,
     "size_gb": 1.06,
     "splits": [
       "all"
@@ -1935,7 +1933,7 @@
       "multilabel",
       "multi_disease"
     ],
-    "notes": "",
+    "notes": "The official source states that images from STARE, RFMiD, and ARIA were post-processed for this release. ARIA is not a separate EyeDataHub record.",
     "geography": null,
     "scanner_device": null,
     "demographics": {
@@ -2127,8 +2125,8 @@
     "license": "CC BY 4.0",
     "license_family": "cc-by",
     "download_type": "mendeley",
-    "download_url": "https://data.mendeley.com/datasets/5428684j44/1",
-    "citation": "Yoo T. RAO (retinal artery occlusion) fundus photography dataset. Mendeley Data, V1, 2024. doi:10.17632/5428684j44.1",
+    "download_url": "https://data.mendeley.com/datasets/5428684j44/2",
+    "citation": "Yoo T. RAO (retinal artery occlusion) fundus photography dataset. Mendeley Data, V2, 2024. doi:10.17632/5428684j44.2",
     "tags": [
       "mendeley",
       "fundus",
@@ -2230,7 +2228,7 @@
       "segmentation"
     ],
     "task_category": "segmentation",
-    "num_samples": null,
+    "num_samples": 13024,
     "size_gb": 8.15,
     "splits": [
       "all"
@@ -2376,7 +2374,7 @@
       "segmentation"
     ],
     "task_category": "segmentation",
-    "num_samples": null,
+    "num_samples": 1461,
     "size_gb": null,
     "splits": [
       "all"
@@ -2840,7 +2838,7 @@
       "classification"
     ],
     "task_category": "classification",
-    "num_samples": null,
+    "num_samples": 13470,
     "size_gb": 0.1,
     "splits": [
       "all"
@@ -2878,7 +2876,7 @@
       "visual_question_answering"
     ],
     "task_category": "classification",
-    "num_samples": null,
+    "num_samples": 13470,
     "size_gb": 0.1,
     "splits": [
       "all"
@@ -2996,7 +2994,7 @@
       "regression"
     ],
     "task_category": "segmentation",
-    "num_samples": null,
+    "num_samples": 21,
     "size_gb": 2.481,
     "splits": [
       "all"
@@ -3193,7 +3191,7 @@
       "text_generation"
     ],
     "task_category": "classification",
-    "num_samples": null,
+    "num_samples": 2256,
     "size_gb": 1.0,
     "splits": [
       "all"
@@ -3316,7 +3314,7 @@
       "classification"
     ],
     "task_category": "classification",
-    "num_samples": 58036,
+    "num_samples": 103959,
     "size_gb": 27.3,
     "splits": [
       "train",
@@ -3356,7 +3354,7 @@
       "classification"
     ],
     "task_category": "classification",
-    "num_samples": null,
+    "num_samples": 600,
     "size_gb": 0.03,
     "splits": [
       "all"
@@ -4105,7 +4103,7 @@
       "regression"
     ],
     "task_category": "segmentation",
-    "num_samples": null,
+    "num_samples": 69,
     "size_gb": 0.5,
     "splits": [
       "all"
@@ -4115,15 +4113,15 @@
     "license": "CC BY 4.0",
     "license_family": "cc-by",
     "download_type": "mendeley",
-    "download_url": "https://data.mendeley.com/datasets/bzsc7gd9p3/1",
-    "citation": "Darabad RR et al. Outer Retinal Corrugations: Mechanical Models and Imaging Dataset. Mendeley Data, V1, 2022. doi:10.17632/bzsc7gd9p3.1",
+    "download_url": "https://data.mendeley.com/datasets/bzsc7gd9p3/2",
+    "citation": "Darabad RR et al. Outer Retinal Corrugations: Imaging Dataset and Mechanical Models. Mendeley Data, V2, 2022. doi:10.17632/bzsc7gd9p3.2",
     "tags": [
       "mendeley",
       "oct",
       "retinal_detachment",
       "biomechanics"
     ],
-    "notes": "",
+    "notes": "The associated Data in Brief article reports 69 baseline cross-sectional SS-OCT scans from 66 patients; one methods passage reports 66 assessed scans, so the count is retained with a source-conflict flag.",
     "geography": null,
     "scanner_device": null,
     "demographics": {
@@ -4587,7 +4585,7 @@
       "detection"
     ],
     "task_category": "segmentation",
-    "num_samples": null,
+    "num_samples": 2256,
     "size_gb": 2.0,
     "splits": [
       "all"
@@ -4663,7 +4661,7 @@
       "regression"
     ],
     "task_category": "regression",
-    "num_samples": null,
+    "num_samples": 69,
     "size_gb": 0.01,
     "splits": [
       "all"
@@ -4973,7 +4971,7 @@
       "retrieval"
     ],
     "task_category": "classification",
-    "num_samples": null,
+    "num_samples": 30120,
     "size_gb": 0.002,
     "splits": [
       "all"
@@ -5012,7 +5010,7 @@
       "classification"
     ],
     "task_category": "classification",
-    "num_samples": null,
+    "num_samples": 139,
     "size_gb": 0.01,
     "splits": [
       "all"
@@ -5411,7 +5409,7 @@
       "regression"
     ],
     "task_category": "regression",
-    "num_samples": null,
+    "num_samples": 78,
     "size_gb": 0.01,
     "splits": [
       "all"

@@ -3,7 +3,7 @@ id: lmod_plus
 title: "LMOD+ Multimodal Ophthalmology Benchmark"
 sidebar_label: lmod_plus
 description: "Composite multimodal ophthalmology benchmark with multi-granular anatomical, diagnostic, staging, demographic, and text annotations."
-tags: ["multimodal", "fundus", "oct", "external_eye", "surgical_video", "text", "tabular", "unknown", "manual", "visual_question_answering", "classification", "grading", "detection"]
+tags: ["multimodal", "fundus", "oct", "external_eye", "surgical_video", "text", "tabular", "unknown", "manual", "visual_question_answering", "classification", "grading", "detection", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -23,7 +23,7 @@ Composite multimodal ophthalmology benchmark with multi-granular anatomical, dia
 | **Primary category** | `multimodal` |
 | **Contained modalities** | fundus, oct, external_eye, surgical_video, text, tabular |
 | **Tasks** | visual_question_answering, classification, grading, detection |
-| **Samples** | 32,633 |
+| **Primary reported quantity** | 32,633 annotated instances |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -38,9 +38,27 @@ Composite multimodal ophthalmology benchmark with multi-granular anatomical, dia
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 32,633 | `annotated_instances` | Composite benchmark instances | `official_source_description` | [kfzyqin.github.io/lmod_plus](https://kfzyqin.github.io/lmod_plus/) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > Integrates 32,633 instances from nine public datasets across five modalities and 12 conditions. It adds a distinct benchmark and annotation surface but does not replace the source datasets; license and redistribution terms remain component-specific.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- This record is `derived from` [cataract1k](./cataract1k.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
+- This record is `derived from` [g1020](./g1020.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
+- This record is `derived from` [idrid](./idrid.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
+- This record is `derived from` [oimhs](./oimhs.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
+- This record is `derived from` [refuge2018](./refuge2018.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
 
 ## Access preflight and acquisition
 
@@ -110,13 +128,13 @@ Qin Z, Liu Y, Yin Y, et al. LMOD+: A Comprehensive Multimodal Dataset and Benchm
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 records, `unknown`)
-- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 records, `unknown`)
-- [ophthalvqa](./ophthalvqa.md): OphthalVQA Dataset (count not reported records, `cc-by`)
-- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 records, `cc-by-nc-nd`)
-- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 records, `cc-by`)
-- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 records, `cc0`)
-- [dryad_subretinal_robot](./dryad_subretinal_robot.md): Head-Mounted Robot Subretinal Injection Dataset (count not reported records, `cc0`)
-- [mm_retinal_reason](./mm_retinal_reason.md): MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset (count not reported records, `unknown`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
+- [x_pcr](./x_pcr.md): X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark (18,735 rows, `unknown`)
+- [ophthalvqa](./ophthalvqa.md): OphthalVQA Dataset (600 question answer pairs, `cc-by`)
+- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
+- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
+- [mm_retinal_reason](./mm_retinal_reason.md): MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset (130 question answer pairs, `unknown`)
+- [dryad_subretinal_robot](./dryad_subretinal_robot.md): Head-Mounted Robot Subretinal Injection Dataset (21 experimental eyes, `cc0`)

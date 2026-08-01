@@ -3,7 +3,7 @@ id: corn_collection
 title: "CORN: Corneal Confocal Microscope Dataset Collection"
 sidebar_label: corn_collection
 description: "Combined corneal confocal microscopy collection comprising CORN-1, CORN-2, CORN-3, CORN-1500, CORN-Pro, and CORN-Complex. The subsets support corneal-nerve and cell segmentation, image enhancement, to"
-tags: ["confocal", "cc-by", "manual", "segmentation", "grading", "classification", "quality"]
+tags: ["confocal", "cc-by", "manual", "segmentation", "grading", "classification", "quality", "documented-relationship", "relationship-component_of", "relationship-has_component"]
 ---
 
 
@@ -23,7 +23,7 @@ Combined corneal confocal microscopy collection comprising CORN-1, CORN-2, CORN-
 | **Primary category** | `confocal` |
 | **Contained modalities** | confocal |
 | **Tasks** | segmentation, grading, classification, quality |
-| **Samples** | Not reported |
+| **Primary reported quantity** | 12,931 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -38,9 +38,26 @@ Combined corneal confocal microscopy collection comprising CORN-1, CORN-2, CORN-
 | **Legacy sample-loader status** | Metadata and access only |
 
 
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 12,931 | `images` | Sum of six source-described CORN subsets Includes the separately cataloged CORN1500 and CORN-Pro components and must not be added as an independent cohort total. | `derived_from_reported_components` | [zenodo.org/records](https://zenodo.org/records/19689814) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
 ## Notes
 
 > The Zenodo record is publicly visible, but its files require a logged-in access request containing the user's name, organization, work, and intended use. EyeDataHub displays those instructions and does not submit the request. This collection includes and overlaps the separately indexed CORN-1500 and CORN-Pro records; its six subsets must not be counted as independent cohorts.
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- [corn1500](./corn1500.md) is `component of` this record: CORN-1500 is a named component of the combined CORN collection. ([evidence](https://zenodo.org/records/19689814))
+- [corn_pro](./corn_pro.md) is `component of` this record: CORN-Pro is a named component of the combined CORN collection. ([evidence](https://zenodo.org/records/19689814))
+- This record is `has component` [corn1500](./corn1500.md): The CORN collection lists CORN-1500 as one of its six component deposits. ([evidence](https://zenodo.org/records/19689814))
+- This record is `has component` [corn_pro](./corn_pro.md): The CORN collection lists CORN-Pro as one of its six component deposits. ([evidence](https://zenodo.org/records/19689814))
 
 ## Access preflight and acquisition
 
@@ -108,9 +125,9 @@ iMED. CORN: corneal confocal microscope dataset. Zenodo, Version v2, 2026. doi:1
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (1,500 records, `unknown`)
-- [corn_pro](./corn_pro.md): CORN Pro: Corneal Nerve Confocal Microscopy Dataset (1,120 records, `cc-by`)
-- [superccm_fineset](./superccm_fineset.md): SuperCCM-FineSet (210 records, `unknown`)
-- [corneal_epithelium_confocal](./corneal_epithelium_confocal.md): Keratoconus Corneal Epithelium Confocal Fluorescence Dataset (7 records, `cc-by`)
+- [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (1,500 images, `unknown`)
+- [corn_pro](./corn_pro.md): CORN Pro: Corneal Nerve Confocal Microscopy Dataset (1,120 images, `cc-by`)
+- [superccm_fineset](./superccm_fineset.md): SuperCCM-FineSet (210 images, `unknown`)
+- [corneal_epithelium_confocal](./corneal_epithelium_confocal.md): Keratoconus Corneal Epithelium Confocal Fluorescence Dataset (7 participants, `cc-by`)

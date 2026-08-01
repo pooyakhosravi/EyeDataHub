@@ -1,0 +1,239 @@
+{
+  "schema_version": "1.0",
+  "catalog_version": "0.3.0",
+  "catalog_search_cutoff": "2026-07-25",
+  "quantity_review_date": "2026-08-01",
+  "catalog_record_count": 251,
+  "records_with_resolved_primary_quantity": 245,
+  "records_with_unresolved_primary_quantity": 6,
+  "quantity_evidence_row_count": 305,
+  "records_with_multiple_reported_quantities": 39,
+  "primary_quantities_by_unit": {
+    "annotated_images": {
+      "record_count": 1,
+      "sum": 5581,
+      "exact_count_records": 1,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "annotated_instances": {
+      "record_count": 1,
+      "sum": 32633,
+      "exact_count_records": 1,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "b_scans": {
+      "record_count": 4,
+      "sum": 15446,
+      "exact_count_records": 2,
+      "approximate_count_records": 1,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 1
+    },
+    "documents": {
+      "record_count": 2,
+      "sum": 39933,
+      "exact_count_records": 2,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "embedding_vectors": {
+      "record_count": 1,
+      "sum": 53188,
+      "exact_count_records": 1,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "examinations": {
+      "record_count": 1,
+      "sum": 1115,
+      "exact_count_records": 0,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 1,
+      "source_conflict_records": 0
+    },
+    "experimental_eyes": {
+      "record_count": 2,
+      "sum": 47,
+      "exact_count_records": 2,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "eyes": {
+      "record_count": 5,
+      "sum": 2916,
+      "exact_count_records": 5,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "frames": {
+      "record_count": 3,
+      "sum": 2748360,
+      "exact_count_records": 2,
+      "approximate_count_records": 1,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "image_pairs": {
+      "record_count": 4,
+      "sum": 1796,
+      "exact_count_records": 4,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "image_report_pairs": {
+      "record_count": 1,
+      "sum": 422,
+      "exact_count_records": 1,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "images": {
+      "record_count": 158,
+      "sum": 23554728,
+      "exact_count_records": 24,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 134,
+      "source_conflict_records": 0
+    },
+    "longitudinal_samples": {
+      "record_count": 1,
+      "sum": 178,
+      "exact_count_records": 1,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "participants": {
+      "record_count": 14,
+      "sum": 44767,
+      "exact_count_records": 6,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 8,
+      "source_conflict_records": 0
+    },
+    "question_answer_pairs": {
+      "record_count": 6,
+      "sum": 159790,
+      "exact_count_records": 5,
+      "approximate_count_records": 1,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "questions": {
+      "record_count": 3,
+      "sum": 101945,
+      "exact_count_records": 3,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "records": {
+      "record_count": 3,
+      "sum": 844576,
+      "exact_count_records": 0,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 3,
+      "source_conflict_records": 0
+    },
+    "rows": {
+      "record_count": 1,
+      "sum": 18735,
+      "exact_count_records": 0,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 1,
+      "source_conflict_records": 0
+    },
+    "sentence_pairs": {
+      "record_count": 1,
+      "sum": 3473,
+      "exact_count_records": 1,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "signals": {
+      "record_count": 2,
+      "sum": 11097,
+      "exact_count_records": 2,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "text_items": {
+      "record_count": 2,
+      "sum": 2605000,
+      "exact_count_records": 2,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "video_clip_instruction_pairs": {
+      "record_count": 1,
+      "sum": 162185,
+      "exact_count_records": 0,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 1,
+      "source_conflict_records": 0
+    },
+    "video_clips": {
+      "record_count": 1,
+      "sum": 5381,
+      "exact_count_records": 1,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "videos": {
+      "record_count": 8,
+      "sum": 6871,
+      "exact_count_records": 2,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 6,
+      "source_conflict_records": 0
+    },
+    "visual_field_tests": {
+      "record_count": 2,
+      "sum": 29383,
+      "exact_count_records": 2,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "visual_fields": {
+      "record_count": 1,
+      "sum": 78,
+      "exact_count_records": 1,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 0,
+      "source_conflict_records": 0
+    },
+    "volumes": {
+      "record_count": 16,
+      "sum": 7200,
+      "exact_count_records": 1,
+      "approximate_count_records": 0,
+      "exactness_not_assessed_records": 15,
+      "source_conflict_records": 0
+    }
+  },
+  "unresolved_record_ids": [
+    "dryad_cornea_oct_pentacam",
+    "dryad_functional_oct_alzheimer",
+    "external_eye_blepharitis",
+    "hassan_composite_retina",
+    "rao_fundus",
+    "thyroid_ophthalmopathy_external"
+  ],
+  "counting_note": "Primary totals are calculated only within identical units. They are descriptive sums of catalog records, not unique-cohort totals, because documented derivatives, subsets, versions, mirrors, and components overlap.",
+  "third_party_dataset_files_included": false
+}

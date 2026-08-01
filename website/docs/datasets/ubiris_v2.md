@@ -23,7 +23,7 @@ Visible-light iris images captured at a distance and on the move with realistic 
 | **Primary category** | `iris_biometrics` |
 | **Contained modalities** | iris_biometrics |
 | **Tasks** | biometric_recognition, classification |
-| **Samples** | 11,102 |
+| **Primary reported quantity** | 11,102 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -37,6 +37,14 @@ Visible-light iris images captured at a distance and on the move with realistic 
 | **Acquisition support** | `manual_access_blocked` |
 | **Legacy sample-loader status** | Metadata and access only |
 
+
+## Reported quantities
+
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 11,102 | `images` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [iris.di.ubi.pt/index.html](https://iris.di.ubi.pt/index.html) |
+
+Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
@@ -108,7 +116,7 @@ Proenca H, Filipe S, Santos R, Oliveira J, Alexandre LA. The UBIRIS.v2: A Databa
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
 
-## Related datasets with shared modalities
+## Similar resources by shared modality
 
-- [nd_iris_0405](./nd_iris_0405.md): ND-IRIS-0405 Iris Image Dataset (64,980 records, `research-only`)
-- [casia_iris_v4](./casia_iris_v4.md): CASIA-IrisV4 Iris Image Database (54,601 records, `cc0`)
+- [nd_iris_0405](./nd_iris_0405.md): ND-IRIS-0405 Iris Image Dataset (64,980 images, `research-only`)
+- [casia_iris_v4](./casia_iris_v4.md): CASIA-IrisV4 Iris Image Database (54,601 images, `cc0`)

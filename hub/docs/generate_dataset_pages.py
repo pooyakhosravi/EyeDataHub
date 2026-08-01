@@ -31,6 +31,7 @@ from urllib.parse import urlparse
 
 from eyedatahub.agent.planner import loader_status
 from eyedatahub.core.dataset import EyeDataHubDataset
+from eyedatahub.core.relationships import RELATIONSHIP_EVIDENCE
 from eyedatahub.datasets.registry import REGISTRY
 
 
@@ -107,6 +108,74 @@ def source_link(url: str) -> str:
     else:
         label = "Source page"
     return f"[{mdx_escape(label)}]({escaped_url})"
+
+
+def format_quantity(count: int | None, unit: str) -> str:
+    """Format one count without hiding its scientific unit."""
+    if count is None:
+        return "Not reported"
+    label = unit.replace("_", " ") if unit and unit != "unknown" else "unit not resolved"
+    return f"{count:,} {label}"
+
+
+def documented_relationships(dataset: EyeDataHubDataset) -> list[dict[str, str]]:
+    """Return outgoing and incoming curated catalog relationships."""
+    record_id = dataset.info.name
+    relationships: list[dict[str, str]] = []
+    for edge in RELATIONSHIP_EVIDENCE:
+        if edge.source_record_id == record_id:
+            relationships.append(
+                {
+                    "direction": "outgoing",
+                    "type": edge.relationship_type,
+                    "record_id": edge.target_record_id,
+                    "evidence_url": edge.evidence_url,
+                    "evidence_summary": edge.evidence_summary,
+                }
+            )
+        elif edge.target_record_id == record_id:
+            relationships.append(
+                {
+                    "direction": "incoming",
+                    "type": edge.relationship_type,
+                    "record_id": edge.source_record_id,
+                    "evidence_url": edge.evidence_url,
+                    "evidence_summary": edge.evidence_summary,
+                }
+            )
+    return sorted(
+        relationships,
+        key=lambda value: (value["direction"], value["type"], value["record_id"]),
+    )
+
+
+def reported_quantities_table(dataset: EyeDataHubDataset) -> str:
+    """Render all reviewed quantities without summing unlike units."""
+    entries = dataset.info.reported_quantities or []
+    if not entries:
+        return (
+            "No reproducible primary item count was exposed for the cataloged "
+            "source version."
+        )
+    lines = [
+        "| Role | Count | Unit | Scope | Basis | Evidence |",
+        "| --- | ---: | --- | --- | --- | --- |",
+    ]
+    for entry in entries:
+        evidence = (
+            source_link(entry["evidence_url"])
+            if entry.get("evidence_url")
+            else "Not reported"
+        )
+        scope = mdx_table_cell(entry["scope"])
+        if entry.get("notes"):
+            scope += f" {mdx_table_cell(entry['notes'])}"
+        lines.append(
+            f"| {'Primary' if entry['primary'] else 'Additional'} | "
+            f"{entry['count']:,} | `{entry['unit']}` | {scope} | "
+            f"`{entry['evidence_basis']}` | {evidence} |"
+        )
+    return "\n".join(lines)
 
 
 def build_bibtex(dataset: EyeDataHubDataset) -> str:
@@ -196,7 +265,7 @@ def at_a_glance_table(dataset: EyeDataHubDataset) -> str:
     classes = ", ".join(info.classes) if info.classes else "Not reported"
     splits = ", ".join(info.splits) if info.splits else "Not reported"
     size = f"{info.size_gb} GB" if info.size_gb else "Not reported"
-    samples = f"{info.num_samples:,}" if info.num_samples else "Not reported"
+    samples = format_quantity(info.num_samples, info.item_count_unit)
     backend = BACKEND_LABEL.get(info.download_type, info.download_type)
     screening = LICENSE_SCREENING_LABEL.get(info.license_family, "Unknown; check source")
     status = loader_status(dataset)
@@ -209,7 +278,7 @@ def at_a_glance_table(dataset: EyeDataHubDataset) -> str:
         f"| **Primary category** | `{info.primary_category}` |\n"
         f"| **Contained modalities** | {mdx_table_cell(', '.join(info.modalities))} |\n"
         f"| **Tasks** | {mdx_table_cell(tasks)} |\n"
-        f"| **Samples** | {samples} |\n"
+        f"| **Primary reported quantity** | {samples} |\n"
         f"| **Classes** | {info.num_classes if info.num_classes else 'Not reported'} ({mdx_table_cell(classes)}) |\n"
         f"| **Splits** | {mdx_table_cell(splits)} |\n"
         f"| **Size** | {size} |\n"
@@ -254,6 +323,10 @@ def frontmatter(dataset: EyeDataHubDataset) -> str:
         + [info.license_family, info.download_type]
         + list(info.tasks or [])
     )
+    relationships = documented_relationships(dataset)
+    if relationships:
+        tags.append("documented-relationship")
+        tags.extend(f"relationship-{value['type']}" for value in relationships)
     tags = list(dict.fromkeys(tags))
     tag_list = ", ".join(f'"{t}"' for t in tags)
     return (
@@ -276,6 +349,8 @@ def build_page(dataset: EyeDataHubDataset, all_ds: list[EyeDataHubDataset]) -> s
     info = dataset.info
     shell, py = backend_download_snippet(dataset)
     peers = related_datasets(dataset, all_ds)
+    relationship_rows = documented_relationships(dataset)
+    records_by_name = {value.info.name: value for value in all_ds}
 
     parts = [
         frontmatter(dataset),
@@ -291,6 +366,16 @@ def build_page(dataset: EyeDataHubDataset, all_ds: list[EyeDataHubDataset]) -> s
         "",
         at_a_glance_table(dataset),
         "",
+        "## Reported quantities",
+        "",
+        reported_quantities_table(dataset),
+        "",
+        (
+            "Counts retain their source-reported units. Additional rows can "
+            "describe components, paired items, or derivative copies and are not "
+            "automatically added to the primary quantity."
+        ),
+        "",
     ]
 
     if info.notes:
@@ -300,6 +385,35 @@ def build_page(dataset: EyeDataHubDataset, all_ds: list[EyeDataHubDataset]) -> s
             "> " + mdx_escape(info.notes).replace("\n", "\n> "),
             "",
         ]
+
+    if relationship_rows:
+        parts += [
+            "## Documented relationships",
+            "",
+            (
+                "These links record source-supported lineage or overlap, not merely "
+                "similar modality tags."
+            ),
+            "",
+        ]
+        for relationship in relationship_rows:
+            other = records_by_name[relationship["record_id"]]
+            relation = relationship["type"].replace("_", " ")
+            if relationship["direction"] == "outgoing":
+                label = (
+                    f"This record is `{relation}` "
+                    f"[{other.info.name}](./{other.info.name}.md)"
+                )
+            else:
+                label = (
+                    f"[{other.info.name}](./{other.info.name}.md) is "
+                    f"`{relation}` this record"
+                )
+            parts.append(
+                f"- {label}: {mdx_escape(relationship['evidence_summary'])} "
+                f"([evidence]({mdx_escape(relationship['evidence_url'])}))"
+            )
+        parts.append("")
 
     parts += [
         "## Access preflight and acquisition",
@@ -395,13 +509,13 @@ def build_page(dataset: EyeDataHubDataset, all_ds: list[EyeDataHubDataset]) -> s
 
     if peers:
         parts += [
-            "## Related datasets with shared modalities",
+            "## Similar resources by shared modality",
             "",
         ]
         for p in peers:
             parts += [
                 f"- [{p.info.name}](./{p.info.name}.md): {mdx_escape(p.info.full_name)} "
-                f"({(p.info.num_samples and f'{p.info.num_samples:,}') or 'count not reported'} records, "
+                f"({format_quantity(p.info.num_samples, p.info.item_count_unit)}, "
                 f"`{p.info.license_family}`)",
             ]
         parts.append("")
@@ -417,8 +531,8 @@ def build_page(dataset: EyeDataHubDataset, all_ds: list[EyeDataHubDataset]) -> s
 def build_modality_index(modality: str, datasets: list[EyeDataHubDataset]) -> str:
     """One landing page per contained-modality tag."""
     datasets = sorted(datasets, key=lambda d: -(d.info.num_samples or 0))
-    total_samples = sum((d.info.num_samples or 0) for d in datasets)
     total_gb = sum((d.info.size_gb or 0) for d in datasets)
+    primary_quantity_count = sum(d.info.num_samples is not None for d in datasets)
 
     parts = [
         "---",
@@ -431,18 +545,19 @@ def build_modality_index(modality: str, datasets: list[EyeDataHubDataset]) -> st
         f"# {modality.replace('_', ' ').title()} datasets",
         "",
         (
-            f"**{len(datasets)} datasets · {total_samples:,} samples · "
-            f"{total_gb:.1f} GB total** - this page indexes every EyeDataHub "
+            f"**{len(datasets)} datasets; {primary_quantity_count} with a primary "
+            f"reported quantity; {total_gb:.1f} GB total** - this page indexes every EyeDataHub "
             f"resource tagged as containing `{modality}` data. A resource can "
-            "appear on more than one modality page."
+            "appear on more than one modality page. Primary quantities retain "
+            "their source-reported units and are not summed here."
         ),
         "",
-        "| Name | Full name | Samples | Size | License | Backend |",
+        "| Name | Full name | Primary quantity | Size | License | Backend |",
         "| --- | --- | ---:| ---:| --- | --- |",
     ]
     for d in datasets:
         i = d.info
-        n = f"{i.num_samples:,}" if i.num_samples else "Not reported"
+        n = format_quantity(i.num_samples, i.item_count_unit)
         size = f"{i.size_gb:.1f} GB" if i.size_gb else "Not reported"
         parts.append(
             f"| [`{i.name}`](./{i.name}.md) | {mdx_table_cell(i.full_name)} | {n} | {size} | "
@@ -461,7 +576,6 @@ def build_datasets_root(all_ds: list[EyeDataHubDataset]) -> str:
     """Top-level datasets landing page: totals + link to each modality."""
     from collections import Counter
 
-    total_samples = sum((d.info.num_samples or 0) for d in all_ds)
     total_gb = sum((d.info.size_gb or 0) for d in all_ds)
     by_mod = Counter(
         modality
@@ -471,6 +585,9 @@ def build_datasets_root(all_ds: list[EyeDataHubDataset]) -> str:
     by_primary = Counter(d.info.primary_category for d in all_ds)
     by_fam = Counter(d.info.license_family for d in all_ds)
     by_backend = Counter(d.info.download_type for d in all_ds)
+    by_quantity_unit = Counter(
+        d.info.item_count_unit or "unknown" for d in all_ds if d.info.num_samples is not None
+    )
 
     parts = [
         "---",
@@ -484,14 +601,16 @@ def build_datasets_root(all_ds: list[EyeDataHubDataset]) -> str:
         "",
         (
             f"**{len(all_ds)} catalog records; "
-            f"{total_samples:,} mixed source reported records; "
+            f"{by_quantity_unit.total()} with a primary reported quantity; "
             f"{total_gb:.1f} GB reported; "
             f"{by_backend.total() - by_backend.get('manual', 0)} nonmanual access routes**"
         ),
         "",
         "Each resource has one primary category for navigation and one or more "
         "contained-modality tags. Counts below overlap because a resource with "
-        "fundus photographs and OCT is included under both modalities.",
+        "fundus photographs and OCT is included under both modalities. Primary "
+        "quantities retain their source-reported units on each resource page; "
+        "they are not summed across the catalog.",
         "",
         "## By contained modality",
         "",
@@ -530,6 +649,16 @@ def build_datasets_root(all_ds: list[EyeDataHubDataset]) -> str:
     ]
     for be, count in sorted(by_backend.items(), key=lambda kv: -kv[1]):
         parts.append(f"| `{be}` | {count} |")
+
+    parts += [
+        "",
+        "## Primary reported quantity units",
+        "",
+        "| Unit | Records reporting this primary quantity |",
+        "| --- | ---:|",
+    ]
+    for unit, count in sorted(by_quantity_unit.items(), key=lambda kv: (-kv[1], kv[0])):
+        parts.append(f"| `{unit}` | {count} |")
 
     parts.append("")
     return "\n".join(parts).rstrip() + "\n"
@@ -605,9 +734,22 @@ def build_sidebars_js(
 
 def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
     """Return dashboard-friendly dataset and summary metadata."""
+    records_by_name = {dataset.info.name: dataset for dataset in all_ds}
     rows = []
     for d in sorted(all_ds, key=lambda ds: ds.info.name):
         i = d.info
+        relationships = []
+        for relationship in documented_relationships(d):
+            related = records_by_name[relationship["record_id"]].info
+            relationships.append({
+                "direction": relationship["direction"],
+                "relationship_type": relationship["type"],
+                "target_name": related.name,
+                "target_full_name": related.full_name,
+                "target_doc_path": f"/datasets/{related.name}",
+                "evidence_url": relationship["evidence_url"],
+                "evidence_summary": relationship["evidence_summary"],
+            })
         rows.append({
             "name": i.name,
             "full_name": i.full_name,
@@ -617,6 +759,9 @@ def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
             "modalities": list(i.modalities),
             "tasks": list(i.tasks or []),
             "samples": i.num_samples,
+            "item_count_unit": i.item_count_unit,
+            "reported_quantities": list(i.reported_quantities or []),
+            "relationships": relationships,
             "size_gb": i.size_gb,
             "license": i.license,
             "license_family": i.license_family,
@@ -645,7 +790,9 @@ def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
     by_acquisition = Counter(row["acquisition_support"] for row in rows)
     by_license = Counter(row["license_family"] for row in rows)
     by_backend = Counter(row["download_type"] for row in rows)
-    total_samples = sum(row["samples"] or 0 for row in rows)
+    by_relationship_type = Counter(
+        relationship.relationship_type for relationship in RELATIONSHIP_EVIDENCE
+    )
     total_gb = sum(row["size_gb"] or 0 for row in rows)
     nonmanual_routes = sum(1 for row in rows if row["download_type"] != "manual")
     loaders_implemented = sum(1 for row in rows if row["loader_status"] == "implemented")
@@ -663,7 +810,12 @@ def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
         "total": len(rows),
         "summary": {
             "datasets": len(rows),
-            "samples": total_samples,
+            "primary_quantities_reported": sum(
+                1 for row in rows if row["samples"] is not None
+            ),
+            "reported_quantity_entries": sum(
+                len(row["reported_quantities"]) for row in rows
+            ),
             "size_gb": round(total_gb, 1),
             "nonmanual_routes": nonmanual_routes,
             "loaders_implemented": loaders_implemented,
@@ -682,11 +834,17 @@ def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
                 + by_acquisition["transfer_tested_partial"]
             ),
             "text_or_qa": sum(1 for row in rows if row["modality"] == "text" or any("question" in t or "report" in t for t in row["tasks"])),
+            "documented_relationship_edges": len(RELATIONSHIP_EVIDENCE),
+            "datasets_with_documented_relationships": sum(
+                1 for row in rows if row["relationships"]
+            ),
+            "relationship_types": len(by_relationship_type),
         },
         "facets": {
             "modality": dict(sorted(by_modality.items())),
             "license_family": dict(sorted(by_license.items())),
             "download_type": dict(sorted(by_backend.items())),
+            "relationship_type": dict(sorted(by_relationship_type.items())),
         },
         "datasets": rows,
     }
