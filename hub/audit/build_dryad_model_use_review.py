@@ -44,7 +44,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from eyedatahub.datasets.scope_exclusions import (  # noqa: E402
-    CATALOG_SCOPE_EXCLUSIONS,
+    DRYAD_SCOPE_EXCLUSIONS,
     NONHUMAN_DRYAD_RECORD_IDS as EXCLUDED_NONHUMAN_IDS,
 )
 
@@ -282,7 +282,7 @@ def build(
     curated = _curated_rows(curated_review_path)
     inventory_records = inventory.get("records") or []
     inventory_ids = {record["record_id"] for record in inventory_records}
-    excluded_ids = set(CATALOG_SCOPE_EXCLUSIONS)
+    excluded_ids = set(DRYAD_SCOPE_EXCLUSIONS)
 
     if len(EXCLUDED_NONHUMAN_IDS) != 58:
         raise ValueError("The curated nonhuman Dryad set must contain 58 records")

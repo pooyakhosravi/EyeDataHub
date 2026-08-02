@@ -3,7 +3,7 @@ id: fairvlmed
 title: "FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset"
 sidebar_label: fairvlmed
 description: "10,000 scanning-laser ophthalmoscopy fundus images paired with de-identified clinical notes, visual-field measurements, glaucoma labels, and demographic attributes."
-tags: ["multimodal", "fundus", "visual_field", "text", "tabular", "cc-by-nc-nd", "huggingface", "classification", "report_generation", "fairness_analysis"]
+tags: ["multimodal", "fundus", "visual_field", "text", "tabular", "cc-by-nc-nd", "huggingface", "classification", "report_generation", "fairness_analysis", "resource-role-current-dataset", "dataset-family-fairvlmed"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `fairvlmed` |
 | **Full name** | FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fairvlmed` |
 | **Contained modalities** | fundus, visual_field, text, tabular |
 | **Tasks** | classification, report_generation, fairness_analysis |
 | **Primary reported quantity** | 10,000 images |

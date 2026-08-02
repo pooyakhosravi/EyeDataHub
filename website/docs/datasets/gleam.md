@@ -3,7 +3,7 @@ id: gleam
 title: "GLEAM Multimodal Glaucoma Staging Dataset"
 sidebar_label: gleam
 description: "SLO, circumpapillary OCT, and visual-field pattern-deviation maps with four-class glaucoma labels."
-tags: ["oct", "cc-by-nc-nd", "kaggle", "classification", "staging"]
+tags: ["oct", "cc-by-nc-nd", "kaggle", "classification", "staging", "resource-role-current-dataset", "dataset-family-gleam"]
 ---
 
 
@@ -21,6 +21,8 @@ SLO, circumpapillary OCT, and visual-field pattern-deviation maps with four-clas
 | **Short name** | `gleam` |
 | **Full name** | GLEAM Multimodal Glaucoma Staging Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `gleam` |
 | **Contained modalities** | oct |
 | **Tasks** | classification, staging |
 | **Primary reported quantity** | Not reported |

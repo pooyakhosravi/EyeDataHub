@@ -3,7 +3,7 @@ id: mendeley_red_lesion_localization_messidor_retinal_images
 title: "Red lesion localization for MESSIDOR retinal images dataset using patch-based convolutional neural networks."
 sidebar_label: mendeley_red_lesion_localization_messidor_retinal_images
 description: "Observation-level source data, annotations, or signals. from MESSIDOR is a human retinal-image benchmark; this deposit adds lesion-localization data."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-red-lesion-localization-messidor-retinal-images"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from MESSIDOR is a human
 | **Short name** | `mendeley_red_lesion_localization_messidor_retinal_images` |
 | **Full name** | Red lesion localization for MESSIDOR retinal images dataset using patch-based convolutional neural networks. |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_red_lesion_localization_messidor_retinal_images` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

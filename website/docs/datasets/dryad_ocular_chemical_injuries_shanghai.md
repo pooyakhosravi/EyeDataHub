@@ -3,7 +3,7 @@ id: dryad_ocular_chemical_injuries_shanghai
 title: "Clinical characteristics of patients hospitalized for ocular chemical injuries in Shanghai from 2012 to 2017"
 sidebar_label: dryad_ocular_chemical_injuries_shanghai
 description: "This 160-patient clinical workbook is directly relevant to ocular injury outcomes and ophthalmic epidemiology."
-tags: ["tabular", "cc0", "dryad", "prognosis"]
+tags: ["tabular", "cc0", "dryad", "prognosis", "resource-role-current-dataset", "dataset-family-dryad-ocular-chemical-injuries-shanghai"]
 ---
 
 
@@ -21,6 +21,8 @@ This 160-patient clinical workbook is directly relevant to ocular injury outcome
 | **Short name** | `dryad_ocular_chemical_injuries_shanghai` |
 | **Full name** | Clinical characteristics of patients hospitalized for ocular chemical injuries in Shanghai from 2012 to 2017 |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_ocular_chemical_injuries_shanghai` |
 | **Contained modalities** | tabular |
 | **Tasks** | prognosis |
 | **Primary reported quantity** | 160 participants |

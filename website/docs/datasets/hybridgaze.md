@@ -3,7 +3,7 @@ id: hybridgaze
 title: "HybridGaze Dataset"
 sidebar_label: hybridgaze
 description: "Synchronized human eye-tracking, webcam eye images, facial landmarks, and gaze annotations."
-tags: ["eye_tracking", "unknown", "kaggle", "gaze_estimation"]
+tags: ["eye_tracking", "unknown", "kaggle", "gaze_estimation", "resource-role-current-dataset", "dataset-family-hybridgaze"]
 ---
 
 
@@ -21,6 +21,8 @@ Synchronized human eye-tracking, webcam eye images, facial landmarks, and gaze a
 | **Short name** | `hybridgaze` |
 | **Full name** | HybridGaze Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `hybridgaze` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | gaze_estimation |
 | **Primary reported quantity** | Not reported |

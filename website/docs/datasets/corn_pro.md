@@ -3,7 +3,7 @@ id: corn_pro
 title: "CORN Pro: Corneal Nerve Confocal Microscopy Dataset"
 sidebar_label: corn_pro
 description: "1,120 in-vivo confocal microscopy images with pixel-level annotations for corneal subbasal nerves and corneal cells. The source describes 560 images with nerves and Langerhans cells and 560 images wit"
-tags: ["confocal", "cc-by", "manual", "segmentation", "documented-relationship", "relationship-has_component", "relationship-component_of"]
+tags: ["confocal", "cc-by", "manual", "segmentation", "resource-role-component-dataset", "dataset-family-corn-collection", "documented-relationship", "relationship-has_component", "relationship-component_of"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `corn_pro` |
 | **Full name** | CORN Pro: Corneal Nerve Confocal Microscopy Dataset |
 | **Primary category** | `confocal` |
+| **Resource role** | `component_dataset` |
+| **Dataset family** | `corn_collection` |
 | **Contained modalities** | confocal |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 1,120 images |
@@ -53,6 +55,13 @@ Counts retain their source-reported units. Additional rows can describe componen
 >   2. Visit https://zenodo.org/records/14263883
 >   3. Click 'Request access' with affiliation & purpose
 > Full CORN database: https://imed.nimte.ac.cn/CORN.html
+
+## Dataset family
+
+This record belongs to `corn_collection`. Family links group documented collection/component records or exact task views; they do not imply independent cohorts.
+
+- [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (`component_dataset`)
+- [corn_collection](./corn_collection.md): CORN: Corneal Confocal Microscope Dataset Collection (`collection`)
 
 ## Documented relationships
 

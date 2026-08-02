@@ -3,7 +3,7 @@ id: mendeley_early_detection_glaucomatous_visual_field_progression
 title: "Data for: Early Detection of Glaucomatous Visual Field Progression Using Pointwise Linear Regression with Binomial Test in the Central 10 Degrees"
 sidebar_label: mendeley_early_detection_glaucomatous_visual_field_progression
 description: "Observation-level human or human-derived measurements/signals. from Glaucoma patients with repeated visual-field observations."
-tags: ["visual_field", "cc-by", "mendeley", "classification"]
+tags: ["visual_field", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-early-detection-glaucomatous-visual-field-progression"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Glaucoma pat
 | **Short name** | `mendeley_early_detection_glaucomatous_visual_field_progression` |
 | **Full name** | Data for: Early Detection of Glaucomatous Visual Field Progression Using Pointwise Linear Regression with Binomial Test in the Central 10 Degrees |
 | **Primary category** | `visual_field` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_early_detection_glaucomatous_visual_field_progression` |
 | **Contained modalities** | visual_field |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

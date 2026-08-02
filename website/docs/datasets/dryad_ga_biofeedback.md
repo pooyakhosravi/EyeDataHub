@@ -3,7 +3,7 @@ id: dryad_ga_biofeedback
 title: "Biofeedback fixation training in the rehabilitation of patients suffering from geographic atrophy"
 sidebar_label: dryad_ga_biofeedback
 description: "The 18-participant final CSV is a direct human geographic-atrophy rehabilitation outcome resource."
-tags: ["tabular", "cc0", "dryad", "evaluation"]
+tags: ["tabular", "cc0", "dryad", "evaluation", "resource-role-current-dataset", "dataset-family-dryad-ga-biofeedback"]
 ---
 
 
@@ -21,6 +21,8 @@ The 18-participant final CSV is a direct human geographic-atrophy rehabilitation
 | **Short name** | `dryad_ga_biofeedback` |
 | **Full name** | Biofeedback fixation training in the rehabilitation of patients suffering from geographic atrophy |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_ga_biofeedback` |
 | **Contained modalities** | tabular |
 | **Tasks** | evaluation |
 | **Primary reported quantity** | 18 participants |

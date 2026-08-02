@@ -3,7 +3,7 @@ id: mendeley_cust_iris
 title: "CUST-Iris"
 sidebar_label: mendeley_cust_iris
 description: "Observation-level source data, annotations, or signals. from Source explicitly describes consenting human subjects and 720 unique irises."
-tags: ["iris_biometrics", "cc-by", "mendeley", "segmentation"]
+tags: ["iris_biometrics", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-cust-iris"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Source explicitly d
 | **Short name** | `mendeley_cust_iris` |
 | **Full name** | CUST-Iris |
 | **Primary category** | `iris_biometrics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_cust_iris` |
 | **Contained modalities** | iris_biometrics |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 2,880 images |

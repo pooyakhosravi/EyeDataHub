@@ -3,7 +3,7 @@ id: mendeley_hpsc_derived_photoreceptor_axon_extension_growth
 title: "hPSC-derived Photoreceptor Axon Extension and Growth Cone Motility Data Sets and Code"
 sidebar_label: mendeley_hpsc_derived_photoreceptor_axon_extension_growth
 description: "Observation-level source data, annotations, or signals. from Human pluripotent stem cell-derived photoreceptors are explicitly stated."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-hpsc-derived-photoreceptor-axon-extension-growth"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Human pluripotent s
 | **Short name** | `mendeley_hpsc_derived_photoreceptor_axon_extension_growth` |
 | **Full name** | hPSC-derived Photoreceptor Axon Extension and Growth Cone Motility Data Sets and Code |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_hpsc_derived_photoreceptor_axon_extension_growth` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

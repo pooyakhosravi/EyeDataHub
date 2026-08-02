@@ -3,7 +3,7 @@ id: ichallenge_amd
 title: "iChallenge-AMD: Age-related Macular Degeneration"
 sidebar_label: ichallenge_amd
 description: "400 training fundus images with AMD classification (non-AMD vs AMD) and lesion annotations. Challenge dataset from ISBI 2020."
-tags: ["fundus", "research-only", "manual", "classification"]
+tags: ["fundus", "research-only", "manual", "classification", "resource-role-current-dataset", "dataset-family-ichallenge-amd"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `ichallenge_amd` |
 | **Full name** | iChallenge-AMD: Age-related Macular Degeneration |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ichallenge_amd` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 400 images |
@@ -142,4 +144,4 @@ Fu et al., 'Age-Related Macular Degeneration and Pathologic Myopia Fundus Image 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

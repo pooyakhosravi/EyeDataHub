@@ -3,7 +3,7 @@ id: grape
 title: "GRAPE: Glaucoma Real-world Appraisal Progression Ensemble"
 sidebar_label: grape
 description: "263 eyes × 1,115 visits. Multi-modal: VF (HFA 24-2), fundus photographs, OCT RNFL, IOP, CCT. Labels: VF progression, OD segmentation, glaucoma stage."
-tags: ["multimodal", "fundus", "oct", "visual_field", "tabular", "cc0", "figshare", "regression", "segmentation", "classification"]
+tags: ["multimodal", "fundus", "oct", "visual_field", "tabular", "cc0", "figshare", "regression", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-grape"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `grape` |
 | **Full name** | GRAPE: Glaucoma Real-world Appraisal Progression Ensemble |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `grape` |
 | **Contained modalities** | fundus, oct, visual_field, tabular |
 | **Tasks** | regression, segmentation, classification |
 | **Primary reported quantity** | 1,115 examinations |

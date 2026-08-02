@@ -3,7 +3,7 @@ id: dryad_myopia_glaucoma_visual_field
 title: "Myopia and Glaucoma Visual Field Prognosis Dataset"
 sidebar_label: dryad_myopia_glaucoma_visual_field
 description: "The 270-eye glaucoma visual-field dataset directly supports prognosis and progression analysis."
-tags: ["visual_field", "tabular", "cc0", "dryad", "prognosis", "regression"]
+tags: ["visual_field", "tabular", "cc0", "dryad", "prognosis", "regression", "resource-role-current-dataset", "dataset-family-dryad-myopia-glaucoma-visual-field"]
 ---
 
 
@@ -21,6 +21,8 @@ The 270-eye glaucoma visual-field dataset directly supports prognosis and progre
 | **Short name** | `dryad_myopia_glaucoma_visual_field` |
 | **Full name** | Myopia and Glaucoma Visual Field Prognosis Dataset |
 | **Primary category** | `visual_field` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_myopia_glaucoma_visual_field` |
 | **Contained modalities** | visual_field, tabular |
 | **Tasks** | prognosis, regression |
 | **Primary reported quantity** | 270 eyes |

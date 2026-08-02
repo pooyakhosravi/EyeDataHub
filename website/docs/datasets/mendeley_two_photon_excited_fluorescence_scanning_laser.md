@@ -3,7 +3,7 @@ id: mendeley_two_photon_excited_fluorescence_scanning_laser
 title: "Two-photon excited fluorescence scanning laser ophthalmoscopy images and software for data processing"
 sidebar_label: mendeley_two_photon_excited_fluorescence_scanning_laser
 description: "Ophthalmoscopy image/measurement data plus processing software from Exemplary two-photon fluorescence ophthalmoscope recordings from a healthy subject's eye."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-two-photon-excited-fluorescence-scanning-laser"]
 ---
 
 
@@ -21,6 +21,8 @@ Ophthalmoscopy image/measurement data plus processing software from Exemplary tw
 | **Short name** | `mendeley_two_photon_excited_fluorescence_scanning_laser` |
 | **Full name** | Two-photon excited fluorescence scanning laser ophthalmoscopy images and software for data processing |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_two_photon_excited_fluorescence_scanning_laser` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 1 participants |

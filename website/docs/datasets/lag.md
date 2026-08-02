@@ -3,7 +3,7 @@ id: lag
 title: "LAG: Large-scale Attention-based Glaucoma Database"
 sidebar_label: lag
 description: "11,760 fundus images with glaucoma classification labels and ophthalmologist-derived attention maps. Largest public glaucoma dataset with attention ground truth."
-tags: ["fundus", "research-only", "manual", "classification", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "research-only", "manual", "classification", "segmentation", "resource-role-current-dataset", "dataset-family-lag", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `lag` |
 | **Full name** | LAG: Large-scale Attention-based Glaucoma Database |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `lag` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 11,760 images |
@@ -54,7 +56,6 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
-- [glaucoma_expert_cot_raw](./glaucoma_expert_cot_raw.md) is `derived from` this record: The official dataset card identifies LAG and PAPILA as the source fundus resources paired with the glaucoma reasoning records. ([evidence](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077))
 - [glaucoma_expert_cot_refined](./glaucoma_expert_cot_refined.md) is `derived from` this record: The official dataset card identifies LAG and PAPILA as the source fundus resources paired with the refined glaucoma reasoning records. ([evidence](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077))
 - [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 
@@ -133,4 +134,4 @@ Li et al., 'Attention Based Glaucoma Detection: A Large-scale Database and CNN M
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

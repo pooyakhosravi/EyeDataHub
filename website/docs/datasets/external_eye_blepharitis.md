@@ -3,7 +3,7 @@ id: external_eye_blepharitis
 title: "External Eye Photographs for Screening Referable Blepharitis"
 sidebar_label: external_eye_blepharitis
 description: "External eye photographs curated from publicly available web sources for binary classification of referable blepharitis versus normal."
-tags: ["external_eye", "cc-by", "mendeley", "classification"]
+tags: ["external_eye", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-external-eye-blepharitis"]
 ---
 
 
@@ -21,6 +21,8 @@ External eye photographs curated from publicly available web sources for binary 
 | **Short name** | `external_eye_blepharitis` |
 | **Full name** | External Eye Photographs for Screening Referable Blepharitis |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `external_eye_blepharitis` |
 | **Contained modalities** | external_eye |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

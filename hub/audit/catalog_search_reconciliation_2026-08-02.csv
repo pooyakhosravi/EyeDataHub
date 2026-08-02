@@ -22,7 +22,6 @@ asd_eye_tracking,true,"[""figshare""]",five_repository_searches
 bajwa_multi_eye,true,"[""mendeley""]",five_repository_searches
 beh,false,[],other_documented_search_routes
 belo,false,[],other_documented_search_routes
-bidr,true,"[""kaggle""]",five_repository_searches
 binocular_fundus_images,true,"[""figshare""]",five_repository_searches
 birdshot_wide,false,[],other_documented_search_routes
 bmrd,true,"[""mendeley""]",five_repository_searches
@@ -67,7 +66,6 @@ deepeyenet,false,[],other_documented_search_routes
 dme_vqa,false,[],other_documented_search_routes
 dme_vqa_logical,false,[],other_documented_search_routes
 doomgan_ocular_morphs,true,"[""huggingface""]",five_repository_searches
-dr_arranged,false,[],other_documented_search_routes
 drac22,false,[],other_documented_search_routes
 dridb,false,[],other_documented_search_routes
 drions_db,false,[],other_documented_search_routes
@@ -193,7 +191,6 @@ gamma,false,[],other_documented_search_routes
 gaze360,false,[],other_documented_search_routes
 gaze_capture,false,[],other_documented_search_routes
 ghana_eye_screening,true,"[""mendeley""]",five_repository_searches
-glaucoma_expert_cot_raw,true,"[""huggingface""]",five_repository_searches
 glaucoma_expert_cot_refined,true,"[""huggingface""]",five_repository_searches
 glaucoma_eye_movements,false,[],other_documented_search_routes
 glaucoma_oct_fundus,true,"[""figshare""]",five_repository_searches
@@ -413,7 +410,6 @@ rbad,false,[],other_documented_search_routes
 real_fundus,false,[],other_documented_search_routes
 refuge1_multirater,false,[],other_documented_search_routes
 refuge2,false,[],other_documented_search_routes
-refuge2018,false,[],other_documented_search_routes
 reta_benchmark,true,"[""figshare""]",five_repository_searches
 retina_age_analysis,true,"[""huggingface""]",five_repository_searches
 retinal_corrugations_oct,true,"[""mendeley""]",five_repository_searches

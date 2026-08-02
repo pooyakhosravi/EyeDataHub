@@ -3,7 +3,7 @@ id: ichallenge_oct
 title: "iChallenge OCT Datasets (HDMILab / OMIA Workshops)"
 sidebar_label: ichallenge_oct
 description: "OCT challenge datasets from HDMILab covering retinal layer segmentation and fluid detection tasks from MICCAI/OMIA workshops. Includes sub-challenges such as AMD/CSC/DR classification and retinal laye"
-tags: ["oct", "research-only", "manual", "segmentation", "classification", "documented-relationship", "relationship-component_of", "relationship-has_component"]
+tags: ["oct", "research-only", "manual", "segmentation", "classification", "resource-role-collection", "dataset-family-ichallenge-gamma", "documented-relationship", "relationship-component_of", "relationship-has_component"]
 ---
 
 
@@ -21,6 +21,8 @@ OCT challenge datasets from HDMILab covering retinal layer segmentation and flui
 | **Short name** | `ichallenge_oct` |
 | **Full name** | iChallenge OCT Datasets (HDMILab / OMIA Workshops) |
 | **Primary category** | `oct` |
+| **Resource role** | `collection` |
+| **Dataset family** | `ichallenge_gamma` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation, classification |
 | **Primary reported quantity** | 300 volumes |
@@ -49,6 +51,12 @@ Counts retain their source-reported units. Additional rows can describe componen
 ## Notes
 
 > num_samples refers to patient volumes (GAMMA has 300 patients, each with 3D OCT + fundus). Slice counts depend on sub-challenge. Visit http://hdmilab.cn/ichallenge, register/log in, and download the relevant challenge dataset(s). Place extracted files under ~/.eyedatahub/data/ichallenge_oct/.
+
+## Dataset family
+
+This record belongs to `ichallenge_gamma`. Family links group documented collection/component records or exact task views; they do not imply independent cohorts.
+
+- [gamma](./gamma.md): GAMMA — Glaucoma Grading from Multi-Modality Images (`component_dataset`)
 
 ## Documented relationships
 

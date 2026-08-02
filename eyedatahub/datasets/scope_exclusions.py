@@ -1,9 +1,10 @@
 """Curated records retained in source history but excluded from the catalog.
 
 The public registry is focused on human and human-derived resources that can
-support ophthalmic model development or evaluation. These records remain in
-their source modules and in the dated screening ledgers so the exclusion is
-transparent and reversible.
+support ophthalmic model development or evaluation. It also exposes only the
+current canonical record for a version chain or an unmodified alternate
+deposit. Excluded records remain in their source modules and dated screening
+ledgers so every decision is transparent and reversible.
 """
 
 from __future__ import annotations
@@ -96,7 +97,7 @@ RELATIONSHIP_ONLY_RESOURCE_IDS = frozenset(
 )
 
 
-CATALOG_SCOPE_EXCLUSIONS = {
+DRYAD_SCOPE_EXCLUSIONS = {
     **{
         record_id: "nonhuman_or_nonhuman_derived"
         for record_id in NONHUMAN_DRYAD_RECORD_IDS
@@ -116,7 +117,43 @@ CATALOG_SCOPE_EXCLUSIONS = {
 }
 
 
+# Earlier releases remain documented as ``previous_version`` links on the
+# retained current record. They are not separate catalog records.
+SUPERSEDED_VERSION_RECORD_IDS = frozenset(
+    {
+        "glaucoma_expert_cot_raw",
+        "refuge2018",
+    }
+)
+
+
+# BiDR and the Tianchi arranged record both repackage the same 35,126-image
+# EyePACS training split without a distinct annotation or scientific object.
+# Their routes remain documented on the canonical EyePACS record.
+DUPLICATE_OR_SUBSET_MIRROR_RECORD_IDS = frozenset(
+    {
+        "bidr",
+        "dr_arranged",
+    }
+)
+
+
+CATALOG_SCOPE_EXCLUSIONS = {
+    **DRYAD_SCOPE_EXCLUSIONS,
+    **{
+        record_id: "superseded_by_current_version"
+        for record_id in SUPERSEDED_VERSION_RECORD_IDS
+    },
+    **{
+        record_id: "unmodified_duplicate_or_subset_mirror"
+        for record_id in DUPLICATE_OR_SUBSET_MIRROR_RECORD_IDS
+    },
+}
+
+
 if len(NONHUMAN_DRYAD_RECORD_IDS) != 58:
     raise RuntimeError("Expected 58 reviewed nonhuman Dryad records")
-if len(CATALOG_SCOPE_EXCLUSIONS) != 63:
+if len(DRYAD_SCOPE_EXCLUSIONS) != 63:
     raise RuntimeError("Expected 63 reviewed Dryad scope exclusions")
+if len(CATALOG_SCOPE_EXCLUSIONS) != 67:
+    raise RuntimeError("Expected 67 total catalog exclusions")

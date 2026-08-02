@@ -3,7 +3,7 @@ id: mendeley_ocular_sebaceous_neoplasms
 title: "Ocular sebaceous neoplasms"
 sidebar_label: mendeley_ocular_sebaceous_neoplasms
 description: "Human/derived image or image-annotation observations. from Human ocular-neoplasm cases are indicated by clinical and histopathology images."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-ocular-sebaceous-neoplasms"]
 ---
 
 
@@ -21,6 +21,8 @@ Human/derived image or image-annotation observations. from Human ocular-neoplasm
 | **Short name** | `mendeley_ocular_sebaceous_neoplasms` |
 | **Full name** | Ocular sebaceous neoplasms |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_ocular_sebaceous_neoplasms` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

@@ -3,7 +3,7 @@ id: dryad_lens_fluorescence_twins
 title: "Long-term development of lens fluorescence in a twin cohort: Heritability and effects of age and lifestyle"
 sidebar_label: dryad_lens_fluorescence_twins
 description: "The 131-participant longitudinal lens-fluorescence workbook is core human ocular biometrics data."
-tags: ["tabular", "cc0", "dryad", "progression_analysis"]
+tags: ["tabular", "cc0", "dryad", "progression_analysis", "resource-role-current-dataset", "dataset-family-dryad-lens-fluorescence-twins"]
 ---
 
 
@@ -21,6 +21,8 @@ The 131-participant longitudinal lens-fluorescence workbook is core human ocular
 | **Short name** | `dryad_lens_fluorescence_twins` |
 | **Full name** | Long-term development of lens fluorescence in a twin cohort: Heritability and effects of age and lifestyle |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_lens_fluorescence_twins` |
 | **Contained modalities** | tabular |
 | **Tasks** | progression_analysis |
 | **Primary reported quantity** | 131 participants |

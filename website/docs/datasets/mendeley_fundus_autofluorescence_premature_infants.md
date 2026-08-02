@@ -3,7 +3,7 @@ id: mendeley_fundus_autofluorescence_premature_infants
 title: "Fundus Autofluorescence in Premature Infants"
 sidebar_label: mendeley_fundus_autofluorescence_premature_infants
 description: "Fundus-autofluorescence image/measurement observations from Premature infants undergoing fundus autofluorescence evaluation."
-tags: ["fundus", "cc-by", "mendeley", "measurement"]
+tags: ["fundus", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-fundus-autofluorescence-premature-infants"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus-autofluorescence image/measurement observations from Premature infants un
 | **Short name** | `mendeley_fundus_autofluorescence_premature_infants` |
 | **Full name** | Fundus Autofluorescence in Premature Infants |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_fundus_autofluorescence_premature_infants` |
 | **Contained modalities** | fundus |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |
@@ -124,4 +126,4 @@ Fundus Autofluorescence in Premature Infants. Mendeley Data, V1. doi:10.17632/k5
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

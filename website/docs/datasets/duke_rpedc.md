@@ -3,7 +3,7 @@ id: duke_rpedc
 title: "Duke RPE-Drusen Complex OCT Dataset"
 sidebar_label: duke_rpedc
 description: "OCT data from 384 subjects, including 269 with AMD and 115 normal subjects, with 38,400 B-scans and derived total retina and RPE-drusen complex thickness measurements."
-tags: ["oct", "research-only", "manual", "segmentation", "classification", "measurement"]
+tags: ["oct", "research-only", "manual", "segmentation", "classification", "measurement", "resource-role-current-dataset", "dataset-family-duke-rpedc"]
 ---
 
 
@@ -21,6 +21,8 @@ OCT data from 384 subjects, including 269 with AMD and 115 normal subjects, with
 | **Short name** | `duke_rpedc` |
 | **Full name** | Duke RPE-Drusen Complex OCT Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `duke_rpedc` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation, classification, measurement |
 | **Primary reported quantity** | 384 participants |

@@ -3,7 +3,7 @@ id: msila_fundus_dr
 title: "M'Sila Retinal Fundus Dataset for Diabetic Retinopathy Classification"
 sidebar_label: msila_fundus_dr
 description: "Anonymized retinal fundus images from an ophthalmology clinic in M'Sila, Algeria for diabetic-retinopathy classification."
-tags: ["fundus", "cc-by", "zenodo", "classification", "grading"]
+tags: ["fundus", "cc-by", "zenodo", "classification", "grading", "resource-role-current-dataset", "dataset-family-msila-fundus-dr"]
 ---
 
 
@@ -21,6 +21,8 @@ Anonymized retinal fundus images from an ophthalmology clinic in M'Sila, Algeria
 | **Short name** | `msila_fundus_dr` |
 | **Full name** | M'Sila Retinal Fundus Dataset for Diabetic Retinopathy Classification |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `msila_fundus_dr` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, grading |
 | **Primary reported quantity** | 1,335 images |
@@ -123,4 +125,4 @@ M'Sila retinal fundus dataset for diabetic retinopathy classification. Zenodo, 2
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

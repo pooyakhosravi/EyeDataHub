@@ -1,10 +1,10 @@
 # EyeDataHub URL Audit Report
 
-- **Total datasets checked**: 479
-- **Broken URLs**: 5
-- **Generated at**: 2026-08-02T11:42:40.943237+00:00
-- **EyeDataHub version**: 0.5.0
-- **Git commit**: 9110b0242a85fe25cfd0fa85cc21a14cdabf566e
+- **Total datasets checked**: 475
+- **Broken URLs**: 3
+- **Generated at**: 2026-08-02T20:22:49.720391+00:00
+- **EyeDataHub version**: 0.6.0
+- **Git commit**: ac2459f294fcd14f4e167840dd5b19202accf94d
 - **Git dirty**: True
 - **Timeout / concurrency**: 30 s / 8
 
@@ -12,12 +12,10 @@
 
 | Status | Count |
 | --- | ---:|
-| ok | 288 |
-| credentials_or_client_required | 176 |
+| ok | 285 |
+| credentials_or_client_required | 177 |
 | forbidden | 10 |
 | ssl_error | 3 |
-| timeout | 1 |
-| connect_error | 1 |
 
 ## Status definitions
 
@@ -40,16 +38,13 @@
 | Dataset | Status | URL |
 | --- | --- | --- |
 | `stare` | `ssl_error` | [cecas.clemson.edu/~ahoover](https://cecas.clemson.edu/~ahoover/stare/) |
-| `harvard_fairvision` | `timeout` | [ophai.hms.harvard.edu/datasets](https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k) |
 | `drions_db` | `ssl_error` | [ia.uned.es/~ejcarmona](https://www.ia.uned.es/~ejcarmona/DRIONS-DB.html) |
 | `fire` | `ssl_error` | [projects.ics.forth.gr/cvrl](https://projects.ics.forth.gr/cvrl/fire/) |
-| `mendeley_on_comparison_ocular_surface_disease_index` | `connect_error` | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/m7fzwvsm77) |
 
 ## All findings
 
 | Dataset | Backend | Status | HTTP | Source URL |
 | --- | --- | --- | ---:| --- |
-| `mendeley_on_comparison_ocular_surface_disease_index` | `manual` | `connect_error` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/m7fzwvsm77) |
 | `afio_fundus_vessels` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3csr652p9y/2) |
 | `airogs` | `direct` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/5793241) |
 | `amdnet23` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yj35kjgrv3/1) |
@@ -167,6 +162,7 @@
 | `mendeley_ocular_biometry` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/4twnn4546j/1) |
 | `mendeley_ocular_sebaceous_neoplasms` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/xg9jcjn388/1) |
 | `mendeley_ocular_surface_disorders_affect_quality_life` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/73r8vrxksx/1) |
+| `mendeley_on_comparison_ocular_surface_disease_index` | `manual` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/m7fzwvsm77) |
 | `mendeley_ophthalmic_anthropometry_malawians` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bctfh4m93c/1) |
 | `mendeley_ophthalmic_stroke_biomarkers_south_asia` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/whpsmdc2gk/1) |
 | `mendeley_optical_coherence_tomography_oct_images_proliferative` | `manual` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/hbr5pwk5w5) |
@@ -252,7 +248,6 @@
 | `asd_eye_tracking` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.20113592.v1](https://doi.org/10.6084/m9.figshare.20113592.v1) |
 | `beh` | `gdrive` | `ok` | 200 | [drive.google.com/file](https://drive.google.com/file/d/1YdZm-sioiAbTdBRy4oej1q6tZL8Baft7) |
 | `belo` | `manual` | `ok` | 200 | [belo-dataset.vercel.app](https://belo-dataset.vercel.app/) |
-| `bidr` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy) |
 | `binocular_fundus_images` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.31981557.v1](https://doi.org/10.6084/m9.figshare.31981557.v1) |
 | `brasil_glaucoma_brg` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/clerimar/brasil-glaucoma-brg) |
 | `brset` | `physionet` | `ok` | 200 | [physionet.org/content](https://physionet.org/content/brazilian-ophthalmological/1.0.1/) |
@@ -280,7 +275,6 @@
 | `ddr` | `gdrive` | `ok` | 200 | [drive.google.com/drive](https://drive.google.com/drive/folders/1z6tSFmxW_aNayUqVxx6h6bY4kwGzUTEC) |
 | `deepeyenet` | `manual` | `ok` | 200 | [github.com/Jhhuangkay](https://github.com/Jhhuangkay/DeepOpht-Medical-Report-Generation-for-Retinal-Images-via-Deep-Models-and-Visual-Explanation) |
 | `doomgan_ocular_morphs` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs) |
-| `dr_arranged` | `manual` | `ok` | 200 | [tianchi.aliyun.com/dataset](https://tianchi.aliyun.com/dataset/93926) |
 | `dridb` | `manual` | `ok` | 200 | [ipg.fer.hr/ipg](https://ipg.fer.hr/ipg/resources/image_database) |
 | `drishti_gs` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/lokeshsaipureddi/drishtigs-retina-dataset-for-onh-segmentation) |
 | `drive` | `manual` | `ok` | 200 | [drive.grand-challenge.org/DRIVE](https://drive.grand-challenge.org/DRIVE/) |
@@ -393,12 +387,12 @@
 | `g1020` | `kaggle` | `ok` | 200 | [arxiv.org/abs](https://arxiv.org/abs/2006.09158) |
 | `gamma` | `gdrive` | `ok` | 200 | [drive.google.com/file](https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view) |
 | `gaze_capture` | `manual` | `ok` | 200 | [gazecapture.csail.mit.edu/dataset.php](https://gazecapture.csail.mit.edu/dataset.php) |
-| `glaucoma_expert_cot_raw` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077) |
 | `glaucoma_expert_cot_refined` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077) |
 | `glaucoma_oct_fundus` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.32051124.v1](https://doi.org/10.6084/m9.figshare.32051124.v1) |
 | `gleam` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset) |
 | `goals` | `gdrive` | `ok` | 200 | [aistudio.baidu.com/competition](https://aistudio.baidu.com/competition/detail/783/0/introduction) |
 | `grape` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.c.6406319](https://doi.org/10.6084/m9.figshare.c.6406319) |
+| `harvard_fairvision` | `manual` | `ok` | 200 | [ophai.hms.harvard.edu/datasets](https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k) |
 | `harvard_gdp` | `gdrive` | `ok` | 200 | [drive.google.com/drive](https://drive.google.com/drive/folders/1JMi_HCql113uc9X0DOaMkNfEWfxaDlEz) |
 | `harvard_glaucoma` | `direct` | `ok` | 202 | [https://doi.org/10.7910/DVN/1YRRAC](https://doi.org/10.7910/DVN/1YRRAC) |
 | `hei_med` | `github` | `ok` | 200 | [github.com/lgiancaUTH](https://github.com/lgiancaUTH/HEI-MED) |
@@ -475,7 +469,6 @@
 | `real_fundus` | `manual` | `ok` | 200 | [github.com/dengzhuo-AI](https://github.com/dengzhuo-AI/Real-Fundus/releases/tag/v.1.0.0) |
 | `refuge1_multirater` | `gdrive` | `ok` | 200 | [drive.google.com/file](https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view) |
 | `refuge2` | `gdrive` | `ok` | 200 | [drive.google.com/file](https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view) |
-| `refuge2018` | `manual` | `ok` | 200 | [refuge.grand-challenge.org](https://refuge.grand-challenge.org/) |
 | `reta_benchmark` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.16960855](https://doi.org/10.6084/m9.figshare.16960855) |
 | `retina_age_analysis` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/ramankamran/retina-age-analysis) |
 | `retinal_dr_longitudinal` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/usama10/retinal-dr-longitudinal) |
@@ -527,4 +520,3 @@
 | `drions_db` | `direct` | `ssl_error` | - | [ia.uned.es/~ejcarmona](https://www.ia.uned.es/~ejcarmona/DRIONS-DB.html) |
 | `fire` | `direct` | `ssl_error` | - | [projects.ics.forth.gr/cvrl](https://projects.ics.forth.gr/cvrl/fire/) |
 | `stare` | `direct` | `ssl_error` | - | [cecas.clemson.edu/~ahoover](https://cecas.clemson.edu/~ahoover/stare/) |
-| `harvard_fairvision` | `manual` | `timeout` | - | [ophai.hms.harvard.edu/datasets](https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k) |

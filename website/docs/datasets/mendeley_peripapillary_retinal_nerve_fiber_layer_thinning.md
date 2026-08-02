@@ -3,7 +3,7 @@ id: mendeley_peripapillary_retinal_nerve_fiber_layer_thinning
 title: "Data for: Peripapillary Retinal Nerve Fiber Layer Thinning in Genetic Generalized Epilepsy"
 sidebar_label: mendeley_peripapillary_retinal_nerve_fiber_layer_thinning
 description: "Observation-level human or human-derived measurements/signals. from Participants with genetic generalized epilepsy."
-tags: ["tabular", "cc-by-nc", "mendeley", "measurement"]
+tags: ["tabular", "cc-by-nc", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-peripapillary-retinal-nerve-fiber-layer-thinning"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Participants
 | **Short name** | `mendeley_peripapillary_retinal_nerve_fiber_layer_thinning` |
 | **Full name** | Data for: Peripapillary Retinal Nerve Fiber Layer Thinning in Genetic Generalized Epilepsy |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_peripapillary_retinal_nerve_fiber_layer_thinning` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

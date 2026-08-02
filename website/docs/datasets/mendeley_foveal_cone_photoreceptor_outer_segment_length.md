@@ -3,7 +3,7 @@ id: mendeley_foveal_cone_photoreceptor_outer_segment_length
 title: "Foveal cone photoreceptor outer segment length and cone density"
 sidebar_label: mendeley_foveal_cone_photoreceptor_outer_segment_length
 description: "Observation-level source data, annotations, or signals. from Source describes human foveolar cone observations."
-tags: ["oct", "cc-by", "mendeley", "segmentation"]
+tags: ["oct", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-foveal-cone-photoreceptor-outer-segment-length"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Source describes hu
 | **Short name** | `mendeley_foveal_cone_photoreceptor_outer_segment_length` |
 | **Full name** | Foveal cone photoreceptor outer segment length and cone density |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_foveal_cone_photoreceptor_outer_segment_length` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |

@@ -3,7 +3,7 @@ id: eye_disease_image_mendeley
 title: "Eye Disease Image Dataset"
 sidebar_label: eye_disease_image_mendeley
 description: "Original and augmented eye-disease image dataset covering retinitis pigmentosa, retinal detachment, pterygium, myopia, macular scar, glaucoma, disc edema, diabetic retinopathy, central serous choriore"
-tags: ["fundus", "cc-by", "mendeley", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-eye-disease-image-mendeley", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Original and augmented eye-disease image dataset covering retinitis pigmentosa, 
 | **Short name** | `eye_disease_image_mendeley` |
 | **Full name** | Eye Disease Image Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `eye_disease_image_mendeley` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 5,335 images |
@@ -133,4 +135,4 @@ Eye Disease Image Dataset. Mendeley Data, V1, 2024. doi:10.17632/s9bfhswzjb.1
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

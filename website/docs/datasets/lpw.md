@@ -3,7 +3,7 @@ id: lpw
 title: "LPW Labelled Pupils in the Wild"
 sidebar_label: lpw
 description: "High-speed head-mounted eye-region videos with pupil-center annotations under varied indoor, outdoor, eyewear, and lighting conditions."
-tags: ["eye_tracking", "research-only", "manual", "pupil_detection", "landmark_detection"]
+tags: ["eye_tracking", "research-only", "manual", "pupil_detection", "landmark_detection", "resource-role-current-dataset", "dataset-family-lpw"]
 ---
 
 
@@ -21,6 +21,8 @@ High-speed head-mounted eye-region videos with pupil-center annotations under va
 | **Short name** | `lpw` |
 | **Full name** | LPW Labelled Pupils in the Wild |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `lpw` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | pupil_detection, landmark_detection |
 | **Primary reported quantity** | 130,856 frames |

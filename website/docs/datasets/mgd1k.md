@@ -3,7 +3,7 @@ id: mgd1k
 title: "MGD-1k Meibomian Gland Dataset"
 sidebar_label: mgd1k
 description: "One thousand infrared meibography images with meibomian-gland masks, eyelid masks, and six rounds of expert meiboscore grading."
-tags: ["external_eye", "unknown", "github", "segmentation", "grading"]
+tags: ["external_eye", "unknown", "github", "segmentation", "grading", "resource-role-current-dataset", "dataset-family-mgd1k"]
 ---
 
 
@@ -21,6 +21,8 @@ One thousand infrared meibography images with meibomian-gland masks, eyelid mask
 | **Short name** | `mgd1k` |
 | **Full name** | MGD-1k Meibomian Gland Dataset |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mgd1k` |
 | **Contained modalities** | external_eye |
 | **Tasks** | segmentation, grading |
 | **Primary reported quantity** | 1,000 images |

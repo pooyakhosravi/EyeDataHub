@@ -3,7 +3,7 @@ id: mendeley_long_term_results_using_gelatin_microfistulae
 title: "Long-term results using gelatin microfistulae (XEN) implantation in glaucoma surgery."
 sidebar_label: mendeley_long_term_results_using_gelatin_microfistulae
 description: "Observation-level source data, annotations, or signals. from Glaucoma-surgery clinical observations are stated."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-long-term-results-using-gelatin-microfistulae"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Glaucoma-surgery cl
 | **Short name** | `mendeley_long_term_results_using_gelatin_microfistulae` |
 | **Full name** | Long-term results using gelatin microfistulae (XEN) implantation in glaucoma surgery. |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_long_term_results_using_gelatin_microfistulae` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

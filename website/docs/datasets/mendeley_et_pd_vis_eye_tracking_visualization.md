@@ -3,7 +3,7 @@ id: mendeley_et_pd_vis_eye_tracking_visualization
 title: "ET_PD_VIS: Eye Tracking Visualization Dataset on Trail Making Test for Parkinson’s Disease Analysis"
 sidebar_label: mendeley_et_pd_vis_eye_tracking_visualization
 description: "Observation-level source data, annotations, or signals. from The Parkinson disease and healthy-control gaze study is a human visual/gaze resource."
-tags: ["eye_tracking", "cc-by", "mendeley", "measurement"]
+tags: ["eye_tracking", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-et-pd-vis-eye-tracking-visualization"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from The Parkinson disea
 | **Short name** | `mendeley_et_pd_vis_eye_tracking_visualization` |
 | **Full name** | ET_PD_VIS: Eye Tracking Visualization Dataset on Trail Making Test for Parkinson’s Disease Analysis  |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_et_pd_vis_eye_tracking_visualization` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

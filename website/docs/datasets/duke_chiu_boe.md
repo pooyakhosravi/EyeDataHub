@@ -3,7 +3,7 @@ id: duke_chiu_boe
 title: "Duke OCT DME Dataset (Chiu BOE 2014)"
 sidebar_label: duke_chiu_boe
 description: "110 OCT B-scans from 10 DME subjects with 8 layer boundaries and fluid region annotations by 2 clinicians."
-tags: ["oct", "research-only", "direct", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "research-only", "direct", "segmentation", "resource-role-current-dataset", "dataset-family-duke-chiu-boe", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `duke_chiu_boe` |
 | **Full name** | Duke OCT DME Dataset (Chiu BOE 2014) |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `duke_chiu_boe` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 110 images |

@@ -3,7 +3,7 @@ id: mendeley_iscev_standard_full_field_erg_reference
 title: "ISCEV standard full-field ERG reference limits from 407 healthy subjects, derived from transference and validation of reference data between electrode types and centres"
 sidebar_label: mendeley_iscev_standard_full_field_erg_reference
 description: "Subject/eye-level full-field erg amplitude and peak-time measurements from Healthy volunteers and clinical-reference subjects at two centres."
-tags: ["electrophysiology", "cc-by", "mendeley", "measurement"]
+tags: ["electrophysiology", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-iscev-standard-full-field-erg-reference"]
 ---
 
 
@@ -21,6 +21,8 @@ Subject/eye-level full-field erg amplitude and peak-time measurements from Healt
 | **Short name** | `mendeley_iscev_standard_full_field_erg_reference` |
 | **Full name** | ISCEV standard full-field ERG reference limits from 407 healthy subjects, derived from transference and validation of reference data between electrode types and centres |
 | **Primary category** | `electrophysiology` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_iscev_standard_full_field_erg_reference` |
 | **Contained modalities** | electrophysiology |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 407 participants |

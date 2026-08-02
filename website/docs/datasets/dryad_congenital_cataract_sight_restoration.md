@@ -3,7 +3,7 @@ id: dryad_congenital_cataract_sight_restoration
 title: "Congenital Cataract Sight Restoration Dataset"
 sidebar_label: dryad_congenital_cataract_sight_restoration
 description: "Experiment tables and scripts evaluate postural stability and optic-flow sensitivity after sight restoration from congenital bilateral cataracts."
-tags: ["tabular", "cc0", "dryad", "measurement"]
+tags: ["tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-congenital-cataract-sight-restoration"]
 ---
 
 
@@ -21,6 +21,8 @@ Experiment tables and scripts evaluate postural stability and optic-flow sensiti
 | **Short name** | `dryad_congenital_cataract_sight_restoration` |
 | **Full name** | Congenital Cataract Sight Restoration Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_congenital_cataract_sight_restoration` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

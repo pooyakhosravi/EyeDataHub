@@ -3,7 +3,7 @@ id: mendeley_contrast_sensitivity_visual_acuity_multifocal_contact
 title: "Data for: Contrast sensitivity and visual acuity with multifocal contact lenses with high additions dedicated for myopia progression control"
 sidebar_label: mendeley_contrast_sensitivity_visual_acuity_multifocal_contact
 description: "Participant/eye-level visual-acuity and contrast-sensitivity measurements from Subjects wearing high-addition multifocal contact lenses for myopia-progression control."
-tags: ["tabular", "cc-by", "mendeley", "prediction"]
+tags: ["tabular", "cc-by", "mendeley", "prediction", "resource-role-current-dataset", "dataset-family-mendeley-contrast-sensitivity-visual-acuity-multifocal-contact"]
 ---
 
 
@@ -21,6 +21,8 @@ Participant/eye-level visual-acuity and contrast-sensitivity measurements from S
 | **Short name** | `mendeley_contrast_sensitivity_visual_acuity_multifocal_contact` |
 | **Full name** | Data for: Contrast sensitivity and visual acuity with multifocal contact lenses with high additions dedicated for myopia progression control  |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_contrast_sensitivity_visual_acuity_multifocal_contact` |
 | **Contained modalities** | tabular |
 | **Tasks** | prediction |
 | **Primary reported quantity** | Not reported |

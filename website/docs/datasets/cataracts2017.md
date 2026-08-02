@@ -3,7 +3,7 @@ id: cataracts2017
 title: "CATARACTS 2017: Surgical Tool Detection Challenge"
 sidebar_label: cataracts2017
 description: "50 cataract surgery videos (>9 hours total) with frame-level annotations of 21 surgical tools. Earlier and larger sibling to Cataract-1K."
-tags: ["surgical_video", "cc-by", "manual", "classification", "multilabel", "documented-relationship", "relationship-derived_from"]
+tags: ["surgical_video", "cc-by", "manual", "classification", "multilabel", "resource-role-current-dataset", "dataset-family-cataracts2017", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `cataracts2017` |
 | **Full name** | CATARACTS 2017: Surgical Tool Detection Challenge |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cataracts2017` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | classification, multilabel |
 | **Primary reported quantity** | 50 videos |

@@ -3,7 +3,7 @@ id: dryad_tb_uveitis_ifn
 title: "Type 1 interferon-inducible gene expression in QuantiFERON Gold TB-positive uveitis: a tool to stratify a high versus low risk of active tuberculosis?"
 sidebar_label: dryad_tb_uveitis_ifn
 description: "The human uveitis expression workbook has a stated 103-enrollment cohort and supports ocular biomarker classification."
-tags: ["omics", "tabular", "cc0", "dryad", "classification"]
+tags: ["omics", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-tb-uveitis-ifn"]
 ---
 
 
@@ -21,6 +21,8 @@ The human uveitis expression workbook has a stated 103-enrollment cohort and sup
 | **Short name** | `dryad_tb_uveitis_ifn` |
 | **Full name** | Type 1 interferon-inducible gene expression in QuantiFERON Gold TB-positive uveitis: a tool to stratify a high versus low risk of active tuberculosis? |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_tb_uveitis_ifn` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

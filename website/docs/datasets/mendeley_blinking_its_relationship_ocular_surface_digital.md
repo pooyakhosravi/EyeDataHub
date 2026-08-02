@@ -3,7 +3,7 @@ id: mendeley_blinking_its_relationship_ocular_surface_digital
 title: "Blinking and its relationship with the ocular surface and digital device use in school aged children"
 sidebar_label: mendeley_blinking_its_relationship_ocular_surface_digital
 description: "Observation-level human or human-derived measurements/signals. from 45 children aged 6–15 years."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-blinking-its-relationship-ocular-surface-digital"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from 45 children 
 | **Short name** | `mendeley_blinking_its_relationship_ocular_surface_digital` |
 | **Full name** | Blinking and its relationship with the ocular surface and digital device use in school aged children  |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_blinking_its_relationship_ocular_surface_digital` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 45 participants |

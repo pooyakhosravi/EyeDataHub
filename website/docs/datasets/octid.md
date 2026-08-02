@@ -3,7 +3,7 @@ id: octid
 title: "OCTID: OCT Image Database"
 sidebar_label: octid
 description: "500 OCT images: NORMAL (206), AMD (50), CSC (128), DR (59), MH (57). High-resolution B-scans for 5-class classification."
-tags: ["oct", "cc0", "manual", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "cc0", "manual", "classification", "resource-role-current-dataset", "dataset-family-octid", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `octid` |
 | **Full name** | OCTID: OCT Image Database |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `octid` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 500 images |

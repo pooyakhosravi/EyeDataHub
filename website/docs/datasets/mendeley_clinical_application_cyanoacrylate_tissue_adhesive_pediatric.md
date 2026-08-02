@@ -3,7 +3,7 @@ id: mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric
 title: "Clinical Application of Cyanoacrylate Tissue Adhesive in Pediatric Ophthalmic Emergency: A Randomized Controlled Study"
 sidebar_label: mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric
 description: "Observation-level source data, annotations, or signals. from Pediatric ophthalmic emergency randomized-study patients are stated."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-clinical-application-cyanoacrylate-tissue-adhesive-pediatric"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Pediatric ophthalmi
 | **Short name** | `mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric` |
 | **Full name** | Clinical Application of Cyanoacrylate Tissue Adhesive in Pediatric Ophthalmic Emergency: A Randomized Controlled Study |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

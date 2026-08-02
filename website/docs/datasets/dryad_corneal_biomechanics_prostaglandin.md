@@ -3,7 +3,7 @@ id: dryad_corneal_biomechanics_prostaglandin
 title: "Changes in corneal biomechanical properties after long-term topical prostaglandin therapy"
 sidebar_label: dryad_corneal_biomechanics_prostaglandin
 description: "This 88-eye human Corvis-ST workbook directly supports corneal measurement after glaucoma therapy."
-tags: ["corneal_topography", "tabular", "cc0", "dryad", "measurement"]
+tags: ["corneal_topography", "tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-corneal-biomechanics-prostaglandin"]
 ---
 
 
@@ -21,6 +21,8 @@ This 88-eye human Corvis-ST workbook directly supports corneal measurement after
 | **Short name** | `dryad_corneal_biomechanics_prostaglandin` |
 | **Full name** | Changes in corneal biomechanical properties after long-term topical prostaglandin therapy |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_corneal_biomechanics_prostaglandin` |
 | **Contained modalities** | corneal_topography, tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

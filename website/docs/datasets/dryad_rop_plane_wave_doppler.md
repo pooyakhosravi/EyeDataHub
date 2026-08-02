@@ -3,7 +3,7 @@ id: dryad_rop_plane_wave_doppler
 title: "ROP Plane-Wave Doppler Dataset"
 sidebar_label: dryad_rop_plane_wave_doppler
 description: "The ROP Doppler examination table is a defined direct neonatal retinal measurement resource."
-tags: ["tabular", "ocular_ultrasound", "cc0", "dryad", "measurement"]
+tags: ["tabular", "ocular_ultrasound", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-rop-plane-wave-doppler"]
 ---
 
 
@@ -21,6 +21,8 @@ The ROP Doppler examination table is a defined direct neonatal retinal measureme
 | **Short name** | `dryad_rop_plane_wave_doppler` |
 | **Full name** | ROP Plane-Wave Doppler Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_rop_plane_wave_doppler` |
 | **Contained modalities** | tabular, ocular_ultrasound |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

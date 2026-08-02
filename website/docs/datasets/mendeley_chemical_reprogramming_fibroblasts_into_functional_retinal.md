@@ -3,7 +3,7 @@ id: mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal
 title: "Chemical Reprogramming of Fibroblasts into Functional Retinal Pigment Epithelium Cells"
 sidebar_label: mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal
 description: "Human-derived cell experimental measurements from Human fibroblasts chemically reprogrammed into functional retinal pigment epithelium cells."
-tags: ["tabular", "cc-by", "mendeley", "prediction"]
+tags: ["tabular", "cc-by", "mendeley", "prediction", "resource-role-current-dataset", "dataset-family-mendeley-chemical-reprogramming-fibroblasts-into-functional-retinal"]
 ---
 
 
@@ -21,6 +21,8 @@ Human-derived cell experimental measurements from Human fibroblasts chemically r
 | **Short name** | `mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal` |
 | **Full name** | Chemical Reprogramming of Fibroblasts into Functional Retinal Pigment Epithelium Cells |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal` |
 | **Contained modalities** | tabular |
 | **Tasks** | prediction |
 | **Primary reported quantity** | Not reported |

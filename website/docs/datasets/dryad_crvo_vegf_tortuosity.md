@@ -3,7 +3,7 @@ id: dryad_crvo_vegf_tortuosity
 title: "CRVO Retinal Tortuosity and VEGF Dataset"
 sidebar_label: dryad_crvo_vegf_tortuosity
 description: "The 32-eye CRVO tortuosity/VEGF table is direct human retinal vascular disease data."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-crvo-vegf-tortuosity"]
 ---
 
 
@@ -21,6 +21,8 @@ The 32-eye CRVO tortuosity/VEGF table is direct human retinal vascular disease d
 | **Short name** | `dryad_crvo_vegf_tortuosity` |
 | **Full name** | CRVO Retinal Tortuosity and VEGF Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_crvo_vegf_tortuosity` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 32 eyes |

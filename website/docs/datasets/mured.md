@@ -3,7 +3,7 @@ id: mured
 title: "MuReD: Multi-label Retinal Diseases Dataset"
 sidebar_label: mured
 description: "2,208 color fundus images with 20-class multi-label disease annotations."
-tags: ["fundus", "cc-by", "mendeley", "multilabel", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "mendeley", "multilabel", "classification", "resource-role-derivative-dataset", "dataset-family-mured", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `mured` |
 | **Full name** | MuReD: Multi-label Retinal Diseases Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `mured` |
 | **Contained modalities** | fundus |
 | **Tasks** | multilabel, classification |
 | **Primary reported quantity** | 2,208 images |
@@ -135,4 +137,4 @@ Rodriguez MA, AlMarzouqi H, Liatsis P, 'Multi-label Retinal Disease Classificati
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

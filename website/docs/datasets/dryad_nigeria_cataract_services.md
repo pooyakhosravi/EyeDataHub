@@ -3,7 +3,7 @@ id: dryad_nigeria_cataract_services
 title: "Nigeria Cataract Services Dataset"
 sidebar_label: dryad_nigeria_cataract_services
 description: "The documented Nigerian cataract-service survey is direct human ophthalmic epidemiology data."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-nigeria-cataract-services"]
 ---
 
 
@@ -21,6 +21,8 @@ The documented Nigerian cataract-service survey is direct human ophthalmic epide
 | **Short name** | `dryad_nigeria_cataract_services` |
 | **Full name** | Nigeria Cataract Services Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_nigeria_cataract_services` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | Not reported |

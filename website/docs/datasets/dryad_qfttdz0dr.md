@@ -3,7 +3,7 @@ id: dryad_qfttdz0dr
 title: "Association of APOE gene polymorphisms with primary open angle glaucoma in Brazilian patients"
 sidebar_label: dryad_qfttdz0dr
 description: "Official Dryad deposit of source-described tabular ophthalmic data for the associated study."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-qfttdz0dr"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | **Short name** | `dryad_qfttdz0dr` |
 | **Full name** | Association of APOE gene polymorphisms with primary open angle glaucoma in Brazilian patients |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_qfttdz0dr` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 803 participants |

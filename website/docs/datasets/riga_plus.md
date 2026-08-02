@@ -3,7 +3,7 @@ id: riga_plus
 title: "RIGA+ Domain Adaptation Dataset"
 sidebar_label: riga_plus
 description: "RIGA/MESSIDOR-derived benchmark for optic disc and cup segmentation domain adaptation."
-tags: ["fundus", "cc-by", "zenodo", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "zenodo", "segmentation", "resource-role-derivative-dataset", "dataset-family-riga-plus", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ RIGA/MESSIDOR-derived benchmark for optic disc and cup segmentation domain adapt
 | **Short name** | `riga_plus` |
 | **Full name** | RIGA+ Domain Adaptation Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `riga_plus` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 1,461 images |
@@ -133,4 +135,4 @@ RIGA+ for domain adaptation. Zenodo, 2022. doi:10.5281/zenodo.6325549
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

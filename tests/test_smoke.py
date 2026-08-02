@@ -7,10 +7,13 @@ from click.testing import CliRunner
 import eyedatahub as edh
 from eyedatahub.cli import _resolve_datasets, main
 from eyedatahub.datasets.registry import REGISTRY
-from eyedatahub.datasets.scope_exclusions import CATALOG_SCOPE_EXCLUSIONS
+from eyedatahub.datasets.scope_exclusions import (
+    CATALOG_SCOPE_EXCLUSIONS,
+    DRYAD_SCOPE_EXCLUSIONS,
+)
 
 
-EXPECTED_DATASET_COUNT = 479
+EXPECTED_DATASET_COUNT = 475
 
 
 def test_registry_export_and_count():
@@ -401,8 +404,12 @@ def test_discovery_refresh_decision_log_matches_registry():
     assert (
         251
         + dryad_summary["final_decision_counts"]["included_new_record"]
-        - len(CATALOG_SCOPE_EXCLUSIONS)
+        - len(DRYAD_SCOPE_EXCLUSIONS)
         + repository_summary["overall_counts"]["included_new_record"]
+        # REFUGE 2018 and the two EyePACS repackages predate the repository
+        # sweep and are removed here. The raw glaucoma COT release is already
+        # removed from the repository included-new count above.
+        - 3
         == EXPECTED_DATASET_COUNT
     )
     included = {item["slug"] for item in log["included"]}

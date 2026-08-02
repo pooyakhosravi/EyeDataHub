@@ -3,7 +3,7 @@ id: mendeley_dex_combined_ppv_pdr
 title: "DEX combined PPV in PDR"
 sidebar_label: mendeley_dex_combined_ppv_pdr
 description: "Observation-level human or human-derived measurements/signals. from 104 eyes with advanced proliferative diabetic retinopathy in randomized trial."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-dex-combined-ppv-pdr"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from 104 eyes wit
 | **Short name** | `mendeley_dex_combined_ppv_pdr` |
 | **Full name** | DEX combined PPV in PDR |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_dex_combined_ppv_pdr` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 104 eyes |

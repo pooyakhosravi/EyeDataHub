@@ -3,7 +3,7 @@ id: duke_amd_chiu
 title: "Duke AMD Pathology OCT Segmentation Dataset"
 sidebar_label: duke_amd_chiu
 description: "Twenty OCT volumes with 220 selected B-scans from eyes with non-neovascular AMD, drusen, and geographic atrophy, including manual and automated pathology markings."
-tags: ["oct", "unknown", "manual", "segmentation", "measurement"]
+tags: ["oct", "unknown", "manual", "segmentation", "measurement", "resource-role-current-dataset", "dataset-family-duke-amd-chiu"]
 ---
 
 
@@ -21,6 +21,8 @@ Twenty OCT volumes with 220 selected B-scans from eyes with non-neovascular AMD,
 | **Short name** | `duke_amd_chiu` |
 | **Full name** | Duke AMD Pathology OCT Segmentation Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `duke_amd_chiu` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation, measurement |
 | **Primary reported quantity** | 20 volumes |

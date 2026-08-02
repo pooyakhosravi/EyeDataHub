@@ -3,7 +3,7 @@ id: dryad_stargardt_wes
 title: "Stargardt Disease WES Variant Dataset"
 sidebar_label: dryad_stargardt_wes
 description: "The 33-proband Stargardt variant table is a direct inherited-retinal-disease genomics resource."
-tags: ["omics", "cc0", "dryad", "classification"]
+tags: ["omics", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-stargardt-wes"]
 ---
 
 
@@ -21,6 +21,8 @@ The 33-proband Stargardt variant table is a direct inherited-retinal-disease gen
 | **Short name** | `dryad_stargardt_wes` |
 | **Full name** | Stargardt Disease WES Variant Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_stargardt_wes` |
 | **Contained modalities** | omics |
 | **Tasks** | classification |
 | **Primary reported quantity** | 33 participants |

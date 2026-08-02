@@ -3,7 +3,7 @@ id: dryad_corneal_laser_procedure
 title: "Corneal Laser Procedure for safety and efficacy in vision improvement"
 sidebar_label: dryad_corneal_laser_procedure
 description: "Two clinical workbooks cover 72 treated eyes and directly support surgical corneal outcome evaluation."
-tags: ["tabular", "cc0", "dryad", "evaluation"]
+tags: ["tabular", "cc0", "dryad", "evaluation", "resource-role-current-dataset", "dataset-family-dryad-corneal-laser-procedure"]
 ---
 
 
@@ -21,6 +21,8 @@ Two clinical workbooks cover 72 treated eyes and directly support surgical corne
 | **Short name** | `dryad_corneal_laser_procedure` |
 | **Full name** | Corneal Laser Procedure for safety and efficacy in vision improvement |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_corneal_laser_procedure` |
 | **Contained modalities** | tabular |
 | **Tasks** | evaluation |
 | **Primary reported quantity** | 72 eyes |

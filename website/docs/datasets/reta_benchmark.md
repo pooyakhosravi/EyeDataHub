@@ -3,7 +3,7 @@ id: reta_benchmark
 title: "RETA Benchmark for Retinal Vascular Tree Analysis"
 sidebar_label: reta_benchmark
 description: "Retinal vessel analysis benchmark with vessel masks, artery/vein masks and skeletons, bifurcation points, vascular trees, and abnormality annotations."
-tags: ["fundus", "cc-by", "figshare", "segmentation", "vessel_analysis", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "figshare", "segmentation", "vessel_analysis", "resource-role-annotation-layer", "dataset-family-reta-benchmark", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Retinal vessel analysis benchmark with vessel masks, artery/vein masks and skele
 | **Short name** | `reta_benchmark` |
 | **Full name** | RETA Benchmark for Retinal Vascular Tree Analysis |
 | **Primary category** | `fundus` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `reta_benchmark` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation, vessel_analysis |
 | **Primary reported quantity** | 81 images |
@@ -133,4 +135,4 @@ Lyu X, Cheng L, Zhang S. The RETA Benchmark for Retinal Vascular Tree Analysis. 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

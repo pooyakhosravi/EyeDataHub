@@ -3,7 +3,7 @@ id: mendeley_effect_central_hole_location_phakic_intraocular
 title: "Data for: Effect of Central Hole Location of Phakic Intraocular Lens on Visual Function under Progressive Headlight Glare Sources."
 sidebar_label: mendeley_effect_central_hole_location_phakic_intraocular
 description: "Participant/eye-level raw visual-function measurements from Human phakic-IOL study participants undergoing visual-function testing."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-effect-central-hole-location-phakic-intraocular"]
 ---
 
 
@@ -21,6 +21,8 @@ Participant/eye-level raw visual-function measurements from Human phakic-IOL stu
 | **Short name** | `mendeley_effect_central_hole_location_phakic_intraocular` |
 | **Full name** | Data for: Effect of Central Hole Location of Phakic Intraocular Lens on Visual Function under Progressive Headlight Glare Sources. |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_effect_central_hole_location_phakic_intraocular` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

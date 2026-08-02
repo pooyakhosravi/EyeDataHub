@@ -3,7 +3,7 @@ id: mendeley_retina_identification_database_ridb
 title: "Retina Identification Database (RIDB)"
 sidebar_label: mendeley_retina_identification_database_ridb
 description: "Human/derived image or image-annotation observations. from 20 individuals without retinal disease."
-tags: ["multimodal", "fundus", "tabular", "cc-by", "mendeley", "measurement"]
+tags: ["multimodal", "fundus", "tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-retina-identification-database-ridb"]
 ---
 
 
@@ -21,6 +21,8 @@ Human/derived image or image-annotation observations. from 20 individuals withou
 | **Short name** | `mendeley_retina_identification_database_ridb` |
 | **Full name** | Retina Identification Database (RIDB) |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_retina_identification_database_ridb` |
 | **Contained modalities** | fundus, tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 100 images |

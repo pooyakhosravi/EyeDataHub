@@ -3,7 +3,7 @@ id: mendeley_digital_holograms_rbcs_glaucoma_patients_healthy
 title: "Digital holograms of RBCs from the glaucoma patients and healthy controls"
 sidebar_label: mendeley_digital_holograms_rbcs_glaucoma_patients_healthy
 description: "Observation-level human or human-derived measurements/signals. from Red blood cells from glaucoma patients and healthy controls."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-digital-holograms-rbcs-glaucoma-patients-healthy"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Red blood ce
 | **Short name** | `mendeley_digital_holograms_rbcs_glaucoma_patients_healthy` |
 | **Full name** | Digital holograms of RBCs from the glaucoma patients and healthy controls |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_digital_holograms_rbcs_glaucoma_patients_healthy` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

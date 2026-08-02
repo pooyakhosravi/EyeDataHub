@@ -6,6 +6,26 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-08-02
+
+### Added
+
+- Added machine-readable resource roles and narrowly defined dataset-family
+  identifiers to the catalog exports and website.
+- Added a reproducible identity review with separate counts for current
+  datasets, derivatives, annotation layers, components, collections,
+  extensions, and task views.
+
+### Changed
+
+- Retained 475 current canonical records representing 470 narrowly defined
+  dataset families.
+- Moved two earlier versions and two unmodified cross-platform copies out of
+  the counted catalog and retained them as source-history or alternate-source
+  links on their current canonical records.
+- Updated the manuscript, Supplementary Information, figures, tables,
+  documentation, and machine-readable exports to use the identity review.
+
 ## [0.5.0] - 2026-08-02
 
 ### Added

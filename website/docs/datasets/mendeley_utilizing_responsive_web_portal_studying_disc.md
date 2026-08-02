@@ -3,7 +3,7 @@ id: mendeley_utilizing_responsive_web_portal_studying_disc
 title: "Data for: Utilizing A Responsive Web Portal For Studying Disc Tracing Agreement in Retinal Images"
 sidebar_label: mendeley_utilizing_responsive_web_portal_studying_disc
 description: "Observation-level source data, annotations, or signals. from Uses human retinal-image benchmarks; it contributes clinician disc tracings."
-tags: ["oct", "cc-by", "mendeley", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "cc-by", "mendeley", "segmentation", "resource-role-annotation-layer", "dataset-family-mendeley-utilizing-responsive-web-portal-studying-disc", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Uses human retinal-
 | **Short name** | `mendeley_utilizing_responsive_web_portal_studying_disc` |
 | **Full name** | Data for: Utilizing A Responsive Web Portal For Studying Disc Tracing Agreement in Retinal Images |
 | **Primary category** | `oct` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `mendeley_utilizing_responsive_web_portal_studying_disc` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |

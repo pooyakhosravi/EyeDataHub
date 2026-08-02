@@ -3,7 +3,7 @@ id: ocular_chat_vqa
 title: "OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset"
 sidebar_label: ocular_chat_vqa
 description: "844,000 simulated patient-physician dialogue rows generated from AREDS clinical visits. Enables ophthalmic dialogue and counseling VLM training."
-tags: ["multimodal", "text", "tabular", "cc-by-nc-sa", "huggingface", "classification"]
+tags: ["multimodal", "text", "tabular", "cc-by-nc-sa", "huggingface", "classification", "resource-role-current-dataset", "dataset-family-ocular-chat-vqa"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `ocular_chat_vqa` |
 | **Full name** | OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ocular_chat_vqa` |
 | **Contained modalities** | text, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | 844,000 records |

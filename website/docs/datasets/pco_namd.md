@@ -3,7 +3,7 @@ id: pco_namd
 title: "PCO-nAMD Paired CFP and OCT Dataset"
 sidebar_label: pco_namd
 description: "Paired color-fundus/OCT images with expert MNV subtype labels and treatment-response follow-up."
-tags: ["fundus", "cc-by", "figshare", "classification", "prediction"]
+tags: ["fundus", "cc-by", "figshare", "classification", "prediction", "resource-role-current-dataset", "dataset-family-pco-namd"]
 ---
 
 
@@ -21,6 +21,8 @@ Paired color-fundus/OCT images with expert MNV subtype labels and treatment-resp
 | **Short name** | `pco_namd` |
 | **Full name** | PCO-nAMD Paired CFP and OCT Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `pco_namd` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, prediction |
 | **Primary reported quantity** | 654 image pairs |
@@ -122,4 +124,4 @@ Repository dataset record. 10.6084/m9.figshare.32873501.v1.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

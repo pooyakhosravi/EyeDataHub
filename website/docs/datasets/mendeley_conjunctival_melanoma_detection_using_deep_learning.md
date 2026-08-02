@@ -3,7 +3,7 @@ id: mendeley_conjunctival_melanoma_detection_using_deep_learning
 title: "Conjunctival melanoma detection using deep learning in smartphone images"
 sidebar_label: mendeley_conjunctival_melanoma_detection_using_deep_learning
 description: "Human/derived image or image-annotation observations. from Human ocular anterior-segment images gathered from public web sources; source-level provenance remains limited."
-tags: ["tabular", "cc-by-nc", "mendeley", "segmentation"]
+tags: ["tabular", "cc-by-nc", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-conjunctival-melanoma-detection-using-deep-learning"]
 ---
 
 
@@ -21,6 +21,8 @@ Human/derived image or image-annotation observations. from Human ocular anterior
 | **Short name** | `mendeley_conjunctival_melanoma_detection_using_deep_learning` |
 | **Full name** | Conjunctival melanoma detection using deep learning in smartphone images |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_conjunctival_melanoma_detection_using_deep_learning` |
 | **Contained modalities** | tabular |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |

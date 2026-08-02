@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-08-02T11:42:40.943237+00:00",
-    "elapsed_seconds": 83.2,
+    "generated_at": "2026-08-02T20:22:49.720391+00:00",
+    "elapsed_seconds": 76.8,
     "command": "python.exe -m hub.audit.verify_urls",
     "package": "eyedatahub",
-    "package_version": "0.5.0",
-    "git_commit": "9110b0242a85fe25cfd0fa85cc21a14cdabf566e",
+    "package_version": "0.6.0",
+    "git_commit": "ac2459f294fcd14f4e167840dd5b19202accf94d",
     "git_dirty": true,
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "timeout_seconds": 30,
@@ -25,26 +25,19 @@
     }
   },
   "summary": {
-    "total": 479,
+    "total": 475,
     "by_status": {
-      "ok": 288,
-      "credentials_or_client_required": 176,
+      "ok": 285,
+      "credentials_or_client_required": 177,
       "forbidden": 10,
-      "ssl_error": 3,
-      "timeout": 1,
-      "connect_error": 1
+      "ssl_error": 3
     },
-    "broken_count": 5,
+    "broken_count": 3,
     "broken": [
       {
         "name": "stare",
         "status": "ssl_error",
         "url": "https://cecas.clemson.edu/~ahoover/stare/"
-      },
-      {
-        "name": "harvard_fairvision",
-        "status": "timeout",
-        "url": "https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k"
       },
       {
         "name": "drions_db",
@@ -55,11 +48,6 @@
         "name": "fire",
         "status": "ssl_error",
         "url": "https://projects.ics.forth.gr/cvrl/fire/"
-      },
-      {
-        "name": "mendeley_on_comparison_ocular_surface_disease_index",
-        "status": "connect_error",
-        "url": "https://data.mendeley.com/datasets/m7fzwvsm77"
       }
     ]
   },
@@ -154,7 +142,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid",
-      "content_length": "24162",
+      "content_length": "24167",
       "status": "ok"
     },
     {
@@ -194,30 +182,6 @@
       "status": "ok"
     },
     {
-      "name": "bidr",
-      "modality": "fundus",
-      "download_type": "kaggle",
-      "download_url": "https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy",
-      "url": "https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy",
-      "method": "GET(Range)",
-      "http_status": 200,
-      "final_url": "https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dr_arranged",
-      "modality": "fundus",
-      "download_type": "manual",
-      "download_url": "https://tianchi.aliyun.com/dataset/93926",
-      "url": "https://tianchi.aliyun.com/dataset/93926",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://tianchi.aliyun.com/dataset/93926",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "mmrdr",
       "modality": "multimodal",
       "download_type": "figshare",
@@ -227,18 +191,6 @@
       "http_status": 202,
       "final_url": "https://figshare.com/articles/dataset/MMRDR/29423747",
       "content_length": "2009",
-      "status": "ok"
-    },
-    {
-      "name": "refuge2018",
-      "modality": "fundus",
-      "download_type": "manual",
-      "download_url": "https://refuge.grand-challenge.org/",
-      "url": "https://refuge.grand-challenge.org/",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://refuge.grand-challenge.org/",
-      "content_length": null,
       "status": "ok"
     },
     {
@@ -334,7 +286,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1YdZm-sioiAbTdBRy4oej1q6tZL8Baft7/edit",
-      "content_length": "122742",
+      "content_length": "122326",
       "status": "ok"
     },
     {
@@ -478,7 +430,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://borealisdata.ca/dataverse/OCTID",
-      "content_length": "13012",
+      "content_length": "13010",
       "status": "ok"
     },
     {
@@ -490,7 +442,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/10Ys4xsw81evjHewZEvqHy4Kri0my8C2S/view",
-      "content_length": "122097",
+      "content_length": "121989",
       "status": "ok"
     },
     {
@@ -562,7 +514,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu/edit",
-      "content_length": "122429",
+      "content_length": "122460",
       "status": "ok"
     },
     {
@@ -790,7 +742,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/14XWD6kX0dVRfAyEc7FkZGKZibWEkvnyv/view",
-      "content_length": "122221",
+      "content_length": "122399",
       "status": "ok"
     },
     {
@@ -802,7 +754,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Qlkqj74SW8DJRKdYL_-ApC_0H5Z7uyvr/view",
-      "content_length": "122089",
+      "content_length": "122263",
       "status": "ok"
     },
     {
@@ -814,7 +766,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Uz5x0aqXb0aecjzNWQ4522oCxaRDZxBt/view",
-      "content_length": "122095",
+      "content_length": "122160",
       "status": "ok"
     },
     {
@@ -826,7 +778,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view",
-      "content_length": "122313",
+      "content_length": "122333",
       "status": "ok"
     },
     {
@@ -838,7 +790,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view",
-      "content_length": "122357",
+      "content_length": "122171",
       "status": "ok"
     },
     {
@@ -850,7 +802,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view",
-      "content_length": "122365",
+      "content_length": "122458",
       "status": "ok"
     },
     {
@@ -1003,7 +955,11 @@
       "download_type": "manual",
       "download_url": "https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k",
       "url": "https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k",
-      "status": "timeout"
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://ophai.hms.harvard.edu/code/fairvision/",
+      "content_length": null,
+      "status": "ok"
     },
     {
       "name": "oct5k",
@@ -1380,7 +1336,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/octa-500",
-      "content_length": "17719",
+      "content_length": "17717",
       "status": "ok"
     },
     {
@@ -1392,7 +1348,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset",
-      "content_length": "17395",
+      "content_length": "17372",
       "status": "ok"
     },
     {
@@ -1404,7 +1360,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/cataracts",
-      "content_length": "18232",
+      "content_length": "18240",
       "status": "ok"
     },
     {
@@ -2992,18 +2948,6 @@
       "status": "ok"
     },
     {
-      "name": "glaucoma_expert_cot_raw",
-      "modality": "fundus",
-      "download_type": "huggingface",
-      "download_url": "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077",
-      "url": "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077",
-      "content_length": "621789",
-      "status": "ok"
-    },
-    {
       "name": "glaucoma_expert_cot_refined",
       "modality": "fundus",
       "download_type": "huggingface",
@@ -3765,12 +3709,11 @@
       "download_type": "manual",
       "download_url": "https://data.mendeley.com/datasets/m7fzwvsm77",
       "url": "https://data.mendeley.com/datasets/m7fzwvsm77",
-      "method": "HEAD",
+      "method": "GET(stream)",
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/m7fzwvsm77",
       "content_length": null,
-      "status": "connect_error",
-      "error": "('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+      "status": "credentials_or_client_required"
     },
     {
       "name": "mendeley_micro_go_study_transcriptional_profiling_orbital",
@@ -5626,7 +5569,7 @@
       "download_type": "manual",
       "download_url": "https://tsapps.nist.gov/BDbC/Search/Details/371",
       "url": "https://tsapps.nist.gov/BDbC/Search/Details/371",
-      "method": "HEAD",
+      "method": "GET(Range)",
       "http_status": 200,
       "final_url": "https://tsapps.nist.gov/BDbC/Search/Details/371",
       "content_length": null,
@@ -5641,7 +5584,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/diabetic-retinopathy-fundus-image-datasetagar300",
-      "content_length": "18001",
+      "content_length": "18007",
       "status": "ok"
     },
     {

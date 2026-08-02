@@ -3,7 +3,7 @@ id: mendeley_efficacy_combined_orthokeratology_0_01_atropine
 title: "Dataset for: Efficacy of combined orthokeratology and 0.01% atropine solution for slowing axial elongation in children with myopia: a 2-year randomised trial"
 sidebar_label: mendeley_efficacy_combined_orthokeratology_0_01_atropine
 description: "Observation-level human or human-derived measurements/signals. from Children completing a two-year orthokeratology/atropine trial."
-tags: ["corneal_topography", "cc-by", "mendeley", "measurement"]
+tags: ["corneal_topography", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-efficacy-combined-orthokeratology-0-01-atropine"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Children com
 | **Short name** | `mendeley_efficacy_combined_orthokeratology_0_01_atropine` |
 | **Full name** | Dataset for: Efficacy of combined orthokeratology and 0.01% atropine solution for slowing axial elongation in children with myopia: a 2-year randomised trial |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_efficacy_combined_orthokeratology_0_01_atropine` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

@@ -3,7 +3,7 @@ id: mendeley_proteomic_analysis_human_autoimmune_retinopathy_air
 title: "Proteomic analysis of human autoimmune retinopathy (AIR) vitreous"
 sidebar_label: mendeley_proteomic_analysis_human_autoimmune_retinopathy_air
 description: "Observation-level human or human-derived measurements/signals. from Vitreous from two AIR patients and three macular-hole controls."
-tags: ["omics", "cc-by", "mendeley", "classification"]
+tags: ["omics", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-proteomic-analysis-human-autoimmune-retinopathy-air"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Vitreous fro
 | **Short name** | `mendeley_proteomic_analysis_human_autoimmune_retinopathy_air` |
 | **Full name** | Proteomic analysis of human autoimmune retinopathy (AIR) vitreous |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_proteomic_analysis_human_autoimmune_retinopathy_air` |
 | **Contained modalities** | omics |
 | **Tasks** | classification |
 | **Primary reported quantity** | 5 participants |

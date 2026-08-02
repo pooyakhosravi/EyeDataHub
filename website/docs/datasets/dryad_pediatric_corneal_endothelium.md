@@ -3,7 +3,7 @@ id: dryad_pediatric_corneal_endothelium
 title: "Corneal endothelial morphology of healthy myopic Malaysian children of Chinese ethnicity aged 8-9 years and its association with axial length"
 sidebar_label: dryad_pediatric_corneal_endothelium
 description: "The 111-participant raw corneal endothelial dataset is direct pediatric ocular-biometric data."
-tags: ["corneal_topography", "tabular", "cc0", "dryad", "measurement"]
+tags: ["corneal_topography", "tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-pediatric-corneal-endothelium"]
 ---
 
 
@@ -21,6 +21,8 @@ The 111-participant raw corneal endothelial dataset is direct pediatric ocular-b
 | **Short name** | `dryad_pediatric_corneal_endothelium` |
 | **Full name** | Corneal endothelial morphology of healthy myopic Malaysian children of Chinese ethnicity aged 8-9 years and its association with axial length |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_pediatric_corneal_endothelium` |
 | **Contained modalities** | corneal_topography, tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 111 participants |

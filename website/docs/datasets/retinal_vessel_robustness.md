@@ -3,7 +3,7 @@ id: retinal_vessel_robustness
 title: "Natural Robustness Benchmark for Retinal Vessel Segmentation"
 sidebar_label: retinal_vessel_robustness
 description: "Augmented DRIVE, STARE, and CHASE_DB1 vessel-segmentation images for out-of-distribution robustness evaluation."
-tags: ["fundus", "mit", "zenodo", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "mit", "zenodo", "segmentation", "resource-role-derivative-dataset", "dataset-family-retinal-vessel-robustness", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Augmented DRIVE, STARE, and CHASE_DB1 vessel-segmentation images for out-of-dist
 | **Short name** | `retinal_vessel_robustness` |
 | **Full name** | Natural Robustness Benchmark for Retinal Vessel Segmentation |
 | **Primary category** | `fundus` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `retinal_vessel_robustness` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 13,024 images |
@@ -135,4 +137,4 @@ Evaluation benchmark for natural robustness evaluation of retinal vessel segment
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

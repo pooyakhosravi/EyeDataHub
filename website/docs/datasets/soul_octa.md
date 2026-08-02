@@ -3,7 +3,7 @@ id: soul_octa
 title: "SOUL: OCTA Human-Machine Collaborative Annotation Dataset"
 sidebar_label: soul_octa
 description: "Longitudinal OCT angiography projection maps with vessel labels, clinical text, and treatment/follow-up groupings."
-tags: ["octa", "text", "tabular", "cc-by", "figshare", "segmentation", "classification", "progression_analysis"]
+tags: ["octa", "text", "tabular", "cc-by", "figshare", "segmentation", "classification", "progression_analysis", "resource-role-current-dataset", "dataset-family-soul-octa"]
 ---
 
 
@@ -21,6 +21,8 @@ Longitudinal OCT angiography projection maps with vessel labels, clinical text, 
 | **Short name** | `soul_octa` |
 | **Full name** | SOUL: OCTA Human-Machine Collaborative Annotation Dataset |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `soul_octa` |
 | **Contained modalities** | octa, text, tabular |
 | **Tasks** | segmentation, classification, progression_analysis |
 | **Primary reported quantity** | 178 longitudinal samples |

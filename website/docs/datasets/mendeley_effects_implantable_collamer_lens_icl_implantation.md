@@ -3,7 +3,7 @@ id: mendeley_effects_implantable_collamer_lens_icl_implantation
 title: "The effects of implantable collamer lens ICL implantation in high myopia patients’ mental health"
 sidebar_label: mendeley_effects_implantable_collamer_lens_icl_implantation
 description: "Observation-level human or human-derived measurements/signals. from 43 ICL-surgery patients."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-effects-implantable-collamer-lens-icl-implantation"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from 43 ICL-surge
 | **Short name** | `mendeley_effects_implantable_collamer_lens_icl_implantation` |
 | **Full name** | The effects of implantable collamer lens ICL implantation in high myopia patients’ mental health |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_effects_implantable_collamer_lens_icl_implantation` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 43 participants |

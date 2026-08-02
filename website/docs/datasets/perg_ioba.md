@@ -3,7 +3,7 @@ id: perg_ioba
 title: "PERG-IOBA Ocular Electrophysiology Dataset"
 sidebar_label: perg_ioba
 description: "Transient pattern electroretinogram responses from 304 subjects in 336 records with clinical metadata."
-tags: ["electrophysiology", "tabular", "odc-by", "physionet", "classification", "regression"]
+tags: ["electrophysiology", "tabular", "odc-by", "physionet", "classification", "regression", "resource-role-current-dataset", "dataset-family-perg-ioba"]
 ---
 
 
@@ -21,6 +21,8 @@ Transient pattern electroretinogram responses from 304 subjects in 336 records w
 | **Short name** | `perg_ioba` |
 | **Full name** | PERG-IOBA Ocular Electrophysiology Dataset |
 | **Primary category** | `electrophysiology` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `perg_ioba` |
 | **Contained modalities** | electrophysiology, tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 1,354 signals |

@@ -3,7 +3,7 @@ id: ochid
 title: "OCHID: OCT Choroidal Image Dataset"
 sidebar_label: ochid
 description: "A collection of 640 retinal OCT images with expert choroidal region annotations for choroid segmentation."
-tags: ["oct", "research-only", "manual", "segmentation"]
+tags: ["oct", "research-only", "manual", "segmentation", "resource-role-current-dataset", "dataset-family-ochid"]
 ---
 
 
@@ -21,6 +21,8 @@ A collection of 640 retinal OCT images with expert choroidal region annotations 
 | **Short name** | `ochid` |
 | **Full name** | OCHID: OCT Choroidal Image Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ochid` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 640 images |

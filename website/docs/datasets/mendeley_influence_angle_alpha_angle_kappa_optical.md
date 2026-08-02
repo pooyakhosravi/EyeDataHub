@@ -3,7 +3,7 @@ id: mendeley_influence_angle_alpha_angle_kappa_optical
 title: "The influence of angle alpha, angle kappa and optical aberra-tions on the visual outcomes after implantation of a high-addition trifocal IOL_2021"
 sidebar_label: mendeley_influence_angle_alpha_angle_kappa_optical
 description: "Observation-level human or human-derived measurements/signals. from 28 cataract patients (56 eyes) after trifocal IOL implantation."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-influence-angle-alpha-angle-kappa-optical"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from 28 cataract 
 | **Short name** | `mendeley_influence_angle_alpha_angle_kappa_optical` |
 | **Full name** | The influence of angle alpha, angle kappa and optical aberra-tions on the visual outcomes after implantation of a high-addition trifocal IOL_2021 |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_influence_angle_alpha_angle_kappa_optical` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 56 eyes |

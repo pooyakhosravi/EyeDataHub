@@ -3,7 +3,7 @@ id: mendeley_evaluation_dry_eye_severity_ocular_surface
 title: "Evaluation of dry eye severity and ocular surface inflammation in patients with pemphigus and pemphigoid"
 sidebar_label: mendeley_evaluation_dry_eye_severity_ocular_surface
 description: "Observation-level human or human-derived measurements/signals. from 22 pemphigus/pemphigoid patients and 21 controls."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-evaluation-dry-eye-severity-ocular-surface"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from 22 pemphigus
 | **Short name** | `mendeley_evaluation_dry_eye_severity_ocular_surface` |
 | **Full name** | Evaluation of dry eye severity and ocular surface inflammation in patients with pemphigus and pemphigoid |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_evaluation_dry_eye_severity_ocular_surface` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

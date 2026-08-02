@@ -3,7 +3,7 @@ id: dryad_shanghai_myopia_2014_2018
 title: "Age-related change of axial length, spherical equivalent, prevalence of myopia and high myopia in school-age children in Shanghai: 2014 to 2018"
 sidebar_label: dryad_shanghai_myopia_2014_2018
 description: "The named DATA.xls and README define a human pediatric ocular-biometry cohort even though the deposit does not state one primary total."
-tags: ["tabular", "cc0", "dryad", "measurement"]
+tags: ["tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-shanghai-myopia-2014-2018"]
 ---
 
 
@@ -21,6 +21,8 @@ The named DATA.xls and README define a human pediatric ocular-biometry cohort ev
 | **Short name** | `dryad_shanghai_myopia_2014_2018` |
 | **Full name** | Age-related change of axial length, spherical equivalent, prevalence of myopia and high myopia in school-age children in Shanghai: 2014 to 2018 |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_shanghai_myopia_2014_2018` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

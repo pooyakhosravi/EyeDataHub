@@ -3,7 +3,7 @@ id: mendeley_optical_coherence_tomography_oct_images_proliferative
 title: "Optical Coherence Tomography (OCT) Images of Proliferative Vitreoretinopathy, Uveitis, and Normal Eyes"
 sidebar_label: mendeley_optical_coherence_tomography_oct_images_proliferative
 description: "Oct image-level disease/normal observations from OCT images labelled as proliferative vitreoretinopathy, uveitis, and normal eyes imply clinical human eye imaging."
-tags: ["oct", "cc-by", "manual", "measurement"]
+tags: ["oct", "cc-by", "manual", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-optical-coherence-tomography-oct-images-proliferative"]
 ---
 
 
@@ -21,6 +21,8 @@ Oct image-level disease/normal observations from OCT images labelled as prolifer
 | **Short name** | `mendeley_optical_coherence_tomography_oct_images_proliferative` |
 | **Full name** | Optical Coherence Tomography (OCT) Images of Proliferative Vitreoretinopathy, Uveitis, and Normal Eyes |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_optical_coherence_tomography_oct_images_proliferative` |
 | **Contained modalities** | oct |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

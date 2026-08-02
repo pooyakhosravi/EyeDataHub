@@ -3,7 +3,7 @@ id: dryad_optic_neuritis_metacontrast
 title: "Dichoptic metacontrast masking functions to infer transmission delay in optic neuritis"
 sidebar_label: dryad_optic_neuritis_metacontrast
 description: "The 17-participant optic-neuritis psychophysics archive is a direct human visual-function evaluation resource."
-tags: ["tabular", "cc0", "dryad", "evaluation"]
+tags: ["tabular", "cc0", "dryad", "evaluation", "resource-role-current-dataset", "dataset-family-dryad-optic-neuritis-metacontrast"]
 ---
 
 
@@ -21,6 +21,8 @@ The 17-participant optic-neuritis psychophysics archive is a direct human visual
 | **Short name** | `dryad_optic_neuritis_metacontrast` |
 | **Full name** | Dichoptic metacontrast masking functions to infer transmission delay in optic neuritis |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_optic_neuritis_metacontrast` |
 | **Contained modalities** | tabular |
 | **Tasks** | evaluation |
 | **Primary reported quantity** | Not reported |

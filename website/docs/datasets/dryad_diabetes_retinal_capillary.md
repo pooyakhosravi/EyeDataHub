@@ -3,7 +3,7 @@ id: dryad_diabetes_retinal_capillary
 title: "Diabetes Retinal Capillary Rarefaction Dataset"
 sidebar_label: dryad_diabetes_retinal_capillary
 description: "The human diabetic retinal-capillary case-control measurements directly support retinal vascular analysis."
-tags: ["fundus", "tabular", "cc0", "dryad", "vessel_analysis", "regression"]
+tags: ["fundus", "tabular", "cc0", "dryad", "vessel_analysis", "regression", "resource-role-current-dataset", "dataset-family-dryad-diabetes-retinal-capillary"]
 ---
 
 
@@ -21,6 +21,8 @@ The human diabetic retinal-capillary case-control measurements directly support 
 | **Short name** | `dryad_diabetes_retinal_capillary` |
 | **Full name** | Diabetes Retinal Capillary Rarefaction Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_diabetes_retinal_capillary` |
 | **Contained modalities** | fundus, tabular |
 | **Tasks** | vessel_analysis, regression |
 | **Primary reported quantity** | 73 participants |

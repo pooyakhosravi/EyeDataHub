@@ -3,7 +3,7 @@ id: retinal_photoplethysmography_rnfl
 title: "Retinal Photoplethysmography and RNFL Dataset"
 sidebar_label: retinal_photoplethysmography_rnfl
 description: "Human retinal photoplethysmography and retinal-nerve-fiber-layer measurements."
-tags: ["oct", "cc-by", "figshare", "measurement"]
+tags: ["oct", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-retinal-photoplethysmography-rnfl"]
 ---
 
 
@@ -21,6 +21,8 @@ Human retinal photoplethysmography and retinal-nerve-fiber-layer measurements.
 | **Short name** | `retinal_photoplethysmography_rnfl` |
 | **Full name** | Retinal Photoplethysmography and RNFL Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `retinal_photoplethysmography_rnfl` |
 | **Contained modalities** | oct |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

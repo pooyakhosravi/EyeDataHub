@@ -3,7 +3,7 @@ id: fovea
 title: "FOVEA: Pre/Intra-Operative Fundus + Biomicroscopy"
 sidebar_label: fovea
 description: "40 patients with paired pre-operative fundus images and intra-operative biomicroscopy video clips. Annotated for optic disc and vessel segmentation across domains."
-tags: ["multimodal", "fundus", "surgical_video", "cc-by", "figshare", "segmentation"]
+tags: ["multimodal", "fundus", "surgical_video", "cc-by", "figshare", "segmentation", "resource-role-current-dataset", "dataset-family-fovea"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `fovea` |
 | **Full name** | FOVEA: Pre/Intra-Operative Fundus + Biomicroscopy |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fovea` |
 | **Contained modalities** | fundus, surgical_video |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 40 participants |

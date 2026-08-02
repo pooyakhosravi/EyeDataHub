@@ -3,7 +3,7 @@ id: goblet_cell_segmentation
 title: "Human Conjunctival Goblet Cell Segmentation Dataset"
 sidebar_label: goblet_cell_segmentation
 description: "Phase-contrast microscopy fields of cultured human conjunctival goblet cells with semantic and instance-compatible masks."
-tags: ["cell_microscopy", "cc-by", "zenodo", "segmentation", "counting"]
+tags: ["cell_microscopy", "cc-by", "zenodo", "segmentation", "counting", "resource-role-current-dataset", "dataset-family-goblet-cell-segmentation"]
 ---
 
 
@@ -21,6 +21,8 @@ Phase-contrast microscopy fields of cultured human conjunctival goblet cells wit
 | **Short name** | `goblet_cell_segmentation` |
 | **Full name** | Human Conjunctival Goblet Cell Segmentation Dataset |
 | **Primary category** | `cell_microscopy` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `goblet_cell_segmentation` |
 | **Contained modalities** | cell_microscopy |
 | **Tasks** | segmentation, counting |
 | **Primary reported quantity** | 24 images |

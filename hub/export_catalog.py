@@ -13,7 +13,7 @@ from eyedatahub.datasets.registry import REGISTRY
 
 
 CATALOG_CUTOFF = "2026-08-02"
-CATALOG_RECORD_COUNT = 479
+CATALOG_RECORD_COUNT = 475
 
 
 def _csv_value(value: Any) -> Any:

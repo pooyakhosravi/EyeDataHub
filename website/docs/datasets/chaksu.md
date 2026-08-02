@@ -3,7 +3,7 @@ id: chaksu
 title: "CHAKSU: Multi-Device Glaucoma Fundus Dataset"
 sidebar_label: chaksu
 description: "1,345 fundus images captured across multiple camera manufacturers with OD/OC segmentation + glaucoma classification labels."
-tags: ["fundus", "cc-by", "figshare", "classification", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "figshare", "classification", "segmentation", "resource-role-current-dataset", "dataset-family-chaksu", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `chaksu` |
 | **Full name** | CHAKSU: Multi-Device Glaucoma Fundus Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `chaksu` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 1,345 images |
@@ -129,4 +131,4 @@ Kumar et al., 'CHAKSU: A glaucoma-specific fundus image database', Scientific Da
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

@@ -3,7 +3,7 @@ id: nd_iris_0405
 title: "ND-IRIS-0405 Iris Image Dataset"
 sidebar_label: nd_iris_0405
 description: "Longitudinal near-infrared iris images with subject, eye, age, sex, and ethnicity metadata used in ICE iris-recognition evaluations."
-tags: ["iris_biometrics", "research-only", "manual", "biometric_recognition", "classification", "demographic_analysis"]
+tags: ["iris_biometrics", "research-only", "manual", "biometric_recognition", "classification", "demographic_analysis", "resource-role-current-dataset", "dataset-family-nd-iris-0405"]
 ---
 
 
@@ -21,6 +21,8 @@ Longitudinal near-infrared iris images with subject, eye, age, sex, and ethnicit
 | **Short name** | `nd_iris_0405` |
 | **Full name** | ND-IRIS-0405 Iris Image Dataset |
 | **Primary category** | `iris_biometrics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `nd_iris_0405` |
 | **Contained modalities** | iris_biometrics |
 | **Tasks** | biometric_recognition, classification, demographic_analysis |
 | **Primary reported quantity** | 64,980 images |

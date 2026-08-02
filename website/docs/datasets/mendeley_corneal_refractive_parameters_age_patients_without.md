@@ -3,7 +3,7 @@ id: mendeley_corneal_refractive_parameters_age_patients_without
 title: "corneal refractive parameters with age in patients without corneal diseases based on Fourier analysis"
 sidebar_label: mendeley_corneal_refractive_parameters_age_patients_without
 description: "Observation-level human or human-derived measurements/signals. from 2,545 patients without corneal disease (5,074 eyes)."
-tags: ["corneal_topography", "cc-by", "mendeley", "classification"]
+tags: ["corneal_topography", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-corneal-refractive-parameters-age-patients-without"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from 2,545 patien
 | **Short name** | `mendeley_corneal_refractive_parameters_age_patients_without` |
 | **Full name** | corneal refractive parameters with age in patients without corneal diseases based on Fourier analysis  |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_corneal_refractive_parameters_age_patients_without` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | classification |
 | **Primary reported quantity** | 2,545 participants |

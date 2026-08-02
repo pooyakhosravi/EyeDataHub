@@ -3,7 +3,7 @@ id: sustech_sysu_corneal_ulcers
 title: "SUSTech-SYSU Corneal Ulcer Dataset"
 sidebar_label: sustech_sysu_corneal_ulcers
 description: "Human corneal-ulcer clinical images and labels."
-tags: ["external_eye", "cc-by", "figshare", "classification"]
+tags: ["external_eye", "cc-by", "figshare", "classification", "resource-role-current-dataset", "dataset-family-sustech-sysu-corneal-ulcers"]
 ---
 
 
@@ -21,6 +21,8 @@ Human corneal-ulcer clinical images and labels.
 | **Short name** | `sustech_sysu_corneal_ulcers` |
 | **Full name** | SUSTech-SYSU Corneal Ulcer Dataset |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `sustech_sysu_corneal_ulcers` |
 | **Contained modalities** | external_eye |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

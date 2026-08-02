@@ -3,7 +3,7 @@ id: retouch
 title: "RETOUCH: RETinal OCT Fluid Challenge"
 sidebar_label: retouch
 description: "112 OCT volumes from three vendors (Cirrus / Spectralis / Topcon) with pixel-level segmentation of intraretinal fluid (IRF), subretinal fluid (SRF), and pigment epithelium detachment (PED)."
-tags: ["oct", "research-only", "manual", "segmentation"]
+tags: ["oct", "research-only", "manual", "segmentation", "resource-role-current-dataset", "dataset-family-retouch"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `retouch` |
 | **Full name** | RETOUCH: RETinal OCT Fluid Challenge |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `retouch` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 112 volumes |

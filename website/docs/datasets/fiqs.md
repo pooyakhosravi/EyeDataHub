@@ -3,7 +3,7 @@ id: fiqs
 title: "FIQS: Fundus Image Quality Scores Dataset"
 sidebar_label: fiqs
 description: "A set of 2,246 fundus images with continuous mean opinion scores from 0 to 100, three quality grades, and the individual scores of six ophthalmologists."
-tags: ["fundus", "cc-by", "figshare", "quality", "grading", "regression"]
+tags: ["fundus", "cc-by", "figshare", "quality", "grading", "regression", "resource-role-current-dataset", "dataset-family-fiqs"]
 ---
 
 
@@ -21,6 +21,8 @@ A set of 2,246 fundus images with continuous mean opinion scores from 0 to 100, 
 | **Short name** | `fiqs` |
 | **Full name** | FIQS: Fundus Image Quality Scores Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fiqs` |
 | **Contained modalities** | fundus |
 | **Tasks** | quality, grading, regression |
 | **Primary reported quantity** | 2,246 images |
@@ -127,4 +129,4 @@ Gong Z. FIQS Dataset (Fundus Image Quality Scores). Figshare. 2025. doi:10.6084/
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

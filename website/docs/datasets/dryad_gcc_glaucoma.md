@@ -3,7 +3,7 @@ id: dryad_gcc_glaucoma
 title: "Glaucoma Ganglion Cell Complex Clinical Dataset"
 sidebar_label: dryad_gcc_glaucoma
 description: "Eye-level demographics, clinical measurements, and SD-OCT-derived macular ganglion-cell-complex thickness for glaucoma assessment."
-tags: ["tabular", "cc0", "dryad", "classification", "regression"]
+tags: ["tabular", "cc0", "dryad", "classification", "regression", "resource-role-current-dataset", "dataset-family-dryad-gcc-glaucoma"]
 ---
 
 
@@ -21,6 +21,8 @@ Eye-level demographics, clinical measurements, and SD-OCT-derived macular gangli
 | **Short name** | `dryad_gcc_glaucoma` |
 | **Full name** | Glaucoma Ganglion Cell Complex Clinical Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_gcc_glaucoma` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 406 eyes |

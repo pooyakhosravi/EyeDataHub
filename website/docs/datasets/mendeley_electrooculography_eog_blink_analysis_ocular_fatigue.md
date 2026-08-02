@@ -3,7 +3,7 @@ id: mendeley_electrooculography_eog_blink_analysis_ocular_fatigue
 title: "Electrooculography (EOG) Dataset for Blink Analysis and Ocular Fatigue Detection"
 sidebar_label: mendeley_electrooculography_eog_blink_analysis_ocular_fatigue
 description: "Observation-level human or human-derived measurements/signals. from Four human participants."
-tags: ["tabular", "cc-by", "mendeley", "classification"]
+tags: ["tabular", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-electrooculography-eog-blink-analysis-ocular-fatigue"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Four human p
 | **Short name** | `mendeley_electrooculography_eog_blink_analysis_ocular_fatigue` |
 | **Full name** | Electrooculography (EOG) Dataset for Blink Analysis and Ocular Fatigue Detection |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_electrooculography_eog_blink_analysis_ocular_fatigue` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | 4 participants |

@@ -3,7 +3,7 @@ id: mendeley_comparison_ocular_biometry_using_new_opticalcoherence
 title: "Comparison of ocular biometry using new OpticalCoherence Tomography-based Optical Biometer with Other Device."
 sidebar_label: mendeley_comparison_ocular_biometry_using_new_opticalcoherence
 description: "Eye-level device biometry measurements from Human ocular-biometry comparison study."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-comparison-ocular-biometry-using-new-opticalcoherence"]
 ---
 
 
@@ -21,6 +21,8 @@ Eye-level device biometry measurements from Human ocular-biometry comparison stu
 | **Short name** | `mendeley_comparison_ocular_biometry_using_new_opticalcoherence` |
 | **Full name** | Comparison of ocular biometry using new OpticalCoherence Tomography-based Optical Biometer with Other Device.  |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_comparison_ocular_biometry_using_new_opticalcoherence` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

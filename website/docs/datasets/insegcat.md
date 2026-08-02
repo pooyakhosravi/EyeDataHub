@@ -3,7 +3,7 @@ id: insegcat
 title: "InSegCat: Instance Segmentation for Cataract Surgery"
 sidebar_label: insegcat
 description: "Two COCO-format instance-segmentation datasets derived from cataract surgery videos, covering instruments and anatomical structures."
-tags: ["surgical_video", "research-only", "manual", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["surgical_video", "research-only", "manual", "segmentation", "resource-role-annotation-layer", "dataset-family-insegcat", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Two COCO-format instance-segmentation datasets derived from cataract surgery vid
 | **Short name** | `insegcat` |
 | **Full name** | InSegCat: Instance Segmentation for Cataract Surgery |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `insegcat` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 5,581 annotated images |

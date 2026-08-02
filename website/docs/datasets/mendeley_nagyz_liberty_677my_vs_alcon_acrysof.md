@@ -3,7 +3,7 @@ id: mendeley_nagyz_liberty_677my_vs_alcon_acrysof
 title: "NagyZ_Liberty 677MY vs. Alcon AcrySof"
 sidebar_label: mendeley_nagyz_liberty_677my_vs_alcon_acrysof
 description: "Observation-level human or human-derived measurements/signals. from 50 cataract patients (100 eyes)."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-nagyz-liberty-677my-vs-alcon-acrysof"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from 50 cataract 
 | **Short name** | `mendeley_nagyz_liberty_677my_vs_alcon_acrysof` |
 | **Full name** | NagyZ_Liberty 677MY vs. Alcon AcrySof |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_nagyz_liberty_677my_vs_alcon_acrysof` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 100 eyes |

@@ -3,7 +3,7 @@ id: ut_fsocta
 title: "UTHealth Fundus and Synthetic OCTA Dataset"
 sidebar_label: ut_fsocta
 description: "Fundus and synthetic OCTA vessel-segmentation resource for domain-transfer research."
-tags: ["multimodal", "fundus", "octa", "unknown", "zenodo", "segmentation"]
+tags: ["multimodal", "fundus", "octa", "unknown", "zenodo", "segmentation", "resource-role-current-dataset", "dataset-family-ut-fsocta"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus and synthetic OCTA vessel-segmentation resource for domain-transfer resea
 | **Short name** | `ut_fsocta` |
 | **Full name** | UTHealth Fundus and Synthetic OCTA Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ut_fsocta` |
 | **Contained modalities** | fundus, octa |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 112 participants |

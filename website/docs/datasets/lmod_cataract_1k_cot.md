@@ -3,7 +3,7 @@ id: lmod_cataract_1k_cot
 title: "Cataract-1K Surgical Analysis Chain-of-Thought Dataset"
 sidebar_label: lmod_cataract_1k_cot
 description: "Synthetic surgical-analysis instruction/chain-of-thought dataset derived from Cataract-1K frames."
-tags: ["multimodal", "surgical_video", "text", "mit", "huggingface", "visual_question_answering", "text_generation", "documented-relationship", "relationship-derived_from"]
+tags: ["multimodal", "surgical_video", "text", "mit", "huggingface", "visual_question_answering", "text_generation", "resource-role-annotation-layer", "dataset-family-lmod-cataract-1k-cot", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Synthetic surgical-analysis instruction/chain-of-thought dataset derived from Ca
 | **Short name** | `lmod_cataract_1k_cot` |
 | **Full name** | Cataract-1K Surgical Analysis Chain-of-Thought Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `lmod_cataract_1k_cot` |
 | **Contained modalities** | surgical_video, text |
 | **Tasks** | visual_question_answering, text_generation |
 | **Primary reported quantity** | 2,256 images |

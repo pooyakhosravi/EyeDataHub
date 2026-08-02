@@ -3,7 +3,7 @@ id: mpxv_ocular_manifestations_south_kivu
 title: "MPXV Ocular Manifestations South Kivu Dataset"
 sidebar_label: mpxv_ocular_manifestations_south_kivu
 description: "Human clinical ocular-manifestation data from four South-Kivu health zones."
-tags: ["tabular", "cc-by", "figshare", "classification", "measurement"]
+tags: ["tabular", "cc-by", "figshare", "classification", "measurement", "resource-role-current-dataset", "dataset-family-mpxv-ocular-manifestations-south-kivu"]
 ---
 
 
@@ -21,6 +21,8 @@ Human clinical ocular-manifestation data from four South-Kivu health zones.
 | **Short name** | `mpxv_ocular_manifestations_south_kivu` |
 | **Full name** | MPXV Ocular Manifestations South Kivu Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mpxv_ocular_manifestations_south_kivu` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, measurement |
 | **Primary reported quantity** | Not reported |

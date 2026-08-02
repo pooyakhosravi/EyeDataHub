@@ -3,7 +3,7 @@ id: mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy
 title: "Changes in retinal photosensitivity in diabetic retinopathy therapy"
 sidebar_label: mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy
 description: "Observation-level human or human-derived measurements/signals. from Diabetic-retinopathy patients undergoing treatment."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-changes-retinal-photosensitivity-diabetic-retinopathy-therapy"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Diabetic-ret
 | **Short name** | `mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy` |
 | **Full name** | Changes in retinal photosensitivity in diabetic retinopathy therapy |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

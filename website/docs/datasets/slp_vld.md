@@ -3,7 +3,7 @@ id: slp_vld
 title: "SLP-VLD Anonymized Slit-Lamp Vision-Language Dataset"
 sidebar_label: slp_vld
 description: "Anonymized slit-lamp photographs with English clinical annotations and vision-language conversations."
-tags: ["external_eye", "slit_lamp", "cc-by", "figshare", "classification", "image_text", "alternate-source", "source-figshare", "alternate-role-previous-version"]
+tags: ["external_eye", "slit_lamp", "cc-by", "figshare", "classification", "image_text", "resource-role-current-dataset", "dataset-family-slp-vld", "alternate-source", "source-figshare", "alternate-role-previous-version"]
 ---
 
 
@@ -21,6 +21,8 @@ Anonymized slit-lamp photographs with English clinical annotations and vision-la
 | **Short name** | `slp_vld` |
 | **Full name** | SLP-VLD Anonymized Slit-Lamp Vision-Language Dataset |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `slp_vld` |
 | **Contained modalities** | external_eye, slit_lamp |
 | **Tasks** | classification, image_text |
 | **Primary reported quantity** | 2,228 images |

@@ -3,7 +3,7 @@ id: rose
 title: "ROSE: Retinal OCT-Angiography Vessel Segmentation"
 sidebar_label: rose
 description: "229 OCTA images (ROSE-1 + ROSE-2) with pixel-level retinal vessel segmentation ground truth."
-tags: ["octa", "cc-by", "zenodo", "segmentation"]
+tags: ["octa", "cc-by", "zenodo", "segmentation", "resource-role-current-dataset", "dataset-family-rose"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `rose` |
 | **Full name** | ROSE: Retinal OCT-Angiography Vessel Segmentation |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `rose` |
 | **Contained modalities** | octa |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 229 images |

@@ -3,7 +3,7 @@ id: visual_field_testing_experiment
 title: "Visual Field Testing Experiment"
 sidebar_label: visual_field_testing_experiment
 description: "Visual-field and psychophysics experiment data for scotoma-detection comparisons."
-tags: ["visual_field", "cc-by", "kaggle", "classification", "regression"]
+tags: ["visual_field", "cc-by", "kaggle", "classification", "regression", "resource-role-current-dataset", "dataset-family-visual-field-testing-experiment"]
 ---
 
 
@@ -21,6 +21,8 @@ Visual-field and psychophysics experiment data for scotoma-detection comparisons
 | **Short name** | `visual_field_testing_experiment` |
 | **Full name** | Visual Field Testing Experiment |
 | **Primary category** | `visual_field` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `visual_field_testing_experiment` |
 | **Contained modalities** | visual_field |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 78 visual fields |

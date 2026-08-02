@@ -3,7 +3,7 @@ id: dryad_karachi_cataract_outcomes
 title: "Karachi Cataract Surgery Quality Dataset"
 sidebar_label: dryad_karachi_cataract_outcomes
 description: "Karachi cataract-surgery quality data are direct human ophthalmic population outcomes."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-karachi-cataract-outcomes"]
 ---
 
 
@@ -21,6 +21,8 @@ Karachi cataract-surgery quality data are direct human ophthalmic population out
 | **Short name** | `dryad_karachi_cataract_outcomes` |
 | **Full name** | Karachi Cataract Surgery Quality Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_karachi_cataract_outcomes` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 145 eyes |

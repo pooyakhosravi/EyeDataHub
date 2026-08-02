@@ -3,7 +3,7 @@ id: mendeley_spatio_temporal_optical_coherence_tomography_provides
 title: "Spatio-Temporal Optical Coherence Tomography provides full thickness imaging of the chorioretinal complex"
 sidebar_label: mendeley_spatio_temporal_optical_coherence_tomography_provides
 description: "Observation-level source data, annotations, or signals. from Source describes chorioretinal OCT imaging; verify whether recordings are human at record addition."
-tags: ["oct", "cc-by", "mendeley", "classification"]
+tags: ["oct", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-spatio-temporal-optical-coherence-tomography-provides"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Source describes ch
 | **Short name** | `mendeley_spatio_temporal_optical_coherence_tomography_provides` |
 | **Full name** | Spatio-Temporal Optical Coherence Tomography provides full thickness imaging of the chorioretinal complex |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_spatio_temporal_optical_coherence_tomography_provides` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

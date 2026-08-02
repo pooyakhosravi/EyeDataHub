@@ -3,7 +3,7 @@ id: dryad_iris_surface_features
 title: "Iris Surface Features Dataset"
 sidebar_label: dryad_iris_surface_features
 description: "Individual human iris-feature records are directly reusable for iris biometrics and phenotype classification."
-tags: ["iris_biometrics", "external_eye", "tabular", "cc0", "dryad", "classification"]
+tags: ["iris_biometrics", "external_eye", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-iris-surface-features"]
 ---
 
 
@@ -21,6 +21,8 @@ Individual human iris-feature records are directly reusable for iris biometrics 
 | **Short name** | `dryad_iris_surface_features` |
 | **Full name** | Iris Surface Features Dataset |
 | **Primary category** | `iris_biometrics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_iris_surface_features` |
 | **Contained modalities** | iris_biometrics, external_eye, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

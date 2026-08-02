@@ -3,7 +3,7 @@ id: china_fundus_cimt
 title: "China Fundus and Carotid Intima-Media Thickness Dataset"
 sidebar_label: china_fundus_cimt
 description: "Human fundus and carotid intima-media-thickness measurements."
-tags: ["fundus", "cc-by", "figshare", "measurement"]
+tags: ["fundus", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-china-fundus-cimt"]
 ---
 
 
@@ -21,6 +21,8 @@ Human fundus and carotid intima-media-thickness measurements.
 | **Short name** | `china_fundus_cimt` |
 | **Full name** | China Fundus and Carotid Intima-Media Thickness Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `china_fundus_cimt` |
 | **Contained modalities** | fundus |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |
@@ -120,4 +122,4 @@ Repository dataset record. 10.6084/m9.figshare.27907056.v1.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

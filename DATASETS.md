@@ -1,35 +1,41 @@
 # EyeDataHub catalog snapshot
 
-This documentation describes the 0.5.0 catalog release.
+This documentation describes the 0.6.0 catalog release.
 
-The catalog contains 479 manually source-checked ophthalmology data
+The catalog contains 475 current, manually source-checked ophthalmology data
 resources across 18 primary navigation categories. This is a bounded,
-date-stamped catalog, not a complete census and not a collection of 479
-independent cohorts. EyeDataHub does not host or redistribute the indexed
-third-party datasets.
+date-stamped catalog, not a complete census or a collection of independent
+cohorts. The records represent 470 narrowly defined dataset families.
+EyeDataHub does not host or redistribute the indexed third-party datasets.
 
 ## Catalog summary
 
 | Metric | Count |
 |---|---:|
-| Catalog records | 479 |
+| Current catalog records | 475 |
+| Narrowly defined dataset families | 470 |
 | Primary categories | 18 |
 | No-account source links | 46 |
-| Self-service authenticated routes | 384 |
+| Self-service authenticated routes | 381 |
 | Self-service click-through routes | 11 |
-| Controlled or manual routes | 30 |
+| Controlled or manual routes | 29 |
 | Author-contact routes | 8 |
 | Routes without platform credentials | 33 |
-| Platform API or client routes | 375 |
-| Manual, controlled, institutional, or author-contact procedures | 71 |
-| Records with a resolved primary source-reported quantity | 328 |
-| Source-supported directed relationship assertions | 153 |
-| Records participating in documented relationships | 100 |
+| Platform API or client routes | 373 |
+| Manual, controlled, institutional, or author-contact procedures | 69 |
+| Records with a resolved primary source-reported quantity | 324 |
+| Records with documented derivation from another catalog resource | 33 |
+| Annotation layers | 17 |
+| Separately indexed component datasets | 3 |
+| Source-supported directed relationship assertions | 145 |
+| Records participating in documented relationships | 96 |
 
 Access requirements, download implementation, source review, and source-stated
 terms are independent dimensions. A self-service route does not establish
-permission for a proposed reuse. Relationship counts are directed assertions,
-not counts of independent cohorts.
+permission for a proposed reuse. Earlier versions and unmodified alternate
+deposits are retained as links instead of current records. Relationship counts
+are directed assertions, and dataset-family counts are not counts of
+independent cohorts.
 
 The descriptive source-term groups are:
 

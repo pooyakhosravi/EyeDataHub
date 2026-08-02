@@ -3,7 +3,7 @@ id: octdl
 title: "OCTDL: OCT Deep Learning Dataset"
 sidebar_label: octdl
 description: "2,000+ OCT images labeled for 7 conditions: AMD, DME, ERM, NO (normal), RAO, RVO, VID."
-tags: ["oct", "cc-by", "mendeley", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-octdl", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `octdl` |
 | **Full name** | OCTDL: OCT Deep Learning Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `octdl` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 2,000 images |

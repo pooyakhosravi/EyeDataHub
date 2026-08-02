@@ -3,7 +3,7 @@ id: corneal_nerve_parkinsons
 title: "Corneal Nerve Parkinson Disease Dataset"
 sidebar_label: corneal_nerve_parkinsons
 description: "Human corneal-nerve measurements in Parkinson disease study participants."
-tags: ["confocal", "ivcm", "cc-by", "figshare", "measurement"]
+tags: ["confocal", "ivcm", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-corneal-nerve-parkinsons"]
 ---
 
 
@@ -21,6 +21,8 @@ Human corneal-nerve measurements in Parkinson disease study participants.
 | **Short name** | `corneal_nerve_parkinsons` |
 | **Full name** | Corneal Nerve Parkinson Disease Dataset |
 | **Primary category** | `confocal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `corneal_nerve_parkinsons` |
 | **Contained modalities** | confocal, ivcm |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

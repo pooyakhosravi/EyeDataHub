@@ -3,7 +3,7 @@ id: dryad_bariatric_ophthalmology
 title: "Bariatric Surgery Ophthalmic Evaluation Dataset"
 sidebar_label: dryad_bariatric_ophthalmology
 description: "Longitudinal human ophthalmic and OCT measurements in the bariatric cohort are directly reusable clinical data."
-tags: ["oct", "tabular", "cc0", "dryad", "regression"]
+tags: ["oct", "tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-bariatric-ophthalmology"]
 ---
 
 
@@ -21,6 +21,8 @@ Longitudinal human ophthalmic and OCT measurements in the bariatric cohort are d
 | **Short name** | `dryad_bariatric_ophthalmology` |
 | **Full name** | Bariatric Surgery Ophthalmic Evaluation Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_bariatric_ophthalmology` |
 | **Contained modalities** | oct, tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 57 participants |

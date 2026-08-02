@@ -3,7 +3,7 @@ id: cataract1k
 title: "Cataract-1K: Large-Scale Cataract Surgery Video Dataset"
 sidebar_label: cataract1k
 description: "1000 cataract surgery videos from multiple surgeons annotated for 10 surgical phases, instrument segmentation, and tool presence detection. First large-scale cataract surgical video dataset."
-tags: ["surgical_video", "research-only", "manual", "phase_recognition", "segmentation", "detection", "documented-relationship", "relationship-derived_from"]
+tags: ["surgical_video", "research-only", "manual", "phase_recognition", "segmentation", "detection", "resource-role-current-dataset", "dataset-family-cataract1k", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `cataract1k` |
 | **Full name** | Cataract-1K: Large-Scale Cataract Surgery Video Dataset |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cataract1k` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | phase_recognition, segmentation, detection |
 | **Primary reported quantity** | 1,000 videos |

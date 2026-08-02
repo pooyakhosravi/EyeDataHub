@@ -1,27 +1,24 @@
 {
   "schema_version": "1.0",
-  "catalog_version": "0.5.0",
+  "catalog_version": "0.6.0",
   "catalog_search_cutoff": "2026-08-02",
   "relationship_review_date": "2026-08-02",
-  "catalog_record_count": 479,
-  "reviewed_record_count": 479,
-  "directed_relationship_edge_count": 153,
-  "records_participating_in_confirmed_relationships": 100,
-  "records_with_outgoing_relationships": 52,
-  "records_with_incoming_relationships": 68,
+  "catalog_record_count": 475,
+  "reviewed_record_count": 475,
+  "directed_relationship_edge_count": 145,
+  "records_participating_in_confirmed_relationships": 96,
+  "records_with_outgoing_relationships": 48,
+  "records_with_incoming_relationships": 65,
   "unique_symmetric_overlap_pairs": 9,
   "relationship_counts_by_type": {
     "component_of": 3,
-    "derived_from": 120,
+    "derived_from": 118,
     "extension_of": 3,
     "has_component": 3,
-    "mirror_of": 2,
-    "same_or_overlapping_cohort_as": 18,
-    "subset_of": 2,
-    "version_of": 2
+    "same_or_overlapping_cohort_as": 18
   },
   "review_outcomes": {
-    "confirmed_catalog_relationship": 100,
+    "confirmed_catalog_relationship": 96,
     "external_or_unresolved_relationship_only": 9,
     "no_documented_catalog_relationship_identified": 370
   },

@@ -3,7 +3,7 @@ id: dryad_taizhou_cataract_outdoors
 title: "The association of outdoor activity and age-related cataract in a rural population of Taizhou Eye Study: phase 1 report"
 sidebar_label: dryad_taizhou_cataract_outdoors
 description: "The 2,006-participant original-data workbook is directly relevant to human cataract epidemiology and prognosis."
-tags: ["tabular", "cc0", "dryad", "prognosis"]
+tags: ["tabular", "cc0", "dryad", "prognosis", "resource-role-current-dataset", "dataset-family-dryad-taizhou-cataract-outdoors"]
 ---
 
 
@@ -21,6 +21,8 @@ The 2,006-participant original-data workbook is directly relevant to human catar
 | **Short name** | `dryad_taizhou_cataract_outdoors` |
 | **Full name** | The association of outdoor activity and age-related cataract in a rural population of Taizhou Eye Study: phase 1 report |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_taizhou_cataract_outdoors` |
 | **Contained modalities** | tabular |
 | **Tasks** | prognosis |
 | **Primary reported quantity** | 2,006 participants |

@@ -5,6 +5,7 @@ from pathlib import Path
 from eyedatahub.datasets.registry import REGISTRY
 from eyedatahub.datasets.scope_exclusions import (
     CATALOG_SCOPE_EXCLUSIONS,
+    DRYAD_SCOPE_EXCLUSIONS,
     INSUFFICIENT_MODEL_EVIDENCE_IDS,
     NONHUMAN_DRYAD_RECORD_IDS,
     NOT_DISTINCT_MODEL_RESOURCE_IDS,
@@ -21,7 +22,8 @@ def test_reviewed_dryad_scope_counts() -> None:
     assert len(NOT_DISTINCT_MODEL_RESOURCE_IDS) == 3
     assert len(INSUFFICIENT_MODEL_EVIDENCE_IDS) == 1
     assert len(RELATIONSHIP_ONLY_RESOURCE_IDS) == 1
-    assert len(CATALOG_SCOPE_EXCLUSIONS) == 63
+    assert len(DRYAD_SCOPE_EXCLUSIONS) == 63
+    assert len(CATALOG_SCOPE_EXCLUSIONS) == 67
     assert not set(CATALOG_SCOPE_EXCLUSIONS).intersection(REGISTRY.names())
     assert len([name for name in REGISTRY.names() if name.startswith("dryad_")]) == 82
 
@@ -86,4 +88,4 @@ def test_known_borderline_records_are_not_headline_records() -> None:
         "dryad_sf7m0cggh",
         "dryad_vq83bk3s8",
     }
-    assert expected <= set(CATALOG_SCOPE_EXCLUSIONS)
+    assert expected <= set(DRYAD_SCOPE_EXCLUSIONS)

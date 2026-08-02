@@ -3,7 +3,7 @@ id: harvard_fairvision
 title: "Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT)"
 sidebar_label: harvard_fairvision
 description: "30,000 subjects (10K each AMD, DR, glaucoma) with paired SLO fundus and OCT B-scans, demographic attributes (race, ethnicity, gender, language), for fairness analysis."
-tags: ["multimodal", "fundus", "oct", "cc-by-nc-nd", "manual", "classification"]
+tags: ["multimodal", "fundus", "oct", "cc-by-nc-nd", "manual", "classification", "resource-role-current-dataset", "dataset-family-harvard-fairvision"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `harvard_fairvision` |
 | **Full name** | Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `harvard_fairvision` |
 | **Contained modalities** | fundus, oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 30,000 participants |

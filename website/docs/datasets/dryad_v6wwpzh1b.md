@@ -3,7 +3,7 @@ id: dryad_v6wwpzh1b
 title: "Data from: Micropulse transscleral cyclophotocoagulation results in secondary glaucoma"
 sidebar_label: dryad_v6wwpzh1b
 description: "Official Dryad deposit of source-described tabular ophthalmic data for the associated study."
-tags: ["tabular", "cc0", "dryad", "progression_analysis"]
+tags: ["tabular", "cc0", "dryad", "progression_analysis", "resource-role-current-dataset", "dataset-family-dryad-v6wwpzh1b"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | **Short name** | `dryad_v6wwpzh1b` |
 | **Full name** | Data from: Micropulse transscleral cyclophotocoagulation results in secondary glaucoma |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_v6wwpzh1b` |
 | **Contained modalities** | tabular |
 | **Tasks** | progression_analysis |
 | **Primary reported quantity** | Not reported |

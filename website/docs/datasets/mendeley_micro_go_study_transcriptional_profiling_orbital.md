@@ -3,7 +3,7 @@ id: mendeley_micro_go_study_transcriptional_profiling_orbital
 title: "MICRO-GO study: transcriptional profiling of orbital tissues in Graves’ orbitopathy & microbiome composition"
 sidebar_label: mendeley_micro_go_study_transcriptional_profiling_orbital
 description: "Human tissue transcriptional and microbiome measurements from Orbital tissue from people with Graves' orbitopathy and relevant human microbiome samples."
-tags: ["omics", "cc-by", "manual", "measurement"]
+tags: ["omics", "cc-by", "manual", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-micro-go-study-transcriptional-profiling-orbital"]
 ---
 
 
@@ -21,6 +21,8 @@ Human tissue transcriptional and microbiome measurements from Orbital tissue fro
 | **Short name** | `mendeley_micro_go_study_transcriptional_profiling_orbital` |
 | **Full name** | MICRO-GO study: transcriptional profiling of orbital tissues in Graves’ orbitopathy & microbiome composition |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_micro_go_study_transcriptional_profiling_orbital` |
 | **Contained modalities** | omics |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

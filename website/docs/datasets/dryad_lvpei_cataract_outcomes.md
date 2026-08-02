@@ -3,7 +3,7 @@ id: dryad_lvpei_cataract_outcomes
 title: "LVPEI Cataract Surgery Outcome Dataset"
 sidebar_label: dryad_lvpei_cataract_outcomes
 description: "The 2,049-surgery cataract outcome file is direct human ophthalmic care data."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-lvpei-cataract-outcomes"]
 ---
 
 
@@ -21,6 +21,8 @@ The 2,049-surgery cataract outcome file is direct human ophthalmic care data.
 | **Short name** | `dryad_lvpei_cataract_outcomes` |
 | **Full name** | LVPEI Cataract Surgery Outcome Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_lvpei_cataract_outcomes` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 2,049 surgeries |

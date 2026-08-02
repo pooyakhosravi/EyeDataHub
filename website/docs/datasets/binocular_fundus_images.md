@@ -3,7 +3,7 @@ id: binocular_fundus_images
 title: "Binocular Fundus Image Dataset"
 sidebar_label: binocular_fundus_images
 description: "Paired left- and right-eye fundus images."
-tags: ["fundus", "cc-by", "figshare", "classification"]
+tags: ["fundus", "cc-by", "figshare", "classification", "resource-role-current-dataset", "dataset-family-binocular-fundus-images"]
 ---
 
 
@@ -21,6 +21,8 @@ Paired left- and right-eye fundus images.
 | **Short name** | `binocular_fundus_images` |
 | **Full name** | Binocular Fundus Image Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `binocular_fundus_images` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 2,885 image pairs |
@@ -126,4 +128,4 @@ Repository dataset record. 10.6084/m9.figshare.31981557.v1.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

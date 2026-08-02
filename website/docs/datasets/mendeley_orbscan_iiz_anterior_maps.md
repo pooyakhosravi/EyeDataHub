@@ -3,7 +3,7 @@ id: mendeley_orbscan_iiz_anterior_maps
 title: "Multimodal Orbscan IIz Dataset: 3,000 Axial Power Anterior Maps with OCR-Extracted Clinical Parameters from 3,000 Unique Patients"
 sidebar_label: mendeley_orbscan_iiz_anterior_maps
 description: "Observation-level source data, annotations, or signals. from Source explicitly identifies 3,000 unique patients."
-tags: ["corneal_topography", "cc-by-nc", "mendeley", "measurement"]
+tags: ["corneal_topography", "cc-by-nc", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-orbscan-iiz-anterior-maps"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Source explicitly i
 | **Short name** | `mendeley_orbscan_iiz_anterior_maps` |
 | **Full name** | Multimodal Orbscan IIz Dataset: 3,000 Axial Power Anterior Maps with OCR-Extracted Clinical Parameters from 3,000 Unique Patients |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_orbscan_iiz_anterior_maps` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

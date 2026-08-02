@@ -3,7 +3,7 @@ id: amd_dme_3d_oct
 title: "Comprehensive 3D OCT Dataset for AMD and DME"
 sidebar_label: amd_dme_3d_oct
 description: "Swept-source OCT volumes for AMD and DME with three-dimensional pigment epithelial detachment and intraretinal-fluid masks."
-tags: ["oct", "cc-by", "figshare", "segmentation", "classification"]
+tags: ["oct", "cc-by", "figshare", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-amd-dme-3d-oct"]
 ---
 
 
@@ -21,6 +21,8 @@ Swept-source OCT volumes for AMD and DME with three-dimensional pigment epitheli
 | **Short name** | `amd_dme_3d_oct` |
 | **Full name** | Comprehensive 3D OCT Dataset for AMD and DME |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `amd_dme_3d_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation, classification |
 | **Primary reported quantity** | 224 volumes |

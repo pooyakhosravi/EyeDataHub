@@ -3,7 +3,7 @@ id: dryad_diabetic_retinopathy_renal
 title: "Diabetic Retinopathy and Renal Function Dataset"
 sidebar_label: dryad_diabetic_retinopathy_renal
 description: "The 413-patient diabetic-retinopathy/macular-edema table is direct human ophthalmic clinical data."
-tags: ["tabular", "cc0", "dryad", "classification", "regression"]
+tags: ["tabular", "cc0", "dryad", "classification", "regression", "resource-role-current-dataset", "dataset-family-dryad-diabetic-retinopathy-renal"]
 ---
 
 
@@ -21,6 +21,8 @@ The 413-patient diabetic-retinopathy/macular-edema table is direct human ophthal
 | **Short name** | `dryad_diabetic_retinopathy_renal` |
 | **Full name** | Diabetic Retinopathy and Renal Function Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_diabetic_retinopathy_renal` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 413 participants |

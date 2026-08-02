@@ -3,7 +3,7 @@ id: mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora
 title: "Data for: Post-Intravitreal Injection Ciprofloxacin and Conjunctival Flora Resistance"
 sidebar_label: mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora
 description: "Observation-level source data, annotations, or signals. from Source describes de-identified conjunctival swab observations from ophthalmic patients."
-tags: ["oct", "cc-by-nc", "mendeley", "measurement"]
+tags: ["oct", "cc-by-nc", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-post-intravitreal-injection-ciprofloxacin-conjunctival-flora"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Source describes de
 | **Short name** | `mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora` |
 | **Full name** | Data for: Post-Intravitreal Injection Ciprofloxacin and Conjunctival Flora Resistance |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora` |
 | **Contained modalities** | oct |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

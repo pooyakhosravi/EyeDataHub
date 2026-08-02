@@ -3,7 +3,7 @@ id: dryad_brvo_bevacizumab_multimodal
 title: "BRVO Bevacizumab Multimodal Dataset"
 sidebar_label: dryad_brvo_bevacizumab_multimodal
 description: "The 27-eye BRVO archive contains named OCT, fluorescein, and mfERG research objects for retinal treatment analysis."
-tags: ["multimodal", "oct", "fundus_angiography", "electrophysiology", "cc0", "dryad", "regression", "measurement"]
+tags: ["multimodal", "oct", "fundus_angiography", "electrophysiology", "cc0", "dryad", "regression", "measurement", "resource-role-current-dataset", "dataset-family-dryad-brvo-bevacizumab-multimodal"]
 ---
 
 
@@ -21,6 +21,8 @@ The 27-eye BRVO archive contains named OCT, fluorescein, and mfERG research obje
 | **Short name** | `dryad_brvo_bevacizumab_multimodal` |
 | **Full name** | BRVO Bevacizumab Multimodal Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_brvo_bevacizumab_multimodal` |
 | **Contained modalities** | oct, fundus_angiography, electrophysiology |
 | **Tasks** | regression, measurement |
 | **Primary reported quantity** | 27 eyes |

@@ -3,7 +3,7 @@ id: maetschke_glaucoma_oct
 title: "OCT Volumes for Glaucoma Detection"
 sidebar_label: maetschke_glaucoma_oct
 description: "A set of 1,110 optic nerve head OCT volumes from 624 patients, including 847 scans with primary open angle glaucoma and 263 healthy scans."
-tags: ["oct", "cc-by-nc", "zenodo", "classification"]
+tags: ["oct", "cc-by-nc", "zenodo", "classification", "resource-role-current-dataset", "dataset-family-maetschke-glaucoma-oct"]
 ---
 
 
@@ -21,6 +21,8 @@ A set of 1,110 optic nerve head OCT volumes from 624 patients, including 847 sca
 | **Short name** | `maetschke_glaucoma_oct` |
 | **Full name** | OCT Volumes for Glaucoma Detection |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `maetschke_glaucoma_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 1,110 volumes |

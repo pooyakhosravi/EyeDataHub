@@ -3,7 +3,7 @@ id: dryad_pnvx0k6hv
 title: "Time trends and associated factors of axial length in 4 and 5 year-olds children in Shanghai from 2013 to 2019"
 sidebar_label: dryad_pnvx0k6hv
 description: "Official Dryad deposit of source-described tabular ophthalmic data for the associated study."
-tags: ["tabular", "cc0", "dryad", "measurement", "regression"]
+tags: ["tabular", "cc0", "dryad", "measurement", "regression", "resource-role-current-dataset", "dataset-family-dryad-pnvx0k6hv"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | **Short name** | `dryad_pnvx0k6hv` |
 | **Full name** | Time trends and associated factors of axial length in 4 and 5 year-olds children in Shanghai from 2013 to 2019 |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_pnvx0k6hv` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement, regression |
 | **Primary reported quantity** | Not reported |

@@ -3,7 +3,7 @@ id: dryad_ravi_cataract_outcomes
 title: "RAVI Cataract Surgery Outcome Dataset"
 sidebar_label: dryad_ravi_cataract_outcomes
 description: "RAVI cataract-surgery outcomes are direct human ophthalmic population data."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-ravi-cataract-outcomes"]
 ---
 
 
@@ -21,6 +21,8 @@ RAVI cataract-surgery outcomes are direct human ophthalmic population data.
 | **Short name** | `dryad_ravi_cataract_outcomes` |
 | **Full name** | RAVI Cataract Surgery Outcome Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_ravi_cataract_outcomes` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 1,228 eyes |

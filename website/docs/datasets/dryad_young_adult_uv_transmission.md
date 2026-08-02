@@ -3,7 +3,7 @@ id: dryad_young_adult_uv_transmission
 title: "Individual variation in the transmission of ultraviolet radiation in the young adult eye."
 sidebar_label: dryad_young_adult_uv_transmission
 description: "The 42-participant UV-transmission workbook is direct human ocular-optics measurement data."
-tags: ["tabular", "cc0", "dryad", "measurement"]
+tags: ["tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-young-adult-uv-transmission"]
 ---
 
 
@@ -21,6 +21,8 @@ The 42-participant UV-transmission workbook is direct human ocular-optics measur
 | **Short name** | `dryad_young_adult_uv_transmission` |
 | **Full name** | Individual variation in the transmission of ultraviolet radiation in the young adult eye. |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_young_adult_uv_transmission` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 42 participants |

@@ -3,7 +3,7 @@ id: mendeley_vivo_cone_photoreceptor_topography_human_foveola
 title: "In-vivo cone photoreceptor topography of the human foveola"
 sidebar_label: mendeley_vivo_cone_photoreceptor_topography_human_foveola
 description: "Retinal-image montages, cone annotation maps, and participant-level supporting measurements from In-vivo human foveolar imaging; individual-participant MATLAB files are stated."
-tags: ["tabular", "cc-by", "mendeley", "segmentation"]
+tags: ["tabular", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-vivo-cone-photoreceptor-topography-human-foveola"]
 ---
 
 
@@ -21,6 +21,8 @@ Retinal-image montages, cone annotation maps, and participant-level supporting m
 | **Short name** | `mendeley_vivo_cone_photoreceptor_topography_human_foveola` |
 | **Full name** | In-vivo cone photoreceptor topography of the human foveola |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_vivo_cone_photoreceptor_topography_human_foveola` |
 | **Contained modalities** | tabular |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |

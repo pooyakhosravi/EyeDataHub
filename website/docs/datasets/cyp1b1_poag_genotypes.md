@@ -3,7 +3,7 @@ id: cyp1b1_poag_genotypes
 title: "CYP1B1 Primary Open-Angle Glaucoma Genotype Dataset"
 sidebar_label: cyp1b1_poag_genotypes
 description: "Human POAG genotype observations."
-tags: ["omics", "genomics", "cc-by", "figshare", "classification"]
+tags: ["omics", "genomics", "cc-by", "figshare", "classification", "resource-role-current-dataset", "dataset-family-cyp1b1-poag-genotypes"]
 ---
 
 
@@ -21,6 +21,8 @@ Human POAG genotype observations.
 | **Short name** | `cyp1b1_poag_genotypes` |
 | **Full name** | CYP1B1 Primary Open-Angle Glaucoma Genotype Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cyp1b1_poag_genotypes` |
 | **Contained modalities** | omics, genomics |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

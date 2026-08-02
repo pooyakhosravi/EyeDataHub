@@ -3,7 +3,7 @@ id: mendeley_evaluation_refractive_visual_outcomes_as_well
 title: "Evaluation of refractive and visual outcomes, as well as astigmatism-correcting efficiency and rotational stability of a double-loop haptic toric intraocular lens - a one-year follow-up"
 sidebar_label: mendeley_evaluation_refractive_visual_outcomes_as_well
 description: "Eye-level one-year refractive, visual, and rotational-stability outcomes from Cataract patients implanted with the double-loop haptic toric IOL."
-tags: ["tabular", "cc-by", "mendeley", "prediction"]
+tags: ["tabular", "cc-by", "mendeley", "prediction", "resource-role-current-dataset", "dataset-family-mendeley-evaluation-refractive-visual-outcomes-as-well"]
 ---
 
 
@@ -21,6 +21,8 @@ Eye-level one-year refractive, visual, and rotational-stability outcomes from Ca
 | **Short name** | `mendeley_evaluation_refractive_visual_outcomes_as_well` |
 | **Full name** | Evaluation of refractive and visual outcomes, as well as astigmatism-correcting efficiency and rotational stability of a double-loop haptic toric intraocular lens - a one-year follow-up |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_evaluation_refractive_visual_outcomes_as_well` |
 | **Contained modalities** | tabular |
 | **Tasks** | prediction |
 | **Primary reported quantity** | Not reported |

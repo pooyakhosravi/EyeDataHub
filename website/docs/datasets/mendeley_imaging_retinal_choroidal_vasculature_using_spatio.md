@@ -3,7 +3,7 @@ id: mendeley_imaging_retinal_choroidal_vasculature_using_spatio
 title: "Imaging the retinal and choroidal vasculature using Spatio-Temporal Optical Coherence Tomography (STOC-T)"
 sidebar_label: mendeley_imaging_retinal_choroidal_vasculature_using_spatio
 description: "Three-dimensional retinal/choroidal oct image observations from Retinal/choroidal images from eyes imaged with a STOC-T system; source description identifies a study sample but does not provide a veri"
-tags: ["octa", "cc-by", "mendeley", "measurement"]
+tags: ["octa", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-imaging-retinal-choroidal-vasculature-using-spatio"]
 ---
 
 
@@ -21,6 +21,8 @@ Three-dimensional retinal/choroidal oct image observations from Retinal/choroida
 | **Short name** | `mendeley_imaging_retinal_choroidal_vasculature_using_spatio` |
 | **Full name** | Imaging the retinal and choroidal vasculature using Spatio-Temporal Optical Coherence Tomography (STOC-T) |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_imaging_retinal_choroidal_vasculature_using_spatio` |
 | **Contained modalities** | octa |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

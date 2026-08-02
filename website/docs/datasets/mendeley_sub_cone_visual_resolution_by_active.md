@@ -3,7 +3,7 @@ id: mendeley_sub_cone_visual_resolution_by_active
 title: "Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola"
 sidebar_label: mendeley_sub_cone_visual_resolution_by_active
 description: "Human/derived image or image-annotation observations. from 16 human participants, both eyes."
-tags: ["tabular", "cc-by", "mendeley", "prediction"]
+tags: ["tabular", "cc-by", "mendeley", "prediction", "resource-role-current-dataset", "dataset-family-mendeley-sub-cone-visual-resolution-by-active"]
 ---
 
 
@@ -21,6 +21,8 @@ Human/derived image or image-annotation observations. from 16 human participants
 | **Short name** | `mendeley_sub_cone_visual_resolution_by_active` |
 | **Full name** | Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_sub_cone_visual_resolution_by_active` |
 | **Contained modalities** | tabular |
 | **Tasks** | prediction |
 | **Primary reported quantity** | 16 participants |

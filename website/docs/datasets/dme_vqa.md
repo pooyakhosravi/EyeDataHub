@@ -3,7 +3,7 @@ id: dme_vqa
 title: "Diabetic Macular Edema Visual Question Answering Dataset"
 sidebar_label: dme_vqa
 description: "Fundus-image VQA dataset for diabetic macular edema derived from IDRiD and e-ophtha."
-tags: ["multimodal", "fundus", "text", "cc-by", "zenodo", "visual_question_answering", "classification", "documented-relationship", "relationship-extension_of", "relationship-derived_from"]
+tags: ["multimodal", "fundus", "text", "cc-by", "zenodo", "visual_question_answering", "classification", "resource-role-annotation-layer", "dataset-family-dme-vqa", "documented-relationship", "relationship-extension_of", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus-image VQA dataset for diabetic macular edema derived from IDRiD and e-oph
 | **Short name** | `dme_vqa` |
 | **Full name** | Diabetic Macular Edema Visual Question Answering Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `dme_vqa` |
 | **Contained modalities** | fundus, text |
 | **Tasks** | visual_question_answering, classification |
 | **Primary reported quantity** | 13,470 question answer pairs |

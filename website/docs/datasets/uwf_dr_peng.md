@@ -3,7 +3,7 @@ id: uwf_dr_peng
 title: "UWF Fundus DR Dataset (Peng et al., 2026)"
 sidebar_label: uwf_dr_peng
 description: "1,630 Optos ultra-wide-field fundus images from 809 patients graded for diabetic retinopathy (5-class ICDR) by senior ophthalmologists."
-tags: ["uwf_fundus", "cc-by", "figshare", "grading", "classification"]
+tags: ["uwf_fundus", "cc-by", "figshare", "grading", "classification", "resource-role-current-dataset", "dataset-family-uwf-dr-peng"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `uwf_dr_peng` |
 | **Full name** | UWF Fundus DR Dataset (Peng et al., 2026) |
 | **Primary category** | `uwf_fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `uwf_dr_peng` |
 | **Contained modalities** | uwf_fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 1,630 images |

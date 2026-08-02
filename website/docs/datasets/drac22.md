@@ -3,7 +3,7 @@ id: drac22
 title: "DRAC 2022: Diabetic Retinopathy Analysis Challenge"
 sidebar_label: drac22
 description: "174 OCTA images for DR lesion segmentation (IRMA, NPA, NV), image quality assessment, and DR grading (3-class)."
-tags: ["octa", "cc-by", "zenodo", "segmentation", "classification", "grading"]
+tags: ["octa", "cc-by", "zenodo", "segmentation", "classification", "grading", "resource-role-current-dataset", "dataset-family-drac22"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `drac22` |
 | **Full name** | DRAC 2022: Diabetic Retinopathy Analysis Challenge |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `drac22` |
 | **Contained modalities** | octa |
 | **Tasks** | segmentation, classification, grading |
 | **Primary reported quantity** | 174 images |

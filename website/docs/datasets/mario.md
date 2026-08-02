@@ -3,7 +3,7 @@ id: mario
 title: "MARIO: AMD-Progression Longitudinal OCT (MICCAI 2024)"
 sidebar_label: mario
 description: "~30,000 longitudinal OCT B-scans across multiple patient visits, annotated for AMD change detection and progression monitoring."
-tags: ["oct", "cc-by", "zenodo", "classification", "progression"]
+tags: ["oct", "cc-by", "zenodo", "classification", "progression", "resource-role-current-dataset", "dataset-family-mario"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `mario` |
 | **Full name** | MARIO: AMD-Progression Longitudinal OCT (MICCAI 2024) |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mario` |
 | **Contained modalities** | oct |
 | **Tasks** | classification, progression |
 | **Primary reported quantity** | 30,000 images |

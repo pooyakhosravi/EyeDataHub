@@ -3,7 +3,7 @@ id: csdi
 title: "CSDI: Cataract Severity Diagnostic Image Dataset"
 sidebar_label: csdi
 description: "187 cataract cases with color fundus images and paired professional cataract-grading diagnostic reports. Designed for medical multimodal-LLM evaluation."
-tags: ["fundus", "text", "cc-by", "huggingface", "grading", "classification"]
+tags: ["fundus", "text", "cc-by", "huggingface", "grading", "classification", "resource-role-current-dataset", "dataset-family-csdi"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `csdi` |
 | **Full name** | CSDI: Cataract Severity Diagnostic Image Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `csdi` |
 | **Contained modalities** | fundus, text |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 187 images |

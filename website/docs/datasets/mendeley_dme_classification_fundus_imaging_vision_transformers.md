@@ -3,7 +3,7 @@ id: mendeley_dme_classification_fundus_imaging_vision_transformers
 title: "DME Classification in Fundus Imaging with Vision Transformers and ETDRS-Guided Annotation"
 sidebar_label: mendeley_dme_classification_fundus_imaging_vision_transformers
 description: "Fundus-image-level dme class labels and etdrs-guided annotations from Fundus imaging for diabetic macular edema; human clinical image provenance is inherent to the stated DME dataset."
-tags: ["fundus", "cc-by", "mendeley", "segmentation"]
+tags: ["fundus", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-dme-classification-fundus-imaging-vision-transformers"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus-image-level dme class labels and etdrs-guided annotations from Fundus ima
 | **Short name** | `mendeley_dme_classification_fundus_imaging_vision_transformers` |
 | **Full name** | DME Classification in Fundus Imaging with Vision Transformers and ETDRS-Guided Annotation |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_dme_classification_fundus_imaging_vision_transformers` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |
@@ -124,4 +126,4 @@ DME Classification in Fundus Imaging with Vision Transformers and ETDRS-Guided A
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

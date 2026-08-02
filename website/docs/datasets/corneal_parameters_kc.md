@@ -3,7 +3,7 @@ id: corneal_parameters_kc
 title: "Corneal Parameters Keratoconus Study"
 sidebar_label: corneal_parameters_kc
 description: "Tabular keratoconus dataset with 77 eye-level rows and 60 variables describing visual acuity, contrast sensitivity, stage, and corneal elevation/shape parameters."
-tags: ["tabular", "cc-by", "mendeley", "classification", "regression"]
+tags: ["tabular", "cc-by", "mendeley", "classification", "regression", "resource-role-current-dataset", "dataset-family-corneal-parameters-kc"]
 ---
 
 
@@ -21,6 +21,8 @@ Tabular keratoconus dataset with 77 eye-level rows and 60 variables describing v
 | **Short name** | `corneal_parameters_kc` |
 | **Full name** | Corneal Parameters Keratoconus Study |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `corneal_parameters_kc` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 77 records |

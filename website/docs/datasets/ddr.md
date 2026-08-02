@@ -3,7 +3,7 @@ id: ddr
 title: "DDR: Diabetic Retinopathy Detection & Grading"
 sidebar_label: ddr
 description: "12522 fundus images with DR grading (0-5) and lesion-level segmentation annotations."
-tags: ["fundus", "mit", "gdrive", "grading", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "mit", "gdrive", "grading", "classification", "resource-role-current-dataset", "dataset-family-ddr", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `ddr` |
 | **Full name** | DDR: Diabetic Retinopathy Detection & Grading |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ddr` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 12,522 images |
@@ -142,4 +144,4 @@ Li et al., 'Diagnostic Assessment of Deep Learning Algorithms for Diabetic Retin
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

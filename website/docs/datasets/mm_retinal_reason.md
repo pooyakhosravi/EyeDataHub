@@ -3,7 +3,7 @@ id: mm_retinal_reason
 title: "MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset"
 sidebar_label: mm_retinal_reason
 description: "Ophthalmology-specific multimodal reasoning dataset built from 45 public datasets. Chain-of-thought reasoning traces for retinal VQA."
-tags: ["multimodal", "fundus", "fundus_angiography", "oct", "text", "unknown", "huggingface", "classification", "multilabel", "documented-relationship", "relationship-derived_from"]
+tags: ["multimodal", "fundus", "fundus_angiography", "oct", "text", "unknown", "huggingface", "classification", "multilabel", "resource-role-annotation-layer", "dataset-family-mm-retinal-reason", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Ophthalmology-specific multimodal reasoning dataset built from 45 public dataset
 | **Short name** | `mm_retinal_reason` |
 | **Full name** | MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `mm_retinal_reason` |
 | **Contained modalities** | fundus, fundus_angiography, oct, text |
 | **Tasks** | classification, multilabel |
 | **Primary reported quantity** | 130 question answer pairs |
@@ -83,7 +85,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - This record is `derived from` [palm](./palm.md): The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 - This record is `derived from` [papila](./papila.md): The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 - This record is `derived from` [paraguay_dr](./paraguay_dr.md): The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
-- This record is `derived from` [refuge2018](./refuge2018.md): The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
+- This record is `derived from` [refuge2](./refuge2.md): The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 - This record is `derived from` [rfmid](./rfmid.md): The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 - This record is `derived from` [roc](./roc.md): The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 - This record is `derived from` [stage_task1](./stage_task1.md): The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))

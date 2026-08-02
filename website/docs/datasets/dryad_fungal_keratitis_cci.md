@@ -3,7 +3,7 @@ id: dryad_fungal_keratitis_cci
 title: "CCI.net fungal keratitis cases dataset"
 sidebar_label: dryad_fungal_keratitis_cci
 description: "The 8,697-image fungal-keratitis dataset has explicit classification and segmentation splits and is directly usable for translational corneal imaging."
-tags: ["external_eye", "cc0", "dryad", "classification", "segmentation"]
+tags: ["external_eye", "cc0", "dryad", "classification", "segmentation", "resource-role-current-dataset", "dataset-family-dryad-fungal-keratitis-cci"]
 ---
 
 
@@ -21,6 +21,8 @@ The 8,697-image fungal-keratitis dataset has explicit classification and segment
 | **Short name** | `dryad_fungal_keratitis_cci` |
 | **Full name** | CCI.net fungal keratitis cases dataset |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_fungal_keratitis_cci` |
 | **Contained modalities** | external_eye |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 8,697 images |

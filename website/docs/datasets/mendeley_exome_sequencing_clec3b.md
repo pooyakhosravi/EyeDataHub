@@ -3,7 +3,7 @@ id: mendeley_exome_sequencing_clec3b
 title: "Exome sequencing data for CLEC3B"
 sidebar_label: mendeley_exome_sequencing_clec3b
 description: "Observation-level human or human-derived measurements/signals. from Six inherited-macular-disorder patients and three healthy relatives from Japanese families."
-tags: ["omics", "cc-by", "mendeley", "measurement"]
+tags: ["omics", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-exome-sequencing-clec3b"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Six inherite
 | **Short name** | `mendeley_exome_sequencing_clec3b` |
 | **Full name** | Exome sequencing data for CLEC3B |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_exome_sequencing_clec3b` |
 | **Contained modalities** | omics |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 9 participants |

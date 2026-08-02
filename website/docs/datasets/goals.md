@@ -3,7 +3,7 @@ id: goals
 title: "GOALS — Glaucoma OCT Layer Segmentation (MICCAI 2022)"
 sidebar_label: goals
 description: "300 circumpapillary OCT images. RNFL/GCIPL/choroid layer segmentation plus binary glaucoma classification."
-tags: ["oct", "cc-by", "gdrive", "segmentation", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "cc-by", "gdrive", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-goals", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `goals` |
 | **Full name** | GOALS — Glaucoma OCT Layer Segmentation (MICCAI 2022) |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `goals` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation, classification |
 | **Primary reported quantity** | 300 images |

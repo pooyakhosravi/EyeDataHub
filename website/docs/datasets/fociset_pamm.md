@@ -3,7 +3,7 @@ id: fociset_pamm
 title: "FociSet PAMM OCT Lesion Dataset"
 sidebar_label: fociset_pamm
 description: "SD-OCT B-scans with bounding-box and polygon annotations for paracentral acute middle maculopathy lesions."
-tags: ["oct", "cc-by", "mendeley", "detection", "segmentation"]
+tags: ["oct", "cc-by", "mendeley", "detection", "segmentation", "resource-role-current-dataset", "dataset-family-fociset-pamm"]
 ---
 
 
@@ -21,6 +21,8 @@ SD-OCT B-scans with bounding-box and polygon annotations for paracentral acute m
 | **Short name** | `fociset_pamm` |
 | **Full name** | FociSet PAMM OCT Lesion Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fociset_pamm` |
 | **Contained modalities** | oct |
 | **Tasks** | detection, segmentation |
 | **Primary reported quantity** | 133 images |

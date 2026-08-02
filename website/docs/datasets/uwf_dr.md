@@ -3,7 +3,7 @@ id: uwf_dr
 title: "UWF DR Reasoning Dataset"
 sidebar_label: uwf_dr
 description: "Ultra-widefield fundus photographs for diabetic retinopathy grading (5-level ICDR scale). Released alongside the Reasoning-Enhanced VLM paper for interpretable UWF DR detection. Related to the UWF4DR "
-tags: ["uwf_fundus", "research-only", "gdrive", "grading", "classification"]
+tags: ["uwf_fundus", "research-only", "gdrive", "grading", "classification", "resource-role-current-dataset", "dataset-family-uwf-dr"]
 ---
 
 
@@ -21,6 +21,8 @@ Ultra-widefield fundus photographs for diabetic retinopathy grading (5-level ICD
 | **Short name** | `uwf_dr` |
 | **Full name** | UWF DR Reasoning Dataset |
 | **Primary category** | `uwf_fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `uwf_dr` |
 | **Contained modalities** | uwf_fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 495 images |

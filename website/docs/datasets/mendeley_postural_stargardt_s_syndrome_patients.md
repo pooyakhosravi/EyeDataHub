@@ -3,7 +3,7 @@ id: mendeley_postural_stargardt_s_syndrome_patients
 title: "Data for: Postural data from Stargardt's syndrome patients"
 sidebar_label: mendeley_postural_stargardt_s_syndrome_patients
 description: "Observation-level source data, annotations, or signals. from Ten patients with Stargardt syndrome and ten healthy controls are described."
-tags: ["tabular", "cc-by-nc", "mendeley", "measurement"]
+tags: ["tabular", "cc-by-nc", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-postural-stargardt-s-syndrome-patients"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Ten patients with S
 | **Short name** | `mendeley_postural_stargardt_s_syndrome_patients` |
 | **Full name** | Data for: Postural data from Stargardt's syndrome patients |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_postural_stargardt_s_syndrome_patients` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

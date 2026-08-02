@@ -3,7 +3,7 @@ id: hesc_retinal_organoid_early_differentiation
 title: "hESC-Derived Retinal Organoid Early Differentiation Imaging Dataset"
 sidebar_label: hesc_retinal_organoid_early_differentiation
 description: "Time-series bright-field imaging of human embryonic-stem-cell-derived retinal organoid aggregates."
-tags: ["cell_microscopy", "microscopy", "cc-by", "figshare", "classification", "measurement"]
+tags: ["cell_microscopy", "microscopy", "cc-by", "figshare", "classification", "measurement", "resource-role-current-dataset", "dataset-family-hesc-retinal-organoid-early-differentiation"]
 ---
 
 
@@ -21,6 +21,8 @@ Time-series bright-field imaging of human embryonic-stem-cell-derived retinal or
 | **Short name** | `hesc_retinal_organoid_early_differentiation` |
 | **Full name** | hESC-Derived Retinal Organoid Early Differentiation Imaging Dataset |
 | **Primary category** | `cell_microscopy` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `hesc_retinal_organoid_early_differentiation` |
 | **Contained modalities** | cell_microscopy, microscopy |
 | **Tasks** | classification, measurement |
 | **Primary reported quantity** | Not reported |

@@ -3,7 +3,7 @@ id: riga
 title: "RIGA: Retinal Fundus Images for Glaucoma Analysis"
 sidebar_label: riga
 description: "750 fundus images with optic disc and optic cup segmentations from 6 ophthalmologists per image. Multi-rater benchmark."
-tags: ["fundus", "cc-by-nc", "direct", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by-nc", "direct", "segmentation", "resource-role-current-dataset", "dataset-family-riga", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `riga` |
 | **Full name** | RIGA: Retinal Fundus Images for Glaucoma Analysis |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `riga` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 750 images |
@@ -54,7 +56,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
-- [fundus_domain_generalization](./fundus_domain_generalization.md) is `derived from` this record: The official description states that the benchmark is based on REFUGE, Drishti-GS, ORIGA, and RIGA. ([evidence](https://zenodo.org/records/8009107))
+- [fundus_domain_generalization](./fundus_domain_generalization.md) is `derived from` this record: The official description states that the benchmark is based on the original REFUGE images, now represented by the current REFUGE2 record, plus Drishti-GS, ORIGA, and RIGA. ([evidence](https://zenodo.org/records/8009107))
 - [riga_plus](./riga_plus.md) is `derived from` this record: RIGA+ is built from RIGA components plus the original MESSIDOR resource after duplicate removal. ([evidence](https://zenodo.org/records/6325549))
 
 ## Access information and download
@@ -134,4 +136,4 @@ Almazroa et al., 'Retinal Fundus Images for Glaucoma Analysis: The RIGA Dataset'
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

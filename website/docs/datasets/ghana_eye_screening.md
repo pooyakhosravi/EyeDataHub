@@ -3,7 +3,7 @@ id: ghana_eye_screening
 title: "Eye Screening Data for First-Year University Students in Ghana"
 sidebar_label: ghana_eye_screening
 description: "Questionnaire and clinical eye-screening data from first-year university students in Ghana."
-tags: ["tabular", "cc-by-nc-nd", "mendeley", "classification", "regression"]
+tags: ["tabular", "cc-by-nc-nd", "mendeley", "classification", "regression", "resource-role-current-dataset", "dataset-family-ghana-eye-screening"]
 ---
 
 
@@ -21,6 +21,8 @@ Questionnaire and clinical eye-screening data from first-year university student
 | **Short name** | `ghana_eye_screening` |
 | **Full name** | Eye Screening Data for First-Year University Students in Ghana |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ghana_eye_screening` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 2,494 participants |

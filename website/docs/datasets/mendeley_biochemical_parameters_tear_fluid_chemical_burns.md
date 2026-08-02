@@ -3,7 +3,7 @@ id: mendeley_biochemical_parameters_tear_fluid_chemical_burns
 title: "Dataset of biochemical parameters of tear fluid in chemical burns"
 sidebar_label: mendeley_biochemical_parameters_tear_fluid_chemical_burns
 description: "Observation-level human or human-derived measurements/signals. from 110 chemical-burn patients (155 eyes) in Tashkent."
-tags: ["tabular", "cc-by", "mendeley", "classification"]
+tags: ["tabular", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-biochemical-parameters-tear-fluid-chemical-burns"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from 110 chemical
 | **Short name** | `mendeley_biochemical_parameters_tear_fluid_chemical_burns` |
 | **Full name** | Dataset of biochemical parameters of tear fluid in chemical burns |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_biochemical_parameters_tear_fluid_chemical_burns` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | 110 participants |

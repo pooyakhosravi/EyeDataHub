@@ -3,7 +3,7 @@ id: kermany_oct
 title: "Kermany OCT 2018: Retinal OCT Image Classification"
 sidebar_label: kermany_oct
 description: "~84,000 retinal OCT B-scan images across 4 classes: CNV, DME, DRUSEN, NORMAL. Train: ~83,484 / Test: 1000."
-tags: ["oct", "cc-by", "kaggle", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "cc-by", "kaggle", "classification", "resource-role-current-dataset", "dataset-family-kermany-oct", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `kermany_oct` |
 | **Full name** | Kermany OCT 2018: Retinal OCT Image Classification |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `kermany_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 84,484 images |

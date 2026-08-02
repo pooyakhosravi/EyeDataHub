@@ -3,7 +3,7 @@ id: dryad_uveal_melanoma_coog2
 title: "COOG2.1 Uveal Melanoma Prognostic Dataset"
 sidebar_label: dryad_uveal_melanoma_coog2
 description: "Multicenter uveal-melanoma gene-expression, PRAME, clinical, and metastasis-free-survival data for prognostic modeling."
-tags: ["omics", "cc0", "dryad", "classification", "survival_analysis", "prognosis"]
+tags: ["omics", "cc0", "dryad", "classification", "survival_analysis", "prognosis", "resource-role-current-dataset", "dataset-family-dryad-uveal-melanoma-coog2"]
 ---
 
 
@@ -21,6 +21,8 @@ Multicenter uveal-melanoma gene-expression, PRAME, clinical, and metastasis-free
 | **Short name** | `dryad_uveal_melanoma_coog2` |
 | **Full name** | COOG2.1 Uveal Melanoma Prognostic Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_uveal_melanoma_coog2` |
 | **Contained modalities** | omics |
 | **Tasks** | classification, survival_analysis, prognosis |
 | **Primary reported quantity** | 1,577 participants |

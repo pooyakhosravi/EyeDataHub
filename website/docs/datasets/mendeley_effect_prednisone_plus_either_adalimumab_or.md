@@ -3,7 +3,7 @@ id: mendeley_effect_prednisone_plus_either_adalimumab_or
 title: "Effect of prednisone plus either adalimumab or cyclosporine on dermatological symptoms in Vogt-Koyanagi-Harada disease: systemic outcomes from a randomized trial"
 sidebar_label: mendeley_effect_prednisone_plus_either_adalimumab_or
 description: "Observation-level human or human-derived measurements/signals. from Vogt–Koyanagi–Harada randomized-trial participants."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-effect-prednisone-plus-either-adalimumab-or"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Vogt–Koyan
 | **Short name** | `mendeley_effect_prednisone_plus_either_adalimumab_or` |
 | **Full name** | Effect of prednisone plus either adalimumab or cyclosporine on dermatological symptoms in Vogt-Koyanagi-Harada disease: systemic outcomes from a randomized trial |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_effect_prednisone_plus_either_adalimumab_or` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

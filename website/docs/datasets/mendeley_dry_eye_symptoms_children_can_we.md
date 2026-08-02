@@ -3,7 +3,7 @@ id: mendeley_dry_eye_symptoms_children_can_we
 title: "Dry eye symptoms in children: can we reliably measure them?"
 sidebar_label: mendeley_dry_eye_symptoms_children_can_we
 description: "Participant-level questionnaire/repeatability measurements from Child participants completing dry-eye symptom assessment."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-dry-eye-symptoms-children-can-we"]
 ---
 
 
@@ -21,6 +21,8 @@ Participant-level questionnaire/repeatability measurements from Child participan
 | **Short name** | `mendeley_dry_eye_symptoms_children_can_we` |
 | **Full name** | Dry eye symptoms in children: can we reliably measure them? |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_dry_eye_symptoms_children_can_we` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

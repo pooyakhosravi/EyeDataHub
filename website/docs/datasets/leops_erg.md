@@ -3,7 +3,7 @@ id: leops_erg
 title: "LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset"
 sidebar_label: leops_erg
 description: "Light-adapted electroretinogram and oscillatory-potential waveform dataset from 253 pediatric participants, with structured JSON, tabular metadata, and electrode-position eye images."
-tags: ["electrophysiology", "tabular", "cc-by", "mendeley", "classification", "regression"]
+tags: ["electrophysiology", "tabular", "cc-by", "mendeley", "classification", "regression", "resource-role-current-dataset", "dataset-family-leops-erg"]
 ---
 
 
@@ -21,6 +21,8 @@ Light-adapted electroretinogram and oscillatory-potential waveform dataset from 
 | **Short name** | `leops_erg` |
 | **Full name** | LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset |
 | **Primary category** | `electrophysiology` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `leops_erg` |
 | **Contained modalities** | electrophysiology, tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 9,743 signals |

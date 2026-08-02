@@ -3,7 +3,7 @@ id: mendeley_retinal_blood_vessel_segmentation_rop
 title: "Retinal blood vessel segmentation(ROP)"
 sidebar_label: mendeley_retinal_blood_vessel_segmentation_rop
 description: "Fundus-image-level vessel-segmentation data from Retinopathy-of-prematurity retinal images; human infant provenance is inherent to the stated ROP source."
-tags: ["tabular", "cc-by", "mendeley", "segmentation"]
+tags: ["tabular", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-retinal-blood-vessel-segmentation-rop"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus-image-level vessel-segmentation data from Retinopathy-of-prematurity reti
 | **Short name** | `mendeley_retinal_blood_vessel_segmentation_rop` |
 | **Full name** | Retinal blood vessel segmentation(ROP) |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_retinal_blood_vessel_segmentation_rop` |
 | **Contained modalities** | tabular |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |

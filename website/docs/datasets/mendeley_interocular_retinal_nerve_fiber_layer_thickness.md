@@ -3,7 +3,7 @@ id: mendeley_interocular_retinal_nerve_fiber_layer_thickness
 title: "Interocular retinal nerve fiber layer thickness differences"
 sidebar_label: mendeley_interocular_retinal_nerve_fiber_layer_thickness
 description: "Retinal-location/eye-level rnfl thickness measurements from Human circumpapillary RNFL measurements from the study population."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-interocular-retinal-nerve-fiber-layer-thickness"]
 ---
 
 
@@ -21,6 +21,8 @@ Retinal-location/eye-level rnfl thickness measurements from Human circumpapillar
 | **Short name** | `mendeley_interocular_retinal_nerve_fiber_layer_thickness` |
 | **Full name** | Interocular retinal nerve fiber layer thickness differences |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_interocular_retinal_nerve_fiber_layer_thickness` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

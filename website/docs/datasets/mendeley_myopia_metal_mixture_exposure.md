@@ -3,7 +3,7 @@ id: mendeley_myopia_metal_mixture_exposure
 title: "Dataset: Myopia and Metal Mixture Exposure"
 sidebar_label: mendeley_myopia_metal_mixture_exposure
 description: "Participant-level myopia, exposure, and covariate analytic measurements from Human NHANES 2003-2008 participants, as explicitly stated by the source description."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-myopia-metal-mixture-exposure"]
 ---
 
 
@@ -21,6 +21,8 @@ Participant-level myopia, exposure, and covariate analytic measurements from Hum
 | **Short name** | `mendeley_myopia_metal_mixture_exposure` |
 | **Full name** | Dataset: Myopia and Metal Mixture Exposure |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_myopia_metal_mixture_exposure` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

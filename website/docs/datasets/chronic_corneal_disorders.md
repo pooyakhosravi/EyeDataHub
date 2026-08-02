@@ -3,7 +3,7 @@ id: chronic_corneal_disorders
 title: "Chronic Corneal Disorders Clinical Dataset"
 sidebar_label: chronic_corneal_disorders
 description: "Prospective tabular clinical dataset of 332 patients with chronic corneal disorders, including visual acuity, slit-lamp findings, comorbidities, diagnoses, treatments, and risk factors."
-tags: ["tabular", "cc-by", "mendeley", "classification", "regression"]
+tags: ["tabular", "cc-by", "mendeley", "classification", "regression", "resource-role-current-dataset", "dataset-family-chronic-corneal-disorders"]
 ---
 
 
@@ -21,6 +21,8 @@ Prospective tabular clinical dataset of 332 patients with chronic corneal disord
 | **Short name** | `chronic_corneal_disorders` |
 | **Full name** | Chronic Corneal Disorders Clinical Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `chronic_corneal_disorders` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 332 participants |

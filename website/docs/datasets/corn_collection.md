@@ -3,7 +3,7 @@ id: corn_collection
 title: "CORN: Corneal Confocal Microscope Dataset Collection"
 sidebar_label: corn_collection
 description: "Combined corneal confocal microscopy collection comprising CORN-1, CORN-2, CORN-3, CORN-1500, CORN-Pro, and CORN-Complex. The subsets support corneal-nerve and cell segmentation, image enhancement, to"
-tags: ["confocal", "cc-by", "manual", "segmentation", "grading", "classification", "quality", "documented-relationship", "relationship-component_of", "relationship-has_component"]
+tags: ["confocal", "cc-by", "manual", "segmentation", "grading", "classification", "quality", "resource-role-collection", "dataset-family-corn-collection", "documented-relationship", "relationship-component_of", "relationship-has_component"]
 ---
 
 
@@ -21,6 +21,8 @@ Combined corneal confocal microscopy collection comprising CORN-1, CORN-2, CORN-
 | **Short name** | `corn_collection` |
 | **Full name** | CORN: Corneal Confocal Microscope Dataset Collection |
 | **Primary category** | `confocal` |
+| **Resource role** | `collection` |
+| **Dataset family** | `corn_collection` |
 | **Contained modalities** | confocal |
 | **Tasks** | segmentation, grading, classification, quality |
 | **Primary reported quantity** | 12,931 images |
@@ -49,6 +51,13 @@ Counts retain their source-reported units. Additional rows can describe componen
 ## Notes
 
 > The Zenodo record is publicly visible, but its files require a logged-in access request containing the user's name, organization, work, and intended use. EyeDataHub displays those instructions and does not submit the request. This collection includes and overlaps the separately indexed CORN-1500 and CORN-Pro records; its six subsets must not be counted as independent cohorts.
+
+## Dataset family
+
+This record belongs to `corn_collection`. Family links group documented collection/component records or exact task views; they do not imply independent cohorts.
+
+- [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (`component_dataset`)
+- [corn_pro](./corn_pro.md): CORN Pro: Corneal Nerve Confocal Microscopy Dataset (`component_dataset`)
 
 ## Documented relationships
 

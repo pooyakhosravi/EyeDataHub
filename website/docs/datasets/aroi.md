@@ -3,7 +3,7 @@ id: aroi
 title: "AROI: Annotated Retinal OCT Images Database"
 sidebar_label: aroi
 description: "1,136 OCT B-scans from 24 AMD patients. Expert annotations for 3 retinal fluid types (IRF, SRF, PED) and 3 retinal layer boundaries for joint layer and fluid segmentation."
-tags: ["oct", "research-only", "gdrive", "segmentation"]
+tags: ["oct", "research-only", "gdrive", "segmentation", "resource-role-current-dataset", "dataset-family-aroi"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `aroi` |
 | **Full name** | AROI: Annotated Retinal OCT Images Database |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `aroi` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 1,136 images |

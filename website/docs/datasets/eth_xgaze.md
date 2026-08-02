@@ -3,7 +3,7 @@ id: eth_xgaze
 title: "ETH-XGaze Extreme-Pose Gaze Estimation Dataset"
 sidebar_label: eth_xgaze
 description: "High-resolution multi-camera face images with calibrated gaze targets, extreme head poses, and varied illumination."
-tags: ["eye_tracking", "cc-by-nc-sa", "manual", "gaze_estimation", "regression"]
+tags: ["eye_tracking", "cc-by-nc-sa", "manual", "gaze_estimation", "regression", "resource-role-current-dataset", "dataset-family-eth-xgaze"]
 ---
 
 
@@ -21,6 +21,8 @@ High-resolution multi-camera face images with calibrated gaze targets, extreme h
 | **Short name** | `eth_xgaze` |
 | **Full name** | ETH-XGaze Extreme-Pose Gaze Estimation Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `eth_xgaze` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | gaze_estimation, regression |
 | **Primary reported quantity** | 1,083,492 images |

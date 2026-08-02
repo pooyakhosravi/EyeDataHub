@@ -27,8 +27,8 @@ def test_relationship_graph_is_valid_and_matches_runtime_catalog() -> None:
         for relationship in dataset.info.relationships
     }
 
-    assert len(datasets) == 479
-    assert len(RELATIONSHIP_EVIDENCE) == len(evidence_edges) == 153
+    assert len(datasets) == 475
+    assert len(RELATIONSHIP_EVIDENCE) == len(evidence_edges) == 145
     assert runtime_edges == evidence_edges
     assert all(source != target for source, _, target in evidence_edges)
     assert all(kind in RELATIONSHIP_TYPES for _, kind, _ in evidence_edges)
@@ -62,13 +62,13 @@ def test_record_level_review_and_edge_exports_match_graph() -> None:
         edge_rows = list(csv.DictReader(handle))
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
 
-    assert len(review_rows) == 479
-    assert len({row["record_id"] for row in review_rows}) == 479
-    assert len(edge_rows) == len(RELATIONSHIP_EVIDENCE) == 153
-    assert summary["catalog_record_count"] == 479
-    assert summary["reviewed_record_count"] == 479
-    assert summary["directed_relationship_edge_count"] == 153
-    assert summary["records_participating_in_confirmed_relationships"] == 100
+    assert len(review_rows) == 475
+    assert len({row["record_id"] for row in review_rows}) == 475
+    assert len(edge_rows) == len(RELATIONSHIP_EVIDENCE) == 145
+    assert summary["catalog_record_count"] == 475
+    assert summary["reviewed_record_count"] == 475
+    assert summary["directed_relationship_edge_count"] == 145
+    assert summary["records_participating_in_confirmed_relationships"] == 96
     assert summary["third_party_dataset_files_included"] is False
 
 

@@ -3,7 +3,7 @@ id: lmod_plus
 title: "LMOD+ Multimodal Ophthalmology Benchmark"
 sidebar_label: lmod_plus
 description: "Composite multimodal ophthalmology benchmark with multi-granular anatomical, diagnostic, staging, demographic, and text annotations."
-tags: ["multimodal", "fundus", "oct", "external_eye", "surgical_video", "text", "tabular", "unknown", "manual", "visual_question_answering", "classification", "grading", "detection", "documented-relationship", "relationship-derived_from"]
+tags: ["multimodal", "fundus", "oct", "external_eye", "surgical_video", "text", "tabular", "unknown", "manual", "visual_question_answering", "classification", "grading", "detection", "resource-role-derivative-dataset", "dataset-family-lmod-plus", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Composite multimodal ophthalmology benchmark with multi-granular anatomical, dia
 | **Short name** | `lmod_plus` |
 | **Full name** | LMOD+ Multimodal Ophthalmology Benchmark |
 | **Primary category** | `multimodal` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `lmod_plus` |
 | **Contained modalities** | fundus, oct, external_eye, surgical_video, text, tabular |
 | **Tasks** | visual_question_answering, classification, grading, detection |
 | **Primary reported quantity** | 32,633 annotated instances |
@@ -58,7 +60,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - This record is `derived from` [g1020](./g1020.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
 - This record is `derived from` [idrid](./idrid.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
 - This record is `derived from` [oimhs](./oimhs.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
-- This record is `derived from` [refuge2018](./refuge2018.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
+- This record is `derived from` [refuge2](./refuge2.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
 
 ## Access information and download
 

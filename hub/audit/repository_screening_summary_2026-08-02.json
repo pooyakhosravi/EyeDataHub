@@ -3,7 +3,7 @@
   "search_snapshot": "repository_search_candidates_2026-08-02.json",
   "screening_ledger": "repository_screening_ledger_2026-08-02.csv",
   "review_date": "2026-08-02",
-  "catalog_record_count_at_screening": 479,
+  "catalog_record_count_at_screening": 475,
   "workflow_sources": [
     "dryad",
     "mendeley",
@@ -62,24 +62,24 @@
     },
     "huggingface": {
       "unique_search_hits": 281,
-      "excluded_duplicate_or_alternate_deposit": 12,
+      "excluded_duplicate_or_alternate_deposit": 13,
       "excluded_insufficient_source_metadata": 69,
       "excluded_nonhuman_or_nonhuman_derived": 3,
       "excluded_not_distinct_reusable_resource": 26,
       "excluded_not_eye_or_ophthalmology": 124,
       "excluded_not_suitable_for_model_training_or_evaluation": 29,
       "existing_catalog_record": 14,
-      "included_new_record": 4
+      "included_new_record": 3
     },
     "kaggle": {
       "unique_search_hits": 2155,
-      "excluded_duplicate_or_alternate_deposit": 167,
+      "excluded_duplicate_or_alternate_deposit": 168,
       "excluded_insufficient_source_metadata": 892,
       "excluded_nonhuman_or_nonhuman_derived": 7,
       "excluded_not_distinct_reusable_resource": 251,
       "excluded_not_eye_or_ophthalmology": 795,
       "excluded_not_suitable_for_model_training_or_evaluation": 18,
-      "existing_catalog_record": 19,
+      "existing_catalog_record": 18,
       "included_new_record": 6
     },
     "mendeley": {
@@ -95,14 +95,14 @@
   },
   "overall_counts": {
     "unique_search_hits": 18737,
-    "excluded_duplicate_or_alternate_deposit": 219,
+    "excluded_duplicate_or_alternate_deposit": 221,
     "excluded_insufficient_source_metadata": 1051,
     "excluded_nonhuman_or_nonhuman_derived": 165,
     "excluded_not_distinct_reusable_resource": 485,
     "excluded_not_eye_or_ophthalmology": 16126,
     "excluded_not_suitable_for_model_training_or_evaluation": 376,
-    "existing_catalog_record": 159,
-    "included_new_record": 156
+    "existing_catalog_record": 158,
+    "included_new_record": 155
   },
   "all_requested_searches_complete": true,
   "manual_review_complete": true,

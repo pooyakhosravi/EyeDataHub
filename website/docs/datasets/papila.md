@@ -3,7 +3,7 @@ id: papila
 title: "PAPILA: Glaucoma Fundus Dataset with Clinical Data"
 sidebar_label: papila
 description: "488 fundus images from 244 patients (both eyes). Expert OD/OC segmentation, glaucoma stage, IOP, and clinical metadata."
-tags: ["fundus", "tabular", "cc-by", "direct", "classification", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "tabular", "cc-by", "direct", "classification", "segmentation", "resource-role-current-dataset", "dataset-family-papila", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `papila` |
 | **Full name** | PAPILA: Glaucoma Fundus Dataset with Clinical Data |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `papila` |
 | **Contained modalities** | fundus, tabular |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 488 images |
@@ -50,7 +52,6 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
-- [glaucoma_expert_cot_raw](./glaucoma_expert_cot_raw.md) is `derived from` this record: The official dataset card identifies LAG and PAPILA as the source fundus resources paired with the glaucoma reasoning records. ([evidence](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077))
 - [glaucoma_expert_cot_refined](./glaucoma_expert_cot_refined.md) is `derived from` this record: The official dataset card identifies LAG and PAPILA as the source fundus resources paired with the refined glaucoma reasoning records. ([evidence](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077))
 - [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 - [smdg](./smdg.md) is `derived from` this record: The official SMDG source table lists this catalog record among the 19 standardized source domains. ([evidence](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset))

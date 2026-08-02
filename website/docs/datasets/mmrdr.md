@@ -3,7 +3,7 @@ id: mmrdr
 title: "MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset"
 sidebar_label: mmrdr
 description: "Multi-modal DR dataset combining color fundus photographs (CFP), OCT B-scans, and ultra-widefield (UWF) fundus images, annotated for DR detection and severity grading. Published in Nature Scientific D"
-tags: ["multimodal", "fundus", "oct", "uwf_fundus", "cc-by", "figshare", "grading", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["multimodal", "fundus", "oct", "uwf_fundus", "cc-by", "figshare", "grading", "classification", "resource-role-derivative-dataset", "dataset-family-mmrdr", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Multi-modal DR dataset combining color fundus photographs (CFP), OCT B-scans, an
 | **Short name** | `mmrdr` |
 | **Full name** | MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `mmrdr` |
 | **Contained modalities** | fundus, oct, uwf_fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 24,460 images |

@@ -3,7 +3,7 @@ id: spectrosense_pupil_light_exposure
 title: "SpectroSense Pupil Light Exposure Dataset"
 sidebar_label: spectrosense_pupil_light_exposure
 description: "Human pupil and light-exposure measurements."
-tags: ["eye_tracking", "pupillometry", "cc-by", "figshare", "measurement"]
+tags: ["eye_tracking", "pupillometry", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-spectrosense-pupil-light-exposure"]
 ---
 
 
@@ -21,6 +21,8 @@ Human pupil and light-exposure measurements.
 | **Short name** | `spectrosense_pupil_light_exposure` |
 | **Full name** | SpectroSense Pupil Light Exposure Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `spectrosense_pupil_light_exposure` |
 | **Contained modalities** | eye_tracking, pupillometry |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

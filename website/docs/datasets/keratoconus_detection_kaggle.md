@@ -3,7 +3,7 @@ id: keratoconus_detection_kaggle
 title: "Keratoconus Detection Corneal Maps"
 sidebar_label: keratoconus_detection_kaggle
 description: "Corneal map images for three-class keratoconus detection."
-tags: ["corneal_topography", "unknown", "kaggle", "classification"]
+tags: ["corneal_topography", "unknown", "kaggle", "classification", "resource-role-current-dataset", "dataset-family-keratoconus-detection-kaggle"]
 ---
 
 
@@ -21,6 +21,8 @@ Corneal map images for three-class keratoconus detection.
 | **Short name** | `keratoconus_detection_kaggle` |
 | **Full name** | Keratoconus Detection Corneal Maps |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `keratoconus_detection_kaggle` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | classification |
 | **Primary reported quantity** | 573 images |

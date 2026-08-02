@@ -3,7 +3,7 @@ id: cadis
 title: "CaDIS: Cataract Dataset for Image Segmentation"
 sidebar_label: cadis
 description: "Semantic segmentation labels for 4,670 frames from 25 cataract surgery videos (CATARACTS challenge). 25 anatomy and instrument classes."
-tags: ["surgical_video", "research-only", "manual", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["surgical_video", "research-only", "manual", "segmentation", "resource-role-annotation-layer", "dataset-family-cadis", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Semantic segmentation labels for 4,670 frames from 25 cataract surgery videos (C
 | **Short name** | `cadis` |
 | **Full name** | CaDIS: Cataract Dataset for Image Segmentation |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `cadis` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 4,670 images |

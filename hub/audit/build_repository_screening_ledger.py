@@ -54,6 +54,36 @@ FINAL_DECISIONS = {
 
 WORKFLOW_SOURCES = ("dryad", "mendeley", "kaggle", "figshare", "huggingface")
 
+
+# These source records were retained during screening but were later resolved
+# as source-history links under the current-version and canonical-copy policy.
+# Keeping the decisions in code makes regeneration independent of the older
+# human-review snapshot, which remains unchanged as a dated review artifact.
+CURRENT_CANONICAL_POLICY = {
+    "huggingface:yuzhench/glaucoma-expert-cot-raw-1077": {
+        "final_decision": "excluded_duplicate_or_alternate_deposit",
+        "canonical_record_id": "glaucoma_expert_cot_refined",
+        "canonical_record_ids": ["glaucoma_expert_cot_refined"],
+        "relationship_type": "previous_version",
+        "reason": (
+            "Earlier raw release preserved as a previous-version link on the "
+            "current refined record."
+        ),
+        "decision_basis": "current_version_policy",
+    },
+    "kaggle:pkdarabi/diagnosis-of-diabetic-retinopathy": {
+        "final_decision": "excluded_duplicate_or_alternate_deposit",
+        "canonical_record_id": "eyepacs",
+        "canonical_record_ids": ["eyepacs"],
+        "relationship_type": "alternate_subset_repository_copy",
+        "reason": (
+            "Unmodified repackage of the 35,126-image EyePACS training split; "
+            "preserved as an alternate repository link on EyePACS."
+        ),
+        "decision_basis": "canonical_copy_policy",
+    },
+}
+
 _TAG_RE = re.compile(r"<[^>]+>")
 _SPACE_RE = re.compile(r"\s+")
 _WORD_RE = re.compile(r"[^a-z0-9]+")
@@ -539,6 +569,8 @@ def build(
                     "reason": override["reason"],
                     "decision_basis": "human_reviewed_override",
                 }
+            if key in CURRENT_CANONICAL_POLICY:
+                decision = dict(CURRENT_CANONICAL_POLICY[key])
             rows.append(
                 {
                     "platform": platform,

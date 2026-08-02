@@ -3,7 +3,7 @@ id: mendeley_cp_anemic_conjunctival_pallor_ghana
 title: "CP-AnemiC (A Conjunctival Pallor) Dataset from Ghana"
 sidebar_label: mendeley_cp_anemic_conjunctival_pallor_ghana
 description: "Image-level conjunctival-pallor observations with anemia-related target from Conjunctival photographs of children aged 6-59 months presenting at assigned Ghanaian health facilities."
-tags: ["tabular", "cc-by", "manual", "classification"]
+tags: ["tabular", "cc-by", "manual", "classification", "resource-role-current-dataset", "dataset-family-mendeley-cp-anemic-conjunctival-pallor-ghana"]
 ---
 
 
@@ -21,6 +21,8 @@ Image-level conjunctival-pallor observations with anemia-related target from Con
 | **Short name** | `mendeley_cp_anemic_conjunctival_pallor_ghana` |
 | **Full name** | CP-AnemiC (A Conjunctival Pallor) Dataset from Ghana |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_cp_anemic_conjunctival_pallor_ghana` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

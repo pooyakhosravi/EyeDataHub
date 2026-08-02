@@ -3,7 +3,7 @@ id: ophthalwechat
 title: "OphthalWeChat Dataset"
 sidebar_label: ophthalwechat
 description: "Ophthalmology-oriented WeChat article metadata and image-link dataset for visual question answering and multimodal language-model evaluation."
-tags: ["text", "cc-by", "figshare", "visual_question_answering", "retrieval"]
+tags: ["text", "cc-by", "figshare", "visual_question_answering", "retrieval", "resource-role-current-dataset", "dataset-family-ophthalwechat"]
 ---
 
 
@@ -21,6 +21,8 @@ Ophthalmology-oriented WeChat article metadata and image-link dataset for visual
 | **Short name** | `ophthalwechat` |
 | **Full name** | OphthalWeChat Dataset |
 | **Primary category** | `text` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ophthalwechat` |
 | **Contained modalities** | text |
 | **Tasks** | visual_question_answering, retrieval |
 | **Primary reported quantity** | 30,120 question answer pairs |

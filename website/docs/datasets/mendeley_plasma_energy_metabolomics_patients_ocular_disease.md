@@ -3,7 +3,7 @@ id: mendeley_plasma_energy_metabolomics_patients_ocular_disease
 title: "plasma energy metabolomics in patients with ocular disease"
 sidebar_label: mendeley_plasma_energy_metabolomics_patients_ocular_disease
 description: "Observation-level human or human-derived measurements/signals. from Patients with ocular disease, including POAG context."
-tags: ["omics", "cc-by", "mendeley", "measurement"]
+tags: ["omics", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-plasma-energy-metabolomics-patients-ocular-disease"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Patients wit
 | **Short name** | `mendeley_plasma_energy_metabolomics_patients_ocular_disease` |
 | **Full name** | plasma energy metabolomics in patients with ocular disease |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_plasma_energy_metabolomics_patients_ocular_disease` |
 | **Contained modalities** | omics |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

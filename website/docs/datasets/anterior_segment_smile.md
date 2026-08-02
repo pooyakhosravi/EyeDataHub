@@ -3,7 +3,7 @@ id: anterior_segment_smile
 title: "Anterior Segment Parameters After SMILE Surgery"
 sidebar_label: anterior_segment_smile
 description: "Tabular anterior-segment and ocular-biometry measurements before and after SMILE surgery, including slit-lamp examination, Pentacam, and IOLMaster variables."
-tags: ["tabular", "cc-by", "mendeley", "regression"]
+tags: ["tabular", "cc-by", "mendeley", "regression", "resource-role-current-dataset", "dataset-family-anterior-segment-smile"]
 ---
 
 
@@ -21,6 +21,8 @@ Tabular anterior-segment and ocular-biometry measurements before and after SMILE
 | **Short name** | `anterior_segment_smile` |
 | **Full name** | Anterior Segment Parameters After SMILE Surgery |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `anterior_segment_smile` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 69 eyes |

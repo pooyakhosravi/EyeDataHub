@@ -3,7 +3,7 @@ id: mendeley_human_mesenchymal_stem_cells_derived_adipose
 title: "Human mesenchymal stem cells derived from adipose tissue showed greater effect than from umbilical cord in promoting corneal graft survival through suppressing lymphangiogenesis"
 sidebar_label: mendeley_human_mesenchymal_stem_cells_derived_adipose
 description: "Observation-level source data, annotations, or signals. from Human adipose- and umbilical-cord-derived mesenchymal stem cells are stated."
-tags: ["corneal_topography", "cc-by", "mendeley", "measurement"]
+tags: ["corneal_topography", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-human-mesenchymal-stem-cells-derived-adipose"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Human adipose- and 
 | **Short name** | `mendeley_human_mesenchymal_stem_cells_derived_adipose` |
 | **Full name** | Human mesenchymal stem cells derived from adipose tissue showed greater effect than from umbilical cord in promoting corneal graft survival through suppressing lymphangiogenesis |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_human_mesenchymal_stem_cells_derived_adipose` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

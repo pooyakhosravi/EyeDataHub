@@ -3,7 +3,7 @@ id: ophthalmology_mcqa_v3
 title: "Ophthalmology-MCQA-v3"
 sidebar_label: ophthalmology_mcqa_v3
 description: "Text-only ophthalmology multiple-choice question-answering dataset for LLM training/evaluation."
-tags: ["text", "unknown", "huggingface", "question_answering", "text_generation"]
+tags: ["text", "unknown", "huggingface", "question_answering", "text_generation", "resource-role-current-dataset", "dataset-family-ophthalmology-mcqa-v3"]
 ---
 
 
@@ -21,6 +21,8 @@ Text-only ophthalmology multiple-choice question-answering dataset for LLM train
 | **Short name** | `ophthalmology_mcqa_v3` |
 | **Full name** | Ophthalmology-MCQA-v3 |
 | **Primary category** | `text` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ophthalmology_mcqa_v3` |
 | **Contained modalities** | text |
 | **Tasks** | question_answering, text_generation |
 | **Primary reported quantity** | 51,745 questions |

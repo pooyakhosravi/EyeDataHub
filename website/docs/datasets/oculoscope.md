@@ -3,7 +3,7 @@ id: oculoscope
 title: "OculoScope: Fairer AI in Ophthalmology Dataset"
 sidebar_label: oculoscope
 description: "16,530 ultra-widefield fundus images from 8,405+ patients (age 0–90) annotated for 38 ophthalmic diseases and 67 fundus features. Released alongside the FairerOPTH study on sexism and ageism in ophtha"
-tags: ["uwf_fundus", "tabular", "cc-by", "figshare", "classification", "multilabel"]
+tags: ["uwf_fundus", "tabular", "cc-by", "figshare", "classification", "multilabel", "resource-role-current-dataset", "dataset-family-oculoscope"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `oculoscope` |
 | **Full name** | OculoScope: Fairer AI in Ophthalmology Dataset |
 | **Primary category** | `uwf_fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `oculoscope` |
 | **Contained modalities** | uwf_fundus, tabular |
 | **Tasks** | classification, multilabel |
 | **Primary reported quantity** | 16,530 images |

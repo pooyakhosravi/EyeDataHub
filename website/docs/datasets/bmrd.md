@@ -3,7 +3,7 @@ id: bmrd
 title: "Bangladesh Multi-Disease Retinal Dataset"
 sidebar_label: bmrd
 description: "One thousand seven hundred eighty-six original color fundus images for diabetic retinopathy, age-related macular degeneration, and glaucoma grading/classification."
-tags: ["fundus", "cc-by", "mendeley", "classification", "grading"]
+tags: ["fundus", "cc-by", "mendeley", "classification", "grading", "resource-role-current-dataset", "dataset-family-bmrd"]
 ---
 
 
@@ -21,6 +21,8 @@ One thousand seven hundred eighty-six original color fundus images for diabetic 
 | **Short name** | `bmrd` |
 | **Full name** | Bangladesh Multi-Disease Retinal Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `bmrd` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, grading |
 | **Primary reported quantity** | 1,786 images |
@@ -123,4 +125,4 @@ Ema RR. Bangladesh Multi-Disease Retinal Dataset (BMRD). Mendeley Data, V1, 2025
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

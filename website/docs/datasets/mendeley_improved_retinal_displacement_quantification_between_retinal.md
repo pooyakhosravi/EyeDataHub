@@ -3,7 +3,7 @@ id: mendeley_improved_retinal_displacement_quantification_between_retinal
 title: "Improved Retinal Displacement Quantification Between Retinal Vessels and Corresponding Retinal Vessel Printings Across the 3D Spherical Surface of the Eye: Dataset of Measurements on Fundus Autofluorescence Imaging"
 sidebar_label: mendeley_improved_retinal_displacement_quantification_between_retinal
 description: "Patient/eye-level fundus-autofluorescence retinal-displacement measurements from Patients who underwent pars plana vitrectomy or pneumatic retinopexy."
-tags: ["fundus", "cc-by", "mendeley", "classification"]
+tags: ["fundus", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-improved-retinal-displacement-quantification-between-retinal"]
 ---
 
 
@@ -21,6 +21,8 @@ Patient/eye-level fundus-autofluorescence retinal-displacement measurements from
 | **Short name** | `mendeley_improved_retinal_displacement_quantification_between_retinal` |
 | **Full name** | Improved Retinal Displacement Quantification Between Retinal Vessels and Corresponding Retinal Vessel Printings Across the 3D Spherical Surface of the Eye: Dataset of Measurements on Fundus Autofluorescence Imaging |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_improved_retinal_displacement_quantification_between_retinal` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 53 participants |
@@ -126,4 +128,4 @@ Improved Retinal Displacement Quantification Between Retinal Vessels and Corresp
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

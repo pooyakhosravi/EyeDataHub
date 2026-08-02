@@ -3,7 +3,7 @@ id: sustech_sysu
 title: "SUSTech-SYSU Diabetic Retinopathy + Exudate Dataset"
 sidebar_label: sustech_sysu
 description: "1,219 color fundus images with DR severity grading + pixel-level exudate segmentation masks. Multi-center (SUSTech + Sun Yat-sen University)."
-tags: ["fundus", "cc-by", "figshare", "grading", "segmentation", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "figshare", "grading", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-sustech-sysu", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `sustech_sysu` |
 | **Full name** | SUSTech-SYSU Diabetic Retinopathy + Exudate Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `sustech_sysu` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, segmentation, classification |
 | **Primary reported quantity** | 1,219 images |
@@ -129,4 +131,4 @@ Lin et al., 'The SUSTech-SYSU dataset for automated exudate detection and diabet
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

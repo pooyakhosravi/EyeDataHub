@@ -3,7 +3,7 @@ id: dryad_vkh_apoe
 title: "VKH APOE Transcriptomics and Proteomics Dataset"
 sidebar_label: dryad_vkh_apoe
 description: "VKH PBMC transcriptomics and proteomics are a direct translational uveitis biomarker resource."
-tags: ["omics", "tabular", "cc0", "dryad", "classification"]
+tags: ["omics", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-vkh-apoe"]
 ---
 
 
@@ -21,6 +21,8 @@ VKH PBMC transcriptomics and proteomics are a direct translational uveitis bioma
 | **Short name** | `dryad_vkh_apoe` |
 | **Full name** | VKH APOE Transcriptomics and Proteomics Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_vkh_apoe` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

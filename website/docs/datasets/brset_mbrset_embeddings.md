@@ -3,7 +3,7 @@ id: brset_mbrset_embeddings
 title: "Embedding-Based Representations for BRSET and mBRSET"
 sidebar_label: brset_mbrset_embeddings
 description: "Precomputed image embeddings for BRSET and mBRSET to support efficient ophthalmic AI research without raw-image redistribution."
-tags: ["tabular", "unknown", "physionet", "classification", "retrieval", "documented-relationship", "relationship-derived_from"]
+tags: ["tabular", "unknown", "physionet", "classification", "retrieval", "resource-role-derivative-dataset", "dataset-family-brset-mbrset-embeddings", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Precomputed image embeddings for BRSET and mBRSET to support efficient ophthalmi
 | **Short name** | `brset_mbrset_embeddings` |
 | **Full name** | Embedding-Based Representations for BRSET and mBRSET |
 | **Primary category** | `tabular` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `brset_mbrset_embeddings` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, retrieval |
 | **Primary reported quantity** | 53,188 embedding vectors |

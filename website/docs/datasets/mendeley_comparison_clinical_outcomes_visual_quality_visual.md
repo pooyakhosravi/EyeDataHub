@@ -3,7 +3,7 @@ id: mendeley_comparison_clinical_outcomes_visual_quality_visual
 title: "Comparison of clinical outcomes, visual quality and visual function of two presbyopia-correcting intraocular lenses made from the same material, but with different design and optics"
 sidebar_label: mendeley_comparison_clinical_outcomes_visual_quality_visual
 description: "Observation-level human or human-derived measurements/signals. from Patients with presbyopia-correcting IOLs."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-comparison-clinical-outcomes-visual-quality-visual"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Patients wit
 | **Short name** | `mendeley_comparison_clinical_outcomes_visual_quality_visual` |
 | **Full name** | Comparison of clinical outcomes, visual quality and visual function of two presbyopia-correcting intraocular lenses made from the same material, but with different design and optics |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_comparison_clinical_outcomes_visual_quality_visual` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

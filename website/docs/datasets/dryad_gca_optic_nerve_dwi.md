@@ -3,7 +3,7 @@ id: dryad_gca_optic_nerve_dwi
 title: "GCA Optic Nerve Diffusion MRI Dataset"
 sidebar_label: dryad_gca_optic_nerve_dwi
 description: "Optic-nerve diffusion-MRI assessment data directly support ischemic optic-neuropathy classification."
-tags: ["multimodal", "orbital_mri", "tabular", "cc0", "dryad", "classification"]
+tags: ["multimodal", "orbital_mri", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-gca-optic-nerve-dwi"]
 ---
 
 
@@ -21,6 +21,8 @@ Optic-nerve diffusion-MRI assessment data directly support ischemic optic-neurop
 | **Short name** | `dryad_gca_optic_nerve_dwi` |
 | **Full name** | GCA Optic Nerve Diffusion MRI Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_gca_optic_nerve_dwi` |
 | **Contained modalities** | orbital_mri, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | 37 mri scans |

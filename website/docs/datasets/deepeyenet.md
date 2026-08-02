@@ -3,7 +3,7 @@ id: deepeyenet
 title: "DeepEyeNet (DEN): Fundus Report Generation Dataset"
 sidebar_label: deepeyenet
 description: "15,709 fundus images with paired medical reports and extracted keywords. Only public fundus report-generation dataset — useful for VLM / captioning evaluation."
-tags: ["fundus", "text", "research-only", "manual", "classification", "multilabel"]
+tags: ["fundus", "text", "research-only", "manual", "classification", "multilabel", "resource-role-current-dataset", "dataset-family-deepeyenet"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `deepeyenet` |
 | **Full name** | DeepEyeNet (DEN): Fundus Report Generation Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `deepeyenet` |
 | **Contained modalities** | fundus, text |
 | **Tasks** | classification, multilabel |
 | **Primary reported quantity** | 15,709 images |

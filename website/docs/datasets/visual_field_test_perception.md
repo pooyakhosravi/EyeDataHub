@@ -3,7 +3,7 @@ id: visual_field_test_perception
 title: "Visual Field Test Perception Dataset"
 sidebar_label: visual_field_test_perception
 description: "Human visual-field perception observations."
-tags: ["visual_field", "cc-by", "figshare", "measurement"]
+tags: ["visual_field", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-visual-field-test-perception"]
 ---
 
 
@@ -21,6 +21,8 @@ Human visual-field perception observations.
 | **Short name** | `visual_field_test_perception` |
 | **Full name** | Visual Field Test Perception Dataset |
 | **Primary category** | `visual_field` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `visual_field_test_perception` |
 | **Contained modalities** | visual_field |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

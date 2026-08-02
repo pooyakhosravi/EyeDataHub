@@ -3,7 +3,7 @@ id: casia2_as_oct_repeatability
 title: "CASIA2 Anterior-Segment OCT Repeatability Dataset"
 sidebar_label: casia2_as_oct_repeatability
 description: "Human CASIA2 anterior-segment OCT repeatability measurements."
-tags: ["corneal_topography", "as_oct", "cc-by", "figshare", "measurement"]
+tags: ["corneal_topography", "as_oct", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-casia2-as-oct-repeatability"]
 ---
 
 
@@ -21,6 +21,8 @@ Human CASIA2 anterior-segment OCT repeatability measurements.
 | **Short name** | `casia2_as_oct_repeatability` |
 | **Full name** | CASIA2 Anterior-Segment OCT Repeatability Dataset |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `casia2_as_oct_repeatability` |
 | **Contained modalities** | corneal_topography, as_oct |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

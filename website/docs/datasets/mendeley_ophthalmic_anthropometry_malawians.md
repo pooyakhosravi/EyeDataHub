@@ -3,7 +3,7 @@ id: mendeley_ophthalmic_anthropometry_malawians
 title: "Ophthalmic Anthropometry of Malawians"
 sidebar_label: mendeley_ophthalmic_anthropometry_malawians
 description: "Observation-level source data, annotations, or signals. from Source describes ocular/facial anthropometry in Malawian participants aged 6-25."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-ophthalmic-anthropometry-malawians"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Source describes oc
 | **Short name** | `mendeley_ophthalmic_anthropometry_malawians` |
 | **Full name** | Ophthalmic Anthropometry of Malawians |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_ophthalmic_anthropometry_malawians` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

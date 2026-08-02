@@ -3,7 +3,7 @@ id: natural_scene_eye_tracking_collection
 title: "Natural-Scene Tobii Eye-Tracking Collection"
 sidebar_label: natural_scene_eye_tracking_collection
 description: "Tobii Pro Glasses 3 natural-scene viewing recordings with gaze, IMU, event, video, and snapshot files."
-tags: ["eye_tracking", "cc-by", "figshare", "gaze_estimation", "measurement", "alternate-source", "source-figshare", "alternate-role-component-deposit"]
+tags: ["eye_tracking", "cc-by", "figshare", "gaze_estimation", "measurement", "resource-role-current-dataset", "dataset-family-natural-scene-eye-tracking-collection", "alternate-source", "source-figshare", "alternate-role-component-deposit"]
 ---
 
 
@@ -21,6 +21,8 @@ Tobii Pro Glasses 3 natural-scene viewing recordings with gaze, IMU, event, vide
 | **Short name** | `natural_scene_eye_tracking_collection` |
 | **Full name** | Natural-Scene Tobii Eye-Tracking Collection |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `natural_scene_eye_tracking_collection` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | gaze_estimation, measurement |
 | **Primary reported quantity** | Not reported |

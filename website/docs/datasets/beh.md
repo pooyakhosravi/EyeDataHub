@@ -3,7 +3,7 @@ id: beh
 title: "BEH: Bangladesh Eye Hospital Glaucoma Dataset"
 sidebar_label: beh
 description: "Fundus photographs from Bangladesh Eye Hospital for glaucoma detection. Includes optic cup/disc crops and vessel segmentation masks alongside binary glaucoma/normal labels."
-tags: ["fundus", "research-only", "gdrive", "classification", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "research-only", "gdrive", "classification", "segmentation", "resource-role-current-dataset", "dataset-family-beh", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus photographs from Bangladesh Eye Hospital for glaucoma detection. Includes
 | **Short name** | `beh` |
 | **Full name** | BEH: Bangladesh Eye Hospital Glaucoma Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `beh` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 634 images |
@@ -141,4 +143,4 @@ Islam MT et al., 'Deep Learning-Based Glaucoma Detection with Cropped Optic Cup 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

@@ -3,7 +3,7 @@ id: multieye
 title: "MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark"
 sidebar_label: multieye
 description: "58,036 fundus + 45,923 OCT images assembled for multi-disease classification (8 classes) with cross-modal distillation. Sourced from multiple public ophthalmic datasets."
-tags: ["multimodal", "fundus", "oct", "mit", "huggingface", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["multimodal", "fundus", "oct", "mit", "huggingface", "classification", "resource-role-derivative-dataset", "dataset-family-multieye", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `multieye` |
 | **Full name** | MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark |
 | **Primary category** | `multimodal` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `multieye` |
 | **Contained modalities** | fundus, oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 103,959 images |

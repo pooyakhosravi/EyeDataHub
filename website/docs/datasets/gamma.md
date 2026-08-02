@@ -3,7 +3,7 @@ id: gamma
 title: "GAMMA — Glaucoma Grading from Multi-Modality Images"
 sidebar_label: gamma
 description: "300 paired fundus + 3D OCT volumes. Glaucoma grading into Normal / Early / Advanced plus OD/OC segmentation and fovea location."
-tags: ["multimodal", "fundus", "oct", "cc-by-nc-nd", "gdrive", "grading", "classification", "segmentation", "documented-relationship", "relationship-derived_from", "relationship-has_component", "relationship-component_of"]
+tags: ["multimodal", "fundus", "oct", "cc-by-nc-nd", "gdrive", "grading", "classification", "segmentation", "resource-role-component-dataset", "dataset-family-ichallenge-gamma", "documented-relationship", "relationship-derived_from", "relationship-has_component", "relationship-component_of"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `gamma` |
 | **Full name** | GAMMA — Glaucoma Grading from Multi-Modality Images |
 | **Primary category** | `multimodal` |
+| **Resource role** | `component_dataset` |
+| **Dataset family** | `ichallenge_gamma` |
 | **Contained modalities** | fundus, oct |
 | **Tasks** | grading, classification, segmentation |
 | **Primary reported quantity** | 300 volumes |
@@ -45,6 +47,12 @@ import TabItem from '@theme/TabItem';
 | Primary | 300 | `volumes` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [drive.google.com/file](https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view) |
 
 Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
+## Dataset family
+
+This record belongs to `ichallenge_gamma`. Family links group documented collection/component records or exact task views; they do not imply independent cohorts.
+
+- [ichallenge_oct](./ichallenge_oct.md): iChallenge OCT Datasets (HDMILab / OMIA Workshops) (`collection`)
 
 ## Documented relationships
 

@@ -3,7 +3,7 @@ id: oct_macular_hole_postsurgery
 title: "HD-OCT of Macular Hole Before and After Surgery"
 sidebar_label: oct_macular_hole_postsurgery
 description: "HD-OCT scans and clinical outcome variables for macular-hole visual-improvement prediction after surgery."
-tags: ["oct", "unknown", "kaggle", "regression", "classification"]
+tags: ["oct", "unknown", "kaggle", "regression", "classification", "resource-role-current-dataset", "dataset-family-oct-macular-hole-postsurgery"]
 ---
 
 
@@ -21,6 +21,8 @@ HD-OCT scans and clinical outcome variables for macular-hole visual-improvement 
 | **Short name** | `oct_macular_hole_postsurgery` |
 | **Full name** | HD-OCT of Macular Hole Before and After Surgery |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `oct_macular_hole_postsurgery` |
 | **Contained modalities** | oct |
 | **Tasks** | regression, classification |
 | **Primary reported quantity** | 2,658 images |

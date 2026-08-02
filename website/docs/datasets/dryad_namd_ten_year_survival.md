@@ -3,7 +3,7 @@ id: dryad_namd_ten_year_survival
 title: "Ten-year survival trends of neovascular age-related macular degeneration at first presentation"
 sidebar_label: dryad_namd_ten_year_survival
 description: "The 103-patient ten-year AMD outcome CSV is a clearly defined human survival-analysis resource."
-tags: ["tabular", "cc0", "dryad", "survival_analysis"]
+tags: ["tabular", "cc0", "dryad", "survival_analysis", "resource-role-current-dataset", "dataset-family-dryad-namd-ten-year-survival"]
 ---
 
 
@@ -21,6 +21,8 @@ The 103-patient ten-year AMD outcome CSV is a clearly defined human survival-ana
 | **Short name** | `dryad_namd_ten_year_survival` |
 | **Full name** | Ten-year survival trends of neovascular age-related macular degeneration at first presentation |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_namd_ten_year_survival` |
 | **Contained modalities** | tabular |
 | **Tasks** | survival_analysis |
 | **Primary reported quantity** | 103 participants |

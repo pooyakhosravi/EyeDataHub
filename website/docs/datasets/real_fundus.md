@@ -3,7 +3,7 @@ id: real_fundus
 title: "Real Fundus Clinical Image Restoration Benchmark"
 sidebar_label: real_fundus
 description: "One hundred twenty paired low quality and high quality clinical fundus photographs of the same eyes at 2560 by 2560 pixels for image restoration and enhancement research."
-tags: ["fundus", "unknown", "manual", "restoration"]
+tags: ["fundus", "unknown", "manual", "restoration", "resource-role-current-dataset", "dataset-family-real-fundus"]
 ---
 
 
@@ -21,6 +21,8 @@ One hundred twenty paired low quality and high quality clinical fundus photograp
 | **Short name** | `real_fundus` |
 | **Full name** | Real Fundus Clinical Image Restoration Benchmark |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `real_fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | restoration |
 | **Primary reported quantity** | 120 image pairs |
@@ -128,4 +130,4 @@ Deng Z, Cai Y, Chen L, et al. RFormer: Transformer-based generative adversarial 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

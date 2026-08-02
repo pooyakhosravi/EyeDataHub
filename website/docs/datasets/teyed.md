@@ -3,7 +3,7 @@ id: teyed
 title: "TEyeD Real-World Eye-Tracking Dataset"
 sidebar_label: teyed
 description: "Head-mounted eye images with pupil, iris, eyelid, eyeball, gaze, landmark, segmentation, and eye-movement annotations."
-tags: ["eye_tracking", "unknown", "manual", "gaze_estimation", "segmentation", "landmark_detection", "classification"]
+tags: ["eye_tracking", "unknown", "manual", "gaze_estimation", "segmentation", "landmark_detection", "classification", "resource-role-current-dataset", "dataset-family-teyed"]
 ---
 
 
@@ -21,6 +21,8 @@ Head-mounted eye images with pupil, iris, eyelid, eyeball, gaze, landmark, segme
 | **Short name** | `teyed` |
 | **Full name** | TEyeD Real-World Eye-Tracking Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `teyed` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | gaze_estimation, segmentation, landmark_detection, classification |
 | **Primary reported quantity** | 20,666,096 images |

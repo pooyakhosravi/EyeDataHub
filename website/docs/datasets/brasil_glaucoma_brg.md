@@ -3,7 +3,7 @@ id: brasil_glaucoma_brg
 title: "Brazil Glaucoma (BrG) Dataset"
 sidebar_label: brasil_glaucoma_brg
 description: "Portable/smartphone fundus photographs of Brazilian glaucoma and non-glaucoma volunteers."
-tags: ["fundus", "cc-by-nc", "kaggle", "classification"]
+tags: ["fundus", "cc-by-nc", "kaggle", "classification", "resource-role-current-dataset", "dataset-family-brasil-glaucoma-brg"]
 ---
 
 
@@ -21,6 +21,8 @@ Portable/smartphone fundus photographs of Brazilian glaucoma and non-glaucoma vo
 | **Short name** | `brasil_glaucoma_brg` |
 | **Full name** | Brazil Glaucoma (BrG) Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `brasil_glaucoma_brg` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 2,000 images |
@@ -126,4 +128,4 @@ Repository dataset record. clerimar/brasil-glaucoma-brg.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

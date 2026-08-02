@@ -3,7 +3,7 @@ id: retinal_oct_octa_two_subjects_processed
 title: "Processed Retinal OCT and OCTA Two-Subject Dataset"
 sidebar_label: retinal_oct_octa_two_subjects_processed
 description: "Processed human OCT/OCTA data including segmentations and ETDRS-grid materials."
-tags: ["octa", "cc-by", "kaggle", "segmentation", "measurement"]
+tags: ["octa", "cc-by", "kaggle", "segmentation", "measurement", "resource-role-current-dataset", "dataset-family-retinal-oct-octa-two-subjects-processed"]
 ---
 
 
@@ -21,6 +21,8 @@ Processed human OCT/OCTA data including segmentations and ETDRS-grid materials.
 | **Short name** | `retinal_oct_octa_two_subjects_processed` |
 | **Full name** | Processed Retinal OCT and OCTA Two-Subject Dataset |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `retinal_oct_octa_two_subjects_processed` |
 | **Contained modalities** | octa |
 | **Tasks** | segmentation, measurement |
 | **Primary reported quantity** | Not reported |

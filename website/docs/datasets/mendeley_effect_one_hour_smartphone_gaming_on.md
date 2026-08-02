@@ -3,7 +3,7 @@ id: mendeley_effect_one_hour_smartphone_gaming_on
 title: "The effect of one hour smartphone gaming on blinking, ocular symptoms and tear film function in school-aged children"
 sidebar_label: mendeley_effect_one_hour_smartphone_gaming_on
 description: "Observation-level human or human-derived measurements/signals. from School-aged children in one-hour smartphone-gaming intervention."
-tags: ["tabular", "unknown", "mendeley", "measurement"]
+tags: ["tabular", "unknown", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-effect-one-hour-smartphone-gaming-on"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from School-aged 
 | **Short name** | `mendeley_effect_one_hour_smartphone_gaming_on` |
 | **Full name** | The effect of one hour smartphone gaming on blinking, ocular symptoms and tear film function in school-aged children  |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_effect_one_hour_smartphone_gaming_on` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

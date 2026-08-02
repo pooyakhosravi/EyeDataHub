@@ -3,7 +3,7 @@ id: dryad_glaucoma_rnfl_vf
 title: "RNFL and Visual-Field Glaucoma Diagnosis Dataset"
 sidebar_label: dryad_glaucoma_rnfl_vf
 description: "Clinical records combining retinal nerve fiber layer, visual-field, corneal-thickness, and intraocular-pressure features."
-tags: ["tabular", "visual_field", "cc0", "dryad", "classification"]
+tags: ["tabular", "visual_field", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-glaucoma-rnfl-vf"]
 ---
 
 
@@ -21,6 +21,8 @@ Clinical records combining retinal nerve fiber layer, visual-field, corneal-thic
 | **Short name** | `dryad_glaucoma_rnfl_vf` |
 | **Full name** | RNFL and Visual-Field Glaucoma Diagnosis Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_glaucoma_rnfl_vf` |
 | **Contained modalities** | tabular, visual_field |
 | **Tasks** | classification |
 | **Primary reported quantity** | 499 records |

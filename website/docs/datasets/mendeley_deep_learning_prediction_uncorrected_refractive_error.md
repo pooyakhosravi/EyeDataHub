@@ -3,7 +3,7 @@ id: mendeley_deep_learning_prediction_uncorrected_refractive_error
 title: "Deep Learning for the Prediction of Uncorrected Refractive Error using OCT"
 sidebar_label: mendeley_deep_learning_prediction_uncorrected_refractive_error
 description: "Observation-level source data, annotations, or signals. from Source describes OCT-based refractive-error prediction, consistent with human clinical imaging; confirm population wording at addition."
-tags: ["oct", "cc-by", "mendeley", "prediction"]
+tags: ["oct", "cc-by", "mendeley", "prediction", "resource-role-current-dataset", "dataset-family-mendeley-deep-learning-prediction-uncorrected-refractive-error"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Source describes OC
 | **Short name** | `mendeley_deep_learning_prediction_uncorrected_refractive_error` |
 | **Full name** | Deep Learning for the Prediction of Uncorrected Refractive Error using OCT |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_deep_learning_prediction_uncorrected_refractive_error` |
 | **Contained modalities** | oct |
 | **Tasks** | prediction |
 | **Primary reported quantity** | Not reported |

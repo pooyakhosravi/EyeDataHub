@@ -3,7 +3,7 @@ id: tian_oct
 title: "Tian OCTRIMA 3D OCT Layer Segmentation Dataset"
 sidebar_label: tian_oct
 description: "10 Heidelberg Spectralis SD-OCT volumes (510 B-scans, 496×644×51 voxels) from healthy subjects with 8 retinal layer boundary annotations by 2 independent observers. MATLAB .mat format; used as the OCT"
-tags: ["oct", "cc-by", "direct", "segmentation"]
+tags: ["oct", "cc-by", "direct", "segmentation", "resource-role-current-dataset", "dataset-family-tian-oct"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `tian_oct` |
 | **Full name** | Tian OCTRIMA 3D OCT Layer Segmentation Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `tian_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 10 volumes |

@@ -3,7 +3,7 @@ id: dryad_aoslo_rpe
 title: "AOSLO RPE Cell Morphometry and Cone Mosaic Dataset"
 sidebar_label: dryad_aoslo_rpe
 description: "Adaptive-optics scanning-light-ophthalmoscopy montages and regions of interest for RPE morphometry and cone-to-RPE analysis."
-tags: ["adaptive_optics", "cc0", "dryad", "segmentation", "measurement"]
+tags: ["adaptive_optics", "cc0", "dryad", "segmentation", "measurement", "resource-role-current-dataset", "dataset-family-dryad-aoslo-rpe"]
 ---
 
 
@@ -21,6 +21,8 @@ Adaptive-optics scanning-light-ophthalmoscopy montages and regions of interest f
 | **Short name** | `dryad_aoslo_rpe` |
 | **Full name** | AOSLO RPE Cell Morphometry and Cone Mosaic Dataset |
 | **Primary category** | `adaptive_optics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_aoslo_rpe` |
 | **Contained modalities** | adaptive_optics |
 | **Tasks** | segmentation, measurement |
 | **Primary reported quantity** | 10 participants |

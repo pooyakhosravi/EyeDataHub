@@ -3,7 +3,7 @@ id: dryad_rao_multiomics
 title: "Data and code from: Fatty acid metabolism reprograms immune microenvironment in retinal artery occlusion: Multi-Omics analysis highlights immunometabolic crosstalk"
 sidebar_label: dryad_rao_multiomics
 description: "The 132-participant retinal-artery-occlusion multi-omics release is directly translational and contains data beyond its analysis code."
-tags: ["omics", "tabular", "cc0", "dryad", "classification"]
+tags: ["omics", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-rao-multiomics"]
 ---
 
 
@@ -21,6 +21,8 @@ The 132-participant retinal-artery-occlusion multi-omics release is directly tra
 | **Short name** | `dryad_rao_multiomics` |
 | **Full name** | Data and code from: Fatty acid metabolism reprograms immune microenvironment in retinal artery occlusion: Multi-Omics analysis highlights immunometabolic crosstalk |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_rao_multiomics` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

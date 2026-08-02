@@ -3,7 +3,7 @@ id: eyecare_100k
 title: "Eyecare-100K: Multimodal Ophthalmology VQA Corpus"
 sidebar_label: eyecare_100k
 description: "~102K VQA pairs derived from 58,485 images across 8 ophthalmic modalities (fluorescein angiography, ICGA, OCT, CFP, ultrasound biomicroscopy, slit-lamp, fundus auto-fluorescence, CT) covering 100+ dis"
-tags: ["multimodal", "fundus", "fundus_angiography", "fundus_autofluorescence", "oct", "ocular_ultrasound", "external_eye", "ct", "text", "unknown", "huggingface", "classification"]
+tags: ["multimodal", "fundus", "fundus_angiography", "fundus_autofluorescence", "oct", "ocular_ultrasound", "external_eye", "ct", "text", "unknown", "huggingface", "classification", "resource-role-current-dataset", "dataset-family-eyecare-100k"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `eyecare_100k` |
 | **Full name** | Eyecare-100K: Multimodal Ophthalmology VQA Corpus |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `eyecare_100k` |
 | **Contained modalities** | fundus, fundus_angiography, fundus_autofluorescence, oct, ocular_ultrasound, external_eye, ct, text |
 | **Tasks** | classification |
 | **Primary reported quantity** | 102,000 question answer pairs |

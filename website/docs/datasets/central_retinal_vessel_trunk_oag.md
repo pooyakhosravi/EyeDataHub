@@ -3,7 +3,7 @@ id: central_retinal_vessel_trunk_oag
 title: "Central Retinal Vessel Trunk Open-Angle Glaucoma Dataset"
 sidebar_label: central_retinal_vessel_trunk_oag
 description: "Central retinal vessel-trunk and OCT-related measurements in open-angle glaucoma eyes."
-tags: ["tabular", "cc-by", "figshare", "measurement"]
+tags: ["tabular", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-central-retinal-vessel-trunk-oag"]
 ---
 
 
@@ -21,6 +21,8 @@ Central retinal vessel-trunk and OCT-related measurements in open-angle glaucoma
 | **Short name** | `central_retinal_vessel_trunk_oag` |
 | **Full name** | Central Retinal Vessel Trunk Open-Angle Glaucoma Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `central_retinal_vessel_trunk_oag` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 205 eyes |

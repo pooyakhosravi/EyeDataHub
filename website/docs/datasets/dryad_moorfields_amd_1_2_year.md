@@ -3,7 +3,7 @@ id: dryad_moorfields_amd_1_2_year
 title: "One and two year visual outcomes from the Moorfields age-related macular degeneration database: a retrospective cohort study and an open science resource"
 sidebar_label: dryad_moorfields_amd_1_2_year
 description: "The de-identified 8,174-eye Moorfields AMD CSV is an explicitly released human longitudinal outcome resource."
-tags: ["tabular", "cc0", "dryad", "progression_analysis", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
+tags: ["tabular", "cc0", "dryad", "progression_analysis", "resource-role-current-dataset", "dataset-family-dryad-moorfields-amd-1-2-year", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
 ---
 
 
@@ -21,6 +21,8 @@ The de-identified 8,174-eye Moorfields AMD CSV is an explicitly released human l
 | **Short name** | `dryad_moorfields_amd_1_2_year` |
 | **Full name** | One and two year visual outcomes from the Moorfields age-related macular degeneration database: a retrospective cohort study and an open science resource |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_moorfields_amd_1_2_year` |
 | **Contained modalities** | tabular |
 | **Tasks** | progression_analysis |
 | **Primary reported quantity** | 8,174 eyes |

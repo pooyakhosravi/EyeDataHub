@@ -3,7 +3,7 @@ id: dryad_rpgr_cone_rod_wes
 title: "RPGR Cone-Rod Dystrophy WES Dataset"
 sidebar_label: dryad_rpgr_cone_rod_wes
 description: "The paired FASTQ files represent a defined human RPGR cone-rod-dystrophy sequencing object."
-tags: ["omics", "cc0", "dryad", "classification"]
+tags: ["omics", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-rpgr-cone-rod-wes"]
 ---
 
 
@@ -21,6 +21,8 @@ The paired FASTQ files represent a defined human RPGR cone-rod-dystrophy sequenc
 | **Short name** | `dryad_rpgr_cone_rod_wes` |
 | **Full name** | RPGR Cone-Rod Dystrophy WES Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_rpgr_cone_rod_wes` |
 | **Contained modalities** | omics |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

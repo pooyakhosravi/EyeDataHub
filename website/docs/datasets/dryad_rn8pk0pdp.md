@@ -3,7 +3,7 @@ id: dryad_rn8pk0pdp
 title: "Detection of SARS-CoV-2 in conjunctival secretion and tears in patients with COVID-19 in a tertiary care centre, South India"
 sidebar_label: dryad_rn8pk0pdp
 description: "Official Dryad deposit of source-described tabular ophthalmic data for the associated study."
-tags: ["tabular", "cc0", "dryad", "detection"]
+tags: ["tabular", "cc0", "dryad", "detection", "resource-role-current-dataset", "dataset-family-dryad-rn8pk0pdp"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | **Short name** | `dryad_rn8pk0pdp` |
 | **Full name** | Detection of SARS-CoV-2 in conjunctival secretion and tears in patients with COVID-19 in a tertiary care centre, South India |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_rn8pk0pdp` |
 | **Contained modalities** | tabular |
 | **Tasks** | detection |
 | **Primary reported quantity** | 80 participants |

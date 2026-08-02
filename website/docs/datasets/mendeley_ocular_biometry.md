@@ -3,7 +3,7 @@ id: mendeley_ocular_biometry
 title: "OCULAR BIOMETRY DATA"
 sidebar_label: mendeley_ocular_biometry
 description: "Observation-level source data, annotations, or signals. from Cataract surgery data imply human clinical observations; confirm consent context at addition."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-ocular-biometry"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Cataract surgery da
 | **Short name** | `mendeley_ocular_biometry` |
 | **Full name** |  OCULAR BIOMETRY DATA |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_ocular_biometry` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

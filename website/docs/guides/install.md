@@ -18,18 +18,18 @@ EyeDataHub is a Python package with a command-line entry point named `eyehub`.
 
 ## From PyPI
 
-Install the 0.5.0 package from PyPI:
+Install the 0.6.0 package from PyPI:
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install "eyedatahub==0.5.0"
+python -m pip install "eyedatahub==0.6.0"
 ```
 
 ## From GitHub
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.5.0"
+python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.6.0"
 ```
 
 ## Editable Developer Install
@@ -50,7 +50,8 @@ eyehub show airogs --json
 eyehub download airogs --dry-run --json
 ```
 
-The current installation should report 479 catalog records. The catalog
+The current installation should report 475 current catalog records in 470
+dataset families. The catalog
 includes self-service, controlled, and author-contact routes; it is
 not a claim that every resource is open or downloadable.
 

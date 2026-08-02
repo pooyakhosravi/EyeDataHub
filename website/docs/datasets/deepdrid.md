@@ -3,7 +3,7 @@ id: deepdrid
 title: "DeepDRiD: Diabetic Retinopathy Grading and Image Quality Dataset"
 sidebar_label: deepdrid
 description: "2,000 regular fundus images (500 patients × 2 fields × 2 eyes) plus 256 ultra-widefield fundus images labeled for DR severity (ICDR grades 0-4) and image quality assessment (gradable/ungradable). From"
-tags: ["fundus", "uwf_fundus", "cc-by-sa", "zenodo", "grading", "classification", "quality", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "uwf_fundus", "cc-by-sa", "zenodo", "grading", "classification", "quality", "resource-role-current-dataset", "dataset-family-deepdrid", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `deepdrid` |
 | **Full name** | DeepDRiD: Diabetic Retinopathy Grading and Image Quality Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `deepdrid` |
 | **Contained modalities** | fundus, uwf_fundus |
 | **Tasks** | grading, classification, quality |
 | **Primary reported quantity** | 2,256 images |

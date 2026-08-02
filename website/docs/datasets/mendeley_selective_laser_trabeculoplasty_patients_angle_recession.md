@@ -3,7 +3,7 @@ id: mendeley_selective_laser_trabeculoplasty_patients_angle_recession
 title: "Data for: Selective Laser Trabeculoplasty in patients with angle recession glaucoma: a case series."
 sidebar_label: mendeley_selective_laser_trabeculoplasty_patients_angle_recession
 description: "Patient/eye-level demographics, baseline clinical profile, laser details, and follow-up from Patients with angle-recession glaucoma treated with selective laser trabeculoplasty."
-tags: ["tabular", "cc-by", "mendeley", "classification"]
+tags: ["tabular", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-selective-laser-trabeculoplasty-patients-angle-recession"]
 ---
 
 
@@ -21,6 +21,8 @@ Patient/eye-level demographics, baseline clinical profile, laser details, and fo
 | **Short name** | `mendeley_selective_laser_trabeculoplasty_patients_angle_recession` |
 | **Full name** | Data for: Selective Laser Trabeculoplasty in patients with angle recession glaucoma: a case series. |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_selective_laser_trabeculoplasty_patients_angle_recession` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

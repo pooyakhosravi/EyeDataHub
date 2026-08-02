@@ -3,7 +3,7 @@ id: erdes
 title: "ERDES: Ocular Ultrasound Video Benchmark (Retinal Detachment + Macula)"
 sidebar_label: erdes
 description: "5,381 B-scan ocular ultrasound video clips with retinal-detachment presence and macula-on/off status labels. Total runtime approximately 5 hours 10 minutes. Only public ocular ultrasound video benchma"
-tags: ["multimodal", "ocular_ultrasound", "unknown", "manual", "classification"]
+tags: ["multimodal", "ocular_ultrasound", "unknown", "manual", "classification", "resource-role-current-dataset", "dataset-family-erdes"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `erdes` |
 | **Full name** | ERDES: Ocular Ultrasound Video Benchmark (Retinal Detachment + Macula) |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `erdes` |
 | **Contained modalities** | ocular_ultrasound |
 | **Tasks** | classification |
 | **Primary reported quantity** | 5,381 video clips |

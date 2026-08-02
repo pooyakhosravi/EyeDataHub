@@ -3,7 +3,7 @@ id: aqp4_optic_neuritis_oct_layers
 title: "AQP4 Optic Neuritis OCT Layers Dataset"
 sidebar_label: aqp4_optic_neuritis_oct_layers
 description: "Peripapillary RNFL and segmented-macular OCT measurements in optic-neuritis cohorts and healthy controls."
-tags: ["oct", "cc-by", "figshare", "measurement", "classification"]
+tags: ["oct", "cc-by", "figshare", "measurement", "classification", "resource-role-current-dataset", "dataset-family-aqp4-optic-neuritis-oct-layers"]
 ---
 
 
@@ -21,6 +21,8 @@ Peripapillary RNFL and segmented-macular OCT measurements in optic-neuritis coho
 | **Short name** | `aqp4_optic_neuritis_oct_layers` |
 | **Full name** | AQP4 Optic Neuritis OCT Layers Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `aqp4_optic_neuritis_oct_layers` |
 | **Contained modalities** | oct |
 | **Tasks** | measurement, classification |
 | **Primary reported quantity** | Not reported |

@@ -3,7 +3,7 @@ id: dryad_pediatric_secondary_iol
 title: "Pediatric Secondary IOL Outcome Dataset"
 sidebar_label: dryad_pediatric_secondary_iol
 description: "The pediatric secondary-IOL spreadsheet is a defined direct clinical ophthalmic outcome object."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-pediatric-secondary-iol"]
 ---
 
 
@@ -21,6 +21,8 @@ The pediatric secondary-IOL spreadsheet is a defined direct clinical ophthalmic 
 | **Short name** | `dryad_pediatric_secondary_iol` |
 | **Full name** | Pediatric Secondary IOL Outcome Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_pediatric_secondary_iol` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | Not reported |

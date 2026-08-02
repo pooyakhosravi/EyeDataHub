@@ -3,7 +3,7 @@ id: ubiris_v2
 title: "UBIRIS.v2 Noisy Visible-Wavelength Iris Database"
 sidebar_label: ubiris_v2
 description: "Visible-light iris images captured at a distance and on the move with realistic blur, reflection, occlusion, pose, and illumination noise."
-tags: ["iris_biometrics", "unknown", "manual", "biometric_recognition", "classification"]
+tags: ["iris_biometrics", "unknown", "manual", "biometric_recognition", "classification", "resource-role-current-dataset", "dataset-family-ubiris-v2"]
 ---
 
 
@@ -21,6 +21,8 @@ Visible-light iris images captured at a distance and on the move with realistic 
 | **Short name** | `ubiris_v2` |
 | **Full name** | UBIRIS.v2 Noisy Visible-Wavelength Iris Database |
 | **Primary category** | `iris_biometrics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ubiris_v2` |
 | **Contained modalities** | iris_biometrics |
 | **Tasks** | biometric_recognition, classification |
 | **Primary reported quantity** | 11,102 images |

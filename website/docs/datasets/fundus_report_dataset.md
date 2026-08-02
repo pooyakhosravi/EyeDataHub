@@ -3,7 +3,7 @@ id: fundus_report_dataset
 title: "Fundus Report Dataset"
 sidebar_label: fundus_report_dataset
 description: "Fundus/UWF image-report dataset derived from DeepDRiD and OUWFD-style resources for report-generation research."
-tags: ["multimodal", "fundus", "uwf_fundus", "text", "cc-by", "huggingface", "report_generation", "text_generation", "documented-relationship", "relationship-derived_from"]
+tags: ["multimodal", "fundus", "uwf_fundus", "text", "cc-by", "huggingface", "report_generation", "text_generation", "resource-role-annotation-layer", "dataset-family-fundus-report-dataset", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus/UWF image-report dataset derived from DeepDRiD and OUWFD-style resources 
 | **Short name** | `fundus_report_dataset` |
 | **Full name** | Fundus Report Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `fundus_report_dataset` |
 | **Contained modalities** | fundus, uwf_fundus, text |
 | **Tasks** | report_generation, text_generation |
 | **Primary reported quantity** | 422 image report pairs |

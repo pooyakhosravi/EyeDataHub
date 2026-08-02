@@ -3,7 +3,7 @@ id: dryad_pediatric_optical_quality
 title: "Intra- and intersession repeatability of an optical quality and intraocular scattering measurement system in children"
 sidebar_label: dryad_pediatric_optical_quality
 description: "The 42-eye pediatric optical-quality workbook is directly usable for ocular-biometric measurement and repeatability evaluation."
-tags: ["tabular", "cc0", "dryad", "measurement"]
+tags: ["tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-pediatric-optical-quality"]
 ---
 
 
@@ -21,6 +21,8 @@ The 42-eye pediatric optical-quality workbook is directly usable for ocular-biom
 | **Short name** | `dryad_pediatric_optical_quality` |
 | **Full name** | Intra- and intersession repeatability of an optical quality and intraocular scattering measurement system in children |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_pediatric_optical_quality` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 42 eyes |

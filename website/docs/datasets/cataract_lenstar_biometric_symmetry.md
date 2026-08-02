@@ -3,7 +3,7 @@ id: cataract_lenstar_biometric_symmetry
 title: "Cataract LenStar Biometric Symmetry Dataset"
 sidebar_label: cataract_lenstar_biometric_symmetry
 description: "Bilateral LenStar biometrics from a human cataract population."
-tags: ["tabular", "biometry", "cc-by", "figshare", "measurement"]
+tags: ["tabular", "biometry", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-cataract-lenstar-biometric-symmetry"]
 ---
 
 
@@ -21,6 +21,8 @@ Bilateral LenStar biometrics from a human cataract population.
 | **Short name** | `cataract_lenstar_biometric_symmetry` |
 | **Full name** | Cataract LenStar Biometric Symmetry Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cataract_lenstar_biometric_symmetry` |
 | **Contained modalities** | tabular, biometry |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

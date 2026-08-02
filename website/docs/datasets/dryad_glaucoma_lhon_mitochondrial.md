@@ -3,7 +3,7 @@ id: dryad_glaucoma_lhon_mitochondrial
 title: "Glaucoma and LHON Mitochondrial Function Dataset"
 sidebar_label: dryad_glaucoma_lhon_mitochondrial
 description: "Systemic mitochondrial-function measurements are directly linked to human glaucoma and LHON disease mechanisms."
-tags: ["omics", "tabular", "cc0", "dryad", "regression"]
+tags: ["omics", "tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-glaucoma-lhon-mitochondrial"]
 ---
 
 
@@ -21,6 +21,8 @@ Systemic mitochondrial-function measurements are directly linked to human glauco
 | **Short name** | `dryad_glaucoma_lhon_mitochondrial` |
 | **Full name** | Glaucoma and LHON Mitochondrial Function Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_glaucoma_lhon_mitochondrial` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | Not reported |

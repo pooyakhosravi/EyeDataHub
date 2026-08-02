@@ -3,7 +3,7 @@ id: dryad_v9p0b
 title: "Data from: Retinal capillary rarefaction in patients with untreated mild-moderate hypertension"
 sidebar_label: dryad_v9p0b
 description: "Official Dryad deposit of source-described tabular ophthalmic data for the associated study."
-tags: ["tabular", "cc0", "dryad", "measurement"]
+tags: ["tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-v9p0b"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | **Short name** | `dryad_v9p0b` |
 | **Full name** | Data from: Retinal capillary rarefaction in patients with untreated mild-moderate hypertension |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_v9p0b` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

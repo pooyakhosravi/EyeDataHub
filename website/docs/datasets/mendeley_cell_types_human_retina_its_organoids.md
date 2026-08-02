@@ -3,7 +3,7 @@ id: mendeley_cell_types_human_retina_its_organoids
 title: "Cell types of the human retina and its organoids at single-cell resolution. Cowan et al"
 sidebar_label: mendeley_cell_types_human_retina_its_organoids
 description: "Single-cell transcriptomes, organoid time series, and human retinal-periphery ischemia series from Functionally intact human retina and light-responsive human retinal organoids."
-tags: ["omics", "cc-by", "mendeley", "measurement"]
+tags: ["omics", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-cell-types-human-retina-its-organoids"]
 ---
 
 
@@ -21,6 +21,8 @@ Single-cell transcriptomes, organoid time series, and human retinal-periphery is
 | **Short name** | `mendeley_cell_types_human_retina_its_organoids` |
 | **Full name** | Cell types of the human retina and its organoids at single-cell resolution. Cowan et al |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_cell_types_human_retina_its_organoids` |
 | **Contained modalities** | omics |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

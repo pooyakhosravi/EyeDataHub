@@ -3,7 +3,7 @@ id: dryad_namd_12_year_survival
 title: "Insights from survival analyses during 12 years of anti-VEGF therapy for neovascular age-related macular degeneration"
 sidebar_label: dryad_namd_12_year_survival
 description: "The anonymized 7,802-eye human AMD CSV is a clearly defined long-term ophthalmic survival resource."
-tags: ["tabular", "cc0", "dryad", "survival_analysis"]
+tags: ["tabular", "cc0", "dryad", "survival_analysis", "resource-role-current-dataset", "dataset-family-dryad-namd-12-year-survival"]
 ---
 
 
@@ -21,6 +21,8 @@ The anonymized 7,802-eye human AMD CSV is a clearly defined long-term ophthalmic
 | **Short name** | `dryad_namd_12_year_survival` |
 | **Full name** | Insights from survival analyses during 12 years of anti-VEGF therapy for neovascular age-related macular degeneration |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_namd_12_year_survival` |
 | **Contained modalities** | tabular |
 | **Tasks** | survival_analysis |
 | **Primary reported quantity** | 7,802 eyes |

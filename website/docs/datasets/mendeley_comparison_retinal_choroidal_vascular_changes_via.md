@@ -3,7 +3,7 @@ id: mendeley_comparison_retinal_choroidal_vascular_changes_via
 title: "Comparison of retinal and choroidal vascular changes via optical coherence tomography angiography between Pseudoexfoliative glaucoma and Pseudoexfoliative syndrome and control group"
 sidebar_label: mendeley_comparison_retinal_choroidal_vascular_changes_via
 description: "Observation-level source data, annotations, or signals. from Pseudoexfoliative glaucoma/syndrome and control groups are described."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-comparison-retinal-choroidal-vascular-changes-via"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Pseudoexfoliative g
 | **Short name** | `mendeley_comparison_retinal_choroidal_vascular_changes_via` |
 | **Full name** | Comparison of retinal and choroidal vascular changes via optical coherence tomography angiography between Pseudoexfoliative glaucoma and Pseudoexfoliative syndrome and control group |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_comparison_retinal_choroidal_vascular_changes_via` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

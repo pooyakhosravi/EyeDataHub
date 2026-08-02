@@ -3,7 +3,7 @@ id: pimd_visual_preference_eye_tracking
 title: "PIMD Visual Preference Eye-Tracking Dataset"
 sidebar_label: pimd_visual_preference_eye_tracking
 description: "Human eye-tracking observations from a visual-preference study."
-tags: ["eye_tracking", "cc-by", "figshare", "measurement"]
+tags: ["eye_tracking", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-pimd-visual-preference-eye-tracking"]
 ---
 
 
@@ -21,6 +21,8 @@ Human eye-tracking observations from a visual-preference study.
 | **Short name** | `pimd_visual_preference_eye_tracking` |
 | **Full name** | PIMD Visual Preference Eye-Tracking Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `pimd_visual_preference_eye_tracking` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

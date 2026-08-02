@@ -3,7 +3,7 @@ id: mendeley_demographic_profile_clinical_characteristics_patients_presenting
 title: "Demographic profile and clinical characteristics of patients presenting with acute ocular burns"
 sidebar_label: mendeley_demographic_profile_clinical_characteristics_patients_presenting
 description: "Patient-level demographic and clinical tabular observations from Patients with acute ocular burns presenting at two South Indian tertiary eye-care centres during 2016-2020."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-demographic-profile-clinical-characteristics-patients-presenting"]
 ---
 
 
@@ -21,6 +21,8 @@ Patient-level demographic and clinical tabular observations from Patients with a
 | **Short name** | `mendeley_demographic_profile_clinical_characteristics_patients_presenting` |
 | **Full name** | Demographic profile and clinical characteristics of patients presenting with acute ocular burns |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_demographic_profile_clinical_characteristics_patients_presenting` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 2 documents |

@@ -3,7 +3,7 @@ id: uveitis_smote
 title: "Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation"
 sidebar_label: uveitis_smote
 description: "Image and symptom dataset for normal, uveitis, conjunctivitis, cataract, and eyelid-drooping classification, with source-reported SMOTE balancing to 649 images per class."
-tags: ["multimodal", "external_eye", "tabular", "cc-by", "mendeley", "classification", "text_generation"]
+tags: ["multimodal", "external_eye", "tabular", "cc-by", "mendeley", "classification", "text_generation", "resource-role-current-dataset", "dataset-family-uveitis-smote"]
 ---
 
 
@@ -21,6 +21,8 @@ Image and symptom dataset for normal, uveitis, conjunctivitis, cataract, and eye
 | **Short name** | `uveitis_smote` |
 | **Full name** | Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `uveitis_smote` |
 | **Contained modalities** | external_eye, tabular |
 | **Tasks** | classification, text_generation |
 | **Primary reported quantity** | 3,245 images |

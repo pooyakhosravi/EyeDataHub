@@ -3,7 +3,7 @@ id: octa_macula_coronal
 title: "OCTA Macula Coronal Views"
 sidebar_label: octa_macula_coronal
 description: "A derived OCT angiography resource with 640 coronal PNG views for each of 129 subjects: 90 normal, 29 diabetic retinopathy, 5 AMD, and 5 choroidal neovascularization cases."
-tags: ["octa", "cc-by", "mendeley", "classification", "visualization"]
+tags: ["octa", "cc-by", "mendeley", "classification", "visualization", "resource-role-current-dataset", "dataset-family-octa-macula-coronal"]
 ---
 
 
@@ -21,6 +21,8 @@ A derived OCT angiography resource with 640 coronal PNG views for each of 129 su
 | **Short name** | `octa_macula_coronal` |
 | **Full name** | OCTA Macula Coronal Views |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `octa_macula_coronal` |
 | **Contained modalities** | octa |
 | **Tasks** | classification, visualization |
 | **Primary reported quantity** | 82,560 images |

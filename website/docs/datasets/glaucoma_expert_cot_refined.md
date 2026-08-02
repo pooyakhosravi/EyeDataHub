@@ -3,7 +3,7 @@ id: glaucoma_expert_cot_refined
 title: "Glaucoma Expert Chain-of-Thought Refined Dataset"
 sidebar_label: glaucoma_expert_cot_refined
 description: "Revised glaucoma reasoning reports paired with the documented source fundus cases."
-tags: ["fundus", "unknown", "huggingface", "classification", "image_text", "documented-relationship", "relationship-derived_from", "relationship-version_of"]
+tags: ["fundus", "unknown", "huggingface", "classification", "image_text", "resource-role-annotation-layer", "dataset-family-glaucoma-expert-cot-refined", "documented-relationship", "relationship-derived_from", "alternate-source", "source-huggingface", "alternate-role-previous-version"]
 ---
 
 
@@ -21,6 +21,8 @@ Revised glaucoma reasoning reports paired with the documented source fundus case
 | **Short name** | `glaucoma_expert_cot_refined` |
 | **Full name** | Glaucoma Expert Chain-of-Thought Refined Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `glaucoma_expert_cot_refined` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, image_text |
 | **Primary reported quantity** | 1,074 image report pairs |
@@ -46,13 +48,16 @@ Revised glaucoma reasoning reports paired with the documented source fundus case
 
 Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
+## Notes
+
+> Current refined release. The earlier raw reasoning release is retained as version history and is not counted separately.
+
 ## Documented relationships
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
 - This record is `derived from` [lag](./lag.md): The official dataset card identifies LAG and PAPILA as the source fundus resources paired with the refined glaucoma reasoning records. ([evidence](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077))
 - This record is `derived from` [papila](./papila.md): The official dataset card identifies LAG and PAPILA as the source fundus resources paired with the refined glaucoma reasoning records. ([evidence](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077))
-- This record is `version of` [glaucoma_expert_cot_raw](./glaucoma_expert_cot_raw.md): The refined deposit describes itself as the revised form of the corresponding raw glaucoma expert reasoning resource. ([evidence](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077))
 
 ## Access information and download
 
@@ -82,6 +87,12 @@ print(preflight_dataset(ds, './data'))  # no download
 </Tabs>
 
 **Upstream page:** [huggingface.co/datasets](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077)
+
+## Other documented locations
+
+These links identify alternate deposits, components, metadata records, mirrors, versions, or related derived materials. They do not create additional canonical catalog records.
+
+- [huggingface: previous version (yuzhench/glaucoma-expert-cot-raw-1077, version raw)](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077): Earlier reasoning release superseded by the refined record.
 
 **Source-term evidence:** [huggingface.co/datasets](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077)
 
@@ -130,4 +141,4 @@ Repository dataset record. yuzhench/glaucoma-expert-cot-refined-1077.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

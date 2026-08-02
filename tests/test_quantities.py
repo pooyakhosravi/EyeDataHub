@@ -136,8 +136,8 @@ def test_quantity_review_reports_current_counts_and_never_sums_unlike_units(
     _, _, unit_path, unresolved_path, summary_path = quantity_review.generate()
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
 
-    assert summary["catalog_record_count"] == 479
-    assert summary["records_with_resolved_primary_quantity"] == 328
+    assert summary["catalog_record_count"] == 475
+    assert summary["records_with_resolved_primary_quantity"] == 324
     assert summary["records_with_unresolved_primary_quantity"] == 151
     assert len(summary["unresolved_record_ids"]) == 151
     assert "retinal_corrugations_oct" not in summary["unresolved_record_ids"]

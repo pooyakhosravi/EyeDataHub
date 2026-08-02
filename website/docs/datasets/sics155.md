@@ -3,7 +3,7 @@ id: sics155
 title: "SICS-155 Small Incision Cataract Surgery Videos"
 sidebar_label: sics155
 description: "Small-incision cataract surgery video dataset with train/validation/test video archives for phase-recognition research."
-tags: ["surgical_video", "cc-by-nc", "zenodo", "classification"]
+tags: ["surgical_video", "cc-by-nc", "zenodo", "classification", "resource-role-current-dataset", "dataset-family-sics155"]
 ---
 
 
@@ -21,6 +21,8 @@ Small-incision cataract surgery video dataset with train/validation/test video a
 | **Short name** | `sics155` |
 | **Full name** | SICS-155 Small Incision Cataract Surgery Videos |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `sics155` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | classification |
 | **Primary reported quantity** | 155 videos |

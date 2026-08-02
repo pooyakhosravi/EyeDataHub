@@ -1,0 +1,5 @@
+former_record_id,canonical_record_id,disposition,evidence_url,reason
+refuge2018,refuge2,previous_version,https://refuge.grand-challenge.org/,"REFUGE2 retains all 1,200 REFUGE 2018 images and adds 800 images; the earlier release is preserved as a previous-version link."
+glaucoma_expert_cot_raw,glaucoma_expert_cot_refined,previous_version,https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077,The refined release is the current corrected version; the raw release is preserved as a previous-version link.
+bidr,eyepacs,alternate_repository_copy,https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy,"BiDR republishes the same 35,126-image EyePACS training split without a distinct annotation layer."
+dr_arranged,eyepacs,alternate_repository_copy,https://tianchi.aliyun.com/dataset/93926,"The arranged Tianchi record republishes the same 35,126-image EyePACS training split without a distinct annotation layer."

@@ -3,7 +3,7 @@ id: parkinsons_directional_oct
 title: "Parkinson Disease Directional OCT Dataset"
 sidebar_label: parkinsons_directional_oct
 description: "Processed outer-retinal thickness and reflectance measurements from a Parkinson disease directional-OCT study."
-tags: ["oct", "cc-by", "figshare", "measurement"]
+tags: ["oct", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-parkinsons-directional-oct"]
 ---
 
 
@@ -21,6 +21,8 @@ Processed outer-retinal thickness and reflectance measurements from a Parkinson 
 | **Short name** | `parkinsons_directional_oct` |
 | **Full name** | Parkinson Disease Directional OCT Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `parkinsons_directional_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

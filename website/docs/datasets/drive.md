@@ -3,7 +3,7 @@ id: drive
 title: "DRIVE: Digital Retinal Images for Vessel Extraction"
 sidebar_label: drive
 description: "Forty color fundus photographs from a diabetic retinopathy screening program, divided into 20 training and 20 test images, with vessel reference annotations and field of view masks."
-tags: ["fundus", "unknown", "manual", "segmentation", "documented-relationship", "relationship-derived_from", "alternate-source", "source-dryad", "alternate-role-derived-annotation"]
+tags: ["fundus", "unknown", "manual", "segmentation", "resource-role-current-dataset", "dataset-family-drive", "documented-relationship", "relationship-derived_from", "alternate-source", "source-dryad", "alternate-role-derived-annotation"]
 ---
 
 
@@ -21,6 +21,8 @@ Forty color fundus photographs from a diabetic retinopathy screening program, di
 | **Short name** | `drive` |
 | **Full name** | DRIVE: Digital Retinal Images for Vessel Extraction |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `drive` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 40 images |
@@ -140,4 +142,4 @@ Staal J, Abramoff MD, Niemeijer M, Viergever MA, van Ginneken B. Ridge-based ves
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

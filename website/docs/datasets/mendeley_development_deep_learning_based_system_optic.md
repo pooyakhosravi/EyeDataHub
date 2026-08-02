@@ -3,7 +3,7 @@ id: mendeley_development_deep_learning_based_system_optic
 title: "Dataset for - Development of a Deep Learning-based system for Optic Nerve characterization in Transorbital Ultrasound Images on a multicenter dataset"
 sidebar_label: mendeley_development_deep_learning_based_system_optic
 description: "Image-level ultrasound observations with characterization target from Multicentre transorbital ultrasound imaging of human optic nerves, as stated by the dataset/paper title."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-development-deep-learning-based-system-optic"]
 ---
 
 
@@ -21,6 +21,8 @@ Image-level ultrasound observations with characterization target from Multicentr
 | **Short name** | `mendeley_development_deep_learning_based_system_optic` |
 | **Full name** | Dataset for - Development of a Deep Learning-based system for Optic Nerve characterization in Transorbital Ultrasound Images on a multicenter dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_development_deep_learning_based_system_optic` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

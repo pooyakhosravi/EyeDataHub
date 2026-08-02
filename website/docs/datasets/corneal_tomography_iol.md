@@ -3,7 +3,7 @@ id: corneal_tomography_iol
 title: "Multi-Parameter Corneal Tomography Dataset for IOL Selection"
 sidebar_label: corneal_tomography_iol
 description: "Pentacam-derived corneal tomography variables for intraocular-lens and corneal subtype modeling."
-tags: ["tabular", "cc-by", "mendeley", "classification", "regression"]
+tags: ["tabular", "cc-by", "mendeley", "classification", "regression", "resource-role-current-dataset", "dataset-family-corneal-tomography-iol"]
 ---
 
 
@@ -21,6 +21,8 @@ Pentacam-derived corneal tomography variables for intraocular-lens and corneal s
 | **Short name** | `corneal_tomography_iol` |
 | **Full name** | Multi-Parameter Corneal Tomography Dataset for IOL Selection |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `corneal_tomography_iol` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 61 eyes |

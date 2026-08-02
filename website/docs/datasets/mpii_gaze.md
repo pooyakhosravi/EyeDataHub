@@ -3,7 +3,7 @@ id: mpii_gaze
 title: "MPIIGaze Appearance-Based Gaze Estimation Dataset"
 sidebar_label: mpii_gaze
 description: "Longitudinal laptop-camera images captured during natural daily use with gaze targets, face geometry, and normalized views."
-tags: ["eye_tracking", "cc-by-nc-sa", "manual", "gaze_estimation", "regression"]
+tags: ["eye_tracking", "cc-by-nc-sa", "manual", "gaze_estimation", "regression", "resource-role-current-dataset", "dataset-family-mpii-gaze"]
 ---
 
 
@@ -21,6 +21,8 @@ Longitudinal laptop-camera images captured during natural daily use with gaze ta
 | **Short name** | `mpii_gaze` |
 | **Full name** | MPIIGaze Appearance-Based Gaze Estimation Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mpii_gaze` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | gaze_estimation, regression |
 | **Primary reported quantity** | 213,659 images |

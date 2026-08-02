@@ -3,7 +3,7 @@ id: mendeley_clinical_assessment_scleral_canal_expansion_glaucoma
 title: "Data for: Clinical Assessment of Scleral Canal Expansion in Glaucoma Using Spectral Domain Optical Coherence Tomography"
 sidebar_label: mendeley_clinical_assessment_scleral_canal_expansion_glaucoma
 description: "Observation-level source data, annotations, or signals. from Unilateral and bilateral glaucoma patient eyes are described."
-tags: ["visual_field", "cc-by-nc", "mendeley", "measurement"]
+tags: ["visual_field", "cc-by-nc", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-clinical-assessment-scleral-canal-expansion-glaucoma"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Unilateral and bila
 | **Short name** | `mendeley_clinical_assessment_scleral_canal_expansion_glaucoma` |
 | **Full name** | Data for: Clinical Assessment of Scleral Canal Expansion in Glaucoma Using Spectral Domain Optical Coherence Tomography |
 | **Primary category** | `visual_field` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_clinical_assessment_scleral_canal_expansion_glaucoma` |
 | **Contained modalities** | visual_field |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

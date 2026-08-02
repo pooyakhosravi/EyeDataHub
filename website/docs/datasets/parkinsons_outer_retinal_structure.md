@@ -3,7 +3,7 @@ id: parkinsons_outer_retinal_structure
 title: "Parkinson Disease Outer Retinal Structure and Function Dataset"
 sidebar_label: parkinsons_outer_retinal_structure
 description: "Retinal structure, electrophysiology, and visual-perception measurements from Parkinson disease and comparison participants."
-tags: ["oct", "cc-by", "figshare", "measurement", "classification"]
+tags: ["oct", "cc-by", "figshare", "measurement", "classification", "resource-role-current-dataset", "dataset-family-parkinsons-outer-retinal-structure"]
 ---
 
 
@@ -21,6 +21,8 @@ Retinal structure, electrophysiology, and visual-perception measurements from Pa
 | **Short name** | `parkinsons_outer_retinal_structure` |
 | **Full name** | Parkinson Disease Outer Retinal Structure and Function Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `parkinsons_outer_retinal_structure` |
 | **Contained modalities** | oct |
 | **Tasks** | measurement, classification |
 | **Primary reported quantity** | Not reported |

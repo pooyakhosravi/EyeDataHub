@@ -3,7 +3,7 @@ id: dryad_acanthamoeba_keratitis_transcriptome
 title: "Human conjunctival transcriptome in Acanthamoeba keratitis: An exploratory study"
 sidebar_label: dryad_acanthamoeba_keratitis_transcriptome
 description: "Counts and metadata for 22 people form a directly translational human keratitis transcriptomics resource."
-tags: ["omics", "tabular", "cc0", "dryad", "classification"]
+tags: ["omics", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-acanthamoeba-keratitis-transcriptome"]
 ---
 
 
@@ -21,6 +21,8 @@ Counts and metadata for 22 people form a directly translational human keratitis 
 | **Short name** | `dryad_acanthamoeba_keratitis_transcriptome` |
 | **Full name** | Human conjunctival transcriptome in Acanthamoeba keratitis: An exploratory study |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_acanthamoeba_keratitis_transcriptome` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

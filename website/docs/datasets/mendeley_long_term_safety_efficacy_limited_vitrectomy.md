@@ -3,7 +3,7 @@ id: mendeley_long_term_safety_efficacy_limited_vitrectomy
 title: "Data for: Long-Term Safety and Efficacy of Limited Vitrectomy for Vision Degrading Vitreopathy from Vitreous Floaters"
 sidebar_label: mendeley_long_term_safety_efficacy_limited_vitrectomy
 description: "Observation-level source data, annotations, or signals. from Study reports human subjects with vision-degrading vitreopathy."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-long-term-safety-efficacy-limited-vitrectomy"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Study reports human
 | **Short name** | `mendeley_long_term_safety_efficacy_limited_vitrectomy` |
 | **Full name** | Data for: Long-Term Safety and Efficacy of Limited Vitrectomy for Vision Degrading Vitreopathy from Vitreous Floaters |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_long_term_safety_efficacy_limited_vitrectomy` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

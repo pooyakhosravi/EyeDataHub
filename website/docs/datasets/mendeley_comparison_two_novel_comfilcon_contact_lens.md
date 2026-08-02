@@ -3,7 +3,7 @@ id: mendeley_comparison_two_novel_comfilcon_contact_lens
 title: "Comparison of Two Novel Comfilcon A Contact Lens Designs in the Management of Computer Vision Syndrome: A Pilot Study"
 sidebar_label: mendeley_comparison_two_novel_comfilcon_contact_lens
 description: "Participant/eye-level subjective and visual-performance measurements from Within-subject pilot participants with computer-vision-syndrome symptoms."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-comparison-two-novel-comfilcon-contact-lens"]
 ---
 
 
@@ -21,6 +21,8 @@ Participant/eye-level subjective and visual-performance measurements from Within
 | **Short name** | `mendeley_comparison_two_novel_comfilcon_contact_lens` |
 | **Full name** | Comparison of Two Novel Comfilcon A Contact Lens Designs in the Management of Computer Vision Syndrome: A Pilot Study  |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_comparison_two_novel_comfilcon_contact_lens` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

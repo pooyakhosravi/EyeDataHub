@@ -3,7 +3,7 @@ id: dryad_corneal_conjunctivitis_biomarker
 title: "Corneal Conjunctivitis Biomarker Dataset"
 sidebar_label: dryad_corneal_conjunctivitis_biomarker
 description: "Human conjunctivitis count matrices and sample metadata are direct corneal-disease biomarker data."
-tags: ["omics", "tabular", "cc0", "dryad", "classification"]
+tags: ["omics", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-corneal-conjunctivitis-biomarker"]
 ---
 
 
@@ -21,6 +21,8 @@ Human conjunctivitis count matrices and sample metadata are direct corneal-disea
 | **Short name** | `dryad_corneal_conjunctivitis_biomarker` |
 | **Full name** | Corneal Conjunctivitis Biomarker Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_corneal_conjunctivitis_biomarker` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

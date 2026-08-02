@@ -7,7 +7,7 @@ slug: /datasets
 
 # All datasets in EyeDataHub
 
-**479 catalog records; 328 with a primary reported quantity; 3144.9 GB reported; 408 nonmanual access routes**
+**475 catalog records; 324 with a primary reported quantity; 3133.4 GB reported; 406 nonmanual access routes**
 
 Each resource has one primary category for navigation and one or more contained-modality tags. Counts below overlap because a resource with fundus photographs and OCT is included under both modalities. Primary quantities retain their source-reported units on each resource page; they are not summed across the catalog.
 
@@ -16,7 +16,7 @@ Each resource has one primary category for navigation and one or more contained-
 | Modality | Count | Landing |
 | --- | ---:| --- |
 | `tabular` | 165 | [tabular](./tabular-index.md) |
-| `fundus` | 143 | [fundus](./fundus-index.md) |
+| `fundus` | 139 | [fundus](./fundus-index.md) |
 | `oct` | 79 | [oct](./oct-index.md) |
 | `omics` | 32 | [omics](./omics-index.md) |
 | `text` | 26 | [text](./text-index.md) |
@@ -54,7 +54,7 @@ Each resource has one primary category for navigation and one or more contained-
 | Primary category | Count |
 | --- | ---:|
 | `tabular` | 122 |
-| `fundus` | 118 |
+| `fundus` | 114 |
 | `oct` | 61 |
 | `multimodal` | 36 |
 | `omics` | 32 |
@@ -78,12 +78,12 @@ Each resource has one primary category for navigation and one or more contained-
 | --- | ---:|
 | `cc-by` | 240 |
 | `cc0` | 93 |
-| `research-only` | 52 |
-| `unknown` | 50 |
+| `research-only` | 51 |
+| `unknown` | 48 |
 | `cc-by-nc` | 12 |
 | `cc-by-nc-nd` | 11 |
 | `mit` | 7 |
-| `cc-by-nc-sa` | 7 |
+| `cc-by-nc-sa` | 6 |
 | `cc-by-sa` | 4 |
 | `odc-by` | 2 |
 | `apache` | 1 |
@@ -94,11 +94,11 @@ Each resource has one primary category for navigation and one or more contained-
 | --- | ---:|
 | `mendeley` | 132 |
 | `dryad` | 82 |
-| `manual` | 71 |
+| `manual` | 69 |
 | `figshare` | 67 |
 | `zenodo` | 34 |
-| `kaggle` | 28 |
-| `huggingface` | 25 |
+| `kaggle` | 27 |
+| `huggingface` | 24 |
 | `direct` | 13 |
 | `gdrive` | 13 |
 | `github` | 7 |
@@ -108,7 +108,7 @@ Each resource has one primary category for navigation and one or more contained-
 
 | Unit | Records reporting this primary quantity |
 | --- | ---:|
-| `images` | 171 |
+| `images` | 168 |
 | `participants` | 51 |
 | `eyes` | 30 |
 | `volumes` | 16 |
@@ -119,8 +119,8 @@ Each resource has one primary category for navigation and one or more contained-
 | `frames` | 4 |
 | `records` | 4 |
 | `documents` | 3 |
-| `image_report_pairs` | 3 |
 | `questions` | 3 |
+| `image_report_pairs` | 2 |
 | `signals` | 2 |
 | `text_items` | 2 |
 | `visual_field_tests` | 2 |

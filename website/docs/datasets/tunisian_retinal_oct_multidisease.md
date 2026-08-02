@@ -3,7 +3,7 @@ id: tunisian_retinal_oct_multidisease
 title: "Tunisian Retinal OCT Multi-Disease Dataset"
 sidebar_label: tunisian_retinal_oct_multidisease
 description: "Clinically acquired retinal OCT images for AMD, DME, rhegmatogenous retinal detachment, and normal classification."
-tags: ["oct", "cc-by", "manual", "classification"]
+tags: ["oct", "cc-by", "manual", "classification", "resource-role-current-dataset", "dataset-family-tunisian-retinal-oct-multidisease"]
 ---
 
 
@@ -21,6 +21,8 @@ Clinically acquired retinal OCT images for AMD, DME, rhegmatogenous retinal deta
 | **Short name** | `tunisian_retinal_oct_multidisease` |
 | **Full name** | Tunisian Retinal OCT Multi-Disease Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `tunisian_retinal_oct_multidisease` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

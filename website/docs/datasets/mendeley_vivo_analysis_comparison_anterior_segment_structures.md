@@ -3,7 +3,7 @@ id: mendeley_vivo_analysis_comparison_anterior_segment_structures
 title: "In Vivo Analysis and Comparison of Anterior Segment Structures of Both Eyes in Unilateral Herpetic Anterior Uveitis"
 sidebar_label: mendeley_vivo_analysis_comparison_anterior_segment_structures
 description: "Eye-level anterior-segment sd-oct structural measurements from People with unilateral herpetic anterior uveitis and fellow-eye comparison."
-tags: ["oct", "cc-by", "mendeley", "segmentation"]
+tags: ["oct", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-vivo-analysis-comparison-anterior-segment-structures"]
 ---
 
 
@@ -21,6 +21,8 @@ Eye-level anterior-segment sd-oct structural measurements from People with unila
 | **Short name** | `mendeley_vivo_analysis_comparison_anterior_segment_structures` |
 | **Full name** | In Vivo Analysis and Comparison of Anterior Segment Structures of Both Eyes in Unilateral Herpetic Anterior Uveitis |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_vivo_analysis_comparison_anterior_segment_structures` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |

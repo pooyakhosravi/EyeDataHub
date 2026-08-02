@@ -86,7 +86,7 @@ class FakeDataset(EyeDataHubDataset):
 
 def test_every_record_has_independent_access_and_automation_dimensions():
     records = REGISTRY.list_datasets()
-    assert len(records) == 479
+    assert len(records) == 475
     for dataset in records:
         info = dataset.info
         assert info.access_friction in ACCESS_FRICTION_VALUES
@@ -312,7 +312,7 @@ def test_dataset_and_article_citations_remain_separate():
     payload = citation_payload(REGISTRY.get_dataset("rvo_me").info)
     assert payload["dataset"]["doi"] == "10.6084/m9.figshare.29804435.v1"
     assert payload["dataset"]["doi"] != payload["associated_article"]["doi"]
-    assert payload["software"]["version"] == "0.5.0"
+    assert payload["software"]["version"] == "0.6.0"
 
 
 def test_explicit_dataset_doi_is_not_reclassified_as_an_article_doi():

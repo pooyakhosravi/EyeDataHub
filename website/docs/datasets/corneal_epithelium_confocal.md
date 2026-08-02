@@ -3,7 +3,7 @@ id: corneal_epithelium_confocal
 title: "Keratoconus Corneal Epithelium Confocal Fluorescence Dataset"
 sidebar_label: corneal_epithelium_confocal
 description: "Small corneal confocal fluorescence imaging dataset for keratoconus epithelium analysis."
-tags: ["confocal", "cc-by", "mendeley", "classification", "segmentation"]
+tags: ["confocal", "cc-by", "mendeley", "classification", "segmentation", "resource-role-current-dataset", "dataset-family-corneal-epithelium-confocal"]
 ---
 
 
@@ -21,6 +21,8 @@ Small corneal confocal fluorescence imaging dataset for keratoconus epithelium a
 | **Short name** | `corneal_epithelium_confocal` |
 | **Full name** | Keratoconus Corneal Epithelium Confocal Fluorescence Dataset |
 | **Primary category** | `confocal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `corneal_epithelium_confocal` |
 | **Contained modalities** | confocal |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 7 participants |

@@ -3,7 +3,7 @@ id: intraretinal_cystoid_fluid
 title: "Intraretinal Cystoid Fluid OCT Segmentation Dataset"
 sidebar_label: intraretinal_cystoid_fluid
 description: "OCT images for intraretinal cystoid-fluid segmentation, partly derived from public OCT DME sources with expert-selected masks."
-tags: ["oct", "cc-by-nc-sa", "kaggle", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "cc-by-nc-sa", "kaggle", "segmentation", "resource-role-derivative-dataset", "dataset-family-intraretinal-cystoid-fluid", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ OCT images for intraretinal cystoid-fluid segmentation, partly derived from publ
 | **Short name** | `intraretinal_cystoid_fluid` |
 | **Full name** | Intraretinal Cystoid Fluid OCT Segmentation Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `intraretinal_cystoid_fluid` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 1,460 images |

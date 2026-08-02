@@ -3,7 +3,7 @@ id: mendeley_quantified_processed_microarray_22_individuals_without
 title: "Quantified processed microarray data for 22 individuals with and without proliferative retinopathy"
 sidebar_label: mendeley_quantified_processed_microarray_22_individuals_without
 description: "Observation-level source data, annotations, or signals. from Source explicitly identifies 22 people with and without proliferative retinopathy."
-tags: ["omics", "cc-by", "mendeley", "segmentation"]
+tags: ["omics", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-quantified-processed-microarray-22-individuals-without"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Source explicitly i
 | **Short name** | `mendeley_quantified_processed_microarray_22_individuals_without` |
 | **Full name** | Quantified processed microarray data for 22 individuals with and without proliferative retinopathy |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_quantified_processed_microarray_22_individuals_without` |
 | **Contained modalities** | omics |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |

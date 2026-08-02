@@ -3,7 +3,7 @@ id: airogs
 title: "AIROGS: AI for Robust Glaucoma Screening"
 sidebar_label: airogs
 description: "~113,893 color fundus images labelled as referable glaucoma (RG), no referable glaucoma (NRG), or ungradable. Large-scale, multi-ethnic, multi-site screening dataset."
-tags: ["fundus", "cc-by-nc-nd", "direct", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by-nc-nd", "direct", "classification", "resource-role-current-dataset", "dataset-family-airogs", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `airogs` |
 | **Full name** | AIROGS: AI for Robust Glaucoma Screening |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `airogs` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 113,893 images |
@@ -143,5 +145,5 @@ De Vente et al., 'AIROGS: Artificial Intelligence for Robust Glaucoma Screening 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
-- [dr_arranged](./dr_arranged.md): Diabetic Retinopathy Arranged Dataset (Tianchi 93926) (35,126 images, `cc-by-nc-sa`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)

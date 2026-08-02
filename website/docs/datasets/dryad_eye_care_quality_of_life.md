@@ -3,7 +3,7 @@ id: dryad_eye_care_quality_of_life
 title: "Utility index and vision related quality of life in patients awaiting specialist eye care"
 sidebar_label: dryad_eye_care_quality_of_life
 description: "The 536-person eye-care quality-of-life dataset is directly usable for human ophthalmic service evaluation."
-tags: ["tabular", "cc0", "dryad", "measurement"]
+tags: ["tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-eye-care-quality-of-life"]
 ---
 
 
@@ -21,6 +21,8 @@ The 536-person eye-care quality-of-life dataset is directly usable for human oph
 | **Short name** | `dryad_eye_care_quality_of_life` |
 | **Full name** | Utility index and vision related quality of life in patients awaiting specialist eye care |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_eye_care_quality_of_life` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 536 participants |

@@ -3,7 +3,7 @@ id: mendeley_nuclear_cataract_database_biomedical_machine_learning
 title: "Nuclear Cataract Database for Biomedical and Machine Learning Applications"
 sidebar_label: mendeley_nuclear_cataract_database_biomedical_machine_learning
 description: "Observation-level source data, annotations, or signals. from Source describes clinical slit-lamp images for nuclear cataract classification."
-tags: ["tabular", "cc-by", "mendeley", "classification"]
+tags: ["tabular", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-nuclear-cataract-database-biomedical-machine-learning"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Source describes cl
 | **Short name** | `mendeley_nuclear_cataract_database_biomedical_machine_learning` |
 | **Full name** | Nuclear Cataract Database for Biomedical and Machine Learning Applications |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_nuclear_cataract_database_biomedical_machine_learning` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

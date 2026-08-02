@@ -3,7 +3,7 @@ id: periorbital_segmentation
 title: "Open-Source Periorbital Segmentation Dataset"
 sidebar_label: periorbital_segmentation
 description: "Cropped periorbital images with multi-structure masks for the iris, sclera, eyelid, caruncle, and eyebrow."
-tags: ["external_eye", "cc-by", "zenodo", "segmentation", "measurement"]
+tags: ["external_eye", "cc-by", "zenodo", "segmentation", "measurement", "resource-role-current-dataset", "dataset-family-periorbital-segmentation"]
 ---
 
 
@@ -21,6 +21,8 @@ Cropped periorbital images with multi-structure masks for the iris, sclera, eyel
 | **Short name** | `periorbital_segmentation` |
 | **Full name** | Open-Source Periorbital Segmentation Dataset |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `periorbital_segmentation` |
 | **Contained modalities** | external_eye |
 | **Tasks** | segmentation, measurement |
 | **Primary reported quantity** | 2,842 images |

@@ -3,7 +3,7 @@ id: mfiddr
 title: "MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy"
 sidebar_label: mfiddr
 description: "34,452 fundus images from 4,344 patients across multiple fields per eye, with DR screening labels. Largest public four-field DR dataset."
-tags: ["fundus", "mit", "manual", "grading", "classification", "multilabel"]
+tags: ["fundus", "mit", "manual", "grading", "classification", "multilabel", "resource-role-current-dataset", "dataset-family-mfiddr"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `mfiddr` |
 | **Full name** | MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mfiddr` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification, multilabel |
 | **Primary reported quantity** | 34,452 images |
@@ -124,4 +126,4 @@ MFIDDR Multi-Field Imaging Dataset for DR. github.com/mfiddr/MFIDDR
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)

@@ -3,7 +3,7 @@ id: mendeley_on_comparison_ocular_surface_disease_index
 title: "Dataset on comparison of the ocular surface disease index questionnaire, the tear film break-up time and Schirmer tests for the evaluation of tear film in computer users and contact lenses without dry eye symptoms"
 sidebar_label: mendeley_on_comparison_ocular_surface_disease_index
 description: "Participant-level osdi, schirmer, and tear-film-breakup measurements from Healthy adult computer users and contact-lens wearers without dry-eye symptoms."
-tags: ["tabular", "cc-by", "manual", "measurement"]
+tags: ["tabular", "cc-by", "manual", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-on-comparison-ocular-surface-disease-index"]
 ---
 
 
@@ -21,6 +21,8 @@ Participant-level osdi, schirmer, and tear-film-breakup measurements from Health
 | **Short name** | `mendeley_on_comparison_ocular_surface_disease_index` |
 | **Full name** | Dataset on comparison of the ocular surface disease index questionnaire, the tear film break-up time and Schirmer tests for the evaluation of tear film in computer users and contact lenses without dry eye symptoms |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_on_comparison_ocular_surface_disease_index` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

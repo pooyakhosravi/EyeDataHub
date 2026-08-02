@@ -3,7 +3,7 @@ id: synthetic_retinal_oct_biomarkers
 title: "Synthetic Retinal OCT Biomarker Dataset"
 sidebar_label: synthetic_retinal_oct_biomarkers
 description: "Synthetic OCT images for the four Kermany diagnostic classes."
-tags: ["oct", "unknown", "huggingface", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "unknown", "huggingface", "classification", "resource-role-derivative-dataset", "dataset-family-synthetic-retinal-oct-biomarkers", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Synthetic OCT images for the four Kermany diagnostic classes.
 | **Short name** | `synthetic_retinal_oct_biomarkers` |
 | **Full name** | Synthetic Retinal OCT Biomarker Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `synthetic_retinal_oct_biomarkers` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

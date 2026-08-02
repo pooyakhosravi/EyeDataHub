@@ -3,7 +3,7 @@ id: dryad_ocular_surface_amr
 title: "Ocular Surface AMR Keratitis Dataset"
 sidebar_label: dryad_ocular_surface_amr
 description: "Per-patient ocular-surface AMR counts and metadata are direct human keratitis translational data."
-tags: ["omics", "tabular", "cc0", "dryad", "classification"]
+tags: ["omics", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-ocular-surface-amr"]
 ---
 
 
@@ -21,6 +21,8 @@ Per-patient ocular-surface AMR counts and metadata are direct human keratitis tr
 | **Short name** | `dryad_ocular_surface_amr` |
 | **Full name** | Ocular Surface AMR Keratitis Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_ocular_surface_amr` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

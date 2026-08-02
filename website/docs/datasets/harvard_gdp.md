@@ -3,7 +3,7 @@ id: harvard_gdp
 title: "Harvard GDP: Glaucoma Detection and Progression Dataset"
 sidebar_label: harvard_gdp
 description: "1,000 patients with OCT RNFLT maps (225×225), visual field measurements, and demographics for glaucoma detection (binary) and longitudinal progression forecasting (6 definitions). First public glaucom"
-tags: ["oct", "visual_field", "tabular", "cc-by-nc-nd", "gdrive", "classification", "progression", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "visual_field", "tabular", "cc-by-nc-nd", "gdrive", "classification", "progression", "resource-role-current-dataset", "dataset-family-harvard-gdp", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `harvard_gdp` |
 | **Full name** | Harvard GDP: Glaucoma Detection and Progression Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `harvard_gdp` |
 | **Contained modalities** | oct, visual_field, tabular |
 | **Tasks** | classification, progression |
 | **Primary reported quantity** | 1,000 participants |

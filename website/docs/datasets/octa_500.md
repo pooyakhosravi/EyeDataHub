@@ -3,7 +3,7 @@ id: octa_500
 title: "OCTA-500: Large-scale OCTA Multi-task Benchmark"
 sidebar_label: octa_500
 description: "500 subjects with OCTA volumes, vessel segmentation, FAZ (foveal avascular zone) annotations, and layer segmentation. Largest public OCTA dataset."
-tags: ["octa", "research-only", "manual", "segmentation", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["octa", "research-only", "manual", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-octa-500", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `octa_500` |
 | **Full name** | OCTA-500: Large-scale OCTA Multi-task Benchmark |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `octa_500` |
 | **Contained modalities** | octa |
 | **Tasks** | segmentation, classification |
 | **Primary reported quantity** | 500 participants |

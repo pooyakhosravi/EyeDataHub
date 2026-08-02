@@ -3,7 +3,7 @@ id: higancnn_generated_glaucoma
 title: "HiGANCNN Generated Glaucoma Dataset"
 sidebar_label: higancnn_generated_glaucoma
 description: "Synthetic glaucoma/normal fundus images with documented human source collections."
-tags: ["fundus", "unknown", "kaggle", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "unknown", "kaggle", "classification", "resource-role-derivative-dataset", "dataset-family-higancnn-generated-glaucoma", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Synthetic glaucoma/normal fundus images with documented human source collections
 | **Short name** | `higancnn_generated_glaucoma` |
 | **Full name** | HiGANCNN Generated Glaucoma Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `higancnn_generated_glaucoma` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 30,000 images |
@@ -134,4 +136,4 @@ Repository dataset record. hindsaud/datasets-higancnn-glaucoma-detection.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

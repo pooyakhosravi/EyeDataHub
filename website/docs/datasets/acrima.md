@@ -3,7 +3,7 @@ id: acrima
 title: "ACRIMA: Glaucoma Optic Disc Fundus Database"
 sidebar_label: acrima
 description: "705 optic disc-centred fundus photographs (396 normal + 309 glaucoma) from Hospital Clinico San Carlos. Expert-annotated binary glaucoma classification."
-tags: ["fundus", "cc-by", "figshare", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "figshare", "classification", "resource-role-current-dataset", "dataset-family-acrima", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `acrima` |
 | **Full name** | ACRIMA: Glaucoma Optic Disc Fundus Database |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `acrima` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 705 images |
@@ -141,4 +143,4 @@ Diaz-Pinto et al., 'Retinal Image Synthesis and Semi-Supervised Learning for Gla
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

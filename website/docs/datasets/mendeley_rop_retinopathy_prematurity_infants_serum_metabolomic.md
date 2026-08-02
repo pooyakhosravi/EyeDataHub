@@ -3,7 +3,7 @@ id: mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic
 title: "ROP (retinopathy of prematurity) infants' serum metabolomic data"
 sidebar_label: mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic
 description: "Observation-level source data, annotations, or signals. from Source identifies serum metabolomic data from infants with retinopathy of prematurity."
-tags: ["omics", "cc-by", "mendeley", "measurement"]
+tags: ["omics", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-rop-retinopathy-prematurity-infants-serum-metabolomic"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Source identifies s
 | **Short name** | `mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic` |
 | **Full name** | ROP (retinopathy of prematurity) infants' serum metabolomic data |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic` |
 | **Contained modalities** | omics |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

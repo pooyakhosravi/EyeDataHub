@@ -3,7 +3,7 @@ id: fimd
 title: "Fundus Image Myopia Development Dataset"
 sidebar_label: fimd
 description: "Seventy retinal image pairs with visible myopia development and manually annotated corresponding control points."
-tags: ["fundus", "cc-by", "mendeley", "registration", "regression"]
+tags: ["fundus", "cc-by", "mendeley", "registration", "regression", "resource-role-current-dataset", "dataset-family-fimd"]
 ---
 
 
@@ -21,6 +21,8 @@ Seventy retinal image pairs with visible myopia development and manually annotat
 | **Short name** | `fimd` |
 | **Full name** | Fundus Image Myopia Development Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fimd` |
 | **Contained modalities** | fundus |
 | **Tasks** | registration, regression |
 | **Primary reported quantity** | 70 image pairs |
@@ -124,4 +126,4 @@ Wang Z, Zou H, Guo Y, Guo S, Zhao X, Wang Y, Sun M. Fundus Image Myopia Developm
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

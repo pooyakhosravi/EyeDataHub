@@ -3,7 +3,7 @@ id: dryad_sn02v6x2x
 title: "Data from: Corneal laser procedure for vision improvement in patients with late stage dry age-related macular degeneration"
 sidebar_label: dryad_sn02v6x2x
 description: "Official Dryad deposit of source-described tabular ophthalmic data for the associated study."
-tags: ["tabular", "cc0", "dryad", "progression_analysis"]
+tags: ["tabular", "cc0", "dryad", "progression_analysis", "resource-role-current-dataset", "dataset-family-dryad-sn02v6x2x"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | **Short name** | `dryad_sn02v6x2x` |
 | **Full name** | Data from: Corneal laser procedure for vision improvement in patients with late stage dry age-related macular degeneration |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_sn02v6x2x` |
 | **Contained modalities** | tabular |
 | **Tasks** | progression_analysis |
 | **Primary reported quantity** | 32 eyes |

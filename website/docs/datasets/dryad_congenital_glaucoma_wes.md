@@ -3,7 +3,7 @@ id: dryad_congenital_glaucoma_wes
 title: "Identification of novel variants in LTBP2 and PXDN using whole-exome sequencing in developmental and congenital glaucoma"
 sidebar_label: dryad_congenital_glaucoma_wes
 description: "Four exome difference files for three congenital-glaucoma families are directly translational human ocular genetics data."
-tags: ["omics", "tabular", "cc0", "dryad", "classification"]
+tags: ["omics", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-congenital-glaucoma-wes"]
 ---
 
 
@@ -21,6 +21,8 @@ Four exome difference files for three congenital-glaucoma families are directly 
 | **Short name** | `dryad_congenital_glaucoma_wes` |
 | **Full name** | Identification of novel variants in LTBP2 and PXDN using whole-exome sequencing in developmental and congenital glaucoma |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_congenital_glaucoma_wes` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | 3 families |

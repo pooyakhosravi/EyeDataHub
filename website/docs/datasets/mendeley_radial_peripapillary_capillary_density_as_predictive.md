@@ -3,7 +3,7 @@ id: mendeley_radial_peripapillary_capillary_density_as_predictive
 title: "Radial peripapillary capillary density as a predictive factor for glaucoma in eyes with ocular hypertension"
 sidebar_label: mendeley_radial_peripapillary_capillary_density_as_predictive
 description: "Eye-level octa/peripapillary microcirculation measurements from De-identified human research data concerning radial peripapillary microcirculation in ocular hypertension/glaucoma."
-tags: ["tabular", "cc-by", "manual", "prediction"]
+tags: ["tabular", "cc-by", "manual", "prediction", "resource-role-current-dataset", "dataset-family-mendeley-radial-peripapillary-capillary-density-as-predictive"]
 ---
 
 
@@ -21,6 +21,8 @@ Eye-level octa/peripapillary microcirculation measurements from De-identified hu
 | **Short name** | `mendeley_radial_peripapillary_capillary_density_as_predictive` |
 | **Full name** | Radial peripapillary capillary density as a predictive factor for glaucoma in eyes with ocular hypertension |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_radial_peripapillary_capillary_density_as_predictive` |
 | **Contained modalities** | tabular |
 | **Tasks** | prediction |
 | **Primary reported quantity** | Not reported |

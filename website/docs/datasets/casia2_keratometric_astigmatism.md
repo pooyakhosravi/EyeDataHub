@@ -3,7 +3,7 @@ id: casia2_keratometric_astigmatism
 title: "CASIA2 Keratometric Astigmatism Dataset"
 sidebar_label: casia2_keratometric_astigmatism
 description: "Human anterior-segment OCT keratometric-astigmatism measurements."
-tags: ["corneal_topography", "as_oct", "cc-by", "figshare", "measurement"]
+tags: ["corneal_topography", "as_oct", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-casia2-keratometric-astigmatism"]
 ---
 
 
@@ -21,6 +21,8 @@ Human anterior-segment OCT keratometric-astigmatism measurements.
 | **Short name** | `casia2_keratometric_astigmatism` |
 | **Full name** | CASIA2 Keratometric Astigmatism Dataset |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `casia2_keratometric_astigmatism` |
 | **Contained modalities** | corneal_topography, as_oct |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

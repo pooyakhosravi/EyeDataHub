@@ -3,7 +3,7 @@ id: mendeley_towards_ocular_biomarkers_sarcopenia_result_korean
 title: "Towards ocular biomarkers for sarcopenia: a result from a Korean nationwide cross-sectional study"
 sidebar_label: mendeley_towards_ocular_biomarkers_sarcopenia_result_korean
 description: "Participant-level ocular and clinical measurements from Korean nationwide cross-sectional human study; source text states ocular measurements used to model sarcopenia risk."
-tags: ["tabular", "cc-by", "manual", "measurement"]
+tags: ["tabular", "cc-by", "manual", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-towards-ocular-biomarkers-sarcopenia-result-korean"]
 ---
 
 
@@ -21,6 +21,8 @@ Participant-level ocular and clinical measurements from Korean nationwide cross-
 | **Short name** | `mendeley_towards_ocular_biomarkers_sarcopenia_result_korean` |
 | **Full name** | Towards ocular biomarkers for sarcopenia: a result from a Korean nationwide cross-sectional study |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_towards_ocular_biomarkers_sarcopenia_result_korean` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

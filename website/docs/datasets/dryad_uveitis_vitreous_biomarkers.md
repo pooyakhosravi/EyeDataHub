@@ -3,7 +3,7 @@ id: dryad_uveitis_vitreous_biomarkers
 title: "Uveitis Vitreous Biomarker Dataset"
 sidebar_label: dryad_uveitis_vitreous_biomarkers
 description: "The prospective multicentre uveitis vitreous biomarker table is direct human ocular disease data."
-tags: ["omics", "tabular", "cc0", "dryad", "classification"]
+tags: ["omics", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-uveitis-vitreous-biomarkers"]
 ---
 
 
@@ -21,6 +21,8 @@ The prospective multicentre uveitis vitreous biomarker table is direct human ocu
 | **Short name** | `dryad_uveitis_vitreous_biomarkers` |
 | **Full name** | Uveitis Vitreous Biomarker Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_uveitis_vitreous_biomarkers` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | 234 eyes |

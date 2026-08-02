@@ -3,7 +3,7 @@ id: dryad_icmr_eye_see_cataract
 title: "ICMR EYE SEE Cataract and Sun Exposure Dataset"
 sidebar_label: dryad_icmr_eye_see_cataract
 description: "The large Indian cataract/UV exposure survey is direct human ophthalmic epidemiology data."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-icmr-eye-see-cataract"]
 ---
 
 
@@ -21,6 +21,8 @@ The large Indian cataract/UV exposure survey is direct human ophthalmic epidemio
 | **Short name** | `dryad_icmr_eye_see_cataract` |
 | **Full name** | ICMR EYE SEE Cataract and Sun Exposure Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_icmr_eye_see_cataract` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 9,735 participants |

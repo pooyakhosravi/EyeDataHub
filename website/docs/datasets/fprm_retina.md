@@ -3,7 +3,7 @@ id: fprm_retina
 title: "FPRM Multimodal Eye Imaging and Psychological Assessment Dataset"
 sidebar_label: fprm_retina
 description: "Fundus photography, multispectral and functional retinal imaging, retinal blood-flow and pupillary-light videos, retina-characteristic labels, quality labels, demographics, and psychological assessmen"
-tags: ["multimodal", "fundus", "retinal_oximetry", "pupillometry", "tabular", "research-only", "manual", "classification", "quality_assessment", "regression"]
+tags: ["multimodal", "fundus", "retinal_oximetry", "pupillometry", "tabular", "research-only", "manual", "classification", "quality_assessment", "regression", "resource-role-current-dataset", "dataset-family-fprm-retina"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus photography, multispectral and functional retinal imaging, retinal blood-
 | **Short name** | `fprm_retina` |
 | **Full name** | FPRM Multimodal Eye Imaging and Psychological Assessment Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fprm_retina` |
 | **Contained modalities** | fundus, retinal_oximetry, pupillometry, tabular |
 | **Tasks** | classification, quality_assessment, regression |
 | **Primary reported quantity** | 3,361 images |

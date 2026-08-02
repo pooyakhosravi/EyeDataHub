@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "catalog_version": "0.6.0",
+  "catalog_search_cutoff": "2026-08-02",
+  "identity_review_date": "2026-08-02",
+  "current_catalog_record_count": 475,
+  "dataset_family_count": 470,
+  "records_in_multi_record_families": 8,
+  "multi_record_family_count": 3,
+  "multi_record_families": {
+    "ichallenge_gamma": [
+      "gamma",
+      "ichallenge_oct"
+    ],
+    "corn_collection": [
+      "corn1500",
+      "corn_collection",
+      "corn_pro"
+    ],
+    "stage_2023": [
+      "stage_task1",
+      "stage_task2",
+      "stage_task3"
+    ]
+  },
+  "resource_role_counts_mutually_exclusive": {
+    "annotation_layer": 17,
+    "collection": 2,
+    "component_dataset": 3,
+    "current_dataset": 431,
+    "derivative_dataset": 17,
+    "extension_dataset": 2,
+    "task_view": 3
+  },
+  "records_with_documented_derived_from_relationship": 33,
+  "annotation_layer_count": 17,
+  "annotation_layers_with_derived_from_relationship": 16,
+  "annotation_layers_extending_an_annotation_resource": 1,
+  "component_dataset_count": 3,
+  "collection_count": 2,
+  "task_view_count": 3,
+  "superseded_versions_not_counted": 2,
+  "alternate_repository_copies_not_counted": 2,
+  "retired_or_link_only_record_count": 4,
+  "role_definitions": {
+    "current_dataset": "A current cataloged data product without a more specific structural role.",
+    "derivative_dataset": "A distinct data product that reuses one or more cataloged resources and adds processing, representations, synthesis, aggregation, or benchmark structure.",
+    "annotation_layer": "A data product whose principal addition is labels, masks, reports, questions, reasoning records, or other annotations for existing data.",
+    "component_dataset": "A separately named and citable component of a cataloged collection.",
+    "collection": "A combined deposit or portal that exposes multiple named component datasets.",
+    "extension_dataset": "A current data product that adds data to an earlier related resource without being documented as a replacement of the same release.",
+    "task_view": "A separately indexed task or label view over the same documented data payload."
+  },
+  "record_count_definition": "Current canonical data-resource records. Earlier versions and unmodified alternate deposits are not counted.",
+  "family_count_definition": "Current records after narrowly grouping documented collection/component records and exact task views. Derivatives, extensions, and uncertain cohort overlaps remain separate families. This is not a count of independent participant cohorts.",
+  "third_party_dataset_files_included": false
+}

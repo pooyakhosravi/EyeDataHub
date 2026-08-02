@@ -3,7 +3,7 @@ id: retinal_optic_flow_locomotion
 title: "Retinal Optic Flow and Locomotion Dataset"
 sidebar_label: retinal_optic_flow_locomotion
 description: "Human retinal optic-flow and locomotion observations."
-tags: ["eye_tracking", "cc-by", "figshare", "measurement"]
+tags: ["eye_tracking", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-retinal-optic-flow-locomotion"]
 ---
 
 
@@ -21,6 +21,8 @@ Human retinal optic-flow and locomotion observations.
 | **Short name** | `retinal_optic_flow_locomotion` |
 | **Full name** | Retinal Optic Flow and Locomotion Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `retinal_optic_flow_locomotion` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

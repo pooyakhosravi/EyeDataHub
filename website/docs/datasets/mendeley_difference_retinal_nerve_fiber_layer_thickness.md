@@ -3,7 +3,7 @@ id: mendeley_difference_retinal_nerve_fiber_layer_thickness
 title: "Data for: Difference of the Retinal Nerve Fiber Layer Thickness Assessed on the Disc Center and Bruch’s Membrane Opening Center in Myopic Eyes"
 sidebar_label: mendeley_difference_retinal_nerve_fiber_layer_thickness
 description: "Observation-level source data, annotations, or signals. from Myopic-eye RNFL measurements are described."
-tags: ["tabular", "cc-by-nc", "mendeley", "measurement"]
+tags: ["tabular", "cc-by-nc", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-difference-retinal-nerve-fiber-layer-thickness"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Myopic-eye RNFL mea
 | **Short name** | `mendeley_difference_retinal_nerve_fiber_layer_thickness` |
 | **Full name** | Data for: Difference of the Retinal Nerve Fiber Layer Thickness Assessed on the Disc Center and Bruch’s Membrane Opening Center in Myopic Eyes |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_difference_retinal_nerve_fiber_layer_thickness` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

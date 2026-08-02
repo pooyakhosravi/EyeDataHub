@@ -3,7 +3,7 @@ id: mendeley_comparison_aqueous_humor_levels_plgf_vegf
 title: "Data for: Comparison of aqueous humor levels of PlGF and VEGF in proliferative diabetic retinopathy before and after intravitreal conbercept injection"
 sidebar_label: mendeley_comparison_aqueous_humor_levels_plgf_vegf
 description: "Observation-level human or human-derived measurements/signals. from Diabetic-retinopathy patients."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-comparison-aqueous-humor-levels-plgf-vegf"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Diabetic-ret
 | **Short name** | `mendeley_comparison_aqueous_humor_levels_plgf_vegf` |
 | **Full name** | Data for: Comparison of aqueous humor levels of PlGF and VEGF in proliferative diabetic retinopathy before and after intravitreal conbercept injection |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_comparison_aqueous_humor_levels_plgf_vegf` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

@@ -3,7 +3,7 @@ id: mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes
 title: "Data for: Trabecular microbypass stent implantation in pseudophakic eyes with open-angle glaucoma: long-term results"
 sidebar_label: mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes
 description: "Observation-level human or human-derived measurements/signals. from Pseudophakic open-angle-glaucoma eyes."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-trabecular-microbypass-stent-implantation-pseudophakic-eyes"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Pseudophakic
 | **Short name** | `mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes` |
 | **Full name** | Data for: Trabecular microbypass stent implantation in pseudophakic eyes with open-angle glaucoma: long-term results |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 51 eyes |

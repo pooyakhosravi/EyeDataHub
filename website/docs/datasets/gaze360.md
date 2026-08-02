@@ -3,7 +3,7 @@ id: gaze360
 title: "Gaze360 Physically Unconstrained Gaze Dataset"
 sidebar_label: gaze360
 description: "Indoor and outdoor panoramic-camera recordings with continuous three-dimensional gaze labels across wide head poses and distances."
-tags: ["eye_tracking", "unknown", "manual", "gaze_estimation", "regression"]
+tags: ["eye_tracking", "unknown", "manual", "gaze_estimation", "regression", "resource-role-current-dataset", "dataset-family-gaze360"]
 ---
 
 
@@ -21,6 +21,8 @@ Indoor and outdoor panoramic-camera recordings with continuous three-dimensional
 | **Short name** | `gaze360` |
 | **Full name** | Gaze360 Physically Unconstrained Gaze Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `gaze360` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | gaze_estimation, regression |
 | **Primary reported quantity** | 172,000 frames |

@@ -3,7 +3,7 @@ id: pupillometry_eeg_fmri_salience
 title: "Pupillometry, EEG, and fMRI Salience Dataset"
 sidebar_label: pupillometry_eeg_fmri_salience
 description: "Human synchronized pupillometry, EEG, and fMRI salience measurements."
-tags: ["eye_tracking", "pupillometry", "cc-by", "figshare", "measurement"]
+tags: ["eye_tracking", "pupillometry", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-pupillometry-eeg-fmri-salience"]
 ---
 
 
@@ -21,6 +21,8 @@ Human synchronized pupillometry, EEG, and fMRI salience measurements.
 | **Short name** | `pupillometry_eeg_fmri_salience` |
 | **Full name** | Pupillometry, EEG, and fMRI Salience Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `pupillometry_eeg_fmri_salience` |
 | **Contained modalities** | eye_tracking, pupillometry |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

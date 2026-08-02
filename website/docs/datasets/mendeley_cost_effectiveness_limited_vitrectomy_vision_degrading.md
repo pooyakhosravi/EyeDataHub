@@ -3,7 +3,7 @@ id: mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading
 title: "Data for: Cost Effectiveness of Limited Vitrectomy for Vision Degrading Myodesopsia"
 sidebar_label: mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading
 description: "Observation-level source data, annotations, or signals. from Three groups of subjects undergoing limited vitrectomy are stated."
-tags: ["tabular", "cc0", "mendeley", "measurement"]
+tags: ["tabular", "cc0", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-cost-effectiveness-limited-vitrectomy-vision-degrading"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Three groups of sub
 | **Short name** | `mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading` |
 | **Full name** | Data for: Cost Effectiveness of Limited Vitrectomy for Vision Degrading Myodesopsia |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

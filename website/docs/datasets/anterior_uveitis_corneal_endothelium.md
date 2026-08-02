@@ -3,7 +3,7 @@ id: anterior_uveitis_corneal_endothelium
 title: "Anterior Uveitis Corneal Endothelium Dataset"
 sidebar_label: anterior_uveitis_corneal_endothelium
 description: "De-identified anterior-uveitis corneal-endothelial parameters and related variables."
-tags: ["tabular", "cc-by", "figshare", "measurement"]
+tags: ["tabular", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-anterior-uveitis-corneal-endothelium"]
 ---
 
 
@@ -21,6 +21,8 @@ De-identified anterior-uveitis corneal-endothelial parameters and related variab
 | **Short name** | `anterior_uveitis_corneal_endothelium` |
 | **Full name** | Anterior Uveitis Corneal Endothelium Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `anterior_uveitis_corneal_endothelium` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

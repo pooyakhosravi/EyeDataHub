@@ -3,7 +3,7 @@ id: superccm_fineset
 title: "SuperCCM-FineSet"
 sidebar_label: superccm_fineset
 description: "Restricted corneal confocal microscopy image set with pixel-level corneal-nerve masks annotated for high-precision segmentation."
-tags: ["confocal", "unknown", "manual", "segmentation"]
+tags: ["confocal", "unknown", "manual", "segmentation", "resource-role-current-dataset", "dataset-family-superccm-fineset"]
 ---
 
 
@@ -21,6 +21,8 @@ Restricted corneal confocal microscopy image set with pixel-level corneal-nerve 
 | **Short name** | `superccm_fineset` |
 | **Full name** | SuperCCM-FineSet |
 | **Primary category** | `confocal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `superccm_fineset` |
 | **Contained modalities** | confocal |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 210 images |

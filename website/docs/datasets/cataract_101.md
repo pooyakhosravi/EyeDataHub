@@ -3,7 +3,7 @@ id: cataract_101
 title: "Cataract-101: 101 Cataract Surgery Videos with Phase Annotations"
 sidebar_label: cataract_101
 description: "101 cataract surgery videos with 10-phase workflow annotations. Canonical older cataract benchmark."
-tags: ["surgical_video", "research-only", "manual", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["surgical_video", "research-only", "manual", "classification", "resource-role-current-dataset", "dataset-family-cataract-101", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `cataract_101` |
 | **Full name** | Cataract-101: 101 Cataract Surgery Videos with Phase Annotations |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cataract_101` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | classification |
 | **Primary reported quantity** | 101 videos |

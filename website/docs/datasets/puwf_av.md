@@ -3,7 +3,7 @@ id: puwf_av
 title: "PUWF-AV Pediatric Ultra-Widefield Fundus Artery-Vein Dataset"
 sidebar_label: puwf_av
 description: "Pediatric ultra-widefield fundus images with professional artery-vein segmentation annotations."
-tags: ["fundus", "cc-by", "figshare", "segmentation"]
+tags: ["fundus", "cc-by", "figshare", "segmentation", "resource-role-current-dataset", "dataset-family-puwf-av"]
 ---
 
 
@@ -21,6 +21,8 @@ Pediatric ultra-widefield fundus images with professional artery-vein segmentati
 | **Short name** | `puwf_av` |
 | **Full name** | PUWF-AV Pediatric Ultra-Widefield Fundus Artery-Vein Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `puwf_av` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 60 images |
@@ -122,4 +124,4 @@ Repository dataset record. 10.6084/m9.figshare.32509329.v1.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

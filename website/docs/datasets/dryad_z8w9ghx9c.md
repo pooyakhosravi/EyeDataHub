@@ -3,7 +3,7 @@ id: dryad_z8w9ghx9c
 title: "Accuracy of intraocular lens calculation formulas in cataract patients with steep corneal curvature"
 sidebar_label: dryad_z8w9ghx9c
 description: "Official Dryad deposit of source-described tabular ophthalmic data for the associated study."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-z8w9ghx9c"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | **Short name** | `dryad_z8w9ghx9c` |
 | **Full name** | Accuracy of intraocular lens calculation formulas in cataract patients with steep corneal curvature |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_z8w9ghx9c` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 112 eyes |

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "catalog_version": "0.5.0",
+  "catalog_version": "0.6.0",
   "catalog_search_cutoff": "2026-08-02",
   "quantity_review_date": "2026-08-02",
-  "catalog_record_count": 479,
-  "records_with_resolved_primary_quantity": 328,
+  "catalog_record_count": 475,
+  "records_with_resolved_primary_quantity": 324,
   "records_with_unresolved_primary_quantity": 151,
-  "quantity_evidence_row_count": 393,
+  "quantity_evidence_row_count": 389,
   "records_with_multiple_reported_quantities": 41,
   "primary_quantities_by_unit": {
     "annotated_images": {
@@ -90,19 +90,19 @@
       "source_conflict_records": 0
     },
     "image_report_pairs": {
-      "record_count": 3,
-      "sum": 2570,
-      "exact_count_records": 3,
+      "record_count": 2,
+      "sum": 1496,
+      "exact_count_records": 2,
       "approximate_count_records": 0,
       "exactness_not_assessed_records": 0,
       "source_conflict_records": 0
     },
     "images": {
-      "record_count": 171,
-      "sum": 23620868,
+      "record_count": 168,
+      "sum": 23549416,
       "exact_count_records": 37,
       "approximate_count_records": 0,
-      "exactness_not_assessed_records": 134,
+      "exactness_not_assessed_records": 131,
       "source_conflict_records": 0
     },
     "longitudinal_samples": {

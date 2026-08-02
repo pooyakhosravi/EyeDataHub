@@ -3,7 +3,7 @@ id: glaucoma_oct_fundus
 title: "Glaucoma Detection Dataset with OCT and Fundus Images"
 sidebar_label: glaucoma_oct_fundus
 description: "De-identified per-patient glaucoma fundus/OCT images with processed labels and annotated spreadsheet."
-tags: ["fundus", "cc-by", "figshare", "classification"]
+tags: ["fundus", "cc-by", "figshare", "classification", "resource-role-current-dataset", "dataset-family-glaucoma-oct-fundus"]
 ---
 
 
@@ -21,6 +21,8 @@ De-identified per-patient glaucoma fundus/OCT images with processed labels and a
 | **Short name** | `glaucoma_oct_fundus` |
 | **Full name** | Glaucoma Detection Dataset with OCT and Fundus Images |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `glaucoma_oct_fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |
@@ -120,4 +122,4 @@ Repository dataset record. 10.6084/m9.figshare.32051124.v1.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

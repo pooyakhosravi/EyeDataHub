@@ -3,7 +3,7 @@ id: mendeley_ophthalmic_stroke_biomarkers_south_asia
 title: "Ophthalmic Stroke Biomarkers in south Asia"
 sidebar_label: mendeley_ophthalmic_stroke_biomarkers_south_asia
 description: "Observation-level human or human-derived measurements/signals. from Hospital-based stroke survivors."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-ophthalmic-stroke-biomarkers-south-asia"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Hospital-bas
 | **Short name** | `mendeley_ophthalmic_stroke_biomarkers_south_asia` |
 | **Full name** | Ophthalmic Stroke Biomarkers in south Asia |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_ophthalmic_stroke_biomarkers_south_asia` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

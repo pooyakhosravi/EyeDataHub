@@ -3,7 +3,7 @@ id: slid
 title: "SLID: Slit-Lamp Image Dataset"
 sidebar_label: slid
 description: "~2,617 annotated slit-lamp frames covering anterior-segment anatomy + multi-lesion detection (cataract, corneal disease, conjunctivitis)."
-tags: ["multimodal", "external_eye", "unknown", "direct", "segmentation", "classification"]
+tags: ["multimodal", "external_eye", "unknown", "direct", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-slid"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `slid` |
 | **Full name** | SLID: Slit-Lamp Image Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `slid` |
 | **Contained modalities** | external_eye |
 | **Tasks** | segmentation, classification |
 | **Primary reported quantity** | 2,617 images |

@@ -3,7 +3,7 @@ id: oct_c8
 title: "Retinal OCT-C8: 8-Class OCT Classification"
 sidebar_label: oct_c8
 description: "~24,000 retinal OCT images across 8 disease classes: AMD, BRAO, BRVO, CSC, CRAO, CRVO, DME, MH."
-tags: ["oct", "unknown", "kaggle", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "unknown", "kaggle", "classification", "resource-role-current-dataset", "dataset-family-oct-c8", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `oct_c8` |
 | **Full name** | Retinal OCT-C8: 8-Class OCT Classification |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `oct_c8` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 24,000 images |

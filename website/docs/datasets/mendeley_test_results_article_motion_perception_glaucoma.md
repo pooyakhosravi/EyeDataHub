@@ -3,7 +3,7 @@ id: mendeley_test_results_article_motion_perception_glaucoma
 title: "Test results - Article 'Motion perception and glaucoma'"
 sidebar_label: mendeley_test_results_article_motion_perception_glaucoma
 description: "Observation-level human or human-derived measurements/signals. from Glaucoma and healthy human participants."
-tags: ["omics", "cc-by", "mendeley", "measurement"]
+tags: ["omics", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-test-results-article-motion-perception-glaucoma"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Glaucoma and
 | **Short name** | `mendeley_test_results_article_motion_perception_glaucoma` |
 | **Full name** | Test results - Article "Motion perception and glaucoma" |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_test_results_article_motion_perception_glaucoma` |
 | **Contained modalities** | omics |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

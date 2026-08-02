@@ -2,12 +2,12 @@
 id: fundus-index
 title: "Fundus datasets"
 sidebar_label: fundus
-description: "143 resources containing fundus data in EyeDataHub."
+description: "139 resources containing fundus data in EyeDataHub."
 ---
 
 # Fundus datasets
 
-**143 datasets; 132 with a primary reported quantity; 1159.1 GB total** - this page indexes every EyeDataHub resource tagged as containing `fundus` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**139 datasets; 128 with a primary reported quantity; 1147.6 GB total** - this page indexes every EyeDataHub resource tagged as containing `fundus` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -18,8 +18,6 @@ description: "143 resources containing fundus data in EyeDataHub."
 | [`eyepacs`](./eyepacs.md) | EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) | 88,702 images | 89.0 GB | `research-only` | Kaggle |
 | [`angioreport`](./angioreport.md) | AngioReport Fundus Angiography Report Dataset | 55,361 images | Not reported | `unknown` | Manual (upstream-gated) |
 | [`ffa_ir`](./ffa_ir.md) | FFA-IR Medical Report Dataset | 47,247 images | Not reported | `unknown` | PhysioNet |
-| [`bidr`](./bidr.md) | BiDR: Diabetic Retinopathy Diagnosis Dataset | 35,126 images | 1.0 GB | `unknown` | Kaggle |
-| [`dr_arranged`](./dr_arranged.md) | Diabetic Retinopathy Arranged Dataset (Tianchi 93926) | 35,126 images | 8.0 GB | `cc-by-nc-sa` | Manual (upstream-gated) |
 | [`mfiddr`](./mfiddr.md) | MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy | 34,452 images | 30.0 GB | `mit` | Manual (upstream-gated) |
 | [`lmod_plus`](./lmod_plus.md) | LMOD+ Multimodal Ophthalmology Benchmark | 32,633 annotated instances | Not reported | `unknown` | Manual (upstream-gated) |
 | [`harvard_fairvision`](./harvard_fairvision.md) | Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) | 30,000 participants | 600.0 GB | `cc-by-nc-nd` | Manual (upstream-gated) |
@@ -72,14 +70,12 @@ description: "143 resources containing fundus data in EyeDataHub."
 | [`mshf`](./mshf.md) | Multi-Source Heterogeneous Fundus Dataset for Image Quality Assessment | 1,302 images | 1.1 GB | `cc-by` | Figshare |
 | [`mendeley_multi_class_retinal_fundus_image_deep`](./mendeley_multi_class_retinal_fundus_image_deep.md) | A Multi-Class Retinal Fundus Image Dataset for Deep Learning-Based Ocular Disease Diagnosis | 1,222 images | Not reported | `cc-by` | Mendeley Data |
 | [`sustech_sysu`](./sustech_sysu.md) | SUSTech-SYSU Diabetic Retinopathy + Exudate Dataset | 1,219 images | 3.0 GB | `cc-by` | Figshare |
-| [`refuge2018`](./refuge2018.md) | REFUGE 2018: Retinal Fundus Glaucoma Challenge | 1,200 images | 2.5 GB | `research-only` | Manual (upstream-gated) |
 | [`palm`](./palm.md) | PALM — iChallenge Pathologic Myopia | 1,200 images | 1.5 GB | `research-only` | Google Drive |
 | [`adam_challenge`](./adam_challenge.md) | ADAM — Automatic Detection of AMD Challenge | 1,200 images | 1.5 GB | `research-only` | Google Drive |
 | [`refuge1_multirater`](./refuge1_multirater.md) | REFUGE Multi-Rater — Glaucoma with Multi-Expert Annotations | 1,200 images | 0.8 GB | `cc-by-nc-sa` | Google Drive |
 | [`grape`](./grape.md) | GRAPE: Glaucoma Real-world Appraisal Progression Ensemble | 1,115 examinations | 1.5 GB | `cc0` | Figshare |
 | [`retinal_dr_longitudinal`](./retinal_dr_longitudinal.md) | Retinal DR Longitudinal Fundus Pairs | 1,115 image pairs | 4.0 GB | `unknown` | HuggingFace Hub |
 | [`rop_uwf_intelligent`](./rop_uwf_intelligent.md) | Fundus Dataset for Intelligent ROP System | 1,099 images | 4.0 GB | `cc-by` | Figshare |
-| [`glaucoma_expert_cot_raw`](./glaucoma_expert_cot_raw.md) | Glaucoma Expert Chain-of-Thought Raw Dataset | 1,074 image report pairs | Not reported | `unknown` | HuggingFace Hub |
 | [`glaucoma_expert_cot_refined`](./glaucoma_expert_cot_refined.md) | Glaucoma Expert Chain-of-Thought Refined Dataset | 1,074 image report pairs | Not reported | `unknown` | HuggingFace Hub |
 | [`g1020`](./g1020.md) | G1020: Glaucoma Benchmark Fundus Dataset | 1,020 images | 2.0 GB | `cc-by` | Kaggle |
 | [`harvard_glaucoma`](./harvard_glaucoma.md) | Harvard Glaucoma Fundus Image Dataset | 1,000 images | 1.5 GB | `cc0` | Direct HTTP |

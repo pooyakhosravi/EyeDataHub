@@ -3,7 +3,7 @@ id: dryad_functional_oct_alzheimer
 title: "Functional OCT Retinal Response Dataset"
 sidebar_label: dryad_functional_oct_alzheimer
 description: "Repeated light/dark SD-OCT acquisitions and retinal reflectivity profiles from healthy, neuromyelitis-optica, and Alzheimer groups."
-tags: ["oct", "cc0", "dryad", "classification", "registration", "regression"]
+tags: ["oct", "cc0", "dryad", "classification", "registration", "regression", "resource-role-current-dataset", "dataset-family-dryad-functional-oct-alzheimer"]
 ---
 
 
@@ -21,6 +21,8 @@ Repeated light/dark SD-OCT acquisitions and retinal reflectivity profiles from h
 | **Short name** | `dryad_functional_oct_alzheimer` |
 | **Full name** | Functional OCT Retinal Response Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_functional_oct_alzheimer` |
 | **Contained modalities** | oct |
 | **Tasks** | classification, registration, regression |
 | **Primary reported quantity** | 40 participants |

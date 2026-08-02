@@ -3,7 +3,7 @@ id: mendeley_refractive_error_visual_impairment_among_school
 title: "Refractive error and Visual Impairment data among school children in Blantyre, Southern Malawi"
 sidebar_label: mendeley_refractive_error_visual_impairment_among_school
 description: "Observation-level source data, annotations, or signals. from Schoolchildren in Blantyre are explicitly described."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-refractive-error-visual-impairment-among-school"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Schoolchildren in B
 | **Short name** | `mendeley_refractive_error_visual_impairment_among_school` |
 | **Full name** | Refractive error and Visual Impairment data among school children in Blantyre, Southern Malawi |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_refractive_error_visual_impairment_among_school` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

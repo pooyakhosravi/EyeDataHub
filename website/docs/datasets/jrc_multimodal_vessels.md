@@ -3,7 +3,7 @@ id: jrc_multimodal_vessels
 title: "JRC Multi-Modal Retinal Vessel Segmentation"
 sidebar_label: jrc_multimodal_vessels
 description: "Multi-modal retinal vessel segmentation dataset spanning fluorescence angiography, fundus autofluorescence, and infrared imaging."
-tags: ["multimodal", "fundus", "fundus_angiography", "fundus_autofluorescence", "infrared", "unknown", "manual", "segmentation"]
+tags: ["multimodal", "fundus", "fundus_angiography", "fundus_autofluorescence", "infrared", "unknown", "manual", "segmentation", "resource-role-current-dataset", "dataset-family-jrc-multimodal-vessels"]
 ---
 
 
@@ -21,6 +21,8 @@ Multi-modal retinal vessel segmentation dataset spanning fluorescence angiograph
 | **Short name** | `jrc_multimodal_vessels` |
 | **Full name** | JRC Multi-Modal Retinal Vessel Segmentation |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `jrc_multimodal_vessels` |
 | **Contained modalities** | fundus, fundus_angiography, fundus_autofluorescence, infrared |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 120 images |

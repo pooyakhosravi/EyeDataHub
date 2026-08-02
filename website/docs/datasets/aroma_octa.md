@@ -3,7 +3,7 @@ id: aroma_octa
 title: "AROMA Retinal OCTA Artifact Dataset"
 sidebar_label: aroma_octa
 description: "Retinal OCTA scans labeled for artifact type, artifact severity, signal strength, and image quality."
-tags: ["octa", "cc-by", "zenodo", "quality_assessment", "classification", "grading"]
+tags: ["octa", "cc-by", "zenodo", "quality_assessment", "classification", "grading", "resource-role-current-dataset", "dataset-family-aroma-octa"]
 ---
 
 
@@ -21,6 +21,8 @@ Retinal OCTA scans labeled for artifact type, artifact severity, signal strength
 | **Short name** | `aroma_octa` |
 | **Full name** | AROMA Retinal OCTA Artifact Dataset |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `aroma_octa` |
 | **Contained modalities** | octa |
 | **Tasks** | quality_assessment, classification, grading |
 | **Primary reported quantity** | 281 images |

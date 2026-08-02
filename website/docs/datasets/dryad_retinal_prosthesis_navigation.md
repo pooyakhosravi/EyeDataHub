@@ -3,7 +3,7 @@ id: dryad_retinal_prosthesis_navigation
 title: "Visual and non-visual navigation in blind patients with a retinal prosthesis"
 sidebar_label: dryad_retinal_prosthesis_navigation
 description: "The four retinal-prosthesis participant dataset is a direct human device-rehabilitation resource rather than generic behavior data."
-tags: ["multimodal", "tabular", "cc0", "dryad", "navigation"]
+tags: ["multimodal", "tabular", "cc0", "dryad", "navigation", "resource-role-current-dataset", "dataset-family-dryad-retinal-prosthesis-navigation"]
 ---
 
 
@@ -21,6 +21,8 @@ The four retinal-prosthesis participant dataset is a direct human device-rehabil
 | **Short name** | `dryad_retinal_prosthesis_navigation` |
 | **Full name** | Visual and non-visual navigation in blind patients with a retinal prosthesis |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_retinal_prosthesis_navigation` |
 | **Contained modalities** | tabular |
 | **Tasks** | navigation |
 | **Primary reported quantity** | 4 participants |

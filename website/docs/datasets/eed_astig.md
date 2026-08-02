@@ -3,7 +3,7 @@ id: eed_astig
 title: "EED-Astig Pediatric External-Eye Dataset"
 sidebar_label: eed_astig
 description: "Pediatric external-eye photographs with gaze-view annotations, corneal masks, eyelid/eyelash-line keypoints, and clinical tabular parameters for astigmatism-related research."
-tags: ["external_eye", "tabular", "research-only", "manual", "segmentation", "landmark_detection", "regression"]
+tags: ["external_eye", "tabular", "research-only", "manual", "segmentation", "landmark_detection", "regression", "resource-role-current-dataset", "dataset-family-eed-astig"]
 ---
 
 
@@ -21,6 +21,8 @@ Pediatric external-eye photographs with gaze-view annotations, corneal masks, ey
 | **Short name** | `eed_astig` |
 | **Full name** | EED-Astig Pediatric External-Eye Dataset |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `eed_astig` |
 | **Contained modalities** | external_eye, tabular |
 | **Tasks** | segmentation, landmark_detection, regression |
 | **Primary reported quantity** | 3,088 images |

@@ -3,7 +3,7 @@ id: afio_fundus_vessels
 title: "AFIO Fundus Images for Vessel Segmentation and Disease Annotation"
 sidebar_label: afio_fundus_vessels
 description: "One hundred retinal fundus images from Armed Forces Institute of Ophthalmology, Rawalpindi, with expert annotations for vessels and hypertensive retinopathy, diabetic retinopathy, and papilledema task"
-tags: ["fundus", "cc-by", "mendeley", "segmentation", "classification"]
+tags: ["fundus", "cc-by", "mendeley", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-afio-fundus-vessels"]
 ---
 
 
@@ -21,6 +21,8 @@ One hundred retinal fundus images from Armed Forces Institute of Ophthalmology, 
 | **Short name** | `afio_fundus_vessels` |
 | **Full name** | AFIO Fundus Images for Vessel Segmentation and Disease Annotation |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `afio_fundus_vessels` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation, classification |
 | **Primary reported quantity** | 100 images |
@@ -127,4 +129,4 @@ Akram MU et al. Data on Fundus Images for Vessels Segmentation, Detection of Hyp
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

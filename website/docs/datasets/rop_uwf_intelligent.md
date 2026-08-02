@@ -3,7 +3,7 @@ id: rop_uwf_intelligent
 title: "Fundus Dataset for Intelligent ROP System"
 sidebar_label: rop_uwf_intelligent
 description: "1,099 pediatric fundus images from 483 premature infants annotated for retinopathy of prematurity (ROP) staging. Standard fundus (RetCam) — not ultra-widefield; `rop_uwf_intelligent` is retained as th"
-tags: ["fundus", "cc-by", "figshare", "grading", "classification"]
+tags: ["fundus", "cc-by", "figshare", "grading", "classification", "resource-role-current-dataset", "dataset-family-rop-uwf-intelligent"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `rop_uwf_intelligent` |
 | **Full name** | Fundus Dataset for Intelligent ROP System |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `rop_uwf_intelligent` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 1,099 images |
@@ -127,4 +129,4 @@ Zhao X, Chen S, Zhang S, et al., 'A fundus image dataset for intelligent retinop
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

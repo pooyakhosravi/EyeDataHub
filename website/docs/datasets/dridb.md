@@ -3,7 +3,7 @@ id: dridb
 title: "DRiDB: Diabetic Retinopathy Image Database"
 sidebar_label: dridb
 description: "Fifty color fundus images with expert markings of diabetic retinopathy lesions, blood vessels, optic disc, and macula."
-tags: ["fundus", "research-only", "manual", "segmentation", "lesion_detection", "classification"]
+tags: ["fundus", "research-only", "manual", "segmentation", "lesion_detection", "classification", "resource-role-current-dataset", "dataset-family-dridb"]
 ---
 
 
@@ -21,6 +21,8 @@ Fifty color fundus images with expert markings of diabetic retinopathy lesions, 
 | **Short name** | `dridb` |
 | **Full name** | DRiDB: Diabetic Retinopathy Image Database |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dridb` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation, lesion_detection, classification |
 | **Primary reported quantity** | 50 images |
@@ -125,4 +127,4 @@ Prentasic P, Loncaric S, Vatavuk Z, et al. Diabetic retinopathy image database (
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

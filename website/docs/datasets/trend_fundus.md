@@ -3,7 +3,7 @@ id: trend_fundus
 title: "TREND Portable Fundus Microvascular Network Dataset"
 sidebar_label: trend_fundus
 description: "Portable fundus images and segmentations for retinal microvascular network analysis."
-tags: ["fundus", "cc-by", "zenodo", "segmentation", "regression", "documented-relationship", "relationship-extension_of"]
+tags: ["fundus", "cc-by", "zenodo", "segmentation", "regression", "resource-role-current-dataset", "dataset-family-trend-fundus", "documented-relationship", "relationship-extension_of"]
 ---
 
 
@@ -21,6 +21,8 @@ Portable fundus images and segmentations for retinal microvascular network analy
 | **Short name** | `trend_fundus` |
 | **Full name** | TREND Portable Fundus Microvascular Network Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `trend_fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation, regression |
 | **Primary reported quantity** | 82 images |
@@ -129,4 +131,4 @@ TREND portable fundus microvascular network dataset. Zenodo, 2021. doi:10.5281/z
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

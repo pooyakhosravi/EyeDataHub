@@ -3,7 +3,7 @@ id: stage_task1
 title: "STAGE 2023 Task 1 — Mean Deviation Prediction from OCT"
 sidebar_label: stage_task1
 description: "400 macular OCT volumes; predict glaucoma Mean Deviation (MD, dB) from 24-2 Humphrey visual field test. Scalar regression task."
-tags: ["oct", "visual_field", "research-only", "manual", "regression", "documented-relationship", "relationship-derived_from", "relationship-same_or_overlapping_cohort_as"]
+tags: ["oct", "visual_field", "research-only", "manual", "regression", "resource-role-task-view", "dataset-family-stage-2023", "documented-relationship", "relationship-derived_from", "relationship-same_or_overlapping_cohort_as"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `stage_task1` |
 | **Full name** | STAGE 2023 Task 1 — Mean Deviation Prediction from OCT |
 | **Primary category** | `oct` |
+| **Resource role** | `task_view` |
+| **Dataset family** | `stage_2023` |
 | **Contained modalities** | oct, visual_field |
 | **Tasks** | regression |
 | **Primary reported quantity** | 400 volumes |
@@ -49,6 +51,13 @@ Counts retain their source-reported units. Additional rows can describe componen
 ## Notes
 
 > Registration on Baidu AI Studio required. All 3 tasks share the same OCT volume set (~5 GB).
+
+## Dataset family
+
+This record belongs to `stage_2023`. Family links group documented collection/component records or exact task views; they do not imply independent cohorts.
+
+- [stage_task2](./stage_task2.md): STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction (`task_view`)
+- [stage_task3](./stage_task3.md): STAGE 2023 Task 3 — Pattern Deviation Probability Map (`task_view`)
 
 ## Documented relationships
 

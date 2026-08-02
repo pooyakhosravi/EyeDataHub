@@ -3,7 +3,7 @@ id: dryad_clcc1_retinitis_pigmentosa
 title: "CLCC1 Retinitis Pigmentosa Genomics Dataset"
 sidebar_label: dryad_clcc1_retinitis_pigmentosa
 description: "Human retinitis-pigmentosa WES/SNP data from eight families directly support inherited-retinal-disease analysis."
-tags: ["omics", "cc0", "dryad", "classification"]
+tags: ["omics", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-clcc1-retinitis-pigmentosa"]
 ---
 
 
@@ -21,6 +21,8 @@ Human retinitis-pigmentosa WES/SNP data from eight families directly support inh
 | **Short name** | `dryad_clcc1_retinitis_pigmentosa` |
 | **Full name** | CLCC1 Retinitis Pigmentosa Genomics Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_clcc1_retinitis_pigmentosa` |
 | **Contained modalities** | omics |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

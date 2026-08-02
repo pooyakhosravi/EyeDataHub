@@ -3,7 +3,7 @@ id: drishti_gs
 title: "DRISHTI-GS: Optic Disc and Cup Segmentation"
 sidebar_label: drishti_gs
 description: "101 fundus images annotated for optic disc and cup segmentation by 4 clinicians. Train/test: 50/51."
-tags: ["fundus", "research-only", "kaggle", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "research-only", "kaggle", "segmentation", "resource-role-current-dataset", "dataset-family-drishti-gs", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `drishti_gs` |
 | **Full name** | DRISHTI-GS: Optic Disc and Cup Segmentation |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `drishti_gs` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 101 images |
@@ -50,7 +52,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
-- [fundus_domain_generalization](./fundus_domain_generalization.md) is `derived from` this record: The official description states that the benchmark is based on REFUGE, Drishti-GS, ORIGA, and RIGA. ([evidence](https://zenodo.org/records/8009107))
+- [fundus_domain_generalization](./fundus_domain_generalization.md) is `derived from` this record: The official description states that the benchmark is based on the original REFUGE images, now represented by the current REFUGE2 record, plus Drishti-GS, ORIGA, and RIGA. ([evidence](https://zenodo.org/records/8009107))
 - [higancnn_generated_glaucoma](./higancnn_generated_glaucoma.md) is `derived from` this record: The official dataset description names ACRIMA, DRISHTI-GS, and HRF among the human fundus sources used to construct the synthetic glaucoma resource. ([evidence](https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection))
 - [mendeley_utilizing_responsive_web_portal_studying_disc](./mendeley_utilizing_responsive_web_portal_studying_disc.md) is `derived from` this record: The Mendeley deposit is a distinct annotation and task layer built from DRISHTI-GS fundus images. ([evidence](https://data.mendeley.com/datasets/7xv5rzxgrh))
 - [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
@@ -144,4 +146,4 @@ Sivaswamy et al., 'Drishti-GS: Retinal image dataset for optic nerve head (ONH) 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

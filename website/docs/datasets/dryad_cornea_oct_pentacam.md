@@ -3,7 +3,7 @@ id: dryad_cornea_oct_pentacam
 title: "Corneal OCT and Pentacam Tomography Dataset"
 sidebar_label: dryad_cornea_oct_pentacam
 description: "Right-eye corneal OCT and rotating Scheimpflug tomography data with MATLAB code for automatic corneal-layer segmentation."
-tags: ["multimodal", "oct", "corneal_topography", "cc0", "dryad", "segmentation", "measurement", "registration"]
+tags: ["multimodal", "oct", "corneal_topography", "cc0", "dryad", "segmentation", "measurement", "registration", "resource-role-current-dataset", "dataset-family-dryad-cornea-oct-pentacam"]
 ---
 
 
@@ -21,6 +21,8 @@ Right-eye corneal OCT and rotating Scheimpflug tomography data with MATLAB code 
 | **Short name** | `dryad_cornea_oct_pentacam` |
 | **Full name** | Corneal OCT and Pentacam Tomography Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_cornea_oct_pentacam` |
 | **Contained modalities** | oct, corneal_topography |
 | **Tasks** | segmentation, measurement, registration |
 | **Primary reported quantity** | 52 participants |

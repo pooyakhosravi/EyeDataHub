@@ -3,7 +3,7 @@ id: ophthalmology_eqa_v3
 title: "Ophthalmology-EQA-v3"
 sidebar_label: ophthalmology_eqa_v3
 description: "Text-only ophthalmology explanatory/free-form question-answering dataset for LLM training/evaluation."
-tags: ["text", "unknown", "huggingface", "question_answering", "text_generation"]
+tags: ["text", "unknown", "huggingface", "question_answering", "text_generation", "resource-role-current-dataset", "dataset-family-ophthalmology-eqa-v3"]
 ---
 
 
@@ -21,6 +21,8 @@ Text-only ophthalmology explanatory/free-form question-answering dataset for LLM
 | **Short name** | `ophthalmology_eqa_v3` |
 | **Full name** | Ophthalmology-EQA-v3 |
 | **Primary category** | `text` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ophthalmology_eqa_v3` |
 | **Contained modalities** | text |
 | **Tasks** | question_answering, text_generation |
 | **Primary reported quantity** | 49,300 questions |

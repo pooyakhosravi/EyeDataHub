@@ -3,7 +3,7 @@ id: mendeley_netarsudil_on_kdb_treated_eyes
 title: "Netarsudil on KDB-treated Eyes"
 sidebar_label: mendeley_netarsudil_on_kdb_treated_eyes
 description: "Eye-level treatment and intraocular-pressure outcome measurements from Retrospective human cohort of goniotomy-treated and goniotomy-naive eyes."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-netarsudil-on-kdb-treated-eyes"]
 ---
 
 
@@ -21,6 +21,8 @@ Eye-level treatment and intraocular-pressure outcome measurements from Retrospec
 | **Short name** | `mendeley_netarsudil_on_kdb_treated_eyes` |
 | **Full name** | Netarsudil on KDB-treated Eyes |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_netarsudil_on_kdb_treated_eyes` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 70 eyes |

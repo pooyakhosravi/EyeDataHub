@@ -3,7 +3,7 @@ id: dryad_moorfields_namd_fellow_eye
 title: "Moorfields nAMD Fellow-Eye Dataset"
 sidebar_label: dryad_moorfields_namd_fellow_eye
 description: "The Moorfields nAMD fellow-eye dataset is direct human retinal-disease longitudinal outcome data."
-tags: ["tabular", "cc0", "dryad", "prognosis", "regression", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
+tags: ["tabular", "cc0", "dryad", "prognosis", "regression", "resource-role-current-dataset", "dataset-family-dryad-moorfields-namd-fellow-eye", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
 ---
 
 
@@ -21,6 +21,8 @@ The Moorfields nAMD fellow-eye dataset is direct human retinal-disease longitudi
 | **Short name** | `dryad_moorfields_namd_fellow_eye` |
 | **Full name** | Moorfields nAMD Fellow-Eye Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_moorfields_namd_fellow_eye` |
 | **Contained modalities** | tabular |
 | **Tasks** | prognosis, regression |
 | **Primary reported quantity** | 6,265 participants |

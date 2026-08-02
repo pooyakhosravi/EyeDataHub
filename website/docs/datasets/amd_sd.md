@@ -3,7 +3,7 @@ id: amd_sd
 title: "AMD-SD: OCT Wet AMD Lesion Segmentation Dataset"
 sidebar_label: amd_sd
 description: "3,049 OCT B-scan images (1,140×380 px) from 138 wet AMD patients (156 eyes) with pixel-level annotations for 5 lesion classes: Subretinal Fluid (SRF), Intraretinal Fluid (IRF), Ellipsoid Zone Continui"
-tags: ["oct", "cc-by-nc-nd", "kaggle", "segmentation"]
+tags: ["oct", "cc-by-nc-nd", "kaggle", "segmentation", "resource-role-current-dataset", "dataset-family-amd-sd"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `amd_sd` |
 | **Full name** | AMD-SD: OCT Wet AMD Lesion Segmentation Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `amd_sd` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 3,049 images |

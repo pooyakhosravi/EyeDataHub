@@ -3,7 +3,7 @@ id: mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy
 title: "HVDROPDB Datasets for Classification and Segmentation for Research in Retinopathy of Prematurity, Ranjana Agrawal"
 sidebar_label: mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy
 description: "Human/derived image or image-annotation observations. from Preterm infants screened at H.V. Desai Eye Hospital."
-tags: ["fundus", "cc-by", "mendeley", "segmentation"]
+tags: ["fundus", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-hvdropdb-datasets-classification-segmentation-research-retinopathy"]
 ---
 
 
@@ -21,6 +21,8 @@ Human/derived image or image-annotation observations. from Preterm infants scree
 | **Short name** | `mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy` |
 | **Full name** | HVDROPDB Datasets for Classification and Segmentation for Research in Retinopathy of Prematurity, Ranjana Agrawal |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |
@@ -124,4 +126,4 @@ HVDROPDB Datasets for Classification and Segmentation for Research in Retinopath
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

@@ -3,7 +3,7 @@ id: palm
 title: "PALM — iChallenge Pathologic Myopia"
 sidebar_label: palm
 description: "1200 fundus images for pathologic myopia classification and optic disc / lesion segmentation. 50 % PM / 50 % non-PM."
-tags: ["fundus", "research-only", "gdrive", "classification", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "research-only", "gdrive", "classification", "segmentation", "resource-role-current-dataset", "dataset-family-palm", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `palm` |
 | **Full name** | PALM — iChallenge Pathologic Myopia |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `palm` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 1,200 images |
@@ -138,4 +140,4 @@ Fu H. et al., 'PALM: Pathologic Myopia Challenge', MICCAI 2019 Workshop.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

@@ -3,7 +3,7 @@ id: mendeley_application_machine_learning_detecting_iron_deficiency
 title: "Application of Machine Learning in Detecting Iron Deficiency Anemia Using  Conjunctiva image Dataset from Ghana"
 sidebar_label: mendeley_application_machine_learning_detecting_iron_deficiency
 description: "Image-level conjunctival observations with anemia target from Human conjunctiva images from Ghana used for iron-deficiency-anemia detection."
-tags: ["tabular", "cc-by", "manual", "classification"]
+tags: ["tabular", "cc-by", "manual", "classification", "resource-role-current-dataset", "dataset-family-mendeley-application-machine-learning-detecting-iron-deficiency"]
 ---
 
 
@@ -21,6 +21,8 @@ Image-level conjunctival observations with anemia target from Human conjunctiva 
 | **Short name** | `mendeley_application_machine_learning_detecting_iron_deficiency` |
 | **Full name** | Application of Machine Learning in Detecting Iron Deficiency Anemia Using  Conjunctiva image Dataset from Ghana |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_application_machine_learning_detecting_iron_deficiency` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

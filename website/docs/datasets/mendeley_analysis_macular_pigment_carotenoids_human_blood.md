@@ -3,7 +3,7 @@ id: mendeley_analysis_macular_pigment_carotenoids_human_blood
 title: "Analysis of macular pigment carotenoids in human blood serum of glaucoma patients as a measure of ocular health: A Raman spectroscopic study"
 sidebar_label: mendeley_analysis_macular_pigment_carotenoids_human_blood
 description: "Observation-level source data, annotations, or signals. from Glaucoma patients and human serum are explicitly stated."
-tags: ["omics", "cc-by", "mendeley", "measurement"]
+tags: ["omics", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-analysis-macular-pigment-carotenoids-human-blood"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Glaucoma patients a
 | **Short name** | `mendeley_analysis_macular_pigment_carotenoids_human_blood` |
 | **Full name** | Analysis of macular pigment carotenoids in human blood serum of glaucoma patients as a measure of ocular health: A Raman spectroscopic study |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_analysis_macular_pigment_carotenoids_human_blood` |
 | **Contained modalities** | omics |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

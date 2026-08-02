@@ -3,7 +3,7 @@ id: slid_e
 title: "SLID-E Slit-Lamp Image Dataset for Epiphora"
 sidebar_label: slid_e
 description: "Slit-lamp photographs with expert epiphora-severity labels."
-tags: ["external_eye", "slit_lamp", "cc-by", "figshare", "classification"]
+tags: ["external_eye", "slit_lamp", "cc-by", "figshare", "classification", "resource-role-current-dataset", "dataset-family-slid-e"]
 ---
 
 
@@ -21,6 +21,8 @@ Slit-lamp photographs with expert epiphora-severity labels.
 | **Short name** | `slid_e` |
 | **Full name** | SLID-E Slit-Lamp Image Dataset for Epiphora |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `slid_e` |
 | **Contained modalities** | external_eye, slit_lamp |
 | **Tasks** | classification |
 | **Primary reported quantity** | 2,999 images |

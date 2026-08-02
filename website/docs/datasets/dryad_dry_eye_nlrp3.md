@@ -3,7 +3,7 @@ id: dryad_dry_eye_nlrp3
 title: "Dry Eye NLRP3 Ocular Surface Dataset"
 sidebar_label: dryad_dry_eye_nlrp3
 description: "Dry-eye clinical, tear, and ocular-surface molecular data directly support human ocular-surface disease analysis."
-tags: ["omics", "tabular", "cc0", "dryad", "classification"]
+tags: ["omics", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-dry-eye-nlrp3"]
 ---
 
 
@@ -21,6 +21,8 @@ Dry-eye clinical, tear, and ocular-surface molecular data directly support human
 | **Short name** | `dryad_dry_eye_nlrp3` |
 | **Full name** | Dry Eye NLRP3 Ocular Surface Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_dry_eye_nlrp3` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | 150 participants |

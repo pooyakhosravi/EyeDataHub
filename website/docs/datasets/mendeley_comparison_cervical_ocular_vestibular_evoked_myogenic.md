@@ -3,7 +3,7 @@ id: mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic
 title: "Comparison of Cervical and Ocular Vestibular Evoked Myogenic Potentials Among Individuals with Hearing Impairment Aged 50–70 Years"
 sidebar_label: mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic
 description: "Observation-level source data, annotations, or signals. from Human adults aged 50-70 with hearing impairment are described."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-comparison-cervical-ocular-vestibular-evoked-myogenic"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Human adults aged 5
 | **Short name** | `mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic` |
 | **Full name** | Comparison of Cervical and Ocular Vestibular Evoked Myogenic Potentials Among Individuals with Hearing Impairment Aged 50–70 Years |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

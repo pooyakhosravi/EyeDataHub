@@ -3,7 +3,7 @@ id: dryad_sbcc2fr6n
 title: "Exploring phenotypic diversity of pigmented traits and iris features in Pakistani population"
 sidebar_label: dryad_sbcc2fr6n
 description: "Official Dryad deposit of source-described iris biometric data for the associated study."
-tags: ["iris_biometrics", "external_eye", "tabular", "cc0", "dryad", "classification"]
+tags: ["iris_biometrics", "external_eye", "tabular", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-sbcc2fr6n"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described iris biometric data for the associate
 | **Short name** | `dryad_sbcc2fr6n` |
 | **Full name** | Exploring phenotypic diversity of pigmented traits and iris features in Pakistani population |
 | **Primary category** | `iris_biometrics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_sbcc2fr6n` |
 | **Contained modalities** | iris_biometrics, external_eye, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | 514 participants |

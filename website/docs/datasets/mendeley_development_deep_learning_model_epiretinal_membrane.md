@@ -3,7 +3,7 @@ id: mendeley_development_deep_learning_model_epiretinal_membrane
 title: "Development of a deep learning model for epiretinal membrane detection in fundus photography"
 sidebar_label: mendeley_development_deep_learning_model_epiretinal_membrane
 description: "Fundus-image-level erm observations/labels from Retrospectively collected colour-fundus photographs from patients diagnosed with epiretinal membrane at B&VIIT Eye Center, Seoul."
-tags: ["fundus", "cc-by", "manual", "classification"]
+tags: ["fundus", "cc-by", "manual", "classification", "resource-role-current-dataset", "dataset-family-mendeley-development-deep-learning-model-epiretinal-membrane"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus-image-level erm observations/labels from Retrospectively collected colour
 | **Short name** | `mendeley_development_deep_learning_model_epiretinal_membrane` |
 | **Full name** | Development of a deep learning model for epiretinal membrane detection in fundus photography |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_development_deep_learning_model_epiretinal_membrane` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |
@@ -124,4 +126,4 @@ Development of a deep learning model for epiretinal membrane detection in fundus
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

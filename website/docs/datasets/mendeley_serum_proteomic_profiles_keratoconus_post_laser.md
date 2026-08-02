@@ -3,7 +3,7 @@ id: mendeley_serum_proteomic_profiles_keratoconus_post_laser
 title: "Serum proteomic profiles in keratoconus, post-laser vision correction ectasia, and pellucid marginal degeneration"
 sidebar_label: mendeley_serum_proteomic_profiles_keratoconus_post_laser
 description: "Observation-level human or human-derived measurements/signals. from Keratoconus, post-laser ectasia, PMD and control participants."
-tags: ["omics", "cc-by", "mendeley", "classification"]
+tags: ["omics", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-serum-proteomic-profiles-keratoconus-post-laser"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Keratoconus,
 | **Short name** | `mendeley_serum_proteomic_profiles_keratoconus_post_laser` |
 | **Full name** | Serum proteomic profiles in keratoconus, post-laser vision correction ectasia, and pellucid marginal degeneration |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_serum_proteomic_profiles_keratoconus_post_laser` |
 | **Contained modalities** | omics |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

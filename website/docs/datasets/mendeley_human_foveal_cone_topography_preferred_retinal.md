@@ -3,7 +3,7 @@ id: mendeley_human_foveal_cone_topography_preferred_retinal
 title: "Human foveal cone topography and preferred retinal locus of fixation"
 sidebar_label: mendeley_human_foveal_cone_topography_preferred_retinal
 description: "Observation-level source data, annotations, or signals. from Human foveal cone topography and fixation locations are explicitly stated."
-tags: ["eye_tracking", "cc-by", "mendeley", "measurement"]
+tags: ["eye_tracking", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-human-foveal-cone-topography-preferred-retinal"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Human foveal cone t
 | **Short name** | `mendeley_human_foveal_cone_topography_preferred_retinal` |
 | **Full name** | Human foveal cone topography and preferred retinal locus of fixation |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_human_foveal_cone_topography_preferred_retinal` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

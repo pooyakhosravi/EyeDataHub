@@ -3,7 +3,7 @@ id: mendeley_3_year_follow_up_optic_neuritis
 title: "a 3-year follow-up of optic neuritis phenotypes in Chinese cohort"
 sidebar_label: mendeley_3_year_follow_up_optic_neuritis
 description: "Observation-level human or human-derived measurements/signals. from Chinese new-onset optic-neuritis cohort followed three years."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-3-year-follow-up-optic-neuritis"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Chinese new-
 | **Short name** | `mendeley_3_year_follow_up_optic_neuritis` |
 | **Full name** | a 3-year follow-up of optic neuritis phenotypes in Chinese cohort |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_3_year_follow_up_optic_neuritis` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

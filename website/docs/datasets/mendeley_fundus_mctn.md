@@ -3,7 +3,7 @@ id: mendeley_fundus_mctn
 title: "Fundus dataset of MCTN"
 sidebar_label: mendeley_fundus_mctn
 description: "Fundus-image-level class-labelled observations from Classified human fundus images for myopia, choroidal neovascularization, tessellation, and normal categories."
-tags: ["fundus", "cc-by", "mendeley", "classification"]
+tags: ["fundus", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-fundus-mctn"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus-image-level class-labelled observations from Classified human fundus imag
 | **Short name** | `mendeley_fundus_mctn` |
 | **Full name** | Fundus dataset of MCTN |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_fundus_mctn` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |
@@ -124,4 +126,4 @@ Fundus dataset of MCTN. Mendeley Data, V1. doi:10.17632/spz4b8tbzt.1.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

@@ -3,7 +3,7 @@ id: mendeley_microvascular_changes_poag_after_npds
 title: "Microvascular changes in POAG after NPDS"
 sidebar_label: mendeley_microvascular_changes_poag_after_npds
 description: "Observation-level human or human-derived measurements/signals. from Primary-open-angle-glaucoma patients after surgery."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-microvascular-changes-poag-after-npds"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Primary-open
 | **Short name** | `mendeley_microvascular_changes_poag_after_npds` |
 | **Full name** | Microvascular changes in POAG after NPDS |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_microvascular_changes_poag_after_npds` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

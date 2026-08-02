@@ -3,7 +3,7 @@ id: cornorb
 title: "CornOrb: Orbscan Corneal Topography and Clinical Annotations"
 sidebar_label: cornorb
 description: "Orbscan corneal topography maps and structured clinical annotations for keratoconus detection."
-tags: ["corneal_topography", "cc-by", "zenodo", "classification"]
+tags: ["corneal_topography", "cc-by", "zenodo", "classification", "resource-role-current-dataset", "dataset-family-cornorb"]
 ---
 
 
@@ -21,6 +21,8 @@ Orbscan corneal topography maps and structured clinical annotations for keratoco
 | **Short name** | `cornorb` |
 | **Full name** | CornOrb: Orbscan Corneal Topography and Clinical Annotations |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cornorb` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | classification |
 | **Primary reported quantity** | 1,454 eyes |

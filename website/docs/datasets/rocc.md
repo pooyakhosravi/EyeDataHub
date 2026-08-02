@@ -3,7 +3,7 @@ id: rocc
 title: "ROCC: Retinal OCT Classification Challenge"
 sidebar_label: rocc
 description: "Grand Challenge OCT classification dataset for diabetic-retinopathy related OCT classification."
-tags: ["oct", "research-only", "manual", "classification"]
+tags: ["oct", "research-only", "manual", "classification", "resource-role-current-dataset", "dataset-family-rocc"]
 ---
 
 
@@ -21,6 +21,8 @@ Grand Challenge OCT classification dataset for diabetic-retinopathy related OCT 
 | **Short name** | `rocc` |
 | **Full name** | ROCC: Retinal OCT Classification Challenge |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `rocc` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 165 volumes |

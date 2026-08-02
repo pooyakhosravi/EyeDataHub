@@ -3,7 +3,7 @@ id: dual_scheimpflug_ss_oct_biometry
 title: "Dual Scheimpflug and Swept-Source OCT Biometry Dataset"
 sidebar_label: dual_scheimpflug_ss_oct_biometry
 description: "Human ocular-biometry measurements from dual Scheimpflug and swept-source OCT instruments."
-tags: ["tabular", "biometry", "cc-by", "figshare", "measurement"]
+tags: ["tabular", "biometry", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-dual-scheimpflug-ss-oct-biometry"]
 ---
 
 
@@ -21,6 +21,8 @@ Human ocular-biometry measurements from dual Scheimpflug and swept-source OCT in
 | **Short name** | `dual_scheimpflug_ss_oct_biometry` |
 | **Full name** | Dual Scheimpflug and Swept-Source OCT Biometry Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dual_scheimpflug_ss_oct_biometry` |
 | **Contained modalities** | tabular, biometry |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

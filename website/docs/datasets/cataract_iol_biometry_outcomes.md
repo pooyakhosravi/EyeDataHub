@@ -3,7 +3,7 @@ id: cataract_iol_biometry_outcomes
 title: "Cataract IOL Biometry and Outcomes Dataset"
 sidebar_label: cataract_iol_biometry_outcomes
 description: "Human cataract-surgery biometry and clinical outcome measurements."
-tags: ["tabular", "biometry", "cc-by", "figshare", "measurement"]
+tags: ["tabular", "biometry", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-cataract-iol-biometry-outcomes"]
 ---
 
 
@@ -21,6 +21,8 @@ Human cataract-surgery biometry and clinical outcome measurements.
 | **Short name** | `cataract_iol_biometry_outcomes` |
 | **Full name** | Cataract IOL Biometry and Outcomes Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cataract_iol_biometry_outcomes` |
 | **Contained modalities** | tabular, biometry |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

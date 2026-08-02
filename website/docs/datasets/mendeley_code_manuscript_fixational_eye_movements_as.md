@@ -3,7 +3,7 @@ id: mendeley_code_manuscript_fixational_eye_movements_as
 title: "Data and code for manuscript: Fixational eye movements as active sensation for high visual acuity"
 sidebar_label: mendeley_code_manuscript_fixational_eye_movements_as
 description: "Eye-movement sequences and supporting code from Human fixation/eye-movement experiment, as stated by the linked study title."
-tags: ["tabular", "cc-by", "mendeley", "classification"]
+tags: ["tabular", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-code-manuscript-fixational-eye-movements-as"]
 ---
 
 
@@ -21,6 +21,8 @@ Eye-movement sequences and supporting code from Human fixation/eye-movement expe
 | **Short name** | `mendeley_code_manuscript_fixational_eye_movements_as` |
 | **Full name** | Data and code for manuscript: Fixational eye movements as active sensation for high visual acuity |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_code_manuscript_fixational_eye_movements_as` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

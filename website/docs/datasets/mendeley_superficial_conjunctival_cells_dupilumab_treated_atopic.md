@@ -3,7 +3,7 @@ id: mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic
 title: "Superficial Conjunctival Cells from Dupilumab-treated Atopic Dermatitis Patients with Ocular Adverse Events Display a Transcriptomic Psoriasis Signature"
 sidebar_label: mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic
 description: "Observation-level source data, annotations, or signals. from Adult dupilumab-treated patients with ocular adverse events; paired conjunctival-impression samples at baseline/follow-up."
-tags: ["omics", "cc-by", "mendeley", "measurement"]
+tags: ["omics", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-superficial-conjunctival-cells-dupilumab-treated-atopic"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Adult dupilumab-tre
 | **Short name** | `mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic` |
 | **Full name** | Superficial Conjunctival Cells from Dupilumab-treated Atopic Dermatitis Patients with Ocular Adverse Events Display a Transcriptomic Psoriasis Signature |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic` |
 | **Contained modalities** | omics |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

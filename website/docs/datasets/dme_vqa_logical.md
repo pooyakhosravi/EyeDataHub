@@ -3,7 +3,7 @@ id: dme_vqa_logical
 title: "DME VQA Dataset with Logical Relations"
 sidebar_label: dme_vqa_logical
 description: "Extension of the DME VQA dataset with logical-relation consistency annotations."
-tags: ["multimodal", "fundus", "text", "cc-by", "zenodo", "visual_question_answering", "documented-relationship", "relationship-extension_of"]
+tags: ["multimodal", "fundus", "text", "cc-by", "zenodo", "visual_question_answering", "resource-role-annotation-layer", "dataset-family-dme-vqa-logical", "documented-relationship", "relationship-extension_of"]
 ---
 
 
@@ -21,6 +21,8 @@ Extension of the DME VQA dataset with logical-relation consistency annotations.
 | **Short name** | `dme_vqa_logical` |
 | **Full name** | DME VQA Dataset with Logical Relations |
 | **Primary category** | `multimodal` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `dme_vqa_logical` |
 | **Contained modalities** | fundus, text |
 | **Tasks** | visual_question_answering |
 | **Primary reported quantity** | 13,470 question answer pairs |

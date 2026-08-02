@@ -3,7 +3,7 @@ id: mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive
 title: "Data for: Neurophysiologic and ophthalmic markers of chemotherapy-related cognitive impairment in patients diagnosed with hematologic cancer"
 sidebar_label: mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive
 description: "Participant-level neurophysiologic and ophthalmic outcome measures from Patients diagnosed with hematologic cancer assessed for chemotherapy-related cognitive impairment."
-tags: ["tabular", "cc0", "mendeley", "classification"]
+tags: ["tabular", "cc0", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-neurophysiologic-ophthalmic-markers-chemotherapy-related-cognitive"]
 ---
 
 
@@ -21,6 +21,8 @@ Participant-level neurophysiologic and ophthalmic outcome measures from Patients
 | **Short name** | `mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive` |
 | **Full name** | Data for: Neurophysiologic and ophthalmic markers of chemotherapy-related cognitive impairment in patients diagnosed with hematologic cancer |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

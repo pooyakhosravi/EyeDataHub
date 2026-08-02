@@ -3,7 +3,7 @@ id: dryad_r7s04
 title: "Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany"
 sidebar_label: dryad_r7s04
 description: "Official Dryad deposit of source-described tabular ophthalmic data for the associated study."
-tags: ["tabular", "cc0", "dryad", "demographic_analysis"]
+tags: ["tabular", "cc0", "dryad", "demographic_analysis", "resource-role-current-dataset", "dataset-family-dryad-r7s04"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | **Short name** | `dryad_r7s04` |
 | **Full name** | Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_r7s04` |
 | **Contained modalities** | tabular |
 | **Tasks** | demographic_analysis |
 | **Primary reported quantity** | 15,160 participants |

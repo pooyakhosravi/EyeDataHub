@@ -3,7 +3,7 @@ id: fundus_105k
 title: "Fundus-105K Text Dataset"
 sidebar_label: fundus_105k
 description: "Fundus-focused text dataset for LLM/RAG workflows."
-tags: ["text", "unknown", "huggingface", "text_generation", "retrieval"]
+tags: ["text", "unknown", "huggingface", "text_generation", "retrieval", "resource-role-current-dataset", "dataset-family-fundus-105k"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus-focused text dataset for LLM/RAG workflows.
 | **Short name** | `fundus_105k` |
 | **Full name** | Fundus-105K Text Dataset |
 | **Primary category** | `text` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fundus_105k` |
 | **Contained modalities** | text |
 | **Tasks** | text_generation, retrieval |
 | **Primary reported quantity** | 105,000 text items |

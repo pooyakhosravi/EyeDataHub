@@ -3,7 +3,7 @@ id: mendeley_performance_corneal_vs_scleral_rigid_gas
 title: "Data for: Performance of corneal vs. scleral rigid gas permeable contact lenses for ectatic corneal disorders"
 sidebar_label: mendeley_performance_corneal_vs_scleral_rigid_gas
 description: "Participant/eye-level clinical and lens-performance outcomes from People with keratoconus or related corneal ectatic disorders in the randomized contact-lens study."
-tags: ["corneal_topography", "unknown", "mendeley", "measurement"]
+tags: ["corneal_topography", "unknown", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-performance-corneal-vs-scleral-rigid-gas"]
 ---
 
 
@@ -21,6 +21,8 @@ Participant/eye-level clinical and lens-performance outcomes from People with ke
 | **Short name** | `mendeley_performance_corneal_vs_scleral_rigid_gas` |
 | **Full name** | Data for: Performance of corneal vs. scleral rigid gas permeable contact lenses for ectatic corneal disorders |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_performance_corneal_vs_scleral_rigid_gas` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

@@ -3,7 +3,7 @@ id: mendeley_keratoconus_ukraine_children
 title: "Keratoconus Ukraine children ОХМАТДИТ"
 sidebar_label: mendeley_keratoconus_ukraine_children
 description: "Observation-level human or human-derived measurements/signals. from Children at Ukraine’s Ohmatdyt hospital."
-tags: ["corneal_topography", "cc-by", "mendeley", "classification"]
+tags: ["corneal_topography", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-mendeley-keratoconus-ukraine-children"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Children at 
 | **Short name** | `mendeley_keratoconus_ukraine_children` |
 | **Full name** | Keratoconus Ukraine children ОХМАТДИТ  |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_keratoconus_ukraine_children` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |

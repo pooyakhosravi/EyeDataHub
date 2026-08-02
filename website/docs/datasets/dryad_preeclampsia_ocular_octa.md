@@ -3,7 +3,7 @@ id: dryad_preeclampsia_ocular_octa
 title: "Plane wave ultrasound and OCT angiography of the eye in preeclampsia"
 sidebar_label: dryad_preeclampsia_ocular_octa
 description: "The defined plane-wave ultrasound/OCTA data file and README directly support human ocular vascular measurement."
-tags: ["octa", "ocular_ultrasound", "tabular", "cc0", "dryad", "vessel_analysis"]
+tags: ["octa", "ocular_ultrasound", "tabular", "cc0", "dryad", "vessel_analysis", "resource-role-current-dataset", "dataset-family-dryad-preeclampsia-ocular-octa"]
 ---
 
 
@@ -21,6 +21,8 @@ The defined plane-wave ultrasound/OCTA data file and README directly support hum
 | **Short name** | `dryad_preeclampsia_ocular_octa` |
 | **Full name** | Plane wave ultrasound and OCT angiography of the eye in preeclampsia |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_preeclampsia_ocular_octa` |
 | **Contained modalities** | octa, ocular_ultrasound, tabular |
 | **Tasks** | vessel_analysis |
 | **Primary reported quantity** | Not reported |

@@ -3,7 +3,7 @@ id: post_glaucoma_surgery_ptosis_strabismus
 title: "Post-Glaucoma-Surgery Ptosis and Strabismus Dataset"
 sidebar_label: post_glaucoma_surgery_ptosis_strabismus
 description: "De-identified human glaucoma-surgery clinical records with postoperative ptosis and strabismus outcomes."
-tags: ["tabular", "cc-by", "figshare", "classification", "measurement"]
+tags: ["tabular", "cc-by", "figshare", "classification", "measurement", "resource-role-current-dataset", "dataset-family-post-glaucoma-surgery-ptosis-strabismus"]
 ---
 
 
@@ -21,6 +21,8 @@ De-identified human glaucoma-surgery clinical records with postoperative ptosis 
 | **Short name** | `post_glaucoma_surgery_ptosis_strabismus` |
 | **Full name** | Post-Glaucoma-Surgery Ptosis and Strabismus Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `post_glaucoma_surgery_ptosis_strabismus` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, measurement |
 | **Primary reported quantity** | 705 records |

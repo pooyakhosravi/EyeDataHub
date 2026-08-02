@@ -3,7 +3,7 @@ id: fang_sbsdi_oct
 title: "Duke Fang SBSDI Retinal OCT Dataset"
 sidebar_label: fang_sbsdi_oct
 description: "Human and human-derived paired retinal OCT images used to study sparse acquisition, denoising, interpolation, and reconstruction in healthy and non-neovascular AMD eyes."
-tags: ["oct", "research-only", "manual", "reconstruction", "denoising"]
+tags: ["oct", "research-only", "manual", "reconstruction", "denoising", "resource-role-current-dataset", "dataset-family-fang-sbsdi-oct"]
 ---
 
 
@@ -21,6 +21,8 @@ Human and human-derived paired retinal OCT images used to study sparse acquisiti
 | **Short name** | `fang_sbsdi_oct` |
 | **Full name** | Duke Fang SBSDI Retinal OCT Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fang_sbsdi_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | reconstruction, denoising |
 | **Primary reported quantity** | 323 images |

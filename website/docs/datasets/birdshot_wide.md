@@ -3,7 +3,7 @@ id: birdshot_wide
 title: "Birdshot-WIDE Widefield Fundus Dataset"
 sidebar_label: birdshot_wide
 description: "Longitudinal widefield fundus photographs from birdshot chorioretinitis eyes and age- and sex-matched controls."
-tags: ["uwf_fundus", "cc-by", "manual", "classification", "progression_analysis", "quality_assessment"]
+tags: ["uwf_fundus", "cc-by", "manual", "classification", "progression_analysis", "quality_assessment", "resource-role-current-dataset", "dataset-family-birdshot-wide"]
 ---
 
 
@@ -21,6 +21,8 @@ Longitudinal widefield fundus photographs from birdshot chorioretinitis eyes and
 | **Short name** | `birdshot_wide` |
 | **Full name** | Birdshot-WIDE Widefield Fundus Dataset |
 | **Primary category** | `uwf_fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `birdshot_wide` |
 | **Contained modalities** | uwf_fundus |
 | **Tasks** | classification, progression_analysis, quality_assessment |
 | **Primary reported quantity** | 6,352 images |

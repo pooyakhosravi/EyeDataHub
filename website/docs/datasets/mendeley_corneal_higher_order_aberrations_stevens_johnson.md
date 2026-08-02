@@ -3,7 +3,7 @@ id: mendeley_corneal_higher_order_aberrations_stevens_johnson
 title: "Data for: Corneal Higher-order Aberrations in Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis"
 sidebar_label: mendeley_corneal_higher_order_aberrations_stevens_johnson
 description: "Observation-level source data, annotations, or signals. from Patients with Stevens-Johnson syndrome/toxic epidermal necrolysis are described."
-tags: ["corneal_topography", "cc-by", "mendeley", "measurement"]
+tags: ["corneal_topography", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-corneal-higher-order-aberrations-stevens-johnson"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Patients with Steve
 | **Short name** | `mendeley_corneal_higher_order_aberrations_stevens_johnson` |
 | **Full name** | Data for: Corneal Higher-order Aberrations in Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_corneal_higher_order_aberrations_stevens_johnson` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

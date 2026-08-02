@@ -3,7 +3,7 @@ id: dryad_tmpg4f4vb
 title: "Effects of capsular tension ring on surgical outcomes of premium intraocular lens in patients with suspected zonular weakness"
 sidebar_label: dryad_tmpg4f4vb
 description: "Official Dryad deposit of source-described tabular ophthalmic data for the associated study."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-tmpg4f4vb"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | **Short name** | `dryad_tmpg4f4vb` |
 | **Full name** | Effects of capsular tension ring on surgical outcomes of premium intraocular lens in patients with suspected zonular weakness |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_tmpg4f4vb` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 55 eyes |

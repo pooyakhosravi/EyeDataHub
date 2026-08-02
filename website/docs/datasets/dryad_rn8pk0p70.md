@@ -3,7 +3,7 @@ id: dryad_rn8pk0p70
 title: "Socioeconomic status and decreasing incidence of ocular injuries in Bosnia and Herzegovina"
 sidebar_label: dryad_rn8pk0p70
 description: "Official Dryad deposit of source-described tabular ophthalmic data for the associated study."
-tags: ["tabular", "cc0", "dryad", "demographic_analysis"]
+tags: ["tabular", "cc0", "dryad", "demographic_analysis", "resource-role-current-dataset", "dataset-family-dryad-rn8pk0p70"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | **Short name** | `dryad_rn8pk0p70` |
 | **Full name** | Socioeconomic status and decreasing incidence of ocular injuries in Bosnia and Herzegovina |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_rn8pk0p70` |
 | **Contained modalities** | tabular |
 | **Tasks** | demographic_analysis |
 | **Primary reported quantity** | Not reported |

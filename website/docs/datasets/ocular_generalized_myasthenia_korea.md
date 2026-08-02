@@ -3,7 +3,7 @@ id: ocular_generalized_myasthenia_korea
 title: "Ocular and Generalized Myasthenia Gravis Korea Dataset"
 sidebar_label: ocular_generalized_myasthenia_korea
 description: "Anonymized South Korean cohort clinical, serologic, electrophysiologic, thymic, and treatment data."
-tags: ["tabular", "cc-by", "figshare", "classification", "measurement"]
+tags: ["tabular", "cc-by", "figshare", "classification", "measurement", "resource-role-current-dataset", "dataset-family-ocular-generalized-myasthenia-korea"]
 ---
 
 
@@ -21,6 +21,8 @@ Anonymized South Korean cohort clinical, serologic, electrophysiologic, thymic, 
 | **Short name** | `ocular_generalized_myasthenia_korea` |
 | **Full name** | Ocular and Generalized Myasthenia Gravis Korea Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ocular_generalized_myasthenia_korea` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, measurement |
 | **Primary reported quantity** | Not reported |

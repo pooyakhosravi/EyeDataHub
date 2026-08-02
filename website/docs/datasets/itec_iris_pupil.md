@@ -3,7 +3,7 @@ id: itec_iris_pupil
 title: "ITEC Iris and Pupil Segmentation Dataset"
 sidebar_label: itec_iris_pupil
 description: "Human cataract-surgery video frames with iris and pupil pixel masks."
-tags: ["surgical_video", "unknown", "manual", "segmentation", "documented-relationship", "relationship-derived_from", "alternate-source", "source-kaggle", "alternate-role-mirror"]
+tags: ["surgical_video", "unknown", "manual", "segmentation", "resource-role-annotation-layer", "dataset-family-itec-iris-pupil", "documented-relationship", "relationship-derived_from", "alternate-source", "source-kaggle", "alternate-role-mirror"]
 ---
 
 
@@ -21,6 +21,8 @@ Human cataract-surgery video frames with iris and pupil pixel masks.
 | **Short name** | `itec_iris_pupil` |
 | **Full name** | ITEC Iris and Pupil Segmentation Dataset |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `itec_iris_pupil` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 82 frames |

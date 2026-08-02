@@ -3,7 +3,7 @@ id: mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal
 title: "Adjuvant Ketorolac and Dexamethasone + Hypoxic Human Retinal Pigment Epithelium (RPE) and Endothelial Cells (HREC)"
 sidebar_label: mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal
 description: "Observation-level human or human-derived measurements/signals. from Human RPE and retinal endothelial cells cultured under hypoxia."
-tags: ["omics", "cc-by", "mendeley", "measurement"]
+tags: ["omics", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-adjuvant-ketorolac-dexamethasone-hypoxic-human-retinal"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Human RPE an
 | **Short name** | `mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal` |
 | **Full name** | Adjuvant Ketorolac and Dexamethasone + Hypoxic Human Retinal Pigment Epithelium (RPE) and Endothelial Cells (HREC) |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal` |
 | **Contained modalities** | omics |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

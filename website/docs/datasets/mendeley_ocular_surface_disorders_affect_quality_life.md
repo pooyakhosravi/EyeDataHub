@@ -3,7 +3,7 @@ id: mendeley_ocular_surface_disorders_affect_quality_life
 title: "Ocular Surface Disorders Affect Quality of Life in Patients with Autoimmune Blistering Skin Diseases: A Cross-Sectional Study"
 sidebar_label: mendeley_ocular_surface_disorders_affect_quality_life
 description: "Observation-level source data, annotations, or signals. from Patient and non-diseased control groups are stated."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-ocular-surface-disorders-affect-quality-life"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level source data, annotations, or signals. from Patient and non-dis
 | **Short name** | `mendeley_ocular_surface_disorders_affect_quality_life` |
 | **Full name** | Ocular Surface Disorders Affect Quality of Life in Patients with Autoimmune Blistering Skin Diseases: A Cross-Sectional Study |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_ocular_surface_disorders_affect_quality_life` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

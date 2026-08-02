@@ -3,7 +3,7 @@ id: asd_eye_tracking
 title: "Autism Spectrum Disorder Eye-Tracking Dataset"
 sidebar_label: asd_eye_tracking
 description: "Human eye-tracking observations from an ASD study."
-tags: ["eye_tracking", "cc-by", "figshare", "measurement"]
+tags: ["eye_tracking", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-asd-eye-tracking"]
 ---
 
 
@@ -21,6 +21,8 @@ Human eye-tracking observations from an ASD study.
 | **Short name** | `asd_eye_tracking` |
 | **Full name** | Autism Spectrum Disorder Eye-Tracking Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `asd_eye_tracking` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

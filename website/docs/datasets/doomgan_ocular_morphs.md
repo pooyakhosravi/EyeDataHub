@@ -3,7 +3,7 @@ id: doomgan_ocular_morphs
 title: "DOOMGAN Ocular Morph-Attack Dataset"
 sidebar_label: doomgan_ocular_morphs
 description: "Synthetic visible-spectrum ocular biometric morph images generated from documented human VISOB source imagery."
-tags: ["iris_biometrics", "iris", "mit", "huggingface", "classification"]
+tags: ["iris_biometrics", "iris", "mit", "huggingface", "classification", "resource-role-current-dataset", "dataset-family-doomgan-ocular-morphs"]
 ---
 
 
@@ -21,6 +21,8 @@ Synthetic visible-spectrum ocular biometric morph images generated from document
 | **Short name** | `doomgan_ocular_morphs` |
 | **Full name** | DOOMGAN Ocular Morph-Attack Dataset |
 | **Primary category** | `iris_biometrics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `doomgan_ocular_morphs` |
 | **Contained modalities** | iris_biometrics, iris |
 | **Tasks** | classification |
 | **Primary reported quantity** | 10,000 images |

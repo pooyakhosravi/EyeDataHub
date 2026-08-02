@@ -3,7 +3,7 @@ id: rop_vl
 title: "ROP-VL Retinopathy of Prematurity Vision-Language Dataset"
 sidebar_label: rop_vl
 description: "Color fundus photographs paired with biological metadata and structured descriptions for retinopathy of prematurity."
-tags: ["fundus", "cc-by", "figshare", "classification", "image_text"]
+tags: ["fundus", "cc-by", "figshare", "classification", "image_text", "resource-role-current-dataset", "dataset-family-rop-vl"]
 ---
 
 
@@ -21,6 +21,8 @@ Color fundus photographs paired with biological metadata and structured descript
 | **Short name** | `rop_vl` |
 | **Full name** | ROP-VL Retinopathy of Prematurity Vision-Language Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `rop_vl` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, image_text |
 | **Primary reported quantity** | 2,020 images |
@@ -126,4 +128,4 @@ Repository dataset record. 10.6084/m9.figshare.30143461.v1.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

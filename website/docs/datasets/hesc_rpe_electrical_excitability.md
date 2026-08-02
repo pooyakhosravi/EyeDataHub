@@ -3,7 +3,7 @@ id: hesc_rpe_electrical_excitability
 title: "hESC-Derived RPE Electrical Excitability Dataset"
 sidebar_label: hesc_rpe_electrical_excitability
 description: "Human embryonic-stem-cell-derived RPE electrophysiology data."
-tags: ["electrophysiology", "cc-by", "figshare", "measurement"]
+tags: ["electrophysiology", "cc-by", "figshare", "measurement", "resource-role-current-dataset", "dataset-family-hesc-rpe-electrical-excitability"]
 ---
 
 
@@ -21,6 +21,8 @@ Human embryonic-stem-cell-derived RPE electrophysiology data.
 | **Short name** | `hesc_rpe_electrical_excitability` |
 | **Full name** | hESC-Derived RPE Electrical Excitability Dataset |
 | **Primary category** | `electrophysiology` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `hesc_rpe_electrical_excitability` |
 | **Contained modalities** | electrophysiology |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

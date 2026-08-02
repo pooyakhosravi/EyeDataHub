@@ -3,7 +3,7 @@ id: ophthalvqa
 title: "OphthalVQA Dataset"
 sidebar_label: ophthalvqa
 description: "Ophthalmic visual question-answering benchmark dataset released as supplementary data for evaluating multimodal language models in ophthalmology."
-tags: ["multimodal", "fundus", "fundus_angiography", "oct", "ocular_ultrasound", "external_eye", "text", "cc-by", "figshare", "visual_question_answering", "classification"]
+tags: ["multimodal", "fundus", "fundus_angiography", "oct", "ocular_ultrasound", "external_eye", "text", "cc-by", "figshare", "visual_question_answering", "classification", "resource-role-current-dataset", "dataset-family-ophthalvqa"]
 ---
 
 
@@ -21,6 +21,8 @@ Ophthalmic visual question-answering benchmark dataset released as supplementary
 | **Short name** | `ophthalvqa` |
 | **Full name** | OphthalVQA Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ophthalvqa` |
 | **Contained modalities** | fundus, fundus_angiography, oct, ocular_ultrasound, external_eye, text |
 | **Tasks** | visual_question_answering, classification |
 | **Primary reported quantity** | 600 question answer pairs |

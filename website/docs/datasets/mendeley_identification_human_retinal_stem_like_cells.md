@@ -3,7 +3,7 @@ id: mendeley_identification_human_retinal_stem_like_cells
 title: "Identification of Human Retinal Stem-Like Cells for Retina Regeneration"
 sidebar_label: mendeley_identification_human_retinal_stem_like_cells
 description: "Single-cell multi-omics and organoid-derived cell measurements from Human neural retinal stem-like cells, isolated using human retinal/organoid experimental methods."
-tags: ["tabular", "cc-by", "mendeley", "measurement"]
+tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-identification-human-retinal-stem-like-cells"]
 ---
 
 
@@ -21,6 +21,8 @@ Single-cell multi-omics and organoid-derived cell measurements from Human neural
 | **Short name** | `mendeley_identification_human_retinal_stem_like_cells` |
 | **Full name** | Identification of Human Retinal Stem-Like Cells for Retina Regeneration |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_identification_human_retinal_stem_like_cells` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |

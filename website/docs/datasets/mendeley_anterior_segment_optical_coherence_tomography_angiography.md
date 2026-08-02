@@ -3,7 +3,7 @@ id: mendeley_anterior_segment_optical_coherence_tomography_angiography
 title: "Data for: Anterior Segment Optical Coherence Tomography Angiography Imaging of Conjunctiva and Intrasclera in Treated Primary Open-Angle Glaucoma"
 sidebar_label: mendeley_anterior_segment_optical_coherence_tomography_angiography
 description: "Observation-level human or human-derived measurements/signals. from Treated primary-open-angle-glaucoma patients."
-tags: ["tabular", "cc-by-nc", "mendeley", "segmentation"]
+tags: ["tabular", "cc-by-nc", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-anterior-segment-optical-coherence-tomography-angiography"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from Treated prim
 | **Short name** | `mendeley_anterior_segment_optical_coherence_tomography_angiography` |
 | **Full name** | Data for: Anterior Segment Optical Coherence Tomography Angiography Imaging of Conjunctiva and Intrasclera in Treated Primary Open-Angle Glaucoma |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_anterior_segment_optical_coherence_tomography_angiography` |
 | **Contained modalities** | tabular |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |

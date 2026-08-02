@@ -3,7 +3,7 @@ id: ophnet2024
 title: "OphNet2024: Ophthalmic Surgical Video Dataset"
 sidebar_label: ophnet2024
 description: "Large-scale multi-procedure ophthalmic surgical video dataset covering 66 surgery types, 102 phases, 150 operations (~285 h). 1,969 untrimmed videos; 17,508 trimmed operation-level clips; 14,674 trimm"
-tags: ["surgical_video", "cc-by-nc-sa", "huggingface", "classification", "phase_recognition", "detection"]
+tags: ["surgical_video", "cc-by-nc-sa", "huggingface", "classification", "phase_recognition", "detection", "resource-role-current-dataset", "dataset-family-ophnet2024"]
 ---
 
 
@@ -21,6 +21,8 @@ Large-scale multi-procedure ophthalmic surgical video dataset covering 66 surger
 | **Short name** | `ophnet2024` |
 | **Full name** | OphNet2024: Ophthalmic Surgical Video Dataset |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ophnet2024` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | classification, phase_recognition, detection |
 | **Primary reported quantity** | 2,278 videos |

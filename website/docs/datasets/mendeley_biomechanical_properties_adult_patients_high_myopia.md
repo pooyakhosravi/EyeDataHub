@@ -3,7 +3,7 @@ id: mendeley_biomechanical_properties_adult_patients_high_myopia
 title: "Biomechanical properties of adult patients with high myopia after implantable collamer lens (ICL, V4) implantation"
 sidebar_label: mendeley_biomechanical_properties_adult_patients_high_myopia
 description: "Observation-level human or human-derived measurements/signals. from 55 high-myopia patients (110 eyes) after ICL implantation."
-tags: ["corneal_topography", "cc-by", "mendeley", "measurement"]
+tags: ["corneal_topography", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-biomechanical-properties-adult-patients-high-myopia"]
 ---
 
 
@@ -21,6 +21,8 @@ Observation-level human or human-derived measurements/signals. from 55 high-myop
 | **Short name** | `mendeley_biomechanical_properties_adult_patients_high_myopia` |
 | **Full name** | Biomechanical properties of adult patients with high myopia after implantable collamer lens (ICL, V4) implantation |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mendeley_biomechanical_properties_adult_patients_high_myopia` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 110 eyes |

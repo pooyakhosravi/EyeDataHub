@@ -3,7 +3,7 @@ id: glaucoma_eye_movements
 title: "Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss"
 sidebar_label: glaucoma_eye_movements
 description: "Raw and processed eye-tracking data from glaucoma patients with asymmetrical visual-field loss during free viewing."
-tags: ["eye_tracking", "cc-by", "zenodo", "regression", "classification"]
+tags: ["eye_tracking", "cc-by", "zenodo", "regression", "classification", "resource-role-current-dataset", "dataset-family-glaucoma-eye-movements"]
 ---
 
 
@@ -21,6 +21,8 @@ Raw and processed eye-tracking data from glaucoma patients with asymmetrical vis
 | **Short name** | `glaucoma_eye_movements` |
 | **Full name** | Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `glaucoma_eye_movements` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | regression, classification |
 | **Primary reported quantity** | 270 participants |
