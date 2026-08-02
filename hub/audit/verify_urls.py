@@ -20,7 +20,7 @@ import json
 import subprocess
 import sys
 import time
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qsl, urlparse, urlsplit, urlunsplit
@@ -237,7 +237,7 @@ def _git_value(*args: str) -> str | None:
 def audit_metadata(elapsed: float) -> dict[str, Any]:
     dirty = _git_value("status", "--short", "--untracked-files=no")
     return {
-        "generated_at": datetime.now(UTC).isoformat(),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "elapsed_seconds": round(elapsed, 1),
         "command": " ".join([Path(sys.executable).name, "-m", "hub.audit.verify_urls"]),
         "package": "eyedatahub",
