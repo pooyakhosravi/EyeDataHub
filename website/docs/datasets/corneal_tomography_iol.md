@@ -46,7 +46,7 @@ Pentacam-derived corneal tomography variables for intraocular-lens and corneal s
 
 Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -55,7 +55,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download corneal_tomography_iol --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download corneal_tomography_iol --data-dir ./data
 ```
 
@@ -67,7 +67,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('corneal_tomography_iol')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>
@@ -117,10 +117,10 @@ Multi-parameter corneal tomography dataset for IOL selection. Mendeley Data, V1,
 ## Similar resources by shared modality
 
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
+- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
+- [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
 - [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
-- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
-- [fprm_retina](./fprm_retina.md): FPRM Multimodal Eye Imaging and Psychological Assessment Dataset (3,361 images, `research-only`)

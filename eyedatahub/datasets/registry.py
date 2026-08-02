@@ -419,6 +419,7 @@ def _register_all() -> None:
         RetinalDRLongitudinalDataset,
     )
     from eyedatahub.datasets.platform_2026 import DISCOVERY_DATASETS
+    from eyedatahub.datasets.dryad_2026 import DRYAD_DISCOVERY_DATASETS
     from eyedatahub.datasets.repository_refresh_2026 import REFRESH_DATASETS
     from eyedatahub.datasets.gaze_iris_refresh_2026 import GAZE_IRIS_DATASETS
     from eyedatahub.datasets.literature_refresh_2026 import LITERATURE_DATASETS
@@ -607,6 +608,9 @@ def _register_all() -> None:
         # Platform sweep: Mendeley, Zenodo, Kaggle, Hugging Face,
         # PhysioNet, and Grand Challenge additions from July 2026.
         *DISCOVERY_DATASETS,
+        # Ocular and ophthalmic records retained after the complete August
+        # 2026 Dryad API search and source-level screening.
+        *DRYAD_DISCOVERY_DATASETS,
         # Literature and repository refresh through July 14, 2026.
         *REFRESH_DATASETS,
         # Bounded gaze, pupil, and iris-biometrics gap refresh.

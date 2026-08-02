@@ -5,7 +5,7 @@ import catalogPayload from '@site/static/datasets.json';
 
 const STANDARD_NO_NC = new Set(['cc0', 'cc-by', 'cc-by-sa', 'mit', 'apache', 'odc-by']);
 const QUICK_START_COMMANDS = [
-  'pip install "eyedatahub==0.3.0"',
+  'pip install "eyedatahub==0.4.0"',
   'eyehub search --access anonymous_direct --json',
   'eyehub show airogs --json',
   'eyehub download airogs --dry-run --json',

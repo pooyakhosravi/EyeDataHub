@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-08-01",
+  "scope": "First 85 provisional Dryad include rows, zero-based positions 0-84 in CSV include order. Official Dryad API metadata and current version file listings reviewed; no files downloaded.",
+  "evidence": "https://datadryad.org/api/v2/datasets/doi%3A<DOI> and linked latest-version /files endpoint",
+  "counts": {
+    "add_now": 64,
+    "defer_insufficient_metadata": 2,
+    "exclude": 19
+  },
+  "total_rows": 85,
+  "strongest_add_now": [
+    {
+      "doi": "10.5061/dryad.0p2ngf25g",
+      "title": "Mechanisms of simultaneous linear and nonlinear computations at the mammalian cone photoreceptor synapse",
+      "reason": "Named datasets and README provide substantial cone-synapse imaging and physiology data."
+    },
+    {
+      "doi": "10.5061/dryad.163mp",
+      "title": "Data from: Rat retinal vasomotion assessed by laser speckle imaging",
+      "reason": "MATLAB retinal laser-speckle measurements document eight retinal experiments."
+    },
+    {
+      "doi": "10.5061/dryad.1f1rc",
+      "title": "Data from: Error-robust modes of the retinal population code",
+      "reason": "Archive explicitly supplies salamander retinal-ganglion-cell spike times under four stimuli."
+    },
+    {
+      "doi": "10.5061/dryad.3cp54",
+      "title": "Data from: Analysis of potential ischemic effect of intravitreal bevacizumab on unaffected retina in treatment-naïve macular edema due to branch retinal vein occlusion: a prospective, interventional case-series",
+      "reason": "Named OCT, fluorescein, and mfERG archives form a multimodal BRVO ocular resource."
+    },
+    {
+      "doi": "10.5061/dryad.47d7wm3kx",
+      "title": "An ON-type direction selective ganglion cell in primate retina",
+      "reason": "README plus primate retinal EDF and figure/data archives document a direct retinal-cell resource."
+    },
+    {
+      "doi": "10.5061/dryad.4j0zpc8mm",
+      "title": "Data from: Biomarker detection and validation for corneal involvement in patients with acute infectious conjunctivitis: A multi-country study",
+      "reason": "Raw counts, sample metadata, mapping file, and README form a reusable conjunctivitis transcriptomics resource."
+    },
+    {
+      "doi": "10.5061/dryad.56f1h",
+      "title": "Data from: Quantitative analysis of fundus-image sequences reveals phase of spontaneous venous pulsations",
+      "reason": "Twelve near-infrared fundus sequences are explicitly documented with acquisition details."
+    },
+    {
+      "doi": "10.5061/dryad.76hdr7t64",
+      "title": "Data from: Phagocytosed photoreceptor outer segment particles within the retinal pigment epithelium show diurnal rhythmicity and variation between cone subtypes in larval zebrafish",
+      "reason": "Dataset archive and README document zebrafish retinal/RPE phagosome imaging data."
+    },
+    {
+      "doi": "10.5061/dryad.7q37g6b",
+      "title": "Data from: All-optical recording and stimulation of retinal neurons in vivo in retinal degeneration mice",
+      "reason": "Data archive and README document in-vivo all-optical retinal-neuron recording/stimulation data."
+    },
+    {
+      "doi": "10.5061/dryad.7sqv9s4pm",
+      "title": "Data from: Zebrafish retinal ganglion cells asymmetrically encode spectral and temporal information across visual space",
+      "reason": "Readme, functional/morphological clustering data, and RGC arrays form a reusable retinal resource."
+    },
+    {
+      "doi": "10.5061/dryad.7wm37pvt0",
+      "title": "Distinct synaptic transfer functions in same-type photoreceptors",
+      "reason": "Raw glutamate/calcium traces, ROI geometry, and stimulus timing form a distinct photoreceptor resource."
+    }
+  ]
+}

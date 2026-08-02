@@ -23,7 +23,7 @@ if str(ROOT) not in sys.path:
 from eyedatahub import __version__  # noqa: E402
 from eyedatahub.core.quantities import QUANTITY_UNITS  # noqa: E402
 from eyedatahub.datasets.registry import REGISTRY  # noqa: E402
-from hub.export_catalog import CATALOG_CUTOFF  # noqa: E402
+from hub.export_catalog import CATALOG_CUTOFF, CATALOG_RECORD_COUNT  # noqa: E402
 
 
 AUDIT_DIR = ROOT / "hub" / "audit"
@@ -51,8 +51,10 @@ def _primary(entries: list[dict[str, Any]]) -> dict[str, Any] | None:
 
 def generate() -> tuple[Path, Path, Path, Path, Path]:
     datasets = sorted(REGISTRY.list_datasets(), key=lambda value: value.info.name)
-    if len(datasets) != 251:
-        raise RuntimeError(f"Expected 251 records, found {len(datasets)}")
+    if len(datasets) != CATALOG_RECORD_COUNT:
+        raise RuntimeError(
+            f"Expected {CATALOG_RECORD_COUNT} records, found {len(datasets)}"
+        )
 
     review_rows: list[dict[str, Any]] = []
     evidence_rows: list[dict[str, Any]] = []

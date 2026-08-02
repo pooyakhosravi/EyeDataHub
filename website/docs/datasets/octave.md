@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > nnU-Net layout: nnUNet_raw/Dataset001_OCTAVE/imagesTr+labelsTr/. External test sets under nnUNet_raw/external_tests/. 19 standardised B-scans per volume after preprocessing. GitHub: https://github.com/Translational-Biophotonics-Laboratory/octvision3d
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -59,7 +59,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download octave --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download octave --data-dir ./data
 ```
 
@@ -71,7 +71,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('octave')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

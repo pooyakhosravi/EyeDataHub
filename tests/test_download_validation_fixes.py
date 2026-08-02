@@ -96,6 +96,11 @@ def test_grape_loads_nested_figshare_collection_layout(tmp_path: Path) -> None:
 
 
 def test_dryad_prefers_public_version_archive(monkeypatch, tmp_path: Path) -> None:
+    monkeypatch.setattr(download_utils, "_load_dotenv", lambda: None)
+    monkeypatch.delenv("DRYAD_TOKEN", raising=False)
+    monkeypatch.delenv("DRYAD_CLIENT_ID", raising=False)
+    monkeypatch.delenv("DRYAD_SECRET", raising=False)
+
     class FakeResponse:
         status_code = 200
 
@@ -223,6 +228,72 @@ def test_dryad_falls_back_to_authenticated_files(
         token="test-token",
     )
     assert paths == [tmp_path / "data.csv"]
+
+
+def test_dryad_refreshes_expired_environment_token(
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    class FakeResponse:
+        def __init__(self, payload, status_code=200):
+            self.payload = payload
+            self.status_code = status_code
+
+        def json(self):
+            return self.payload
+
+        def raise_for_status(self):
+            if self.status_code >= 400:
+                response = requests.Response()
+                response.status_code = self.status_code
+                raise requests.HTTPError(response=response)
+
+    calls = []
+
+    def fake_get(url, headers, timeout):
+        calls.append((url, headers))
+        if headers == {"Authorization": "Bearer expired-token"}:
+            return FakeResponse({}, 401)
+        if "/datasets/" in url:
+            return FakeResponse(
+                {"_links": {"stash:version": {"href": "/api/v2/versions/1"}}}
+            )
+        return FakeResponse(
+            {"_links": {"stash:download": {"href": "/api/v2/versions/1/download"}}}
+        )
+
+    def fake_post(url, data, headers, timeout):
+        assert url.endswith("/oauth/token")
+        assert data == {
+            "client_id": "client-id",
+            "client_secret": "client-secret",
+            "grant_type": "client_credentials",
+        }
+        return FakeResponse({"access_token": "fresh-token"})
+
+    def fake_download_file(url, dest_path, desc=None, headers=None):
+        assert headers == {"Authorization": "Bearer fresh-token"}
+        destination = Path(dest_path)
+        with zipfile.ZipFile(destination, "w") as archive:
+            archive.writestr("data.csv", "value\n1\n")
+        return destination
+
+    monkeypatch.setattr(download_utils, "_load_dotenv", lambda: None)
+    monkeypatch.setenv("DRYAD_TOKEN", "expired-token")
+    monkeypatch.setenv("DRYAD_CLIENT_ID", "client-id")
+    monkeypatch.setenv("DRYAD_SECRET", "client-secret")
+    monkeypatch.setattr(download_utils.requests, "get", fake_get)
+    monkeypatch.setattr(download_utils.requests, "post", fake_post)
+    monkeypatch.setattr(download_utils, "download_file", fake_download_file)
+
+    paths = download_utils.download_dryad(
+        "10.5061/dryad.example",
+        tmp_path,
+        extract=True,
+    )
+
+    assert paths == [tmp_path / "data.csv"]
+    assert any(headers == {"Authorization": "Bearer fresh-token"} for _, headers in calls)
 
 
 def test_download_file_uses_system_trust_fallback(
@@ -389,8 +460,7 @@ def test_corrected_access_and_size_metadata() -> None:
         "dryad_functional_oct_alzheimer",
     ):
         record = REGISTRY.get_dataset(record_id)
-        assert record.info.access_friction == "anonymous_direct"
-        assert record.info.acquisition_support == "guided_instructions_only"
-        assert preflight_dataset(record, Path("data"))["status"] == (
-            "guided_instructions_only"
-        )
+        assert record.info.access_friction == "self_service_authenticated"
+        assert record.info.requires_api_token is True
+        assert record.info.acquisition_support == "end_to_end_tested"
+        assert preflight_dataset(record, Path("data"))["status"] == "ready"

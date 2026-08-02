@@ -34,7 +34,7 @@ _CREDENTIAL_HINTS = {
     "physionet": ["PHYSIONET_USERNAME", "PHYSIONET_PASSWORD"],
     "zenodo": ["ZENODO_TOKEN"],
     "figshare": ["FIGSHARE_TOKEN"],
-    "dryad": ["DRYAD_TOKEN"],
+    "dryad": ["DRYAD_TOKEN", "DRYAD_CLIENT_ID", "DRYAD_SECRET"],
     "mendeley": ["MENDELEY_TOKEN"],
     "dataverse": ["DATAVERSE_TOKEN"],
 }

@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Restricted Zenodo record requiring an access request. The source reports 5,042 images from 742 affected eyes and 1,310 images from 742 matched control eyes; the birdshot cohort has a median 4.31-year follow-up. CC BY 4.0 does not remove the access agreement.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Adds ocular ultrasound video — modality EyeDataHub otherwise lacks. Project page at github/arxiv referenced. Access verified via project site.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -59,7 +59,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download erdes --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download erdes --data-dir ./data
 ```
 
@@ -71,7 +71,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('erdes')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>
@@ -122,3 +122,5 @@ Ozkut Y, Navard P, Adhikari S, et al., 'ERDES: A benchmark video dataset for ret
 
 - [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
 - [ophthalvqa](./ophthalvqa.md): OphthalVQA Dataset (600 question answer pairs, `cc-by`)
+- [dryad_preeclampsia_ocular_octa](./dryad_preeclampsia_ocular_octa.md): Plane wave ultrasound and OCT angiography of the eye in preeclampsia (Not reported, `cc0`)
+- [dryad_rop_plane_wave_doppler](./dryad_rop_plane_wave_doppler.md): ROP Plane-Wave Doppler Dataset (Not reported, `cc0`)

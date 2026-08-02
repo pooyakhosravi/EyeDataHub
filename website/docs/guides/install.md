@@ -18,18 +18,18 @@ EyeDataHub is a Python package with a command-line entry point named `eyehub`.
 
 ## From PyPI
 
-After the 0.3.0 package is published:
+After the 0.4.0 package is published:
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install "eyedatahub==0.3.0"
+python -m pip install "eyedatahub==0.4.0"
 ```
 
 ## From GitHub
 
 ```bash
 python -m pip install --upgrade pip
-python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.3.0"
+python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.4.0"
 ```
 
 ## Editable Developer Install
@@ -50,7 +50,7 @@ eyehub show airogs --json
 eyehub download airogs --dry-run --json
 ```
 
-The current installation should report 251 catalog records. The catalog
+The current installation should report 386 catalog records. The catalog
 includes self-service, controlled, and author-contact routes; it is
 not a claim that every resource is open or downloadable.
 
@@ -80,6 +80,7 @@ Uncomment and fill only the variables you need:
 | Zenodo | `ZENODO_TOKEN` |
 | Figshare | `FIGSHARE_TOKEN` |
 | Mendeley Data | `MENDELEY_TOKEN` |
+| Dryad | `DRYAD_TOKEN`, or `DRYAD_CLIENT_ID` and `DRYAD_SECRET` |
 | Dataverse | `DATAVERSE_TOKEN` |
 | PhysioNet | `PHYSIONET_USERNAME`, `PHYSIONET_PASSWORD` |
 | Synapse | `SYNAPSE_AUTH_TOKEN`, or `SYNAPSE_USERNAME` and `SYNAPSE_PASSWORD` |

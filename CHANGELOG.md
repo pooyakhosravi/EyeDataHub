@@ -6,6 +6,42 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-08-01
+
+### Added
+
+- Added 135 source-checked Dryad records after a reproducible review of 722
+  unique official API results, bringing the catalog to 386 records.
+- Added the complete Dryad decision ledger, catalog-ready source records,
+  taxonomy and quantity checks, and authenticated API validation metadata.
+- Added source-reported quantities for 55 Dryad records, including the two
+  previously cataloged Dryad resources inspected at file level.
+- Added 11 source-supported relationship assertions, including documented
+  cohort overlap among four Moorfields neovascular AMD records and a Dryad
+  derivative of DRIVE.
+
+### Changed
+
+- Updated the catalog cutoff to 1 August 2026 and the package version to 0.4.0.
+- Recomputed current totals as 300 records with resolved primary quantities,
+  364 quantity statements, and 142 directed relationship assertions involving
+  94 records.
+- Classified Dryad, Figshare, Hugging Face, Kaggle, Mendeley Data, PhysioNet,
+  and Zenodo as platform-credential routes; source-hosted links, Google Drive,
+  and GitHub remain routes without platform credentials.
+- Updated the practical route partition to 33 routes without platform
+  credentials, 293 platform-credential routes, and 60 manual procedures.
+- Collapsed reciprocal symmetric relationship assertions for website display
+  while preserving all directed assertions in the machine-readable graph.
+- Revised the Scientific Data manuscript and supplement around catalog breadth,
+  quantities, relationships, source-stated terms, and reproducible discovery.
+
+### Security
+
+- Dryad tokens and client credentials are used only at run time and are never
+  written to public logs. Downloaded third-party files were removed after the
+  dated inspection.
+
 ## [0.3.0] - 2026-08-01
 
 ### Added

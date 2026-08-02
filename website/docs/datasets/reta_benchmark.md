@@ -56,7 +56,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 
 - This record is `derived from` [idrid](./idrid.md): RETA reuses 81 images from the first IDRiD subset and adds vascular-tree annotations. ([evidence](https://doi.org/10.6084/m9.figshare.16960855))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -65,7 +65,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download reta_benchmark --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download reta_benchmark --data-dir ./data
 ```
 
@@ -77,7 +77,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('reta_benchmark')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

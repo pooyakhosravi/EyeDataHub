@@ -46,7 +46,7 @@ Raw and processed eye-tracking data from glaucoma patients with asymmetrical vis
 
 Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -55,7 +55,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download glaucoma_eye_movements --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download glaucoma_eye_movements --data-dir ./data
 ```
 
@@ -67,7 +67,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('glaucoma_eye_movements')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>
@@ -122,3 +122,5 @@ Data on eye movements of glaucoma patients with asymmetrical visual field loss d
 - [mpii_gaze](./mpii_gaze.md): MPIIGaze Appearance-Based Gaze Estimation Dataset (213,659 images, `cc-by-nc-sa`)
 - [gaze360](./gaze360.md): Gaze360 Physically Unconstrained Gaze Dataset (172,000 frames, `unknown`)
 - [lpw](./lpw.md): LPW Labelled Pupils in the Wild (130,856 frames, `research-only`)
+- [dryad_biocular_eye_tracking](./dryad_biocular_eye_tracking.md): Bi-Ocular Vertebrate Eye-Tracking Dataset (Not reported, `cc0`)
+- [dryad_eye_head_visual_selection](./dryad_eye_head_visual_selection.md): Eye and Head Visual Selection Dataset (Not reported, `cc0`)

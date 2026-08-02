@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-08-01",
+  "scope": {
+    "new_retained_dryad_records": 135,
+    "batches": {
+      "a": 41,
+      "c": 49,
+      "deferred": 4,
+      "b": 41
+    },
+    "current_catalog_records": 251
+  },
+  "official_evidence": "Captured official Dryad metadata/current file listings, with targeted credentialed API GET verification; no data files downloaded.",
+  "deterministic_signals": {
+    "exact_new_vs_current_dataset_doi_matches": [],
+    "shared_primary_publication_dois": {
+      "10.1098/rsos.150424": [
+        "10.5061/dryad.0kt87",
+        "10.5061/dryad.sbcc2fr6n"
+      ]
+    },
+    "explicit_existing_relationship_hints": [
+      "Moorfields AMD database",
+      "DRIVE annotation files"
+    ]
+  },
+  "candidate_decision_counts": {
+    "confirmed": 11,
+    "unresolved": 4
+  },
+  "confirmed_edges": [
+    {
+      "source_doi": "10.5061/dryad.2rbnzs7m4",
+      "source_slug": "dryad_namd_oct_quant",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.4mw6m906b",
+      "target_slug": "dryad_moorfields_namd_fellow_eye",
+      "evidence_url": "https://doi.org/10.5061/dryad.2rbnzs7m4",
+      "source_backed_summary": "Official Dryad metadata identifies the Moorfields AMD database/project; the target official deposit identifies Moorfields nAMD treatment data in an overlapping extraction/treatment period.",
+      "confidence": "high",
+      "decision": "confirmed"
+    },
+    {
+      "source_doi": "10.5061/dryad.2rbnzs7m4",
+      "source_slug": "dryad_namd_oct_quant",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.97r9289",
+      "target_slug": "dryad_moorfields_amd_1_2_year",
+      "evidence_url": "https://doi.org/10.5061/dryad.2rbnzs7m4",
+      "source_backed_summary": "Official Dryad metadata identifies the Moorfields AMD database/project; the target official deposit identifies Moorfields nAMD treatment data in an overlapping extraction/treatment period.",
+      "confidence": "high",
+      "decision": "confirmed"
+    },
+    {
+      "source_doi": "10.5061/dryad.4mw6m906b",
+      "source_slug": "dryad_moorfields_namd_fellow_eye",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.2rbnzs7m4",
+      "target_slug": "dryad_namd_oct_quant",
+      "evidence_url": "https://doi.org/10.5061/dryad.4mw6m906b",
+      "source_backed_summary": "Official Dryad metadata identifies the Moorfields AMD database/project; the target official deposit identifies Moorfields nAMD treatment data in an overlapping extraction/treatment period.",
+      "confidence": "high",
+      "decision": "confirmed"
+    },
+    {
+      "source_doi": "10.5061/dryad.4mw6m906b",
+      "source_slug": "dryad_moorfields_namd_fellow_eye",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.573n5tb5d",
+      "target_slug": "dryad_namd_visual_prediction",
+      "evidence_url": "https://doi.org/10.5061/dryad.4mw6m906b",
+      "source_backed_summary": "Official Dryad metadata identifies the Moorfields AMD database/project; the target official deposit identifies Moorfields nAMD treatment data in an overlapping extraction/treatment period.",
+      "confidence": "high",
+      "decision": "confirmed"
+    },
+    {
+      "source_doi": "10.5061/dryad.4mw6m906b",
+      "source_slug": "dryad_moorfields_namd_fellow_eye",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.97r9289",
+      "target_slug": "dryad_moorfields_amd_1_2_year",
+      "evidence_url": "https://doi.org/10.5061/dryad.4mw6m906b",
+      "source_backed_summary": "Both official deposits explicitly name the Moorfields AMD database and report overlapping 2008-2018 extraction windows.",
+      "confidence": "high",
+      "decision": "confirmed"
+    },
+    {
+      "source_doi": "10.5061/dryad.573n5tb5d",
+      "source_slug": "dryad_namd_visual_prediction",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.4mw6m906b",
+      "target_slug": "dryad_moorfields_namd_fellow_eye",
+      "evidence_url": "https://doi.org/10.5061/dryad.573n5tb5d",
+      "source_backed_summary": "Official Dryad metadata identifies the Moorfields AMD database/project; the target official deposit identifies Moorfields nAMD treatment data in an overlapping extraction/treatment period.",
+      "confidence": "high",
+      "decision": "confirmed"
+    },
+    {
+      "source_doi": "10.5061/dryad.573n5tb5d",
+      "source_slug": "dryad_namd_visual_prediction",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.97r9289",
+      "target_slug": "dryad_moorfields_amd_1_2_year",
+      "evidence_url": "https://doi.org/10.5061/dryad.573n5tb5d",
+      "source_backed_summary": "Official Dryad metadata identifies the Moorfields AMD database/project; the target official deposit identifies Moorfields nAMD treatment data in an overlapping extraction/treatment period.",
+      "confidence": "high",
+      "decision": "confirmed"
+    },
+    {
+      "source_doi": "10.5061/dryad.97r9289",
+      "source_slug": "dryad_moorfields_amd_1_2_year",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.2rbnzs7m4",
+      "target_slug": "dryad_namd_oct_quant",
+      "evidence_url": "https://doi.org/10.5061/dryad.97r9289",
+      "source_backed_summary": "Official Dryad metadata identifies the Moorfields AMD database/project; the target official deposit identifies Moorfields nAMD treatment data in an overlapping extraction/treatment period.",
+      "confidence": "high",
+      "decision": "confirmed"
+    },
+    {
+      "source_doi": "10.5061/dryad.97r9289",
+      "source_slug": "dryad_moorfields_amd_1_2_year",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.4mw6m906b",
+      "target_slug": "dryad_moorfields_namd_fellow_eye",
+      "evidence_url": "https://doi.org/10.5061/dryad.97r9289",
+      "source_backed_summary": "Both official deposits explicitly name the Moorfields AMD database and report overlapping 2008-2018 extraction windows.",
+      "confidence": "high",
+      "decision": "confirmed"
+    },
+    {
+      "source_doi": "10.5061/dryad.97r9289",
+      "source_slug": "dryad_moorfields_amd_1_2_year",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.573n5tb5d",
+      "target_slug": "dryad_namd_visual_prediction",
+      "evidence_url": "https://doi.org/10.5061/dryad.97r9289",
+      "source_backed_summary": "Official Dryad metadata identifies the Moorfields AMD database/project; the target official deposit identifies Moorfields nAMD treatment data in an overlapping extraction/treatment period.",
+      "confidence": "high",
+      "decision": "confirmed"
+    },
+    {
+      "source_doi": "10.5061/dryad.sf7m0cggh",
+      "source_slug": "dryad_sf7m0cggh",
+      "proposed_relationship_type": "derived_from",
+      "target_doi": "",
+      "target_slug": "drive",
+      "evidence_url": "https://datadryad.org/api/v2/versions/353579/files",
+      "source_backed_summary": "Official current file listing names DRIVE trace annotation and result files; deposit is a distinct retinal-vessel tracing layer.",
+      "confidence": "high",
+      "decision": "confirmed"
+    }
+  ],
+  "unresolved_candidates": [
+    {
+      "source_doi": "10.5061/dryad.0kt87",
+      "source_slug": "dryad_iris_surface_features",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.sbcc2fr6n",
+      "target_slug": "dryad_sbcc2fr6n",
+      "evidence_url": "https://doi.org/10.5061/dryad.0kt87",
+      "source_backed_summary": "Both official deposits cite the identical primary article DOI, but their distinct titles, file inventories, and official metadata do not establish whether records are identical, a subset, or an extension.",
+      "confidence": "medium",
+      "decision": "unresolved"
+    },
+    {
+      "source_doi": "10.5061/dryad.4mw6m906b",
+      "source_slug": "dryad_moorfields_namd_fellow_eye",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.9cnp5hqfm",
+      "target_slug": "dryad_namd_ten_year_survival",
+      "evidence_url": "https://doi.org/10.5061/dryad.4mw6m906b",
+      "source_backed_summary": "Official metadata indicates Moorfields provenance/governance, but does not state that the deposit uses the same named AMD database or an overlapping cohort; no edge is asserted.",
+      "confidence": "low",
+      "decision": "unresolved"
+    },
+    {
+      "source_doi": "10.5061/dryad.9cnp5hqfm",
+      "source_slug": "dryad_namd_ten_year_survival",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.4mw6m906b",
+      "target_slug": "dryad_moorfields_namd_fellow_eye",
+      "evidence_url": "https://doi.org/10.5061/dryad.9cnp5hqfm",
+      "source_backed_summary": "Official metadata indicates Moorfields provenance/governance, but does not state that the deposit uses the same named AMD database or an overlapping cohort; no edge is asserted.",
+      "confidence": "low",
+      "decision": "unresolved"
+    },
+    {
+      "source_doi": "10.5061/dryad.sbcc2fr6n",
+      "source_slug": "dryad_sbcc2fr6n",
+      "proposed_relationship_type": "same_or_overlapping_cohort_as",
+      "target_doi": "10.5061/dryad.0kt87",
+      "target_slug": "dryad_iris_surface_features",
+      "evidence_url": "https://doi.org/10.5061/dryad.sbcc2fr6n",
+      "source_backed_summary": "Both official deposits cite the identical primary article DOI, but their distinct titles, file inventories, and official metadata do not establish whether records are identical, a subset, or an extension.",
+      "confidence": "medium",
+      "decision": "unresolved"
+    }
+  ],
+  "rejected_candidates": [],
+  "symmetric_cohort_edges_paired": true,
+  "component_inverse_edges_required": 0,
+  "credential_values_serialized": false,
+  "dataset_files_downloaded": false
+}

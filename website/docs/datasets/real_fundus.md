@@ -51,7 +51,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > The public GitHub release contains the image archive. The paper describes a random 81/9/30 experimental split, but the release does not define distributed train, validation, and test partitions. No license file or dataset use terms were found.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -60,7 +60,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download real_fundus --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download real_fundus --data-dir ./data
 ```
 
@@ -72,7 +72,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('real_fundus')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

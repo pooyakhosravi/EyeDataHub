@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Slug says `uwf` but the paper describes standard RetCam fundus imaging, not ultra-widefield. 1,099 images from 483 infants — earlier metadata claimed ~5,000.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -59,7 +59,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download rop_uwf_intelligent --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download rop_uwf_intelligent --data-dir ./data
 ```
 
@@ -71,7 +71,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('rop_uwf_intelligent')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

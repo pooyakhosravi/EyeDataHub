@@ -55,7 +55,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - This record is `derived from` [cadis](./cadis.md): InSegCat Dataset 2 converts CaDIS semantic masks to instance masks and boxes. ([evidence](https://ftp.itec.aau.at/datasets/ovid/InSegCat/))
 - This record is `derived from` [cataract_101](./cataract_101.md): InSegCat Dataset 1 selects and annotates frames from Cataract-101 videos. ([evidence](https://ftp.itec.aau.at/datasets/ovid/InSegCat/))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -64,7 +64,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download insegcat --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download insegcat --data-dir ./data
 ```
 
@@ -76,7 +76,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('insegcat')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

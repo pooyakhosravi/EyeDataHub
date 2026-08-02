@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "screen_date": "2026-08-01",
+  "input": "61 rows classified add_now in dryad_strict_screen_b_2026-08-01.csv",
+  "scope": "Human ophthalmology, ocular biometrics, and direct translational ocular resources; animal records are retained only for explicit ophthalmic modality, disease mechanism, imaging method, or surgical-method utility.",
+  "decision_counts": {
+    "core_add": 28,
+    "adjacent_add": 13,
+    "exclude_scope": 20
+  },
+  "quantity_rule": "Each retained row has either a source-stated numeric primary quantity or a named file-level research object; file count is not used as a scientific quantity.",
+  "normalized_vocabularies": {
+    "primary_categories": "Existing catalog primary_category values where a direct mapping was available.",
+    "tasks": "Existing catalog task vocabulary values where a direct mapping was available."
+  }
+}

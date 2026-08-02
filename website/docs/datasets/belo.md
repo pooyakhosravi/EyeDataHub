@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > The 900 questions aggregate BCSC, BioASQ, MedMCQA, MedQA, and PubMedQA sources. The project page instructs users to request the held-out benchmark by email; verify every applicable source term.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

@@ -7,7 +7,7 @@ Each page contains:
   - Docusaurus frontmatter (id, title, sidebar_label, tags, description)
   - At-a-glance summary table (modality, tasks, counts, terms, access, support)
   - Overview + full description
-  - Read-only preflight plus explicit command-line acquisition
+  - Read-only preflight plus an explicit download command
   - Loader status and a Python example when a standard loader exists
   - Citation (BibTeX + APA in Tabs)
   - Source-term evidence, scope, and legal limitation
@@ -122,7 +122,32 @@ def documented_relationships(dataset: EyeDataHubDataset) -> list[dict[str, str]]
     """Return outgoing and incoming curated catalog relationships."""
     record_id = dataset.info.name
     relationships: list[dict[str, str]] = []
+    symmetric_types = {"mirror_of", "same_or_overlapping_cohort_as"}
+    symmetric_seen: set[tuple[str, str]] = set()
     for edge in RELATIONSHIP_EVIDENCE:
+        if edge.relationship_type in symmetric_types and record_id in {
+            edge.source_record_id,
+            edge.target_record_id,
+        }:
+            other = (
+                edge.target_record_id
+                if edge.source_record_id == record_id
+                else edge.source_record_id
+            )
+            key = (edge.relationship_type, other)
+            if key in symmetric_seen:
+                continue
+            symmetric_seen.add(key)
+            relationships.append(
+                {
+                    "direction": "symmetric",
+                    "type": edge.relationship_type,
+                    "record_id": other,
+                    "evidence_url": edge.evidence_url,
+                    "evidence_summary": edge.evidence_summary,
+                }
+            )
+            continue
         if edge.source_record_id == record_id:
             relationships.append(
                 {
@@ -210,7 +235,7 @@ def backend_download_snippet(dataset: EyeDataHubDataset) -> tuple[str, str]:
     shell = (
         f"# Read-only preflight\n"
         f"eyehub download {name} --data-dir ./data --dry-run --json\n\n"
-        f"# Explicit transfer, only when preflight reports supported behavior\n"
+        f"# Download, only when preflight reports supported behavior\n"
         f"eyehub download {name} --data-dir ./data"
     )
 
@@ -219,7 +244,7 @@ def backend_download_snippet(dataset: EyeDataHubDataset) -> tuple[str, str]:
         "from eyedatahub.datasets.registry import REGISTRY",
         "",
         f"ds = REGISTRY.get_dataset('{name}')",
-        "print(preflight_dataset(ds, './data'))  # no transfer",
+        "print(preflight_dataset(ds, './data'))  # no download",
     ]
     py = "\n".join(py_lines)
 
@@ -404,10 +429,15 @@ def build_page(dataset: EyeDataHubDataset, all_ds: list[EyeDataHubDataset]) -> s
                     f"This record is `{relation}` "
                     f"[{other.info.name}](./{other.info.name}.md)"
                 )
-            else:
+            elif relationship["direction"] == "incoming":
                 label = (
                     f"[{other.info.name}](./{other.info.name}.md) is "
                     f"`{relation}` this record"
+                )
+            else:
+                label = (
+                    f"This record has a documented `{relation}` relationship with "
+                    f"[{other.info.name}](./{other.info.name}.md)"
                 )
             parts.append(
                 f"- {label}: {mdx_escape(relationship['evidence_summary'])} "
@@ -416,7 +446,7 @@ def build_page(dataset: EyeDataHubDataset, all_ds: list[EyeDataHubDataset]) -> s
         parts.append("")
 
     parts += [
-        "## Access preflight and acquisition",
+        "## Access information and download",
         "",
         "<Tabs>",
         '  <TabItem value="cli" label="CLI" default>',

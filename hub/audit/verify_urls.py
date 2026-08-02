@@ -253,7 +253,7 @@ def audit_metadata(elapsed: float) -> dict[str, Any]:
 
 def _markdown_url(url: str | None) -> str:
     if not url:
-        return "—"
+        return "-"
     parsed = urlparse(str(url))
     host = parsed.netloc.lower().removeprefix("www.")
     if host == "doi.org":
@@ -313,7 +313,7 @@ def markdown_report(findings: list[dict], summary: dict, metadata: dict) -> str:
     ]
     for f in sorted(findings, key=lambda x: (x.get("status", ""), x["name"])):
         status = f.get("status", "?")
-        http = f.get("http_status", "—")
+        http = f.get("http_status", "-")
         source_url = f.get("download_url") or f.get("final_url")
         lines.append(
             f"| `{f['name']}` | `{f['download_type']}` | `{status}` | {http} | {_markdown_url(source_url)} |"

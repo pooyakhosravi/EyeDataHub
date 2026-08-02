@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Grand Challenge account + signed DUA required.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

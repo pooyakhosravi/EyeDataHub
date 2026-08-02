@@ -56,7 +56,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 
 - This record is `derived from` [drive](./drive.md): RITE adds artery, vein, and vessel-tree labels to the same 40 DRIVE images. ([evidence](https://medicine.uiowa.edu/eye/rite-dataset))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

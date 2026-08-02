@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > The institutional page reports 213,659 images from 15 participants collected over more than three months and provides a 2.1 GB download for non-commercial scientific use.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -59,7 +59,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download mpii_gaze --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download mpii_gaze --data-dir ./data
 ```
 
@@ -71,7 +71,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('mpii_gaze')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>
@@ -126,3 +126,5 @@ Zhang X, Sugano Y, Fritz M, Bulling A. Appearance-Based Gaze Estimation in the W
 - [gaze360](./gaze360.md): Gaze360 Physically Unconstrained Gaze Dataset (172,000 frames, `unknown`)
 - [lpw](./lpw.md): LPW Labelled Pupils in the Wild (130,856 frames, `research-only`)
 - [glaucoma_eye_movements](./glaucoma_eye_movements.md): Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss (270 participants, `cc-by`)
+- [dryad_biocular_eye_tracking](./dryad_biocular_eye_tracking.md): Bi-Ocular Vertebrate Eye-Tracking Dataset (Not reported, `cc0`)
+- [dryad_eye_head_visual_selection](./dryad_eye_head_visual_selection.md): Eye and Head Visual Selection Dataset (Not reported, `cc0`)

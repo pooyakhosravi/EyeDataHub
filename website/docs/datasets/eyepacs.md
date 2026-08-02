@@ -61,7 +61,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - [bidr](./bidr.md) is `subset of` this record: BiDR republishes the 35,126-image EyePACS competition training split, not the full EyePACS record. ([evidence](https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy))
 - [dr_arranged](./dr_arranged.md) is `subset of` this record: The Tianchi record republishes the 35,126-image EyePACS competition training split. ([evidence](https://tianchi.aliyun.com/dataset/93926))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -70,7 +70,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download eyepacs --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download eyepacs --data-dir ./data
 ```
 
@@ -82,7 +82,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('eyepacs')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

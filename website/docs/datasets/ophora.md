@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > 162,185 video clip-instruction pairs from 9,819 source videos (avg clip length ~5.5 s). Estimated ~500 GB total. Video clip-instruction pair dataset for text-guided surgical video generation. May require HF_TOKEN for gated access. Set in .env.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -59,7 +59,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download ophora --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download ophora --data-dir ./data
 ```
 
@@ -71,7 +71,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('ophora')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

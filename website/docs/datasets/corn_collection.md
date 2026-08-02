@@ -59,7 +59,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - This record is `has component` [corn1500](./corn1500.md): The CORN collection lists CORN-1500 as one of its six component deposits. ([evidence](https://zenodo.org/records/19689814))
 - This record is `has component` [corn_pro](./corn_pro.md): The CORN collection lists CORN-Pro as one of its six component deposits. ([evidence](https://zenodo.org/records/19689814))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -131,3 +131,4 @@ iMED. CORN: corneal confocal microscope dataset. Zenodo, Version v2, 2026. doi:1
 - [corn_pro](./corn_pro.md): CORN Pro: Corneal Nerve Confocal Microscopy Dataset (1,120 images, `cc-by`)
 - [superccm_fineset](./superccm_fineset.md): SuperCCM-FineSet (210 images, `unknown`)
 - [corneal_epithelium_confocal](./corneal_epithelium_confocal.md): Keratoconus Corneal Epithelium Confocal Fluorescence Dataset (7 participants, `cc-by`)
+- [dryad_pk0p2ngzh](./dryad_pk0p2ngzh.md): Morphometric analysis of retinal ganglionic cells (3D confocal images) analyzed using filament tracer from Imaris software (Not reported, `cc0`)

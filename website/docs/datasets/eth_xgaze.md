@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Contains 1,083,492 images from 110 participants. The official page offers approximately 130 GB 224-pixel face patches, 497 GB 448-pixel patches, or about 7 TB of raw images on request. The linked completed license adds conditions to CC BY-NC-SA 4.0.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -124,3 +124,5 @@ Zhang X, Park S, Beeler T, Bradley D, Tang S, Hilliges O. ETH-XGaze: A Large Sca
 - [gaze360](./gaze360.md): Gaze360 Physically Unconstrained Gaze Dataset (172,000 frames, `unknown`)
 - [lpw](./lpw.md): LPW Labelled Pupils in the Wild (130,856 frames, `research-only`)
 - [glaucoma_eye_movements](./glaucoma_eye_movements.md): Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss (270 participants, `cc-by`)
+- [dryad_biocular_eye_tracking](./dryad_biocular_eye_tracking.md): Bi-Ocular Vertebrate Eye-Tracking Dataset (Not reported, `cc0`)
+- [dryad_eye_head_visual_selection](./dryad_eye_head_visual_selection.md): Eye and Head Visual Selection Dataset (Not reported, `cc0`)

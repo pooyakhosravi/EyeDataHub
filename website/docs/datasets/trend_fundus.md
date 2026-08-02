@@ -52,7 +52,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 
 - [trend2_fundus](./trend2_fundus.md) is `extension of` this record: TREND2 is described as an addition to the TREND portable-fundus resource. ([evidence](https://zenodo.org/records/7678656))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -61,7 +61,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download trend_fundus --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download trend_fundus --data-dir ./data
 ```
 
@@ -73,7 +73,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('trend_fundus')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

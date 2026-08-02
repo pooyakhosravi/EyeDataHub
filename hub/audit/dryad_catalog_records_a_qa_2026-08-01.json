@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-08-01",
+  "scope": "Source-consistency QA of 41 retained Dryad catalog-ready records against the captured official Dryad search snapshot and scope screen. No data files downloaded.",
+  "checks": {
+    "record_count": 41,
+    "doi_sort_order": 1,
+    "source_doi_matches": 41,
+    "publication_doi_bare": 41,
+    "official_cc0_license_terms": 41,
+    "resource_versions_match": 41,
+    "listing_bytes_match_size_gb": 41,
+    "nonverbatim_descriptions": 41,
+    "quantity_schema_consistent": 41,
+    "relationships_resolve": 41,
+    "credentialed_routes_transfer_not_run": 41
+  },
+  "fixes": {
+    "publication_doi_urls_normalized": 38,
+    "description_paraphrases_replaced": 41,
+    "route_fields_corrected": 41,
+    "quantity_units_added_after_vocab_extension": 2,
+    "relationship_edges_added": 2
+  },
+  "metadata_mismatches_after_fix": 0,
+  "unresolved_fields": []
+}

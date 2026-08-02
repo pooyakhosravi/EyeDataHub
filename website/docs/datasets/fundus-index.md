@@ -2,12 +2,12 @@
 id: fundus-index
 title: "Fundus datasets"
 sidebar_label: fundus
-description: "121 resources containing fundus data in EyeDataHub."
+description: "125 resources containing fundus data in EyeDataHub."
 ---
 
 # Fundus datasets
 
-**121 datasets; 119 with a primary reported quantity; 1159.0 GB total** - this page indexes every EyeDataHub resource tagged as containing `fundus` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**125 datasets; 121 with a primary reported quantity; 1160.2 GB total** - this page indexes every EyeDataHub resource tagged as containing `fundus` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -116,6 +116,7 @@ description: "121 resources containing fundus data in EyeDataHub."
 | [`afio_fundus_vessels`](./afio_fundus_vessels.md) | AFIO Fundus Images for Vessel Segmentation and Disease Annotation | 100 images | 0.2 GB | `cc-by` | Mendeley Data |
 | [`trend_fundus`](./trend_fundus.md) | TREND Portable Fundus Microvascular Network Dataset | 82 images | 0.1 GB | `cc-by` | Zenodo |
 | [`reta_benchmark`](./reta_benchmark.md) | RETA Benchmark for Retinal Vascular Tree Analysis | 81 images | 0.8 GB | `cc-by` | Figshare |
+| [`dryad_diabetes_retinal_capillary`](./dryad_diabetes_retinal_capillary.md) | Diabetes Retinal Capillary Rarefaction Dataset | 73 participants | 0.0 GB | `cc0` | Dryad |
 | [`fimd`](./fimd.md) | Fundus Image Myopia Development Dataset | 70 image pairs | 0.2 GB | `cc-by` | Mendeley Data |
 | [`data_oct_fundus_glaucoma`](./data_oct_fundus_glaucoma.md) | Data on OCT and Fundus Images | 50 images | 0.1 GB | `cc-by` | Mendeley Data |
 | [`dridb`](./dridb.md) | DRiDB: Diabetic Retinopathy Image Database | 50 images | Not reported | `research-only` | Manual (upstream-gated) |
@@ -130,5 +131,8 @@ description: "121 resources containing fundus data in EyeDataHub."
 | [`trend2_fundus`](./trend2_fundus.md) | TREND2 Chronic Disease Portable Fundus Dataset | 28 images | 0.1 GB | `cc-by` | Zenodo |
 | [`agar300`](./agar300.md) | AGAR300 Microaneurysm Fundus Image Dataset | 28 images | Not reported | `cc-by` | Manual (upstream-gated) |
 | [`stare`](./stare.md) | STARE: Structured Analysis of the Retina | 20 images | 0.0 GB | `research-only` | Direct HTTP |
+| [`dryad_retinal_vasomotion`](./dryad_retinal_vasomotion.md) | Retinal Laser Speckle Vasomotion Dataset | 8 experimental eyes | 1.1 GB | `cc0` | Dryad |
 | [`hassan_composite_retina`](./hassan_composite_retina.md) | Composite Retinal Fundus and OCT Dataset with Clinical Markings | Not reported | 2.0 GB | `cc-by` | Mendeley Data |
 | [`rao_fundus`](./rao_fundus.md) | RAO Retinal Artery Occlusion Fundus Photography Dataset | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`dryad_fundus_venous_pulsation`](./dryad_fundus_venous_pulsation.md) | Fundus Venous Pulsation Sequence Dataset | Not reported | 0.1 GB | `cc0` | Dryad |
+| [`dryad_sf7m0cggh`](./dryad_sf7m0cggh.md) | Robust semi-automatic vessel tracing in the human retinal image by an instance segmentation neural network | Not reported | 0.0 GB | `cc0` | Dryad |

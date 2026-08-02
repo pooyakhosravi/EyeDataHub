@@ -8,7 +8,7 @@ const { themes } = require('prism-react-renderer');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'EyeDataHub',
-  tagline: 'A command-line access tool and curated catalog of 251 ophthalmology data resources',
+  tagline: 'A command-line access tool and curated catalog of 386 ophthalmology data resources',
   url: 'https://khosravipooya.com',
   baseUrl: '/EyeDataHub/',
 

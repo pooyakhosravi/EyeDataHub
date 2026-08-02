@@ -84,9 +84,8 @@ GUIDED_ONLY_SLUGS = {
     "tear_meniscus",
 }
 
-# Date-stamped acquisition evidence. Runtime loader fields expose the strongest
-# archived scope, while the publication ledger keeps acquisition method and
-# verification evidence as separate record-level dimensions.
+# Date-stamped download review. Runtime loader fields expose the strongest
+# archived scope while keeping implementation and review status separate.
 REPRESENTATIVE_FILE_SLUGS = {
     "fives",
     "perg_ioba",
@@ -110,6 +109,8 @@ END_TO_END_TESTED_SLUGS = {
     "coph100",
     "drions_db",
     "dryad_aoslo_rpe",
+    "dryad_cornea_oct_pentacam",
+    "dryad_functional_oct_alzheimer",
     "dryad_gcc_glaucoma",
     "dryad_glaucoma_rnfl_vf",
     "dryad_namd_oct_quant",
@@ -867,7 +868,7 @@ def _derive_access(info: Any, text: str) -> Dict[str, Any]:
         friction = "self_service_clickthrough"
     elif registration_marker:
         friction = "self_service_authenticated"
-    elif backend == "kaggle":
+    elif backend in {"kaggle", "dryad"}:
         friction = "self_service_authenticated"
     elif backend == "physionet" and _contains(text, "credentialed"):
         friction = "controlled_or_manual"
@@ -921,7 +922,7 @@ def _derive_access(info: Any, text: str) -> Dict[str, Any]:
     }
     authentication = registration
     api_token: Optional[bool]
-    if backend in {"kaggle"}:
+    if backend in {"kaggle", "dryad"}:
         api_token = True
     elif backend == "huggingface" and friction == "self_service_authenticated":
         api_token = True
@@ -1141,12 +1142,35 @@ def enrich_dataset_info(info: Any) -> None:
         info.num_samples = reviewed_primary.count
         info.item_count_unit = reviewed_primary.unit
         info.item_count_evidence_url = reviewed_primary.evidence_url or url or None
-    info.reported_quantities = quantities_for(
-        info.name,
-        info.num_samples,
-        info.item_count_unit,
-        info.item_count_evidence_url,
-    )
+        info.reported_quantities = quantities_for(
+            info.name,
+            info.num_samples,
+            info.item_count_unit,
+            info.item_count_evidence_url,
+        )
+    elif info.reported_quantities:
+        # New source-reviewed records may carry their quantity evidence beside
+        # the record itself. Preserve that evidence instead of replacing it
+        # with a quantity inferred from the legacy ``num_samples`` field.
+        explicit_primary = [
+            quantity
+            for quantity in info.reported_quantities
+            if quantity.get("primary") is True
+        ]
+        if len(explicit_primary) == 1:
+            primary = explicit_primary[0]
+            info.num_samples = primary.get("count")
+            info.item_count_unit = primary.get("unit", info.item_count_unit)
+            info.item_count_evidence_url = (
+                primary.get("evidence_url") or url or None
+            )
+    else:
+        info.reported_quantities = quantities_for(
+            info.name,
+            info.num_samples,
+            info.item_count_unit,
+            info.item_count_evidence_url,
+        )
 
     for key, value in _derive_access(info, text).items():
         _set_if_empty(info, key, value)
@@ -1185,7 +1209,7 @@ def enrich_dataset_info(info: Any) -> None:
 
     _set_if_empty(info, "loader_backend", backend)
     _set_if_empty(info, "loader_name", f"{backend}_loader")
-    _set_if_empty(info, "loader_version", "0.3.0")
+    _set_if_empty(info, "loader_version", "0.4.0")
     _set_if_empty(info, "loader_live_tested", False)
     _set_if_empty(info, "loader_test_scope", "unit_or_mocked_only")
     _set_if_empty(info, "loader_test_result", "not_live_tested")
@@ -1226,7 +1250,6 @@ def enrich_dataset_info(info: Any) -> None:
     _set_if_empty(info, "author_source_checked", True)
     _set_if_empty(info, "source_check_date", "2026-07-21")
     _set_if_empty(info, "source_check_status", "checked_against_cited_source")
-    _set_if_empty(info, "independent_audit_status", "not_independently_audited")
     _set_if_empty(info, "access_check_status", info.route_check_result)
     _set_if_empty(info, "transfer_check_status", info.loader_test_result)
 

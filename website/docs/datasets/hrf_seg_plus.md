@@ -56,7 +56,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 
 - This record is `derived from` [hrf](./hrf.md): HRF-Seg+ adds multi-structure annotations to the 45 HRF images. ([evidence](https://zenodo.org/records/16744782))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -65,7 +65,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download hrf_seg_plus --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download hrf_seg_plus --data-dir ./data
 ```
 
@@ -77,7 +77,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('hrf_seg_plus')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

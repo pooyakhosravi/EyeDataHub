@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "screen_date": "2026-08-01",
+  "scope": "Rows 85 through 169 inclusive in zero-based CSV order within decision=include candidates.",
+  "source_evidence": "Official Dryad dataset, current-version, and current-version file-listing API responses; associated publication DOI when supplied by Dryad.",
+  "decision_counts": {
+    "add_now": 61,
+    "defer_insufficient_metadata": 6,
+    "exclude": 18
+  },
+  "strongest_add_now": [
+    "10.5061/dryad.8931zcrw5",
+    "10.5061/dryad.8cz8w9h0v",
+    "10.5061/dryad.97r9289",
+    "10.5061/dryad.98sf7m0wt",
+    "10.5061/dryad.bcc2fqzf1",
+    "10.5061/dryad.d9v38",
+    "10.5061/dryad.h18931zr2",
+    "10.5061/dryad.k3j9kd5fx",
+    "10.5061/dryad.nh0fp1b",
+    "10.5061/dryad.nvx0k6dqg"
+  ],
+  "reconciliation": {
+    "exact_catalog_doi_duplicates": 0,
+    "documented_overlapping_cohort_candidates": 3,
+    "overlap_note": "The Moorfields AMD releases are retained only where the Dryad manifest demonstrates a distinct longitudinal outcome release; relationships identify the pre-existing related catalog records."
+  },
+  "method_note": "Blank primary quantity fields mean the official current metadata/file listing did not state one reproducible principal resource total. File_count and total_bytes are metadata for the current official version, not primary research quantities."
+}

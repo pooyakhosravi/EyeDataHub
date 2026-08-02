@@ -31,7 +31,7 @@ Adaptive-optics scanning-light-ophthalmoscopy montages and regions of interest f
 | **Normalized terms** | `cc0` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Dryad |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |
@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Contains one-eye data from 10 normal participants for short-wave autofluorescence and photoreceptor reflectance; infrared autofluorescence is available for seven participants with overlap.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -59,7 +59,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download dryad_aoslo_rpe --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download dryad_aoslo_rpe --data-dir ./data
 ```
 
@@ -71,7 +71,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('dryad_aoslo_rpe')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>
@@ -117,3 +117,9 @@ Human retinal pigment epithelium: in vivo cell morphometry, multispectral autofl
 - **Descriptive screening label:** Standard label without an explicit NC clause; not a permission finding
 
 > :warning: Source-stated terms, scope, and normalized labels are curation metadata, not legal advice or a permission finding. Review the current official source before transfer or reuse.
+
+## Similar resources by shared modality
+
+- [dryad_human_foveal_cones](./dryad_human_foveal_cones.md): Human foveal cone photoreceptor topography and its dependence on eye length (28 eyes, `cc0`)
+- [dryad_mouse_all_optical_retina](./dryad_mouse_all_optical_retina.md): All-Optical Retinal Degeneration Mouse Dataset (Not reported, `cc0`)
+- [dryad_w3r228143](./dryad_w3r228143.md): Photoreceptor loss does not recruit neutrophils despite strong microglial activation (Not reported, `cc0`)

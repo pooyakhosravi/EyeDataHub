@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Application-gated (Harvard form). No automated mirror. Sub-repos: github.com/Harvard-Ophthalmology-AI-Lab/Harvard-&#123;AMD,DR,Glaucoma&#125;.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

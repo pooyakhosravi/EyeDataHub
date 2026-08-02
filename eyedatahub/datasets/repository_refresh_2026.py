@@ -551,26 +551,14 @@ REFRESH_RECORDS: list[dict[str, Any]] = [
             "light_response",
             "raw_images",
         ],
-        "size_gb": 2.058,
+        "size_gb": 0.843520297,
         "notes": (
-            "The release contains repeated acquisitions across four experiments; "
-            "source groups include eight young adults, three participants with "
-            "aquaporin-4 antibodies, 14 early-onset Alzheimer patients, and 14 "
-            "age-matched controls. Group overlap is not assumed in num_samples. "
-            "Dryad declines whole-version archive assembly for this record; "
-            "EyeDataHub therefore directs users to the official landing page. "
-            "Authenticated per-file API transfer is available when a user "
-            "configures DRYAD_TOKEN."
+            "The current version contains 40 unique participant identifiers across "
+            "four experiments, including overlapping experiment groups. Dryad file "
+            "downloads require a user-supplied API token; EyeDataHub can also obtain "
+            "a fresh token from locally configured Dryad client credentials."
         ),
-        "acquisition_support": "guided_instructions_only",
-        "loader_live_tested": False,
-        "loader_test_date": "2026-07-30",
-        "loader_test_scope": "live_archive_request",
-        "loader_test_result": "whole_archive_refused_per_file_api_requires_token",
-        "failure_reason": (
-            "Dryad returned HTTP 405 for the whole-version archive and requires "
-            "a bearer token for per-file API transfer."
-        ),
+        "resource_version": "6",
         "source": {"doi": "10.5061/dryad.msbcc2ftc"},
     },
     {
@@ -664,24 +652,15 @@ REFRESH_RECORDS: list[dict[str, Any]] = [
             "pentacam",
             "scheimpflug",
         ],
-        "size_gb": 0.392,
+        "size_gb": 0.383898834,
         "notes": (
-            "The source describes right-eye OCT and OCULUS Pentacam tomography "
-            "plus custom segmentation code but does not expose a reliable record "
-            "count in the repository metadata. Dryad declines whole-version "
-            "archive assembly for this record; EyeDataHub therefore directs "
-            "users to the official landing page. Authenticated per-file API "
-            "transfer is available when a user configures DRYAD_TOKEN."
+            "The current version contains right-eye data from 52 participant "
+            "directories, with 208 corneal OCT TIFF files and 102 Pentacam CSV "
+            "files. Dryad file downloads require a user-supplied API token; "
+            "EyeDataHub can also obtain a fresh token from locally configured "
+            "Dryad client credentials."
         ),
-        "acquisition_support": "guided_instructions_only",
-        "loader_live_tested": False,
-        "loader_test_date": "2026-07-30",
-        "loader_test_scope": "live_archive_request",
-        "loader_test_result": "whole_archive_refused_per_file_api_requires_token",
-        "failure_reason": (
-            "Dryad returned HTTP 405 for the whole-version archive and requires "
-            "a bearer token for per-file API transfer."
-        ),
+        "resource_version": "5",
         "source": {"doi": "10.5061/dryad.tht76hf0c"},
     },
     {

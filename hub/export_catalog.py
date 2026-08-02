@@ -12,7 +12,8 @@ from eyedatahub.catalog import info_to_record
 from eyedatahub.datasets.registry import REGISTRY
 
 
-CATALOG_CUTOFF = "2026-07-25"
+CATALOG_CUTOFF = "2026-08-01"
+CATALOG_RECORD_COUNT = 386
 
 
 def _csv_value(value: Any) -> Any:
@@ -30,6 +31,10 @@ def export_catalog(out_dir: Path | None = None) -> tuple[Path, Path]:
         info_to_record(dataset.info)
         for dataset in sorted(REGISTRY.list_datasets(), key=lambda item: item.info.name)
     ]
+    if len(records) != CATALOG_RECORD_COUNT:
+        raise RuntimeError(
+            f"Expected {CATALOG_RECORD_COUNT} records, found {len(records)}"
+        )
     payload = {
         "schema_version": "1.0",
         "catalog_version": __version__,

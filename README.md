@@ -12,49 +12,54 @@ suitability.
 
 [![License: MIT](https://img.shields.io/badge/code-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
-[![Catalog](https://img.shields.io/badge/catalog-251%20records-brightgreen.svg)](DATASETS.md)
-[![Tests](https://img.shields.io/badge/tests-61%20passing-brightgreen.svg)](tests)
+[![Catalog](https://img.shields.io/badge/catalog-386%20records-brightgreen.svg)](DATASETS.md)
+[![Tests](https://img.shields.io/badge/tests-73%20passing-brightgreen.svg)](tests)
 
 ## One-minute overview
 
-The current catalog contains 251 manually source-checked records across 18
-primary categories. At the catalog cutoff on 25 July 2026:
+The current catalog contains 386 manually source-checked records across 18
+primary categories. At the catalog cutoff on 1 August 2026:
 
-- 170 used a source link requiring neither an account nor manual approval;
-- 34 required immediate self-service authentication;
+- 33 use source-hosted, Google Drive, or GitHub routes without platform credentials;
+- 293 use platform clients or APIs with the user's corresponding credentials or configuration;
+- 60 use manual, controlled, institutional, or author-contact procedures.
+
+These practical groups are mutually exclusive. Separately, the catalog records
+the source interaction visible to a user:
+
+- 160 used a source link requiring neither an account nor manual approval;
+- 179 required immediate self-service authentication;
 - 11 required user click-through;
 - 28 required controlled or manual access;
 - 8 required author contact.
 
-For a practical route summary, 67 records do not require platform credentials:
-47 are supported directly by EyeDataHub and 20 use source-hosted web, Google
-Drive, or GitHub links. Another 124 use platform clients or APIs with the user's
-corresponding credentials or client configuration. The remaining 60 use
-manual, controlled, institutional, or author-contact procedures.
+A publicly viewable source page can still require a credential for its API or
+client, so these two classifications are intentionally not interchangeable.
 
-All 251 records were also reviewed for documented reuse, derivation, subset,
+All 386 records were also reviewed for documented reuse, derivation, subset,
 version, mirror, component, and cohort-overlap relationships. The reviewed
-graph contains 131 directed assertions involving 91 records. The complete
+graph contains 142 directed assertions involving 94 records. The complete
 record matrix, edge evidence, unresolved upstream resources, and rejected
 false-positive links are in `hub/audit/resource_relationship_*_2026-08-01.*`.
 
-A separate source review resolved a primary reported quantity for 245 records
-and retained 305 quantity-evidence rows. Totals are reported only within exact
+A separate source review resolved a primary reported quantity for 300 records
+and retained 364 quantity-evidence rows. Totals are reported only within exact
 units because related resources can overlap and different modalities use
 different counting units. The record, evidence, unit-summary, and unresolved
 files are in `hub/audit/resource_quantity_*_2026-08-01.*`.
 
 The complete machine-readable exports are `hub/catalog.json` and
-`hub/catalog.csv`. The similarly named `hub/metadata.*` files contain the
-137-record enriched EyeDataHub-Open subset used by descriptive statistics.
+`hub/catalog.csv`. Legacy `hub/metadata.*` and
+`hub/open_licence_catalogue.json` files are compatibility artifacts, not
+complete-catalog exports, and are not used for current manuscript counts.
 
 ## Install
 
-After the 0.3.0 release is published to
+After the 0.4.0 release is published to
 [PyPI](https://pypi.org/project/eyedatahub/):
 
 ```bash
-python -m pip install "eyedatahub==0.3.0"
+python -m pip install "eyedatahub==0.4.0"
 ```
 
 EyeDataHub is tested on Python 3.10 through 3.14.
@@ -62,7 +67,7 @@ EyeDataHub is tested on Python 3.10 through 3.14.
 To install the same release directly from its Git tag:
 
 ```bash
-python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.3.0"
+python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.4.0"
 ```
 
 For development:
@@ -152,13 +157,10 @@ source-hosted file links. Support varies by record and is exposed through
 
 ## Release record
 
-The 0.3.0 scientific archive is prepared for the reserved version-specific DOI
-[doi:10.5281/zenodo.21614657](https://doi.org/10.5281/zenodo.21614657). The
-complete archive and PyPI 0.3.0 package must be published and verified before
-the manuscript is submitted. The prepared archive contains the catalog,
-schema, evidence ledger, validation logs, resource citations, figure and table
-source data, regeneration scripts, and file-level checksums, but no indexed
-third-party dataset files.
+The 0.4.0 release contains the catalog, schema, source-review logs, resource
+citations, documentation, and regeneration scripts, but no indexed third-party
+dataset files. A version-specific archival DOI can be added when that release
+archive is published.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for reviewed additions and
 [CLAUDE.md](CLAUDE.md) for the canonical agent guide.

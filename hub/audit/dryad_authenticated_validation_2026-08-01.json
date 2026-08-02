@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "validation_date": "2026-08-01",
+  "official_api": "https://datadryad.org/api/v2/",
+  "authentication": "Bearer token supplied by the user; client-credential renewal is supported",
+  "client_credential_exchange_validated": true,
+  "credential_values_recorded": false,
+  "temporary_downloads_deleted_after_validation": true,
+  "records": [
+    {
+      "record_id": "dryad_cornea_oct_pentacam",
+      "dataset_doi": "10.5061/dryad.tht76hf0c",
+      "dryad_version": 5,
+      "current_deposit_file_count": 1,
+      "current_deposit_bytes": 383898834,
+      "source_file": {
+        "path": "OCT_.zip",
+        "bytes": 383898834,
+        "source_digest_type": "sha-256",
+        "source_digest": "14cae159de86798aaa8740530cff3ceb6aa214755565f67a2fe4d7c737381fcf",
+        "source_digest_matched": true
+      },
+      "download_completed": true,
+      "internal_inventory": {
+        "files": 310,
+        "extensions": {
+          ".tif": 208,
+          ".csv": 102
+        },
+        "oct_participant_directories": 52,
+        "oct_participants_by_group": {
+          "Group1": 36,
+          "Group2": 16
+        },
+        "oct_sessions_per_participant": 2,
+        "oct_tiff_files_per_participant": 4
+      },
+      "resolved_primary_quantity": {
+        "count": 52,
+        "unit": "participants",
+        "basis": "current_deposit_file_listing"
+      }
+    },
+    {
+      "record_id": "dryad_functional_oct_alzheimer",
+      "dataset_doi": "10.5061/dryad.msbcc2ftc",
+      "dryad_version": 6,
+      "current_deposit_file_count": 1,
+      "current_deposit_bytes": 843520297,
+      "source_file": {
+        "path": "OCT__FOR_DRYAD_2020-03MAR-08.rar",
+        "bytes": 843520297,
+        "source_digest_type": "sha-256",
+        "source_digest": "8038097ef0979ad6b667165d9559bb7fb7ecb6a3231d9fc9da5c4fd56535a6c6",
+        "source_digest_matched": true
+      },
+      "download_completed": true,
+      "internal_inventory": {
+        "files": 1112,
+        "extensions": {
+          ".hdr": 432,
+          ".img": 432,
+          ".txt": 195,
+          ".xlsx": 45,
+          ".rdata": 5,
+          ".r": 2,
+          ".png": 1
+        },
+        "unique_participant_identifiers": 40,
+        "profile_table_rows": 1370,
+        "profile_table_breakdown": {
+          "Experiments_1_3_4": 1250,
+          "Experiment_2": 120
+        },
+        "analyze_img_objects": 432,
+        "image_count_note": "Includes raw, manually marked, flattened, and spatially normalized representations; these are not independent acquisitions."
+      },
+      "resolved_primary_quantity": {
+        "count": 40,
+        "unit": "participants",
+        "basis": "current_deposit_table"
+      }
+    }
+  ]
+}

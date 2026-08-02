@@ -2,12 +2,12 @@
 id: visual_field-index
 title: "Visual Field datasets"
 sidebar_label: visual_field
-description: "10 resources containing visual_field data in EyeDataHub."
+description: "12 resources containing visual_field data in EyeDataHub."
 ---
 
 # Visual Field datasets
 
-**10 datasets; 10 with a primary reported quantity; 28.6 GB total** - this page indexes every EyeDataHub resource tagged as containing `visual_field` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**12 datasets; 12 with a primary reported quantity; 28.6 GB total** - this page indexes every EyeDataHub resource tagged as containing `visual_field` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -20,4 +20,6 @@ description: "10 resources containing visual_field data in EyeDataHub."
 | [`stage_task1`](./stage_task1.md) | STAGE 2023 Task 1 — Mean Deviation Prediction from OCT | 400 volumes | 5.0 GB | `research-only` | Manual (upstream-gated) |
 | [`stage_task2`](./stage_task2.md) | STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction | 400 volumes | 5.0 GB | `research-only` | Manual (upstream-gated) |
 | [`stage_task3`](./stage_task3.md) | STAGE 2023 Task 3 — Pattern Deviation Probability Map | 400 volumes | 5.0 GB | `research-only` | Manual (upstream-gated) |
+| [`dryad_myopia_glaucoma_visual_field`](./dryad_myopia_glaucoma_visual_field.md) | Myopia and Glaucoma Visual Field Prognosis Dataset | 270 eyes | 0.0 GB | `cc0` | Dryad |
 | [`visual_field_testing_experiment`](./visual_field_testing_experiment.md) | Visual Field Testing Experiment | 78 visual fields | 0.0 GB | `cc-by` | Kaggle |
+| [`dryad_xgxd254pk`](./dryad_xgxd254pk.md) | Supporting information for: Discrimination ability of central visual field testing using stimulus size I, II, and III and relationship with macular ganglion cell thickness in chiasmal compression | 60 eyes | 0.0 GB | `cc0` | Dryad |

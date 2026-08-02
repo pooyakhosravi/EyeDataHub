@@ -909,6 +909,61 @@ def download_dryad(
     token = token or os.environ.get("DRYAD_TOKEN")
     headers = {"Authorization": f"Bearer {token}"} if token else {}
 
+    def refresh_token() -> None:
+        """Refresh an expired bearer token without persisting or printing it."""
+        nonlocal token, headers
+        client_id = os.environ.get("DRYAD_CLIENT_ID")
+        client_secret = os.environ.get("DRYAD_SECRET")
+        if not client_id or not client_secret:
+            raise RuntimeError(
+                "The Dryad token was rejected. Set a current DRYAD_TOKEN or "
+                "configure DRYAD_CLIENT_ID and DRYAD_SECRET for automatic renewal."
+            )
+        token_response = requests.post(
+            "https://datadryad.org/oauth/token",
+            data={
+                "client_id": client_id,
+                "client_secret": client_secret,
+                "grant_type": "client_credentials",
+            },
+            headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+            timeout=30,
+        )
+        token_response.raise_for_status()
+        token = str(token_response.json().get("access_token") or "").strip()
+        if not token:
+            raise RuntimeError("Dryad returned no access token.")
+        headers = {"Authorization": f"Bearer {token}"}
+
+    if not token and os.environ.get("DRYAD_CLIENT_ID") and os.environ.get("DRYAD_SECRET"):
+        refresh_token()
+
+    def dryad_get(url: str) -> requests.Response:
+        response = requests.get(url, headers=headers, timeout=30)
+        if response.status_code == 401:
+            refresh_token()
+            response = requests.get(url, headers=headers, timeout=30)
+        return response
+
+    def dryad_download(url: str, destination: Path, description: str) -> Path:
+        try:
+            return download_file(
+                url,
+                destination,
+                desc=description,
+                headers=headers,
+            )
+        except requests.exceptions.HTTPError as exc:
+            if exc.response is None or exc.response.status_code != 401:
+                raise
+            refresh_token()
+            return download_file(
+                url,
+                destination,
+                desc=description,
+                headers=headers,
+            )
+
     identifier = doi if doi.startswith("doi:") else f"doi:{doi}"
     dest_dir = Path(dest_dir)
     dest_dir.mkdir(parents=True, exist_ok=True)
@@ -918,7 +973,7 @@ def download_dryad(
         "https://datadryad.org/api/v2/datasets/" f"{encoded_identifier}"
     )
     console.print(f"[cyan]Fetching Dryad dataset {identifier[4:]}...[/]")
-    response = requests.get(dataset_url, headers=headers, timeout=30)
+    response = dryad_get(dataset_url)
     if response.status_code == 404:
         raise FileNotFoundError(
             f"Dryad dataset '{identifier[4:]}' was not found.\n"
@@ -935,7 +990,7 @@ def download_dryad(
         )
 
     version_url = f"https://datadryad.org{version_href}"
-    version_response = requests.get(version_url, headers=headers, timeout=30)
+    version_response = dryad_get(version_url)
     version_response.raise_for_status()
     version_payload = version_response.json()
     version_download_href = (
@@ -955,11 +1010,10 @@ def download_dryad(
             f"{identifier[4:]}...[/]"
         )
         try:
-            download_file(
+            dryad_download(
                 version_download_url,
                 archive,
-                desc=f"Dryad {identifier[4:]}",
-                headers=headers,
+                f"Dryad {identifier[4:]}",
             )
         except requests.exceptions.HTTPError as exc:
             if exc.response is None or exc.response.status_code != 405:
@@ -1002,11 +1056,7 @@ def download_dryad(
             if next_href.startswith("http")
             else f"https://datadryad.org{next_href}"
         )
-        files_response = requests.get(
-            files_url,
-            headers=headers,
-            timeout=30,
-        )
+        files_response = dryad_get(files_url)
         files_response.raise_for_status()
         payload = files_response.json()
         files.extend(payload.get("_embedded", {}).get("stash:files", []))
@@ -1051,11 +1101,10 @@ def download_dryad(
         console.print(
             f"[cyan]  Downloading {relative_path.as_posix()} from Dryad...[/]"
         )
-        download_file(
+        dryad_download(
             file_url,
             dest_path,
-            desc=relative_path.name,
-            headers=headers,
+            relative_path.name,
         )
         downloaded.append(dest_path)
 

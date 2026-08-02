@@ -55,12 +55,10 @@ Counts retain their source-reported units. Additional rows can describe componen
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
 - [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
-- [stage_task1](./stage_task1.md) is `same or overlapping cohort as` this record: STAGE Tasks 1 and 2 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
-- [stage_task3](./stage_task3.md) is `same or overlapping cohort as` this record: STAGE Tasks 2 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
-- This record is `same or overlapping cohort as` [stage_task1](./stage_task1.md): STAGE Tasks 1 and 2 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
-- This record is `same or overlapping cohort as` [stage_task3](./stage_task3.md): STAGE Tasks 2 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
+- This record has a documented `same or overlapping cohort as` relationship with [stage_task1](./stage_task1.md): STAGE Tasks 1 and 2 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
+- This record has a documented `same or overlapping cohort as` relationship with [stage_task3](./stage_task3.md): STAGE Tasks 2 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -69,7 +67,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download stage_task2 --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download stage_task2 --data-dir ./data
 ```
 
@@ -81,7 +79,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('stage_task2')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

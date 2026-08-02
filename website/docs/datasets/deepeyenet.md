@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > NDA gated — email deepeyenet.den@gmail.com to request. No automated mirror exists.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

@@ -2,12 +2,12 @@
 id: oct-index
 title: "Oct datasets"
 sidebar_label: oct
-description: "62 resources containing oct data in EyeDataHub."
+description: "69 resources containing oct data in EyeDataHub."
 ---
 
 # Oct datasets
 
-**62 datasets; 59 with a primary reported quantity; 887.5 GB total** - this page indexes every EyeDataHub resource tagged as containing `oct` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**69 datasets; 65 with a primary reported quantity; 891.0 GB total** - this page indexes every EyeDataHub resource tagged as containing `oct` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -32,6 +32,7 @@ description: "62 resources containing oct data in EyeDataHub."
 | [`dryad_namd_oct_quant`](./dryad_namd_oct_quant.md) | Moorfields nAMD Quantitative OCT Biomarker Dataset | 2,966 volumes | 0.0 GB | `cc0` | Dryad |
 | [`oct_fundus_dme_dr_mexico`](./oct_fundus_dme_dr_mexico.md) | OCT and Eye Fundus Dataset for DME and DR | 2,661 images | 0.5 GB | `unknown` | GitHub |
 | [`oct_macular_hole_postsurgery`](./oct_macular_hole_postsurgery.md) | HD-OCT of Macular Hole Before and After Surgery | 2,658 images | 1.0 GB | `unknown` | Kaggle |
+| [`dryad_namd_oct_longitudinal`](./dryad_namd_oct_longitudinal.md) | Quantifying changes on optical coherence tomography in eyes receiving treatment for neovascular age-related macular degeneration | 2,115 eyes | 0.0 GB | `cc0` | Dryad |
 | [`octdl`](./octdl.md) | OCTDL: OCT Deep Learning Dataset | 2,000 images | 0.8 GB | `cc-by` | Mendeley Data |
 | [`thoct1800`](./thoct1800.md) | THOCT1800 Retinal OCT Dataset | 1,800 images | Not reported | `research-only` | GitHub |
 | [`oct_ms_jhu`](./oct_ms_jhu.md) | OCT Retinal Layer Segmentation — MS & Healthy Controls (JHU/IACL) | 1,715 b scans | 1.8 GB | `cc-by-nc-nd` | Direct HTTP |
@@ -59,17 +60,23 @@ description: "62 resources containing oct data in EyeDataHub."
 | [`rocc`](./rocc.md) | ROCC: Retinal OCT Classification Challenge | 165 volumes | Not reported | `research-only` | Manual (upstream-gated) |
 | [`fociset_pamm`](./fociset_pamm.md) | FociSet PAMM OCT Lesion Dataset | 133 images | Not reported | `cc-by` | Mendeley Data |
 | [`mm_retinal_reason`](./mm_retinal_reason.md) | MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset | 130 question answer pairs | 15.0 GB | `unknown` | HuggingFace Hub |
+| [`dryad_pvd_diagnostic_oct`](./dryad_pvd_diagnostic_oct.md) | Accuracy of biomicroscopy, ultrasonography and spectral-domain OCT in detection of complete posterior vitreous detachment | 123 eyes | 0.0 GB | `cc0` | Dryad |
 | [`retouch`](./retouch.md) | RETOUCH: RETinal OCT Fluid Challenge | 112 volumes | 5.0 GB | `research-only` | Manual (upstream-gated) |
 | [`duke_chiu_boe`](./duke_chiu_boe.md) | Duke OCT DME Dataset (Chiu BOE 2014) | 110 images | 0.1 GB | `research-only` | Direct HTTP |
 | [`retinal_corrugations_oct`](./retinal_corrugations_oct.md) | Outer Retinal Corrugations Imaging Dataset | 69 b scans | 0.5 GB | `cc-by` | Mendeley Data |
+| [`dryad_bariatric_ophthalmology`](./dryad_bariatric_ophthalmology.md) | Bariatric Surgery Ophthalmic Evaluation Dataset | 57 participants | 0.0 GB | `cc0` | Dryad |
+| [`dryad_cornea_oct_pentacam`](./dryad_cornea_oct_pentacam.md) | Corneal OCT and Pentacam Tomography Dataset | 52 participants | 0.4 GB | `cc0` | Dryad |
 | [`cavri`](./cavri.md) | CAVRI: Computer Analysis of VitreoRetinal Interface Dataset | 50 volumes | 3.0 GB | `research-only` | Manual (upstream-gated) |
 | [`data_oct_fundus_glaucoma`](./data_oct_fundus_glaucoma.md) | Data on OCT and Fundus Images | 50 images | 0.1 GB | `cc-by` | Mendeley Data |
 | [`oct_cirrus`](./oct_cirrus.md) | Duke Srinivasan Retinal OCT Dataset | 45 volumes | 0.6 GB | `research-only` | Manual (upstream-gated) |
 | [`fang_sbsdi_oct`](./fang_sbsdi_oct.md) | Duke Fang SBSDI Retinal OCT Dataset | 41 participants | 0.5 GB | `research-only` | Manual (upstream-gated) |
+| [`dryad_functional_oct_alzheimer`](./dryad_functional_oct_alzheimer.md) | Functional OCT Retinal Response Dataset | 40 participants | 0.8 GB | `cc0` | Dryad |
+| [`dryad_brvo_bevacizumab_multimodal`](./dryad_brvo_bevacizumab_multimodal.md) | BRVO Bevacizumab Multimodal Dataset | 27 eyes | 0.1 GB | `cc0` | Dryad |
 | [`dryad_retinal_vein_cannulation`](./dryad_retinal_vein_cannulation.md) | Autonomous Retinal Vein Cannulation Data and Code | 26 experimental eyes | 7.5 GB | `cc0` | Dryad |
 | [`dryad_subretinal_robot`](./dryad_subretinal_robot.md) | Head-Mounted Robot Subretinal Injection Dataset | 21 experimental eyes | 2.5 GB | `cc0` | Dryad |
 | [`duke_amd_chiu`](./duke_amd_chiu.md) | Duke AMD Pathology OCT Segmentation Dataset | 20 volumes | 0.5 GB | `unknown` | Manual (upstream-gated) |
 | [`tian_oct`](./tian_oct.md) | Tian OCTRIMA 3D OCT Layer Segmentation Dataset | 10 volumes | 0.2 GB | `cc-by` | Direct HTTP |
 | [`hassan_composite_retina`](./hassan_composite_retina.md) | Composite Retinal Fundus and OCT Dataset with Clinical Markings | Not reported | 2.0 GB | `cc-by` | Mendeley Data |
-| [`dryad_functional_oct_alzheimer`](./dryad_functional_oct_alzheimer.md) | Functional OCT Retinal Response Dataset | Not reported | 2.1 GB | `cc0` | Dryad |
-| [`dryad_cornea_oct_pentacam`](./dryad_cornea_oct_pentacam.md) | Corneal OCT and Pentacam Tomography Dataset | Not reported | 0.4 GB | `cc0` | Dryad |
+| [`dryad_bbs1_retinal_degeneration`](./dryad_bbs1_retinal_degeneration.md) | BBS1 Retinal Degeneration Mouse Dataset | Not reported | 0.0 GB | `cc0` | Dryad |
+| [`dryad_mouse_oct_beam_tilt`](./dryad_mouse_oct_beam_tilt.md) | Quantifying the influence of optical coherence tomography beam tilt in the normal adult mouse retina | Not reported | 4.7 GB | `cc0` | Dryad |
+| [`dryad_huntingtons_retinal_oct`](./dryad_huntingtons_retinal_oct.md) | Is retina affected in Huntington's disease? Is optical coherence tomography a good biomarker? | Not reported | 0.0 GB | `cc0` | Dryad |

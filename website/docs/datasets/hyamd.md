@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > PhysioNet requires registration and the project-specific Restricted Health Data Use Agreement before file access.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

@@ -23,18 +23,18 @@ Right-eye corneal OCT and rotating Scheimpflug tomography data with MATLAB code 
 | **Primary category** | `multimodal` |
 | **Contained modalities** | oct, corneal_topography |
 | **Tasks** | segmentation, measurement, registration |
-| **Primary reported quantity** | Not reported |
+| **Primary reported quantity** | 52 participants |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
-| **Size** | 0.392 GB |
+| **Size** | 0.383898834 GB |
 | **Source-stated terms** | CC0 1.0 |
 | **Normalized terms** | `cc0` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Dryad |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `guided_instructions_only` |
+| **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 
@@ -42,15 +42,18 @@ Right-eye corneal OCT and rotating Scheimpflug tomography data with MATLAB code 
 
 | Role | Count | Unit | Scope | Basis | Evidence |
 | --- | ---: | --- | --- | --- | --- |
-| Additional | 1 | `deposited_files` | OCT_.zip in the current Dryad version The archive does not expose a reproducible participant, eye, volume, or B-scan count without inspecting the credentialed contents. | `current_deposit_file_listing` | [https://doi.org/10.5061/dryad.tht76hf0c](https://doi.org/10.5061/dryad.tht76hf0c) |
+| Primary | 52 | `participants` | Participant directories represented in the corneal OCT component of Dryad version 5 | `current_deposit_file_listing` | [https://doi.org/10.5061/dryad.tht76hf0c](https://doi.org/10.5061/dryad.tht76hf0c) |
+| Additional | 208 | `images` | Corneal OCT TIFF files in Dryad version 5 Four TIFF files occur in each of 52 participant directories. | `current_deposit_file_listing` | [https://doi.org/10.5061/dryad.tht76hf0c](https://doi.org/10.5061/dryad.tht76hf0c) |
+| Additional | 102 | `records` | Pentacam CSV tomography matrices in Dryad version 5 | `current_deposit_file_listing` | [https://doi.org/10.5061/dryad.tht76hf0c](https://doi.org/10.5061/dryad.tht76hf0c) |
+| Additional | 1 | `deposited_files` | OCT_.zip in Dryad version 5 | `current_deposit_file_listing` | [https://doi.org/10.5061/dryad.tht76hf0c](https://doi.org/10.5061/dryad.tht76hf0c) |
 
 Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
-> The source describes right-eye OCT and OCULUS Pentacam tomography plus custom segmentation code but does not expose a reliable record count in the repository metadata. Dryad declines whole-version archive assembly for this record; EyeDataHub therefore directs users to the official landing page. Authenticated per-file API transfer is available when a user configures DRYAD_TOKEN.
+> The current version contains right-eye data from 52 participant directories, with 208 corneal OCT TIFF files and 102 Pentacam CSV files. Dryad file downloads require a user-supplied API token; EyeDataHub can also obtain a fresh token from locally configured Dryad client credentials.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -59,7 +62,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download dryad_cornea_oct_pentacam --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download dryad_cornea_oct_pentacam --data-dir ./data
 ```
 
@@ -71,7 +74,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('dryad_cornea_oct_pentacam')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

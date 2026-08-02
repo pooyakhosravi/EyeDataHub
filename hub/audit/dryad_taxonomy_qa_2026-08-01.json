@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0",
+  "qa_date": "2026-08-01",
+  "purpose": "Read-only taxonomy QA of the 135 catalog-ready Dryad records; no dataset files were downloaded and source record files were not modified.",
+  "inputs": [
+    "hub/audit/dryad_catalog_records_a_2026-08-01.json",
+    "hub/audit/dryad_catalog_records_b_2026-08-01.json",
+    "hub/audit/dryad_catalog_records_c_2026-08-01.json",
+    "hub/audit/dryad_catalog_records_deferred_2026-08-01.json"
+  ],
+  "input_integrity": {
+    "batch_b_container_json_parses": true,
+    "batch_b_record_lines_parse_individually": true,
+    "batch_b_records_recovered_without_repair": 41,
+    "note": "Batch B was restored after an intermediate write problem; the final 41-record array passes JSON validation."
+  },
+  "reference_vocabulary": {
+    "existing_primary_categories": [
+      "adaptive_optics",
+      "cell_microscopy",
+      "confocal",
+      "corneal_topography",
+      "electrophysiology",
+      "external_eye",
+      "eye_tracking",
+      "fundus",
+      "iris_biometrics",
+      "multimodal",
+      "oct",
+      "octa",
+      "omics",
+      "surgical_video",
+      "tabular",
+      "text",
+      "uwf_fundus",
+      "visual_field"
+    ],
+    "existing_component_modality_vocabulary": [
+      "adaptive_optics",
+      "cell_microscopy",
+      "confocal",
+      "corneal_topography",
+      "ct",
+      "electrophysiology",
+      "external_eye",
+      "eye_tracking",
+      "fundus",
+      "fundus_angiography",
+      "fundus_autofluorescence",
+      "infrared",
+      "iris_biometrics",
+      "oct",
+      "octa",
+      "ocular_ultrasound",
+      "omics",
+      "orbital_mri",
+      "pupillometry",
+      "retcam",
+      "retinal_oximetry",
+      "surgical_video",
+      "tabular",
+      "text",
+      "uwf_fundus",
+      "visual_field"
+    ],
+    "existing_task_vocabulary": [
+      "biometric_recognition",
+      "classification",
+      "counting",
+      "demographic_analysis",
+      "denoising",
+      "detection",
+      "evaluation",
+      "fairness_analysis",
+      "gaze_estimation",
+      "grading",
+      "landmark_detection",
+      "lesion_detection",
+      "measurement",
+      "multilabel",
+      "navigation",
+      "phase_recognition",
+      "prognosis",
+      "progression",
+      "progression_analysis",
+      "pupil_detection",
+      "quality",
+      "quality_assessment",
+      "question_answering",
+      "reasoning",
+      "reconstruction",
+      "registration",
+      "regression",
+      "report_generation",
+      "restoration",
+      "retrieval",
+      "segmentation",
+      "surgical_workflow",
+      "survival_analysis",
+      "text_generation",
+      "translation",
+      "vessel_analysis",
+      "visual_question_answering",
+      "visualization"
+    ],
+    "component_rule": "`multimodal` is permitted as a primary category only; component lists must name actual component modalities."
+  },
+  "counts": {
+    "records_total": 135,
+    "records_by_batch": {
+      "a": 41,
+      "b": 41,
+      "c": 49,
+      "deferred": 4
+    },
+    "primary_category_checks": {
+      "records_checked": 135,
+      "valid": 135,
+      "unsupported": 0,
+      "distinct_primary_categories_used": 14
+    },
+    "component_modality_checks": {
+      "records_checked": 135,
+      "component_assignments_checked": 208,
+      "unknown_normalized_terms": 0,
+      "records_with_unsupported_component_usage": 1,
+      "records_valid_after_proposed_fix": 135,
+      "distinct_component_modalities_after_fix": 18
+    },
+    "task_checks": {
+      "records_checked": 135,
+      "task_assignments_checked": 157,
+      "unsupported": 0,
+      "distinct_tasks_used": 16
+    },
+    "primary_component_consistency": {
+      "non_multimodal_records_checked": 130,
+      "non_multimodal_records_missing_primary_component": 0,
+      "multimodal_records_checked": 5,
+      "multimodal_records_with_actual_components_after_fix": 5,
+      "multimodal_records_with_umbrella_marker_to_remove": 1
+    },
+    "record_level_fixes_needed": 0
+  },
+  "record_level_fixes_applied_during_module_generation": [
+    {
+      "name": "dryad_q6rv0kz3",
+      "doi": "10.7272/q6rv0kz3",
+      "field": "modalities",
+      "current_value": [
+        "multimodal",
+        "eye_tracking",
+        "electrophysiology",
+        "cell_microscopy"
+      ],
+      "proposed_value": [
+        "eye_tracking",
+        "electrophysiology",
+        "cell_microscopy"
+      ],
+      "reason": "`multimodal` is a primary-category umbrella, not a component modality. The remaining three components preserve the record's modality breadth."
+    }
+  ],
+  "final_distinct_added_terms": {
+    "primary_categories": [
+      "adaptive_optics",
+      "cell_microscopy",
+      "corneal_topography",
+      "electrophysiology",
+      "external_eye",
+      "eye_tracking",
+      "fundus",
+      "iris_biometrics",
+      "multimodal",
+      "oct",
+      "octa",
+      "omics",
+      "tabular",
+      "visual_field"
+    ],
+    "component_modalities": [
+      "adaptive_optics",
+      "cell_microscopy",
+      "confocal",
+      "corneal_topography",
+      "electrophysiology",
+      "external_eye",
+      "eye_tracking",
+      "fundus",
+      "fundus_angiography",
+      "infrared",
+      "iris_biometrics",
+      "oct",
+      "octa",
+      "ocular_ultrasound",
+      "omics",
+      "orbital_mri",
+      "tabular",
+      "visual_field"
+    ],
+    "tasks": [
+      "classification",
+      "counting",
+      "demographic_analysis",
+      "detection",
+      "evaluation",
+      "gaze_estimation",
+      "measurement",
+      "navigation",
+      "prognosis",
+      "progression_analysis",
+      "reconstruction",
+      "regression",
+      "restoration",
+      "segmentation",
+      "survival_analysis",
+      "vessel_analysis"
+    ]
+  },
+  "genuinely_new_terms_worth_retaining": {
+    "primary_categories": [],
+    "component_modalities": [],
+    "tasks": [],
+    "note": "Every retained term is already in the current registry vocabulary; no vocabulary expansion is justified by these records."
+  },
+  "conclusion": "All 135 records have supported primary categories and supported task labels. The one component-list cleanup was applied during catalog-module generation; all named actual modalities were retained."
+}

@@ -513,7 +513,7 @@ class CORNCollectionDataset(EyeDataHubDataset):
             acquisition_support="manual_access_blocked",
             loader_backend="manual",
             loader_name="manual_access_instructions",
-            loader_version="0.3.0",
+            loader_version="0.4.0",
             loader_live_tested=False,
             loader_test_date="2026-07-25",
             loader_test_scope="preflight_and_manual_blocking",
@@ -540,7 +540,6 @@ class CORNCollectionDataset(EyeDataHubDataset):
             author_source_checked=True,
             source_check_date="2026-07-25",
             source_check_status="checked_against_cited_source",
-            independent_audit_status="not_independently_audited",
             access_check_status="acquisition_route_verified",
             transfer_check_status="manual_route_not_transferred",
         )

@@ -1,10 +1,10 @@
 # EyeDataHub catalog snapshot
 
-This documentation describes the 0.3.0 catalog release.
+This documentation describes the 0.4.0 catalog release.
 
-The catalog contains 251 manually source-checked ophthalmology data
+The catalog contains 386 manually source-checked ophthalmology data
 resources across 18 primary navigation categories. This is a bounded,
-date-stamped catalog, not a complete census and not a collection of 251
+date-stamped catalog, not a complete census and not a collection of 386
 independent cohorts. EyeDataHub does not host or redistribute the indexed
 third-party datasets.
 
@@ -12,17 +12,18 @@ third-party datasets.
 
 | Metric | Count |
 |---|---:|
-| Catalog records | 251 |
+| Catalog records | 386 |
 | Primary categories | 18 |
-| No-account source links | 170 |
-| Self-service authenticated routes | 34 |
+| No-account source links | 160 |
+| Self-service authenticated routes | 179 |
 | Self-service click-through routes | 11 |
 | Controlled or manual routes | 28 |
 | Author-contact routes | 8 |
-| Credential-free downloads supported by EyeDataHub | 47 |
-| Records with a resolved primary source-reported quantity | 245 |
-| Source-supported directed relationship assertions | 131 |
-| Records participating in documented relationships | 91 |
+| Routes without platform credentials | 33 |
+| Platform API or client routes | 293 |
+| Records with a resolved primary source-reported quantity | 300 |
+| Source-supported directed relationship assertions | 142 |
+| Records participating in documented relationships | 94 |
 
 Access requirements, download implementation, source review, and source-stated
 terms are independent dimensions. A self-service route does not establish
@@ -73,8 +74,8 @@ checksums, citations, warnings, and completion scope.
 Complete machine-readable catalog exports are provided in `hub/catalog.json`,
 `hub/catalog.csv`, and `website/static/datasets.json`. The files
 `hub/open_licence_catalogue.json`, `hub/metadata.json`, and `hub/metadata.csv`
-contain the 137-record enriched EyeDataHub-Open subset and must not be used as
-the complete-catalog denominator. Run `python hub/export_catalog.py` to
+are legacy compatibility artifacts and must not be used as the
+complete-catalog denominator. Run `python hub/export_catalog.py` to
 regenerate the complete exports and `python -m pytest -q` to validate the
 catalog and command-line behavior.
 

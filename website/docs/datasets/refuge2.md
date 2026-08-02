@@ -52,7 +52,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 
 - This record is `version of` [refuge2018](./refuge2018.md): REFUGE2 contains all 1,200 REFUGE images and adds 800 images from another domain. ([evidence](https://refuge.grand-challenge.org/))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -61,7 +61,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download refuge2 --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download refuge2 --data-dir ./data
 ```
 
@@ -73,7 +73,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('refuge2')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

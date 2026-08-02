@@ -3,7 +3,7 @@ id: dr_arranged
 title: "Diabetic Retinopathy Arranged Dataset (Tianchi 93926)"
 sidebar_label: dr_arranged
 description: "35,126 fundus images organised for 5-class DR severity grading (ICDR grades 0-4): No DR 25,810 / Mild 2,443 / Moderate 5,292 / Severe 873 / Proliferative 708. Hosted on Alibaba Tianchi."
-tags: ["fundus", "cc-by-nc-sa", "manual", "grading", "classification", "documented-relationship", "relationship-mirror_of", "relationship-subset_of"]
+tags: ["fundus", "cc-by-nc-sa", "manual", "grading", "classification", "documented-relationship", "relationship-subset_of", "relationship-mirror_of"]
 ---
 
 
@@ -55,11 +55,10 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
-- [bidr](./bidr.md) is `mirror of` this record: BiDR and the Tianchi arranged record contain the same documented EyePACS training split. ([evidence](https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy))
-- This record is `mirror of` [bidr](./bidr.md): The Tianchi arranged record and BiDR contain the same documented EyePACS training split. ([evidence](https://tianchi.aliyun.com/dataset/93926))
 - This record is `subset of` [eyepacs](./eyepacs.md): The Tianchi record republishes the 35,126-image EyePACS competition training split. ([evidence](https://tianchi.aliyun.com/dataset/93926))
+- This record has a documented `mirror of` relationship with [bidr](./bidr.md): BiDR and the Tianchi arranged record contain the same documented EyePACS training split. ([evidence](https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -68,7 +67,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download dr_arranged --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download dr_arranged --data-dir ./data
 ```
 
@@ -80,7 +79,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('dr_arranged')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

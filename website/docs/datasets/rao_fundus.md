@@ -55,7 +55,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - This record is `derived from` [jsiec](./jsiec.md): The RAO source reports use of public web images plus RFMiD and JSIEC images. ([evidence](https://doi.org/10.17632/5428684j44.2))
 - This record is `derived from` [rfmid](./rfmid.md): The RAO source reports use of public web images plus RFMiD and JSIEC images. ([evidence](https://doi.org/10.17632/5428684j44.2))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -64,7 +64,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download rao_fundus --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download rao_fundus --data-dir ./data
 ```
 
@@ -76,7 +76,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('rao_fundus')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

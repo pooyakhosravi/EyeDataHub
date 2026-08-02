@@ -51,7 +51,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Figshare marks the deposited index files CC BY 4.0. The record exposes URLs and WeChat article identifiers rather than redistributing image files, so original content permissions still need separate review.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -60,7 +60,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download ophthalwechat --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download ophthalwechat --data-dir ./data
 ```
 
@@ -72,7 +72,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('ophthalwechat')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

@@ -110,7 +110,6 @@ def generate_rows(url_report: dict[str, Any]) -> list[dict[str, Any]]:
                 "failure_or_limitation": limitation,
                 "curator": "EyeDataHub author team",
                 "author_source_checked": "true" if info.author_source_checked else "false",
-                "independent_audit_status": info.independent_audit_status,
                 "source_terms_evidence_url": info.terms_evidence_url or "",
                 "dataset_files_transferred_for_this_row": (
                     "not_assessed_in_access_verification_log"

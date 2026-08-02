@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > The official readme reports 11,102 images from 261 participants and 522 irises. The site states that UBIRIS.v1 is public and that newer UBIPr derivatives use CC BY-NC-SA 4.0, but it does not make the same license statement for UBIRIS.v2; terms are therefore unknown.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -120,3 +120,5 @@ Proenca H, Filipe S, Santos R, Oliveira J, Alexandre LA. The UBIRIS.v2: A Databa
 
 - [nd_iris_0405](./nd_iris_0405.md): ND-IRIS-0405 Iris Image Dataset (64,980 images, `research-only`)
 - [casia_iris_v4](./casia_iris_v4.md): CASIA-IrisV4 Iris Image Database (54,601 images, `cc0`)
+- [dryad_sbcc2fr6n](./dryad_sbcc2fr6n.md): Exploring phenotypic diversity of pigmented traits and iris features in Pakistani population (514 participants, `cc0`)
+- [dryad_iris_surface_features](./dryad_iris_surface_features.md): Iris Surface Features Dataset (Not reported, `cc0`)

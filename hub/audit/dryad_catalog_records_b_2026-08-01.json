@@ -1,0 +1,2869 @@
+[
+  {
+    "name": "dryad_fungal_keratitis_cci",
+    "full_name": "CCI.net fungal keratitis cases dataset",
+    "description": "The 8,697-image fungal-keratitis dataset has explicit classification and segmentation splits and is directly usable for translational corneal imaging.",
+    "modality": "external_eye",
+    "modalities": [
+      "external_eye"
+    ],
+    "tasks": [
+      "classification",
+      "segmentation"
+    ],
+    "num_samples": 8697,
+    "item_count_unit": "images",
+    "reported_quantities": [
+      {
+        "count": 8697,
+        "unit": "images",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.8931zcrw5",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.8931zcrw5",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.8931zcrw5",
+    "citation": "CCI.net fungal keratitis cases dataset. Dryad Dataset. doi:10.5061/dryad.8931zcrw5.",
+    "tags": [
+      "dryad",
+      "external_eye",
+      "fungal",
+      "keratitis",
+      "cci"
+    ],
+    "size_gb": 0.258950684,
+    "notes": "Scope: core_add. Named file-level object: CCI_net_dataset.zip plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.8931zcrw5",
+    "associated_publication_doi": null,
+    "resource_version": 8,
+    "source": {
+      "doi": "10.5061/dryad.8931zcrw5"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_namd_oct_longitudinal",
+    "full_name": "Quantifying changes on optical coherence tomography in eyes receiving treatment for neovascular age-related macular degeneration",
+    "description": "The named longitudinal OCT measurement CSV covers 2,115 treated AMD eyes and fits core clinical OCT progression analysis.",
+    "modality": "oct",
+    "modalities": [
+      "oct",
+      "tabular"
+    ],
+    "tasks": [
+      "measurement",
+      "progression_analysis"
+    ],
+    "num_samples": 2115,
+    "item_count_unit": "eyes",
+    "reported_quantities": [
+      {
+        "count": 2115,
+        "unit": "eyes",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.8cz8w9h0v",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.8cz8w9h0v",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.8cz8w9h0v",
+    "citation": "Quantifying changes on optical coherence tomography in eyes receiving treatment for neovascular age-related macular degeneration. Dryad Dataset. doi:10.5061/dryad.8cz8w9h0v.",
+    "tags": [
+      "dryad",
+      "oct",
+      "namd",
+      "longitudinal"
+    ],
+    "size_gb": 0.015711999,
+    "notes": "Scope: core_add. Named file-level object: AMD_longitudinal_MEH_v4.csv plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.8cz8w9h0v",
+    "associated_publication_doi": "10.1016/j.xops.2024.100570",
+    "resource_version": 11,
+    "source": {
+      "doi": "10.5061/dryad.8cz8w9h0v"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_tb_uveitis_ifn",
+    "full_name": "Type 1 interferon-inducible gene expression in QuantiFERON Gold TB-positive uveitis: a tool to stratify a high versus low risk of active tuberculosis?",
+    "description": "The human uveitis expression workbook has a stated 103-enrollment cohort and supports ocular biomarker classification.",
+    "modality": "omics",
+    "modalities": [
+      "omics",
+      "tabular"
+    ],
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.8jk03jd",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.8jk03jd",
+    "citation": "Type 1 interferon-inducible gene expression in QuantiFERON Gold TB-positive uveitis: a tool to stratify a high versus low risk of active tuberculosis?. Dryad Dataset. doi:10.5061/dryad.8jk03jd.",
+    "tags": [
+      "dryad",
+      "omics",
+      "tb",
+      "uveitis",
+      "ifn"
+    ],
+    "size_gb": 7.6872e-05,
+    "notes": "Scope: core_add. Named file-level object: Type I IFN gene signature workbook. No explicit single primary resource total is stated. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.8jk03jd",
+    "associated_publication_doi": "10.1371/journal.pone.0206073",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.8jk03jd"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_mouse_oct_beam_tilt",
+    "full_name": "Quantifying the influence of optical coherence tomography beam tilt in the normal adult mouse retina",
+    "description": "The large named OCT archive is a directly reusable imaging-method resource despite its normal mouse rather than human cohort.",
+    "modality": "oct",
+    "modalities": [
+      "oct",
+      "tabular"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.95x69p8th",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.95x69p8th",
+    "citation": "Quantifying the influence of optical coherence tomography beam tilt in the normal adult mouse retina. Dryad Dataset. doi:10.5061/dryad.95x69p8th.",
+    "tags": [
+      "dryad",
+      "oct",
+      "mouse",
+      "beam",
+      "tilt"
+    ],
+    "size_gb": 4.704522143,
+    "notes": "Scope: adjacent_add. Named file-level object: beam_tilt_data_for_Dryad.zip plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.95x69p8th",
+    "associated_publication_doi": "10.1371/journal.pone.0325217",
+    "resource_version": 3,
+    "source": {
+      "doi": "10.5061/dryad.95x69p8th"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_ocular_chemical_injuries_shanghai",
+    "full_name": "Clinical characteristics of patients hospitalized for ocular chemical injuries in Shanghai from 2012 to 2017",
+    "description": "This 160-patient clinical workbook is directly relevant to ocular injury outcomes and ophthalmic epidemiology.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "prognosis"
+    ],
+    "num_samples": 160,
+    "item_count_unit": "patients",
+    "reported_quantities": [
+      {
+        "count": 160,
+        "unit": "patients",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.9707661",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.9707661",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.9707661",
+    "citation": "Clinical characteristics of patients hospitalized for ocular chemical injuries in Shanghai from 2012 to 2017. Dryad Dataset. doi:10.5061/dryad.9707661.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "ocular",
+      "chemical",
+      "injuries"
+    ],
+    "size_gb": 7.0431e-05,
+    "notes": "Scope: core_add. Named file-level object: Data.xlsx. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.9707661",
+    "associated_publication_doi": "10.1007/s10792-019-01263-w",
+    "resource_version": 3,
+    "source": {
+      "doi": "10.5061/dryad.9707661"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_moorfields_amd_1_2_year",
+    "full_name": "One and two year visual outcomes from the Moorfields age-related macular degeneration database: a retrospective cohort study and an open science resource",
+    "description": "The de-identified 8,174-eye Moorfields AMD CSV is an explicitly released human longitudinal outcome resource.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "progression_analysis"
+    ],
+    "num_samples": 8174,
+    "item_count_unit": "eyes",
+    "reported_quantities": [
+      {
+        "count": 8174,
+        "unit": "eyes",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.97r9289",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.97r9289",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.97r9289",
+    "citation": "One and two year visual outcomes from the Moorfields age-related macular degeneration database: a retrospective cohort study and an open science resource. Dryad Dataset. doi:10.5061/dryad.97r9289.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "moorfields",
+      "amd",
+      "1"
+    ],
+    "size_gb": 0.010106429,
+    "notes": "Scope: core_add. Named file-level object: Moorfields_AMD_Database_1.csv plus README. Official Dryad metadata does not explicitly document cohort overlap with an existing catalog record; no relationship is asserted. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.97r9289",
+    "associated_publication_doi": "10.1136/bmjopen-2018-027441",
+    "resource_version": 4,
+    "source": {
+      "doi": "10.5061/dryad.97r9289"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_rao_multiomics",
+    "full_name": "Data and code from: Fatty acid metabolism reprograms immune microenvironment in retinal artery occlusion: Multi-Omics analysis highlights immunometabolic crosstalk",
+    "description": "The 132-participant retinal-artery-occlusion multi-omics release is directly translational and contains data beyond its analysis code.",
+    "modality": "omics",
+    "modalities": [
+      "omics",
+      "tabular"
+    ],
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.98sf7m0wt",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.98sf7m0wt",
+    "citation": "Data and code from: Fatty acid metabolism reprograms immune microenvironment in retinal artery occlusion: Multi-Omics analysis highlights immunometabolic crosstalk. Dryad Dataset. doi:10.5061/dryad.98sf7m0wt.",
+    "tags": [
+      "dryad",
+      "omics",
+      "rao",
+      "multiomics"
+    ],
+    "size_gb": 0.019138637,
+    "notes": "Scope: core_add. Named file-level object: Three omics data archives plus README. No explicit single primary resource total is stated. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.98sf7m0wt",
+    "associated_publication_doi": "10.1016/j.isci.2026.116445",
+    "resource_version": 4,
+    "source": {
+      "doi": "10.5061/dryad.98sf7m0wt"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_namd_ten_year_survival",
+    "full_name": "Ten-year survival trends of neovascular age-related macular degeneration at first presentation",
+    "description": "The 103-patient ten-year AMD outcome CSV is a clearly defined human survival-analysis resource.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "survival_analysis"
+    ],
+    "num_samples": 103,
+    "item_count_unit": "patients",
+    "reported_quantities": [
+      {
+        "count": 103,
+        "unit": "patients",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.9cnp5hqfm",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.9cnp5hqfm",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.9cnp5hqfm",
+    "citation": "Ten-year survival trends of neovascular age-related macular degeneration at first presentation. Dryad Dataset. doi:10.5061/dryad.9cnp5hqfm.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "namd",
+      "ten",
+      "year"
+    ],
+    "size_gb": 0.002305895,
+    "notes": "Scope: core_add. Named file-level object: Moorfields_AMD_Database_10_years.csv plus README. Official Dryad metadata does not explicitly document cohort overlap with an existing catalog record; no relationship is asserted. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.9cnp5hqfm",
+    "associated_publication_doi": "10.1136/bjophthalmol-2020-317161",
+    "resource_version": 11,
+    "source": {
+      "doi": "10.5061/dryad.9cnp5hqfm"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_mouse_pupil_masking_retinal_deg",
+    "full_name": "Pupil and masking responses to light as functional measures of retinal degeneration in mice Mus Musculus",
+    "description": "The three named ERG pupil and masking response files form a defined retinal-degeneration functional-assay resource in a disease model.",
+    "modality": "electrophysiology",
+    "modalities": [
+      "electrophysiology",
+      "tabular"
+    ],
+    "tasks": [
+      "measurement",
+      "evaluation"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.9kd51c5g5",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.9kd51c5g5",
+    "citation": "Pupil and masking responses to light as functional measures of retinal degeneration in mice Mus Musculus. Dryad Dataset. doi:10.5061/dryad.9kd51c5g5.",
+    "tags": [
+      "dryad",
+      "electrophysiology",
+      "mouse",
+      "pupil",
+      "masking"
+    ],
+    "size_gb": 0.0522391,
+    "notes": "Scope: adjacent_add. Named file-level object: ERG.pzf, PLR.pzf, and Negative_masking.pzf. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.9kd51c5g5",
+    "associated_publication_doi": "10.1371/journal.pone.0244702",
+    "resource_version": 2,
+    "source": {
+      "doi": "10.5061/dryad.9kd51c5g5"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_prpf31_gene_augmentation",
+    "full_name": "Gene augmentation prevents retinal degeneration in a CRISPR/Cas9-based mouse model of PRPF31 retinitis pigmentosa",
+    "description": "Thirty-eight named sequencing files document a retinitis-pigmentosa gene-therapy disease model with clear translational relevance.",
+    "modality": "omics",
+    "modalities": [
+      "omics",
+      "tabular"
+    ],
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.bcc2fqzf1",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.bcc2fqzf1",
+    "citation": "Gene augmentation prevents retinal degeneration in a CRISPR/Cas9-based mouse model of PRPF31 retinitis pigmentosa. Dryad Dataset. doi:10.5061/dryad.bcc2fqzf1.",
+    "tags": [
+      "dryad",
+      "omics",
+      "prpf31",
+      "gene",
+      "augmentation"
+    ],
+    "size_gb": 0.265695797,
+    "notes": "Scope: adjacent_add. Named file-level object: FASTQ sequencing files plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.bcc2fqzf1",
+    "associated_publication_doi": "10.1038/s41467-022-35361-8",
+    "resource_version": 6,
+    "source": {
+      "doi": "10.5061/dryad.bcc2fqzf1"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_fungal_keratitis_azole_assay",
+    "full_name": "Phase-dependent differential in vitro and ex vivo susceptibility of Aspergillus flavus and Fusarium keratoplasticum to azole antifungals",
+    "description": "The raw corneal-coverage and absorbance CSVs are a defined fungal-keratitis drug-response assay resource.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "evaluation"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.bk3j9kdjf",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.bk3j9kdjf",
+    "citation": "Phase-dependent differential in vitro and ex vivo susceptibility of Aspergillus flavus and Fusarium keratoplasticum to azole antifungals. Dryad Dataset. doi:10.5061/dryad.bk3j9kdjf.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "fungal",
+      "keratitis",
+      "azole"
+    ],
+    "size_gb": 7.4796e-05,
+    "notes": "Scope: adjacent_add. Named file-level object: Two raw assay CSVs plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.bk3j9kdjf",
+    "associated_publication_doi": "10.3390/jof9100966",
+    "resource_version": 3,
+    "source": {
+      "doi": "10.5061/dryad.bk3j9kdjf"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_htr1b_mouse_retina",
+    "full_name": "<em>Htr1b</em> is necessary for normal retinal function in mice",
+    "description": "Separate ERG MEA optomotor and retinal-thickness files define a reusable retinal functional disease-mechanism assay.",
+    "modality": "electrophysiology",
+    "modalities": [
+      "electrophysiology",
+      "tabular"
+    ],
+    "tasks": [
+      "measurement",
+      "evaluation"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.bk3j9kdps",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.bk3j9kdps",
+    "citation": "<em>Htr1b</em> is necessary for normal retinal function in mice. Dryad Dataset. doi:10.5061/dryad.bk3j9kdps.",
+    "tags": [
+      "dryad",
+      "electrophysiology",
+      "htr1b",
+      "mouse",
+      "retina"
+    ],
+    "size_gb": 0.000113358,
+    "notes": "Scope: adjacent_add. Named file-level object: ERG/MEA/OKR/thickness workbooks plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.bk3j9kdps",
+    "associated_publication_doi": "10.3389/fncel.2025.1690447",
+    "resource_version": 7,
+    "source": {
+      "doi": "10.5061/dryad.bk3j9kdps"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_pediatric_optical_quality",
+    "full_name": "Intra- and intersession repeatability of an optical quality and intraocular scattering measurement system in children",
+    "description": "The 42-eye pediatric optical-quality workbook is directly usable for ocular-biometric measurement and repeatability evaluation.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": 42,
+    "item_count_unit": "eyes",
+    "reported_quantities": [
+      {
+        "count": 42,
+        "unit": "eyes",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.bm8nv",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.bm8nv",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.bm8nv",
+    "citation": "Intra- and intersession repeatability of an optical quality and intraocular scattering measurement system in children. Dryad Dataset. doi:10.5061/dryad.bm8nv.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "pediatric",
+      "optical",
+      "quality"
+    ],
+    "size_gb": 7.332e-05,
+    "notes": "Scope: core_add. Named file-level object: Optical quality measurement workbook. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.bm8nv",
+    "associated_publication_doi": "10.1371/journal.pone.0142189",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.bm8nv"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_shanghai_myopia_2014_2018",
+    "full_name": "Age-related change of axial length, spherical equivalent, prevalence of myopia and high myopia in school-age children in Shanghai: 2014 to 2018",
+    "description": "The named DATA.xls and README define a human pediatric ocular-biometry cohort even though the deposit does not state one primary total.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.c2fqz615c",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.c2fqz615c",
+    "citation": "Age-related change of axial length, spherical equivalent, prevalence of myopia and high myopia in school-age children in Shanghai: 2014 to 2018. Dryad Dataset. doi:10.5061/dryad.c2fqz615c.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "shanghai",
+      "myopia",
+      "2014"
+    ],
+    "size_gb": 0.005062221,
+    "notes": "Scope: core_add. Named file-level object: DATA.xls plus README.docx. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.c2fqz615c",
+    "associated_publication_doi": "10.1155/2020/4235893",
+    "resource_version": 4,
+    "source": {
+      "doi": "10.5061/dryad.c2fqz615c"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_retinal_explant_metabolomics",
+    "full_name": "NMR spectroscopy-based metabolomics of organotypic retinal explants",
+    "description": "The dedicated raw retinal-explant metabolomics archive is a defined translational retinal-metabolism resource.",
+    "modality": "omics",
+    "modalities": [
+      "omics",
+      "tabular"
+    ],
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.c2fqz61hr",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.c2fqz61hr",
+    "citation": "NMR spectroscopy-based metabolomics of organotypic retinal explants. Dryad Dataset. doi:10.5061/dryad.c2fqz61hr.",
+    "tags": [
+      "dryad",
+      "omics",
+      "retinal",
+      "explant",
+      "metabolomics"
+    ],
+    "size_gb": 0.009581295,
+    "notes": "Scope: adjacent_add. Named file-level object: Retina_Metabolomics_raw_data_update.zip plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.c2fqz61hr",
+    "associated_publication_doi": "10.7554/elife.91141.3",
+    "resource_version": 4,
+    "source": {
+      "doi": "10.5061/dryad.c2fqz61hr"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_ird_mouse_proteome",
+    "full_name": "Retinal proteome profiling of inherited retinal degeneration across three different mouse models suggests common drug targets in retinitis pigmentosa",
+    "description": "Nineteen named proteomic tables cover three inherited-retinal-degeneration models and support translational mechanism work.",
+    "modality": "omics",
+    "modalities": [
+      "omics",
+      "tabular"
+    ],
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": 3,
+    "item_count_unit": "mouse_models",
+    "reported_quantities": [
+      {
+        "count": 3,
+        "unit": "mouse_models",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.c2fqz61pc",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.c2fqz61pc",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.c2fqz61pc",
+    "citation": "Retinal proteome profiling of inherited retinal degeneration across three different mouse models suggests common drug targets in retinitis pigmentosa. Dryad Dataset. doi:10.5061/dryad.c2fqz61pc.",
+    "tags": [
+      "dryad",
+      "omics",
+      "ird",
+      "mouse",
+      "proteome"
+    ],
+    "size_gb": 0.007826521,
+    "notes": "Scope: adjacent_add. Named file-level object: Nineteen proteomic CSVs plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.c2fqz61pc",
+    "associated_publication_doi": "10.1016/j.mcpro.2024.100855",
+    "resource_version": 4,
+    "source": {
+      "doi": "10.5061/dryad.c2fqz61pc"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_retinal_prosthesis_navigation",
+    "full_name": "Visual and non-visual navigation in blind patients with a retinal prosthesis",
+    "description": "The four retinal-prosthesis participant dataset is a direct human device-rehabilitation resource rather than generic behavior data.",
+    "modality": "multimodal",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "navigation"
+    ],
+    "num_samples": 4,
+    "item_count_unit": "retinal_prosthesis_participants",
+    "reported_quantities": [
+      {
+        "count": 4,
+        "unit": "retinal_prosthesis_participants",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.c6147",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.c6147",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.c6147",
+    "citation": "Visual and non-visual navigation in blind patients with a retinal prosthesis. Dryad Dataset. doi:10.5061/dryad.c6147.",
+    "tags": [
+      "dryad",
+      "multimodal",
+      "retinal",
+      "prosthesis",
+      "navigation"
+    ],
+    "size_gb": 6.2075e-05,
+    "notes": "Scope: core_add. Named file-level object: SGKPGSRLDCMN_dataset.xlsx. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.c6147",
+    "associated_publication_doi": "10.1371/journal.pone.0134369",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.c6147"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_optic_neuritis_metacontrast",
+    "full_name": "Dichoptic metacontrast masking functions to infer transmission delay in optic neuritis",
+    "description": "The 17-participant optic-neuritis psychophysics archive is a direct human visual-function evaluation resource.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "evaluation"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.cp4j7",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.cp4j7",
+    "citation": "Dichoptic metacontrast masking functions to infer transmission delay in optic neuritis. Dryad Dataset. doi:10.5061/dryad.cp4j7.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "optic",
+      "neuritis",
+      "metacontrast"
+    ],
+    "size_gb": 0.000330125,
+    "notes": "Scope: core_add. Named file-level object: MetacontrastOpticNeuritis.zip. No explicit single primary resource total is stated. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.cp4j7",
+    "associated_publication_doi": "10.1371/journal.pone.0163375",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.cp4j7"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_corneal_biomechanics_prostaglandin",
+    "full_name": "Changes in corneal biomechanical properties after long-term topical prostaglandin therapy",
+    "description": "This 88-eye human Corvis-ST workbook directly supports corneal measurement after glaucoma therapy.",
+    "modality": "corneal_topography",
+    "modalities": [
+      "corneal_topography",
+      "tabular"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.d35s0",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.d35s0",
+    "citation": "Changes in corneal biomechanical properties after long-term topical prostaglandin therapy. Dryad Dataset. doi:10.5061/dryad.d35s0.",
+    "tags": [
+      "dryad",
+      "corneal_topography",
+      "corneal",
+      "biomechanics",
+      "prostaglandin"
+    ],
+    "size_gb": 7.7158e-05,
+    "notes": "Scope: core_add. Named file-level object: Na Wu-corvis primary data.xlsx. No explicit single primary resource total is stated. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.d35s0",
+    "associated_publication_doi": "10.1371/journal.pone.0155527",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.d35s0"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_pediatric_myopia_longitudinal",
+    "full_name": "Axial length elongation and myopia incidence increase in primary school-age children: 3-year follow-up study",
+    "description": "The 452-participant longitudinal pediatric biometric workbook is core myopia progression data.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "progression_analysis"
+    ],
+    "num_samples": 452,
+    "item_count_unit": "participants",
+    "reported_quantities": [
+      {
+        "count": 452,
+        "unit": "participants",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.d4mb3pn",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.d4mb3pn",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.d4mb3pn",
+    "citation": "Axial length elongation and myopia incidence increase in primary school-age children: 3-year follow-up study. Dryad Dataset. doi:10.5061/dryad.d4mb3pn.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "pediatric",
+      "myopia",
+      "longitudinal"
+    ],
+    "size_gb": 0.00037663,
+    "notes": "Scope: core_add. Named file-level object: Data3.xlsx. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.d4mb3pn",
+    "associated_publication_doi": "10.1136/bmjopen-2019-029896",
+    "resource_version": 3,
+    "source": {
+      "doi": "10.5061/dryad.d4mb3pn"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_macaque_cone_ratio",
+    "full_name": "Rhesus macaque cone ratio heritability",
+    "description": "Named cone-expression and pedigree tables provide a defined primate retinal biometrics/genetics resource with plausible translational relevance.",
+    "modality": "omics",
+    "modalities": [
+      "omics",
+      "tabular"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.gf1vhhmsc",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.gf1vhhmsc",
+    "citation": "Rhesus macaque cone ratio heritability. Dryad Dataset. doi:10.5061/dryad.gf1vhhmsc.",
+    "tags": [
+      "dryad",
+      "omics",
+      "macaque",
+      "cone",
+      "ratio"
+    ],
+    "size_gb": 0.00061467,
+    "notes": "Scope: adjacent_add. Named file-level object: ddPCR and pedigree CSVs plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.gf1vhhmsc",
+    "associated_publication_doi": "10.1111/evo.14552",
+    "resource_version": 4,
+    "source": {
+      "doi": "10.5061/dryad.gf1vhhmsc"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_taizhou_cataract_outdoors",
+    "full_name": "The association of outdoor activity and age-related cataract in a rural population of Taizhou Eye Study: phase 1 report",
+    "description": "The 2,006-participant original-data workbook is directly relevant to human cataract epidemiology and prognosis.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "prognosis"
+    ],
+    "num_samples": 2006,
+    "item_count_unit": "participants",
+    "reported_quantities": [
+      {
+        "count": 2006,
+        "unit": "participants",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.gt410",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.gt410",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.gt410",
+    "citation": "The association of outdoor activity and age-related cataract in a rural population of Taizhou Eye Study: phase 1 report. Dryad Dataset. doi:10.5061/dryad.gt410.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "taizhou",
+      "cataract",
+      "outdoors"
+    ],
+    "size_gb": 0.001380897,
+    "notes": "Scope: core_add. Named file-level object: Original Taizhou Eye Study workbook. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.gt410",
+    "associated_publication_doi": "10.1371/journal.pone.0135870",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.gt410"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_retinal_pufa_aging_mouse",
+    "full_name": "Retinal polyunsaturated fatty acid supplementation reverses aging-related vision decline in mice",
+    "description": "Fourteen named retinal lipidomic and expression tables define a disease-mechanism resource for retinal aging.",
+    "modality": "omics",
+    "modalities": [
+      "omics",
+      "tabular"
+    ],
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.gxd25480h",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.gxd25480h",
+    "citation": "Retinal polyunsaturated fatty acid supplementation reverses aging-related vision decline in mice. Dryad Dataset. doi:10.5061/dryad.gxd25480h.",
+    "tags": [
+      "dryad",
+      "omics",
+      "retinal",
+      "pufa",
+      "aging"
+    ],
+    "size_gb": 0.013798287,
+    "notes": "Scope: adjacent_add. Named file-level object: Retinal lipidomics/transcript/protein tables plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.gxd25480h",
+    "associated_publication_doi": "10.1126/scitranslmed.ads5769",
+    "resource_version": 5,
+    "source": {
+      "doi": "10.5061/dryad.gxd25480h"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_pvd_diagnostic_oct",
+    "full_name": "Accuracy of biomicroscopy, ultrasonography and spectral-domain OCT in detection of complete posterior vitreous detachment",
+    "description": "The 123-eye diagnostic workbook directly evaluates clinical OCT ultrasonography and biomicroscopy for vitreous detachment.",
+    "modality": "oct",
+    "modalities": [
+      "oct",
+      "tabular"
+    ],
+    "tasks": [
+      "evaluation"
+    ],
+    "num_samples": 123,
+    "item_count_unit": "eyes",
+    "reported_quantities": [
+      {
+        "count": 123,
+        "unit": "eyes",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.h44j0zpnp",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.h44j0zpnp",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.h44j0zpnp",
+    "citation": "Accuracy of biomicroscopy, ultrasonography and spectral-domain OCT in detection of complete posterior vitreous detachment. Dryad Dataset. doi:10.5061/dryad.h44j0zpnp.",
+    "tags": [
+      "dryad",
+      "oct",
+      "pvd",
+      "diagnostic"
+    ],
+    "size_gb": 0.000410897,
+    "notes": "Scope: core_add. Named file-level object: PVD diagnostic workbook plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.h44j0zpnp",
+    "associated_publication_doi": "10.1186/s12886-023-03233-4",
+    "resource_version": 8,
+    "source": {
+      "doi": "10.5061/dryad.h44j0zpnp"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_eye_care_quality_of_life",
+    "full_name": "Utility index and vision related quality of life in patients awaiting specialist eye care",
+    "description": "The 536-person eye-care quality-of-life dataset is directly usable for human ophthalmic service evaluation.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": 536,
+    "item_count_unit": "participants",
+    "reported_quantities": [
+      {
+        "count": 536,
+        "unit": "participants",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.h44j0zpv3",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.h44j0zpv3",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.h44j0zpv3",
+    "citation": "Utility index and vision related quality of life in patients awaiting specialist eye care. Dryad Dataset. doi:10.5061/dryad.h44j0zpv3.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "eye",
+      "care",
+      "quality"
+    ],
+    "size_gb": 9.5224e-05,
+    "notes": "Scope: core_add. Named file-level object: Dataset_VFQ-Utility_ageRANGE.xlsx plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.h44j0zpv3",
+    "associated_publication_doi": "10.1371/journal.pone.0307691",
+    "resource_version": 7,
+    "source": {
+      "doi": "10.5061/dryad.h44j0zpv3"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_dome_shaped_macula",
+    "full_name": "Observational study of clinical characteristics of dome-shaped macula in Chinese Han with high myopia at Zhongshan Ophthalmic Center",
+    "description": "The 1,384-eye high-myopia database is a directly reusable human macular clinical cohort.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": 1384,
+    "item_count_unit": "eyes",
+    "reported_quantities": [
+      {
+        "count": 1384,
+        "unit": "eyes",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.h544560",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.h544560",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.h544560",
+    "citation": "Observational study of clinical characteristics of dome-shaped macula in Chinese Han with high myopia at Zhongshan Ophthalmic Center. Dryad Dataset. doi:10.5061/dryad.h544560.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "dome",
+      "shaped",
+      "macula"
+    ],
+    "size_gb": 0.000604505,
+    "notes": "Scope: core_add. Named file-level object: High myopia database workbook plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.h544560",
+    "associated_publication_doi": "10.1136/bmjopen-2018-021887",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.h544560"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_young_adult_uv_transmission",
+    "full_name": "Individual variation in the transmission of ultraviolet radiation in the young adult eye.",
+    "description": "The 42-participant UV-transmission workbook is direct human ocular-optics measurement data.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": 42,
+    "item_count_unit": "participants",
+    "reported_quantities": [
+      {
+        "count": 42,
+        "unit": "participants",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.hg000c2",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.hg000c2",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.hg000c2",
+    "citation": "Individual variation in the transmission of ultraviolet radiation in the young adult eye.. Dryad Dataset. doi:10.5061/dryad.hg000c2.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "young",
+      "adult",
+      "uv"
+    ],
+    "size_gb": 2.8408e-05,
+    "notes": "Scope: core_add. Named file-level object: UV Data-Hammond.xlsx. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.hg000c2",
+    "associated_publication_doi": "10.1371/journal.pone.0199940",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.hg000c2"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_pediatric_corneal_endothelium",
+    "full_name": "Corneal endothelial morphology of healthy myopic Malaysian children of Chinese ethnicity aged 8-9 years and its association with axial length",
+    "description": "The 111-participant raw corneal endothelial dataset is direct pediatric ocular-biometric data.",
+    "modality": "corneal_topography",
+    "modalities": [
+      "corneal_topography",
+      "tabular"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": 111,
+    "item_count_unit": "participants",
+    "reported_quantities": [
+      {
+        "count": 111,
+        "unit": "participants",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.hhmgqnkjc",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.hhmgqnkjc",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.hhmgqnkjc",
+    "citation": "Corneal endothelial morphology of healthy myopic Malaysian children of Chinese ethnicity aged 8-9 years and its association with axial length. Dryad Dataset. doi:10.5061/dryad.hhmgqnkjc.",
+    "tags": [
+      "dryad",
+      "corneal_topography",
+      "pediatric",
+      "corneal",
+      "endothelium"
+    ],
+    "size_gb": 0.000118991,
+    "notes": "Scope: core_add. Named file-level object: F1000_ECD_raw_data_submitted.xlsx plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.hhmgqnkjc",
+    "associated_publication_doi": "10.12688/f1000research.110560.2",
+    "resource_version": 5,
+    "source": {
+      "doi": "10.5061/dryad.hhmgqnkjc"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_subretinal_fibrosis_adora2a",
+    "full_name": "Inactivation of adenosine receptor 2A suppresses endothelial-to-mesenchymal transition and inhibits subretinal fibrosis in mice",
+    "description": "Forty-five raw omics files with treatment metadata define a translational mouse subretinal-fibrosis mechanism resource.",
+    "modality": "omics",
+    "modalities": [
+      "omics",
+      "tabular"
+    ],
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.hx3ffbgmv",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.hx3ffbgmv",
+    "citation": "Inactivation of adenosine receptor 2A suppresses endothelial-to-mesenchymal transition and inhibits subretinal fibrosis in mice. Dryad Dataset. doi:10.5061/dryad.hx3ffbgmv.",
+    "tags": [
+      "dryad",
+      "omics",
+      "subretinal",
+      "fibrosis",
+      "adora2a"
+    ],
+    "size_gb": 0.010972741,
+    "notes": "Scope: adjacent_add. Named file-level object: Raw proteomics/metabolomics files plus sample-treatment metadata. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.hx3ffbgmv",
+    "associated_publication_doi": "10.1126/scitranslmed.adk3868",
+    "resource_version": 6,
+    "source": {
+      "doi": "10.5061/dryad.hx3ffbgmv"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_preeclampsia_ocular_octa",
+    "full_name": "Plane wave ultrasound and OCT angiography of the eye in preeclampsia",
+    "description": "The defined plane-wave ultrasound/OCTA data file and README directly support human ocular vascular measurement.",
+    "modality": "octa",
+    "modalities": [
+      "octa",
+      "ocular_ultrasound",
+      "tabular"
+    ],
+    "tasks": [
+      "vessel_analysis"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.j0zpc86kg",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.j0zpc86kg",
+    "citation": "Plane wave ultrasound and OCT angiography of the eye in preeclampsia. Dryad Dataset. doi:10.5061/dryad.j0zpc86kg.",
+    "tags": [
+      "dryad",
+      "octa",
+      "preeclampsia",
+      "ocular"
+    ],
+    "size_gb": 0.000308996,
+    "notes": "Scope: core_add. Named file-level object: PE_ran.sav plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.j0zpc86kg",
+    "associated_publication_doi": "10.1167/tvst.9.10.14",
+    "resource_version": 4,
+    "source": {
+      "doi": "10.5061/dryad.j0zpc86kg"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_acanthamoeba_keratitis_transcriptome",
+    "full_name": "Human conjunctival transcriptome in Acanthamoeba keratitis: An exploratory study",
+    "description": "Counts and metadata for 22 people form a directly translational human keratitis transcriptomics resource.",
+    "modality": "omics",
+    "modalities": [
+      "omics",
+      "tabular"
+    ],
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.k3j9kd5fx",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.k3j9kd5fx",
+    "citation": "Human conjunctival transcriptome in Acanthamoeba keratitis: An exploratory study. Dryad Dataset. doi:10.5061/dryad.k3j9kd5fx.",
+    "tags": [
+      "dryad",
+      "omics",
+      "acanthamoeba",
+      "keratitis",
+      "transcriptome"
+    ],
+    "size_gb": 0.005160475,
+    "notes": "Scope: core_add. Named file-level object: Conjunctival count matrix metadata and identifier map. No explicit single primary resource total is stated. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.k3j9kd5fx",
+    "associated_publication_doi": "10.1097/ico.0000000000003545",
+    "resource_version": 4,
+    "source": {
+      "doi": "10.5061/dryad.k3j9kd5fx"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_ocular_gvhd_mouse",
+    "full_name": "Ocular graft vs host disease mouse model",
+    "description": "The named raw-data workbook and README define a clinically relevant ocular graft-versus-host disease model.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "evaluation"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.k6djh9w8z",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.k6djh9w8z",
+    "citation": "Ocular graft vs host disease mouse model. Dryad Dataset. doi:10.5061/dryad.k6djh9w8z.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "ocular",
+      "gvhd",
+      "mouse"
+    ],
+    "size_gb": 0.000197224,
+    "notes": "Scope: adjacent_add. Named file-level object: OGVHD_Raw_data_compiled.xlsx plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.k6djh9w8z",
+    "associated_publication_doi": null,
+    "resource_version": 5,
+    "source": {
+      "doi": "10.5061/dryad.k6djh9w8z"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_congenital_glaucoma_wes",
+    "full_name": "Identification of novel variants in LTBP2 and PXDN using whole-exome sequencing in developmental and congenital glaucoma",
+    "description": "Four exome difference files for three congenital-glaucoma families are directly translational human ocular genetics data.",
+    "modality": "omics",
+    "modalities": [
+      "omics",
+      "tabular"
+    ],
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": 3,
+    "item_count_unit": "families",
+    "reported_quantities": [
+      {
+        "count": 3,
+        "unit": "families",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.k7455",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.k7455",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.k7455",
+    "citation": "Identification of novel variants in LTBP2 and PXDN using whole-exome sequencing in developmental and congenital glaucoma. Dryad Dataset. doi:10.5061/dryad.k7455.",
+    "tags": [
+      "dryad",
+      "omics",
+      "congenital",
+      "glaucoma",
+      "wes"
+    ],
+    "size_gb": 0.442139301,
+    "notes": "Scope: core_add. Named file-level object: Four WES difference files. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.k7455",
+    "associated_publication_doi": "10.1371/journal.pone.0159259",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.k7455"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_angle_closure_rabbit",
+    "full_name": "Expression of matrix Metalloproteinases-2 and aquaporin-1 in corneoscleral junction after angle-closure in rabbits",
+    "description": "Rabbit corneoscleral images and IOP ELISA and PCR files provide a defined angle-closure disease-mechanism model.",
+    "modality": "external_eye",
+    "modalities": [
+      "external_eye"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": 30,
+    "item_count_unit": "rabbits",
+    "reported_quantities": [
+      {
+        "count": 30,
+        "unit": "rabbits",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.ks48tt4",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.ks48tt4",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.ks48tt4",
+    "citation": "Expression of matrix Metalloproteinases-2 and aquaporin-1 in corneoscleral junction after angle-closure in rabbits. Dryad Dataset. doi:10.5061/dryad.ks48tt4.",
+    "tags": [
+      "dryad",
+      "external_eye",
+      "angle",
+      "closure",
+      "rabbit"
+    ],
+    "size_gb": 0.13381126,
+    "notes": "Scope: adjacent_add. Named file-level object: Ocular images plus ELISA PCR and IOP files. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.ks48tt4",
+    "associated_publication_doi": "10.1186/s12886-019-1058-5",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.ks48tt4"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_corneal_laser_procedure",
+    "full_name": "Corneal Laser Procedure for safety and efficacy in vision improvement",
+    "description": "Two clinical workbooks cover 72 treated eyes and directly support surgical corneal outcome evaluation.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "evaluation"
+    ],
+    "num_samples": 72,
+    "item_count_unit": "eyes",
+    "reported_quantities": [
+      {
+        "count": 72,
+        "unit": "eyes",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.m905qfv2r",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.m905qfv2r",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.m905qfv2r",
+    "citation": "Corneal Laser Procedure for safety and efficacy in vision improvement. Dryad Dataset. doi:10.5061/dryad.m905qfv2r.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "corneal",
+      "laser",
+      "procedure"
+    ],
+    "size_gb": 0.000600278,
+    "notes": "Scope: core_add. Named file-level object: Two corneal laser procedure workbooks plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.m905qfv2r",
+    "associated_publication_doi": "10.12688/f1000research.109665.1",
+    "resource_version": 8,
+    "source": {
+      "doi": "10.5061/dryad.m905qfv2r"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_lens_fluorescence_twins",
+    "full_name": "Long-term development of lens fluorescence in a twin cohort: Heritability and effects of age and lifestyle",
+    "description": "The 131-participant longitudinal lens-fluorescence workbook is core human ocular biometrics data.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "progression_analysis"
+    ],
+    "num_samples": 131,
+    "item_count_unit": "participants",
+    "reported_quantities": [
+      {
+        "count": 131,
+        "unit": "participants",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.mcvdnck22",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.mcvdnck22",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.mcvdnck22",
+    "citation": "Long-term development of lens fluorescence in a twin cohort: Heritability and effects of age and lifestyle. Dryad Dataset. doi:10.5061/dryad.mcvdnck22.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "lens",
+      "fluorescence",
+      "twins"
+    ],
+    "size_gb": 0.000112831,
+    "notes": "Scope: core_add. Named file-level object: Data_for_repository_paper_1_v3.xlsx. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.mcvdnck22",
+    "associated_publication_doi": "10.1371/journal.pone.0268458",
+    "resource_version": 4,
+    "source": {
+      "doi": "10.5061/dryad.mcvdnck22"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_zebrafish_thrb_photoreceptors",
+    "full_name": "Thyroid hormone receptor beta mutations alter photoreceptor development and function in Danio rerio (zebrafish)",
+    "description": "Eight genotype/stage functional workbooks provide a defined photoreceptor disease-mechanism model.",
+    "modality": "electrophysiology",
+    "modalities": [
+      "electrophysiology",
+      "tabular"
+    ],
+    "tasks": [
+      "evaluation"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.msbcc2fvr",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.msbcc2fvr",
+    "citation": "Thyroid hormone receptor beta mutations alter photoreceptor development and function in Danio rerio (zebrafish). Dryad Dataset. doi:10.5061/dryad.msbcc2fvr.",
+    "tags": [
+      "dryad",
+      "electrophysiology",
+      "zebrafish",
+      "thrb",
+      "photoreceptors"
+    ],
+    "size_gb": 0.000586618,
+    "notes": "Scope: adjacent_add. Named file-level object: Eight zebrafish photoreceptor workbooks. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.msbcc2fvr",
+    "associated_publication_doi": "10.1371/journal.pgen.1008869",
+    "resource_version": 2,
+    "source": {
+      "doi": "10.5061/dryad.msbcc2fvr"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_huntingtons_retinal_oct",
+    "full_name": "Is retina affected in Huntington's disease? Is optical coherence tomography a good biomarker?",
+    "description": "The named CSV and README form a direct human retinal OCT biomarker resource.",
+    "modality": "oct",
+    "modalities": [
+      "oct",
+      "tabular"
+    ],
+    "tasks": [
+      "classification"
+    ],
+    "num_samples": null,
+    "item_count_unit": null,
+    "reported_quantities": [],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.ncjsxksxr",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.ncjsxksxr",
+    "citation": "Is retina affected in Huntington's disease? Is optical coherence tomography a good biomarker?. Dryad Dataset. doi:10.5061/dryad.ncjsxksxr.",
+    "tags": [
+      "dryad",
+      "oct",
+      "huntingtons",
+      "retinal"
+    ],
+    "size_gb": 2.4663e-05,
+    "notes": "Scope: core_add. Named file-level object: data.csv plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.ncjsxksxr",
+    "associated_publication_doi": "10.1371/journal.pone.0282175",
+    "resource_version": 5,
+    "source": {
+      "doi": "10.5061/dryad.ncjsxksxr"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_ga_biofeedback",
+    "full_name": "Biofeedback fixation training in the rehabilitation of patients suffering from geographic atrophy",
+    "description": "The 18-participant final CSV is a direct human geographic-atrophy rehabilitation outcome resource.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "evaluation"
+    ],
+    "num_samples": 18,
+    "item_count_unit": "participants",
+    "reported_quantities": [
+      {
+        "count": 18,
+        "unit": "participants",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.ngf1vhj81",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.ngf1vhj81",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.ngf1vhj81",
+    "citation": "Biofeedback fixation training in the rehabilitation of patients suffering from geographic atrophy. Dryad Dataset. doi:10.5061/dryad.ngf1vhj81.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "ga",
+      "biofeedback"
+    ],
+    "size_gb": 1.0256e-05,
+    "notes": "Scope: core_add. Named file-level object: AMD-Biofeedback_dataset_final.csv plus README. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.ngf1vhj81",
+    "associated_publication_doi": "10.3390/life16010165",
+    "resource_version": 5,
+    "source": {
+      "doi": "10.5061/dryad.ngf1vhj81"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_human_foveal_cones",
+    "full_name": "Human foveal cone photoreceptor topography and its dependence on eye length",
+    "description": "The 28-eye human adaptive-optics archive is directly reusable for foveal cellular imaging and biometric measurement.",
+    "modality": "adaptive_optics",
+    "modalities": [
+      "adaptive_optics",
+      "tabular"
+    ],
+    "tasks": [
+      "measurement"
+    ],
+    "num_samples": 28,
+    "item_count_unit": "eyes",
+    "reported_quantities": [
+      {
+        "count": 28,
+        "unit": "eyes",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.nh0fp1b",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.nh0fp1b",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.nh0fp1b",
+    "citation": "Human foveal cone photoreceptor topography and its dependence on eye length. Dryad Dataset. doi:10.5061/dryad.nh0fp1b.",
+    "tags": [
+      "dryad",
+      "adaptive_optics",
+      "human",
+      "foveal",
+      "cones"
+    ],
+    "size_gb": 0.033285643,
+    "notes": "Scope: core_add. Named file-level object: HUMAN_FOVEAL_CONES.zip. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.nh0fp1b",
+    "associated_publication_doi": "10.7554/eLife.47148",
+    "resource_version": 1,
+    "source": {
+      "doi": "10.5061/dryad.nh0fp1b"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  {
+    "name": "dryad_namd_12_year_survival",
+    "full_name": "Insights from survival analyses during 12 years of anti-VEGF therapy for neovascular age-related macular degeneration",
+    "description": "The anonymized 7,802-eye human AMD CSV is a clearly defined long-term ophthalmic survival resource.",
+    "modality": "tabular",
+    "modalities": [
+      "tabular"
+    ],
+    "tasks": [
+      "survival_analysis"
+    ],
+    "num_samples": 7802,
+    "item_count_unit": "eyes",
+    "reported_quantities": [
+      {
+        "count": 7802,
+        "unit": "eyes",
+        "scope": "Source-stated primary resource quantity.",
+        "evidence_url": "https://doi.org/10.5061/dryad.nvx0k6dqg",
+        "evidence_basis": "official_deposit_abstract",
+        "primary": true,
+        "exactness": "exact",
+        "review_date": "2026-08-01",
+        "notes": "Current official Dryad metadata."
+      }
+    ],
+    "splits": [
+      "all"
+    ],
+    "download_type": "dryad",
+    "download_url": "https://doi.org/10.5061/dryad.nvx0k6dqg",
+    "license": "CC0 1.0",
+    "source_terms": "CC0 1.0",
+    "terms_scope": "dataset_files",
+    "terms_evidence_url": "https://doi.org/10.5061/dryad.nvx0k6dqg",
+    "citation": "Insights from survival analyses during 12 years of anti-VEGF therapy for neovascular age-related macular degeneration. Dryad Dataset. doi:10.5061/dryad.nvx0k6dqg.",
+    "tags": [
+      "dryad",
+      "tabular",
+      "namd",
+      "12",
+      "year"
+    ],
+    "size_gb": 0.020398805,
+    "notes": "Scope: core_add. Named file-level object: MEH_AMD_survivaloutcomes_database.csv plus README. Official Dryad metadata does not explicitly document cohort overlap with an existing catalog record; no relationship is asserted. Official Dryad API metadata and current file listing reviewed 2026-08-01.",
+    "dataset_doi": "10.5061/dryad.nvx0k6dqg",
+    "associated_publication_doi": "10.1001/jamaophthalmol.2020.5044",
+    "resource_version": 5,
+    "source": {
+      "doi": "10.5061/dryad.nvx0k6dqg"
+    },
+    "relationships": [],
+    "author_source_checked": true,
+    "source_check_date": "2026-08-01",
+    "source_check_status": "checked_against_official_repository",
+    "access_check_status": "official_api_file_listing_checked",
+    "route_last_checked": "2026-08-01",
+    "access_friction": "self_service_authenticated",
+    "requires_registration": false,
+    "requires_authentication": true,
+    "requires_api_token": true,
+    "requires_clickthrough": false,
+    "requires_manual_approval": false,
+    "requires_data_use_agreement": false,
+    "requires_author_contact": false,
+    "requires_payment": false,
+    "availability_status": "available",
+    "acquisition_support": "guided_instructions_only",
+    "loader_backend": "dryad",
+    "loader_name": "dryad_loader",
+    "loader_live_tested": false,
+    "loader_test_date": null,
+    "loader_test_scope": "not_run",
+    "loader_test_result": "not_run_credentialed_route"
+  }
+]

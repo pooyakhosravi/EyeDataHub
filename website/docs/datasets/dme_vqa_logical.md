@@ -57,7 +57,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 
 - This record is `extension of` [dme_vqa](./dme_vqa.md): This release adds logical-relation annotations to the earlier DME VQA resource. ([evidence](https://zenodo.org/records/7777849))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -66,7 +66,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download dme_vqa_logical --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download dme_vqa_logical --data-dir ./data
 ```
 
@@ -78,7 +78,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('dme_vqa_logical')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

@@ -57,7 +57,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 
 - This record is `derived from` [lmod_cataract_1k](./lmod_cataract_1k.md): The dataset card identifies LMOD-Cataract-1K as its image source. ([evidence](https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -66,7 +66,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download lmod_cataract_1k_cot --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download lmod_cataract_1k_cot --data-dir ./data
 ```
 
@@ -78,7 +78,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('lmod_cataract_1k_cot')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "qa_date": "2026-08-01",
+  "inputs": [
+    "hub/audit/dryad_search_candidates_2026-08-01.json",
+    "hub/audit/dryad_scope_screen_c_2026-08-01.csv"
+  ],
+  "checks": {
+    "record_count": 49,
+    "doi_set_matches_retained_scope": true,
+    "licenses_and_source_terms_match_captured_official_search_metadata": true,
+    "source_versions_match_captured_scope_metadata": true,
+    "file_counts_and_bytes_match_captured_scope_metadata": true,
+    "publication_dois_are_bare": true,
+    "supported_categories_modalities_tasks": true,
+    "ascii_citations": true,
+    "quantity_schema_and_primary_count_consistency": true,
+    "credentialed_dryad_route_and_no_transfer_run": true,
+    "retinal_vessel_trace_relationship": {
+      "doi": "10.5061/dryad.sf7m0cggh",
+      "target": "drive",
+      "evidence_url": "https://datadryad.org/api/v2/versions/353579/files",
+      "official_file_listing_checked": true,
+      "drive_named_files_present": true,
+      "file_names": [
+        "global_trace_annotation_drive.xlsx",
+        "global_trace_annotation_new.xlsx",
+        "global_trace_result_drive.xlsx",
+        "global_trace_result_new.xlsx",
+        "README.md"
+      ]
+    }
+  },
+  "fixes": {
+    "publication_doi_case_normalizations": [
+      {
+        "doi": "10.5061/dryad.vq83bk3s8",
+        "from": "10.7554/eLife.68181",
+        "to": "10.7554/elife.68181"
+      },
+      {
+        "doi": "10.5061/dryad.w3r228143",
+        "from": "10.7554/eLife.98662.4",
+        "to": "10.7554/elife.98662.4"
+      },
+      {
+        "doi": "10.5061/dryad.x95x69pmq",
+        "from": "10.7554/eLife.80271",
+        "to": "10.7554/elife.80271"
+      },
+      {
+        "doi": "10.7272/q6rv0kz3",
+        "from": "10.7554/eLife.81780",
+        "to": "10.7554/elife.81780"
+      }
+    ],
+    "concise_paraphrased_descriptions_replaced": {
+      "count": 49,
+      "dois": [
+        "10.5061/dryad.pg4f4qrwf",
+        "10.5061/dryad.pk0p2ngzh",
+        "10.5061/dryad.pk31jt2",
+        "10.5061/dryad.pnvx0k6hv",
+        "10.5061/dryad.pzgmsbcfw",
+        "10.5061/dryad.pzgmsbcmk",
+        "10.5061/dryad.q83bk3jnw",
+        "10.5061/dryad.qfttdz0dr",
+        "10.5061/dryad.r4xgxd2nt",
+        "10.5061/dryad.r7s04",
+        "10.5061/dryad.r7sqv9sqs",
+        "10.5061/dryad.rn38r",
+        "10.5061/dryad.rn8pk0p70",
+        "10.5061/dryad.rn8pk0pdp",
+        "10.5061/dryad.rn8pk0pmm",
+        "10.5061/dryad.rs2qp",
+        "10.5061/dryad.rv15dv4bv",
+        "10.5061/dryad.s1rn8pkhb",
+        "10.5061/dryad.sbcc2fr6n",
+        "10.5061/dryad.sbcc2fr7r",
+        "10.5061/dryad.sf7m0cggh",
+        "10.5061/dryad.sn02v6x2x",
+        "10.5061/dryad.tb2rbp0cq",
+        "10.5061/dryad.tdz08kq8t",
+        "10.5061/dryad.tmpg4f4vb",
+        "10.5061/dryad.v6wwpzh1b",
+        "10.5061/dryad.v9p0b",
+        "10.5061/dryad.vq83bk3s8",
+        "10.5061/dryad.vx0k6djwf",
+        "10.5061/dryad.w3r228143",
+        "10.5061/dryad.wdbrv15rj",
+        "10.5061/dryad.wstqjq2n5",
+        "10.5061/dryad.x95x69pmq",
+        "10.5061/dryad.xgxd254pk",
+        "10.5061/dryad.xpnvx0kb6",
+        "10.5061/dryad.xwdbrv1kd",
+        "10.5061/dryad.z08kprrk3",
+        "10.5061/dryad.z08kprrk6",
+        "10.5061/dryad.z8w9ghx9c",
+        "10.5061/dryad.z8w9ghx9f",
+        "10.5061/dryad.z8w9ghxpp",
+        "10.5061/dryad.zkh1893nt",
+        "10.5061/dryad.zs7h44jd9",
+        "10.5068/d1zd5s",
+        "10.6075/j0707ztm",
+        "10.6078/d12d9f",
+        "10.6078/d1895r",
+        "10.7272/q6rv0kz3",
+        "10.7272/q6w37t8b"
+      ]
+    }
+  },
+  "unresolved_fields": {
+    "source_stated_primary_quantity_not_available": [
+      "10.5061/dryad.pk0p2ngzh",
+      "10.5061/dryad.pk31jt2",
+      "10.5061/dryad.pnvx0k6hv",
+      "10.5061/dryad.pzgmsbcfw",
+      "10.5061/dryad.pzgmsbcmk",
+      "10.5061/dryad.q83bk3jnw",
+      "10.5061/dryad.r4xgxd2nt",
+      "10.5061/dryad.r7sqv9sqs",
+      "10.5061/dryad.rn8pk0p70",
+      "10.5061/dryad.rn8pk0pmm",
+      "10.5061/dryad.rs2qp",
+      "10.5061/dryad.rv15dv4bv",
+      "10.5061/dryad.s1rn8pkhb",
+      "10.5061/dryad.sf7m0cggh",
+      "10.5061/dryad.tb2rbp0cq",
+      "10.5061/dryad.tdz08kq8t",
+      "10.5061/dryad.v6wwpzh1b",
+      "10.5061/dryad.v9p0b",
+      "10.5061/dryad.vq83bk3s8",
+      "10.5061/dryad.vx0k6djwf",
+      "10.5061/dryad.w3r228143",
+      "10.5061/dryad.wdbrv15rj",
+      "10.5061/dryad.wstqjq2n5",
+      "10.5061/dryad.x95x69pmq",
+      "10.5061/dryad.xpnvx0kb6",
+      "10.5061/dryad.xwdbrv1kd",
+      "10.5061/dryad.z08kprrk3",
+      "10.5061/dryad.z08kprrk6",
+      "10.5061/dryad.z8w9ghxpp",
+      "10.5061/dryad.zkh1893nt",
+      "10.5061/dryad.zs7h44jd9",
+      "10.5068/d1zd5s",
+      "10.6075/j0707ztm",
+      "10.6078/d12d9f",
+      "10.6078/d1895r",
+      "10.7272/q6rv0kz3",
+      "10.7272/q6w37t8b"
+    ],
+    "note": "These records retain null num_samples/item_count_unit rather than infer a sample count from files."
+  },
+  "decision_counts": {
+    "core_add": 18,
+    "adjacent_add": 31
+  },
+  "credential_values_serialized": false,
+  "dataset_files_downloaded": false
+}

@@ -56,7 +56,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 
 - [cadis](./cadis.md) is `derived from` this record: CaDIS adds semantic segmentation labels to frames selected from CATARACTS videos. ([evidence](https://cataracts-semantic-segmentation2020.grand-challenge.org/))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -65,7 +65,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download cataracts2017 --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download cataracts2017 --data-dir ./data
 ```
 
@@ -77,7 +77,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('cataracts2017')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

@@ -28,7 +28,7 @@ from eyedatahub.core.relationships import (  # noqa: E402
     RELATIONSHIP_TYPES,
 )
 from eyedatahub.datasets.registry import REGISTRY  # noqa: E402
-from hub.export_catalog import CATALOG_CUTOFF  # noqa: E402
+from hub.export_catalog import CATALOG_CUTOFF, CATALOG_RECORD_COUNT  # noqa: E402
 
 
 AUDIT_DIR = ROOT / "hub" / "audit"
@@ -191,8 +191,10 @@ def generate() -> tuple[Path, Path, Path, Path]:
         dataset.info.name: info_to_record(dataset.info)
         for dataset in REGISTRY.list_datasets()
     }
-    if len(records) != 251:
-        raise RuntimeError(f"Expected 251 catalog records, found {len(records)}")
+    if len(records) != CATALOG_RECORD_COUNT:
+        raise RuntimeError(
+            f"Expected {CATALOG_RECORD_COUNT} catalog records, found {len(records)}"
+        )
     validate_edges(records)
 
     outgoing: dict[str, list[Any]] = defaultdict(list)
@@ -295,8 +297,11 @@ def generate() -> tuple[Path, Path, Path, Path]:
                 }
             )
 
-    if len(review_rows) != 251:
-        raise RuntimeError(f"Relationship review has {len(review_rows)} rows, expected 251")
+    if len(review_rows) != CATALOG_RECORD_COUNT:
+        raise RuntimeError(
+            f"Relationship review has {len(review_rows)} rows, "
+            f"expected {CATALOG_RECORD_COUNT}"
+        )
 
     _write_csv(REVIEW_PATH, review_rows, list(review_rows[0]))
     _write_csv(EDGE_PATH, edge_rows, list(edge_rows[0]))

@@ -205,7 +205,6 @@ class DatasetInfo:
     author_source_checked: Optional[bool] = None
     source_check_date: Optional[str] = None
     source_check_status: str = ""
-    independent_audit_status: str = ""
     access_check_status: str = ""
     transfer_check_status: str = ""
 

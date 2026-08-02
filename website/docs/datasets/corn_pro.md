@@ -61,7 +61,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - [corn_collection](./corn_collection.md) is `has component` this record: The CORN collection lists CORN-Pro as one of its six component deposits. ([evidence](https://zenodo.org/records/19689814))
 - This record is `component of` [corn_collection](./corn_collection.md): CORN-Pro is a named component of the combined CORN collection. ([evidence](https://zenodo.org/records/19689814))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -143,3 +143,4 @@ CORN database (https://imed.nimte.ac.cn/CORN.html). Zenodo record 14263883: http
 - [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (1,500 images, `unknown`)
 - [superccm_fineset](./superccm_fineset.md): SuperCCM-FineSet (210 images, `unknown`)
 - [corneal_epithelium_confocal](./corneal_epithelium_confocal.md): Keratoconus Corneal Epithelium Confocal Fluorescence Dataset (7 participants, `cc-by`)
+- [dryad_pk0p2ngzh](./dryad_pk0p2ngzh.md): Morphometric analysis of retinal ganglionic cells (3D confocal images) analyzed using filament tracer from Imaris software (Not reported, `cc0`)

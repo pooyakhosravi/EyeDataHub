@@ -54,7 +54,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 > - PaddleSeg optic-disc subset (~19 MB, direct HTTPS, no login): https://paddleseg.bj.bcebos.com/dataset/optic_disc_seg.zip
 > The full 1.5 GB dataset is only via Grand Challenge or the Baidu portal.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -63,7 +63,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download ichallenge_amd --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download ichallenge_amd --data-dir ./data
 ```
 
@@ -75,7 +75,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('ichallenge_amd')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

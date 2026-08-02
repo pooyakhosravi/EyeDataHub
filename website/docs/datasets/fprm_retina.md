@@ -52,7 +52,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Scientific Data descriptor reports 3,361 fundus photographs from 1,683 participants plus multimodal imaging from 384 participants; Synapse access requires certified account and completed data-use agreement.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -125,6 +125,6 @@ Zhang G, Qu Y, Zhang Y, et al. Multimodal Eye Imaging, Retina Characteristics, a
 - [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
 - [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
 - [papila](./papila.md): PAPILA: Glaucoma Fundus Dataset with Clinical Data (488 images, `cc-by`)
+- [dryad_diabetes_retinal_capillary](./dryad_diabetes_retinal_capillary.md): Diabetes Retinal Capillary Rarefaction Dataset (73 participants, `cc0`)
+- [dryad_sf7m0cggh](./dryad_sf7m0cggh.md): Robust semi-automatic vessel tracing in the human retinal image by an instance segmentation neural network (Not reported, `cc0`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [airogs](./airogs.md): AIROGS: AI for Robust Glaucoma Screening (113,893 images, `cc-by-nc-nd`)
-- [multieye](./multieye.md): MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark (103,959 images, `mit`)

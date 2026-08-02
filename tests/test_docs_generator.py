@@ -39,12 +39,12 @@ def test_dashboard_index_includes_loader_counts_and_status():
     payload = build_static_dataset_index(REGISTRY.list_datasets())
     rows = {row["name"]: row for row in payload["datasets"]}
 
-    assert payload["summary"]["datasets"] == 251
+    assert payload["summary"]["datasets"] == 386
     assert payload["summary"]["loaders_implemented"] == 75
     assert payload["summary"]["primary_categories"] == 18
-    assert payload["summary"]["transfer_tested_routes"] == 52
-    assert payload["facets"]["modality"]["fundus"] == 121
-    assert payload["facets"]["modality"]["confocal"] == 5
+    assert payload["summary"]["transfer_tested_routes"] == 54
+    assert payload["facets"]["modality"]["fundus"] == 125
+    assert payload["facets"]["modality"]["confocal"] == 6
     assert rows["airogs"]["loader_status"] == "implemented"
     assert rows["nd_iris_0405"]["loader_status"] == "metadata_only"
     assert rows["olives"]["modalities"] == ["oct", "fundus", "tabular"]
@@ -63,6 +63,15 @@ def test_dashboard_index_includes_loader_counts_and_status():
         and relationship["target_name"] == "aod"
         for relationship in rows["odir2019"]["relationships"]
     )
+    moorfields = rows["dryad_namd_oct_quant"]["relationships"]
+    fellow_eye_links = [
+        relationship
+        for relationship in moorfields
+        if relationship["relationship_type"] == "same_or_overlapping_cohort_as"
+        and relationship["target_name"] == "dryad_moorfields_namd_fellow_eye"
+    ]
+    assert len(fellow_eye_links) == 1
+    assert fellow_eye_links[0]["direction"] == "symmetric"
     assert payload["summary"]["documented_relationship_edges"] == len(RELATIONSHIP_EVIDENCE)
     assert payload["summary"]["datasets_with_documented_relationships"] > 0
     assert payload["facets"]["relationship_type"]["derived_from"] > 0
@@ -95,7 +104,7 @@ def test_llms_full_exposes_tasks_sources_access_and_loader_status(tmp_path: Path
     assert "LOAD=implemented" in text
     assert "LOAD=metadata_only" in text
     assert "URL=https://" in text
-    assert "245 with a primary reported quantity" in text
+    assert "300 with a primary reported quantity" in text
     assert "N=69_b_scans" in text
     assert "mixed source records" not in text
     assert "ds.download(" not in text

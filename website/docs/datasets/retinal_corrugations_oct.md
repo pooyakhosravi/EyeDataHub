@@ -51,7 +51,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > The associated Data in Brief article reports 69 baseline cross-sectional SS-OCT scans from 66 patients; one methods passage reports 66 assessed scans, so the count is retained with a source-conflict flag.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -60,7 +60,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download retinal_corrugations_oct --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download retinal_corrugations_oct --data-dir ./data
 ```
 
@@ -72,7 +72,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('retinal_corrugations_oct')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

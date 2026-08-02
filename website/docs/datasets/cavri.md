@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Access by email request: agnieszka.stankiewicz@put.poznan.pl or tomasz.marciniak@put.poznan.pl. Dataset page: https://dsp.put.poznan.pl/cavri_database-191/ GitHub (segmentation code): https://github.com/krzyk87/pcv_segmentation
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

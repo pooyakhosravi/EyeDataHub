@@ -1,6 +1,6 @@
 """Source-term-aware ophthalmology dataset catalog and acquisition tool."""
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 __author__ = "EyeDataHub Contributors"
 
 # Load .env early so subsequent Kaggle / HuggingFace / PhysioNet /

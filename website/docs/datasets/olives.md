@@ -52,7 +52,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > 9,408 biomarker-labelled B-scans from 96 patients (6 clinical visits × 49 B-scans/visit). Full OCT volume set ~62,000 B-scans. Also available on HuggingFace: gOLIVES/OLIVES_Dataset. Contains paired fundus photos and clinical metadata.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -61,7 +61,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download olives --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download olives --data-dir ./data
 ```
 
@@ -73,7 +73,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('olives')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

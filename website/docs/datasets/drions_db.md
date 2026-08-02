@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > UNED host serves an expired SSL certificate as of 2026-07. EyeDataHub falls back to an unverified HTTPS request; set PYTHONHTTPSVERIFY=0 in your environment if requests still fails cert validation. Distributed as .rar — needs `unrar` (Linux: `apt install unrar`; macOS: `brew install rar`; Windows: 7-Zip).
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -59,7 +59,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download drions_db --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download drions_db --data-dir ./data
 ```
 
@@ -71,7 +71,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('drions_db')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

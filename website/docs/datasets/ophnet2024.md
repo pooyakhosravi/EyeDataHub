@@ -53,7 +53,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > ~583 GB total: untrimmed ~305 GB, trimmed operations ~139 GB, trimmed phases ~139 GB, features ~26 GB. num_samples = 2,278 source videos. May require HF_TOKEN for gated access. Set HF_TOKEN in .env. GitHub: https://github.com/minghu0830/OphNet-benchmark
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -62,7 +62,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download ophnet2024 --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download ophnet2024 --data-dir ./data
 ```
 
@@ -74,7 +74,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('ophnet2024')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

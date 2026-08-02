@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "qa_date": "2026-08-01",
+  "record_path": "hub/audit/dryad_catalog_records_b_2026-08-01.json",
+  "record_count": 41,
+  "check_counts": {
+    "official_snapshot_records_matched": 41,
+    "scope_retained_dois_matched": 41,
+    "official_cc0_license_and_terms_matched": 41,
+    "official_version_matched": 41,
+    "official_byte_size_matched": 41,
+    "bare_publication_identifier_checked": 41,
+    "unique_names_checked": 41,
+    "current_category_task_vocabulary_checked": 41,
+    "credentialed_routes_checked": 41,
+    "data_file_downloads_run": 0
+  },
+  "fix_counts": {
+    "associated_publication_doi_normalized_or_cleared": 2,
+    "inferred_primary_quantities_removed": 5,
+    "unsupported_moorfields_relationship_assertions_removed": 3,
+    "explicit_empty_relationship_lists_added": 41,
+    "credentialed_not_run_route_fields_added": 41
+  },
+  "unresolved_fields": [
+    {
+      "field": "relationships",
+      "records": [
+        "10.5061/dryad.97r9289",
+        "10.5061/dryad.9cnp5hqfm",
+        "10.5061/dryad.nvx0k6dqg"
+      ],
+      "reason": "Official Dryad metadata names the Moorfields AMD source but does not explicitly establish same_or_overlapping_cohort_as with existing catalog records."
+    },
+    {
+      "field": "primary_quantity",
+      "records": [
+        "10.5061/dryad.8jk03jd",
+        "10.5061/dryad.98sf7m0wt",
+        "10.5061/dryad.cp4j7",
+        "10.5061/dryad.d35s0",
+        "10.5061/dryad.k3j9kd5fx"
+      ],
+      "reason": "Official metadata states component group counts but not one explicit primary total; num_samples and reported_quantities were left null or empty."
+    },
+    {
+      "field": "associated_publication_doi",
+      "records": [
+        "10.5061/dryad.8931zcrw5",
+        "10.5061/dryad.k6djh9w8z"
+      ],
+      "reason": "The captured official metadata does not provide a primary-article DOI."
+    }
+  ],
+  "route_policy": {
+    "access_friction": "self_service_authenticated",
+    "requires_api_token": true,
+    "acquisition_support": "guided_instructions_only",
+    "loader_live_tested": false,
+    "loader_test_result": "not_run_credentialed_route"
+  },
+  "no_data_file_downloads_run": true
+}

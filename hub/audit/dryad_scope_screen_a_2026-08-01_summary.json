@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-08-01",
+  "scope": "Bounded second scope pass over the 64 add_now rows in dryad_strict_screen_a_2026-08-01.csv. Core centers human ophthalmology/ocular biometrics/direct translational ocular resources; adjacent retains documented disease-mechanism, imaging-method, or surgical-method animal resources.",
+  "scientific_quantity_rule": "Primary quantities are preserved only when source-stated; Dryad file counts are recorded separately and never treated as scientific sample counts. Unknown quantities are retained only where the current official listing documents a named file-level research object.",
+  "counts": {
+    "core_add": 29,
+    "adjacent_add": 12,
+    "exclude_scope": 23
+  },
+  "total_rows": 64,
+  "strongest_core_add": [
+    {
+      "doi": "10.5061/dryad.0kt87",
+      "title": "Data from: Analysis of iris surface features in populations of diverse ancestry"
+    },
+    {
+      "doi": "10.5061/dryad.0qk7f",
+      "title": "Data from: Identification of genetic defects in 33 probands with Stargardt disease by WES-based bioinformatics gene panel analysis"
+    },
+    {
+      "doi": "10.5061/dryad.1n50q",
+      "title": "Data from: Axial myopia is associated with visual field prognosis of primary open-angle glaucoma"
+    },
+    {
+      "doi": "10.5061/dryad.3cp54",
+      "title": "Data from: Analysis of potential ischemic effect of intravitreal bevacizumab on unaffected retina in treatment-naïve macular edema due to branch retinal vein occlusion: a prospective, interventional case-series"
+    },
+    {
+      "doi": "10.5061/dryad.4j0zpc8mm",
+      "title": "Data from: Biomarker detection and validation for corneal involvement in patients with acute infectious conjunctivitis: A multi-country study"
+    },
+    {
+      "doi": "10.5061/dryad.4mw6m906b",
+      "title": "Data from: The Moorfields AMD database report 2 - fellow eye involvement with neovascular age-related macular degeneration"
+    },
+    {
+      "doi": "10.5061/dryad.56f1h",
+      "title": "Data from: Quantitative analysis of fundus-image sequences reveals phase of spontaneous venous pulsations"
+    },
+    {
+      "doi": "10.5061/dryad.597ch",
+      "title": "Data from: Comprehensive analysis of vitreous specimens for uveitis classification: a prospective multicentre observational study"
+    },
+    {
+      "doi": "10.5061/dryad.612jm649r",
+      "title": "Data from: Plane wave Doppler determination of blood flow in retinopathy of prematurity"
+    },
+    {
+      "doi": "10.5061/dryad.6kg1sd7",
+      "title": "Data from: Association of diabetic retinopathy and diabetic macular edema with renal function in southern Chinese patients with type 2 diabetes mellitus: a single-center observational study"
+    },
+    {
+      "doi": "10.5061/dryad.6t1g1jx9s",
+      "title": "Comparison of antimicrobial resistance genes on the ocular surface of patients with corneal infections in California and Malawi"
+    }
+  ]
+}

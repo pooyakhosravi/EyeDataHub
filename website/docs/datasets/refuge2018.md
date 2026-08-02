@@ -61,7 +61,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - [smdg](./smdg.md) is `derived from` this record: The official SMDG source table lists this catalog record among the 19 standardized source domains. ([evidence](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset))
 - [refuge2](./refuge2.md) is `version of` this record: REFUGE2 contains all 1,200 REFUGE images and adds 800 images from another domain. ([evidence](https://refuge.grand-challenge.org/))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

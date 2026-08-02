@@ -57,7 +57,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - [cataract101_extended_labels](./cataract101_extended_labels.md) is `derived from` this record: The deposit provides extended labels for the Cataract-101 videos. ([evidence](https://zenodo.org/records/4984167))
 - [insegcat](./insegcat.md) is `derived from` this record: InSegCat Dataset 1 selects and annotates frames from Cataract-101 videos. ([evidence](https://ftp.itec.aau.at/datasets/ovid/InSegCat/))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -66,7 +66,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download cataract_101 --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download cataract_101 --data-dir ./data
 ```
 
@@ -78,7 +78,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('cataract_101')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

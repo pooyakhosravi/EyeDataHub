@@ -50,12 +50,10 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
-- [stage_task1](./stage_task1.md) is `same or overlapping cohort as` this record: STAGE Tasks 1 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
-- [stage_task2](./stage_task2.md) is `same or overlapping cohort as` this record: STAGE Tasks 2 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
-- This record is `same or overlapping cohort as` [stage_task1](./stage_task1.md): STAGE Tasks 1 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
-- This record is `same or overlapping cohort as` [stage_task2](./stage_task2.md): STAGE Tasks 2 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
+- This record has a documented `same or overlapping cohort as` relationship with [stage_task1](./stage_task1.md): STAGE Tasks 1 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
+- This record has a documented `same or overlapping cohort as` relationship with [stage_task2](./stage_task2.md): STAGE Tasks 2 and 3 use the same 400 OCT volumes and expose different labels. ([evidence](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -64,7 +62,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download stage_task3 --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download stage_task3 --data-dir ./data
 ```
 
@@ -76,7 +74,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('stage_task3')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

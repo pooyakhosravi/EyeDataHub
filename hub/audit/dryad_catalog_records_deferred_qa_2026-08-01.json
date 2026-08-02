@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-08-01",
+  "scope": "Strict catalog-record QA for included deferred Dryad candidates using official current API metadata and file listings. No data files downloaded.",
+  "checks": {
+    "record_count": 4,
+    "doi_sort_order": 1,
+    "slug_uniqueness": 4,
+    "bare_publication_dois": 4,
+    "license_terms_match_official": 4,
+    "version_match_official": 4,
+    "size_matches_current_listing": 4,
+    "description_not_verbatim_abstract": 4,
+    "quantity_schema_consistent": 4,
+    "category_task_vocab_valid": 4,
+    "relationships_resolve": 4,
+    "credentialed_transfer_not_run": 4
+  },
+  "fixes": {
+    "catalog_records_created": 4,
+    "source_stated_primary_quantities_added": 0,
+    "unsupported_or_unknown_quantities_left_null": 4
+  },
+  "unresolved_fields": [
+    {
+      "field": "primary_quantity",
+      "records": [
+        "10.5061/dryad.0gb5mkm9b",
+        "10.5061/dryad.bcc2fqzj1",
+        "10.5061/dryad.dbrv15fbk",
+        "10.5061/dryad.f4qrfj730"
+      ],
+      "resolution": "No single source-stated primary quantity was exposed by official metadata/file listings; file counts are not used as num_samples."
+    }
+  ]
+}

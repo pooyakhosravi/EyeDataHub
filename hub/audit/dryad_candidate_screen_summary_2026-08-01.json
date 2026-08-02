@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0",
+  "screen_date": "2026-08-01",
+  "source": "Official Dryad Search API snapshot in dryad_search_candidates_2026-08-01.json",
+  "candidate_count": 722,
+  "decision_counts": {
+    "exclude": 458,
+    "include": 256,
+    "needs_manual_review": 8
+  },
+  "official_metadata_checks": {
+    "all_candidates_public": true,
+    "all_candidates_cc0": true,
+    "exact_catalog_doi_duplicates_excluded": 10
+  },
+  "likely_includes": [
+    {
+      "doi": "10.5061/dryad.01n20",
+      "title": "Data from: Clinical efficacy of implantation of toric intraocular lenses with different incision positions: a comparative study of steep-axis incision and non-steep-axis incision",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.0kt87",
+      "title": "Data from: Analysis of iris surface features in populations of diverse ancestry",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.0qk7f",
+      "title": "Data from: Identification of genetic defects in 33 probands with Stargardt disease by WES-based bioinformatics gene panel analysis",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.1n50q",
+      "title": "Data from: Axial myopia is associated with visual field prognosis of primary open-angle glaucoma",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.2k4v4",
+      "title": "Data from: Measurement of systemic mitochondrial function in advanced primary open-angle glaucoma and Leber hereditary optic neuropathy",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.4mw6m906b",
+      "title": "Data from: The Moorfields AMD database report 2 - fellow eye involvement with neovascular age-related macular degeneration",
+      "matched_existing_record": "dryad_namd_oct_quant;dryad_namd_visual_prediction",
+      "relationship_type": "shared_source_cohort_distinct_outcome_task"
+    },
+    {
+      "doi": "10.5061/dryad.56f1h",
+      "title": "Data from: Quantitative analysis of fundus-image sequences reveals phase of spontaneous venous pulsations",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.66t1g1k1x",
+      "title": "Examples of misclassified images of papilledema severity by the Deep Learning System",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.8931zcrw5",
+      "title": "CCI.net fungal keratitis cases dataset",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.8cz8w9h0v",
+      "title": "Data from: Quantifying changes on optical coherence tomography in eyes receiving treatment for neovascular age-related macular degeneration",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.97r9289",
+      "title": "Data from: One and two year visual outcomes from the Moorfields age-related macular degeneration database: a retrospective cohort study and an open science resource",
+      "matched_existing_record": "dryad_namd_oct_quant;dryad_namd_visual_prediction",
+      "relationship_type": "shared_source_cohort_distinct_outcome_task"
+    },
+    {
+      "doi": "10.5061/dryad.9kd51c5g5",
+      "title": "Pupil and masking responses to light as functional measures of retinal degeneration in mice Mus Musculus",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.c2fqz615c",
+      "title": "Age-related change of axial length, spherical equivalent, prevalence of myopia and high myopia in school-age children in Shanghai: 2014 to 2018",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.c2fqz61hr",
+      "title": "NMR spectroscopy-based metabolomics of organotypic retinal explants",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.h44j0zpnp",
+      "title": "Accuracy of biomicroscopy, ultrasonography and spectral-domain OCT in detection of complete posterior vitreous detachment",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.h544560",
+      "title": "Data from: Observational study of clinical characteristics of dome-shaped macula in Chinese Han with high myopia at Zhongshan Ophthalmic Center",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.j0zpc86kg",
+      "title": "Plane wave ultrasound and OCT angiography of the eye in preeclampsia",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.j9kd51crg",
+      "title": "Photopic flicker optoretinography captures the light-driven length modulation of photoreceptors during phototransduction",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.k3j9kd5fx",
+      "title": "Data from: Human conjunctival transcriptome in Acanthamoeba keratitis: An exploratory study",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.m0cfxppdj",
+      "title": "Lanes, clusters, lines of Sight: Modelling diagnostic eyecare clinics to improve patient flow",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.ncjsxksxr",
+      "title": "Data from: Is retina affected in Huntington's disease? Is optical coherence tomography a good biomarker?",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.nh0fp1b",
+      "title": "Data from: Human foveal cone photoreceptor topography and its dependence on eye length",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.nvx0k6dqg",
+      "title": "Insights from survival analyses during 12 years of anti-VEGF therapy for neovascular age-related macular degeneration",
+      "matched_existing_record": "dryad_namd_oct_quant;dryad_namd_visual_prediction",
+      "relationship_type": "shared_source_cohort_distinct_outcome_task"
+    },
+    {
+      "doi": "10.5061/dryad.pk0p2ngzh",
+      "title": "Morphometric analysis of retinal ganglionic cells (3D confocal images) analyzed using filament tracer from Imaris software",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.sf7m0cggh",
+      "title": "Robust semi-automatic vessel tracing in the human retinal image by an instance segmentation neural network",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.v9p0b",
+      "title": "Data from: Retinal capillary rarefaction in patients with untreated mild-moderate hypertension",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.xgxd254pk",
+      "title": "Supporting information for: Discrimination ability of central visual field testing using stimulus size I, II, and III and relationship with macular ganglion cell thickness in chiasmal compression",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5068/d1zd5s",
+      "title": "Single cell transcriptomic analyses reveal the impact of bHLH factors on human retinal organoid development",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.6078/d12d9f",
+      "title": "Excitatory neurotransmission activates compartmentalized calcium transients in Müller glia without affecting lateral process motility",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.7272/q6w37t8b",
+      "title": "10x Lacrimal Gland scRNA seq data matrix",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    }
+  ],
+  "needs_manual_review": [
+    {
+      "doi": "10.15146/r36w24",
+      "title": "Análise de imagens de fundo de olho para detecção de retinopatia diabética",
+      "reason": "CC0 feature-table derivative of Kaggle diabetic-retinopathy images; verify upstream redistribution/derivative scope and whether it adds a sufficiently distinct tabular task.",
+      "matched_existing_record": "eyepacs",
+      "relationship_type": "derived_from_existing_source"
+    },
+    {
+      "doi": "10.5061/dryad.0gb5mkm9b",
+      "title": "Postural stability and optic flow sensitivity following sight restoration from congenital bilateral cataracts",
+      "reason": "Post-cataract visual-restoration experiment is ophthalmically relevant, but supplied metadata does not clearly establish the reusable data contents or catalog fit.",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.1c59zw3sc",
+      "title": "Data from: Insights in the diagnosis of a retinal arteriovenous malformation",
+      "reason": "Retinal arteriovenous-malformation diagnostic release appears relevant, but supplied metadata is insufficient to distinguish reusable study data from a minimal case-report supplement.",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.1rn8pk13p",
+      "title": "Supplementary data from: 2'-O-Galloylhyperin prevents tissue remodeling in thyroid eye disease: prospects as a thyrotropin receptor antagonist",
+      "reason": "Thyroid-eye-disease supplement is relevant, but supplied metadata does not describe reusable data contents well enough for automatic inclusion.",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.73n5tb38p",
+      "title": "Spectrophotometric determination of LAP photoinitiator radicalization in ophthalmic applications",
+      "reason": "Ophthalmic-materials release is relevant, but supplied metadata does not establish an eye-data modality or a reusable resource beyond article-support data.",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.kc041",
+      "title": "Data from: Whole-body photoreceptor networks are independent of ‘lenses’ in brittle stars",
+      "reason": "Brittle-star whole-body photoreceptor study is eye-adjacent; manually confirm whether the release is a reusable eye/vision dataset rather than general comparative biology.",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.kd51c5bhj",
+      "title": "Ocular and extraocular expression of opsins reveals evolutionary trends underlying visual and non-visual functions in bivalves (Pteriomorphia)",
+      "reason": "Bivalve opsin-expression study is eye-adjacent; manually confirm data scope and usefulness as an ocular scientific resource.",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    },
+    {
+      "doi": "10.5061/dryad.r1921",
+      "title": "Data from: Collective behaviour in vertebrates: a sensory perspective",
+      "reason": "Broad sensory-perspective release; manually confirm direct eye/ophthalmic data and reusable contents.",
+      "matched_existing_record": "",
+      "relationship_type": ""
+    }
+  ],
+  "screening_notes": "Includes direct ocular and retinal scientific data releases. Excludes exact DOI duplicates, keyword collisions (including plant Iris and non-ocular orbit), unrelated vision-only records, and explicit paper/review/software-only releases. Candidate metadata is the supplied official Dryad API snapshot; no credentials or signed URLs are recorded.",
+  "likely_include_count": 256,
+  "likely_includes_note": "Concise, high-confidence sample of 30 additions; the CSV is the complete 722-candidate decision ledger."
+}

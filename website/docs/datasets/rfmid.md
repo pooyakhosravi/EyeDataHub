@@ -57,7 +57,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - [rao_fundus](./rao_fundus.md) is `derived from` this record: The RAO source reports use of public web images plus RFMiD and JSIEC images. ([evidence](https://doi.org/10.17632/5428684j44.2))
 - [rfmid2](./rfmid2.md) is `extension of` this record: RFMiD 2.0 is described as an auxiliary dataset to the earlier RFMiD release, not as the same image cohort. ([evidence](https://zenodo.org/records/7505822))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -66,7 +66,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 # Read-only preflight
 eyehub download rfmid --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download rfmid --data-dir ./data
 ```
 
@@ -78,7 +78,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('rfmid')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

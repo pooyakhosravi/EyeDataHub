@@ -23,18 +23,18 @@ Repeated light/dark SD-OCT acquisitions and retinal reflectivity profiles from h
 | **Primary category** | `oct` |
 | **Contained modalities** | oct |
 | **Tasks** | classification, registration, regression |
-| **Primary reported quantity** | Not reported |
+| **Primary reported quantity** | 40 participants |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
-| **Size** | 2.058 GB |
+| **Size** | 0.843520297 GB |
 | **Source-stated terms** | CC0 1.0 |
 | **Normalized terms** | `cc0` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Dryad |
 | **Availability** | `available` (checked 2026-07-21) |
-| **Acquisition support** | `guided_instructions_only` |
+| **Acquisition support** | `end_to_end_tested` |
 | **Legacy sample-loader status** | Metadata and access only |
 
 
@@ -42,7 +42,10 @@ Repeated light/dark SD-OCT acquisitions and retinal reflectivity profiles from h
 
 | Role | Count | Unit | Scope | Basis | Evidence |
 | --- | ---: | --- | --- | --- | --- |
-| Additional | 1 | `deposited_files` | RAR archive in the current Dryad version The source describes four experiments but does not expose a single non-overlapping participant or image total. | `current_deposit_file_listing` | [https://doi.org/10.5061/dryad.msbcc2ftc](https://doi.org/10.5061/dryad.msbcc2ftc) |
+| Primary | 40 | `participants` | Unique participant identifiers across the two deposited profile tables in Dryad version 6 The Experiment 2 table has four participants, three of whom also occur in the Experiments 1, 3, and 4 table. | `current_deposit_table` | [https://doi.org/10.5061/dryad.msbcc2ftc](https://doi.org/10.5061/dryad.msbcc2ftc) |
+| Additional | 1,370 | `rows` | Processed retinal-reflectivity profile rows across the two deposited tables | `current_deposit_table` | [https://doi.org/10.5061/dryad.msbcc2ftc](https://doi.org/10.5061/dryad.msbcc2ftc) |
+| Additional | 432 | `images` | ANALYZE-format .img objects in the Dryad version 6 archive This file count includes raw, manually marked, flattened, and spatially normalized representations and is not an independent acquisition count. | `current_deposit_file_listing` | [https://doi.org/10.5061/dryad.msbcc2ftc](https://doi.org/10.5061/dryad.msbcc2ftc) |
+| Additional | 1 | `deposited_files` | RAR archive in Dryad version 6 | `current_deposit_file_listing` | [https://doi.org/10.5061/dryad.msbcc2ftc](https://doi.org/10.5061/dryad.msbcc2ftc) |
 | Additional | 8 | `group_enrollments` | Healthy young-adult experiment | `official_source_description` | [https://doi.org/10.5061/dryad.msbcc2ftc](https://doi.org/10.5061/dryad.msbcc2ftc) |
 | Additional | 3 | `group_enrollments` | Aquaporin-4 antibody experiment | `official_source_description` | [https://doi.org/10.5061/dryad.msbcc2ftc](https://doi.org/10.5061/dryad.msbcc2ftc) |
 | Additional | 14 | `group_enrollments` | Early-onset Alzheimer group | `official_source_description` | [https://doi.org/10.5061/dryad.msbcc2ftc](https://doi.org/10.5061/dryad.msbcc2ftc) |
@@ -52,9 +55,9 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 ## Notes
 
-> The release contains repeated acquisitions across four experiments; source groups include eight young adults, three participants with aquaporin-4 antibodies, 14 early-onset Alzheimer patients, and 14 age-matched controls. Group overlap is not assumed in num_samples. Dryad declines whole-version archive assembly for this record; EyeDataHub therefore directs users to the official landing page. Authenticated per-file API transfer is available when a user configures DRYAD_TOKEN.
+> The current version contains 40 unique participant identifiers across four experiments, including overlapping experiment groups. Dryad file downloads require a user-supplied API token; EyeDataHub can also obtain a fresh token from locally configured Dryad client credentials.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
@@ -63,7 +66,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 # Read-only preflight
 eyehub download dryad_functional_oct_alzheimer --data-dir ./data --dry-run --json
 
-# Explicit transfer, only when preflight reports supported behavior
+# Download, only when preflight reports supported behavior
 eyehub download dryad_functional_oct_alzheimer --data-dir ./data
 ```
 
@@ -75,7 +78,7 @@ from eyedatahub.acquisition import preflight_dataset
 from eyedatahub.datasets.registry import REGISTRY
 
 ds = REGISTRY.get_dataset('dryad_functional_oct_alzheimer')
-print(preflight_dataset(ds, './data'))  # no transfer
+print(preflight_dataset(ds, './data'))  # no download
 ```
 
   </TabItem>

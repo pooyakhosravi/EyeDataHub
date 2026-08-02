@@ -56,7 +56,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md) is `derived from` this record: The PhysioNet record supplies precomputed representations for BRSET images. ([evidence](https://physionet.org/content/embedding-brset-mbrset/1.0.0/))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

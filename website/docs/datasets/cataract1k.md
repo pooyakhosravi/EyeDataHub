@@ -57,7 +57,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - [lmod_cataract_1k](./lmod_cataract_1k.md) is `derived from` this record: The dataset card identifies Cataract-1K as the source of the processed surgical frames. ([evidence](https://huggingface.co/datasets/mehti/LMOD-Cataract-1K))
 - [lmod_plus](./lmod_plus.md) is `derived from` this record: The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>

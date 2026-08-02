@@ -50,7 +50,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 > Full dataset is subject to Japanese export restrictions. Contact the authors for access. A public subset may be available via the GitHub repo or linked Figshare.
 
-## Access preflight and acquisition
+## Access information and download
 
 <Tabs>
   <TabItem value="cli" label="CLI" default>
