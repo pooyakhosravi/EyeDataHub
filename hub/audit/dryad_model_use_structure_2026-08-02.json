@@ -1,13 +1,15 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-08-02T11:07:05.366934+00:00",
+  "generated_at_utc": "2026-08-02T18:00:02.464750+00:00",
   "source_inventory": "dryad_model_use_inventory_2026-08-02.json",
-  "threshold_bytes": 50000000,
-  "record_count": 54,
+  "threshold_bytes": 100000000,
+  "record_count": 145,
   "credential_values_serialized": false,
   "signed_or_download_urls_serialized": false,
   "participant_values_serialized": false,
   "temporary_files_removed_after_each_record": true,
+  "complete_structural_inspections": 89,
+  "listing_only_records": 56,
   "records": [
     {
       "record_id": "dryad_5xfad_retina_dlgn",
@@ -266,16 +268,229 @@
       "source_version": "1",
       "expected_file_count": 20,
       "expected_bytes": 84397437,
-      "threshold_bytes": 50000000,
+      "threshold_bytes": 100000000,
       "local_files_retained": false,
       "participant_values_serialized": false,
-      "inspection_level": "complete_official_file_listing",
-      "complete_deposit_downloaded_for_structure_review": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 20,
+      "acquired_bytes_after_extraction": 84397437,
       "file_extension_counts": {
         ".txt": 10,
         ".zip": 10
       },
-      "files": []
+      "files": [
+        {
+          "path": "NOR011.zip",
+          "bytes": 6982393,
+          "sha256": "c677fbbf0bd1894691bd93b727c6b28e6d3d3732dced5006404ebbb79141ea53",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 128,
+            "member_extensions": {
+              ".tif": 128
+            }
+          }
+        },
+        {
+          "path": "NOR025.zip",
+          "bytes": 6904757,
+          "sha256": "c7af6e2774c98d8fefd6e131691b6848c8b478e985032861d2648f97b81a16be",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 119,
+            "member_extensions": {
+              ".tif": 119
+            }
+          }
+        },
+        {
+          "path": "NOR047.zip",
+          "bytes": 8330184,
+          "sha256": "021b5ce4fa25167a7ce6a133583c98643a2a6983c415e271f28e4ddd7c604e6f",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 140,
+            "member_extensions": {
+              ".tif": 140
+            }
+          }
+        },
+        {
+          "path": "NOR053.zip",
+          "bytes": 9057834,
+          "sha256": "bf7c2fc8401947dad8cb908d134f3a0886f037f4084260369fe414f638a0751b",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 161,
+            "member_extensions": {
+              ".tif": 161
+            }
+          }
+        },
+        {
+          "path": "NOR057.zip",
+          "bytes": 6823924,
+          "sha256": "bc613d2a7f74793048e703585938212157ee5cc1963fa06313ecd0668650cac1",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 125,
+            "member_extensions": {
+              ".tif": 125
+            }
+          }
+        },
+        {
+          "path": "NOR062.zip",
+          "bytes": 18551881,
+          "sha256": "62657611b8f3a7f4b1aa44f6b739125fd8764aefd8da73907bbdeca851335d8c",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 86,
+            "member_extensions": {
+              ".tif": 86
+            }
+          }
+        },
+        {
+          "path": "NOR063.zip",
+          "bytes": 7649502,
+          "sha256": "b8d915c161efda61b015c484aed6c8e1bc7a41e575c2fac02526eec60f8a0654",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 133,
+            "member_extensions": {
+              ".tif": 133
+            }
+          }
+        },
+        {
+          "path": "NOR064.zip",
+          "bytes": 7250557,
+          "sha256": "d47ea6c78bf0b537d1b188256bd4518218de5a08e3603074eb09f16a967d3ee4",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 132,
+            "member_extensions": {
+              ".tif": 132
+            }
+          }
+        },
+        {
+          "path": "NOR065.zip",
+          "bytes": 7709815,
+          "sha256": "3b5780f546073ec1117ac77b7cfebe8b4e7535410f05f3574fa57397d58f947f",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 139,
+            "member_extensions": {
+              ".tif": 139
+            }
+          }
+        },
+        {
+          "path": "NOR073.zip",
+          "bytes": 5112760,
+          "sha256": "0ed12de07fb7b5a8394652eb9a63b98e95c63e7a593acf0122d26280b27faf8c",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 91,
+            "member_extensions": {
+              ".tif": 91
+            }
+          }
+        },
+        {
+          "path": "README_for_NOR011.txt",
+          "bytes": 2383,
+          "sha256": "520d0795c8dee7402ae81ecec820b0d32d2df49a70bd76f547bf630e6476b255",
+          "structure": {
+            "kind": "text",
+            "line_count": 31
+          }
+        },
+        {
+          "path": "README_for_NOR025.txt",
+          "bytes": 2383,
+          "sha256": "520d0795c8dee7402ae81ecec820b0d32d2df49a70bd76f547bf630e6476b255",
+          "structure": {
+            "kind": "text",
+            "line_count": 31
+          }
+        },
+        {
+          "path": "README_for_NOR047.txt",
+          "bytes": 2383,
+          "sha256": "520d0795c8dee7402ae81ecec820b0d32d2df49a70bd76f547bf630e6476b255",
+          "structure": {
+            "kind": "text",
+            "line_count": 31
+          }
+        },
+        {
+          "path": "README_for_NOR053.txt",
+          "bytes": 2383,
+          "sha256": "520d0795c8dee7402ae81ecec820b0d32d2df49a70bd76f547bf630e6476b255",
+          "structure": {
+            "kind": "text",
+            "line_count": 31
+          }
+        },
+        {
+          "path": "README_for_NOR057.txt",
+          "bytes": 2383,
+          "sha256": "520d0795c8dee7402ae81ecec820b0d32d2df49a70bd76f547bf630e6476b255",
+          "structure": {
+            "kind": "text",
+            "line_count": 31
+          }
+        },
+        {
+          "path": "README_for_NOR062.txt",
+          "bytes": 2383,
+          "sha256": "520d0795c8dee7402ae81ecec820b0d32d2df49a70bd76f547bf630e6476b255",
+          "structure": {
+            "kind": "text",
+            "line_count": 31
+          }
+        },
+        {
+          "path": "README_for_NOR063.txt",
+          "bytes": 2383,
+          "sha256": "520d0795c8dee7402ae81ecec820b0d32d2df49a70bd76f547bf630e6476b255",
+          "structure": {
+            "kind": "text",
+            "line_count": 31
+          }
+        },
+        {
+          "path": "README_for_NOR064.txt",
+          "bytes": 2383,
+          "sha256": "520d0795c8dee7402ae81ecec820b0d32d2df49a70bd76f547bf630e6476b255",
+          "structure": {
+            "kind": "text",
+            "line_count": 31
+          }
+        },
+        {
+          "path": "README_for_NOR065.txt",
+          "bytes": 2383,
+          "sha256": "520d0795c8dee7402ae81ecec820b0d32d2df49a70bd76f547bf630e6476b255",
+          "structure": {
+            "kind": "text",
+            "line_count": 31
+          }
+        },
+        {
+          "path": "README_for_NOR073.txt",
+          "bytes": 2383,
+          "sha256": "520d0795c8dee7402ae81ecec820b0d32d2df49a70bd76f547bf630e6476b255",
+          "structure": {
+            "kind": "text",
+            "line_count": 31
+          }
+        }
+      ]
     },
     {
       "record_id": "dryad_bariatric_ophthalmology",
@@ -408,15 +623,42 @@
       "source_version": "1",
       "expected_file_count": 3,
       "expected_bytes": 61440336,
-      "threshold_bytes": 50000000,
+      "threshold_bytes": 100000000,
       "local_files_retained": false,
       "participant_values_serialized": false,
-      "inspection_level": "complete_official_file_listing",
-      "complete_deposit_downloaded_for_structure_review": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 3,
+      "acquired_bytes_after_extraction": 61440336,
       "file_extension_counts": {
         ".rar": 3
       },
-      "files": []
+      "files": [
+        {
+          "path": "20160827Fluorescein.rar",
+          "bytes": 49347240,
+          "sha256": "a27dca4c56d2abb38f61c9d724342860d1cc78603b6fd567c6f07c811f5e1883",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        },
+        {
+          "path": "20160827mfERG.rar",
+          "bytes": 5739872,
+          "sha256": "2ec6e8cceadadf293b47e8c25707b3c83d4177cc093e7df6cd9f3041393c7a47",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        },
+        {
+          "path": "20160827OCT.rar",
+          "bytes": 6353224,
+          "sha256": "3d4128cf74b894552a9b1271c6f6a23500878a9d549f9ae83085ae725bf92683",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        }
+      ]
     },
     {
       "record_id": "dryad_canine_pra_cea_genotypes",
@@ -2858,13 +3100,3351 @@
       "source_version": "2",
       "expected_file_count": 3,
       "expected_bytes": 52159706,
-      "threshold_bytes": 50000000,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 3,
+      "acquired_bytes_after_extraction": 52159706,
+      "file_extension_counts": {
+        ".pzf": 3
+      },
+      "files": [
+        {
+          "path": "ERG.pzf",
+          "bytes": 29858453,
+          "sha256": "a202612ed6ee335d6f9385c1065e65ca793553c76922284a85ed6dcdbe915c5f",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        },
+        {
+          "path": "Negative_masking.pzf",
+          "bytes": 635913,
+          "sha256": "9683c022e9ec7a2eeaaebed39df2b5d480bad621599b3cf530511a7803d185e0",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        },
+        {
+          "path": "PLR.pzf",
+          "bytes": 21665340,
+          "sha256": "9b8b7f3c2d9609d7658ecb85610e4a340d1748b18a11a39d7c5543e2dd4feefc",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_myopia_glaucoma_visual_field",
+      "dataset_doi": "10.5061/dryad.1n50q",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 77824,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 77824,
+      "file_extension_counts": {
+        ".xls": 1
+      },
+      "files": [
+        {
+          "path": "Data from Axial Myopia is asscoiated with Visual Field Prognosis of Primary Open-angle Glaucoma.xls",
+          "bytes": 77824,
+          "sha256": "ee8a1f5d498c9e873c230d324c5b2c723daa3d51333ca3cbeafe1c03bfdf3e5b",
+          "structure": {
+            "kind": "xls_workbook",
+            "sheets": [
+              {
+                "name": "Sheet1",
+                "rows": 271,
+                "columns": 23,
+                "column_names": [
+                  "eye",
+                  "gender",
+                  "age",
+                  "SE",
+                  "BCVA",
+                  "LogMAR",
+                  "CCT",
+                  "VCDR",
+                  "intial MD",
+                  "MD change",
+                  "follow-up period",
+                  "MD slope",
+                  "Initial IOP",
+                  "follow-up IOP",
+                  "IOP reduction",
+                  "AXL",
+                  "GAXL",
+                  "diagnosis",
+                  "GSE",
+                  "cumuIOP insult",
+                  "IOP reduction percent",
+                  "FastPro(0.22)",
+                  "FastPro(0.30)"
+                ]
+              },
+              {
+                "name": "Sheet2",
+                "rows": 0,
+                "columns": 0,
+                "column_names": []
+              },
+              {
+                "name": "Sheet3",
+                "rows": 0,
+                "columns": 0,
+                "column_names": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_namd_12_year_survival",
+      "dataset_doi": "10.5061/dryad.nvx0k6dqg",
+      "source_version": "5",
+      "expected_file_count": 4,
+      "expected_bytes": 20325759,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 4,
+      "acquired_bytes_after_extraction": 20325759,
+      "file_extension_counts": {
+        ".csv": 1,
+        ".docx": 1,
+        ".r": 1,
+        ".rtf": 1
+      },
+      "files": [
+        {
+          "path": "201025_anonymisation_SOP.docx",
+          "bytes": 15675,
+          "sha256": "e0c37bd09446734a3fb82e643c42786e3e9bdaf636d860e55a03cdccfcd69b5f",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        },
+        {
+          "path": "201025_R_code_for_analysis.R",
+          "bytes": 34949,
+          "sha256": "3d8c9a9c6534d71339798ba41f912d509992d0e2d6372432ed657e09a44e2bd3",
+          "structure": {
+            "kind": "text",
+            "line_count": 670
+          }
+        },
+        {
+          "path": "MEH_AMD_survivaloutcomes_database.csv",
+          "bytes": 20272808,
+          "sha256": "6383ebf867ee765f6def39fbd4e403b49b5856037ac2b0693d2488c5e5ee7a73",
+          "structure": {
+            "kind": "delimited_table",
+            "rows_including_header": 118256,
+            "columns": 16,
+            "column_names": [
+              "X",
+              "gender",
+              "ethnicity",
+              "age_group",
+              "va_inj1",
+              "va_inj1_group",
+              "date_inj1",
+              "mean_inj_interval",
+              "loaded",
+              "time",
+              "injnum",
+              "injgiven",
+              "va",
+              "regimen",
+              "anon_id"
+            ]
+          }
+        },
+        {
+          "path": "README_for_Moorfields_AMD_Database.rtf",
+          "bytes": 2327,
+          "sha256": "805824b4b752513c340649cfac53410e8d6bf7ed14b44432d8e2ccd89d811601",
+          "structure": {
+            "kind": "text",
+            "line_count": 34
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_namd_oct_longitudinal",
+      "dataset_doi": "10.5061/dryad.8cz8w9h0v",
+      "source_version": "11",
+      "expected_file_count": 2,
+      "expected_bytes": 15711999,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 15711999,
+      "file_extension_counts": {
+        ".csv": 1,
+        ".md": 1
+      },
+      "files": [
+        {
+          "path": "AMD_longitudinal_MEH_v4.csv",
+          "bytes": 15709224,
+          "sha256": "a939cc4b6f3a43ae39f07da49c2af2712caff14c14905605f3e7d2bde9990f97",
+          "structure": {
+            "kind": "delimited_table",
+            "rows_including_header": 169717,
+            "columns": 16,
+            "column_names": [
+              "ID",
+              "DaysSinceBaseline",
+              "Eye",
+              "FirstTreatedEye",
+              "Gender",
+              "Neurosensory",
+              "RPE",
+              "IRF",
+              "SRF",
+              "SHRM",
+              "Drusenoid_PED",
+              "Serous_PED",
+              "Fibrovascular_PED",
+              "grouped_ethnicity",
+              "grouped_age",
+              "grouped_VA"
+            ]
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 2775,
+          "sha256": "561a9a1d8ae5c65ebc5a705c3b7e544d7df75bf277cdd44363e96b8150f7ae18",
+          "structure": {
+            "kind": "text",
+            "line_count": 61
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_namd_oct_quant",
+      "dataset_doi": "10.5061/dryad.2rbnzs7m4",
+      "source_version": "6",
+      "expected_file_count": 2,
+      "expected_bytes": 707701,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 707701,
+      "file_extension_counts": {
+        ".csv": 1,
+        ".txt": 1
+      },
+      "files": [
+        {
+          "path": "AMD_baseline.csv",
+          "bytes": 703016,
+          "sha256": "80707cfa9cc382b9406de7a94b0f71c928c73d8f69b390540bab4a4a92123e57",
+          "structure": {
+            "kind": "delimited_table",
+            "rows_including_header": 5933,
+            "columns": 29,
+            "column_names": [
+              "ID",
+              "DaysSinceBaseline",
+              "First_or_Second_Treated_Eye",
+              "Eye",
+              "FirstTreatedEye",
+              "Gender",
+              "Age_grouped",
+              "Ethnicity_grouped",
+              "InjectionGiven",
+              "InjectionNumber",
+              "VA_ETDRS",
+              "VAUnder1Letter",
+              "oct_shape",
+              "segmentation_voxel_size_um",
+              "Neurosensory_volume_voxels",
+              "RPE_volume_voxels",
+              "IRF_volume_voxels",
+              "SRF_volume_voxels",
+              "SHRM_volume_voxels",
+              "Drusen_volume_voxels",
+              "sPED_volume_voxels",
+              "fvPED_volume_voxels",
+              "HRF_volume_voxels",
+              "Neurosensory_thickness_um",
+              "IRF_thickness_um",
+              "SRF_thickness_um",
+              "SHRM_thickness_um",
+              "HRF_thickness_um",
+              "CST_um"
+            ]
+          }
+        },
+        {
+          "path": "readme.txt",
+          "bytes": 4685,
+          "sha256": "25993f724ffcfe5160d5493f4b989bee88ba89f6c16e0d7f15978ad819887c0e",
+          "structure": {
+            "kind": "text",
+            "line_count": 72
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_namd_ten_year_survival",
+      "dataset_doi": "10.5061/dryad.9cnp5hqfm",
+      "source_version": "11",
+      "expected_file_count": 4,
+      "expected_bytes": 1045599,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 4,
+      "acquired_bytes_after_extraction": 1045599,
+      "file_extension_counts": {
+        ".csv": 1,
+        ".r": 2,
+        ".rtf": 1
+      },
+      "files": [
+        {
+          "path": "anon_annualoutcomes.R",
+          "bytes": 7766,
+          "sha256": "63a3f3e58649856c67a90d0081ce14bc51f9669cc8c7b539c435cf00f2cc9e6d",
+          "structure": {
+            "kind": "text",
+            "line_count": 259
+          }
+        },
+        {
+          "path": "anon_survivalcurve.R",
+          "bytes": 10836,
+          "sha256": "40a18e0a181a390c3d874271e03cd5c598d9034b428c1093e659277a5f354f10",
+          "structure": {
+            "kind": "text",
+            "line_count": 265
+          }
+        },
+        {
+          "path": "Moorfields_AMD_Database_10_years.csv",
+          "bytes": 1023538,
+          "sha256": "db1d837a0ada43a294b6b012b8416fc16e9b2c2982ec62fb50cc9a88536162fd",
+          "structure": {
+            "kind": "delimited_table",
+            "rows_including_header": 6697,
+            "columns": 29,
+            "column_names": [
+              "eye",
+              "gender",
+              "ethnicity",
+              "va_inj1",
+              "fellow",
+              "ttofellow_mo",
+              "drug_switch",
+              "ttodrugswitch_mo",
+              "ltfu",
+              "ltfu_stable",
+              "ltfu_outcome",
+              "ttoltfu_mo",
+              "ten_y_stable",
+              "crt_inj1",
+              "va_lastvisit",
+              "crt_lastvisit",
+              "irf",
+              "srf",
+              "disciform",
+              "ga",
+              "ga_foveal",
+              "ttoga_mo",
+              "ttoinj_d",
+              "inj_num",
+              "inj_given",
+              "va",
+              "crt",
+              "anon_id"
+            ]
+          }
+        },
+        {
+          "path": "Moorfields_AMD_Database_10_years_readme.rtf",
+          "bytes": 3459,
+          "sha256": "ccccfca97ce7ef34624296f1c76db1d61de10a34720999f582f6f71b74eb8eb6",
+          "structure": {
+            "kind": "text",
+            "line_count": 54
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_namd_visual_prediction",
+      "dataset_doi": "10.5061/dryad.573n5tb5d",
+      "source_version": "4",
+      "expected_file_count": 3,
+      "expected_bytes": 1498898,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 3,
+      "acquired_bytes_after_extraction": 1498898,
+      "file_extension_counts": {
+        ".csv": 1,
+        ".r": 1,
+        ".rtf": 1
+      },
+      "files": [
+        {
+          "path": "dataframe.csv",
+          "bytes": 1489723,
+          "sha256": "4b03ca0ac9b1cb0b8ee2431290fec4058ef33d42451a49bfdc781c1db44206f0",
+          "structure": {
+            "kind": "delimited_table",
+            "rows_including_header": 4631,
+            "columns": 21,
+            "column_names": [
+              "anonid",
+              "agegroup",
+              "ethnicity",
+              "eye",
+              "gender",
+              "time",
+              "va",
+              "va_change",
+              "vol_irf",
+              "vol_rpe",
+              "vol_srf",
+              "vol_ped",
+              "vol_shrm",
+              "vol_intrarethyperreflect",
+              "vol_irf_change",
+              "vol_rpe_change",
+              "vol_srf_change",
+              "vol_ped_change",
+              "vol_shrm_change",
+              "vol_intrarethyperreflect_change"
+            ]
+          }
+        },
+        {
+          "path": "R_code_for_analysis.R",
+          "bytes": 6302,
+          "sha256": "db5dd3330cdbe92d81183b913b3678c140ab202ca41713b07f1569ecc9efaa7e",
+          "structure": {
+            "kind": "text",
+            "line_count": 159
+          }
+        },
+        {
+          "path": "README.rtf",
+          "bytes": 2873,
+          "sha256": "448db3a8b98c45d2f34ed8ebda86aadfa11977d59793384114aa88364d3f2a3f",
+          "structure": {
+            "kind": "text",
+            "line_count": 42
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_nhp_trachoma_immunity",
+      "dataset_doi": "10.5061/dryad.69p8cz982",
+      "source_version": "3",
+      "expected_file_count": 2,
+      "expected_bytes": 1715551877,
+      "threshold_bytes": 100000000,
       "local_files_retained": false,
       "participant_values_serialized": false,
       "inspection_level": "complete_official_file_listing",
       "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
       "file_extension_counts": {
-        ".pzf": 3
+        ".md": 1,
+        ".zip": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_nigeria_cataract_services",
+      "dataset_doi": "10.5061/dryad.13bp2",
+      "source_version": "1",
+      "expected_file_count": 2,
+      "expected_bytes": 418304,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 418304,
+      "file_extension_counts": {
+        ".doc": 1,
+        ".xls": 1
+      },
+      "files": [
+        {
+          "path": "README_for_Wurno zone Sokoto Nigeria_2005.doc",
+          "bytes": 62464,
+          "sha256": "fff03f3c793319e4ead57f22d2e8bd0e65b140ce352616419cec9ff636030e74",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        },
+        {
+          "path": "Wurno zone Sokoto Nigeria_2005.xls",
+          "bytes": 355840,
+          "sha256": "7db8b04224149eda99292e4d5917348c0698be29d66001300c60720e4d7971a4",
+          "structure": {
+            "kind": "xls_workbook",
+            "sheets": [
+              {
+                "name": "Sheet1",
+                "rows": 191,
+                "columns": 123,
+                "column_names": [
+                  "ZONE",
+                  "age",
+                  "sex",
+                  "examstat",
+                  "vision",
+                  "vare",
+                  "vale",
+                  "BETTEREYEVA",
+                  "pinhore",
+                  "pinhole",
+                  "BettereyepinholeVA",
+                  "noabnore",
+                  "noabnole",
+                  "absentre",
+                  "absentle",
+                  "obvopare",
+                  "obvopale",
+                  "aphakire",
+                  "aphakile",
+                  "pseudore",
+                  "pseudole",
+                  "cdr08re",
+                  "cdr08le",
+                  "nosign",
+                  "noevidre",
+                  "noevidle",
+                  "eyelidre",
+                  "eyelidle",
+                  "catartre",
+                  "catartle",
+                  "glaucore",
+                  "glaucolr",
+                  "couchre",
+                  "couchlr",
+                  "APHAKIACAUSE",
+                  "othsugre",
+                  "othsugle",
+                  "otspsure",
+                  "otspsule",
+                  "phthisre",
+                  "phthisle",
+                  "referore",
+                  "referole",
+                  "catarare",
+                  "catarale",
+                  "uncoapre",
+                  "uncoaple",
+                  "trachore",
+                  "trachole",
+                  "otcopare",
+                  "otcopale",
+                  "anteuvre",
+                  "anteuvle",
+                  "glaumare",
+                  "glaumale",
+                  "ophticre",
+                  "ophticle",
+                  "diabetre",
+                  "diabetle",
+                  "choriore",
+                  "choriole",
+                  "maculare",
+                  "maculale",
+                  "otcausre",
+                  "otcausle",
+                  "otspcare",
+                  "otspcale",
+                  "PRINCIPCAUSE",
+                  "nocausre",
+                  "nocausle",
+                  "traumare",
+                  "traumale",
+                  "congenre",
+                  "congenle",
+                  "onchocre",
+                  "onchocle",
+                  "measlere",
+                  "measlele",
+                  "surgerre",
+                  "surgerle",
+                  "couchire",
+                  "couchile",
+                  "othcaure",
+                  "othcaule",
+                  "otspcure",
+                  "otspcule",
+                  "palcause",
+                  "nonneed",
+                  "eysurgre",
+                  "eysurgle",
+                  "catsugre",
+                  "catsugle",
+                  "glasugre",
+                  "glasugle",
+                  "spectare",
+                  "spectale",
+                  "medicare",
+                  "medicale",
+                  "othactre",
+                  "othactle"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_ocular_chemical_injuries_shanghai",
+      "dataset_doi": "10.5061/dryad.9707661",
+      "source_version": "3",
+      "expected_file_count": 1,
+      "expected_bytes": 25035,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 25035,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "Data.xlsx",
+          "bytes": 25035,
+          "sha256": "a28c2b7026084bd5561015eed819c6899857bdf58815a0c07c724a2906c7054f",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Data"
+            ],
+            "sheet_dimensions": [
+              "A1:P238"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_ocular_gvhd_mouse",
+      "dataset_doi": "10.5061/dryad.k6djh9w8z",
+      "source_version": "5",
+      "expected_file_count": 2,
+      "expected_bytes": 119708,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 119708,
+      "file_extension_counts": {
+        ".txt": 1,
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "OGVHD_Raw_data_compiled.xlsx",
+          "bytes": 116728,
+          "sha256": "4489aa58aac08e2763b9e06ad002a8adb88c6ca07aae5ce1e0b5b5179ccad867",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Eyelid Scores",
+              "Corneal Scores",
+              "Fluorescein Retention Scores",
+              "PRT Scores",
+              "Weights %",
+              "Histo Scores"
+            ],
+            "sheet_dimensions": [
+              "A1:F831",
+              "A1:V831",
+              "A1:W831",
+              "A1:W323",
+              "A1:L507",
+              "A1:H32"
+            ]
+          }
+        },
+        {
+          "path": "README_OGVHDGilgerDATA.txt",
+          "bytes": 2980,
+          "sha256": "e588c91ea67964a38e82908180193de63e6a8fde08cd62f6c642e5c3cc0f0a65",
+          "structure": {
+            "kind": "text",
+            "line_count": 33
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_ocular_surface_amr",
+      "dataset_doi": "10.5061/dryad.6t1g1jx9s",
+      "source_version": "7",
+      "expected_file_count": 3,
+      "expected_bytes": 12880,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 3,
+      "acquired_bytes_after_extraction": 12880,
+      "file_extension_counts": {
+        ".csv": 2,
+        ".md": 1
+      },
+      "files": [
+        {
+          "path": "CAPRICORN_Malawi_UCSF_counts_cpm_per_patient_AMR_classes.csv",
+          "bytes": 6174,
+          "sha256": "afef7c9b321659c9b742601e9be0fa53c71670c982bb440695495e464a26d1ba",
+          "structure": {
+            "kind": "delimited_table",
+            "rows_including_header": 98,
+            "columns": 12,
+            "column_names": [
+              "study_id",
+              "Aminocoumarins",
+              "Aminoglycosides",
+              "betalactams",
+              "Cationic_antimicrobial_peptides",
+              "Fluoroquinolones",
+              "Fosfomycin",
+              "MLS",
+              "Oxazolidinone",
+              "Rifampin",
+              "Sulfonamides",
+              "Tetracyclines"
+            ]
+          }
+        },
+        {
+          "path": "CAPRICORN_Malawi_UCSF_manuscript_data_share_metadata.csv",
+          "bytes": 3811,
+          "sha256": "e97fa2dfaedd7f7425a61877d130a8168cd80ce920830a31110a4b81ab1037b5",
+          "structure": {
+            "kind": "delimited_table",
+            "rows_including_header": 98,
+            "columns": 8,
+            "column_names": [
+              "study_id",
+              "study_site",
+              "pathogen_type",
+              "num_amr_determinants",
+              "baseline_va",
+              "week4_va",
+              "baseline_logmar",
+              "week4_logmar"
+            ]
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 2895,
+          "sha256": "bc29e0e835c8722fdb823f70912e6474043a26e35a26a005f0b8d9b068c1229c",
+          "structure": {
+            "kind": "text",
+            "line_count": 62
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_optic_neuritis_metacontrast",
+      "dataset_doi": "10.5061/dryad.cp4j7",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 309018,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 309018,
+      "file_extension_counts": {
+        ".zip": 1
+      },
+      "files": [
+        {
+          "path": "MetacontrastOpticNeuritis.zip",
+          "bytes": 309018,
+          "sha256": "f3748d1cfa2f76c4cfed909fd999707b787468c20fefc3fa358bfc14731f2d0e",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 21,
+            "member_extensions": {
+              ".mat": 21
+            }
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_pediatric_corneal_endothelium",
+      "dataset_doi": "10.5061/dryad.hhmgqnkjc",
+      "source_version": "5",
+      "expected_file_count": 2,
+      "expected_bytes": 19455,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 19455,
+      "file_extension_counts": {
+        ".txt": 1,
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "F1000_ECD_raw_data_submitted.xlsx",
+          "bytes": 19006,
+          "sha256": "1e761ea53585f2e00fab6efbe78ea97b98da63976c065787be80877455417209",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Sheet1"
+            ],
+            "sheet_dimensions": [
+              "A1:M112"
+            ]
+          }
+        },
+        {
+          "path": "README.txt",
+          "bytes": 449,
+          "sha256": "6270ba914db26052bc1e88d00cd979cd4d4006aafb9293bf59442f1e1c4e5059",
+          "structure": {
+            "kind": "text",
+            "line_count": 15
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_pediatric_myopia_longitudinal",
+      "dataset_doi": "10.5061/dryad.d4mb3pn",
+      "source_version": "3",
+      "expected_file_count": 1,
+      "expected_bytes": 155656,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 155656,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "Data3.xlsx",
+          "bytes": 155656,
+          "sha256": "1072365a4fd398061fac3ef5221ae10e222e4e95b77029b05b6ddc58b4cfe0df",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "2014-2017"
+            ],
+            "sheet_dimensions": [
+              "A1:M2025"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_pediatric_optical_quality",
+      "dataset_doi": "10.5061/dryad.bm8nv",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 53725,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 53725,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "data-Optical Quality Measurement in Children-1.xlsx",
+          "bytes": 53725,
+          "sha256": "5cafea2767d5573728d0b5a38d4cb1256ac76e662c57a3a34e77f56b5af0d8a9",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Sheet1"
+            ],
+            "sheet_dimensions": [
+              "A1:N505"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_pediatric_secondary_iol",
+      "dataset_doi": "10.5061/dryad.5t9d1",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 21814,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 21814,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "Data for secondary IOL implantation.xlsx",
+          "bytes": 21814,
+          "sha256": "6184c1d4c81311049065d8845c47a317b3a9bc7763606a18ce63ff1cb09c8a71",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "data of bilateral cataract",
+              "data of unilateral cataract",
+              "Sheet3"
+            ],
+            "sheet_dimensions": [
+              "A1:S87",
+              "A1:R45",
+              "A1"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_pg4f4qrwf",
+      "dataset_doi": "10.5061/dryad.pg4f4qrwf",
+      "source_version": "4",
+      "expected_file_count": 5,
+      "expected_bytes": 79049,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 5,
+      "acquired_bytes_after_extraction": 79049,
+      "file_extension_counts": {
+        ".csv": 1,
+        ".md": 1,
+        ".txt": 3
+      },
+      "files": [
+        {
+          "path": "CRB1_DRYAD_CATEGORICAL_VARIABLES_CODE.txt",
+          "bytes": 3119,
+          "sha256": "e5569854db77cbd846fb348cbf58637e2c69ea6b52805239d1cfa057b3884555",
+          "structure": {
+            "kind": "text",
+            "line_count": 146
+          }
+        },
+        {
+          "path": "CRB1_DRYAD_CONTINUOUS_VARIABLES_UNITS.txt",
+          "bytes": 290,
+          "sha256": "9e2e9d3b2cfea8f321f824feefee5a00041f34a19825a75b592abdf0af164554",
+          "structure": {
+            "kind": "text",
+            "line_count": 9
+          }
+        },
+        {
+          "path": "CRB1_dryad_DATA.csv",
+          "bytes": 72179,
+          "sha256": "7610ba74a473c4473e6263d3260d62bcdd6ab5580d05c8d48620106d2fb6af07",
+          "structure": {
+            "kind": "delimited_table",
+            "rows_including_header": 440,
+            "columns": 38,
+            "column_names": [
+              "PMID",
+              "PatientID",
+              "Country",
+              "Age",
+              "Gender",
+              "Onset_Age",
+              "Phenotype",
+              "Exon1",
+              "Exon2",
+              "Exoncode",
+              "Domain2",
+              "Domain1",
+              "Domcode",
+              "Variant1",
+              "Variant2",
+              "Genocode",
+              "MuT_1Type",
+              "Mut_2Type",
+              "Biallelic_type",
+              "SYMP_Cataract",
+              "SYMP_NB",
+              "SYMP_Nys",
+              "SYMP_KERA",
+              "SYMP_STRAB",
+              "SYMP_PTPB",
+              "SYMP_PV",
+              "SYMP_CONSTRCVF",
+              "FAF_Mac_Cond",
+              "FAF_Mac_pig",
+              "FAF_Optic_Disc",
+              "FAF_Vessel",
+              "FAF_Periph_cond",
+              "FAF_Periph_pig",
+              "OCT_Mac_Thick",
+              "REF_RE",
+              "REF_LE",
+              "REF_OU",
+              "BCVA"
+            ]
+          }
+        },
+        {
+          "path": "CRB1_DRYAD_VARIABLE_VIEW.txt",
+          "bytes": 2147,
+          "sha256": "6983fc90dbf91c07d8063582a204f275321a045e9e373d75bc462ca681e53fec",
+          "structure": {
+            "kind": "text",
+            "line_count": 40
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 1314,
+          "sha256": "11170de027883b3f966c1456fa5800b3b1cf1d0a394f4903a23f75f0823808ac",
+          "structure": {
+            "kind": "text",
+            "line_count": 26
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_pk0p2ngzh",
+      "dataset_doi": "10.5061/dryad.pk0p2ngzh",
+      "source_version": "6",
+      "expected_file_count": 12,
+      "expected_bytes": 37594711764,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".xlsx": 1,
+        ".zip": 10
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_pk31jt2",
+      "dataset_doi": "10.5061/dryad.pk31jt2",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 64398,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 64398,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "CNV study Updated Excel Dryad  .xlsx",
+          "bytes": 64398,
+          "sha256": "663fc38ea075871684e8dac30303e1f67cf5fc23b9e2ee634ed2bf587f546d74",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Sheet1"
+            ],
+            "sheet_dimensions": [
+              "A1:AF1048423"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_pnvx0k6hv",
+      "dataset_doi": "10.5061/dryad.pnvx0k6hv",
+      "source_version": "3",
+      "expected_file_count": 1,
+      "expected_bytes": 177499,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 177499,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "Data.xlsx",
+          "bytes": 177499,
+          "sha256": "247d7ee6a82c9dc6e94a3dd427518b9ccae649443b68b73b1b9e132c8e6db217",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "4 year-olds",
+              "5 year-olds"
+            ],
+            "sheet_dimensions": [
+              "A1:P987",
+              "A1:P1061"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_preeclampsia_ocular_octa",
+      "dataset_doi": "10.5061/dryad.j0zpc86kg",
+      "source_version": "4",
+      "expected_file_count": 2,
+      "expected_bytes": 52502,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 52502,
+      "file_extension_counts": {
+        ".md": 1,
+        ".sav": 1
+      },
+      "files": [
+        {
+          "path": "PE_ran.sav",
+          "bytes": 50127,
+          "sha256": "abc8ad86bc0623cb7caa7b86008d1b767276e4261e6b8908bcd9fe38d2ef6998",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 2375,
+          "sha256": "5648b6f9d917d966df1c3fa105e08ba018202b1986997248d0438904b66f965f",
+          "structure": {
+            "kind": "text",
+            "line_count": 74
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_primate_on_dsgc",
+      "dataset_doi": "10.5061/dryad.47d7wm3kx",
+      "source_version": "4",
+      "expected_file_count": 13,
+      "expected_bytes": 64655258350,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".zip": 12
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_prpf31_gene_augmentation",
+      "dataset_doi": "10.5061/dryad.bcc2fqzf1",
+      "source_version": "6",
+      "expected_file_count": 39,
+      "expected_bytes": 265506337,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".gz": 38,
+        ".txt": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_pvd_diagnostic_oct",
+      "dataset_doi": "10.5061/dryad.h44j0zpnp",
+      "source_version": "8",
+      "expected_file_count": 2,
+      "expected_bytes": 68301,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 68301,
+      "file_extension_counts": {
+        ".md": 1,
+        ".xls": 1
+      },
+      "files": [
+        {
+          "path": "Accuracy_of_BM_US_and_SD_OCT_in_detection_of_complete_PVD.xls",
+          "bytes": 56832,
+          "sha256": "51fc1fbc6c625ad8ea29d9c8671f47de2825f8e2f9ff71574c62e74afccbddc9",
+          "structure": {
+            "kind": "xls_workbook",
+            "sheets": [
+              {
+                "name": "Sheet1",
+                "rows": 124,
+                "columns": 23,
+                "column_names": [
+                  "Age",
+                  "Gender",
+                  "Side",
+                  "Indication",
+                  "Indication_coded",
+                  "IOP",
+                  "IOP20",
+                  "Glaucom",
+                  "Monokulus",
+                  "Lensstatus",
+                  "VA",
+                  "VAbetter01",
+                  "VAbetter03",
+                  "OtherEyeVA",
+                  "OtherEyeWors03",
+                  "LAX",
+                  "IOL",
+                  "LAXcateg2350",
+                  "Vitrectomy",
+                  "Ophthalmoscopy",
+                  "Ultrasound",
+                  "OCT",
+                  "Vitreoshisis"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 11469,
+          "sha256": "4ad9b5ce1b3a4d64ea04bf708e40044f2a9b518c61d774dd18809f6d3671a406",
+          "structure": {
+            "kind": "text",
+            "line_count": 180
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_pzgmsbcfw",
+      "dataset_doi": "10.5061/dryad.pzgmsbcfw",
+      "source_version": "9",
+      "expected_file_count": 2,
+      "expected_bytes": 5116953,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 5116953,
+      "file_extension_counts": {
+        ".csv": 1,
+        ".r": 1
+      },
+      "files": [
+        {
+          "path": "200319_DMO_report1_anonymised.csv",
+          "bytes": 5099283,
+          "sha256": "28e092c643e439bd37f0c5f9ea0f6c6c73d8c88c3561b73d3bfe7c6f6535a01f",
+          "structure": {
+            "kind": "delimited_table",
+            "rows_including_header": 40282,
+            "columns": 11,
+            "column_names": [
+              "eye",
+              "gender",
+              "ethnicity",
+              "baseline_va",
+              "va",
+              "follow_up_days",
+              "inj_num",
+              "inj_given",
+              "baseline_age",
+              "anon_id"
+            ]
+          }
+        },
+        {
+          "path": "r_code_for_analysis.R",
+          "bytes": 17670,
+          "sha256": "8e98205cfe39beb68c4e1576c98a95688c56c2cd7e3c6f9a47fb7407aa35c76e",
+          "structure": {
+            "kind": "text",
+            "line_count": 396
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_pzgmsbcmk",
+      "dataset_doi": "10.5061/dryad.pzgmsbcmk",
+      "source_version": "3",
+      "expected_file_count": 13,
+      "expected_bytes": 873473805,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".txt": 1,
+        ".xlsx": 12
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_q6rv0kz3",
+      "dataset_doi": "10.7272/q6rv0kz3",
+      "source_version": "6",
+      "expected_file_count": 19,
+      "expected_bytes": 692655940,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".html": 9,
+        ".mat": 9,
+        ".md": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_q6w37t8b",
+      "dataset_doi": "10.7272/q6w37t8b",
+      "source_version": "1",
+      "expected_file_count": 6,
+      "expected_bytes": 15610092,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".mtx": 2,
+        ".tsv": 4
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_q83bk3jnw",
+      "dataset_doi": "10.5061/dryad.q83bk3jnw",
+      "source_version": "4",
+      "expected_file_count": 7,
+      "expected_bytes": 4289591,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".md": 1,
+        ".txt": 1,
+        ".xlsx": 5
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_qfttdz0dr",
+      "dataset_doi": "10.5061/dryad.qfttdz0dr",
+      "source_version": "3",
+      "expected_file_count": 1,
+      "expected_bytes": 59357,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 59357,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "Occhiutto_ML_et_al._APOE_Glaucoma_anonymized_data.xlsx",
+          "bytes": 59357,
+          "sha256": "b02c0d370a1d0604c5fb22e5cd1a2e14d5a1c7be228d5f645a23e4127d93db44",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Casos",
+              "Controles",
+              "Estat General"
+            ],
+            "sheet_dimensions": [
+              "A1:N403",
+              "A1:R402",
+              "B2:S20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_r4xgxd2nt",
+      "dataset_doi": "10.5061/dryad.r4xgxd2nt",
+      "source_version": "6",
+      "expected_file_count": 6,
+      "expected_bytes": 3340308791,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".gif": 1,
+        ".md": 1,
+        ".mp4": 1,
+        ".zip": 3
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_r7s04",
+      "dataset_doi": "10.5061/dryad.r7s04",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 1253376,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 1253376,
+      "file_extension_counts": {
+        ".xls": 1
+      },
+      "files": [
+        {
+          "path": "macula.xls",
+          "bytes": 1253376,
+          "sha256": "a9b825f5c6673a3f1e5897330c64fb063b96a5bf763d2d941c6006148cf4a96a",
+          "structure": {
+            "kind": "xls_workbook",
+            "sheets": [
+              {
+                "name": "Sheet1",
+                "rows": 15161,
+                "columns": 8,
+                "column_names": [
+                  "patient-id",
+                  "age",
+                  "male",
+                  "macula_degeneration",
+                  "depression",
+                  "somatophorm_disorder",
+                  "anxiety",
+                  "adjustment_disoreder"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_r7sqv9sqs",
+      "dataset_doi": "10.5061/dryad.r7sqv9sqs",
+      "source_version": "4",
+      "expected_file_count": 11,
+      "expected_bytes": 139241181282,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".gz": 8,
+        ".map": 1,
+        ".md": 1,
+        ".ped": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_rao_multiomics",
+      "dataset_doi": "10.5061/dryad.98sf7m0wt",
+      "source_version": "4",
+      "expected_file_count": 4,
+      "expected_bytes": 19138637,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 4,
+      "acquired_bytes_after_extraction": 19138637,
+      "file_extension_counts": {
+        ".md": 1,
+        ".zip": 3
+      },
+      "files": [
+        {
+          "path": "Fatty_acid_metabolomics_code_and_related_data.zip",
+          "bytes": 2444975,
+          "sha256": "a0dde94206cc8201f3bf918a2c1a35bfe7262bd97b5633444c8a646912a40d07",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 27,
+            "member_extensions": {
+              ".csv": 10,
+              ".model": 1,
+              ".r": 6,
+              "[none]": 10
+            }
+          }
+        },
+        {
+          "path": "Joint_analysis_code_of_metabolomics_and_transcriptomics_and_related_data.zip",
+          "bytes": 5614212,
+          "sha256": "5be491474287a7e4044d3119e14da33255101b73cc073f37f665f9629549d843",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 10,
+            "member_extensions": {
+              ".csv": 4,
+              ".r": 4,
+              ".xlsx": 2
+            }
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 18836,
+          "sha256": "4f7350bc47909e9af51efbc9c85b222e0dbe4d5e4b1660266781d3168dbd75d7",
+          "structure": {
+            "kind": "text",
+            "line_count": 216
+          }
+        },
+        {
+          "path": "Transcriptomics_codes_and_related_data.zip",
+          "bytes": 11060614,
+          "sha256": "5faeea8282904909e0ce5b2edd44249dc379d1fe759832860b74bd00b547b1a0",
+          "structure": {
+            "kind": "zip_archive",
+            "member_count": 8,
+            "member_extensions": {
+              ".csv": 4,
+              ".r": 2,
+              ".txt": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_ravi_cataract_outcomes",
+      "dataset_doi": "10.5061/dryad.4p55b",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 1216284,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 1216284,
+      "file_extension_counts": {
+        ".dta": 1
+      },
+      "files": [
+        {
+          "path": "AP RAVI_Outcomes_gee.dta",
+          "bytes": 1216284,
+          "sha256": "332fcea3e36545c185567fb6825bab82764782451a82e456f2bbee1ccd985058",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_retinal_explant_metabolomics",
+      "dataset_doi": "10.5061/dryad.c2fqz61hr",
+      "source_version": "4",
+      "expected_file_count": 2,
+      "expected_bytes": 9581295,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".md": 1,
+        ".zip": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_retinal_prosthesis_navigation",
+      "dataset_doi": "10.5061/dryad.c6147",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 42615,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 42615,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "SGKPGSRLDCMN_dataset.xlsx",
+          "bytes": 42615,
+          "sha256": "39aef0b9a3cb15f926b52c44eb94bd12cca634a575adb4d1c42613d981a2206d",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Sheet1"
+            ],
+            "sheet_dimensions": [
+              "A1:K20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_retinal_pufa_aging_mouse",
+      "dataset_doi": "10.5061/dryad.gxd25480h",
+      "source_version": "5",
+      "expected_file_count": 14,
+      "expected_bytes": 13798287,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".csv": 11,
+        ".md": 1,
+        ".txt": 2
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_retinal_vasomotion",
+      "dataset_doi": "10.5061/dryad.163mp",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 1111189442,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".mat": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_retinal_vein_cannulation",
+      "dataset_doi": "10.5061/dryad.3ffbg79zd",
+      "source_version": "5",
+      "expected_file_count": 7,
+      "expected_bytes": 7511466011,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".txt": 1,
+        ".zip": 5
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_rhesus_maculopathy_metabolomics",
+      "dataset_doi": "10.5061/dryad.7pvmcvf8d",
+      "source_version": "8",
+      "expected_file_count": 2,
+      "expected_bytes": 659872,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".md": 1,
+        ".xlsx": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_rn38r",
+      "dataset_doi": "10.5061/dryad.rn38r",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 17348,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 17348,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "data submission.xlsx",
+          "bytes": 17348,
+          "sha256": "57fa7e1cbd9aa83a4660342b85f20f2cc9399227d859101e7b7b3b68a870a37c",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Study One Adult Data",
+              "Study One Children's Data",
+              "Study Two Kay Pics Data"
+            ],
+            "sheet_dimensions": [
+              "A1:N27",
+              "A1:L18",
+              "A1:K26"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_rn8pk0p70",
+      "dataset_doi": "10.5061/dryad.rn8pk0p70",
+      "source_version": "11",
+      "expected_file_count": 3,
+      "expected_bytes": 142972,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 3,
+      "acquired_bytes_after_extraction": 142972,
+      "file_extension_counts": {
+        ".docx": 1,
+        ".dta": 1,
+        ".md": 1
+      },
+      "files": [
+        {
+          "path": "DATA_SES_and_decreasing_incidence_of_ocular_injuries_in_B_H.dta",
+          "bytes": 115855,
+          "sha256": "4fa58ded4f38b79d95ad74181a5b81c2d9770caab338c3550535fd3af6740e45",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        },
+        {
+          "path": "README.docx",
+          "bytes": 18786,
+          "sha256": "8c70b3c55c9e948c915dec296fa9747ee3d566acfa2d8f7316c437286a114f4f",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 8331,
+          "sha256": "b78bcecc2c98379ca1466a220f05868dcf048159f16f033b994356b6050f10a2",
+          "structure": {
+            "kind": "text",
+            "line_count": 133
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_rn8pk0pdp",
+      "dataset_doi": "10.5061/dryad.rn8pk0pdp",
+      "source_version": "6",
+      "expected_file_count": 2,
+      "expected_bytes": 21964,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 21964,
+      "file_extension_counts": {
+        ".txt": 1,
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "data_sheet.xlsx.xlsx",
+          "bytes": 15912,
+          "sha256": "ddfc7d6a24f7569ec1b3098c0980e13ae793df6ac2133da0db98afd6952e8309",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Form responses 1",
+              "Sheet1"
+            ],
+            "sheet_dimensions": [
+              "A1:V81",
+              "A1"
+            ]
+          }
+        },
+        {
+          "path": "README_file.txt.txt",
+          "bytes": 6052,
+          "sha256": "89256da1d5580ea761a8d3f8259b1f887ab647a01ded053a51d98cc2d93986cf",
+          "structure": {
+            "kind": "text",
+            "line_count": 103
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_rn8pk0pmm",
+      "dataset_doi": "10.5061/dryad.rn8pk0pmm",
+      "source_version": "3",
+      "expected_file_count": 38,
+      "expected_bytes": 33285472018,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".gz": 36,
+        ".md": 1,
+        ".zip": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_rod_cone_dystrophy_genes",
+      "dataset_doi": "10.5061/dryad.59zw3r2b7",
+      "source_version": "7",
+      "expected_file_count": 3,
+      "expected_bytes": 69576,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".csv": 1,
+        ".txt": 2
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_rop_plane_wave_doppler",
+      "dataset_doi": "10.5061/dryad.612jm649r",
+      "source_version": "4",
+      "expected_file_count": 2,
+      "expected_bytes": 33701,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 33701,
+      "file_extension_counts": {
+        ".md": 1,
+        ".sav": 1
+      },
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 3121,
+          "sha256": "2f7de89cfec9c85ed14bb88862dd4684227b38137174f0f0798515ab5c8cb3ef",
+          "structure": {
+            "kind": "text",
+            "line_count": 81
+          }
+        },
+        {
+          "path": "ROP_by_exam_shared2.sav",
+          "bytes": 30580,
+          "sha256": "7f786e915eb4a2c5ef5baca1ab796c11b0d021ab9163170aa02e1543bd393aec",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_rpgr_cone_rod_wes",
+      "dataset_doi": "10.5061/dryad.5qfttdz5d",
+      "source_version": "2",
+      "expected_file_count": 2,
+      "expected_bytes": 4478935663,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".gz": 2
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_rs2qp",
+      "dataset_doi": "10.5061/dryad.rs2qp",
+      "source_version": "2",
+      "expected_file_count": 12,
+      "expected_bytes": 15143685677,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".mat": 6,
+        ".pdf": 6
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_rv15dv4bv",
+      "dataset_doi": "10.5061/dryad.rv15dv4bv",
+      "source_version": "5",
+      "expected_file_count": 104,
+      "expected_bytes": 13737601388,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".nd2": 103
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_s1rn8pkhb",
+      "dataset_doi": "10.5061/dryad.s1rn8pkhb",
+      "source_version": "6",
+      "expected_file_count": 2,
+      "expected_bytes": 7907110,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".md": 1,
+        ".zip": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_sbcc2fr6n",
+      "dataset_doi": "10.5061/dryad.sbcc2fr6n",
+      "source_version": "7",
+      "expected_file_count": 2,
+      "expected_bytes": 3176392,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 3176392,
+      "file_extension_counts": {
+        ".pdf": 1,
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "data_set-SALIHA_BASHIR-DRYAD_REPOSITORY.xlsx",
+          "bytes": 3008139,
+          "sha256": "7ae787ad184aeecd472ece73fd36cdc0dc8e070aafadccbc84797bd3aae3c970",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Sheet1"
+            ],
+            "sheet_dimensions": [
+              "A1:EDI509"
+            ]
+          }
+        },
+        {
+          "path": "README-DATASET-SALIHA-DRYADREPOSITORY_(1).pdf",
+          "bytes": 168253,
+          "sha256": "8990ebc29dae2d0fbdd487a08d6e30f79437fc2bf6aa3d356b20e2a1ac9f0b1d",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_sbcc2fr7r",
+      "dataset_doi": "10.5061/dryad.sbcc2fr7r",
+      "source_version": "8",
+      "expected_file_count": 2,
+      "expected_bytes": 301336,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 301336,
+      "file_extension_counts": {
+        ".md": 1,
+        ".xls": 1
+      },
+      "files": [
+        {
+          "path": "Gender_and_Age_Related_Differences_of_Ocular_Biometric_Parameters.xls",
+          "bytes": 293376,
+          "sha256": "8c52043d0796c8df0b3656410f270820384faf29c73be56f2ed9d6e2624a1a61",
+          "structure": {
+            "kind": "xls_workbook",
+            "sheets": [
+              {
+                "name": "data_repository2022",
+                "rows": 1279,
+                "columns": 19,
+                "column_names": [
+                  "year_treatment",
+                  "age",
+                  "age_category",
+                  "sex",
+                  "side",
+                  "k1",
+                  "k2",
+                  "avgk",
+                  "cyl",
+                  "astaxxcyl",
+                  "asttype",
+                  "axial",
+                  "axial_category",
+                  "acd",
+                  "lens",
+                  "ioliq",
+                  "ast_1D",
+                  "ast_2D",
+                  "ast_3D"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 7960,
+          "sha256": "6995c3545be64accb79f78df4cdfd3e5ebbb9337562dee2a43ba9c87f8a189f2",
+          "structure": {
+            "kind": "text",
+            "line_count": 108
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_sf7m0cggh",
+      "dataset_doi": "10.5061/dryad.sf7m0cggh",
+      "source_version": "9",
+      "expected_file_count": 5,
+      "expected_bytes": 117131,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".md": 1,
+        ".xlsx": 4
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_shanghai_myopia_2014_2018",
+      "dataset_doi": "10.5061/dryad.c2fqz615c",
+      "source_version": "4",
+      "expected_file_count": 2,
+      "expected_bytes": 2318884,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 2318884,
+      "file_extension_counts": {
+        ".docx": 1,
+        ".xls": 1
+      },
+      "files": [
+        {
+          "path": "DATA.xls",
+          "bytes": 2306560,
+          "sha256": "355785f24c8f56ae2dfbdd3cb89bd8a4025694a8326acfe6398e183df124508d",
+          "structure": {
+            "kind": "xls_workbook",
+            "sheets": [
+              {
+                "name": "2018",
+                "rows": 3659,
+                "columns": 11,
+                "column_names": [
+                  "gender",
+                  "time of study at weekdays",
+                  "time of study at weekend days",
+                  "time outdoors at weekdays",
+                  "time outdoors at weekend days",
+                  "height",
+                  "weight",
+                  "spherical refraction of right eye",
+                  "cylindrical refraction of right eye",
+                  "axis of right eye",
+                  "axial length of right eye"
+                ]
+              },
+              {
+                "name": "2014",
+                "rows": 3058,
+                "columns": 11,
+                "column_names": [
+                  "gender",
+                  "time of study at weekdays",
+                  "time of study at weekend days",
+                  "time outdoors at weekdays",
+                  "time outdoors at weekend days",
+                  "height",
+                  "weight",
+                  "spherical refraction of right eye",
+                  "cylindrical refraction of right eye",
+                  "axis of right eye",
+                  "axial length of right eye"
+                ]
+              },
+              {
+                "name": "Sheet3",
+                "rows": 0,
+                "columns": 0,
+                "column_names": []
+              }
+            ]
+          }
+        },
+        {
+          "path": "README.docx",
+          "bytes": 12324,
+          "sha256": "001f910294a7efb8bd9838874e67be6177f291edf3c7b6de2635bc599dae8078",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_sn02v6x2x",
+      "dataset_doi": "10.5061/dryad.sn02v6x2x",
+      "source_version": "4",
+      "expected_file_count": 1,
+      "expected_bytes": 253440,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 253440,
+      "file_extension_counts": {
+        ".xls": 1
+      },
+      "files": [
+        {
+          "path": "F1000Research_Dataset_1_-_Corneal_laser_procedure_-_with_age_ranges.xls",
+          "bytes": 253440,
+          "sha256": "c9d94d08363be81dba1588d5cb028d683f5d5e6ec08345186fd8eb9cf67384e9",
+          "structure": {
+            "kind": "xls_workbook",
+            "sheets": [
+              {
+                "name": "Sheet1",
+                "rows": 479,
+                "columns": 152,
+                "column_names": [
+                  "F1000Research Dataset 1: Corneal laser procedure for vision improvement in patients with late stage dry AMD - spreadsheet with vision improvement outcomes and other information"
+                ]
+              },
+              {
+                "name": "Sheet2",
+                "rows": 0,
+                "columns": 0,
+                "column_names": []
+              },
+              {
+                "name": "Sheet3",
+                "rows": 0,
+                "columns": 0,
+                "column_names": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_spata7_canine_retinal_degeneration",
+      "dataset_doi": "10.5061/dryad.3tx95x6n6",
+      "source_version": "4",
+      "expected_file_count": 5,
+      "expected_bytes": 34380282367,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".gz": 2,
+        ".md": 1,
+        ".tfam": 1,
+        ".tped": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_stargardt_wes",
+      "dataset_doi": "10.5061/dryad.0qk7f",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 284937,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 284937,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "All variants of five known STGD genes in 33 patients by WES.xlsx",
+          "bytes": 284937,
+          "sha256": "49536a1f9886c6380c495fe52c63078027c760ba9b78856dcc54006375703796",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "ABCA4-32 patients",
+              "PRPH2-32 patients",
+              "BEST1-32 patients",
+              "ELOVL4-32 patients",
+              "PROM1-32 patients",
+              " MD19-5 known genes data"
+            ],
+            "sheet_dimensions": [
+              "A1:LM110",
+              "A1:LM13",
+              "A1:LM30",
+              "A1:MA6",
+              "A1:LM47",
+              "A1:DD57"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_subretinal_fibrosis_adora2a",
+      "dataset_doi": "10.5061/dryad.hx3ffbgmv",
+      "source_version": "6",
+      "expected_file_count": 45,
+      "expected_bytes": 10972741,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".md": 1,
+        ".scan": 20,
+        ".txt": 1,
+        ".wiff": 20,
+        ".xlsx": 3
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_subretinal_robot",
+      "dataset_doi": "10.5061/dryad.w0vt4b91w",
+      "source_version": "4",
+      "expected_file_count": 2,
+      "expected_bytes": 2480715881,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".zip": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_taizhou_cataract_outdoors",
+      "dataset_doi": "10.5061/dryad.gt410",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 1358848,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 1358848,
+      "file_extension_counts": {
+        ".xls": 1
+      },
+      "files": [
+        {
+          "path": "new PONE-D-15-08786 original data set.xls",
+          "bytes": 1358848,
+          "sha256": "102af3e96761387c22babf64804f766a05d0b1035d7d2d36e376c874b87d310c",
+          "structure": {
+            "kind": "xls_workbook",
+            "sheets": [
+              {
+                "name": "CD2KSD",
+                "rows": 0,
+                "columns": 0,
+                "column_names": []
+              },
+              {
+                "name": "Sheet1",
+                "rows": 2007,
+                "columns": 91,
+                "column_names": [
+                  "ID",
+                  "gender",
+                  "age",
+                  "age stage",
+                  "cortical cataract(1yes 0 No)",
+                  "nuclear cataract(1 Yes 0 No)",
+                  "PSC(1 Yes 0 No)",
+                  "UCVA Right eye",
+                  "BCVA Right",
+                  "UCVA Left",
+                  "BCVA Left",
+                  "Right",
+                  "Outlook right eye",
+                  "R nuclear cataract(1 Yes 0 No)",
+                  "Right PSC(1 Yes 0 No)",
+                  "Right lens(1clear 2opacity 3aphakia 4IOL eye)",
+                  "Right NO grading",
+                  "Right NC grading",
+                  "Right C grading",
+                  "Right P grading",
+                  "R cataract type",
+                  "R optic disc\uff1aC/D",
+                  "R glaucoma(1 No 2 Yes)",
+                  "R AMD (1 No 2 Yes)",
+                  "R DR (1 No 2 Yes)",
+                  "R optic neuritis(1 No 2 Yes)",
+                  "R retinal pigment degeneration(1 No 2 Yes)",
+                  "R RAO/RVO(1 No 2 Yes)",
+                  "R uveitis(1 No 2 Yes)",
+                  "high myopia(1 No 2 Yes)",
+                  "other fundus diseases(1 No 2 Yes)",
+                  "Left eye",
+                  "Outlook left eye",
+                  "left nuclear cataract(1 Yes 0 No)",
+                  "Left PSC (1 Yes 0 No)",
+                  "left lens(1clear 2opacity 3aphakia 4IOL eye)",
+                  "left NO grading",
+                  "left NC grading",
+                  "left C grading",
+                  "left P grading",
+                  "left cataract type",
+                  "left optic disc\uff1aC/D",
+                  "L glaucoma(1 No 2 Yes)",
+                  "L AMD (1 No 2 Yes)",
+                  "L DR(1 No 2 Yes)",
+                  "L optic neuritis(1 No 2 Yes)",
+                  "L retinal pigment degeneration(1 No 2 Yes)",
+                  "L RAO/RVO(1 No 2 Yes)",
+                  "L uveitis(1 No 2 Yes)",
+                  "L high myopia(1 No 2 Yes)",
+                  "L other fundus diseases(1 No 2 Yes)",
+                  "cataract history(1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "treatment or not (1 Yes 0 No treat)",
+                  "glaucoma history(1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "treatment or not (1 Yes 0 No treat)",
+                  "fundus diseases history(1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "treatment or not (1 Yes 0 No treat)",
+                  "uveitis history(1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "treatment or not (1 Yes 0 No treat)",
+                  "other eye diseases(1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "eye surgery history(1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "cataract surgery history(1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "IOL implantation history (1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "Glaucoma surgery history(1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "retinal surgery history(1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "corneal surgery history(1 No 2 Yes)",
+                  "Yes or No (1 Yes 0 No)",
+                  "Steroid taken history(1 No 2 Yes)",
+                  "Use years",
+                  "cataract drug taken history (1 Yes 0 No)",
+                  "Use years",
+                  "Glaucoma drug taken history (1 Yes 0 No)",
+                  "Use years",
+                  "outdoor activity hours per day",
+                  "sunlight protection or not",
+                  "Eye diseases history in family",
+                  "Cataract",
+                  "Glaucoma",
+                  "Retinal diseases",
+                  "Myopia",
+                  "Other diseases"
+                ]
+              },
+              {
+                "name": "Sheet2",
+                "rows": 0,
+                "columns": 0,
+                "column_names": []
+              },
+              {
+                "name": "Sheet3",
+                "rows": 0,
+                "columns": 0,
+                "column_names": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_tb2rbp0cq",
+      "dataset_doi": "10.5061/dryad.tb2rbp0cq",
+      "source_version": "4",
+      "expected_file_count": 358,
+      "expected_bytes": 5051903547,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".tif": 357
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_tb_uveitis_ifn",
+      "dataset_doi": "10.5061/dryad.8jk03jd",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 52469,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 52469,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "Type I IFN gene signature - a tool to stratify high vs low-risk TB uveitis?.xlsx",
+          "bytes": 52469,
+          "sha256": "ba662859402a5257743f4eebf64250bdcaa85e723a4b4da4769e82aef57002cc",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Sheet1",
+              "Sheet2"
+            ],
+            "sheet_dimensions": [
+              "A1:AU104",
+              "A1:AM36"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_tdz08kq8t",
+      "dataset_doi": "10.5061/dryad.tdz08kq8t",
+      "source_version": "8",
+      "expected_file_count": 22,
+      "expected_bytes": 2018076463,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".zip": 21
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_tmpg4f4vb",
+      "dataset_doi": "10.5061/dryad.tmpg4f4vb",
+      "source_version": "5",
+      "expected_file_count": 1,
+      "expected_bytes": 17642,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 17642,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "Miyoshi_data.xlsx",
+          "bytes": 17642,
+          "sha256": "ae06f0a6e4330c5d2411955d06f3b7111c29a8e2b6d49b883a4aa62cf736c16e",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Sheet1",
+              "Sheet2",
+              "Sheet3"
+            ],
+            "sheet_dimensions": [
+              "A1:AB60",
+              "A1",
+              "A1"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_toric_iol_incision",
+      "dataset_doi": "10.5061/dryad.01n20",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 65825,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 65825,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "toric data.xlsx",
+          "bytes": 65825,
+          "sha256": "f84007c12027a37efdb29e32ea5518fa4490fbabaf81c94d7a406f62d2646cde",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "\u5de5\u4f5c\u88681"
+            ],
+            "sheet_dimensions": [
+              "A1:BS61"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_uveal_melanoma_coog2",
+      "dataset_doi": "10.5061/dryad.n8pk0p340",
+      "source_version": "2",
+      "expected_file_count": 2,
+      "expected_bytes": 84124,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 84124,
+      "file_extension_counts": {
+        ".csv": 1,
+        ".md": 1
+      },
+      "files": [
+        {
+          "path": "COOG2.1_Data.csv",
+          "bytes": 82725,
+          "sha256": "655332cd3b68cbd45100c6180c0c0ab5b473faa3c4382464a7be50eec7ceabe1",
+          "structure": {
+            "kind": "delimited_table",
+            "rows_including_header": 1578,
+            "columns": 14,
+            "column_names": [
+              "COOG2 ID",
+              "Age at study entry (years)",
+              "Gender",
+              "Ciliary body",
+              "Diameter (mm)",
+              "Thickness (mm)",
+              "GEP Class",
+              "Subtype",
+              "PRAME Status",
+              "Time to last data entry",
+              "Metastasis",
+              "Months to metastasis or last f/u",
+              "Death",
+              "Months to death or last f/u"
+            ]
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 1399,
+          "sha256": "6292f7f52f96de3adf1896c0295a6d7e76ce9983e928ada33883d42227c7fcae",
+          "structure": {
+            "kind": "text",
+            "line_count": 13
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_uveitis_vitreous_biomarkers",
+      "dataset_doi": "10.5061/dryad.597ch",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 74836,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 74836,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "low data BMJ.xlsx",
+          "bytes": 74836,
+          "sha256": "b5b29d7690dc5203ea07aaf3728af0bc27357cc86da5048c89db61cf61442381",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "CD4CD8",
+              "CD4",
+              "CD8",
+              "CD19",
+              "visual acuity",
+              "CD4CD8 comparison",
+              "CD4 comparison",
+              "CD8 comparison",
+              "CD19 comparison",
+              "conficence interval"
+            ],
+            "sheet_dimensions": [
+              "A1:G62",
+              "A1:P31",
+              "A1:G62",
+              "A1:G62",
+              "A1:G62",
+              "A1:C140",
+              "A1:G31",
+              "A1:G31",
+              "A1:G31",
+              "A1:G31"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_v6wwpzh1b",
+      "dataset_doi": "10.5061/dryad.v6wwpzh1b",
+      "source_version": "4",
+      "expected_file_count": 2,
+      "expected_bytes": 14771,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 14771,
+      "file_extension_counts": {
+        ".md": 1,
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "Data_Dryad.xlsx",
+          "bytes": 12219,
+          "sha256": "572d9e089d3dc9d7ade654b7832623f0cc2e9ae6cf4d6abc927a6c7ebab446f9",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Munka1"
+            ],
+            "sheet_dimensions": [
+              "A1:AW12"
+            ]
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 2552,
+          "sha256": "5928d38a33f99ffb1973451645f6b9b0e0a93e64211bcd73e0a575886e1673f8",
+          "structure": {
+            "kind": "text",
+            "line_count": 33
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_v9p0b",
+      "dataset_doi": "10.5061/dryad.v9p0b",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 34844,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 34844,
+      "file_extension_counts": {
+        ".sav": 1
+      },
+      "files": [
+        {
+          "path": "CapillaryRarefactionFinalsav.sav",
+          "bytes": 34844,
+          "sha256": "23f69760a7e4fb995d016460dfb7404adceae5c5c1796c334967bbf8d479cfe5",
+          "structure": {
+            "kind": "file_type_confirmed"
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_vkh_apoe",
+      "dataset_doi": "10.5061/dryad.37pvmcvzx",
+      "source_version": "3",
+      "expected_file_count": 5,
+      "expected_bytes": 68879258875,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".csv": 2,
+        ".md": 1,
+        ".zip": 2
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_vq83bk3s8",
+      "dataset_doi": "10.5061/dryad.vq83bk3s8",
+      "source_version": "5",
+      "expected_file_count": 910,
+      "expected_bytes": 6459809695,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".abf": 163,
+        ".csv": 24,
+        ".mat": 421,
+        ".tif": 90,
+        ".txt": 211,
+        ".xlsx": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_vx0k6djwf",
+      "dataset_doi": "10.5061/dryad.vx0k6djwf",
+      "source_version": "5",
+      "expected_file_count": 5,
+      "expected_bytes": 1599090854,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".h5": 4,
+        ".md": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_w3r228143",
+      "dataset_doi": "10.5061/dryad.w3r228143",
+      "source_version": "5",
+      "expected_file_count": 2,
+      "expected_bytes": 9123577630,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".zip": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_wdbrv15rj",
+      "dataset_doi": "10.5061/dryad.wdbrv15rj",
+      "source_version": "5",
+      "expected_file_count": 19,
+      "expected_bytes": 212240699756,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".gz": 16,
+        ".tfam": 1,
+        ".tped": 1,
+        ".txt": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_wstqjq2n5",
+      "dataset_doi": "10.5061/dryad.wstqjq2n5",
+      "source_version": "4",
+      "expected_file_count": 4,
+      "expected_bytes": 310559523,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".csv": 2,
+        ".txt": 1,
+        ".zip": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_x95x69pmq",
+      "dataset_doi": "10.5061/dryad.x95x69pmq",
+      "source_version": "5",
+      "expected_file_count": 20,
+      "expected_bytes": 5658900002,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".nd2": 19,
+        ".rtf": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_xgxd254pk",
+      "dataset_doi": "10.5061/dryad.xgxd254pk",
+      "source_version": "5",
+      "expected_file_count": 2,
+      "expected_bytes": 42482,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 2,
+      "acquired_bytes_after_extraction": 42482,
+      "file_extension_counts": {
+        ".md": 1,
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "DISCRIMINATION.ABILITY.SUPPORTING_INFORMATION3.xlsx",
+          "bytes": 39543,
+          "sha256": "ec1d5e854c0115a01ed2e69554ac6e5d8ac81262c36f0b0c1b3381c7c27f0883",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "PARA SPSS"
+            ],
+            "sheet_dimensions": [
+              "A1:AF132"
+            ]
+          }
+        },
+        {
+          "path": "README.md",
+          "bytes": 2939,
+          "sha256": "031b68f29df3c660e1616c1025af6f9fac46104837e42f60d4b479cd83c53882",
+          "structure": {
+            "kind": "text",
+            "line_count": 45
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_xpnvx0kb6",
+      "dataset_doi": "10.5061/dryad.xpnvx0kb6",
+      "source_version": "9",
+      "expected_file_count": 118,
+      "expected_bytes": 453212274,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        "._fig1-degenerated_area_quantied": 1,
+        ".csv": 10,
+        ".docx": 4,
+        ".pzfx": 14,
+        ".tif": 88,
+        ".xlsx": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_xwdbrv1kd",
+      "dataset_doi": "10.5061/dryad.xwdbrv1kd",
+      "source_version": "7",
+      "expected_file_count": 11,
+      "expected_bytes": 199231877370,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".gz": 8,
+        ".md": 1,
+        ".tfam": 1,
+        ".tped": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_young_adult_uv_transmission",
+      "dataset_doi": "10.5061/dryad.hg000c2",
+      "source_version": "1",
+      "expected_file_count": 1,
+      "expected_bytes": 11730,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 11730,
+      "file_extension_counts": {
+        ".xlsx": 1
+      },
+      "files": [
+        {
+          "path": "UV Data-Hammond.xlsx",
+          "bytes": 11730,
+          "sha256": "e2fdf301a5e3e78f2648a2ad55b36632eb5eb603409c01e027c0a207c02023ec",
+          "structure": {
+            "kind": "xlsx_workbook",
+            "sheet_names": [
+              "Sheet1"
+            ],
+            "sheet_dimensions": [
+              "A1:J44"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_z08kprrk3",
+      "dataset_doi": "10.5061/dryad.z08kprrk3",
+      "source_version": "8",
+      "expected_file_count": 5,
+      "expected_bytes": 26446366374,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".gz": 2,
+        ".md": 1,
+        ".tfam": 1,
+        ".tped": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_z08kprrk6",
+      "dataset_doi": "10.5061/dryad.z08kprrk6",
+      "source_version": "4",
+      "expected_file_count": 7,
+      "expected_bytes": 123431491592,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".gz": 4,
+        ".md": 1,
+        ".tfam": 1,
+        ".tped": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_z8w9ghx9c",
+      "dataset_doi": "10.5061/dryad.z8w9ghx9c",
+      "source_version": "3",
+      "expected_file_count": 1,
+      "expected_bytes": 47104,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_current_deposit_structurally_inspected",
+      "complete_deposit_downloaded_for_structure_review": true,
+      "acquired_file_count_after_extraction": 1,
+      "acquired_bytes_after_extraction": 47104,
+      "file_extension_counts": {
+        ".xls": 1
+      },
+      "files": [
+        {
+          "path": "PONE-D-20-16063R1_Original_Data.xls",
+          "bytes": 47104,
+          "sha256": "673e5468a1802e5c4c7a211ebac5661e383ea2c5f10e3b5045f36667f2422a59",
+          "structure": {
+            "kind": "xls_workbook",
+            "sheets": [
+              {
+                "name": "Desecription of data set",
+                "rows": 6,
+                "columns": 1,
+                "column_names": []
+              },
+              {
+                "name": "Description of variables",
+                "rows": 17,
+                "columns": 2,
+                "column_names": [
+                  "Variable name",
+                  "Variable description"
+                ]
+              },
+              {
+                "name": "Data",
+                "rows": 113,
+                "columns": 14,
+                "column_names": [
+                  "ID",
+                  "Sex",
+                  "Age",
+                  "Actual postoperative spherical equivalent (D)",
+                  "AL\uff08mm\uff09",
+                  "K1\uff08D\uff09",
+                  "K2(D)",
+                  "SE(D)",
+                  "ACD\uff08mm\uff09",
+                  "Predicted postoperative SE of SRK/T(D)",
+                  "Predicted postoperative SE of Haigis(D)",
+                  "Predicted postoperative SE of HofferQ(D)",
+                  "Predicted postoperative SE of Holladay(D)",
+                  "Predicted postoperative SE of Barrett(D)"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "record_id": "dryad_z8w9ghx9f",
+      "dataset_doi": "10.5061/dryad.z8w9ghx9f",
+      "source_version": "4",
+      "expected_file_count": 15,
+      "expected_bytes": 384697,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".xlsx": 15
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_z8w9ghxpp",
+      "dataset_doi": "10.5061/dryad.z8w9ghxpp",
+      "source_version": "11",
+      "expected_file_count": 47,
+      "expected_bytes": 4159288366,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".pzfx": 23,
+        ".tif": 9,
+        ".zip": 14
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_zebrafish_crystallin_lens",
+      "dataset_doi": "10.5061/dryad.f4qrfj730",
+      "source_version": "4",
+      "expected_file_count": 2,
+      "expected_bytes": 4451422309,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".zip": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_zebrafish_rpe_phagocytosis",
+      "dataset_doi": "10.5061/dryad.76hdr7t64",
+      "source_version": "3",
+      "expected_file_count": 2,
+      "expected_bytes": 6627585574,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".zip": 1
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_zebrafish_thrb_photoreceptors",
+      "dataset_doi": "10.5061/dryad.msbcc2fvr",
+      "source_version": "2",
+      "expected_file_count": 8,
+      "expected_bytes": 543268,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "listing_only_after_repository_rate_limit",
+      "file_extension_counts": {
+        ".xlsx": 8
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_zkh1893nt",
+      "dataset_doi": "10.5061/dryad.zkh1893nt",
+      "source_version": "7",
+      "expected_file_count": 32,
+      "expected_bytes": 130554606106,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".csv": 1,
+        ".md": 1,
+        ".zip": 30
+      },
+      "files": []
+    },
+    {
+      "record_id": "dryad_zs7h44jd9",
+      "dataset_doi": "10.5061/dryad.zs7h44jd9",
+      "source_version": "4",
+      "expected_file_count": 2,
+      "expected_bytes": 1795641506,
+      "threshold_bytes": 100000000,
+      "local_files_retained": false,
+      "participant_values_serialized": false,
+      "inspection_level": "complete_official_file_listing",
+      "complete_deposit_downloaded_for_structure_review": false,
+      "structure_review_note": "above_configured_download_threshold",
+      "file_extension_counts": {
+        ".md": 1,
+        ".zip": 1
       },
       "files": []
     }

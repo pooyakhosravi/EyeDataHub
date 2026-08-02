@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-08-02T18:05:32.437148+00:00",
+  "record_id": "fang_sbsdi_oct",
+  "official_source_page": "https://people.duke.edu/~sf59/Fang_TMI_2013.htm",
+  "resolved_archive_url": "https://people.duke.edu/~sf59/Datasets/Final_Publication_2013_SBSDI.zip",
+  "archive_bytes": 477339573,
+  "archive_entry_count": 461,
+  "archive_file_count": 396,
+  "catalog_scope": "Separately named real-human, human-derived synthetic, and human-derived dictionary-training image components.",
+  "catalog_scoped_image_count": 323,
+  "catalog_scoped_uncompressed_bytes": 91992430,
+  "components": [
+    {
+      "component": "human_derived_dictionary_training_images",
+      "file_count": 20,
+      "uncompressed_bytes": 8178378,
+      "file_extensions": {
+        ".tif": 20
+      }
+    },
+    {
+      "component": "human_derived_synthetic_images",
+      "file_count": 108,
+      "uncompressed_bytes": 43903742,
+      "file_extensions": {
+        ".tif": 108
+      }
+    },
+    {
+      "component": "nonhuman_images_excluded_from_catalog_scope",
+      "file_count": 23,
+      "uncompressed_bytes": 6823954,
+      "file_extensions": {
+        ".tif": 23
+      }
+    },
+    {
+      "component": "real_human_images",
+      "file_count": 195,
+      "uncompressed_bytes": 39910310,
+      "file_extensions": {
+        ".tif": 195
+      }
+    },
+    {
+      "component": "software_models_and_demonstration_files",
+      "file_count": 50,
+      "uncompressed_bytes": 394385813,
+      "file_extensions": {
+        ".m": 17,
+        ".mat": 16,
+        ".mexw64": 2,
+        ".p": 7,
+        ".tif": 7,
+        ".txt": 1
+      }
+    }
+  ],
+  "archive_content_downloaded": false,
+  "remote_zip_directory_reviewed": true,
+  "local_dataset_files_retained": false
+}

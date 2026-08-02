@@ -379,6 +379,24 @@ def build(
             ))
             for row in rows
         ),
+        "included_complete_deposit_structure_reviews": sum(
+            row["headline_catalog_included"]
+            and bool(
+                structures.get(row["record_id"], {}).get(
+                    "complete_deposit_downloaded_for_structure_review"
+                )
+            )
+            for row in rows
+        ),
+        "included_official_file_listing_reviews": sum(
+            row["headline_catalog_included"]
+            and not bool(
+                structures.get(row["record_id"], {}).get(
+                    "complete_deposit_downloaded_for_structure_review"
+                )
+            )
+            for row in rows
+        ),
         "official_current_version_file_listings_reviewed": len(rows),
         "local_dataset_files_retained": False,
         "credential_values_serialized": False,

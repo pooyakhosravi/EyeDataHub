@@ -52,6 +52,7 @@ description: "79 resources containing oct data in EyeDataHub."
 | [`stage_task2`](./stage_task2.md) | STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction | 400 volumes | 5.0 GB | `research-only` | Manual (upstream-gated) |
 | [`stage_task3`](./stage_task3.md) | STAGE 2023 Task 3 — Pattern Deviation Probability Map | 400 volumes | 5.0 GB | `research-only` | Manual (upstream-gated) |
 | [`duke_rpedc`](./duke_rpedc.md) | Duke RPE-Drusen Complex OCT Dataset | 384 participants | 20.0 GB | `research-only` | Manual (upstream-gated) |
+| [`fang_sbsdi_oct`](./fang_sbsdi_oct.md) | Duke Fang SBSDI Retinal OCT Dataset | 323 images | 0.5 GB | `research-only` | Manual (upstream-gated) |
 | [`ichallenge_oct`](./ichallenge_oct.md) | iChallenge OCT Datasets (HDMILab / OMIA Workshops) | 300 volumes | 2.0 GB | `research-only` | Manual (upstream-gated) |
 | [`gamma`](./gamma.md) | GAMMA — Glaucoma Grading from Multi-Modality Images | 300 volumes | 5.0 GB | `cc-by-nc-nd` | Google Drive |
 | [`goals`](./goals.md) | GOALS — Glaucoma OCT Layer Segmentation (MICCAI 2022) | 300 images | 0.5 GB | `cc-by` | Google Drive |
@@ -69,7 +70,6 @@ description: "79 resources containing oct data in EyeDataHub."
 | [`cavri`](./cavri.md) | CAVRI: Computer Analysis of VitreoRetinal Interface Dataset | 50 volumes | 3.0 GB | `research-only` | Manual (upstream-gated) |
 | [`data_oct_fundus_glaucoma`](./data_oct_fundus_glaucoma.md) | Data on OCT and Fundus Images | 50 images | 0.1 GB | `cc-by` | Mendeley Data |
 | [`oct_cirrus`](./oct_cirrus.md) | Duke Srinivasan Retinal OCT Dataset | 45 volumes | 0.6 GB | `research-only` | Manual (upstream-gated) |
-| [`fang_sbsdi_oct`](./fang_sbsdi_oct.md) | Duke Fang SBSDI Retinal OCT Dataset | 41 participants | 0.5 GB | `research-only` | Manual (upstream-gated) |
 | [`dryad_functional_oct_alzheimer`](./dryad_functional_oct_alzheimer.md) | Functional OCT Retinal Response Dataset | 40 participants | 0.8 GB | `cc0` | Dryad |
 | [`dryad_brvo_bevacizumab_multimodal`](./dryad_brvo_bevacizumab_multimodal.md) | BRVO Bevacizumab Multimodal Dataset | 27 eyes | 0.1 GB | `cc0` | Dryad |
 | [`duke_amd_chiu`](./duke_amd_chiu.md) | Duke AMD Pathology OCT Segmentation Dataset | 20 volumes | 0.5 GB | `unknown` | Manual (upstream-gated) |

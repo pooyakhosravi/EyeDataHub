@@ -3,11 +3,11 @@ dryad_5xfad_retina_dlgn,10.5061/dryad.dbrv15fbk,2,2,108816,complete_current_depo
 dryad_acanthamoeba_keratitis_transcriptome,10.5061/dryad.k3j9kd5fx,4,4,5160475,complete_current_deposit_structurally_inspected,True,4,5160475,"{"".csv"": 2, "".md"": 1, "".txt"": 1}",False
 dryad_amd_zinc_complement,10.5061/dryad.3gq6t,1,2,62634,complete_current_deposit_structurally_inspected,True,2,62634,"{"".txt"": 1, "".xls"": 1}",False
 dryad_angle_closure_rabbit,10.5061/dryad.ks48tt4,1,21,133769410,complete_official_file_listing,False,,,"{"".jpg"": 5, "".tif"": 13, "".xlsx"": 3}",False
-dryad_aoslo_rpe,10.5061/dryad.b41j15h,1,20,84397437,complete_official_file_listing,False,,,"{"".txt"": 10, "".zip"": 10}",False
+dryad_aoslo_rpe,10.5061/dryad.b41j15h,1,20,84397437,complete_current_deposit_structurally_inspected,True,20,84397437,"{"".txt"": 10, "".zip"": 10}",False
 dryad_bariatric_ophthalmology,10.5061/dryad.1g6vm34,1,1,32456,complete_current_deposit_structurally_inspected,True,1,32456,"{"".xlsx"": 1}",False
 dryad_bbs1_retinal_degeneration,10.5061/dryad.2rbnzs7jm,6,1,58847,complete_current_deposit_structurally_inspected,True,1,58847,"{"".xlsx"": 1}",False
 dryad_biocular_eye_tracking,10.5061/dryad.84hc0,1,2,108554,complete_current_deposit_structurally_inspected,True,2,108554,"{"".xlsx"": 2}",False
-dryad_brvo_bevacizumab_multimodal,10.5061/dryad.3cp54,1,3,61440336,complete_official_file_listing,False,,,"{"".rar"": 3}",False
+dryad_brvo_bevacizumab_multimodal,10.5061/dryad.3cp54,1,3,61440336,complete_current_deposit_structurally_inspected,True,3,61440336,"{"".rar"": 3}",False
 dryad_canine_pra_cea_genotypes,10.5061/dryad.6djh9w17c,5,2,5825605,complete_current_deposit_structurally_inspected,True,2,5825605,"{"".md"": 1, "".xlsx"": 1}",False
 dryad_clcc1_retinitis_pigmentosa,10.5061/dryad.3vv31qq,1,1,36607394,complete_current_deposit_structurally_inspected,True,1,36607394,"{"".zip"": 1}",False
 dryad_cone_synapse_computation,10.5061/dryad.0p2ngf25g,8,4,11191747623,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 3}",False
@@ -29,100 +29,100 @@ dryad_eye_care_quality_of_life,10.5061/dryad.h44j0zpv3,7,2,95224,complete_curren
 dryad_eye_head_visual_selection,10.5061/dryad.33kh1,1,1,82791,complete_current_deposit_structurally_inspected,True,1,82791,"{"".xlsx"": 1}",False
 dryad_functional_oct_alzheimer,10.5061/dryad.msbcc2ftc,6,1,843520297,complete_official_file_listing,False,,,"{"".rar"": 1}",False
 dryad_fundus_venous_pulsation,10.5061/dryad.56f1h,1,2,118583295,complete_official_file_listing,False,,,"{"".txt"": 1, "".zip"": 1}",False
-dryad_fungal_keratitis_azole_assay,10.5061/dryad.bk3j9kdjf,3,3,4025,complete_official_file_listing,False,,,"{"".csv"": 2, "".md"": 1}",False
+dryad_fungal_keratitis_azole_assay,10.5061/dryad.bk3j9kdjf,3,3,4025,complete_current_deposit_structurally_inspected,True,3,4025,"{"".csv"": 2, "".md"": 1}",False
 dryad_fungal_keratitis_cci,10.5061/dryad.8931zcrw5,8,2,258765397,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 1}",False
-dryad_ga_biofeedback,10.5061/dryad.ngf1vhj81,5,2,10256,complete_official_file_listing,False,,,"{"".csv"": 1, "".md"": 1}",False
-dryad_gca_optic_nerve_dwi,10.5061/dryad.59zw3r2bk,4,2,695487,complete_official_file_listing,False,,,"{"".txt"": 1, "".xlsx"": 1}",False
-dryad_gcc_glaucoma,10.5061/dryad.xwdbrv1tn,3,2,12543,complete_official_file_listing,False,,,"{"".md"": 1, "".sav"": 1}",False
-dryad_glaucoma_lhon_mitochondrial,10.5061/dryad.2k4v4,1,1,14688,complete_official_file_listing,False,,,"{"".rar"": 1}",False
-dryad_glaucoma_rnfl_vf,10.5061/dryad.q6ft5,1,1,12461,complete_official_file_listing,False,,,"{"".zip"": 1}",False
-dryad_glaucoma_tears_mirna,10.5061/dryad.bcc2fqzj1,3,2,69620,complete_official_file_listing,False,,,"{"".csv"": 1, "".md"": 1}",False
-dryad_htr1b_mouse_retina,10.5061/dryad.bk3j9kdps,7,5,113358,complete_official_file_listing,False,,,"{"".md"": 1, "".xlsx"": 4}",False
-dryad_human_foveal_cones,10.5061/dryad.nh0fp1b,1,1,33268162,complete_official_file_listing,False,,,"{"".zip"": 1}",False
-dryad_huntingtons_retinal_oct,10.5061/dryad.ncjsxksxr,5,2,24663,complete_official_file_listing,False,,,"{"".csv"": 1, "".md"": 1}",False
-dryad_icmr_eye_see_cataract,10.5061/dryad.5qfttdz19,6,2,2438708,complete_official_file_listing,False,,,"{"".txt"": 1, "".zip"": 1}",False
-dryad_ird_mouse_proteome,10.5061/dryad.c2fqz61pc,4,19,7826521,complete_official_file_listing,False,,,"{"".csv"": 18, "".md"": 1}",False
-dryad_iris_surface_features,10.5061/dryad.0kt87,1,1,155993,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_j0707ztm,10.6075/j0707ztm,4,1,313138,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_karachi_cataract_outcomes,10.5061/dryad.7q5c7,1,1,8591,complete_official_file_listing,False,,,"{"".csv"": 1}",False
-dryad_lens_fluorescence_twins,10.5061/dryad.mcvdnck22,4,1,19907,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_lvpei_cataract_outcomes,10.5061/dryad.71hp4,1,1,452222,complete_official_file_listing,False,,,"{"".dta"": 1}",False
-dryad_macaque_cone_ratio,10.5061/dryad.gf1vhhmsc,4,3,492530,complete_official_file_listing,False,,,"{"".csv"": 2, "".md"": 1}",False
-dryad_moorfields_amd_1_2_year,10.5061/dryad.97r9289,4,2,3343064,complete_official_file_listing,False,,,"{"".csv"": 1, "".rtf"": 1}",False
-dryad_moorfields_namd_fellow_eye,10.5061/dryad.4mw6m906b,7,2,15505168,complete_official_file_listing,False,,,"{"".csv"": 1, "".rtf"": 1}",False
+dryad_ga_biofeedback,10.5061/dryad.ngf1vhj81,5,2,10256,complete_current_deposit_structurally_inspected,True,2,10256,"{"".csv"": 1, "".md"": 1}",False
+dryad_gca_optic_nerve_dwi,10.5061/dryad.59zw3r2bk,4,2,695487,complete_current_deposit_structurally_inspected,True,2,695487,"{"".txt"": 1, "".xlsx"": 1}",False
+dryad_gcc_glaucoma,10.5061/dryad.xwdbrv1tn,3,2,12543,complete_current_deposit_structurally_inspected,True,2,12543,"{"".md"": 1, "".sav"": 1}",False
+dryad_glaucoma_lhon_mitochondrial,10.5061/dryad.2k4v4,1,1,14688,complete_current_deposit_structurally_inspected,True,1,14688,"{"".rar"": 1}",False
+dryad_glaucoma_rnfl_vf,10.5061/dryad.q6ft5,1,1,12461,complete_current_deposit_structurally_inspected,True,1,12461,"{"".zip"": 1}",False
+dryad_glaucoma_tears_mirna,10.5061/dryad.bcc2fqzj1,3,2,69620,complete_current_deposit_structurally_inspected,True,2,69620,"{"".csv"": 1, "".md"": 1}",False
+dryad_htr1b_mouse_retina,10.5061/dryad.bk3j9kdps,7,5,113358,complete_current_deposit_structurally_inspected,True,5,113358,"{"".md"": 1, "".xlsx"": 4}",False
+dryad_human_foveal_cones,10.5061/dryad.nh0fp1b,1,1,33268162,complete_current_deposit_structurally_inspected,True,1,33268162,"{"".zip"": 1}",False
+dryad_huntingtons_retinal_oct,10.5061/dryad.ncjsxksxr,5,2,24663,complete_current_deposit_structurally_inspected,True,2,24663,"{"".csv"": 1, "".md"": 1}",False
+dryad_icmr_eye_see_cataract,10.5061/dryad.5qfttdz19,6,2,2438708,complete_current_deposit_structurally_inspected,True,2,2438708,"{"".txt"": 1, "".zip"": 1}",False
+dryad_ird_mouse_proteome,10.5061/dryad.c2fqz61pc,4,19,7826521,complete_current_deposit_structurally_inspected,True,19,7826521,"{"".csv"": 18, "".md"": 1}",False
+dryad_iris_surface_features,10.5061/dryad.0kt87,1,1,155993,complete_current_deposit_structurally_inspected,True,1,155993,"{"".xlsx"": 1}",False
+dryad_j0707ztm,10.6075/j0707ztm,4,1,313138,complete_current_deposit_structurally_inspected,True,1,313138,"{"".xlsx"": 1}",False
+dryad_karachi_cataract_outcomes,10.5061/dryad.7q5c7,1,1,8591,complete_current_deposit_structurally_inspected,True,1,8591,"{"".csv"": 1}",False
+dryad_lens_fluorescence_twins,10.5061/dryad.mcvdnck22,4,1,19907,complete_current_deposit_structurally_inspected,True,1,19907,"{"".xlsx"": 1}",False
+dryad_lvpei_cataract_outcomes,10.5061/dryad.71hp4,1,1,452222,complete_current_deposit_structurally_inspected,True,1,452222,"{"".dta"": 1}",False
+dryad_macaque_cone_ratio,10.5061/dryad.gf1vhhmsc,4,3,492530,complete_current_deposit_structurally_inspected,True,3,492530,"{"".csv"": 2, "".md"": 1}",False
+dryad_moorfields_amd_1_2_year,10.5061/dryad.97r9289,4,2,3343064,complete_current_deposit_structurally_inspected,True,2,3343064,"{"".csv"": 1, "".rtf"": 1}",False
+dryad_moorfields_namd_fellow_eye,10.5061/dryad.4mw6m906b,7,2,15505168,complete_current_deposit_structurally_inspected,True,2,15505168,"{"".csv"": 1, "".rtf"": 1}",False
 dryad_mouse_all_optical_retina,10.5061/dryad.7q37g6b,1,2,221621774,complete_official_file_listing,False,,,"{"".docx"": 1, "".zip"": 1}",False
 dryad_mouse_oct_beam_tilt,10.5061/dryad.95x69p8th,3,2,4704522143,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 1}",False
-dryad_mouse_pupil_masking_retinal_deg,10.5061/dryad.9kd51c5g5,2,3,52159706,complete_official_file_listing,False,,,"{"".pzf"": 3}",False
-dryad_myopia_glaucoma_visual_field,10.5061/dryad.1n50q,1,1,77824,complete_official_file_listing,False,,,"{"".xls"": 1}",False
-dryad_namd_12_year_survival,10.5061/dryad.nvx0k6dqg,5,4,20325759,complete_official_file_listing,False,,,"{"".csv"": 1, "".docx"": 1, "".r"": 1, "".rtf"": 1}",False
-dryad_namd_oct_longitudinal,10.5061/dryad.8cz8w9h0v,11,2,15711999,complete_official_file_listing,False,,,"{"".csv"": 1, "".md"": 1}",False
-dryad_namd_oct_quant,10.5061/dryad.2rbnzs7m4,6,2,707701,complete_official_file_listing,False,,,"{"".csv"": 1, "".txt"": 1}",False
-dryad_namd_ten_year_survival,10.5061/dryad.9cnp5hqfm,11,4,1045599,complete_official_file_listing,False,,,"{"".csv"": 1, "".r"": 2, "".rtf"": 1}",False
-dryad_namd_visual_prediction,10.5061/dryad.573n5tb5d,4,3,1498898,complete_official_file_listing,False,,,"{"".csv"": 1, "".r"": 1, "".rtf"": 1}",False
+dryad_mouse_pupil_masking_retinal_deg,10.5061/dryad.9kd51c5g5,2,3,52159706,complete_current_deposit_structurally_inspected,True,3,52159706,"{"".pzf"": 3}",False
+dryad_myopia_glaucoma_visual_field,10.5061/dryad.1n50q,1,1,77824,complete_current_deposit_structurally_inspected,True,1,77824,"{"".xls"": 1}",False
+dryad_namd_12_year_survival,10.5061/dryad.nvx0k6dqg,5,4,20325759,complete_current_deposit_structurally_inspected,True,4,20325759,"{"".csv"": 1, "".docx"": 1, "".r"": 1, "".rtf"": 1}",False
+dryad_namd_oct_longitudinal,10.5061/dryad.8cz8w9h0v,11,2,15711999,complete_current_deposit_structurally_inspected,True,2,15711999,"{"".csv"": 1, "".md"": 1}",False
+dryad_namd_oct_quant,10.5061/dryad.2rbnzs7m4,6,2,707701,complete_current_deposit_structurally_inspected,True,2,707701,"{"".csv"": 1, "".txt"": 1}",False
+dryad_namd_ten_year_survival,10.5061/dryad.9cnp5hqfm,11,4,1045599,complete_current_deposit_structurally_inspected,True,4,1045599,"{"".csv"": 1, "".r"": 2, "".rtf"": 1}",False
+dryad_namd_visual_prediction,10.5061/dryad.573n5tb5d,4,3,1498898,complete_current_deposit_structurally_inspected,True,3,1498898,"{"".csv"": 1, "".r"": 1, "".rtf"": 1}",False
 dryad_nhp_trachoma_immunity,10.5061/dryad.69p8cz982,3,2,1715551877,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 1}",False
-dryad_nigeria_cataract_services,10.5061/dryad.13bp2,1,2,418304,complete_official_file_listing,False,,,"{"".doc"": 1, "".xls"": 1}",False
-dryad_ocular_chemical_injuries_shanghai,10.5061/dryad.9707661,3,1,25035,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_ocular_gvhd_mouse,10.5061/dryad.k6djh9w8z,5,2,119708,complete_official_file_listing,False,,,"{"".txt"": 1, "".xlsx"": 1}",False
-dryad_ocular_surface_amr,10.5061/dryad.6t1g1jx9s,7,3,12880,complete_official_file_listing,False,,,"{"".csv"": 2, "".md"": 1}",False
-dryad_optic_neuritis_metacontrast,10.5061/dryad.cp4j7,1,1,309018,complete_official_file_listing,False,,,"{"".zip"": 1}",False
-dryad_pediatric_corneal_endothelium,10.5061/dryad.hhmgqnkjc,5,2,19455,complete_official_file_listing,False,,,"{"".txt"": 1, "".xlsx"": 1}",False
-dryad_pediatric_myopia_longitudinal,10.5061/dryad.d4mb3pn,3,1,155656,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_pediatric_optical_quality,10.5061/dryad.bm8nv,1,1,53725,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_pediatric_secondary_iol,10.5061/dryad.5t9d1,1,1,21814,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_pg4f4qrwf,10.5061/dryad.pg4f4qrwf,4,5,79049,complete_official_file_listing,False,,,"{"".csv"": 1, "".md"": 1, "".txt"": 3}",False
+dryad_nigeria_cataract_services,10.5061/dryad.13bp2,1,2,418304,complete_current_deposit_structurally_inspected,True,2,418304,"{"".doc"": 1, "".xls"": 1}",False
+dryad_ocular_chemical_injuries_shanghai,10.5061/dryad.9707661,3,1,25035,complete_current_deposit_structurally_inspected,True,1,25035,"{"".xlsx"": 1}",False
+dryad_ocular_gvhd_mouse,10.5061/dryad.k6djh9w8z,5,2,119708,complete_current_deposit_structurally_inspected,True,2,119708,"{"".txt"": 1, "".xlsx"": 1}",False
+dryad_ocular_surface_amr,10.5061/dryad.6t1g1jx9s,7,3,12880,complete_current_deposit_structurally_inspected,True,3,12880,"{"".csv"": 2, "".md"": 1}",False
+dryad_optic_neuritis_metacontrast,10.5061/dryad.cp4j7,1,1,309018,complete_current_deposit_structurally_inspected,True,1,309018,"{"".zip"": 1}",False
+dryad_pediatric_corneal_endothelium,10.5061/dryad.hhmgqnkjc,5,2,19455,complete_current_deposit_structurally_inspected,True,2,19455,"{"".txt"": 1, "".xlsx"": 1}",False
+dryad_pediatric_myopia_longitudinal,10.5061/dryad.d4mb3pn,3,1,155656,complete_current_deposit_structurally_inspected,True,1,155656,"{"".xlsx"": 1}",False
+dryad_pediatric_optical_quality,10.5061/dryad.bm8nv,1,1,53725,complete_current_deposit_structurally_inspected,True,1,53725,"{"".xlsx"": 1}",False
+dryad_pediatric_secondary_iol,10.5061/dryad.5t9d1,1,1,21814,complete_current_deposit_structurally_inspected,True,1,21814,"{"".xlsx"": 1}",False
+dryad_pg4f4qrwf,10.5061/dryad.pg4f4qrwf,4,5,79049,complete_current_deposit_structurally_inspected,True,5,79049,"{"".csv"": 1, "".md"": 1, "".txt"": 3}",False
 dryad_pk0p2ngzh,10.5061/dryad.pk0p2ngzh,6,12,37594711764,complete_official_file_listing,False,,,"{"".md"": 1, "".xlsx"": 1, "".zip"": 10}",False
-dryad_pk31jt2,10.5061/dryad.pk31jt2,1,1,64398,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_pnvx0k6hv,10.5061/dryad.pnvx0k6hv,3,1,177499,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_preeclampsia_ocular_octa,10.5061/dryad.j0zpc86kg,4,2,52502,complete_official_file_listing,False,,,"{"".md"": 1, "".sav"": 1}",False
+dryad_pk31jt2,10.5061/dryad.pk31jt2,1,1,64398,complete_current_deposit_structurally_inspected,True,1,64398,"{"".xlsx"": 1}",False
+dryad_pnvx0k6hv,10.5061/dryad.pnvx0k6hv,3,1,177499,complete_current_deposit_structurally_inspected,True,1,177499,"{"".xlsx"": 1}",False
+dryad_preeclampsia_ocular_octa,10.5061/dryad.j0zpc86kg,4,2,52502,complete_current_deposit_structurally_inspected,True,2,52502,"{"".md"": 1, "".sav"": 1}",False
 dryad_primate_on_dsgc,10.5061/dryad.47d7wm3kx,4,13,64655258350,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 12}",False
 dryad_prpf31_gene_augmentation,10.5061/dryad.bcc2fqzf1,6,39,265506337,complete_official_file_listing,False,,,"{"".gz"": 38, "".txt"": 1}",False
-dryad_pvd_diagnostic_oct,10.5061/dryad.h44j0zpnp,8,2,68301,complete_official_file_listing,False,,,"{"".md"": 1, "".xls"": 1}",False
-dryad_pzgmsbcfw,10.5061/dryad.pzgmsbcfw,9,2,5116953,complete_official_file_listing,False,,,"{"".csv"": 1, "".r"": 1}",False
+dryad_pvd_diagnostic_oct,10.5061/dryad.h44j0zpnp,8,2,68301,complete_current_deposit_structurally_inspected,True,2,68301,"{"".md"": 1, "".xls"": 1}",False
+dryad_pzgmsbcfw,10.5061/dryad.pzgmsbcfw,9,2,5116953,complete_current_deposit_structurally_inspected,True,2,5116953,"{"".csv"": 1, "".r"": 1}",False
 dryad_pzgmsbcmk,10.5061/dryad.pzgmsbcmk,3,13,873473805,complete_official_file_listing,False,,,"{"".txt"": 1, "".xlsx"": 12}",False
 dryad_q6rv0kz3,10.7272/q6rv0kz3,6,19,692655940,complete_official_file_listing,False,,,"{"".html"": 9, "".mat"": 9, "".md"": 1}",False
 dryad_q6w37t8b,10.7272/q6w37t8b,1,6,15610092,complete_official_file_listing,False,,,"{"".mtx"": 2, "".tsv"": 4}",False
 dryad_q83bk3jnw,10.5061/dryad.q83bk3jnw,4,7,4289591,complete_official_file_listing,False,,,"{"".md"": 1, "".txt"": 1, "".xlsx"": 5}",False
-dryad_qfttdz0dr,10.5061/dryad.qfttdz0dr,3,1,59357,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
+dryad_qfttdz0dr,10.5061/dryad.qfttdz0dr,3,1,59357,complete_current_deposit_structurally_inspected,True,1,59357,"{"".xlsx"": 1}",False
 dryad_r4xgxd2nt,10.5061/dryad.r4xgxd2nt,6,6,3340308791,complete_official_file_listing,False,,,"{"".gif"": 1, "".md"": 1, "".mp4"": 1, "".zip"": 3}",False
-dryad_r7s04,10.5061/dryad.r7s04,1,1,1253376,complete_official_file_listing,False,,,"{"".xls"": 1}",False
+dryad_r7s04,10.5061/dryad.r7s04,1,1,1253376,complete_current_deposit_structurally_inspected,True,1,1253376,"{"".xls"": 1}",False
 dryad_r7sqv9sqs,10.5061/dryad.r7sqv9sqs,4,11,139241181282,complete_official_file_listing,False,,,"{"".gz"": 8, "".map"": 1, "".md"": 1, "".ped"": 1}",False
-dryad_rao_multiomics,10.5061/dryad.98sf7m0wt,4,4,19138637,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 3}",False
-dryad_ravi_cataract_outcomes,10.5061/dryad.4p55b,1,1,1216284,complete_official_file_listing,False,,,"{"".dta"": 1}",False
+dryad_rao_multiomics,10.5061/dryad.98sf7m0wt,4,4,19138637,complete_current_deposit_structurally_inspected,True,4,19138637,"{"".md"": 1, "".zip"": 3}",False
+dryad_ravi_cataract_outcomes,10.5061/dryad.4p55b,1,1,1216284,complete_current_deposit_structurally_inspected,True,1,1216284,"{"".dta"": 1}",False
 dryad_retinal_explant_metabolomics,10.5061/dryad.c2fqz61hr,4,2,9581295,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 1}",False
-dryad_retinal_prosthesis_navigation,10.5061/dryad.c6147,1,1,42615,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
+dryad_retinal_prosthesis_navigation,10.5061/dryad.c6147,1,1,42615,complete_current_deposit_structurally_inspected,True,1,42615,"{"".xlsx"": 1}",False
 dryad_retinal_pufa_aging_mouse,10.5061/dryad.gxd25480h,5,14,13798287,complete_official_file_listing,False,,,"{"".csv"": 11, "".md"": 1, "".txt"": 2}",False
 dryad_retinal_vasomotion,10.5061/dryad.163mp,1,1,1111189442,complete_official_file_listing,False,,,"{"".mat"": 1}",False
 dryad_retinal_vein_cannulation,10.5061/dryad.3ffbg79zd,5,7,7511466011,complete_official_file_listing,False,,,"{"".md"": 1, "".txt"": 1, "".zip"": 5}",False
 dryad_rhesus_maculopathy_metabolomics,10.5061/dryad.7pvmcvf8d,8,2,659872,complete_official_file_listing,False,,,"{"".md"": 1, "".xlsx"": 1}",False
-dryad_rn38r,10.5061/dryad.rn38r,1,1,17348,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_rn8pk0p70,10.5061/dryad.rn8pk0p70,11,3,142972,complete_official_file_listing,False,,,"{"".docx"": 1, "".dta"": 1, "".md"": 1}",False
-dryad_rn8pk0pdp,10.5061/dryad.rn8pk0pdp,6,2,21964,complete_official_file_listing,False,,,"{"".txt"": 1, "".xlsx"": 1}",False
+dryad_rn38r,10.5061/dryad.rn38r,1,1,17348,complete_current_deposit_structurally_inspected,True,1,17348,"{"".xlsx"": 1}",False
+dryad_rn8pk0p70,10.5061/dryad.rn8pk0p70,11,3,142972,complete_current_deposit_structurally_inspected,True,3,142972,"{"".docx"": 1, "".dta"": 1, "".md"": 1}",False
+dryad_rn8pk0pdp,10.5061/dryad.rn8pk0pdp,6,2,21964,complete_current_deposit_structurally_inspected,True,2,21964,"{"".txt"": 1, "".xlsx"": 1}",False
 dryad_rn8pk0pmm,10.5061/dryad.rn8pk0pmm,3,38,33285472018,complete_official_file_listing,False,,,"{"".gz"": 36, "".md"": 1, "".zip"": 1}",False
 dryad_rod_cone_dystrophy_genes,10.5061/dryad.59zw3r2b7,7,3,69576,complete_official_file_listing,False,,,"{"".csv"": 1, "".txt"": 2}",False
-dryad_rop_plane_wave_doppler,10.5061/dryad.612jm649r,4,2,33701,complete_official_file_listing,False,,,"{"".md"": 1, "".sav"": 1}",False
+dryad_rop_plane_wave_doppler,10.5061/dryad.612jm649r,4,2,33701,complete_current_deposit_structurally_inspected,True,2,33701,"{"".md"": 1, "".sav"": 1}",False
 dryad_rpgr_cone_rod_wes,10.5061/dryad.5qfttdz5d,2,2,4478935663,complete_official_file_listing,False,,,"{"".gz"": 2}",False
 dryad_rs2qp,10.5061/dryad.rs2qp,2,12,15143685677,complete_official_file_listing,False,,,"{"".mat"": 6, "".pdf"": 6}",False
 dryad_rv15dv4bv,10.5061/dryad.rv15dv4bv,5,104,13737601388,complete_official_file_listing,False,,,"{"".md"": 1, "".nd2"": 103}",False
 dryad_s1rn8pkhb,10.5061/dryad.s1rn8pkhb,6,2,7907110,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 1}",False
-dryad_sbcc2fr6n,10.5061/dryad.sbcc2fr6n,7,2,3176392,complete_official_file_listing,False,,,"{"".pdf"": 1, "".xlsx"": 1}",False
-dryad_sbcc2fr7r,10.5061/dryad.sbcc2fr7r,8,2,301336,complete_official_file_listing,False,,,"{"".md"": 1, "".xls"": 1}",False
+dryad_sbcc2fr6n,10.5061/dryad.sbcc2fr6n,7,2,3176392,complete_current_deposit_structurally_inspected,True,2,3176392,"{"".pdf"": 1, "".xlsx"": 1}",False
+dryad_sbcc2fr7r,10.5061/dryad.sbcc2fr7r,8,2,301336,complete_current_deposit_structurally_inspected,True,2,301336,"{"".md"": 1, "".xls"": 1}",False
 dryad_sf7m0cggh,10.5061/dryad.sf7m0cggh,9,5,117131,complete_official_file_listing,False,,,"{"".md"": 1, "".xlsx"": 4}",False
-dryad_shanghai_myopia_2014_2018,10.5061/dryad.c2fqz615c,4,2,2318884,complete_official_file_listing,False,,,"{"".docx"": 1, "".xls"": 1}",False
-dryad_sn02v6x2x,10.5061/dryad.sn02v6x2x,4,1,253440,complete_official_file_listing,False,,,"{"".xls"": 1}",False
+dryad_shanghai_myopia_2014_2018,10.5061/dryad.c2fqz615c,4,2,2318884,complete_current_deposit_structurally_inspected,True,2,2318884,"{"".docx"": 1, "".xls"": 1}",False
+dryad_sn02v6x2x,10.5061/dryad.sn02v6x2x,4,1,253440,complete_current_deposit_structurally_inspected,True,1,253440,"{"".xls"": 1}",False
 dryad_spata7_canine_retinal_degeneration,10.5061/dryad.3tx95x6n6,4,5,34380282367,complete_official_file_listing,False,,,"{"".gz"": 2, "".md"": 1, "".tfam"": 1, "".tped"": 1}",False
-dryad_stargardt_wes,10.5061/dryad.0qk7f,1,1,284937,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
+dryad_stargardt_wes,10.5061/dryad.0qk7f,1,1,284937,complete_current_deposit_structurally_inspected,True,1,284937,"{"".xlsx"": 1}",False
 dryad_subretinal_fibrosis_adora2a,10.5061/dryad.hx3ffbgmv,6,45,10972741,complete_official_file_listing,False,,,"{"".md"": 1, "".scan"": 20, "".txt"": 1, "".wiff"": 20, "".xlsx"": 3}",False
 dryad_subretinal_robot,10.5061/dryad.w0vt4b91w,4,2,2480715881,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 1}",False
-dryad_taizhou_cataract_outdoors,10.5061/dryad.gt410,1,1,1358848,complete_official_file_listing,False,,,"{"".xls"": 1}",False
+dryad_taizhou_cataract_outdoors,10.5061/dryad.gt410,1,1,1358848,complete_current_deposit_structurally_inspected,True,1,1358848,"{"".xls"": 1}",False
 dryad_tb2rbp0cq,10.5061/dryad.tb2rbp0cq,4,358,5051903547,complete_official_file_listing,False,,,"{"".md"": 1, "".tif"": 357}",False
-dryad_tb_uveitis_ifn,10.5061/dryad.8jk03jd,1,1,52469,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
+dryad_tb_uveitis_ifn,10.5061/dryad.8jk03jd,1,1,52469,complete_current_deposit_structurally_inspected,True,1,52469,"{"".xlsx"": 1}",False
 dryad_tdz08kq8t,10.5061/dryad.tdz08kq8t,8,22,2018076463,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 21}",False
-dryad_tmpg4f4vb,10.5061/dryad.tmpg4f4vb,5,1,17642,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_toric_iol_incision,10.5061/dryad.01n20,1,1,65825,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_uveal_melanoma_coog2,10.5061/dryad.n8pk0p340,2,2,84124,complete_official_file_listing,False,,,"{"".csv"": 1, "".md"": 1}",False
-dryad_uveitis_vitreous_biomarkers,10.5061/dryad.597ch,1,1,74836,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
-dryad_v6wwpzh1b,10.5061/dryad.v6wwpzh1b,4,2,14771,complete_official_file_listing,False,,,"{"".md"": 1, "".xlsx"": 1}",False
-dryad_v9p0b,10.5061/dryad.v9p0b,1,1,34844,complete_official_file_listing,False,,,"{"".sav"": 1}",False
+dryad_tmpg4f4vb,10.5061/dryad.tmpg4f4vb,5,1,17642,complete_current_deposit_structurally_inspected,True,1,17642,"{"".xlsx"": 1}",False
+dryad_toric_iol_incision,10.5061/dryad.01n20,1,1,65825,complete_current_deposit_structurally_inspected,True,1,65825,"{"".xlsx"": 1}",False
+dryad_uveal_melanoma_coog2,10.5061/dryad.n8pk0p340,2,2,84124,complete_current_deposit_structurally_inspected,True,2,84124,"{"".csv"": 1, "".md"": 1}",False
+dryad_uveitis_vitreous_biomarkers,10.5061/dryad.597ch,1,1,74836,complete_current_deposit_structurally_inspected,True,1,74836,"{"".xlsx"": 1}",False
+dryad_v6wwpzh1b,10.5061/dryad.v6wwpzh1b,4,2,14771,complete_current_deposit_structurally_inspected,True,2,14771,"{"".md"": 1, "".xlsx"": 1}",False
+dryad_v9p0b,10.5061/dryad.v9p0b,1,1,34844,complete_current_deposit_structurally_inspected,True,1,34844,"{"".sav"": 1}",False
 dryad_vkh_apoe,10.5061/dryad.37pvmcvzx,3,5,68879258875,complete_official_file_listing,False,,,"{"".csv"": 2, "".md"": 1, "".zip"": 2}",False
 dryad_vq83bk3s8,10.5061/dryad.vq83bk3s8,5,910,6459809695,complete_official_file_listing,False,,,"{"".abf"": 163, "".csv"": 24, "".mat"": 421, "".tif"": 90, "".txt"": 211, "".xlsx"": 1}",False
 dryad_vx0k6djwf,10.5061/dryad.vx0k6djwf,5,5,1599090854,complete_official_file_listing,False,,,"{"".h5"": 4, "".md"": 1}",False
@@ -130,13 +130,13 @@ dryad_w3r228143,10.5061/dryad.w3r228143,5,2,9123577630,complete_official_file_li
 dryad_wdbrv15rj,10.5061/dryad.wdbrv15rj,5,19,212240699756,complete_official_file_listing,False,,,"{"".gz"": 16, "".tfam"": 1, "".tped"": 1, "".txt"": 1}",False
 dryad_wstqjq2n5,10.5061/dryad.wstqjq2n5,4,4,310559523,complete_official_file_listing,False,,,"{"".csv"": 2, "".txt"": 1, "".zip"": 1}",False
 dryad_x95x69pmq,10.5061/dryad.x95x69pmq,5,20,5658900002,complete_official_file_listing,False,,,"{"".nd2"": 19, "".rtf"": 1}",False
-dryad_xgxd254pk,10.5061/dryad.xgxd254pk,5,2,42482,complete_official_file_listing,False,,,"{"".md"": 1, "".xlsx"": 1}",False
+dryad_xgxd254pk,10.5061/dryad.xgxd254pk,5,2,42482,complete_current_deposit_structurally_inspected,True,2,42482,"{"".md"": 1, "".xlsx"": 1}",False
 dryad_xpnvx0kb6,10.5061/dryad.xpnvx0kb6,9,118,453212274,complete_official_file_listing,False,,,"{""._fig1-degenerated_area_quantied"": 1, "".csv"": 10, "".docx"": 4, "".pzfx"": 14, "".tif"": 88, "".xlsx"": 1}",False
 dryad_xwdbrv1kd,10.5061/dryad.xwdbrv1kd,7,11,199231877370,complete_official_file_listing,False,,,"{"".gz"": 8, "".md"": 1, "".tfam"": 1, "".tped"": 1}",False
-dryad_young_adult_uv_transmission,10.5061/dryad.hg000c2,1,1,11730,complete_official_file_listing,False,,,"{"".xlsx"": 1}",False
+dryad_young_adult_uv_transmission,10.5061/dryad.hg000c2,1,1,11730,complete_current_deposit_structurally_inspected,True,1,11730,"{"".xlsx"": 1}",False
 dryad_z08kprrk3,10.5061/dryad.z08kprrk3,8,5,26446366374,complete_official_file_listing,False,,,"{"".gz"": 2, "".md"": 1, "".tfam"": 1, "".tped"": 1}",False
 dryad_z08kprrk6,10.5061/dryad.z08kprrk6,4,7,123431491592,complete_official_file_listing,False,,,"{"".gz"": 4, "".md"": 1, "".tfam"": 1, "".tped"": 1}",False
-dryad_z8w9ghx9c,10.5061/dryad.z8w9ghx9c,3,1,47104,complete_official_file_listing,False,,,"{"".xls"": 1}",False
+dryad_z8w9ghx9c,10.5061/dryad.z8w9ghx9c,3,1,47104,complete_current_deposit_structurally_inspected,True,1,47104,"{"".xls"": 1}",False
 dryad_z8w9ghx9f,10.5061/dryad.z8w9ghx9f,4,15,384697,complete_official_file_listing,False,,,"{"".xlsx"": 15}",False
 dryad_z8w9ghxpp,10.5061/dryad.z8w9ghxpp,11,47,4159288366,complete_official_file_listing,False,,,"{"".md"": 1, "".pzfx"": 23, "".tif"": 9, "".zip"": 14}",False
 dryad_zebrafish_crystallin_lens,10.5061/dryad.f4qrfj730,4,2,4451422309,complete_official_file_listing,False,,,"{"".md"": 1, "".zip"": 1}",False

@@ -6,8 +6,8 @@
   "catalog_record_count": 479,
   "records_with_resolved_primary_quantity": 328,
   "records_with_unresolved_primary_quantity": 151,
-  "quantity_evidence_row_count": 392,
-  "records_with_multiple_reported_quantities": 40,
+  "quantity_evidence_row_count": 393,
+  "records_with_multiple_reported_quantities": 41,
   "primary_quantities_by_unit": {
     "annotated_images": {
       "record_count": 1,
@@ -98,9 +98,9 @@
       "source_conflict_records": 0
     },
     "images": {
-      "record_count": 170,
-      "sum": 23620545,
-      "exact_count_records": 36,
+      "record_count": 171,
+      "sum": 23620868,
+      "exact_count_records": 37,
       "approximate_count_records": 0,
       "exactness_not_assessed_records": 134,
       "source_conflict_records": 0
@@ -122,9 +122,9 @@
       "source_conflict_records": 0
     },
     "participants": {
-      "record_count": 52,
-      "sum": 86395,
-      "exact_count_records": 44,
+      "record_count": 51,
+      "sum": 86354,
+      "exact_count_records": 43,
       "approximate_count_records": 0,
       "exactness_not_assessed_records": 8,
       "source_conflict_records": 0

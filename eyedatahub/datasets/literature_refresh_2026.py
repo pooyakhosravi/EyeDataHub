@@ -286,13 +286,13 @@ LITERATURE_RECORDS: list[dict[str, Any]] = [
         "name": "fang_sbsdi_oct",
         "full_name": "Duke Fang SBSDI Retinal OCT Dataset",
         "description": (
-            "Paired low signal and high signal retinal OCT data used to study "
+            "Human and human-derived paired retinal OCT images used to study "
             "sparse acquisition, denoising, interpolation, and reconstruction "
-            "in normal and non-neovascular AMD eyes."
+            "in healthy and non-neovascular AMD eyes."
         ),
         "modality": "oct",
         "tasks": ["reconstruction", "denoising"],
-        "num_samples": 41,
+        "num_samples": 323,
         "splits": ["all"],
         "download_type": "manual",
         "download_url": "https://people.duke.edu/~sf59/Fang_TMI_2013.htm",
@@ -303,12 +303,23 @@ LITERATURE_RECORDS: list[dict[str, Any]] = [
             "representation. IEEE Trans Med Imaging. 2013;32:2034-2049. "
             "doi:10.1109/TMI.2013.2271904"
         ),
-        "tags": ["oct", "amd", "reconstruction", "denoising", "duke"],
+        "tags": [
+            "oct",
+            "amd",
+            "reconstruction",
+            "denoising",
+            "human",
+            "human_derived_synthetic",
+            "duke",
+        ],
         "notes": (
-            "The count records the 41 human participants described in the paper, "
-            "not the number of files. The archive is organized by experiment "
-            "rather than an official train and test split and also includes "
-            "software and mouse imaging data."
+            "The catalog scope is limited to the source archive's separately "
+            "named human and human-derived components: 195 real-human TIFFs, "
+            "108 human-derived synthetic TIFFs, and 20 human-derived "
+            "dictionary-training TIFFs. Other source-archive components are "
+            "outside this record's scope. The associated paper describes 28 "
+            "eyes from 28 participants for the synthetic experiments and 13 "
+            "participants for the real experiments."
         ),
         "size_gb": 0.45,
     },

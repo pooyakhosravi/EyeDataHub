@@ -55,6 +55,26 @@ def test_dryad_review_is_record_level_and_complete() -> None:
     assert summary["signed_or_download_urls_serialized"] is False
     assert summary["participant_values_serialized"] is False
 
+    included = [row for row in rows if row["headline_catalog_included"]]
+    assert len(included) == 82
+    assert all(
+        row["source_data_origin"] != "nonhuman_or_nonhuman_derived"
+        for row in included
+    )
+    assert sum(
+        row["file_review_level"]
+        == "complete_current_deposit_structurally_inspected"
+        for row in included
+    ) == 75
+    assert sum(
+        row["file_review_level"] == "complete_official_file_listing"
+        for row in included
+    ) == 7
+    assert summary["included_complete_deposit_structure_reviews"] == 75
+    assert summary["included_official_file_listing_reviews"] == 7
+    assert all(row["data_granularity"] for row in included)
+    assert all(row["plausible_model_use"] for row in included)
+
 
 def test_known_borderline_records_are_not_headline_records() -> None:
     expected = {

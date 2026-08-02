@@ -108,8 +108,8 @@ Each resource has one primary category for navigation and one or more contained-
 
 | Unit | Records reporting this primary quantity |
 | --- | ---:|
-| `images` | 170 |
-| `participants` | 52 |
+| `images` | 171 |
+| `participants` | 51 |
 | `eyes` | 30 |
 | `volumes` | 16 |
 | `videos` | 8 |
