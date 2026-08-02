@@ -42,7 +42,7 @@ jobs:
       - name: Import smoke test
         run: |
           python -c "import eyedatahub; print('eyedatahub', eyedatahub.__file__)"
-          python -c "from eyedatahub.datasets.registry import REGISTRY; assert len(REGISTRY.list_datasets()) == 386; print(f'{len(REGISTRY.list_datasets())} catalog records loaded')"
+          python -c "from eyedatahub.datasets.registry import REGISTRY; assert len(REGISTRY.list_datasets()) == 479; print(f'{len(REGISTRY.list_datasets())} catalog records loaded')"
 
       - name: CLI smoke test
         run: |

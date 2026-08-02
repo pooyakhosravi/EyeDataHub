@@ -68,3 +68,4 @@ Issues = "https://github.com/pooyakhosravi/EyeDataHub/issues"
 [tool.pytest.ini_options]
 addopts = "-ra"
 testpaths = ["tests"]
+pythonpath = ["."]
