@@ -1,0 +1,2098 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-08-02",
+  "status": "completed_record_level_manual_review",
+  "source_ledgers": [
+    "kaggle_hf_model_screen_proposal.json"
+  ],
+  "scope": [
+    null
+  ],
+  "criteria": [],
+  "record_count": 345,
+  "unique_record_ids": 345,
+  "decision_counts": {
+    "duplicate_or_alternate": 35,
+    "exclude_insufficient": 223,
+    "exclude_nonhuman": 10,
+    "exclude_not_model_resource": 44,
+    "exclude_not_ophthalmology": 16,
+    "include_new": 17
+  },
+  "credential_values_serialized": false,
+  "signed_or_download_urls_serialized": false,
+  "local_absolute_paths_serialized": false,
+  "participant_values_serialized": false,
+  "records": [
+    {
+      "platform": "huggingface",
+      "stable_id": "AbrarShahid/diabetic_retinopathy_rohingya",
+      "title": "AbrarShahid/diabetic retinopathy rohingya",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "AlexeyGHT/Fundus_CFP",
+      "title": "AlexeyGHT/Fundus CFP",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "AswanthCManoj/glaucoma_diagnosis_json_analysis",
+      "title": "AswanthCManoj/glaucoma diagnosis json analysis",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "BaekSeungJu/Ophthalmology-EQA-v2",
+      "title": "BaekSeungJu/Ophthalmology EQA v2",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "BaekSeungJu/Ophthalmology-MCQA-v2",
+      "title": "BaekSeungJu/Ophthalmology MCQA v2",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "BaekSeungJu/Ophthalmology-Textbook-Corpus",
+      "title": "BaekSeungJu/Ophthalmology Textbook Corpus",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "BeefyPotato/Diabetic-Retinopathy-Images-224x224",
+      "title": "BeefyPotato/Diabetic Retinopathy Images 224x224",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "BenchmarkDatasets/Diabetic_Retinopathy_Debrecen",
+      "title": "BenchmarkDatasets/Diabetic Retinopathy Debrecen",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "BharathK333/DOOMGAN-Ocular-Morphs",
+      "title": "BharathK333/DOOMGAN Ocular Morphs",
+      "decision": "include_new"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "Bhavani-23/Ocularone-Hazard-Vest-Dataset",
+      "title": "Bhavani 23/Ocularone Hazard Vest Dataset",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "CAIR-M3LLM/Ophthalmology_20k",
+      "title": "CAIR M3LLM/Ophthalmology 20k",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "Danish45/Glaucoma",
+      "title": "Danish45/Glaucoma",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "Genentech/retinal-datasets",
+      "title": "Genentech/retinal datasets",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "JoshuaKelleyDs/Retina2",
+      "title": "JoshuaKelleyDs/Retina2",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "Mateo4/cataract-101-generated",
+      "title": "Mateo4/cataract 101 generated",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "Mobiusi/glaucoma_knowledge_base",
+      "title": "Mobiusi/glaucoma knowledge base",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "OcularAIInc/AmericanEnglishFullDuplexTwoSpeakerConversationalDataset",
+      "title": "OcularAIInc/AmericanEnglishFullDuplexTwoSpeakerConversationalDataset",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "OcularAIInc/PromptBased-AmericanEnglishFullDuplexTwoSpeakerConversationalDataset-Sample",
+      "title": "OcularAIInc/PromptBased AmericanEnglishFullDuplexTwoSpeakerConversationalDataset Sample",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "OcularAIInc/PromptBased-BritishEnglishFullDuplexTwoSpeakerConversationalDataset-Sample",
+      "title": "OcularAIInc/PromptBased BritishEnglishFullDuplexTwoSpeakerConversationalDataset Sample",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "PJMixers-Dev/AP-Fundus-Suffix-Cleaner",
+      "title": "PJMixers Dev/AP Fundus Suffix Cleaner",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "PJMixers-Dev/Fundus-AP-News-Unwanted-2",
+      "title": "PJMixers Dev/Fundus AP News Unwanted 2",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "PJMixers-Dev/fundusnewsonly",
+      "title": "PJMixers Dev/fundusnewsonly",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "RubySpeedy/Diabetic-Retinopathy-Kaggle",
+      "title": "RubySpeedy/Diabetic Retinopathy Kaggle",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "Tejaswini628/aptos-fundus-images",
+      "title": "Tejaswini628/aptos fundus images",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "WhoCares10/RetinaFundus",
+      "title": "WhoCares10/RetinaFundus",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "Yugant-S/Fundus_CFP",
+      "title": "Yugant S/Fundus CFP",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "ZYXue/Diabetic_Retinopathy",
+      "title": "ZYXue/Diabetic Retinopathy",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "abdallahwagih/retina-blood-vessel",
+      "title": "Retina Blood Vessel",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "abirT/combined_ophthalmology_dataset",
+      "title": "abirT/combined ophthalmology dataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "abirT/combined_ophthalmology_evaluation_dataset",
+      "title": "abirT/combined ophthalmology evaluation dataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "abirT/combined_ophthalmology_test_dataset",
+      "title": "abirT/combined ophthalmology test dataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "abirT/combined_ophthalmology_validation_dataset",
+      "title": "abirT/combined ophthalmology validation dataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "abirT/ophthalmology_dataset",
+      "title": "abirT/ophthalmology dataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "abirT/ophthalmology_validation_dataset",
+      "title": "abirT/ophthalmology validation dataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "abirT/ophthalmologydataset",
+      "title": "abirT/ophthalmologydataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "abirT/ophthalmologyevaluation_dataset",
+      "title": "abirT/ophthalmologyevaluation dataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "abs711/the-way-of-the-future",
+      "title": "The way of the future",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "abuhurer/macular-degeneration-disease-armd",
+      "title": "Macular Degeneration Disease (ARMD)",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "achyuthus/retina-data",
+      "title": "retina data",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "aditya11997/retinal_oct_analysis2",
+      "title": "aditya11997/retinal oct analysis2",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "agattadahalli/smdg-modified",
+      "title": "SMDG Modified",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ahmedsta/qa-vlm-med",
+      "title": "Medical Images with Q&A: A Multi Domain Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ahmetselukkren/fundus-dataset",
+      "title": "Fundus Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ajithdari/retinal-lesion-segmentation-dataset",
+      "title": "Retinal Lesion Segmentation Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "akshathapatil123/ai-generated-retinal-image-dataset",
+      "title": "AI generated Retinal Image Dataset",
+      "decision": "exclude_nonhuman"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "aleksanderprudnik/synthetic-oct-glaucoma-dataset",
+      "title": "Synthetic OCT Glaucoma Dataset",
+      "decision": "exclude_nonhuman"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "alexandervc/scrnaseq-early-developing-mouse-retina-cells",
+      "title": "scRNA seq early developing mouse retina cells",
+      "decision": "exclude_nonhuman"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "alexandervc/scrnaseq-study-of-neuron-development",
+      "title": "scRNA seq study of Neuron Development",
+      "decision": "exclude_nonhuman"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "alisalen/diabetic-retinopathy-detection-processed",
+      "title": "Diabetic Retinopathy Detection Processed",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "amimulhasan/funduszhang",
+      "title": "FundusZhang",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "amnahali/iris-recognition",
+      "title": "iris recognition",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "amnashoaibaa/train-001",
+      "title": "train 001",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "andrewmvd/fundus-image-registration",
+      "title": "Retina Fundus Image Registration",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "andrewmvd/pediatric-pneumonia-chest-xray",
+      "title": "Pediatric Pneumonia Chest X ray",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "anirudhcv/labeled-optical-coherence-tomography-oct",
+      "title": "Labeled Optical Coherence Tomography (OCT)",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "anya54m/restore-your-sight-eye-care-services",
+      "title": "Restore Your Sight Eye Care Services",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "anya54m/world-class-eye-care-at-blue-fin-vision",
+      "title": "World Class Eye Care at Blue Fin Vision",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "aparashar/artficial-spots-dataset",
+      "title": "Artficial Spots Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "apurbahalder/smartprix-mobile-section-data",
+      "title": "Smartprix Mobile Section Data",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "aqilamalfa/autism-eye-tracking",
+      "title": "autism eye tracking",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "arbethi/diabetic-retinopathy-level-detection",
+      "title": "Diabetic Retinopathy Level Detection",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "arjunbhushan005/fundus-images",
+      "title": "Fundus images",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "armin3731/phd-dataset-retina-mask",
+      "title": "armin3731/phd dataset retina mask",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "arshpreet143/emotion-meter",
+      "title": "emotion meter",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "arwabasal/itec-iris-and-pupil-segmentation",
+      "title": "ITEC Iris and Pupil Segmentation",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ashfaqur0007/diabetic-retinopathy-for-multiclass",
+      "title": "Diabetic Retinopathy for multiclass",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "asmaayaser/project-dataset",
+      "title": "project dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "aviagarwal123/dr-201010",
+      "title": "dr 201010",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "axondata/face-spoofing-in-the-wild-multi-mask",
+      "title": "Anti Spoofing Multi Mask Dataset in the Wild",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "basharalkuwaiti/oct-csv",
+      "title": "OCT CSV",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "baskaranv1315/human-retinal-eye",
+      "title": "human retinal eye",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "bongsang/eye-disease-deep-learning-dataset",
+      "title": "Eye Disease Deep Learning Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "borhan2003/messidor-diabetic-retinopathy-dataset",
+      "title": "Messidor Diabetic Retinopathy dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "borhan2003/messidor-diabetic-retinopathy-dataset-jpg-format",
+      "title": "messidor diabetic retinopathy dataset jpg format",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "botaylaamin/glaucoma-images",
+      "title": "Glaucoma Images",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "bwittmann/syn-cerebral-octa-seg",
+      "title": "bwittmann/syn cerebral octa seg",
+      "decision": "exclude_nonhuman"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "cenciarinigabriel/microalgae-microscope-20x-fov18",
+      "title": "Microalgae Microscope 20x FOV18",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "certvalueamisha/iso-27001-certification-in-saudi-arabia",
+      "title": "ISO 27001 Certification in Saudi Arabia",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "chandansvarma/synthetic-retinal-image",
+      "title": "Synthetic Retinal Image",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "chico89/multabench-glaucoma-smdg",
+      "title": "MulTaBench: Glaucoma Smdg [Image, Cls]",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "chrissyserb/digital-sovereign-biometric-constitution-dataset",
+      "title": "Digital Sovereign Biometric Constitution Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "clerimar/brasil-glaucoma-brg",
+      "title": "Brasil Glaucoma BrG",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "cnzakimuena/retinal-oct-and-octa-data-3",
+      "title": "Retinal OCT and OCTA data (processed)",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "cnzakimuena/retinal-oct-octa-data",
+      "title": "Retinal OCT and OCTA data (raw)",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "currypurin/diabetic-retinopathy-detection-image-size",
+      "title": "Diabetic Retinopathy Detection image shape",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "cypcypde/diabetic-retinopathy",
+      "title": "Diabetic retinopathy",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "dakshnagra/dry-eye-disease",
+      "title": "Dry Eye Disease",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "danjacobellis/retinamnist_224",
+      "title": "danjacobellis/retinamnist 224",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "dankok/diabetic-retinopathy-image-dataset",
+      "title": "Diabetic Retinopathy Image Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "dasa7753912/glaucoma-detection",
+      "title": "Glaucoma Detection",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "datasetengineer/amdp-dataset",
+      "title": "AMDP Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "datasetengineer/multimodal-retinal-disorder-diagnosis-dataset",
+      "title": "Multimodal Retinal Disorder Diagnosis Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "davidm770/corneal",
+      "title": "davidm770/corneal",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "debtorres/eyetracking-reading-experiment",
+      "title": "Eye tracking reading experiment",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "desalegngeb/conversion-predictors-of-cis-to-multiple-sclerosis",
+      "title": "Multiple Sclerosis Disease",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "devp1866/noisy-medical-document-images-ocr",
+      "title": "Noisy Medical Document Images (OCR)",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "dhirajmwagh1111/dataset-for-different-eye-disease",
+      "title": "Dataset for different eye disease",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "dhruvrsastry/macular-degeneration",
+      "title": "Macular degeneration",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "donjon00/covid19-detection",
+      "title": "Covid19 Detection",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "doxprovaishanvi/methylation-detection-for-retinitis-pigmentosa",
+      "title": "Methylation Epigenetic Biomarkers Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "drbasanthkb/cornea-in-diabetes",
+      "title": "Cornea in Diabetes Patients",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "drpakineeaimmanee/drac22-rnv",
+      "title": "DRAC22 RNV",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "drsamahzahid/migraine-and-dry-eye-schirmer",
+      "title": "Migraine & Dry Eye (Schirmer)",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "drskprabhakar/split-dataset-large-optic-cup-vs-possible-glaucoma",
+      "title": "Split dataset large optic cup vs possible glaucoma",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "dynamo14324/synthetic-medical-imaging-dataset",
+      "title": "synthetic medical imaging dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "eishkaran/diabetes-using-retinopathy-prediction",
+      "title": "Diabetic Retinopathy",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "electricsheepafrica/cataract-surgical-coverage-of-adults-aged-50-and-overby-sex-for-african-countries",
+      "title": "electricsheepafrica/cataract surgical coverage of adults aged 50 and overby sex for african countries",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "electricsheepafrica/effective-cataract-surgical-coverage-of-adults-age-for-african-countries",
+      "title": "electricsheepafrica/effective cataract surgical coverage of adults age for african countries",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "electricsheepafrica/effective-cataract-surgical-coverage-of-adults-aged-50-and-overby-sex-for-african-countries",
+      "title": "electricsheepafrica/effective cataract surgical coverage of adults aged 50 and overby sex for african countries",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "emy676/retinal",
+      "title": "Retinal",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "erdemerkan/eeg-dataset-with-ocular-artifact",
+      "title": "EEG Dataset with Ocular Artifact",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "erprashantkumar/diabetic-retinopathy-initial-10k-images-sorted",
+      "title": "Diabetic Retinopathy initial 10K images sorted",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "fabrizioravelli/retinal-oct-images-splitted",
+      "title": "Retinal OCT images",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "fahimaislam1812/myopia",
+      "title": "Myopia",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "federicorausa/diabetic-retinopathy-debrecen",
+      "title": "Diabetic Retinopathy Debrecen",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ferdiu/nevart-eye-tracking",
+      "title": "NEVArt Eye Tracking",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ferencjuhsz/origa-retinal-fundus-image-dataset",
+      "title": "ORIGA Retinal Fundus Image Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ferencjuhsz/refuge2-and-refuge2cross-dataset",
+      "title": "Refuge2 and Refuge2Cross Dataset",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "filipgoa/nuclear-cataract-1",
+      "title": "Nuclear Cataract Amateour CSV labels",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "freederiaresearch/hyper-specific-research-topic-paper-generation",
+      "title": "Hyper Specific Research Topic & Paper Generation:",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "gastondana/osd-679-sans-multi-modal-space-biology-benchmark",
+      "title": "OSD 679: SANS Multi Modal Space Biology Benchmark",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "gchan357/human-glaucoma",
+      "title": "Human Glaucoma",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "geethikagolamari04/idli-sambar",
+      "title": "Idli Sambar",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "gunavenkatdoddi/eye-diseases-classification",
+      "title": "eye diseases classification",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "h100gpu/eye-disease-detection",
+      "title": "Eye Disease Detection",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "hamza202404/drdm1-six-fundus-images-datasets-by-mian-hamza",
+      "title": "DRDM1 Six fundus Images datasets by Mian Hamza",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "haritham1234/3d-eye-image",
+      "title": "3d Eye Image",
+      "decision": "exclude_nonhuman"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "harshitkulkarni07/minor-project-dataset",
+      "title": "DR MASTER: Multi Source DR Grading Dataset",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "harshitstark/diabetic-retinopathy-diagnosis-dataset",
+      "title": "Diabetic Retinopathy Diagnosis Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "harshwardhanfartale/hypertension-and-hypertensive-retinopathy-dataset",
+      "title": "Hypertension & Hypertensive Retinopathy Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "hazemfahmy/eye-gaze-detection",
+      "title": "Eye Gaze Detection",
+      "decision": "exclude_nonhuman"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "hindsaud/datasets-higancnn-glaucoma-detection",
+      "title": "Generated Eye Dataset for Glaucoma Detection",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "histarthhv/retinal-enhanced-images",
+      "title": "Enhanced Retinal Images",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "hobaramadan/assessment-of-diabetic-retinopathy-awareness",
+      "title": "Assessment of diabetic retinopathy awareness",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "hossaincse260/retinal-oct-dataset",
+      "title": "Retinal OCT Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "hosseinmousavi/mvrs-multimodal-emotion-recognition-dataset",
+      "title": "MVRS Multimodal Emotion Recognition Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "icebearogo/eye-detection-dataset",
+      "title": "Eye Detection Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "iict/QazGo_Glaucoma",
+      "title": "iict/QazGo Glaucoma",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ildaron/dataset-eyetracking",
+      "title": "dataset eyetracking",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "introvoyz041/Fundus2Video",
+      "title": "introvoyz041/Fundus2Video",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "introvoyz041/MICCAI2021_Cataract_semantic_segmentation",
+      "title": "introvoyz041/MICCAI2021 Cataract semantic segmentation",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ipythonx/retinal-vessel-segmentation",
+      "title": "Retinal Vessel Segmentation",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "itsmariodias/pretrained-datasets",
+      "title": "Pretrained Models OCT",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "jafermarq/retinamnist",
+      "title": "jafermarq/retinamnist",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "jakubkhalponiak/phones-2024",
+      "title": "Phones 2024",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "javierleonelrojas/technische-fakultt-high-resolutiom-fundus",
+      "title": "Technische fakult\u00e4t high resolutiom fundus",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "jayavibhav/fundus_VLM",
+      "title": "jayavibhav/fundus VLM",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "jeremypoveda/dataset-unified-fundus-images-for-glaucoma",
+      "title": "Dataset Unified Fundus Images for Glaucoma",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "jeremypoveda/fondo-del-ojo-normal-glaucoma-retinopatia",
+      "title": "Fundus images dataset for Glaucoma",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "jgaughan/oct-scans",
+      "title": "OCT scans",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "jijivishaphuoc/x-ray-pneumonia-data",
+      "title": "X ray pneumonia data",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "joseguzman/y79-retinoblastoma-cells",
+      "title": "Retinoblastoma cells",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "juanschafle/dna-methylation-data-epigenetic-biomarkers",
+      "title": "DNA methylation data epigenetic biomarkers",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "julienmercier/eyetracking",
+      "title": "julienmercier/eyetracking",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "julienmercier/mobile-eye-tracking-dataset-v2",
+      "title": "julienmercier/mobile eye tracking dataset v2",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "julienmercier/mobile-eye-tracking-dataset-v3",
+      "title": "julienmercier/mobile eye tracking dataset v3",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "kamilsterniuk/gaze-tracking-during-asmr-and-binaural-beats",
+      "title": "Gaze Tracking During ASMR and Binaural Beats",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "karmayasser/edrop-alltypes",
+      "title": "edoRP AllTypes",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "katie312/fundus",
+      "title": "katie312/fundus",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "kawtarnaim/octid-dataset",
+      "title": "octid dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "kellysanderson/myopia-image-dataset",
+      "title": "Myopia Image Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "kellysanderson/myopia-images",
+      "title": "Myopia images",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "khajaahmed1/dr-four-class-dataset",
+      "title": "DR FOUR CLASS DATASET",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "khajaahmed1/dr-seven-class-dataset",
+      "title": "DR SEVEN CLASS DATASET",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "khangcancode/messidors-diabetic-retinopathy-dataset",
+      "title": "Messidor's Diabetic Retinopathy dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "khurramejaz/sz-dataset",
+      "title": "SZ dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "kondwani/eye-disease-dataset",
+      "title": "Eye disease dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "krishnagsvv/healthy-retinal-generated",
+      "title": "Healthy Retinal Generated",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "krishnakumar2k2/eyeballtracking-model",
+      "title": "Real Time Eye Gaze Tracking for Proctoring",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "kush1434/awg_retina_tomography_ui",
+      "title": "kush1434/awg retina tomography ui",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "latifuljoy/covid-chest-xray-image-dataset",
+      "title": "COVID Chest X Ray Image Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "linabennaa/original-eye-disease-image-dataset-mendeley",
+      "title": "Original Eye Disease Image Dataset Mendeley",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "linnaeus/donacilla-cornea-shell-size-and-coloration-ua",
+      "title": "Donacilla cornea shell size and coloration",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "lionerd1/retinanet-kaggle",
+      "title": "retinanet kaggle",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "longevity-db/human-cornea-snRNAseq",
+      "title": "longevity db/human cornea snRNAseq",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "lordamoah/diabetic-retinopathy",
+      "title": "RDHMI DRD",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "lumaatabbaa/vr-eyes-emotions-dataset-vreed",
+      "title": "VR Eyes: Emotions Dataset (VREED)",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "macular/diabetic-retinopathy-multimodal-progression-africa",
+      "title": "macular/diabetic retinopathy multimodal progression africa",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "macular/diabetic-retinopathy-screening-benchmark-africa",
+      "title": "macular/diabetic retinopathy screening benchmark africa",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "madhuhasithamanne/two-class",
+      "title": "two class",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mahmoudsalamagado/predicting-allergic-rhinitis",
+      "title": "Predicting allergic rhinitis",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mailenzino/fondo-de-ojo-glaucoma-normal",
+      "title": "Fondo de Ojo: Glaucoma Normal",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "manarhosney/bnu-indoor-traversability-dataset",
+      "title": "BNU Indoor Traversability Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "maneshkokare/retinopathy-dataset",
+      "title": "Retinopathy Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mariaherrerot/the-sustechsysu-dataset",
+      "title": "The SUSTech SYSU dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mathiasgill/bigeye-dataset",
+      "title": "BigEye Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "matinmo/cataract-101",
+      "title": "Cataract 101",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mdrayhanuddain/dr-dataset-for-thesis",
+      "title": "DR dataset for thesis",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "meesamrizvi/glaucoma-fundus-images-with-predicted-odoc-masks",
+      "title": "Glaucoma Fundus Images with OD/OC Masks",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "michachwesiuk/hybridgaze",
+      "title": "HybridGaze",
+      "decision": "include_new"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "mihai9909/Age-related-Macular-Degeneration-NL2SPARQL",
+      "title": "mihai9909/Age related Macular Degeneration NL2SPARQL",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mimiamjd/classification-of-diabetic",
+      "title": "Classification of Diabetic",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mohamedbadr222/eye-prescription-data-set",
+      "title": "Patient Eye Prescription Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mohamedsayed12/eye-disease-dataset",
+      "title": "Eye disease dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mohmedmokhtar/iris-of-eye-dataset",
+      "title": "Iris of eye dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "moondream/glaucoma-detection",
+      "title": "moondream/glaucoma detection",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mos3santos/imagens-de-doenas-oculares",
+      "title": "Imagens de doen\u00e7as oculares",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "msafi04/tf-retinanet-with-pretrained-models",
+      "title": "TF RetinaNet with Pretrained Models",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mscgeorges/myopia-study",
+      "title": "\ud83d\udc53 Myopia study",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "mtalaltariq/retinaloct-dataset",
+      "title": "RetinalOCT Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "muflihsan/retina-av-dataset",
+      "title": "retina av dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "muhamedahmed/diabetic",
+      "title": "diabetic",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "munnangivenkatesh/diabetic-retinopathy-for-5-classes",
+      "title": "Diabetic Retinopathy for 5 classes",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nakajima/fizyr-keras-retinanet",
+      "title": "fizyr Keras RetinaNet",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "namratasri01/eye-movement-data-set-for-desktop-activities",
+      "title": "Eye Movement Data Set for Desktop Activities",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nandanp6/cataract-image-dataset",
+      "title": "Cataract dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "naredlaajayreddy/oct-retina-images",
+      "title": "OCT Retina Images",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "natewalter/visual-acuity-of-patients-at-various-timepoints",
+      "title": "visual acuity of patients at various timepoints",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "navinxqz/diseased-data",
+      "title": "eye symptom diseased data",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nawa393/dr15_test",
+      "title": "dr15 test",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nayemaakter/hrf-root",
+      "title": "HRF ROOT",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nevesjulio/diabetic-retinopathy-dataset",
+      "title": "Diabetic Retinopathy Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nguyenhung1903/diaretdb1-standard-diabetic-retinopathy-database",
+      "title": "DIARETDB1 Standard Diabetic Retinopathy Database",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nguyenhung1903/diaretdb1-v21",
+      "title": "DiaRetDB1 V2.1",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nhnthanhj/glaucoma-odcd-segmentation-for-yolo",
+      "title": "Glaucoma OD/CD segmentation for YOLO.",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nikitamanaenkov/fundus-image-dataset-for-vessel-segmentation",
+      "title": "Fundus Image Dataset for Vessel Segmentation",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nikkich9/derbi-hackathon-retinal-fundus-image-dataset",
+      "title": "Derbi Hackathon Retinal Fundus Image Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nikospetrellis/nitymed",
+      "title": "NITYMED",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nitirajkulkarni/ocul-stock-performance",
+      "title": "Dataset: Ocular Therapeutix, Inc. (OCUL) Stock ...",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "novecentous/bcn-eegdata",
+      "title": "BCN EEGData",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "nurmukhammed7/ocular-diseases",
+      "title": "Ocular diseases",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "open-retina/nm_marmoset_data",
+      "title": "open retina/nm marmoset data",
+      "decision": "exclude_nonhuman"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "open-retina/open-retina",
+      "title": "open retina/open retina",
+      "decision": "exclude_nonhuman"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "orvile/diabetic-retinopathy-screening",
+      "title": "Diabetic Retinopathy Screening",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "orvile/glaucoma-dataset",
+      "title": "Glaucoma Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ouaraskhelilrafik/iris-images",
+      "title": "iris images",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "parikshakaur/retinomix-5",
+      "title": "RETINOMIX 5",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "pattanun/eye-vessel",
+      "title": "Retina Vessel Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "pattnaiksatyajit/retinal-image-dataset",
+      "title": "Retinal Image Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "paulti/chest-xray-images",
+      "title": "Chest X Ray Images",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "paultimothymooney/chiu-2015",
+      "title": "Segmentation of OCT images (DME)",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "peiduozhao/cacd-face-crops",
+      "title": "CARC face crops",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "penggnep/retinaface-mobilenet025pth",
+      "title": "retinaface mobilenet0.25pth",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "petrroyce/silent-voice",
+      "title": "Silent Voice",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "pradosh123/retinal-vessel-segmentation-combined",
+      "title": "Retinal Vessel Segmentation Combined",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "prasad22/nhis-vision-and-eye-health-surveillance-dataset",
+      "title": "NHIS Vision and Eye Health Surveillance Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "pritpal2873/diabetic-retinopathy-detection-classification-data",
+      "title": "Diabetic Retinopathy Detection Classification Data",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "rajeshbanoth01/corneal",
+      "title": "corneal",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "rangerfan/tongjiu-drod",
+      "title": "TongjiU DROD",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "rifdana/dataset-katarak-sinilis",
+      "title": "Dataset Katarak Sinilis",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "riyadadlani/retinopathy-of-prematurity-app-dataset",
+      "title": "Retinopathy of prematurity app dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "rkiattisak/smart-watch-prices",
+      "title": "Smart Watch prices",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "robertmanifesto/messidor-dataset",
+      "title": "messidor dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ronnieleon76/oct-image-denoising",
+      "title": "OCT Image Denoising",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "rramele/air-oct-anomaly-detection",
+      "title": "AIR OCT Anomaly Detection",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "rrartwork/timely-efective-hospital-care-201718",
+      "title": "Timely & Efective Hospital Care 2017 18",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "rrohit1289/eye-disease-classifier-efficientnet-b3",
+      "title": "Eye Disease Classifier EfficientNet B3",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ruchi798/periocular-detection",
+      "title": "Periocular Recognition",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ruslanmd/oct-characteristics",
+      "title": "OCT characteristics",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "s3programmerlead/end-stage-renal-disease-esrd-dataset",
+      "title": "End Stage Renal Disease (ESRD) Dataset",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sachinkumar413/diabetic-retinopathy-dataset",
+      "title": "Diabetic Retinopathy Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "saifurrahmanshatil/retinal-oct-dataset",
+      "title": "Retinal OCT Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "saipavansaketh/diabetic-retinopathy-unziped",
+      "title": "Diabetic Retinopathy Unziped",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "samarthguptha/synthdata-dr",
+      "title": "synthdata dr",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "samiakhan9898/fundus-images-1000",
+      "title": "Fundus Images (1000)",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "samriddhabasu464/retina-image-dataset",
+      "title": "Retina Image Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "samriddhibagchi/ddr-dataset-credits-to-authors",
+      "title": "DDR Dataset | Credits to Authors",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "samriddhibagchi/unified-retinal-lesion-dataset",
+      "title": "Unified retinal lesion dataset",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sanowar045/eye-dataset",
+      "title": "Eye Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "satwikapaul/retinaldisease",
+      "title": "satwikapaul/retinaldisease",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "serag-ai/Synthetic-Ophthalmology-Images",
+      "title": "serag ai/Synthetic Ophthalmology Images",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "shahriarkabir/laptop-dataset-clean",
+      "title": "Laptop Dataset (Clean)",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "shankar24397/dry-eye-disease-in-medical-students",
+      "title": "Dry Eye Disease in Medical Students",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "shaowenhuang/octmnist-shaowen",
+      "title": "octmnist shaowen",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "shashwatwork/identification-of-pseudopapilledema",
+      "title": "Identification of Pseudo papilledema",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sheemazain/cataract-classification-dataset-in-ds",
+      "title": "Cataract Classification Dataset in DS",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "shifamin/diabetic_retinopathy",
+      "title": "shifamin/diabetic retinopathy",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "shijo96john/eye-pathology-identification-cv-dataset",
+      "title": "Eye Pathology Identification: CV Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "shiv213/Eye-tracking-and-Sentiment-Analysis-Dataset-II",
+      "title": "shiv213/Eye tracking and Sentiment Analysis Dataset II",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "shreyanshmishra23/mobile-dataset-for-india-latest",
+      "title": "Mobile Dataset for India Latest",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "shrvx08/hba1c-glucose-mapping-for-dr-grade-prediction",
+      "title": "HbA1c Glucose Mapping for DR Grade Prediction",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "shuvokumarbasak2030/eye-glaucoma-colorized-dataset",
+      "title": "Eye Glaucoma Colorized Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sid321axn/covid-cxr-image-dataset-research",
+      "title": "COVID CXR Image Dataset (Research)",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "skip113/retina",
+      "title": "skip113/retina",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "snehakurmi/tabular-dataset-for-keratoconus",
+      "title": "Tabular Dataset for Keratoconus",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sohaibanwaar1203/diabetic-retinopathy-14k-sample-data-binary",
+      "title": "Diabetic Retinopathy 14k sample data (Binary)",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sohaibmunir38/oct-macula-fixation-dataset-od-os",
+      "title": "OCT Macula Fixation Dataset (OD OS)",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "soumicksarker/openeds-dataset",
+      "title": "openEDS Dataset",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sovitrath/drive-trainvalidation-split-dataset",
+      "title": "DRIVE Train/Validation Split Dataset",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sovitrath/trained-weights-for-drive-trainvalidation-split",
+      "title": "Trained Weights for DRIVE Train/Validation Split",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sravanthi2002/oct-images",
+      "title": "OCT images",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sreeharims/glaucoma-dataset",
+      "title": "Glaucoma dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "srinjoybhuiya/drive-retinal-vessel-segmentation-pixelwise",
+      "title": "DRIVE retinal vessel segmentation pixelwise",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "srizonimaity/dr-multimodal-india",
+      "title": "Diabetic Retinopathy Multimodal India",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sshikamaru/glaucoma-detection",
+      "title": "Glaucoma Detection",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "stolzenp/fundus-93K",
+      "title": "stolzenp/fundus 93K",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "subhajournal/drimdb-diabetic-retinopathy-images-database",
+      "title": "DRIMDB (Diabetic Retinopathy Images Database)",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sufyandanishuop/retina-image-dataset",
+      "title": "Retina Image Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sujayreal/glaucoma-dataset",
+      "title": "Glaucoma dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sumit17125/eye-image-dataset",
+      "title": "Eye Image Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sunfish141/ddr-segmentation",
+      "title": "DDR Segmentation",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "sureshrasappan/retinal-and-ocular-fundus-images-for-diagnosis",
+      "title": "Retinal and Ocular Fundus Images for Diagnosis",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "taanii/synthetic-retinal-fundus-images",
+      "title": "Synthetic Retinal Fundus Images",
+      "decision": "exclude_nonhuman"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "tanavbajaj/multistage-glaucoma",
+      "title": "Multistage Glaucoma",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "teamincribo/glaucoma-detection-dataset",
+      "title": "Glaucoma Detection Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "tejpal123/eye-disease-dataset",
+      "title": "Eye Disease Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "thiagosantosborges/cataracteyeskaggle",
+      "title": "cataracteyeskaggle",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "tmtrnhelloworld/idridsplittedkeepimage",
+      "title": "IDRIDSplittedKeepImage",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "tomamilan/eye-cancer-survival-dataset-adjusted-to-seer-data",
+      "title": "Eye Cancer Survival Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "tommyngx/the-tufts-dental-database-2022",
+      "title": "The Tufts Dental Database 2022",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "toolevalxm/BioMed-Retina-Synth",
+      "title": "toolevalxm/BioMed Retina Synth",
+      "decision": "include_new"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "toolevalxm/RetinalFundus-Dx",
+      "title": "toolevalxm/RetinalFundus Dx",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "torresdanilo/diabetes-mellitus-articles-database",
+      "title": "Articles Database: ML in Diabetes Research",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ujjwalsinha01/multi-encode-fusion-architecture-for-medical-image",
+      "title": "Multi Encode Fusion Architecture for Medical Image",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "umairinayat/retinal-vessel-segmentation-datasets",
+      "title": "Retinal Vessel Segmentation Datasets Collection",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ummayaiman/laptop-price-prediction",
+      "title": "Laptop Price Prediction",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "unidpro/human-iris-images-biometric",
+      "title": "Human Iris Images Biometric Dataset 5,000 People",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "usama10/corneal-biomechanical-prediction-model",
+      "title": "usama10/corneal biomechanical prediction model",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "varshinir1704/mini-project",
+      "title": "ODIR Multi label Eye disease detection",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "victorlemosml/refuge2",
+      "title": "REFUGE2",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "vuha2003/medmcqa-Ophthalmology-responses",
+      "title": "vuha2003/medmcqa Ophthalmology responses",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "wenhaowei111/retinal-oct-maculopathy-dataset",
+      "title": "Retinal OCT maculopathy dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "willianoliveiragibin/human-eye-disease",
+      "title": "Human Eye Disease",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "willianoliveiragibin/phone-information-2024",
+      "title": "Phone Information 2024",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "willianoliveiragibin/trachoma-cause",
+      "title": "Trachoma : cause",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "woldemerkorios/retina_fundus",
+      "title": "woldemerkorios/retina fundus",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "yakeworld126/openeds",
+      "title": "openEDS iris label",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "yangqiangzhang/erp-and-morphosyntactic-processing-dataset",
+      "title": "ERP and Morphosyntactic Processing Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "yashaswiniink/ocuretina-cvd-retinal-dataset",
+      "title": "OcuRetina CVD Retinal Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "yogendrayatnalkar/diabetic-retinopathy-models",
+      "title": "Diabetic Retinopathy Models",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "youssefedweqd/Diabetic_Retinopathy_Detection",
+      "title": "youssefedweqd/Diabetic Retinopathy Detection",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ysnreddy/eye-disease-detection-dataset",
+      "title": "Eye Disease Detection Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "yuchengwang0709/ofved-dataset-early-fusion-3d-coordinate",
+      "title": "OFVED Dataset Early Fusion 3D Coordinate",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "yuzhench/glaucoma-expert-cot-raw-1077",
+      "title": "yuzhench/glaucoma expert cot raw 1077",
+      "decision": "include_new"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "yuzhench/glaucoma-expert-cot-refined-1077",
+      "title": "yuzhench/glaucoma expert cot refined 1077",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "yxmauw/eye-disease-class-bg-rm",
+      "title": "eye disease class bg rm",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "yybfv2vly9kmy/eye-disease",
+      "title": "eye disease",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "z3n7r4ck3r/Ophthalmology-Corpus-Split",
+      "title": "z3n7r4ck3r/Ophthalmology Corpus Split",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "z3n7r4ck3r/Ophthalmology-Corpus-Split-2",
+      "title": "z3n7r4ck3r/Ophthalmology Corpus Split 2",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zara2099/retinal-imaging-for-early-alzheimers-detection",
+      "title": "Retinal Imaging for Early Alzheimer\u2019s Detection",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zhangyiyinge/gleam-dataset",
+      "title": "GLEAM Dataset",
+      "decision": "include_new"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "zhouxzh/retinaface_widerface",
+      "title": "zhouxzh/retinaface widerface",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zionfuo/drive2004",
+      "title": "DRIVE 2004",
+      "decision": "duplicate_or_alternate"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ziya07/eye-tracking-reading-ability-dataset",
+      "title": "Eye Tracking Reading Ability Dataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ziya07/intangible-cultural-heritage-dataset",
+      "title": "Intangible Cultural Heritage Dataset",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ziya07/iot-mec-student-engagement-dataset",
+      "title": "IoT MEC Student Engagement Dataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ziya07/museum-game-interaction-dataset",
+      "title": "Museum Game Interaction Dataset",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ziya07/ophthalmic-anesthesia-personalization-dataset",
+      "title": "Ophthalmic Anesthesia Personalization Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ziya07/personalized-interaction-logs-for-aac-device-users",
+      "title": "Personalized Interaction Logs for AAC Device Users",
+      "decision": "exclude_not_ophthalmology"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ziya07/retinal-lesion-images-for-disease-analysis",
+      "title": "Retinal Lesion Images for Disease Analysis",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "ziya07/student-engagement-dataset-using-eeg",
+      "title": "Student Engagement Dataset",
+      "decision": "exclude_not_model_resource"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zoya77/hypertensive-retinopathy-fundus-image-dataset",
+      "title": "Hypertensive Retinopathy Fundus Image Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zoya77/multimodal-multispectral-medical-image-dataset",
+      "title": "Multimodal Multispectral Medical Image Dataset",
+      "decision": "include_new"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zoya77/vocational-skill-acquisition-dataset",
+      "title": "Vocational Skill Acquisition Dataset",
+      "decision": "exclude_insufficient"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "ztrafas/segmentation-for-cataract-surgery",
+      "title": "ztrafas/segmentation for cataract surgery",
+      "decision": "exclude_not_model_resource"
+    }
+  ]
+}

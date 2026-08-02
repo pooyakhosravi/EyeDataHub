@@ -7,9 +7,10 @@ from click.testing import CliRunner
 import eyedatahub as edh
 from eyedatahub.cli import _resolve_datasets, main
 from eyedatahub.datasets.registry import REGISTRY
+from eyedatahub.datasets.scope_exclusions import CATALOG_SCOPE_EXCLUSIONS
 
 
-EXPECTED_DATASET_COUNT = 386
+EXPECTED_DATASET_COUNT = 479
 
 
 def test_registry_export_and_count():
@@ -337,18 +338,18 @@ def test_modality_alias_resolution():
     # category differs from a contained modality.
     assert len(_resolve_datasets("uwf")) == 11
     assert len(_resolve_datasets("uwf_fundus")) == 11
-    assert len(_resolve_datasets("octa")) == 8
+    assert len(_resolve_datasets("octa")) == 10
     assert len(_resolve_datasets("ivcm")) == 6
-    assert len(_resolve_datasets("external_eye")) == 19
-    assert len(_resolve_datasets("eyelid")) == 19
-    assert len(_resolve_datasets("surgical")) == 17
-    assert len(_resolve_datasets("aoslo")) == 4
-    assert len(_resolve_datasets("cell_microscopy")) == 18
-    assert len(_resolve_datasets("genomics")) == 39
-    assert len(_resolve_datasets("gaze")) == 10
-    assert len(_resolve_datasets("pupil")) == 10
-    assert len(_resolve_datasets("iris")) == 5
-    assert len(_resolve_datasets("ocular_biometrics")) == 5
+    assert len(_resolve_datasets("external_eye")) == 21
+    assert len(_resolve_datasets("eyelid")) == 21
+    assert len(_resolve_datasets("surgical")) == 16
+    assert len(_resolve_datasets("aoslo")) == 2
+    assert len(_resolve_datasets("cell_microscopy")) == 2
+    assert len(_resolve_datasets("genomics")) == 32
+    assert len(_resolve_datasets("gaze")) == 16
+    assert len(_resolve_datasets("pupil")) == 16
+    assert len(_resolve_datasets("iris")) == 7
+    assert len(_resolve_datasets("ocular_biometrics")) == 7
 
 
 def test_mcp_python_snippet_expands_user():
@@ -392,10 +393,19 @@ def test_discovery_refresh_decision_log_matches_registry():
     )
     assert dryad_summary["total_unique_api_results"] == 722
     assert dryad_summary["final_decision_counts"]["included_new_record"] == 135
-    assert 251 + dryad_summary["final_decision_counts"]["included_new_record"] == (
-        EXPECTED_DATASET_COUNT
+    repository_summary = json.loads(
+        Path("hub/audit/repository_screening_summary_2026-08-02.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    assert (
+        251
+        + dryad_summary["final_decision_counts"]["included_new_record"]
+        - len(CATALOG_SCOPE_EXCLUSIONS)
+        + repository_summary["overall_counts"]["included_new_record"]
+        == EXPECTED_DATASET_COUNT
     )
     included = {item["slug"] for item in log["included"]}
     assert len(included) == 30
-    assert included <= set(REGISTRY.names())
+    assert included <= set(REGISTRY.names()) | set(CATALOG_SCOPE_EXCLUSIONS)
     assert {item["slug"] for item in log["corrected"]} == {"mmrdr", "octdl"}

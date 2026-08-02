@@ -31,7 +31,7 @@ A set of 1,110 optic nerve head OCT volumes from 624 patients, including 847 sca
 | **Normalized terms** | `cc-by-nc` |
 | **Descriptive screening label** | Explicit noncommercial clause recorded; check source |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

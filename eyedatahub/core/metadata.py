@@ -59,7 +59,11 @@ BOOL_OR_UNKNOWN_FIELDS = (
     "requires_payment",
 )
 
-STANDARD_PLATFORM_BACKENDS = {
+# These repository backends have a platform-level credential/client surface.
+# A particular public record can still document a no-login route explicitly,
+# but the default route must not imply that anonymous HTTP probes establish
+# anonymous acquisition.
+PLATFORM_CREDENTIAL_BACKENDS = {
     "zenodo",
     "figshare",
     "mendeley",
@@ -69,6 +73,8 @@ STANDARD_PLATFORM_BACKENDS = {
     "physionet",
 }
 
+# These hosts do not impose a platform credential requirement by themselves.
+# Dataset-specific controls remain detectable from source text and overrides.
 DIRECT_BACKENDS = {"direct", "github", "gdrive"}
 
 # These records have a non-manual historical backend label but their current
@@ -154,9 +160,18 @@ END_TO_END_TESTED_SLUGS = {
     "uwhvf",
 }
 
-UNRESOLVED_LISTING_FAILURES = {
-    "aptos2019": ("HTTP_401", "official Kaggle file listing returned HTTP 401"),
-    "octdl": ("HTTP_403", "official Mendeley Data file listing returned HTTP 403"),
+# An unauthenticated platform probe is access evidence, not evidence that the
+# dataset or its download has failed.  Preserve the observation without
+# setting ``failure_reason`` or changing availability to unavailable.
+PLATFORM_PROBE_ACCESS_REQUIREMENTS = {
+    "aptos2019": (
+        "HTTP 401 from an automated Kaggle listing probe; platform credentials "
+        "or access setup are required for the probe.",
+    ),
+    "octdl": (
+        "HTTP 403 from an automated Mendeley Data listing probe; platform "
+        "credentials, a compatible client, or access setup may be required.",
+    ),
 }
 
 # High-confidence route exceptions that cannot be recovered safely from the
@@ -868,16 +883,14 @@ def _derive_access(info: Any, text: str) -> Dict[str, Any]:
         friction = "self_service_clickthrough"
     elif registration_marker:
         friction = "self_service_authenticated"
-    elif backend in {"kaggle", "dryad"}:
-        friction = "self_service_authenticated"
     elif backend == "physionet" and _contains(text, "credentialed"):
         friction = "controlled_or_manual"
         approval = True
         dua = True
         clickthrough = True
-    elif backend == "huggingface" and _contains(text, "gated", "token required"):
+    elif backend in PLATFORM_CREDENTIAL_BACKENDS:
         friction = "self_service_authenticated"
-    elif backend in STANDARD_PLATFORM_BACKENDS | DIRECT_BACKENDS:
+    elif backend in DIRECT_BACKENDS:
         friction = "anonymous_direct"
     elif backend == "manual" and getattr(info, "download_url", None):
         # A manual loader does not necessarily mean controlled access.  Only
@@ -954,7 +967,7 @@ def _derive_access(info: Any, text: str) -> Dict[str, Any]:
         acquisition = "manual_access_blocked"
     elif slug in GUIDED_ONLY_SLUGS or backend == "manual":
         acquisition = "guided_instructions_only"
-    elif backend in STANDARD_PLATFORM_BACKENDS:
+    elif backend in PLATFORM_CREDENTIAL_BACKENDS:
         acquisition = "standard_platform_supported"
     elif backend in DIRECT_BACKENDS:
         acquisition = "loader_implemented_not_live_tested"
@@ -1233,14 +1246,19 @@ def enrich_dataset_info(info: Any) -> None:
         info.loader_test_scope = "complete_current_deposit_downloaded"
         info.loader_test_result = "complete_current_deposit_downloaded"
         info.tested_command = "python hub/audit/verify_download_and_load.py run"
-    elif info.name in UNRESOLVED_LISTING_FAILURES:
-        error_code, message = UNRESOLVED_LISTING_FAILURES[info.name]
+    elif info.name in PLATFORM_PROBE_ACCESS_REQUIREMENTS:
+        (message,) = PLATFORM_PROBE_ACCESS_REQUIREMENTS[info.name]
         info.loader_live_tested = False
         info.loader_test_date = "2026-07-25"
-        info.loader_test_scope = "official_metadata_or_file_listing"
-        info.loader_test_result = f"unresolved_{error_code.lower()}"
-        info.failure_reason = message
+        info.loader_test_scope = "automated_platform_probe"
+        info.loader_test_result = "credentials_or_access_setup_required"
+        info.failure_reason = None
         info.tested_command = "python hub/audit/validate_acquisition.py"
+        info.route_check_result = "credentials_or_access_setup_required"
+        existing_notes = info.route_check_notes.strip()
+        info.route_check_notes = " ".join(
+            note for note in (existing_notes, message) if note
+        )
 
     for key, value in _derive_identifiers(info).items():
         _set_if_empty(info, key, value)

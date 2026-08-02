@@ -594,13 +594,15 @@ RELATIONSHIP_EVIDENCE: tuple[RelationshipEvidence, ...] = (
         "Both official deposits name the Moorfields AMD database and report overlapping 2008-2018 extraction windows.",
         evidence_source_type="official_repository_metadata",
     ),
+
+    # Confirmed reused component in a multimodal release.
     _edge(
-        "dryad_sf7m0cggh",
+        "mmrdr",
         "derived_from",
-        "drive",
-        "https://datadryad.org/api/v2/versions/353579/files",
-        "The official current file listing names DRIVE trace annotations and result files.",
-        evidence_source_type="official_repository_file_listing",
+        "ddr",
+        "https://doi.org/10.1038/s41597-026-07005-9",
+        "The MMRDR Data Descriptor identifies OIA-DDR as the source of its CFP images; MMRDR also adds independently collected OCT and UWF cohorts and new annotations.",
+        evidence_source_type="associated_publication",
     ),
 
     # Large composite and repackaged resources.
@@ -718,6 +720,60 @@ RELATIONSHIP_EVIDENCE: tuple[RelationshipEvidence, ...] = (
         "Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material.",
         evidence_source_type="versioned_official_deposit_metadata",
         notes="The 2023 APTOS angiography source is distinct from APTOS2019 and was not mapped to it.",
+    ),
+    *_derived_many(
+        "glaucoma_expert_cot_raw",
+        ("lag", "papila"),
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077",
+        "The official dataset card identifies LAG and PAPILA as the source fundus resources paired with the glaucoma reasoning records.",
+        evidence_source_type="official_dataset_card",
+    ),
+    *_derived_many(
+        "glaucoma_expert_cot_refined",
+        ("lag", "papila"),
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077",
+        "The official dataset card identifies LAG and PAPILA as the source fundus resources paired with the refined glaucoma reasoning records.",
+        evidence_source_type="official_dataset_card",
+    ),
+    _edge(
+        "glaucoma_expert_cot_refined",
+        "version_of",
+        "glaucoma_expert_cot_raw",
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077",
+        "The refined deposit describes itself as the revised form of the corresponding raw glaucoma expert reasoning resource.",
+        evidence_source_type="official_dataset_card",
+    ),
+    *_derived_many(
+        "higancnn_generated_glaucoma",
+        ("acrima", "drishti_gs", "hrf"),
+        "https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection",
+        "The official dataset description names ACRIMA, DRISHTI-GS, and HRF among the human fundus sources used to construct the synthetic glaucoma resource.",
+        evidence_source_type="official_platform_metadata",
+        notes="ORIGA-LIGHT and generic RIM-ONE remain external or edition-unresolved upstream sources.",
+    ),
+    _edge(
+        "itec_iris_pupil",
+        "derived_from",
+        "cataract_101",
+        "https://ftp.itec.aau.at/datasets/ovid/iris_pupil_seg/index.html",
+        "The official ITEC page states that the annotated iris and pupil frames were selected from Cataract-101 surgery videos.",
+        evidence_source_type="official_project_page",
+    ),
+    _edge(
+        "mendeley_utilizing_responsive_web_portal_studying_disc",
+        "derived_from",
+        "drishti_gs",
+        "https://data.mendeley.com/datasets/7xv5rzxgrh",
+        "The Mendeley deposit is a distinct annotation and task layer built from DRISHTI-GS fundus images.",
+        evidence_source_type="official_repository_metadata",
+    ),
+    _edge(
+        "synthetic_retinal_oct_biomarkers",
+        "derived_from",
+        "kermany_oct",
+        "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images",
+        "The official dataset card documents the Kermany retinal OCT collection as the source for the four synthetic diagnostic classes.",
+        evidence_source_type="official_dataset_card",
     ),
 )
 

@@ -1,10 +1,10 @@
 # EyeDataHub URL Audit Report
 
-- **Total datasets checked**: 386
-- **Broken URLs**: 3
-- **Generated at**: 2026-08-02T01:37:08.448367+00:00
-- **EyeDataHub version**: 0.4.0
-- **Git commit**: 3f055cf73e5cd352a8a85b55e0199226ee51f2ea
+- **Total datasets checked**: 479
+- **Broken URLs**: 5
+- **Generated at**: 2026-08-02T11:42:40.943237+00:00
+- **EyeDataHub version**: 0.5.0
+- **Git commit**: 9110b0242a85fe25cfd0fa85cc21a14cdabf566e
 - **Git dirty**: True
 - **Timeout / concurrency**: 30 s / 8
 
@@ -12,10 +12,12 @@
 
 | Status | Count |
 | --- | ---:|
-| ok | 306 |
-| credentials_or_client_required | 67 |
+| ok | 288 |
+| credentials_or_client_required | 176 |
 | forbidden | 10 |
 | ssl_error | 3 |
+| timeout | 1 |
+| connect_error | 1 |
 
 ## Status definitions
 
@@ -38,13 +40,16 @@
 | Dataset | Status | URL |
 | --- | --- | --- |
 | `stare` | `ssl_error` | [cecas.clemson.edu/~ahoover](https://cecas.clemson.edu/~ahoover/stare/) |
+| `harvard_fairvision` | `timeout` | [ophai.hms.harvard.edu/datasets](https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k) |
 | `drions_db` | `ssl_error` | [ia.uned.es/~ejcarmona](https://www.ia.uned.es/~ejcarmona/DRIONS-DB.html) |
 | `fire` | `ssl_error` | [projects.ics.forth.gr/cvrl](https://projects.ics.forth.gr/cvrl/fire/) |
+| `mendeley_on_comparison_ocular_surface_disease_index` | `connect_error` | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/m7fzwvsm77) |
 
 ## All findings
 
 | Dataset | Backend | Status | HTTP | Source URL |
 | --- | --- | --- | ---:| --- |
+| `mendeley_on_comparison_ocular_surface_disease_index` | `manual` | `connect_error` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/m7fzwvsm77) |
 | `afio_fundus_vessels` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3csr652p9y/2) |
 | `airogs` | `direct` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/5793241) |
 | `amdnet23` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yj35kjgrv3/1) |
@@ -85,6 +90,115 @@
 | `justraigs` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/10035093) |
 | `leops_erg` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/w3yx7hdds7/1) |
 | `mario` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/15270469) |
+| `mendeley_3_year_follow_up_optic_neuritis` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zvb55v8mzw/1) |
+| `mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/xzf382pby9/1) |
+| `mendeley_analysis_macular_pigment_carotenoids_human_blood` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/8pwpbcrjd8/1) |
+| `mendeley_annotated_infant_fundus_images_object_detection` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/9kvk7nkhx6/4) |
+| `mendeley_anterior_segment_optical_coherence_tomography_angiography` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/tsh3xwbkkg/2) |
+| `mendeley_application_machine_learning_detecting_iron_deficiency` | `manual` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/nt7r8hv2pz) |
+| `mendeley_biochemical_parameters_tear_fluid_chemical_burns` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zhk775h6n4/1) |
+| `mendeley_biomechanical_properties_adult_patients_high_myopia` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yry4r9y9v5/1) |
+| `mendeley_blinking_its_relationship_ocular_surface_digital` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/vyb5fv6ppp/1) |
+| `mendeley_cell_types_human_retina_its_organoids` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/sm67hr5bpm/1) |
+| `mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/tsf8b4yj3j/1) |
+| `mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/sg2rywwwxb/1) |
+| `mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/ctnygyvwt5/1) |
+| `mendeley_clinical_assessment_scleral_canal_expansion_glaucoma` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/7x3tgtskyj/2) |
+| `mendeley_code_manuscript_fixational_eye_movements_as` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/p7dyyrfds6/2) |
+| `mendeley_comparison_aqueous_humor_levels_plgf_vegf` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/wtcc9fcjdy/1) |
+| `mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/2jkhncb5kw/1) |
+| `mendeley_comparison_clinical_outcomes_visual_quality_visual` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/y6n5k7s6f7/1) |
+| `mendeley_comparison_ocular_biometry_using_new_opticalcoherence` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/kwv73shvxh/1) |
+| `mendeley_comparison_retinal_choroidal_vascular_changes_via` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3m8fcfmp9j/1) |
+| `mendeley_comparison_two_novel_comfilcon_contact_lens` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/fnbxs7gb82/1) |
+| `mendeley_conjunctival_melanoma_detection_using_deep_learning` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/t75wjsw6bw/2) |
+| `mendeley_contrast_sensitivity_visual_acuity_multifocal_contact` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/j5cw4wn23y/1) |
+| `mendeley_corneal_higher_order_aberrations_stevens_johnson` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/2k96xky4rf/1) |
+| `mendeley_corneal_refractive_parameters_age_patients_without` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yr8hbwmsvy/1) |
+| `mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/487dpg7v38/1) |
+| `mendeley_cp_anemic_conjunctival_pallor_ghana` | `manual` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/m53vz6b7fx) |
+| `mendeley_cust_iris` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3j6skjpsng/2) |
+| `mendeley_deep_learning_prediction_uncorrected_refractive_error` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/89z7h5gnpw/2) |
+| `mendeley_demographic_profile_clinical_characteristics_patients_presenting` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/hwnm88jyzg/1) |
+| `mendeley_development_deep_learning_based_system_optic` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/kw8gvp8m8x/1) |
+| `mendeley_development_deep_learning_model_epiretinal_membrane` | `manual` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/jrgntpv8b8) |
+| `mendeley_dex_combined_ppv_pdr` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zcmpcczdhs/1) |
+| `mendeley_difference_retinal_nerve_fiber_layer_thickness` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/dtz8wmt5xt/1) |
+| `mendeley_digital_holograms_rbcs_glaucoma_patients_healthy` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/tryd7r3wct/3) |
+| `mendeley_dme_classification_fundus_imaging_vision_transformers` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/sdcfn87pvs/1) |
+| `mendeley_dry_eye_symptoms_children_can_we` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/h79366vw73/1) |
+| `mendeley_early_detection_glaucomatous_visual_field_progression` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/w34s5mhvpm/1) |
+| `mendeley_effect_adlay_seed_extract_on_level` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/x7rcj9yz65/1) |
+| `mendeley_effect_central_hole_location_phakic_intraocular` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/jjknx3wbkf/1) |
+| `mendeley_effect_one_hour_smartphone_gaming_on` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zn64p6r992/1) |
+| `mendeley_effect_prednisone_plus_either_adalimumab_or` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yzv3mrvwf4/1) |
+| `mendeley_effects_implantable_collamer_lens_icl_implantation` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/t6pmbvkvtd/2) |
+| `mendeley_efficacy_combined_orthokeratology_0_01_atropine` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/y58rh8bfkv/7) |
+| `mendeley_electrooculography_eog_blink_analysis_ocular_fatigue` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/w7hm97cts5/2) |
+| `mendeley_et_pd_vis_eye_tracking_visualization` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/83htprx9y6/1) |
+| `mendeley_evaluation_dry_eye_severity_ocular_surface` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zzgw9t9jsy/1) |
+| `mendeley_evaluation_refractive_visual_outcomes_as_well` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/r2v99nw7vg/1) |
+| `mendeley_exome_sequencing_clec3b` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/xcw5x5z49r/1) |
+| `mendeley_fferg_reference_healthy_controls_university_eye` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/37wxt2ybvj/1) |
+| `mendeley_foveal_cone_photoreceptor_outer_segment_length` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/89rykrg8j2/1) |
+| `mendeley_fundus_autofluorescence_premature_infants` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/k5jsssjtmz/1) |
+| `mendeley_fundus_mctn` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/spz4b8tbzt/1) |
+| `mendeley_hpsc_derived_photoreceptor_axon_extension_growth` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/cpy5j23354/1) |
+| `mendeley_human_foveal_cone_topography_preferred_retinal` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/9gkpxsmz23/1) |
+| `mendeley_human_mesenchymal_stem_cells_derived_adipose` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bm45p4tcbz/1) |
+| `mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/xw5xc7xrmp/3) |
+| `mendeley_identification_human_retinal_stem_like_cells` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/s9wbscpsrs/3) |
+| `mendeley_imaging_retinal_choroidal_vasculature_using_spatio` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/j39vyvp8ny/1) |
+| `mendeley_improved_retinal_displacement_quantification_between_retinal` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/jxwkym2phr/1) |
+| `mendeley_influence_angle_alpha_angle_kappa_optical` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/w5ws4pzzxr/1) |
+| `mendeley_interocular_retinal_nerve_fiber_layer_thickness` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/ss2nynfc8s/1) |
+| `mendeley_iscev_standard_full_field_erg_reference` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/kcptb9jrf5/1) |
+| `mendeley_keratoconus_ukraine_children` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/ydmxn3264h/1) |
+| `mendeley_long_term_results_using_gelatin_microfistulae` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/7xjcbsmzzc/1) |
+| `mendeley_long_term_safety_efficacy_limited_vitrectomy` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/dnss5ttn73/1) |
+| `mendeley_micro_go_study_transcriptional_profiling_orbital` | `manual` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/mrvmsrn9r6) |
+| `mendeley_microvascular_changes_poag_after_npds` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/vc99wcmvk2/2) |
+| `mendeley_multi_class_retinal_fundus_image_deep` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/z227d626vm/1) |
+| `mendeley_myopia_metal_mixture_exposure` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/jgh7dxdwyy/1) |
+| `mendeley_nagyz_liberty_677my_vs_alcon_acrysof` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zygxgyf4ns/1) |
+| `mendeley_netarsudil_on_kdb_treated_eyes` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/r6gw6fnvdm/1) |
+| `mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/npt7rp69gm/1) |
+| `mendeley_nuclear_cataract_database_biomedical_machine_learning` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/6wv33nbcvv/2) |
+| `mendeley_ocular_biometry` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/4twnn4546j/1) |
+| `mendeley_ocular_sebaceous_neoplasms` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/xg9jcjn388/1) |
+| `mendeley_ocular_surface_disorders_affect_quality_life` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/73r8vrxksx/1) |
+| `mendeley_ophthalmic_anthropometry_malawians` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bctfh4m93c/1) |
+| `mendeley_ophthalmic_stroke_biomarkers_south_asia` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/whpsmdc2gk/1) |
+| `mendeley_optical_coherence_tomography_oct_images_proliferative` | `manual` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/hbr5pwk5w5) |
+| `mendeley_orbscan_iiz_anterior_maps` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/78wt2nc387/3) |
+| `mendeley_performance_corneal_vs_scleral_rigid_gas` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/gmrbh4fvt2/1) |
+| `mendeley_peripapillary_retinal_nerve_fiber_layer_thinning` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/wyys4gvk4n/1) |
+| `mendeley_plasma_energy_metabolomics_patients_ocular_disease` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/tybzw7zsng/1) |
+| `mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/53nxz6xr5j/1) |
+| `mendeley_postural_stargardt_s_syndrome_patients` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/5rz9j8t6p4/2) |
+| `mendeley_proteomic_analysis_human_autoimmune_retinopathy_air` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/t7yrm5x3ws/1) |
+| `mendeley_quantified_processed_microarray_22_individuals_without` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/72b47vpgtz/1) |
+| `mendeley_radial_peripapillary_capillary_density_as_predictive` | `manual` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/h9tntd4gkf) |
+| `mendeley_raw_manuscript_light_responsive_microrna_molecules` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/8ksg9fssd9/1) |
+| `mendeley_red_lesion_localization_messidor_retinal_images` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3r5m3nfdkv/1) |
+| `mendeley_refractive_error_visual_impairment_among_school` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/crgbf93fnw/2) |
+| `mendeley_retina_identification_database_ridb` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/tjw3zwntv6/2) |
+| `mendeley_retinal_blood_vessel_segmentation_rop` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/prcy36j53v/1) |
+| `mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/7r7xt6pf6x/5) |
+| `mendeley_sars_cov_2_infection_ocular_cells` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/jgw2mcgb67/1) |
+| `mendeley_selective_laser_trabeculoplasty_patients_angle_recession` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/rvw8k4k8g7/1) |
+| `mendeley_serum_proteomic_profiles_keratoconus_post_laser` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yzsktrxh6y/1) |
+| `mendeley_set_relationship_between_plasma_amino_acid` | `manual` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/fn9986thfh) |
+| `mendeley_spatio_temporal_optical_coherence_tomography_provides` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/9pzm3mbp7w/2) |
+| `mendeley_sub_cone_visual_resolution_by_active` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zp6d5w8kdv/1) |
+| `mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/222mnygnjz/1) |
+| `mendeley_test_results_article_motion_perception_glaucoma` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zhz8kjsykf/1) |
+| `mendeley_towards_ocular_biomarkers_sarcopenia_result_korean` | `manual` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/h547645876) |
+| `mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zsxt8wk4sh/1) |
+| `mendeley_two_photon_excited_fluorescence_scanning_laser` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/nhpnt78ssy/1) |
+| `mendeley_utilizing_responsive_web_portal_studying_disc` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/7xv5rzxgrh/1) |
+| `mendeley_vivo_analysis_comparison_anterior_segment_structures` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/hmz2cz3jcg/1) |
+| `mendeley_vivo_cone_photoreceptor_topography_human_foveola` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/m5nkpb8phv/1) |
 | `migs_video` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/19438128) |
 | `msila_fundus_dr` | `zenodo` | `credentials_or_client_required` | 403 | [zenodo.org/records](https://zenodo.org/records/19169587) |
 | `mured` | `mendeley` | `credentials_or_client_required` | 403 | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/pc4mb3h8hz/1) |
@@ -129,46 +243,54 @@
 | `amd_dme_3d_oct` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.30582035.v1](https://doi.org/10.6084/m9.figshare.30582035.v1) |
 | `amd_sd` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/gaoweihao/amd-sd) |
 | `angioreport` | `manual` | `ok` | 200 | [tianchi.aliyun.com/dataset](https://tianchi.aliyun.com/dataset/170128) |
+| `anterior_uveitis_corneal_endothelium` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.32054064.v1](https://doi.org/10.6084/m9.figshare.32054064.v1) |
 | `aod` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/nurmukhammed7/augemnted-ocular-diseases) |
 | `aptos2019` | `kaggle` | `ok` | 200 | [kaggle.com/c](https://www.kaggle.com/c/aptos2019-blindness-detection) |
+| `aqp4_optic_neuritis_oct_layers` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.3209908.v1](https://doi.org/10.6084/m9.figshare.3209908.v1) |
 | `aroi` | `gdrive` | `ok` | 200 | [drive.google.com/file](https://drive.google.com/file/d/10Ys4xsw81evjHewZEvqHy4Kri0my8C2S/view) |
 | `as_oct_keratitis` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.c.7036994.v1](https://doi.org/10.6084/m9.figshare.c.7036994.v1) |
+| `asd_eye_tracking` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.20113592.v1](https://doi.org/10.6084/m9.figshare.20113592.v1) |
 | `beh` | `gdrive` | `ok` | 200 | [drive.google.com/file](https://drive.google.com/file/d/1YdZm-sioiAbTdBRy4oej1q6tZL8Baft7) |
 | `belo` | `manual` | `ok` | 200 | [belo-dataset.vercel.app](https://belo-dataset.vercel.app/) |
 | `bidr` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy) |
+| `binocular_fundus_images` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.31981557.v1](https://doi.org/10.6084/m9.figshare.31981557.v1) |
+| `brasil_glaucoma_brg` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/clerimar/brasil-glaucoma-brg) |
 | `brset` | `physionet` | `ok` | 200 | [physionet.org/content](https://physionet.org/content/brazilian-ophthalmological/1.0.1/) |
 | `brset_mbrset_embeddings` | `physionet` | `ok` | 200 | [physionet.org/content](https://physionet.org/content/embedding-brset-mbrset/1.0.0/) |
 | `cadis` | `manual` | `ok` | 200 | [cataracts-semantic-segmentation2020.grand-challenge.org](https://cataracts-semantic-segmentation2020.grand-challenge.org/) |
+| `casia2_as_oct_repeatability` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.29302664.v1](https://doi.org/10.6084/m9.figshare.29302664.v1) |
+| `casia2_keratometric_astigmatism` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.26395018.v1](https://doi.org/10.6084/m9.figshare.26395018.v1) |
 | `casia_iris_v4` | `manual` | `ok` | 200 | [hycasia.github.io/dataset](https://hycasia.github.io/dataset/casia-irisv4/) |
 | `cataract` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/jr2ngb/cataractdataset) |
 | `cataract1k` | `manual` | `ok` | 200 | [synapse.org](https://www.synapse.org/#!Synapse:syn53404917) |
 | `cataract_101` | `manual` | `ok` | 200 | [ftp.itec.aau.at/datasets](https://ftp.itec.aau.at/datasets/ovid/cat-101/) |
+| `cataract_iol_biometry_outcomes` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.22736687.v1](https://doi.org/10.6084/m9.figshare.22736687.v1) |
+| `cataract_lenstar_biometric_symmetry` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.32833895.v1](https://doi.org/10.6084/m9.figshare.32833895.v1) |
 | `cataract_lmm` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/mjahmadi/Cataract-LMM) |
 | `cataracts2017` | `manual` | `ok` | 200 | [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/cataracts) |
 | `cavri` | `manual` | `ok` | 200 | [dsp.put.poznan.pl/cavri_database-191](https://dsp.put.poznan.pl/cavri_database-191/) |
+| `central_retinal_vessel_trunk_oag` | `figshare` | `ok` | 200 | [https://doi.org/10.1371/journal.pone.0158443.s001](https://doi.org/10.1371/journal.pone.0158443.s001) |
 | `chaksu` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.20123135](https://doi.org/10.6084/m9.figshare.20123135) |
 | `chase_db1` | `manual` | `ok` | 200 | [researchinnovation.kingston.ac.uk/en](https://researchinnovation.kingston.ac.uk/en/datasets/chasedb1-retinal-vessel-reference-dataset-4/) |
+| `china_fundus_cimt` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.27907056.v1](https://doi.org/10.6084/m9.figshare.27907056.v1) |
 | `coph100` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.27061084.v1](https://doi.org/10.6084/m9.figshare.27061084.v1) |
+| `corneal_nerve_parkinsons` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.28189571.v1](https://doi.org/10.6084/m9.figshare.28189571.v1) |
 | `csdi` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/RainyNight/CSDI) |
+| `cyp1b1_poag_genotypes` | `figshare` | `ok` | 202 | [https://doi.org/10.25451/flinders.16545561.v1](https://doi.org/10.25451/flinders.16545561.v1) |
 | `ddr` | `gdrive` | `ok` | 200 | [drive.google.com/drive](https://drive.google.com/drive/folders/1z6tSFmxW_aNayUqVxx6h6bY4kwGzUTEC) |
 | `deepeyenet` | `manual` | `ok` | 200 | [github.com/Jhhuangkay](https://github.com/Jhhuangkay/DeepOpht-Medical-Report-Generation-for-Retinal-Images-via-Deep-Models-and-Visual-Explanation) |
+| `doomgan_ocular_morphs` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs) |
 | `dr_arranged` | `manual` | `ok` | 200 | [tianchi.aliyun.com/dataset](https://tianchi.aliyun.com/dataset/93926) |
 | `dridb` | `manual` | `ok` | 200 | [ipg.fer.hr/ipg](https://ipg.fer.hr/ipg/resources/image_database) |
 | `drishti_gs` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/lokeshsaipureddi/drishtigs-retina-dataset-for-onh-segmentation) |
 | `drive` | `manual` | `ok` | 200 | [drive.grand-challenge.org/DRIVE](https://drive.grand-challenge.org/DRIVE/) |
 | `drtid` | `manual` | `ok` | 200 | [github.com/FDU-VTS](https://github.com/FDU-VTS/DRTiD) |
-| `dryad_5xfad_retina_dlgn` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.dbrv15fbk](https://doi.org/10.5061/dryad.dbrv15fbk) |
 | `dryad_acanthamoeba_keratitis_transcriptome` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.k3j9kd5fx](https://doi.org/10.5061/dryad.k3j9kd5fx) |
 | `dryad_amd_zinc_complement` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.3gq6t](https://doi.org/10.5061/dryad.3gq6t) |
-| `dryad_angle_closure_rabbit` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.ks48tt4](https://doi.org/10.5061/dryad.ks48tt4) |
 | `dryad_aoslo_rpe` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.b41j15h](https://doi.org/10.5061/dryad.b41j15h) |
 | `dryad_bariatric_ophthalmology` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.1g6vm34](https://doi.org/10.5061/dryad.1g6vm34) |
-| `dryad_bbs1_retinal_degeneration` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.2rbnzs7jm](https://doi.org/10.5061/dryad.2rbnzs7jm) |
-| `dryad_biocular_eye_tracking` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.84hc0](https://doi.org/10.5061/dryad.84hc0) |
 | `dryad_brvo_bevacizumab_multimodal` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.3cp54](https://doi.org/10.5061/dryad.3cp54) |
-| `dryad_canine_pra_cea_genotypes` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.6djh9w17c](https://doi.org/10.5061/dryad.6djh9w17c) |
 | `dryad_clcc1_retinitis_pigmentosa` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.3vv31qq](https://doi.org/10.5061/dryad.3vv31qq) |
-| `dryad_cone_synapse_computation` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.0p2ngf25g](https://doi.org/10.5061/dryad.0p2ngf25g) |
 | `dryad_congenital_cataract_sight_restoration` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.0gb5mkm9b](https://doi.org/10.5061/dryad.0gb5mkm9b) |
 | `dryad_congenital_glaucoma_wes` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.k7455](https://doi.org/10.5061/dryad.k7455) |
 | `dryad_cornea_oct_pentacam` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.tht76hf0c](https://doi.org/10.5061/dryad.tht76hf0c) |
@@ -176,105 +298,65 @@
 | `dryad_corneal_conjunctivitis_biomarker` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.4j0zpc8mm](https://doi.org/10.5061/dryad.4j0zpc8mm) |
 | `dryad_corneal_laser_procedure` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.m905qfv2r](https://doi.org/10.5061/dryad.m905qfv2r) |
 | `dryad_crvo_vegf_tortuosity` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.5dn13](https://doi.org/10.5061/dryad.5dn13) |
-| `dryad_d12d9f` | `dryad` | `ok` | 200 | [https://doi.org/10.6078/d12d9f](https://doi.org/10.6078/d12d9f) |
-| `dryad_d1895r` | `dryad` | `ok` | 200 | [https://doi.org/10.6078/d1895r](https://doi.org/10.6078/d1895r) |
 | `dryad_d1zd5s` | `dryad` | `ok` | 200 | [https://doi.org/10.5068/d1zd5s](https://doi.org/10.5068/d1zd5s) |
 | `dryad_diabetes_retinal_capillary` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.58791](https://doi.org/10.5061/dryad.58791) |
 | `dryad_diabetic_retinopathy_renal` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.6kg1sd7](https://doi.org/10.5061/dryad.6kg1sd7) |
 | `dryad_dome_shaped_macula` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.h544560](https://doi.org/10.5061/dryad.h544560) |
 | `dryad_dry_eye_nlrp3` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.7vn28](https://doi.org/10.5061/dryad.7vn28) |
 | `dryad_eye_care_quality_of_life` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.h44j0zpv3](https://doi.org/10.5061/dryad.h44j0zpv3) |
-| `dryad_eye_head_visual_selection` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.33kh1](https://doi.org/10.5061/dryad.33kh1) |
 | `dryad_functional_oct_alzheimer` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.msbcc2ftc](https://doi.org/10.5061/dryad.msbcc2ftc) |
 | `dryad_fundus_venous_pulsation` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.56f1h](https://doi.org/10.5061/dryad.56f1h) |
-| `dryad_fungal_keratitis_azole_assay` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.bk3j9kdjf](https://doi.org/10.5061/dryad.bk3j9kdjf) |
 | `dryad_fungal_keratitis_cci` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.8931zcrw5](https://doi.org/10.5061/dryad.8931zcrw5) |
 | `dryad_ga_biofeedback` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.ngf1vhj81](https://doi.org/10.5061/dryad.ngf1vhj81) |
 | `dryad_gca_optic_nerve_dwi` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.59zw3r2bk](https://doi.org/10.5061/dryad.59zw3r2bk) |
 | `dryad_gcc_glaucoma` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.xwdbrv1tn](https://doi.org/10.5061/dryad.xwdbrv1tn) |
 | `dryad_glaucoma_lhon_mitochondrial` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.2k4v4](https://doi.org/10.5061/dryad.2k4v4) |
 | `dryad_glaucoma_rnfl_vf` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.q6ft5](https://doi.org/10.5061/dryad.q6ft5) |
-| `dryad_glaucoma_tears_mirna` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.bcc2fqzj1](https://doi.org/10.5061/dryad.bcc2fqzj1) |
-| `dryad_htr1b_mouse_retina` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.bk3j9kdps](https://doi.org/10.5061/dryad.bk3j9kdps) |
 | `dryad_human_foveal_cones` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.nh0fp1b](https://doi.org/10.5061/dryad.nh0fp1b) |
 | `dryad_huntingtons_retinal_oct` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.ncjsxksxr](https://doi.org/10.5061/dryad.ncjsxksxr) |
 | `dryad_icmr_eye_see_cataract` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.5qfttdz19](https://doi.org/10.5061/dryad.5qfttdz19) |
-| `dryad_ird_mouse_proteome` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.c2fqz61pc](https://doi.org/10.5061/dryad.c2fqz61pc) |
 | `dryad_iris_surface_features` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.0kt87](https://doi.org/10.5061/dryad.0kt87) |
-| `dryad_j0707ztm` | `dryad` | `ok` | 200 | [https://doi.org/10.6075/j0707ztm](https://doi.org/10.6075/j0707ztm) |
 | `dryad_karachi_cataract_outcomes` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.7q5c7](https://doi.org/10.5061/dryad.7q5c7) |
 | `dryad_lens_fluorescence_twins` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.mcvdnck22](https://doi.org/10.5061/dryad.mcvdnck22) |
 | `dryad_lvpei_cataract_outcomes` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.71hp4](https://doi.org/10.5061/dryad.71hp4) |
-| `dryad_macaque_cone_ratio` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.gf1vhhmsc](https://doi.org/10.5061/dryad.gf1vhhmsc) |
 | `dryad_moorfields_amd_1_2_year` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.97r9289](https://doi.org/10.5061/dryad.97r9289) |
 | `dryad_moorfields_namd_fellow_eye` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.4mw6m906b](https://doi.org/10.5061/dryad.4mw6m906b) |
-| `dryad_mouse_all_optical_retina` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.7q37g6b](https://doi.org/10.5061/dryad.7q37g6b) |
-| `dryad_mouse_oct_beam_tilt` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.95x69p8th](https://doi.org/10.5061/dryad.95x69p8th) |
-| `dryad_mouse_pupil_masking_retinal_deg` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.9kd51c5g5](https://doi.org/10.5061/dryad.9kd51c5g5) |
 | `dryad_myopia_glaucoma_visual_field` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.1n50q](https://doi.org/10.5061/dryad.1n50q) |
 | `dryad_namd_12_year_survival` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.nvx0k6dqg](https://doi.org/10.5061/dryad.nvx0k6dqg) |
 | `dryad_namd_oct_longitudinal` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.8cz8w9h0v](https://doi.org/10.5061/dryad.8cz8w9h0v) |
 | `dryad_namd_oct_quant` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.2rbnzs7m4](https://doi.org/10.5061/dryad.2rbnzs7m4) |
 | `dryad_namd_ten_year_survival` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.9cnp5hqfm](https://doi.org/10.5061/dryad.9cnp5hqfm) |
 | `dryad_namd_visual_prediction` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.573n5tb5d](https://doi.org/10.5061/dryad.573n5tb5d) |
-| `dryad_nhp_trachoma_immunity` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.69p8cz982](https://doi.org/10.5061/dryad.69p8cz982) |
 | `dryad_nigeria_cataract_services` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.13bp2](https://doi.org/10.5061/dryad.13bp2) |
 | `dryad_ocular_chemical_injuries_shanghai` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.9707661](https://doi.org/10.5061/dryad.9707661) |
-| `dryad_ocular_gvhd_mouse` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.k6djh9w8z](https://doi.org/10.5061/dryad.k6djh9w8z) |
 | `dryad_ocular_surface_amr` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.6t1g1jx9s](https://doi.org/10.5061/dryad.6t1g1jx9s) |
 | `dryad_optic_neuritis_metacontrast` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.cp4j7](https://doi.org/10.5061/dryad.cp4j7) |
 | `dryad_pediatric_corneal_endothelium` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.hhmgqnkjc](https://doi.org/10.5061/dryad.hhmgqnkjc) |
 | `dryad_pediatric_myopia_longitudinal` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.d4mb3pn](https://doi.org/10.5061/dryad.d4mb3pn) |
 | `dryad_pediatric_optical_quality` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.bm8nv](https://doi.org/10.5061/dryad.bm8nv) |
 | `dryad_pediatric_secondary_iol` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.5t9d1](https://doi.org/10.5061/dryad.5t9d1) |
-| `dryad_pg4f4qrwf` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.pg4f4qrwf](https://doi.org/10.5061/dryad.pg4f4qrwf) |
-| `dryad_pk0p2ngzh` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.pk0p2ngzh](https://doi.org/10.5061/dryad.pk0p2ngzh) |
 | `dryad_pk31jt2` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.pk31jt2](https://doi.org/10.5061/dryad.pk31jt2) |
 | `dryad_pnvx0k6hv` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.pnvx0k6hv](https://doi.org/10.5061/dryad.pnvx0k6hv) |
 | `dryad_preeclampsia_ocular_octa` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.j0zpc86kg](https://doi.org/10.5061/dryad.j0zpc86kg) |
-| `dryad_primate_on_dsgc` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.47d7wm3kx](https://doi.org/10.5061/dryad.47d7wm3kx) |
-| `dryad_prpf31_gene_augmentation` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.bcc2fqzf1](https://doi.org/10.5061/dryad.bcc2fqzf1) |
 | `dryad_pvd_diagnostic_oct` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.h44j0zpnp](https://doi.org/10.5061/dryad.h44j0zpnp) |
 | `dryad_pzgmsbcfw` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.pzgmsbcfw](https://doi.org/10.5061/dryad.pzgmsbcfw) |
-| `dryad_pzgmsbcmk` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.pzgmsbcmk](https://doi.org/10.5061/dryad.pzgmsbcmk) |
-| `dryad_q6rv0kz3` | `dryad` | `ok` | 200 | [https://doi.org/10.7272/q6rv0kz3](https://doi.org/10.7272/q6rv0kz3) |
-| `dryad_q6w37t8b` | `dryad` | `ok` | 200 | [https://doi.org/10.7272/q6w37t8b](https://doi.org/10.7272/q6w37t8b) |
-| `dryad_q83bk3jnw` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.q83bk3jnw](https://doi.org/10.5061/dryad.q83bk3jnw) |
 | `dryad_qfttdz0dr` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.qfttdz0dr](https://doi.org/10.5061/dryad.qfttdz0dr) |
-| `dryad_r4xgxd2nt` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.r4xgxd2nt](https://doi.org/10.5061/dryad.r4xgxd2nt) |
 | `dryad_r7s04` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.r7s04](https://doi.org/10.5061/dryad.r7s04) |
-| `dryad_r7sqv9sqs` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.r7sqv9sqs](https://doi.org/10.5061/dryad.r7sqv9sqs) |
 | `dryad_rao_multiomics` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.98sf7m0wt](https://doi.org/10.5061/dryad.98sf7m0wt) |
 | `dryad_ravi_cataract_outcomes` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.4p55b](https://doi.org/10.5061/dryad.4p55b) |
-| `dryad_retinal_explant_metabolomics` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.c2fqz61hr](https://doi.org/10.5061/dryad.c2fqz61hr) |
 | `dryad_retinal_prosthesis_navigation` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.c6147](https://doi.org/10.5061/dryad.c6147) |
-| `dryad_retinal_pufa_aging_mouse` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.gxd25480h](https://doi.org/10.5061/dryad.gxd25480h) |
-| `dryad_retinal_vasomotion` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.163mp](https://doi.org/10.5061/dryad.163mp) |
-| `dryad_retinal_vein_cannulation` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.3ffbg79zd](https://doi.org/10.5061/dryad.3ffbg79zd) |
-| `dryad_rhesus_maculopathy_metabolomics` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.7pvmcvf8d](https://doi.org/10.5061/dryad.7pvmcvf8d) |
 | `dryad_rn38r` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.rn38r](https://doi.org/10.5061/dryad.rn38r) |
 | `dryad_rn8pk0p70` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.rn8pk0p70](https://doi.org/10.5061/dryad.rn8pk0p70) |
 | `dryad_rn8pk0pdp` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.rn8pk0pdp](https://doi.org/10.5061/dryad.rn8pk0pdp) |
-| `dryad_rn8pk0pmm` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.rn8pk0pmm](https://doi.org/10.5061/dryad.rn8pk0pmm) |
-| `dryad_rod_cone_dystrophy_genes` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.59zw3r2b7](https://doi.org/10.5061/dryad.59zw3r2b7) |
 | `dryad_rop_plane_wave_doppler` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.612jm649r](https://doi.org/10.5061/dryad.612jm649r) |
 | `dryad_rpgr_cone_rod_wes` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.5qfttdz5d](https://doi.org/10.5061/dryad.5qfttdz5d) |
-| `dryad_rs2qp` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.rs2qp](https://doi.org/10.5061/dryad.rs2qp) |
-| `dryad_rv15dv4bv` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.rv15dv4bv](https://doi.org/10.5061/dryad.rv15dv4bv) |
-| `dryad_s1rn8pkhb` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.s1rn8pkhb](https://doi.org/10.5061/dryad.s1rn8pkhb) |
 | `dryad_sbcc2fr6n` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.sbcc2fr6n](https://doi.org/10.5061/dryad.sbcc2fr6n) |
 | `dryad_sbcc2fr7r` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.sbcc2fr7r](https://doi.org/10.5061/dryad.sbcc2fr7r) |
-| `dryad_sf7m0cggh` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.sf7m0cggh](https://doi.org/10.5061/dryad.sf7m0cggh) |
 | `dryad_shanghai_myopia_2014_2018` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.c2fqz615c](https://doi.org/10.5061/dryad.c2fqz615c) |
 | `dryad_sn02v6x2x` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.sn02v6x2x](https://doi.org/10.5061/dryad.sn02v6x2x) |
-| `dryad_spata7_canine_retinal_degeneration` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.3tx95x6n6](https://doi.org/10.5061/dryad.3tx95x6n6) |
 | `dryad_stargardt_wes` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.0qk7f](https://doi.org/10.5061/dryad.0qk7f) |
-| `dryad_subretinal_fibrosis_adora2a` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.hx3ffbgmv](https://doi.org/10.5061/dryad.hx3ffbgmv) |
-| `dryad_subretinal_robot` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.w0vt4b91w](https://doi.org/10.5061/dryad.w0vt4b91w) |
 | `dryad_taizhou_cataract_outdoors` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.gt410](https://doi.org/10.5061/dryad.gt410) |
-| `dryad_tb2rbp0cq` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.tb2rbp0cq](https://doi.org/10.5061/dryad.tb2rbp0cq) |
 | `dryad_tb_uveitis_ifn` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.8jk03jd](https://doi.org/10.5061/dryad.8jk03jd) |
-| `dryad_tdz08kq8t` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.tdz08kq8t](https://doi.org/10.5061/dryad.tdz08kq8t) |
 | `dryad_tmpg4f4vb` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.tmpg4f4vb](https://doi.org/10.5061/dryad.tmpg4f4vb) |
 | `dryad_toric_iol_incision` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.01n20](https://doi.org/10.5061/dryad.01n20) |
 | `dryad_uveal_melanoma_coog2` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.n8pk0p340](https://doi.org/10.5061/dryad.n8pk0p340) |
@@ -282,26 +364,10 @@
 | `dryad_v6wwpzh1b` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.v6wwpzh1b](https://doi.org/10.5061/dryad.v6wwpzh1b) |
 | `dryad_v9p0b` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.v9p0b](https://doi.org/10.5061/dryad.v9p0b) |
 | `dryad_vkh_apoe` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.37pvmcvzx](https://doi.org/10.5061/dryad.37pvmcvzx) |
-| `dryad_vq83bk3s8` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.vq83bk3s8](https://doi.org/10.5061/dryad.vq83bk3s8) |
-| `dryad_vx0k6djwf` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.vx0k6djwf](https://doi.org/10.5061/dryad.vx0k6djwf) |
-| `dryad_w3r228143` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.w3r228143](https://doi.org/10.5061/dryad.w3r228143) |
-| `dryad_wdbrv15rj` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.wdbrv15rj](https://doi.org/10.5061/dryad.wdbrv15rj) |
-| `dryad_wstqjq2n5` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.wstqjq2n5](https://doi.org/10.5061/dryad.wstqjq2n5) |
-| `dryad_x95x69pmq` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.x95x69pmq](https://doi.org/10.5061/dryad.x95x69pmq) |
 | `dryad_xgxd254pk` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.xgxd254pk](https://doi.org/10.5061/dryad.xgxd254pk) |
-| `dryad_xpnvx0kb6` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.xpnvx0kb6](https://doi.org/10.5061/dryad.xpnvx0kb6) |
-| `dryad_xwdbrv1kd` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.xwdbrv1kd](https://doi.org/10.5061/dryad.xwdbrv1kd) |
 | `dryad_young_adult_uv_transmission` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.hg000c2](https://doi.org/10.5061/dryad.hg000c2) |
-| `dryad_z08kprrk3` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.z08kprrk3](https://doi.org/10.5061/dryad.z08kprrk3) |
-| `dryad_z08kprrk6` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.z08kprrk6](https://doi.org/10.5061/dryad.z08kprrk6) |
 | `dryad_z8w9ghx9c` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.z8w9ghx9c](https://doi.org/10.5061/dryad.z8w9ghx9c) |
-| `dryad_z8w9ghx9f` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.z8w9ghx9f](https://doi.org/10.5061/dryad.z8w9ghx9f) |
-| `dryad_z8w9ghxpp` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.z8w9ghxpp](https://doi.org/10.5061/dryad.z8w9ghxpp) |
-| `dryad_zebrafish_crystallin_lens` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.f4qrfj730](https://doi.org/10.5061/dryad.f4qrfj730) |
-| `dryad_zebrafish_rpe_phagocytosis` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.76hdr7t64](https://doi.org/10.5061/dryad.76hdr7t64) |
-| `dryad_zebrafish_thrb_photoreceptors` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.msbcc2fvr](https://doi.org/10.5061/dryad.msbcc2fvr) |
-| `dryad_zkh1893nt` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.zkh1893nt](https://doi.org/10.5061/dryad.zkh1893nt) |
-| `dryad_zs7h44jd9` | `dryad` | `ok` | 200 | [https://doi.org/10.5061/dryad.zs7h44jd9](https://doi.org/10.5061/dryad.zs7h44jd9) |
+| `dual_scheimpflug_ss_oct_biometry` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.16828996.v1](https://doi.org/10.6084/m9.figshare.16828996.v1) |
 | `duke_amd_chiu` | `manual` | `ok` | 200 | [people.duke.edu/~sf59](https://people.duke.edu/~sf59/Chiu_IOVS_2011_dataset.htm) |
 | `duke_chiu_boe` | `direct` | `ok` | 200 | [people.duke.edu/~sf59](http://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm) |
 | `duke_rpedc` | `manual` | `ok` | 200 | [people.duke.edu/~sf59](https://people.duke.edu/~sf59/RPEDC_Ophth_2013_dataset.htm) |
@@ -314,6 +380,7 @@
 | `fairvlmed` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/harvardairobotics/FairVLMed) |
 | `fang_sbsdi_oct` | `manual` | `ok` | 200 | [people.duke.edu/~sf59](https://people.duke.edu/~sf59/Fang_TMI_2013.htm) |
 | `farfum_rop` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.c.6721269](https://doi.org/10.6084/m9.figshare.c.6721269) |
+| `fd3611` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.32086296.v1](https://doi.org/10.6084/m9.figshare.32086296.v1) |
 | `ffa_ir` | `physionet` | `ok` | 200 | [https://doi.org/10.13026/k5rp-9h43](https://doi.org/10.13026/k5rp-9h43) |
 | `fiqs` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.28129847.v1](https://doi.org/10.6084/m9.figshare.28129847.v1) |
 | `fives` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.19688169](https://doi.org/10.6084/m9.figshare.19688169) |
@@ -326,20 +393,28 @@
 | `g1020` | `kaggle` | `ok` | 200 | [arxiv.org/abs](https://arxiv.org/abs/2006.09158) |
 | `gamma` | `gdrive` | `ok` | 200 | [drive.google.com/file](https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view) |
 | `gaze_capture` | `manual` | `ok` | 200 | [gazecapture.csail.mit.edu/dataset.php](https://gazecapture.csail.mit.edu/dataset.php) |
+| `glaucoma_expert_cot_raw` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077) |
+| `glaucoma_expert_cot_refined` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077) |
+| `glaucoma_oct_fundus` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.32051124.v1](https://doi.org/10.6084/m9.figshare.32051124.v1) |
+| `gleam` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset) |
 | `goals` | `gdrive` | `ok` | 200 | [aistudio.baidu.com/competition](https://aistudio.baidu.com/competition/detail/783/0/introduction) |
 | `grape` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.c.6406319](https://doi.org/10.6084/m9.figshare.c.6406319) |
-| `harvard_fairvision` | `manual` | `ok` | 200 | [ophai.hms.harvard.edu/datasets](https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k) |
 | `harvard_gdp` | `gdrive` | `ok` | 200 | [drive.google.com/drive](https://drive.google.com/drive/folders/1JMi_HCql113uc9X0DOaMkNfEWfxaDlEz) |
 | `harvard_glaucoma` | `direct` | `ok` | 202 | [https://doi.org/10.7910/DVN/1YRRAC](https://doi.org/10.7910/DVN/1YRRAC) |
 | `hei_med` | `github` | `ok` | 200 | [github.com/lgiancaUTH](https://github.com/lgiancaUTH/HEI-MED) |
+| `hesc_retinal_organoid_early_differentiation` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.30102802.v1](https://doi.org/10.6084/m9.figshare.30102802.v1) |
+| `hesc_rpe_electrical_excitability` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.22246969.v2](https://doi.org/10.6084/m9.figshare.22246969.v2) |
+| `higancnn_generated_glaucoma` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection) |
 | `hpmi` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.24800232](https://doi.org/10.6084/m9.figshare.24800232) |
 | `hrf` | `manual` | `ok` | 200 | [www5.cs.fau.de/research](https://www5.cs.fau.de/research/data/fundus-images/) |
 | `hyamd` | `physionet` | `ok` | 200 | [physionet.org/content](https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/) |
+| `hybridgaze` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/michachwesiuk/hybridgaze) |
 | `hygd` | `physionet` | `ok` | 200 | [https://doi.org/10.13026/pdxv-m215](https://doi.org/10.13026/pdxv-m215) |
 | `ichallenge_oct` | `manual` | `ok` | 200 | [hdmilab.cn/ichallenge](http://hdmilab.cn/ichallenge) |
 | `idrid` | `manual` | `ok` | 200 | [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid) |
 | `insegcat` | `manual` | `ok` | 200 | [ftp.itec.aau.at/datasets](https://ftp.itec.aau.at/datasets/ovid/InSegCat/) |
 | `intraretinal_cystoid_fluid` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/zeeshanahmed13/intraretinal-cystoid-fluid) |
+| `itec_iris_pupil` | `manual` | `ok` | 200 | [ftp.itec.aau.at/datasets](https://ftp.itec.aau.at/datasets/ovid/iris_pupil_seg/index.html) |
 | `jichi` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.4879853](https://doi.org/10.6084/m9.figshare.4879853) |
 | `keratoconus_detection_kaggle` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/elmehdi12/keratoconus-detection) |
 | `kermany_oct` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/paultimothymooney/kermany2018) |
@@ -357,8 +432,10 @@
 | `mm_retinal_reason` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason) |
 | `mmrdr` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.29423747](https://doi.org/10.6084/m9.figshare.29423747) |
 | `mpii_gaze` | `manual` | `ok` | 200 | [mpi-inf.mpg.de/de](https://www.mpi-inf.mpg.de/de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild) |
+| `mpxv_ocular_manifestations_south_kivu` | `figshare` | `ok` | 200 | [https://doi.org/10.1371/journal.pgph.0005971.s001](https://doi.org/10.1371/journal.pgph.0005971.s001) |
 | `mshf` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.21507564](https://doi.org/10.6084/m9.figshare.21507564) |
 | `multieye` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/Luxuriant16/MultiEYE) |
+| `natural_scene_eye_tracking_collection` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.30520733.v1](https://doi.org/10.6084/m9.figshare.30520733.v1) |
 | `nd_iris_0405` | `manual` | `ok` | 200 | [tsapps.nist.gov/BDbC](https://tsapps.nist.gov/BDbC/Search/Details/371) |
 | `ochid` | `manual` | `ok` | 200 | [imed.nimte.ac.cn/OCHID.html](https://imed.nimte.ac.cn/OCHID.html) |
 | `oct5k` | `figshare` | `ok` | 202 | [https://doi.org/10.5522/04/22128671](https://doi.org/10.5522/04/22128671) |
@@ -370,6 +447,7 @@
 | `octa_500` | `manual` | `ok` | 200 | [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/octa-500) |
 | `octid` | `manual` | `ok` | 200 | [borealisdata.ca/dataverse](https://borealisdata.ca/dataverse/OCTID) |
 | `ocular_chat_vqa` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/ncbi/OcularChat-VQA) |
+| `ocular_generalized_myasthenia_korea` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.31981347.v1](https://doi.org/10.6084/m9.figshare.31981347.v1) |
 | `oculoscope` | `figshare` | `ok` | 202 | [figshare.com/s](https://figshare.com/s/926c2c2ef9e77ab5eb9d) |
 | `odir2019` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/andrewmvd/ocular-disease-recognition-odir5k) |
 | `oimhs` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.23508453](https://doi.org/10.6084/m9.figshare.23508453) |
@@ -382,8 +460,15 @@
 | `ophthalwechat` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.29064149](https://doi.org/10.6084/m9.figshare.29064149) |
 | `paired_retina` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/smartretina2025/paired_retina) |
 | `palm` | `gdrive` | `ok` | 200 | [drive.google.com/file](https://drive.google.com/file/d/14XWD6kX0dVRfAyEc7FkZGKZibWEkvnyv/view) |
+| `parkinsons_directional_oct` | `figshare` | `ok` | 202 | [https://doi.org/10.26188/30750011.v1](https://doi.org/10.26188/30750011.v1) |
+| `parkinsons_outer_retinal_structure` | `figshare` | `ok` | 202 | [https://doi.org/10.26188/24138420.v2](https://doi.org/10.26188/24138420.v2) |
+| `pco_namd` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.32873501.v1](https://doi.org/10.6084/m9.figshare.32873501.v1) |
 | `perg_ioba` | `physionet` | `ok` | 200 | [physionet.org/content](https://physionet.org/content/perg-ioba-dataset/1.0.0/) |
+| `pimd_visual_preference_eye_tracking` | `figshare` | `ok` | 200 | [https://doi.org/10.1371/journal.pone.0266176.s010](https://doi.org/10.1371/journal.pone.0266176.s010) |
+| `post_glaucoma_surgery_ptosis_strabismus` | `figshare` | `ok` | 200 | [https://doi.org/10.1371/journal.pone.0335074.s001](https://doi.org/10.1371/journal.pone.0335074.s001) |
 | `prime_fp20` | `manual` | `ok` | 200 | [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset) |
+| `pupillometry_eeg_fmri_salience` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.22518010.v1](https://doi.org/10.6084/m9.figshare.22518010.v1) |
+| `puwf_av` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.32509329.v1](https://doi.org/10.6084/m9.figshare.32509329.v1) |
 | `rasti_oct` | `manual` | `ok` | 200 | [drive.google.com/file](https://drive.google.com/file/d/1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu) |
 | `ravir` | `gdrive` | `ok` | 200 | [ravir.grand-challenge.org/data](https://ravir.grand-challenge.org/data/) |
 | `rbad` | `github` | `ok` | 200 | [github.com/Retinal-Research](https://github.com/Retinal-Research/RBAD) |
@@ -394,6 +479,9 @@
 | `reta_benchmark` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.16960855](https://doi.org/10.6084/m9.figshare.16960855) |
 | `retina_age_analysis` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/ramankamran/retina-age-analysis) |
 | `retinal_dr_longitudinal` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/usama10/retinal-dr-longitudinal) |
+| `retinal_oct_octa_two_subjects_processed` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/cnzakimuena/retinal-oct-and-octa-data-3) |
+| `retinal_optic_flow_locomotion` | `figshare` | `ok` | 202 | [https://doi.org/10.25452/figshare.plus.17113883.v1](https://doi.org/10.25452/figshare.plus.17113883.v1) |
+| `retinal_photoplethysmography_rnfl` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.21197173.v1](https://doi.org/10.6084/m9.figshare.21197173.v1) |
 | `retouch` | `manual` | `ok` | 200 | [retouch.grand-challenge.org](https://retouch.grand-challenge.org/) |
 | `rfmid` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification) |
 | `rimone_dl` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/orvile/rim-one-retinal-dataset-for-assessing-glaucoma) |
@@ -402,15 +490,21 @@
 | `rocc` | `manual` | `ok` | 200 | [rocc.grand-challenge.org](https://rocc.grand-challenge.org/) |
 | `rop_ostrava` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/jananowakova/retinal-image-dataset-of-infants-and-rop) |
 | `rop_uwf_intelligent` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.25514449](https://doi.org/10.6084/m9.figshare.25514449) |
+| `rop_vl` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.30143461.v1](https://doi.org/10.6084/m9.figshare.30143461.v1) |
 | `ru_medical_texts_ophthalmology` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/cheshrcat/ru-medical-texts-ophtalmology) |
 | `rvo_me` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.29804435.v1](https://doi.org/10.6084/m9.figshare.29804435.v1) |
 | `slid` | `direct` | `ok` | 200 | [github.com/xumingyu-hub](https://github.com/xumingyu-hub/SLID) |
+| `slid_e` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.26172919.v2](https://doi.org/10.6084/m9.figshare.26172919.v2) |
+| `slp_vld` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.32576697.v3](https://doi.org/10.6084/m9.figshare.32576697.v3) |
 | `smdg` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset) |
 | `soul_octa` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.24893358.v3](https://doi.org/10.6084/m9.figshare.24893358.v3) |
+| `spectrosense_pupil_light_exposure` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.28176839.v1](https://doi.org/10.6084/m9.figshare.28176839.v1) |
 | `stage_task1` | `manual` | `ok` | 200 | [aistudio.baidu.com/aistudio](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets) |
 | `stage_task2` | `manual` | `ok` | 200 | [aistudio.baidu.com/aistudio](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets) |
 | `stage_task3` | `manual` | `ok` | 200 | [aistudio.baidu.com/aistudio](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets) |
 | `sustech_sysu` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.12570770](https://doi.org/10.6084/m9.figshare.12570770) |
+| `sustech_sysu_corneal_ulcers` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.10247501.v1](https://doi.org/10.6084/m9.figshare.10247501.v1) |
+| `synthetic_retinal_oct_biomarkers` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images) |
 | `tear_meniscus` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.28650536.v2](https://doi.org/10.6084/m9.figshare.28650536.v2) |
 | `teyed` | `manual` | `ok` | 200 | [arxiv.org/abs](https://arxiv.org/abs/2102.02115) |
 | `thoct1800` | `github` | `ok` | 200 | [github.com/SJD095](https://github.com/SJD095/OCT-Segmentation) |
@@ -418,6 +512,7 @@
 | `tom500` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.27133389.v1](https://doi.org/10.6084/m9.figshare.27133389.v1) |
 | `toxofundus` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/nafin59/ocular-toxoplasmosis-fundus-images-dataset) |
 | `tsukazaki_uwf` | `github` | `ok` | 200 | [github.com/DateCazuki](https://github.com/DateCazuki/Fundus_Diagnosis) |
+| `tunisian_retinal_oct_multidisease` | `manual` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.31385596.v3](https://doi.org/10.6084/m9.figshare.31385596.v3) |
 | `ubiris_v2` | `manual` | `ok` | 200 | [iris.di.ubi.pt/index.html](https://iris.di.ubi.pt/index.html) |
 | `umn_parhi_oct` | `direct` | `ok` | 200 | [people.ece.umn.edu/users](http://people.ece.umn.edu/users/parhi/.DATA/OCT/DME/UMNDataset.mat) |
 | `uwf_dr` | `gdrive` | `ok` | 200 | [drive.google.com/drive](https://drive.google.com/drive/folders/1wOqM-O_amSwMdli4OlFnGpf4hslPgDNu) |
@@ -426,8 +521,10 @@
 | `uwf_zhejiang` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.26936446](https://doi.org/10.6084/m9.figshare.26936446) |
 | `uwhvf` | `direct` | `ok` | 200 | [github.com/uw-biomedical-ml](https://github.com/uw-biomedical-ml/uwhvf/archive/refs/heads/master.zip) |
 | `vietai_retinal_disease` | `kaggle` | `ok` | 200 | [kaggle.com/competitions](https://www.kaggle.com/competitions/vietai-advance-retinal-disease-detection-2020/data) |
+| `visual_field_test_perception` | `figshare` | `ok` | 202 | [https://doi.org/10.6084/m9.figshare.12443594.v2](https://doi.org/10.6084/m9.figshare.12443594.v2) |
 | `visual_field_testing_experiment` | `kaggle` | `ok` | 200 | [kaggle.com/datasets](https://www.kaggle.com/datasets/shozosaeki/visual-field-testing-experiment) |
 | `x_pcr` | `huggingface` | `ok` | 200 | [huggingface.co/datasets](https://huggingface.co/datasets/Fantasy666/X-PCR) |
 | `drions_db` | `direct` | `ssl_error` | - | [ia.uned.es/~ejcarmona](https://www.ia.uned.es/~ejcarmona/DRIONS-DB.html) |
 | `fire` | `direct` | `ssl_error` | - | [projects.ics.forth.gr/cvrl](https://projects.ics.forth.gr/cvrl/fire/) |
 | `stare` | `direct` | `ssl_error` | - | [cecas.clemson.edu/~ahoover](https://cecas.clemson.edu/~ahoover/stare/) |
+| `harvard_fairvision` | `manual` | `timeout` | - | [ophai.hms.harvard.edu/datasets](https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k) |

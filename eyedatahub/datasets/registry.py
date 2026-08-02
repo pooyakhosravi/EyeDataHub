@@ -1,4 +1,5 @@
 """Dataset registry — single source of truth for all EyeDataHub datasets."""
+
 from __future__ import annotations
 
 from typing import Dict, List, Optional
@@ -18,6 +19,26 @@ from eyedatahub.core.quantities import (
     PUBLIC_QUANTITY_FIELDS,
     QUANTITY_UNITS,
 )
+from eyedatahub.datasets.scope_exclusions import CATALOG_SCOPE_EXCLUSIONS
+
+
+ALTERNATE_SOURCE_ROLES = {
+    "alternate_deposit",
+    "component_deposit",
+    "derived_annotation",
+    "metadata_record",
+    "mirror",
+    "previous_version",
+    "repository_copy",
+}
+ALTERNATE_SOURCE_FIELDS = {
+    "platform",
+    "role",
+    "url",
+    "identifier",
+    "version",
+    "notes",
+}
 
 
 class DatasetRegistry:
@@ -80,7 +101,9 @@ class DatasetRegistry:
             if info.num_samples is not None and (
                 not isinstance(info.num_samples, int) or info.num_samples <= 0
             ):
-                errors.append(f"{prefix} num_samples must be a positive integer or None")
+                errors.append(
+                    f"{prefix} num_samples must be a positive integer or None"
+                )
             quantities = info.reported_quantities
             if not isinstance(quantities, list):
                 errors.append(f"{prefix} reported_quantities must be a list")
@@ -92,17 +115,19 @@ class DatasetRegistry:
                     errors.append(f"{quantity_prefix} must be an object")
                     continue
                 if set(quantity) != set(PUBLIC_QUANTITY_FIELDS):
-                    errors.append(f"{quantity_prefix} does not match the quantity schema")
+                    errors.append(
+                        f"{quantity_prefix} does not match the quantity schema"
+                    )
                     continue
                 count = quantity["count"]
-                if (
-                    not isinstance(count, int)
-                    or isinstance(count, bool)
-                    or count < 0
-                ):
-                    errors.append(f"{quantity_prefix}.count must be a non-negative integer")
+                if not isinstance(count, int) or isinstance(count, bool) or count < 0:
+                    errors.append(
+                        f"{quantity_prefix}.count must be a non-negative integer"
+                    )
                 if quantity["unit"] not in QUANTITY_UNITS:
-                    errors.append(f"{quantity_prefix}.unit is not in the controlled vocabulary")
+                    errors.append(
+                        f"{quantity_prefix}.unit is not in the controlled vocabulary"
+                    )
                 if quantity["evidence_basis"] not in EVIDENCE_BASES:
                     errors.append(f"{quantity_prefix}.evidence_basis is invalid")
                 if quantity["exactness"] not in EXACTNESS_VALUES:
@@ -114,23 +139,35 @@ class DatasetRegistry:
                     for field in ("scope", "evidence_url", "review_date", "notes")
                 ):
                     errors.append(f"{quantity_prefix} text fields must be strings")
-                elif quantity["evidence_url"] and urlparse(quantity["evidence_url"]).scheme not in {
+                elif quantity["evidence_url"] and urlparse(
+                    quantity["evidence_url"]
+                ).scheme not in {
                     "http",
                     "https",
                 }:
-                    errors.append(f"{quantity_prefix}.evidence_url must use HTTP or HTTPS")
+                    errors.append(
+                        f"{quantity_prefix}.evidence_url must use HTTP or HTTPS"
+                    )
                 if quantity["primary"] is True:
                     primary_quantities.append(quantity)
             if len(primary_quantities) > 1:
-                errors.append(f"{prefix} reported_quantities must contain at most one primary")
+                errors.append(
+                    f"{prefix} reported_quantities must contain at most one primary"
+                )
             elif primary_quantities:
                 primary = primary_quantities[0]
                 if primary["count"] != info.num_samples:
-                    errors.append(f"{prefix} primary quantity count must match num_samples")
+                    errors.append(
+                        f"{prefix} primary quantity count must match num_samples"
+                    )
                 if primary["unit"] != info.item_count_unit:
-                    errors.append(f"{prefix} primary quantity unit must match item_count_unit")
+                    errors.append(
+                        f"{prefix} primary quantity unit must match item_count_unit"
+                    )
             elif info.num_samples is not None:
-                errors.append(f"{prefix} num_samples requires a primary reported quantity")
+                errors.append(
+                    f"{prefix} num_samples requires a primary reported quantity"
+                )
             if info.size_gb is not None and info.size_gb <= 0:
                 errors.append(f"{prefix} size_gb must be positive or None")
             if info.download_url and urlparse(info.download_url).scheme not in {
@@ -165,7 +202,9 @@ class DatasetRegistry:
                         f"{prefix} multimodal records must name their component modalities"
                     )
             if info.access_friction not in ACCESS_FRICTION_VALUES:
-                errors.append(f"{prefix} invalid access_friction '{info.access_friction}'")
+                errors.append(
+                    f"{prefix} invalid access_friction '{info.access_friction}'"
+                )
             if info.acquisition_support not in ACQUISITION_SUPPORT_VALUES:
                 errors.append(
                     f"{prefix} invalid acquisition_support '{info.acquisition_support}'"
@@ -189,7 +228,9 @@ class DatasetRegistry:
                 "author_source_checked",
             ):
                 if getattr(info, tri_state) not in {True, False, None}:
-                    errors.append(f"{prefix} {tri_state} must be true, false, or unknown")
+                    errors.append(
+                        f"{prefix} {tri_state} must be true, false, or unknown"
+                    )
             for url_field in (
                 "source_landing_page_url",
                 "preferred_route_url",
@@ -199,6 +240,30 @@ class DatasetRegistry:
                 value = getattr(info, url_field)
                 if value and urlparse(value).scheme not in {"http", "https"}:
                     errors.append(f"{prefix} {url_field} must use HTTP or HTTPS")
+            alternate_urls: set[str] = set()
+            for source_index, source in enumerate(info.alternate_sources, start=1):
+                source_prefix = f"{prefix} alternate_sources[{source_index}]"
+                if not isinstance(source, dict):
+                    errors.append(f"{source_prefix} must be an object")
+                    continue
+                if set(source) != ALTERNATE_SOURCE_FIELDS:
+                    errors.append(
+                        f"{source_prefix} does not match the alternate-source schema"
+                    )
+                    continue
+                if any(not isinstance(value, str) for value in source.values()):
+                    errors.append(f"{source_prefix} values must be strings")
+                    continue
+                if not source["platform"]:
+                    errors.append(f"{source_prefix}.platform is required")
+                if source["role"] not in ALTERNATE_SOURCE_ROLES:
+                    errors.append(f"{source_prefix}.role is invalid")
+                if urlparse(source["url"]).scheme not in {"http", "https"}:
+                    errors.append(f"{source_prefix}.url must use HTTP or HTTPS")
+                normalized_url = source["url"].lower().rstrip("/")
+                if normalized_url in alternate_urls:
+                    errors.append(f"{prefix} alternate source URLs must be unique")
+                alternate_urls.add(normalized_url)
         return errors
 
     def validate(self) -> None:
@@ -419,6 +484,12 @@ def _register_all() -> None:
         RetinalDRLongitudinalDataset,
     )
     from eyedatahub.datasets.platform_2026 import DISCOVERY_DATASETS
+    from eyedatahub.datasets.repository_search_other_2026 import (
+        OTHER_REPOSITORY_DATASETS,
+    )
+    from eyedatahub.datasets.repository_search_mendeley_2026 import (
+        MENDELEY_REPOSITORY_SEARCH_DATASETS,
+    )
     from eyedatahub.datasets.dryad_2026 import DRYAD_DISCOVERY_DATASETS
     from eyedatahub.datasets.repository_refresh_2026 import REFRESH_DATASETS
     from eyedatahub.datasets.gaze_iris_refresh_2026 import GAZE_IRIS_DATASETS
@@ -608,6 +679,12 @@ def _register_all() -> None:
         # Platform sweep: Mendeley, Zenodo, Kaggle, Hugging Face,
         # PhysioNet, and Grand Challenge additions from July 2026.
         *DISCOVERY_DATASETS,
+        # Canonical resources retained from the complete August 2026
+        # Figshare, Kaggle, and Hugging Face repository searches.
+        *OTHER_REPOSITORY_DATASETS,
+        # Canonical resources retained from the complete August 2026
+        # Mendeley Data repository search.
+        *MENDELEY_REPOSITORY_SEARCH_DATASETS,
         # Ocular and ophthalmic records retained after the complete August
         # 2026 Dryad API search and source-level screening.
         *DRYAD_DISCOVERY_DATASETS,
@@ -620,6 +697,11 @@ def _register_all() -> None:
     ]
 
     for ds in datasets:
+        # Curated source records remain in their modules and dated screening
+        # ledgers, but records outside the human/model-use boundary are not
+        # exposed as headline catalog entries.
+        if ds.info.name in CATALOG_SCOPE_EXCLUSIONS:
+            continue
         REGISTRY.register(ds)
 
 

@@ -31,7 +31,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by-nc-sa` |
 | **Descriptive screening label** | Explicit noncommercial clause recorded; check source |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | HuggingFace Hub |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

@@ -31,7 +31,7 @@ Augmented DRIVE, STARE, and CHASE_DB1 vessel-segmentation images for out-of-dist
 | **Normalized terms** | `mit` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; verify that it applies to data |
 | **Terms scope** | `unknown` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

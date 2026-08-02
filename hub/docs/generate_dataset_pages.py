@@ -20,6 +20,7 @@ Run:
 Or override output dir:
     python -m hub.docs.generate_dataset_pages --out ./website/docs/datasets/
 """
+
 from __future__ import annotations
 
 import argparse
@@ -114,7 +115,9 @@ def format_quantity(count: int | None, unit: str) -> str:
     """Format one count without hiding its scientific unit."""
     if count is None:
         return "Not reported"
-    label = unit.replace("_", " ") if unit and unit != "unknown" else "unit not resolved"
+    label = (
+        unit.replace("_", " ") if unit and unit != "unknown" else "unit not resolved"
+    )
     return f"{count:,} {label}"
 
 
@@ -292,9 +295,15 @@ def at_a_glance_table(dataset: EyeDataHubDataset) -> str:
     size = f"{info.size_gb} GB" if info.size_gb else "Not reported"
     samples = format_quantity(info.num_samples, info.item_count_unit)
     backend = BACKEND_LABEL.get(info.download_type, info.download_type)
-    screening = LICENSE_SCREENING_LABEL.get(info.license_family, "Unknown; check source")
+    screening = LICENSE_SCREENING_LABEL.get(
+        info.license_family, "Unknown; check source"
+    )
     status = loader_status(dataset)
-    loader_label = "Standard loader included" if status == "implemented" else "Metadata and access only"
+    loader_label = (
+        "Standard loader included"
+        if status == "implemented"
+        else "Metadata and access only"
+    )
     return (
         "| Field | Value |\n"
         "| --- | --- |\n"
@@ -325,7 +334,8 @@ def related_datasets(
     """Return datasets sharing at least one contained modality."""
     current_modalities = set(current.info.modalities)
     peers = [
-        d for d in all_ds
+        d
+        for d in all_ds
         if d.info.name != current.info.name
         and current_modalities.intersection(d.info.modalities)
     ]
@@ -352,6 +362,18 @@ def frontmatter(dataset: EyeDataHubDataset) -> str:
     if relationships:
         tags.append("documented-relationship")
         tags.extend(f"relationship-{value['type']}" for value in relationships)
+    if info.alternate_sources:
+        tags.append("alternate-source")
+        tags.extend(
+            f"source-{value['platform'].strip().lower().replace(' ', '-')}"
+            for value in info.alternate_sources
+            if value.get("platform")
+        )
+        tags.extend(
+            f"alternate-role-{value['role'].strip().lower().replace('_', '-')}"
+            for value in info.alternate_sources
+            if value.get("role")
+        )
     tags = list(dict.fromkeys(tags))
     tag_list = ", ".join(f'"{t}"' for t in tags)
     return (
@@ -472,6 +494,38 @@ def build_page(dataset: EyeDataHubDataset, all_ds: list[EyeDataHubDataset]) -> s
             f"**Upstream page:** {source_link(info.download_url)}",
             "",
         ]
+    if info.alternate_sources:
+        parts += [
+            "## Other documented locations",
+            "",
+            (
+                "These links identify alternate deposits, components, metadata "
+                "records, mirrors, versions, or related derived materials. They "
+                "do not create additional canonical catalog records."
+            ),
+            "",
+        ]
+        for source in info.alternate_sources:
+            platform = mdx_escape(source.get("platform") or "Source")
+            role = mdx_escape(
+                (source.get("role") or "alternate_source").replace("_", " ")
+            )
+            identifier = mdx_escape(source.get("identifier") or "")
+            version = mdx_escape(source.get("version") or "")
+            label_details = ", ".join(
+                value
+                for value in (identifier, f"version {version}" if version else "")
+                if value
+            )
+            label = f"{platform}: {role}"
+            if label_details:
+                label += f" ({label_details})"
+            note = mdx_escape(source.get("notes") or "")
+            suffix = f": {note}" if note else ""
+            parts.append(
+                f"- [{label}]({mdx_escape(source['url'])}){suffix}"
+            )
+        parts.append("")
     if info.terms_evidence_url:
         parts += [
             f"**Source-term evidence:** {source_link(info.terms_evidence_url)}",
@@ -607,16 +661,14 @@ def build_datasets_root(all_ds: list[EyeDataHubDataset]) -> str:
     from collections import Counter
 
     total_gb = sum((d.info.size_gb or 0) for d in all_ds)
-    by_mod = Counter(
-        modality
-        for d in all_ds
-        for modality in d.info.modalities
-    )
+    by_mod = Counter(modality for d in all_ds for modality in d.info.modalities)
     by_primary = Counter(d.info.primary_category for d in all_ds)
     by_fam = Counter(d.info.license_family for d in all_ds)
     by_backend = Counter(d.info.download_type for d in all_ds)
     by_quantity_unit = Counter(
-        d.info.item_count_unit or "unknown" for d in all_ds if d.info.num_samples is not None
+        d.info.item_count_unit or "unknown"
+        for d in all_ds
+        if d.info.num_samples is not None
     )
 
     parts = [
@@ -771,51 +823,52 @@ def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
         relationships = []
         for relationship in documented_relationships(d):
             related = records_by_name[relationship["record_id"]].info
-            relationships.append({
-                "direction": relationship["direction"],
-                "relationship_type": relationship["type"],
-                "target_name": related.name,
-                "target_full_name": related.full_name,
-                "target_doc_path": f"/datasets/{related.name}",
-                "evidence_url": relationship["evidence_url"],
-                "evidence_summary": relationship["evidence_summary"],
-            })
-        rows.append({
-            "name": i.name,
-            "full_name": i.full_name,
-            "description": i.description,
-            "modality": i.modality,
-            "primary_category": i.primary_category,
-            "modalities": list(i.modalities),
-            "tasks": list(i.tasks or []),
-            "samples": i.num_samples,
-            "item_count_unit": i.item_count_unit,
-            "reported_quantities": list(i.reported_quantities or []),
-            "relationships": relationships,
-            "size_gb": i.size_gb,
-            "license": i.license,
-            "license_family": i.license_family,
-            "source_terms": i.source_terms,
-            "terms_scope": i.terms_scope,
-            "terms_evidence_url": i.terms_evidence_url,
-            "download_type": i.download_type,
-            "download_url": i.download_url,
-            "access_friction": i.access_friction,
-            "availability_status": i.availability_status,
-            "route_last_checked": i.route_last_checked,
-            "acquisition_support": i.acquisition_support,
-            "loader_status": loader_status(d),
-            "doc_path": f"/datasets/{i.name}",
-            "citation": i.citation,
-            "notes": i.notes,
-        })
+            relationships.append(
+                {
+                    "direction": relationship["direction"],
+                    "relationship_type": relationship["type"],
+                    "target_name": related.name,
+                    "target_full_name": related.full_name,
+                    "target_doc_path": f"/datasets/{related.name}",
+                    "evidence_url": relationship["evidence_url"],
+                    "evidence_summary": relationship["evidence_summary"],
+                }
+            )
+        rows.append(
+            {
+                "name": i.name,
+                "full_name": i.full_name,
+                "description": i.description,
+                "modality": i.modality,
+                "primary_category": i.primary_category,
+                "modalities": list(i.modalities),
+                "tasks": list(i.tasks or []),
+                "samples": i.num_samples,
+                "item_count_unit": i.item_count_unit,
+                "reported_quantities": list(i.reported_quantities or []),
+                "alternate_sources": list(i.alternate_sources or []),
+                "relationships": relationships,
+                "size_gb": i.size_gb,
+                "license": i.license,
+                "license_family": i.license_family,
+                "source_terms": i.source_terms,
+                "terms_scope": i.terms_scope,
+                "terms_evidence_url": i.terms_evidence_url,
+                "download_type": i.download_type,
+                "download_url": i.download_url,
+                "access_friction": i.access_friction,
+                "availability_status": i.availability_status,
+                "route_last_checked": i.route_last_checked,
+                "acquisition_support": i.acquisition_support,
+                "loader_status": loader_status(d),
+                "doc_path": f"/datasets/{i.name}",
+                "citation": i.citation,
+                "notes": i.notes,
+            }
+        )
 
     by_primary_category = Counter(row["primary_category"] for row in rows)
-    by_modality = Counter(
-        modality
-        for row in rows
-        for modality in row["modalities"]
-    )
+    by_modality = Counter(modality for row in rows for modality in row["modalities"])
     by_access = Counter(row["access_friction"] for row in rows)
     by_acquisition = Counter(row["acquisition_support"] for row in rows)
     by_license = Counter(row["license_family"] for row in rows)
@@ -825,7 +878,9 @@ def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
     )
     total_gb = sum(row["size_gb"] or 0 for row in rows)
     nonmanual_routes = sum(1 for row in rows if row["download_type"] != "manual")
-    loaders_implemented = sum(1 for row in rows if row["loader_status"] == "implemented")
+    loaders_implemented = sum(
+        1 for row in rows if row["loader_status"] == "implemented"
+    )
     standard_no_nc = {
         "cc0",
         "cc-by",
@@ -849,7 +904,9 @@ def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
             "size_gb": round(total_gb, 1),
             "nonmanual_routes": nonmanual_routes,
             "loaders_implemented": loaders_implemented,
-            "commercial_ok": sum(1 for row in rows if row["license_family"] in standard_no_nc),
+            "commercial_ok": sum(
+                1 for row in rows if row["license_family"] in standard_no_nc
+            ),
             "modalities": len(by_modality),
             "primary_categories": len(by_primary_category),
             "anonymous_routes": by_access["anonymous_direct"],
@@ -863,7 +920,12 @@ def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
                 by_acquisition["end_to_end_tested"]
                 + by_acquisition["transfer_tested_partial"]
             ),
-            "text_or_qa": sum(1 for row in rows if row["modality"] == "text" or any("question" in t or "report" in t for t in row["tasks"])),
+            "text_or_qa": sum(
+                1
+                for row in rows
+                if row["modality"] == "text"
+                or any("question" in t or "report" in t for t in row["tasks"])
+            ),
             "documented_relationship_edges": len(RELATIONSHIP_EVIDENCE),
             "datasets_with_documented_relationships": sum(
                 1 for row in rows if row["relationships"]
@@ -924,7 +986,9 @@ def main() -> int:
         (datasets_dir / f"{mod}-index.md").write_text(page, encoding="utf-8")
 
     # Datasets landing
-    (datasets_dir / "index.md").write_text(build_datasets_root(all_ds), encoding="utf-8")
+    (datasets_dir / "index.md").write_text(
+        build_datasets_root(all_ds), encoding="utf-8"
+    )
 
     # Sidebars.js next to docs root
     sidebars = build_sidebars_js(
@@ -942,6 +1006,25 @@ def main() -> int:
         json.dumps(build_static_dataset_index(all_ds), indent=2),
         encoding="utf-8",
     )
+
+    # Publish the latest dated source-link audit with the generated docs.
+    repo_root = Path(__file__).resolve().parents[2]
+    audit_json = repo_root / "hub" / "audit" / "url_report.json"
+    audit_markdown = repo_root / "hub" / "audit" / "url_report.md"
+    if audit_json.is_file() and audit_markdown.is_file():
+        (static_dir / "url_report.json").write_bytes(audit_json.read_bytes())
+        frontmatter = (
+            "---\n"
+            "id: url-audit\n"
+            'title: "URL audit"\n'
+            "sidebar_label: URL audit\n"
+            'description: "Latest EyeDataHub source-link audit generated by GitHub Actions."\n'
+            "---\n\n"
+        )
+        (out_root / "url-audit.md").write_text(
+            frontmatter + audit_markdown.read_text(encoding="utf-8"),
+            encoding="utf-8",
+        )
 
     print(f"Wrote {len(all_ds)} dataset pages + {len(by_modality)} modality indexes")
     print(f"Removed {removed_stale} stale dataset pages")

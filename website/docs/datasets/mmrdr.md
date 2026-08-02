@@ -3,7 +3,7 @@ id: mmrdr
 title: "MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset"
 sidebar_label: mmrdr
 description: "Multi-modal DR dataset combining color fundus photographs (CFP), OCT B-scans, and ultra-widefield (UWF) fundus images, annotated for DR detection and severity grading. Published in Nature Scientific D"
-tags: ["multimodal", "fundus", "oct", "uwf_fundus", "cc-by", "figshare", "grading", "classification"]
+tags: ["multimodal", "fundus", "oct", "uwf_fundus", "cc-by", "figshare", "grading", "classification", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -31,7 +31,7 @@ Multi-modal DR dataset combining color fundus photographs (CFP), OCT B-scans, an
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |
@@ -48,7 +48,13 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 ## Notes
 
-> Contains 24,460 images across CFP, OCT, and UWF modalities. The source-reported unit is images rather than unique patients. Evaluation code: https://github.com/Vladimirovich2019/MMRDR_Evaluation
+> Contains 24,460 images across CFP, OCT, and UWF modalities. The CFP component is derived from OIA-DDR; OCT and UWF components are independently collected QEH cohorts. The source-reported unit is images rather than unique patients. Evaluation code: https://github.com/Vladimirovich2019/MMRDR_Evaluation
+
+## Documented relationships
+
+These links record source-supported lineage or overlap, not merely similar modality tags.
+
+- This record is `derived from` [ddr](./ddr.md): The MMRDR Data Descriptor identifies OIA-DDR as the source of its CFP images; MMRDR also adds independently collected OCT and UWF cohorts and new annotations. ([evidence](https://doi.org/10.1038/s41597-026-07005-9))
 
 ## Access information and download
 

@@ -70,12 +70,33 @@ LITERATURE_RECORDS: list[dict[str, Any]] = [
             "IEEE Trans Med Imaging. 2004;23:501-509. "
             "doi:10.1109/TMI.2004.825627"
         ),
-        "tags": ["fundus", "vessels", "segmentation", "grand_challenge"],
+        "tags": [
+            "fundus",
+            "vessels",
+            "segmentation",
+            "grand_challenge",
+            "derived_annotation_available",
+        ],
+        "alternate_sources": [
+            {
+                "platform": "Dryad",
+                "role": "derived_annotation",
+                "url": "https://doi.org/10.5061/dryad.sf7m0cggh",
+                "identifier": "10.5061/dryad.sf7m0cggh",
+                "version": "9",
+                "notes": (
+                    "Vessel-tracing annotations and result tables derived from "
+                    "DRIVE images; linked here rather than counted as another "
+                    "independent dataset."
+                ),
+            }
+        ],
         "notes": (
             "The official page reports 768 by 584 pixel images, one manual "
             "vessel segmentation for each training image, and hidden test "
-            "references used by the evaluation server. Verify reuse terms "
-            "with the source before redistribution."
+            "references used by the evaluation server. A separate Dryad record "
+            "provides a documented derived vessel-tracing annotation layer. "
+            "Verify reuse terms with each source before redistribution."
         ),
     },
     {

@@ -1,10 +1,10 @@
 # EyeDataHub catalog snapshot
 
-This documentation describes the 0.4.0 catalog release.
+This documentation describes the 0.5.0 catalog release.
 
-The catalog contains 386 manually source-checked ophthalmology data
+The catalog contains 479 manually source-checked ophthalmology data
 resources across 18 primary navigation categories. This is a bounded,
-date-stamped catalog, not a complete census and not a collection of 386
+date-stamped catalog, not a complete census and not a collection of 479
 independent cohorts. EyeDataHub does not host or redistribute the indexed
 third-party datasets.
 
@@ -12,18 +12,19 @@ third-party datasets.
 
 | Metric | Count |
 |---|---:|
-| Catalog records | 386 |
+| Catalog records | 479 |
 | Primary categories | 18 |
-| No-account source links | 160 |
-| Self-service authenticated routes | 179 |
+| No-account source links | 46 |
+| Self-service authenticated routes | 384 |
 | Self-service click-through routes | 11 |
-| Controlled or manual routes | 28 |
+| Controlled or manual routes | 30 |
 | Author-contact routes | 8 |
 | Routes without platform credentials | 33 |
-| Platform API or client routes | 293 |
-| Records with a resolved primary source-reported quantity | 300 |
-| Source-supported directed relationship assertions | 142 |
-| Records participating in documented relationships | 94 |
+| Platform API or client routes | 375 |
+| Manual, controlled, institutional, or author-contact procedures | 71 |
+| Records with a resolved primary source-reported quantity | 328 |
+| Source-supported directed relationship assertions | 153 |
+| Records participating in documented relationships | 100 |
 
 Access requirements, download implementation, source review, and source-stated
 terms are independent dimensions. A self-service route does not establish

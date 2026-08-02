@@ -121,5 +121,3 @@ Human retinal pigment epithelium: in vivo cell morphometry, multispectral autofl
 ## Similar resources by shared modality
 
 - [dryad_human_foveal_cones](./dryad_human_foveal_cones.md): Human foveal cone photoreceptor topography and its dependence on eye length (28 eyes, `cc0`)
-- [dryad_mouse_all_optical_retina](./dryad_mouse_all_optical_retina.md): All-Optical Retinal Degeneration Mouse Dataset (Not reported, `cc0`)
-- [dryad_w3r228143](./dryad_w3r228143.md): Photoreceptor loss does not recruit neutrophils despite strong microglial activation (Not reported, `cc0`)

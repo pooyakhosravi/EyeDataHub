@@ -31,7 +31,7 @@ One hundred retinal fundus images from Armed Forces Institute of Ophthalmology, 
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -48,7 +48,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 ## Notes
 
-> Mendeley Data may block automated URL probes with HTTP 403 (no bot allowed); browser link is valid.
+> Mendeley Data platform credentials or access setup may be required for automated listing or download requests; verify the current route before acquisition.
 
 ## Access information and download
 

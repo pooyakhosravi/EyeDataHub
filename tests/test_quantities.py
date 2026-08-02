@@ -124,7 +124,7 @@ def test_catalog_json_and_csv_serialize_reported_quantities(tmp_path) -> None:
     ]
 
 
-def test_quantity_review_reports_300_resolved_and_never_sums_unlike_units(
+def test_quantity_review_reports_current_counts_and_never_sums_unlike_units(
     monkeypatch, tmp_path
 ) -> None:
     monkeypatch.setattr(quantity_review, "REVIEW_PATH", tmp_path / "review.csv")
@@ -136,10 +136,10 @@ def test_quantity_review_reports_300_resolved_and_never_sums_unlike_units(
     _, _, unit_path, unresolved_path, summary_path = quantity_review.generate()
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
 
-    assert summary["catalog_record_count"] == 386
-    assert summary["records_with_resolved_primary_quantity"] == 300
-    assert summary["records_with_unresolved_primary_quantity"] == 86
-    assert len(summary["unresolved_record_ids"]) == 86
+    assert summary["catalog_record_count"] == 479
+    assert summary["records_with_resolved_primary_quantity"] == 328
+    assert summary["records_with_unresolved_primary_quantity"] == 151
+    assert len(summary["unresolved_record_ids"]) == 151
     assert "retinal_corrugations_oct" not in summary["unresolved_record_ids"]
 
     with unit_path.open(newline="", encoding="utf-8") as handle:

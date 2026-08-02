@@ -51,6 +51,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
 - [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
+- [mmrdr](./mmrdr.md) is `derived from` this record: The MMRDR Data Descriptor identifies OIA-DDR as the source of its CFP images; MMRDR also adds independently collected OCT and UWF cohorts and new annotations. ([evidence](https://doi.org/10.1038/s41597-026-07005-9))
 - [multieye](./multieye.md) is `derived from` this record: The MultiEYE paper names this record as one of the public fundus or OCT sources assembled for the benchmark. ([evidence](https://arxiv.org/abs/2412.09402))
 
 ## Access information and download

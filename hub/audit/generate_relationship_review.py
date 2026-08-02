@@ -32,7 +32,7 @@ from hub.export_catalog import CATALOG_CUTOFF, CATALOG_RECORD_COUNT  # noqa: E40
 
 
 AUDIT_DIR = ROOT / "hub" / "audit"
-REVIEW_DATE = "2026-08-01"
+REVIEW_DATE = "2026-08-02"
 REVIEW_PATH = AUDIT_DIR / f"resource_relationship_review_{REVIEW_DATE}.csv"
 EDGE_PATH = AUDIT_DIR / f"resource_relationship_edges_{REVIEW_DATE}.csv"
 UNRESOLVED_PATH = AUDIT_DIR / f"resource_relationship_unresolved_{REVIEW_DATE}.csv"

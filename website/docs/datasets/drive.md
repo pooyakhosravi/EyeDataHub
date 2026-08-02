@@ -3,7 +3,7 @@ id: drive
 title: "DRIVE: Digital Retinal Images for Vessel Extraction"
 sidebar_label: drive
 description: "Forty color fundus photographs from a diabetic retinopathy screening program, divided into 20 training and 20 test images, with vessel reference annotations and field of view masks."
-tags: ["fundus", "unknown", "manual", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "unknown", "manual", "segmentation", "documented-relationship", "relationship-derived_from", "alternate-source", "source-dryad", "alternate-role-derived-annotation"]
 ---
 
 
@@ -48,13 +48,12 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 ## Notes
 
-> The official page reports 768 by 584 pixel images, one manual vessel segmentation for each training image, and hidden test references used by the evaluation server. Verify reuse terms with the source before redistribution.
+> The official page reports 768 by 584 pixel images, one manual vessel segmentation for each training image, and hidden test references used by the evaluation server. A separate Dryad record provides a documented derived vessel-tracing annotation layer. Verify reuse terms with each source before redistribution.
 
 ## Documented relationships
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
-- [dryad_sf7m0cggh](./dryad_sf7m0cggh.md) is `derived from` this record: The official current file listing names DRIVE trace annotations and result files. ([evidence](https://datadryad.org/api/v2/versions/353579/files))
 - [retinal_vessel_robustness](./retinal_vessel_robustness.md) is `derived from` this record: The robustness benchmark contains augmented versions of DRIVE, STARE, and CHASE_DB1 images. ([evidence](https://zenodo.org/records/12659652))
 - [rite](./rite.md) is `derived from` this record: RITE adds artery, vein, and vessel-tree labels to the same 40 DRIVE images. ([evidence](https://medicine.uiowa.edu/eye/rite-dataset))
 
@@ -86,6 +85,12 @@ print(preflight_dataset(ds, './data'))  # no download
 </Tabs>
 
 **Upstream page:** [drive.grand-challenge.org/DRIVE](https://drive.grand-challenge.org/DRIVE/)
+
+## Other documented locations
+
+These links identify alternate deposits, components, metadata records, mirrors, versions, or related derived materials. They do not create additional canonical catalog records.
+
+- [Dryad: derived annotation (10.5061/dryad.sf7m0cggh, version 9)](https://doi.org/10.5061/dryad.sf7m0cggh): Vessel-tracing annotations and result tables derived from DRIVE images; linked here rather than counted as another independent dataset.
 
 **Source-term evidence:** [drive.grand-challenge.org/DRIVE](https://drive.grand-challenge.org/DRIVE/)
 

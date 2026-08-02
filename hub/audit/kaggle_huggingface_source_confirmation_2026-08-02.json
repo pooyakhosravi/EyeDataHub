@@ -1,0 +1,411 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-08-02",
+  "status": "completed_record_level_manual_review",
+  "scope": null,
+  "criteria": null,
+  "record_count": 17,
+  "unique_record_ids": 17,
+  "decision_counts": {
+    "confirmed_include_new": 10,
+    "exclude_insufficient": 4,
+    "exclude_not_model_resource": 3
+  },
+  "credential_values_serialized": false,
+  "signed_or_download_urls_serialized": false,
+  "local_absolute_paths_serialized": false,
+  "participant_values_serialized": false,
+  "records": [
+    {
+      "platform": "huggingface",
+      "stable_id": "BharathK333/DOOMGAN-Ocular-Morphs",
+      "original_proposed_slug": "doomgan_ocular_morphs",
+      "final_recommendation": "confirmed_include_new",
+      "canonical_or_related_record_ids": [],
+      "official_evidence_urls": [
+        "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs",
+        "https://arxiv.org/abs/2507.17158"
+      ],
+      "dataset_identifier": "Hugging Face dataset BharathK333/DOOMGAN-Ocular-Morphs",
+      "publication_identifier": "arXiv:2507.17158",
+      "human_provenance": "The paper documents training on VISOB visible-light ocular images; the released resource consists of synthetic morphs formed from two source identities, not nonhuman imagery.",
+      "distinct_value": "A synthetic visible-spectrum ocular biometric morph-attack dataset, a distinct task layer rather than a mirror of its source photographs.",
+      "source_stated_quantity": "10,000 morphed PNG images (5,000 left-centric and 5,000 right-centric).",
+      "quantity_unit": "synthetic ocular morph images",
+      "source_terms": "MIT",
+      "terms_scope": "MIT is the Hugging Face card's repository license; the card does not restate VISOB's upstream terms, which remain applicable to the human-source relationship.",
+      "access_route": "Public Hugging Face repository; card notes that authors should be contacted for the complete dataset.",
+      "concise_reason": "The public repository contains actual synthetic image files and its linked paper documents a human ocular upstream, satisfying the documented-synthetic boundary.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "arwabasal/itec-iris-and-pupil-segmentation",
+      "original_proposed_slug": "itec_iris_pupil",
+      "final_recommendation": "confirmed_include_new",
+      "canonical_or_related_record_ids": [
+        "cataract_101"
+      ],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/arwabasal/itec-iris-and-pupil-segmentation",
+        "https://ftp.itec.aau.at/datasets/ovid/iris_pupil_seg/index.html",
+        "https://doi.org/10.1109/ISBIWorkshops50223.2020.9153367"
+      ],
+      "dataset_identifier": "ITEC Iris and Pupil Segmentation Dataset; Kaggle mirror arwabasal/itec-iris-and-pupil-segmentation",
+      "publication_identifier": "doi:10.1109/ISBIWorkshops50223.2020.9153367",
+      "human_provenance": "Official ITEC documentation states that the 35 source videos were recorded during human cataract surgeries at Klinikum Klagenfurt in 2017-2018.",
+      "distinct_value": "Iris and pupil pixel masks for surgical frames; a distinct annotation layer from the existing Cataract-101 phase-video record.",
+      "source_stated_quantity": "82 annotated frames from 35 cataract-surgery videos.",
+      "quantity_unit": "annotated surgical video frames",
+      "source_terms": "Scientific-research-only; noncommercial use stated by the official ITEC page (the page also identifies Cataract-101 as CC BY-NC 4.0).",
+      "terms_scope": "Dataset files; the official ITEC source is controlling, not Kaggle's generic Other label.",
+      "access_route": "Official ITEC download after agreement to the stated conditions; Kaggle also hosts a mirror.",
+      "concise_reason": "The Kaggle item is a mirror, but the authoritative ITEC source confirms a real human surgical-frame segmentation resource that adds a distinct task layer.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "clerimar/brasil-glaucoma-brg",
+      "original_proposed_slug": "brasil_glaucoma_brg",
+      "final_recommendation": "confirmed_include_new",
+      "canonical_or_related_record_ids": [],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/clerimar/brasil-glaucoma-brg",
+        "https://doi.org/10.3390/healthcare10122345"
+      ],
+      "dataset_identifier": "Brazil Glaucoma (BrG) Dataset; Kaggle dataset clerimar/brasil-glaucoma-brg",
+      "publication_identifier": "doi:10.3390/healthcare10122345",
+      "human_provenance": "The source article describes 1,000 consenting Brazilian volunteers, each with both eyes photographed by smartphone coupled to a Welch Allyn PanOptic ophthalmoscope.",
+      "distinct_value": "A public portable/smartphone fundus glaucoma dataset not represented by an existing canonical record.",
+      "source_stated_quantity": "2,000 fundus images from 1,000 volunteers (1,000 glaucoma and 1,000 non-glaucoma images); the Kaggle description incorrectly calls this 1,000 images while retaining the 1,000-person statement.",
+      "quantity_unit": "fundus images",
+      "source_terms": "CC BY-NC 4.0",
+      "terms_scope": "Kaggle dataset files; the peer-reviewed article establishes provenance and quantity but is not itself a data license.",
+      "access_route": "Kaggle public dataset; self-service authenticated download.",
+      "concise_reason": "The uploader is the source article's corresponding author, the paper verifies the human cohort and acquisition, and the listing contains real PNG fundus files; retain the paper's 2,000-image quantity with a discrepancy flag.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "cnzakimuena/retinal-oct-and-octa-data-3",
+      "original_proposed_slug": "retinal_oct_octa_two_subjects_processed",
+      "final_recommendation": "confirmed_include_new",
+      "canonical_or_related_record_ids": [],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/cnzakimuena/retinal-oct-and-octa-data-3",
+        "https://publications.polymtl.ca/5234/"
+      ],
+      "dataset_identifier": "Kaggle dataset cnzakimuena/retinal-oct-and-octa-data-3",
+      "publication_identifier": "B\u00e9langer Nzakimuena, Automated Analysis of Retinal and Choroidal OCT and OCTA Images in AMD, Polytechnique Montr\u00e9al master's thesis (2020).",
+      "human_provenance": "The source description identifies PLEX Elite 9000 OCTA/OCT acquisitions of the retinal vascular networks of two living human subjects.",
+      "distinct_value": "Processed OCT/OCTA results, including segmentations and ETDRS-grid materials, are a reusable derived layer distinct from the nominal raw listing.",
+      "source_stated_quantity": "Processed data for two subjects from 3 x 3 mm OCTA acquisitions (including OCT images).",
+      "quantity_unit": "human subject acquisition sets",
+      "source_terms": "CC BY 4.0",
+      "terms_scope": "Kaggle processed dataset files.",
+      "access_route": "Kaggle public dataset; self-service authenticated download.",
+      "concise_reason": "The listing exposes substantive processed MATLAB/image files and documents the human imaging acquisition and derived segmentation content.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "cnzakimuena/retinal-oct-octa-data",
+      "original_proposed_slug": "retinal_oct_octa_two_subjects",
+      "final_recommendation": "exclude_not_model_resource",
+      "canonical_or_related_record_ids": [],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/cnzakimuena/retinal-oct-octa-data",
+        "https://publications.polymtl.ca/5234/"
+      ],
+      "dataset_identifier": "Kaggle dataset cnzakimuena/retinal-oct-octa-data",
+      "publication_identifier": "B\u00e9langer Nzakimuena, Automated Analysis of Retinal and Choroidal OCT and OCTA Images in AMD, Polytechnique Montr\u00e9al master's thesis (2020).",
+      "human_provenance": "The description claims two human OCTA acquisitions, but the exposed artifact does not contain those acquisitions.",
+      "distinct_value": "None confirmed: the only downloaded member is named view and is an HTML interstitial, not an OCT/OCTA export or measurement file.",
+      "source_stated_quantity": "Claimed: two subjects; verified exposed payload: one 72,295-byte HTML file.",
+      "quantity_unit": "exposed model-resource files",
+      "source_terms": "CC BY 4.0",
+      "terms_scope": "Kaggle listing label; it does not turn the HTML payload into the described imaging data.",
+      "access_route": "Kaggle public listing, but the examined public download resolves to an HTML interstitial rather than the claimed data.",
+      "concise_reason": "The candidate's platform payload is not a reusable model input, signal, measurement, label, or annotation; the processed sibling is separately confirmed.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "drbasanthkb/cornea-in-diabetes",
+      "original_proposed_slug": "cornea_in_diabetes",
+      "final_recommendation": "exclude_insufficient",
+      "canonical_or_related_record_ids": [],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/drbasanthkb/cornea-in-diabetes"
+      ],
+      "dataset_identifier": "Kaggle dataset drbasanthkb/cornea-in-diabetes",
+      "publication_identifier": "Not provided.",
+      "human_provenance": "The card identifies ophthalmology outpatients at S. Nijalingappa Medical College and HSK Hospital (December 2019-June 2021), but no study protocol, publication, ethics, or de-identification evidence is linked.",
+      "distinct_value": "The release contains diabetes case/control CSVs with corneal/endothelial measurements, but no safe canonical provenance package is documented.",
+      "source_stated_quantity": "Not stated; the archive contains a cases CSV and a controls CSV.",
+      "quantity_unit": "clinical measurement records",
+      "source_terms": "Unknown",
+      "terms_scope": "Kaggle API reports Unknown; no source-level data-sharing terms are supplied.",
+      "access_route": "Kaggle public dataset; self-service authenticated download.",
+      "concise_reason": "The human clinical claim is plausible, but source-level provenance, governance/de-identification, publication, and terms are unverified; do not promote a sensitive clinical release.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "drsamahzahid/migraine-and-dry-eye-schirmer",
+      "original_proposed_slug": "migraine_dry_eye_schirmer",
+      "final_recommendation": "exclude_insufficient",
+      "canonical_or_related_record_ids": [],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/drsamahzahid/migraine-and-dry-eye-schirmer"
+      ],
+      "dataset_identifier": "Kaggle dataset drsamahzahid/migraine-and-dry-eye-schirmer",
+      "publication_identifier": "Not provided.",
+      "human_provenance": "The card claims participant migraine and dry-eye assessments with Schirmer measures, but supplies no protocol, institution, publication, ethics, or provenance evidence.",
+      "distinct_value": "The XLSX has dry-eye symptoms and bilateral Schirmer-measurement columns, but its clinical origin and release governance cannot be verified from a primary source.",
+      "source_stated_quantity": "Not stated; released workbook has 995 data rows after two header rows.",
+      "quantity_unit": "clinical assessment records",
+      "source_terms": "CC0: Public Domain",
+      "terms_scope": "Kaggle upload declaration only; it does not establish authority to place participant clinical records in the public domain.",
+      "access_route": "Kaggle public dataset; self-service authenticated download.",
+      "concise_reason": "The actual workbook is model-relevant, but its human-data provenance and release authority are unverified, so the CC0 assertion cannot support canonical inclusion.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "hindsaud/datasets-higancnn-glaucoma-detection",
+      "original_proposed_slug": "higancnn_generated_glaucoma",
+      "final_recommendation": "confirmed_include_new",
+      "canonical_or_related_record_ids": [
+        "acrima",
+        "drishti_gs",
+        "hrf"
+      ],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection",
+        "http://paper.ijcsns.org/07_book/202209/20220904.pdf"
+      ],
+      "dataset_identifier": "Kaggle dataset hindsaud/datasets-higancnn-glaucoma-detection",
+      "publication_identifier": "HiGANCNN: A Hybrid Generative Adversarial Network and Convolutional Neural Network for Glaucoma Detection (IJCSNS, 2022).",
+      "human_provenance": "The card and linked paper identify ACRIMA, Drishti-GS, HRF, ORIGA-LIGHT, and RIM-ONE as the human fundus source collections used for the generated images.",
+      "distinct_value": "30,000 generated glaucoma/normal fundus images for synthetic-data evaluation, arranged by source collection and diagnosis.",
+      "source_stated_quantity": "30,000 generated eye images.",
+      "quantity_unit": "synthetic fundus images",
+      "source_terms": "Unknown",
+      "terms_scope": "Kaggle reports Unknown; the original terms of each named human source also remain relevant.",
+      "access_route": "Kaggle public dataset; self-service authenticated download.",
+      "concise_reason": "Actual generated PNG files are exposed and the linked paper documents the human fundus inputs; retain as a synthetic derivative with unknown terms clearly scoped.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "michachwesiuk/hybridgaze",
+      "original_proposed_slug": "hybridgaze",
+      "final_recommendation": "confirmed_include_new",
+      "canonical_or_related_record_ids": [],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/michachwesiuk/hybridgaze",
+        "https://doi.org/10.24425/ijet.2026.157892"
+      ],
+      "dataset_identifier": "HybridGaze; Kaggle dataset michachwesiuk/hybridgaze",
+      "publication_identifier": "doi:10.24425/ijet.2026.157892",
+      "human_provenance": "The paper identifies HybridGaze as a human eye-tracking resource collected with a Tobii tracker and RGB webcam, processed into eye images, facial landmarks, and synchronized gaze annotations.",
+      "distinct_value": "Naturalistic synchronized gaze-estimation inputs and labels, which are not represented by a current catalog record.",
+      "source_stated_quantity": "No participant or frame count stated in the Kaggle card; the platform exposes one 46.46-GB HybridGaze.h5 file.",
+      "quantity_unit": "HDF5 gaze-estimation dataset",
+      "source_terms": "GNU Free Documentation License 1.3",
+      "terms_scope": "Kaggle dataset declaration; the paper documents the data collection and task.",
+      "access_route": "Kaggle public dataset; self-service authenticated download.",
+      "concise_reason": "Primary-author platform deposit, real human gaze signals and images, and linked publication collectively establish a reusable gaze-model resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "serag-ai/Synthetic-Ophthalmology-Images",
+      "original_proposed_slug": "synthetic_retinal_oct_biomarkers",
+      "final_recommendation": "confirmed_include_new",
+      "canonical_or_related_record_ids": [
+        "kermany_oct"
+      ],
+      "official_evidence_urls": [
+        "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images",
+        "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1454441/abstract",
+        "https://www.kaggle.com/datasets/paultimothymooney/kermany2018"
+      ],
+      "dataset_identifier": "Hugging Face dataset serag-ai/Synthetic-Ophthalmology-Images",
+      "publication_identifier": "doi:10.3389/frai.2024.1454441",
+      "human_provenance": "The card and linked study identify the Kermany et al. human retinal OCT dataset as the real source used to train the diffusion generation.",
+      "distinct_value": "Fully synthetic OCT images for the four Kermany diagnostic classes, useful for synthetic-data and biomarker-preservation evaluation.",
+      "source_stated_quantity": "Not stated as an image count; the deposit contains CNV.zip, DME.zip, Drusen.zip, and Normal.zip.",
+      "quantity_unit": "synthetic OCT image archives",
+      "source_terms": "No dataset license stated on the Hugging Face card.",
+      "terms_scope": "The source study identifies the Kermany source; its terms and the terms for the generated archives must be evaluated separately.",
+      "access_route": "Public Hugging Face repository with four downloadable class archives.",
+      "concise_reason": "The archive files are reusable inputs and the source study explicitly establishes a human OCT upstream; this is a distinct synthetic derivative of kermany_oct.",
+      "confidence": "high"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "toolevalxm/BioMed-Retina-Synth",
+      "original_proposed_slug": "biomed_retina_synth",
+      "final_recommendation": "exclude_not_model_resource",
+      "canonical_or_related_record_ids": [],
+      "official_evidence_urls": [
+        "https://huggingface.co/datasets/toolevalxm/BioMed-Retina-Synth"
+      ],
+      "dataset_identifier": "Hugging Face dataset toolevalxm/BioMed-Retina-Synth",
+      "publication_identifier": "Not provided: card links to placeholder https://huggingface.co/papers/xxxx.xxxxx.",
+      "human_provenance": "The card asserts a privacy-protected raw-data relationship but supplies no verifiable upstream dataset or publication.",
+      "distinct_value": "None confirmed: the public repository contains only README.md, not synthesized annotations, images, or structured records.",
+      "source_stated_quantity": "0 released data files (README.md only).",
+      "quantity_unit": "released model-resource files",
+      "source_terms": "Llama 3.1 Community License",
+      "terms_scope": "Card statement only; it cannot create evidence of a released data resource or of upstream image rights.",
+      "access_route": "Public Hugging Face repository, metadata-only.",
+      "concise_reason": "No reusable inputs, labels, annotations, or signals are actually released, and the claimed upstream evidence is a placeholder.",
+      "confidence": "high"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "toolevalxm/RetinalFundus-Dx",
+      "original_proposed_slug": "retinalfundus_dx",
+      "final_recommendation": "exclude_not_model_resource",
+      "canonical_or_related_record_ids": [
+        "eyepacs"
+      ],
+      "official_evidence_urls": [
+        "https://huggingface.co/datasets/toolevalxm/RetinalFundus-Dx",
+        "https://www.kaggle.com/c/diabetic-retinopathy-detection/rules"
+      ],
+      "dataset_identifier": "Hugging Face dataset toolevalxm/RetinalFundus-Dx",
+      "publication_identifier": "Not provided.",
+      "human_provenance": "The card names EyePACS as source, but does not release images or annotations that could be assessed as a derivative.",
+      "distinct_value": "None confirmed: it describes GPT-4-Vision synthetic annotations but contains only README.md.",
+      "source_stated_quantity": "0 released data files (README.md only).",
+      "quantity_unit": "released model-resource files",
+      "source_terms": "other / eyepacs-license",
+      "terms_scope": "The card links EyePACS competition rules; this is not evidence that the stated derivative files were released or distributable.",
+      "access_route": "Public Hugging Face repository, metadata-only.",
+      "concise_reason": "A claimed annotation layer with no released annotations or images is not a reusable model resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "yuzhench/glaucoma-expert-cot-raw-1077",
+      "original_proposed_slug": "glaucoma_expert_cot_raw",
+      "final_recommendation": "confirmed_include_new",
+      "canonical_or_related_record_ids": [
+        "lag",
+        "papila"
+      ],
+      "official_evidence_urls": [
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077",
+        "https://doi.org/10.1038/s41597-022-01388-6"
+      ],
+      "dataset_identifier": "Hugging Face dataset yuzhench/glaucoma-expert-cot-raw-1077",
+      "publication_identifier": "LAG: Li et al., CVPR 2019; Papila: doi:10.1038/s41597-022-01388-6",
+      "human_provenance": "The card identifies 1,074 human fundus cases from LAG and Papila, both present in the current catalog.",
+      "distinct_value": "Adds six-step glaucoma reasoning reports paired with labels and images; this is a distinct image-to-text/clinical-reasoning layer, not merely a reformat of LAG or Papila.",
+      "source_stated_quantity": "1,074 images/cases; 915 JSONL train+validation rows and 159 test rows.",
+      "quantity_unit": "fundus cases and JSONL reasoning records",
+      "source_terms": "other; card says source images are redistributed under their original terms and identifies Papila as CC BY 4.0.",
+      "terms_scope": "Original source terms govern the images; no standalone license for the added reports is stated beyond the card's other-license marker.",
+      "access_route": "Public Hugging Face repository containing JPGs and two JSONL files.",
+      "concise_reason": "The public files contain a materially new paired reasoning layer with documented human image sources, so it remains a derived resource.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "yuzhench/glaucoma-expert-cot-refined-1077",
+      "original_proposed_slug": "glaucoma_expert_cot_refined",
+      "final_recommendation": "confirmed_include_new",
+      "canonical_or_related_record_ids": [
+        "lag",
+        "papila"
+      ],
+      "official_evidence_urls": [
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077",
+        "https://doi.org/10.1038/s41597-022-01388-6"
+      ],
+      "dataset_identifier": "Hugging Face dataset yuzhench/glaucoma-expert-cot-refined-1077",
+      "publication_identifier": "LAG: Li et al., CVPR 2019; Papila: doi:10.1038/s41597-022-01388-6",
+      "human_provenance": "The card identifies the same 1,074 human LAG and Papila fundus cases as the raw release.",
+      "distinct_value": "A separately released, materially revised six-step report set; its JSONL contents and split order differ from the raw release, so it is a versioned derived annotation resource rather than an ordinary file mirror.",
+      "source_stated_quantity": "1,074 images/cases; 915 JSONL train+validation rows and 159 test rows.",
+      "quantity_unit": "fundus cases and JSONL refined reasoning records",
+      "source_terms": "other; card says source images are redistributed under their original terms and identifies Papila as CC BY 4.0.",
+      "terms_scope": "Original source terms govern the images; a separate explicit license for the refined reports is not stated.",
+      "access_route": "Public Hugging Face repository containing JPGs and two JSONL files.",
+      "concise_reason": "Released files provide a distinct revised reasoning annotation layer over documented human fundus sources.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zara2099/retinal-imaging-for-early-alzheimers-detection",
+      "original_proposed_slug": "retinal_imaging_early_alzheimers",
+      "final_recommendation": "exclude_insufficient",
+      "canonical_or_related_record_ids": [],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/zara2099/retinal-imaging-for-early-alzheimers-detection"
+      ],
+      "dataset_identifier": "Kaggle dataset zara2099/retinal-imaging-for-early-alzheimers-detection",
+      "publication_identifier": "Not provided.",
+      "human_provenance": "The card self-reports 3,411 images from 385 multicentre subjects, but supplies no source study, contributor identity, protocol, institutional source, or upstream dataset link.",
+      "distinct_value": "The listing exposes OCT PNG files, but a claimed human multicentre cohort without any provenance evidence cannot be promoted.",
+      "source_stated_quantity": "3,411 retinal images from 385 subjects (Kaggle self-report).",
+      "quantity_unit": "retinal images and human subjects",
+      "source_terms": "CC0: Public Domain",
+      "terms_scope": "Kaggle upload declaration only; no authority or upstream terms are evidenced for the claimed cohort.",
+      "access_route": "Kaggle public dataset; self-service authenticated download.",
+      "concise_reason": "Actual files do not cure the missing primary-source provenance and data-release authority for the asserted human clinical cohort.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zhangyiyinge/gleam-dataset",
+      "original_proposed_slug": "gleam",
+      "final_recommendation": "confirmed_include_new",
+      "canonical_or_related_record_ids": [],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset",
+        "https://arxiv.org/abs/2603.12800",
+        "https://github.com/microewing/HAMM"
+      ],
+      "dataset_identifier": "GLEAM; Kaggle dataset zhangyiyinge/gleam-dataset",
+      "publication_identifier": "arXiv:2603.12800",
+      "human_provenance": "The GLEAM paper documents a retrospective clinical cohort from Shenyang Fourth People's Hospital, with IRB approval and de-identified records: 1,200 samples from 841 Chinese patients.",
+      "distinct_value": "Tri-modal glaucoma staging data joining SLO, circumpapillary OCT, and visual-field pattern-deviation maps, plus four-class labels.",
+      "source_stated_quantity": "1,200 multimodal samples from 841 patients: 600 normal, 200 early, 200 intermediate, and 200 advanced glaucoma.",
+      "quantity_unit": "tri-modal glaucoma samples and patients",
+      "source_terms": "CC BY-NC-ND 4.0",
+      "terms_scope": "Kaggle dataset declaration and the paper both state CC BY-NC-ND 4.0 for the publicly available resource.",
+      "access_route": "Kaggle public dataset; self-service authenticated download.",
+      "concise_reason": "The platform files, publication, cohort provenance, IRB/de-identification statement, quantity, and terms all align for a genuinely new multimodal human resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zoya77/multimodal-multispectral-medical-image-dataset",
+      "original_proposed_slug": "ocular_toxoplasmosis_multispectral",
+      "final_recommendation": "exclude_insufficient",
+      "canonical_or_related_record_ids": [
+        "toxofundus"
+      ],
+      "official_evidence_urls": [
+        "https://www.kaggle.com/datasets/zoya77/multimodal-multispectral-medical-image-dataset",
+        "https://doi.org/10.1016/j.dib.2023.109912"
+      ],
+      "dataset_identifier": "Kaggle dataset zoya77/multimodal-multispectral-medical-image-dataset",
+      "publication_identifier": "Potential related canonical source: ToxoFundus, doi:10.1016/j.dib.2023.109912; no source link is supplied by this candidate.",
+      "human_provenance": "The card claims ophthalmologist-labelled ocular-toxoplasmosis images but does not identify their collection, source publication, acquisition, or relationship to ToxoFundus.",
+      "distinct_value": "Not established: the multispectral derivative and its labels have no documented upstream relationship, despite overlapping disease classes and counts with known toxoplasmosis resources.",
+      "source_stated_quantity": "411 ocular images by stated class totals (279 diseased + 132 healthy); the description simultaneously claims three categories.",
+      "quantity_unit": "claimed multispectral fundus images",
+      "source_terms": "CC0: Public Domain",
+      "terms_scope": "Kaggle upload declaration only; it is unsupported by source-level human provenance or derivative authorization.",
+      "access_route": "Kaggle public dataset; self-service authenticated download.",
+      "concise_reason": "The files are image-like, but the platform description has internally inconsistent labels and no primary source trail; do not infer a human or ToxoFundus derivation.",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,974 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-08-02",
+  "status": "completed_record_level_manual_review",
+  "source_ledgers": [
+    "figshare_kaggle_hf_canonical_reconciliation.json"
+  ],
+  "scope": [
+    "Reconciliation of all 59 originally proposed Figshare, Kaggle, and Hugging Face inclusions against current hub/catalog.json, reviewed source confirmations, and relationship vocabulary."
+  ],
+  "criteria": [],
+  "record_count": 59,
+  "unique_record_ids": 59,
+  "decision_counts": {
+    "alternate_source_to_new": 1,
+    "exclude_after_reconciliation": 9,
+    "new_canonical_record": 45,
+    "relationship_only": 4
+  },
+  "credential_values_serialized": false,
+  "signed_or_download_urls_serialized": false,
+  "local_absolute_paths_serialized": false,
+  "participant_values_serialized": false,
+  "records": [
+    {
+      "platform": "figshare",
+      "stable_id": "10247501",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "sustech_sysu_corneal_ulcers",
+      "canonical_target": "sustech_sysu_corneal_ulcers",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/10247501"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "12443594",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "visual_field_test_perception",
+      "canonical_target": "visual_field_test_perception",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/12443594"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "16545561",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "cyp1b1_poag_genotypes",
+      "canonical_target": "cyp1b1_poag_genotypes",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/16545561"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "16828996",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "dual_scheimpflug_ss_oct_biometry",
+      "canonical_target": "dual_scheimpflug_ss_oct_biometry",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/16828996"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "17113883",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "retinal_optic_flow_locomotion",
+      "canonical_target": "retinal_optic_flow_locomotion",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/17113883"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "19598133",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "pimd_visual_preference_eye_tracking",
+      "canonical_target": "pimd_visual_preference_eye_tracking",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/19598133"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "20113592",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "asd_eye_tracking",
+      "canonical_target": "asd_eye_tracking",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/20113592"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "21197173",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "retinal_photoplethysmography_rnfl",
+      "canonical_target": "retinal_photoplethysmography_rnfl",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/21197173"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "22246969",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "hesc_rpe_electrical_excitability",
+      "canonical_target": "hesc_rpe_electrical_excitability",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/22246969"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "22518010",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "pupillometry_eeg_fmri_salience",
+      "canonical_target": "pupillometry_eeg_fmri_salience",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/22518010"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "22736687",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "cataract_iol_biometry_outcomes",
+      "canonical_target": "cataract_iol_biometry_outcomes",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/22736687"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "24138420",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "parkinsons_outer_retinal_structure",
+      "canonical_target": "parkinsons_outer_retinal_structure",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/24138420"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "26172919",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "slid_e",
+      "canonical_target": "slid_e",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/26172919"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "26395018",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "casia2_keratometric_astigmatism",
+      "canonical_target": "casia2_keratometric_astigmatism",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/26395018"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "27907056",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "china_fundus_cimt",
+      "canonical_target": "china_fundus_cimt",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/27907056"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "28176839",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "spectrosense_pupil_light_exposure",
+      "canonical_target": "spectrosense_pupil_light_exposure",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/28176839"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "28189571",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "corneal_nerve_parkinsons",
+      "canonical_target": "corneal_nerve_parkinsons",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/28189571"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "28604234",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "syntheye100_faf",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/28604234"
+      ],
+      "concise_reason": "Source confirmation found no current reusable observation-level deposit.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "29302664",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "casia2_as_oct_repeatability",
+      "canonical_target": "casia2_as_oct_repeatability",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/29302664"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "29343655",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "primary_school_retinal_vasculature",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/29343655"
+      ],
+      "concise_reason": "Source confirmation found no current reusable observation-level deposit.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "30102802",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "hesc_retinal_organoid_early_differentiation",
+      "canonical_target": "hesc_retinal_organoid_early_differentiation",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/30102802"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "30143461",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "rop_vl",
+      "canonical_target": "rop_vl",
+      "relationship_type": "same_or_overlapping_cohort_as",
+      "related_targets": [
+        "rop_ostrava",
+        "farfum_rop (unresolved)"
+      ],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/30143461"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "30491856",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "post_glaucoma_surgery_ptosis_strabismus",
+      "canonical_target": "post_glaucoma_surgery_ptosis_strabismus",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/30491856"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "30520733",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "natural_scene_eye_tracking_collection",
+      "canonical_target": "natural_scene_eye_tracking_collection",
+      "relationship_type": "has_component",
+      "related_targets": [
+        "30520775 (unresolved component)",
+        "30520829",
+        "30520892",
+        "30520925",
+        "30520979"
+      ],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/30520733"
+      ],
+      "concise_reason": "Use one collection-level record; link the separate scene deposits as components.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "30520829",
+      "source_confirmation": "duplicate_or_alternate",
+      "canonical_action": "relationship_only",
+      "proposed_canonical_slug": "natural_scene_eye_tracking_outdoor_1",
+      "canonical_target": "natural_scene_eye_tracking_collection",
+      "relationship_type": "component_of",
+      "related_targets": [
+        "natural_scene_eye_tracking_collection"
+      ],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/30520829"
+      ],
+      "concise_reason": "A named scene deposit in the one natural-scene Tobii collection, not a standalone canonical cohort.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "30520892",
+      "source_confirmation": "duplicate_or_alternate",
+      "canonical_action": "relationship_only",
+      "proposed_canonical_slug": "natural_scene_eye_tracking_indoor_3",
+      "canonical_target": "natural_scene_eye_tracking_collection",
+      "relationship_type": "component_of",
+      "related_targets": [
+        "natural_scene_eye_tracking_collection",
+        "30520775 (unresolved component)"
+      ],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/30520892"
+      ],
+      "concise_reason": "A named scene deposit in the one natural-scene Tobii collection, not a standalone canonical cohort.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "30520925",
+      "source_confirmation": "duplicate_or_alternate",
+      "canonical_action": "relationship_only",
+      "proposed_canonical_slug": "natural_scene_eye_tracking_outdoor_2",
+      "canonical_target": "natural_scene_eye_tracking_collection",
+      "relationship_type": "component_of",
+      "related_targets": [
+        "natural_scene_eye_tracking_collection"
+      ],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/30520925"
+      ],
+      "concise_reason": "A named scene deposit in the one natural-scene Tobii collection, not a standalone canonical cohort.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "30520979",
+      "source_confirmation": "duplicate_or_alternate",
+      "canonical_action": "relationship_only",
+      "proposed_canonical_slug": "natural_scene_eye_tracking_outdoor_3",
+      "canonical_target": "natural_scene_eye_tracking_collection",
+      "relationship_type": "component_of",
+      "related_targets": [
+        "natural_scene_eye_tracking_collection"
+      ],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/30520979"
+      ],
+      "concise_reason": "A named scene deposit in the one natural-scene Tobii collection, not a standalone canonical cohort.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "30750011",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "parkinsons_directional_oct",
+      "canonical_target": "parkinsons_directional_oct",
+      "relationship_type": "same_or_overlapping_cohort_as",
+      "related_targets": [
+        "parkinsons_outer_retinal_structure"
+      ],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/30750011"
+      ],
+      "concise_reason": "Distinct directional-OCT deposit; retain as a separate resource while documenting possible cohort/study overlap.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "31364760",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mpxv_ocular_manifestations_south_kivu",
+      "canonical_target": "mpxv_ocular_manifestations_south_kivu",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/31364760"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "31385596",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "tunisian_retinal_oct_multidisease",
+      "canonical_target": "tunisian_retinal_oct_multidisease",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/31385596"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "31981347",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "ocular_generalized_myasthenia_korea",
+      "canonical_target": "ocular_generalized_myasthenia_korea",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/31981347"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "31981557",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "binocular_fundus_images",
+      "canonical_target": "binocular_fundus_images",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/31981557"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "32051124",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "glaucoma_oct_fundus",
+      "canonical_target": "glaucoma_oct_fundus",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/32051124"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "32054064",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "anterior_uveitis_corneal_endothelium",
+      "canonical_target": "anterior_uveitis_corneal_endothelium",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/32054064"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "32086296",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "fd3611",
+      "canonical_target": "fd3611",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/32086296"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "3209908",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "aqp4_optic_neuritis_oct_layers",
+      "canonical_target": "aqp4_optic_neuritis_oct_layers",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/3209908"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "32509329",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "puwf_av",
+      "canonical_target": "puwf_av",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/32509329"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "32576697",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "slp_vld",
+      "canonical_target": "slp_vld",
+      "relationship_type": "replaces",
+      "related_targets": [
+        "32592837 (alternate Figshare deposit)",
+        "32593101 (alternate Figshare deposit)",
+        "32593173 (alternate Figshare deposit)"
+      ],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/32576697"
+      ],
+      "concise_reason": "Use current v3 public anonymized release; document superseded alternate deposits.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "32833895",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "cataract_lenstar_biometric_symmetry",
+      "canonical_target": "cataract_lenstar_biometric_symmetry",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/32833895"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "32873501",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "pco_namd",
+      "canonical_target": "pco_namd",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/32873501"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "figshare",
+      "stable_id": "3917574",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "central_retinal_vessel_trunk_oag",
+      "canonical_target": "central_retinal_vessel_trunk_oag",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/3917574"
+      ],
+      "concise_reason": "Confirmed human/human-derived observation-level resource with no documented ordinary mirror in the current catalog.",
+      "confidence": "high"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "BharathK333/DOOMGAN-Ocular-Morphs",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "doomgan_ocular_morphs",
+      "canonical_target": "doomgan_ocular_morphs",
+      "relationship_type": "derived_from",
+      "related_targets": [
+        "VISOB (unresolved upstream)"
+      ],
+      "evidence_urls": [
+        "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs"
+      ],
+      "concise_reason": "Documented synthetic derivative of named human upstream datasets; not an ordinary rehost.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "arwabasal/itec-iris-and-pupil-segmentation",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "alternate_source_to_new",
+      "proposed_canonical_slug": "itec_iris_pupil",
+      "canonical_target": "itec_iris_pupil",
+      "relationship_type": "derived_from",
+      "related_targets": [
+        "cataract_101"
+      ],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/arwabasal/itec-iris-and-pupil-segmentation"
+      ],
+      "concise_reason": "Kaggle is an ordinary mirror; create the canonical ITEC annotation resource from its official source and retain Kaggle as alternate access.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "clerimar/brasil-glaucoma-brg",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "brasil_glaucoma_brg",
+      "canonical_target": "brasil_glaucoma_brg",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/clerimar/brasil-glaucoma-brg"
+      ],
+      "concise_reason": "Confirmed distinct human observation-level resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "cnzakimuena/retinal-oct-and-octa-data-3",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "retinal_oct_octa_two_subjects_processed",
+      "canonical_target": "retinal_oct_octa_two_subjects_processed",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/cnzakimuena/retinal-oct-and-octa-data-3"
+      ],
+      "concise_reason": "Confirmed distinct human observation-level resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "cnzakimuena/retinal-oct-octa-data",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "retinal_oct_octa_two_subjects",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/cnzakimuena/retinal-oct-octa-data"
+      ],
+      "concise_reason": "Source confirmation did not establish a promotable reusable, provenance-supported resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "drbasanthkb/cornea-in-diabetes",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "cornea_in_diabetes",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/drbasanthkb/cornea-in-diabetes"
+      ],
+      "concise_reason": "Source confirmation did not establish a promotable reusable, provenance-supported resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "drsamahzahid/migraine-and-dry-eye-schirmer",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "migraine_dry_eye_schirmer",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/drsamahzahid/migraine-and-dry-eye-schirmer"
+      ],
+      "concise_reason": "Source confirmation did not establish a promotable reusable, provenance-supported resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "hindsaud/datasets-higancnn-glaucoma-detection",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "higancnn_generated_glaucoma",
+      "canonical_target": "higancnn_generated_glaucoma",
+      "relationship_type": "derived_from",
+      "related_targets": [
+        "acrima",
+        "drishti_gs",
+        "hrf",
+        "ORIGA-LIGHT (unresolved)",
+        "RIM-ONE (unresolved)"
+      ],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection"
+      ],
+      "concise_reason": "Documented synthetic derivative of named human upstream datasets; not an ordinary rehost.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "michachwesiuk/hybridgaze",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "hybridgaze",
+      "canonical_target": "hybridgaze",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/michachwesiuk/hybridgaze"
+      ],
+      "concise_reason": "Confirmed distinct human observation-level resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "serag-ai/Synthetic-Ophthalmology-Images",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "synthetic_retinal_oct_biomarkers",
+      "canonical_target": "synthetic_retinal_oct_biomarkers",
+      "relationship_type": "derived_from",
+      "related_targets": [
+        "kermany_oct"
+      ],
+      "evidence_urls": [
+        "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images"
+      ],
+      "concise_reason": "Documented synthetic derivative of named human upstream datasets; not an ordinary rehost.",
+      "confidence": "high"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "toolevalxm/BioMed-Retina-Synth",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "biomed_retina_synth",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://huggingface.co/datasets/toolevalxm/BioMed-Retina-Synth"
+      ],
+      "concise_reason": "Source confirmation did not establish a promotable reusable, provenance-supported resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "toolevalxm/RetinalFundus-Dx",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "retinalfundus_dx",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://huggingface.co/datasets/toolevalxm/RetinalFundus-Dx"
+      ],
+      "concise_reason": "Source confirmation did not establish a promotable reusable, provenance-supported resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "yuzhench/glaucoma-expert-cot-raw-1077",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "glaucoma_expert_cot_raw",
+      "canonical_target": "glaucoma_expert_cot_raw",
+      "relationship_type": "derived_from",
+      "related_targets": [
+        "lag",
+        "papila"
+      ],
+      "evidence_urls": [
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-raw-1077"
+      ],
+      "concise_reason": "Retain the released glaucoma reasoning annotations as a distinct derived task layer.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "huggingface",
+      "stable_id": "yuzhench/glaucoma-expert-cot-refined-1077",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "glaucoma_expert_cot_refined",
+      "canonical_target": "glaucoma_expert_cot_refined",
+      "relationship_type": "version_of",
+      "related_targets": [
+        "glaucoma_expert_cot_raw",
+        "lag",
+        "papila"
+      ],
+      "evidence_urls": [
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077"
+      ],
+      "concise_reason": "Retain the revised reasoning annotations as a versioned derived task layer, not an image mirror.",
+      "confidence": "medium"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zara2099/retinal-imaging-for-early-alzheimers-detection",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "retinal_imaging_early_alzheimers",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/zara2099/retinal-imaging-for-early-alzheimers-detection"
+      ],
+      "concise_reason": "Source confirmation did not establish a promotable reusable, provenance-supported resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zhangyiyinge/gleam-dataset",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "gleam",
+      "canonical_target": "gleam",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset"
+      ],
+      "concise_reason": "Confirmed distinct human observation-level resource.",
+      "confidence": "high"
+    },
+    {
+      "platform": "kaggle",
+      "stable_id": "zoya77/multimodal-multispectral-medical-image-dataset",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "ocular_toxoplasmosis_multispectral",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [
+        "toxofundus (unverified possible match)"
+      ],
+      "evidence_urls": [
+        "https://www.kaggle.com/datasets/zoya77/multimodal-multispectral-medical-image-dataset"
+      ],
+      "concise_reason": "Source confirmation did not establish a promotable reusable, provenance-supported resource.",
+      "confidence": "high"
+    }
+  ],
+  "summary": {
+    "total": 59,
+    "new_canonical_record": 45,
+    "alternate_source_to_existing": 0,
+    "alternate_source_to_new": 1,
+    "relationship_only": 4,
+    "exclude_after_reconciliation": 9,
+    "exact_id_parity": true,
+    "figshare_proposal_confirmation_parity": true,
+    "kaggle_hf_proposal_confirmation_parity": true
+  },
+  "unresolved_mappings": [
+    "Figshare 30520775 is a named Tobii collection component but is outside this candidate set; retain as an unresolved component ID until source-confirmed.",
+    "Figshare ROP-VL names farfum_rop, which has no matching current catalog record.",
+    "DOOMGAN documents VISOB upstream, which is not a current catalog record.",
+    "HiGANCNN names ORIGA-LIGHT and RIM-ONE upstream; neither maps to a current catalog ID.",
+    "The possible ToxoFundus relationship for zoya77 is unverified and the candidate remains excluded."
+  ]
+}

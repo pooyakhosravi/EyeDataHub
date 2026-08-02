@@ -6,6 +6,47 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-08-02
+
+### Added
+
+- Added complete dated searches of Dryad, Mendeley Data, Kaggle, Figshare,
+  and Hugging Face, with a final screening decision for all 18,737 repository
+  records.
+- Added 156 canonical resources found through the five-repository review and
+  reconciled them with 323 retained catalog records from prior documented
+  routes, producing 479 records across 18 primary categories.
+- Added public source-confirmation and canonical-reconciliation ledgers for
+  the newly screened repository records.
+- Added a strict Dryad model-use review covering 145 candidates: 82 retained
+  human or human-derived resources and 63 documented exclusions.
+- Added website relationship links for newly confirmed versions, derivatives,
+  components, synthetic resources, and reused upstream datasets.
+
+### Changed
+
+- Updated the package and catalog version to 0.5.0 and the catalog cutoff to
+  2 August 2026.
+- Applied a human or documented human-derived eligibility boundary and
+  excluded animal-only, analysis-only, code-only, inadequately documented,
+  and non-model-resource deposits from the canonical catalog.
+- Reconciled alternate platform identifiers and DOIs so the same underlying
+  resource is counted once while meaningful derived datasets remain linked.
+- Recomputed current totals as 328 records with resolved primary quantities,
+  392 quantity statements, and 153 directed relationship assertions involving
+  100 records.
+- Updated the practical route partition to 33 routes without platform
+  credentials, 375 platform-credential routes, and 71 manual procedures.
+- Revised the Scientific Data manuscript, Supplementary Information, figures,
+  tables, website, and machine-readable exports from the same catalog state.
+
+### Security
+
+- Redacted local absolute paths found in third-party repository descriptions
+  before writing public search snapshots.
+- Confirmed that public artifacts contain no credential values, signed URLs,
+  retained third-party dataset files, or restricted local paths.
+
 ## [0.4.0] - 2026-08-01
 
 ### Added

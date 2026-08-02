@@ -31,7 +31,7 @@ Small-incision cataract surgery video dataset with train/validation/test video a
 | **Normalized terms** | `cc-by-nc` |
 | **Descriptive screening label** | Explicit noncommercial clause recorded; check source |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

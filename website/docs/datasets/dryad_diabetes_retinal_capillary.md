@@ -126,5 +126,5 @@ Jumar, Agnes, Harazny, Joanna M., Ott, Christian, Friedrich, Stefanie, Kistner, 
 - [fprm_retina](./fprm_retina.md): FPRM Multimodal Eye Imaging and Psychological Assessment Dataset (3,361 images, `research-only`)
 - [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
 - [papila](./papila.md): PAPILA: Glaucoma Fundus Dataset with Clinical Data (488 images, `cc-by`)
-- [dryad_sf7m0cggh](./dryad_sf7m0cggh.md): Robust semi-automatic vessel tracing in the human retinal image by an instance segmentation neural network (Not reported, `cc0`)
+- [mendeley_retina_identification_database_ridb](./mendeley_retina_identification_database_ridb.md): Retina Identification Database (RIDB) (100 images, `cc-by`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)

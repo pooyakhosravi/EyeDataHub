@@ -2,12 +2,12 @@
 id: external_eye-index
 title: "External Eye datasets"
 sidebar_label: external_eye
-description: "19 resources containing external_eye data in EyeDataHub."
+description: "21 resources containing external_eye data in EyeDataHub."
 ---
 
 # External Eye datasets
 
-**19 datasets; 16 with a primary reported quantity; 50.0 GB total** - this page indexes every EyeDataHub resource tagged as containing `external_eye` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**21 datasets; 17 with a primary reported quantity; 49.9 GB total** - this page indexes every EyeDataHub resource tagged as containing `external_eye` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -20,13 +20,15 @@ description: "19 resources containing external_eye data in EyeDataHub."
 | [`tear_meniscus`](./tear_meniscus.md) | Multicentre Tear Meniscus Segmentation Dataset | 3,432 images | 1.5 GB | `cc-by` | Figshare |
 | [`uveitis_smote`](./uveitis_smote.md) | Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation | 3,245 images | 0.5 GB | `cc-by` | Mendeley Data |
 | [`eed_astig`](./eed_astig.md) | EED-Astig Pediatric External-Eye Dataset | 3,088 images | 0.4 GB | `research-only` | Manual (upstream-gated) |
+| [`slid_e`](./slid_e.md) | SLID-E Slit-Lamp Image Dataset for Epiphora | 2,999 images | Not reported | `cc-by` | Figshare |
 | [`periorbital_segmentation`](./periorbital_segmentation.md) | Open-Source Periorbital Segmentation Dataset | 2,842 images | 0.2 GB | `cc-by` | Zenodo |
 | [`slid`](./slid.md) | SLID: Slit-Lamp Image Dataset | 2,617 images | 1.0 GB | `unknown` | Direct HTTP |
+| [`slp_vld`](./slp_vld.md) | SLP-VLD Anonymized Slit-Lamp Vision-Language Dataset | 2,228 images | Not reported | `cc-by` | Figshare |
 | [`mgd1k`](./mgd1k.md) | MGD-1k Meibomian Gland Dataset | 1,000 images | Not reported | `unknown` | GitHub |
 | [`ophthalvqa`](./ophthalvqa.md) | OphthalVQA Dataset | 600 question answer pairs | 0.0 GB | `cc-by` | Figshare |
 | [`eye_conjunctiva_segmentation`](./eye_conjunctiva_segmentation.md) | Eye Conjunctiva Segmentation Dataset | 547 images | Not reported | `cc-by` | Mendeley Data |
 | [`dryad_sbcc2fr6n`](./dryad_sbcc2fr6n.md) | Exploring phenotypic diversity of pigmented traits and iris features in Pakistani population | 514 participants | 0.0 GB | `cc0` | Dryad |
-| [`dryad_angle_closure_rabbit`](./dryad_angle_closure_rabbit.md) | Expression of matrix Metalloproteinases-2 and aquaporin-1 in corneoscleral junction after angle-closure in rabbits | 30 experimental animals | 0.1 GB | `cc0` | Dryad |
 | [`external_eye_blepharitis`](./external_eye_blepharitis.md) | External Eye Photographs for Screening Referable Blepharitis | Not reported | Not reported | `cc-by` | Mendeley Data |
 | [`thyroid_ophthalmopathy_external`](./thyroid_ophthalmopathy_external.md) | Thyroid Ophthalmopathy External Ocular Images | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`sustech_sysu_corneal_ulcers`](./sustech_sysu_corneal_ulcers.md) | SUSTech-SYSU Corneal Ulcer Dataset | Not reported | Not reported | `cc-by` | Figshare |
 | [`dryad_iris_surface_features`](./dryad_iris_surface_features.md) | Iris Surface Features Dataset | Not reported | 0.0 GB | `cc0` | Dryad |

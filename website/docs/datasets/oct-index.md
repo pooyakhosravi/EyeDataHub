@@ -2,12 +2,12 @@
 id: oct-index
 title: "Oct datasets"
 sidebar_label: oct
-description: "69 resources containing oct data in EyeDataHub."
+description: "79 resources containing oct data in EyeDataHub."
 ---
 
 # Oct datasets
 
-**69 datasets; 65 with a primary reported quantity; 891.0 GB total** - this page indexes every EyeDataHub resource tagged as containing `oct` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**79 datasets; 63 with a primary reported quantity; 876.3 GB total** - this page indexes every EyeDataHub resource tagged as containing `oct` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -72,11 +72,21 @@ description: "69 resources containing oct data in EyeDataHub."
 | [`fang_sbsdi_oct`](./fang_sbsdi_oct.md) | Duke Fang SBSDI Retinal OCT Dataset | 41 participants | 0.5 GB | `research-only` | Manual (upstream-gated) |
 | [`dryad_functional_oct_alzheimer`](./dryad_functional_oct_alzheimer.md) | Functional OCT Retinal Response Dataset | 40 participants | 0.8 GB | `cc0` | Dryad |
 | [`dryad_brvo_bevacizumab_multimodal`](./dryad_brvo_bevacizumab_multimodal.md) | BRVO Bevacizumab Multimodal Dataset | 27 eyes | 0.1 GB | `cc0` | Dryad |
-| [`dryad_retinal_vein_cannulation`](./dryad_retinal_vein_cannulation.md) | Autonomous Retinal Vein Cannulation Data and Code | 26 experimental eyes | 7.5 GB | `cc0` | Dryad |
-| [`dryad_subretinal_robot`](./dryad_subretinal_robot.md) | Head-Mounted Robot Subretinal Injection Dataset | 21 experimental eyes | 2.5 GB | `cc0` | Dryad |
 | [`duke_amd_chiu`](./duke_amd_chiu.md) | Duke AMD Pathology OCT Segmentation Dataset | 20 volumes | 0.5 GB | `unknown` | Manual (upstream-gated) |
 | [`tian_oct`](./tian_oct.md) | Tian OCTRIMA 3D OCT Layer Segmentation Dataset | 10 volumes | 0.2 GB | `cc-by` | Direct HTTP |
 | [`hassan_composite_retina`](./hassan_composite_retina.md) | Composite Retinal Fundus and OCT Dataset with Clinical Markings | Not reported | 2.0 GB | `cc-by` | Mendeley Data |
-| [`dryad_bbs1_retinal_degeneration`](./dryad_bbs1_retinal_degeneration.md) | BBS1 Retinal Degeneration Mouse Dataset | Not reported | 0.0 GB | `cc0` | Dryad |
-| [`dryad_mouse_oct_beam_tilt`](./dryad_mouse_oct_beam_tilt.md) | Quantifying the influence of optical coherence tomography beam tilt in the normal adult mouse retina | Not reported | 4.7 GB | `cc0` | Dryad |
+| [`retinal_photoplethysmography_rnfl`](./retinal_photoplethysmography_rnfl.md) | Retinal Photoplethysmography and RNFL Dataset | Not reported | Not reported | `cc-by` | Figshare |
+| [`parkinsons_outer_retinal_structure`](./parkinsons_outer_retinal_structure.md) | Parkinson Disease Outer Retinal Structure and Function Dataset | Not reported | Not reported | `cc-by` | Figshare |
+| [`parkinsons_directional_oct`](./parkinsons_directional_oct.md) | Parkinson Disease Directional OCT Dataset | Not reported | Not reported | `cc-by` | Figshare |
+| [`tunisian_retinal_oct_multidisease`](./tunisian_retinal_oct_multidisease.md) | Tunisian Retinal OCT Multi-Disease Dataset | Not reported | Not reported | `cc-by` | Manual (upstream-gated) |
+| [`aqp4_optic_neuritis_oct_layers`](./aqp4_optic_neuritis_oct_layers.md) | AQP4 Optic Neuritis OCT Layers Dataset | Not reported | Not reported | `cc-by` | Figshare |
+| [`synthetic_retinal_oct_biomarkers`](./synthetic_retinal_oct_biomarkers.md) | Synthetic Retinal OCT Biomarker Dataset | Not reported | Not reported | `unknown` | HuggingFace Hub |
+| [`gleam`](./gleam.md) | GLEAM Multimodal Glaucoma Staging Dataset | Not reported | Not reported | `cc-by-nc-nd` | Kaggle |
+| [`mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora`](./mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora.md) | Data for: Post-Intravitreal Injection Ciprofloxacin and Conjunctival Flora Resistance | Not reported | Not reported | `cc-by-nc` | Mendeley Data |
+| [`mendeley_utilizing_responsive_web_portal_studying_disc`](./mendeley_utilizing_responsive_web_portal_studying_disc.md) | Data for: Utilizing A Responsive Web Portal For Studying Disc Tracing Agreement in Retinal Images | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`mendeley_foveal_cone_photoreceptor_outer_segment_length`](./mendeley_foveal_cone_photoreceptor_outer_segment_length.md) | Foveal cone photoreceptor outer segment length and cone density | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`mendeley_deep_learning_prediction_uncorrected_refractive_error`](./mendeley_deep_learning_prediction_uncorrected_refractive_error.md) | Deep Learning for the Prediction of Uncorrected Refractive Error using OCT | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`mendeley_spatio_temporal_optical_coherence_tomography_provides`](./mendeley_spatio_temporal_optical_coherence_tomography_provides.md) | Spatio-Temporal Optical Coherence Tomography provides full thickness imaging of the chorioretinal complex | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`mendeley_optical_coherence_tomography_oct_images_proliferative`](./mendeley_optical_coherence_tomography_oct_images_proliferative.md) | Optical Coherence Tomography (OCT) Images of Proliferative Vitreoretinopathy, Uveitis, and Normal Eyes | Not reported | Not reported | `cc-by` | Manual (upstream-gated) |
+| [`mendeley_vivo_analysis_comparison_anterior_segment_structures`](./mendeley_vivo_analysis_comparison_anterior_segment_structures.md) | In Vivo Analysis and Comparison of Anterior Segment Structures of Both Eyes in Unilateral Herpetic Anterior Uveitis | Not reported | Not reported | `cc-by` | Mendeley Data |
 | [`dryad_huntingtons_retinal_oct`](./dryad_huntingtons_retinal_oct.md) | Is retina affected in Huntington's disease? Is optical coherence tomography a good biomarker? | Not reported | 0.0 GB | `cc0` | Dryad |

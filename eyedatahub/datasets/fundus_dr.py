@@ -1010,6 +1010,8 @@ class MMRDRDataset(EyeDataHubDataset):
             size_gb=18.61,
             notes=(
                 "Contains 24,460 images across CFP, OCT, and UWF modalities. "
+                "The CFP component is derived from OIA-DDR; OCT and UWF "
+                "components are independently collected QEH cohorts. "
                 "The source-reported unit is images rather than unique patients. "
                 "Evaluation code: https://github.com/Vladimirovich2019/MMRDR_Evaluation"
             ),

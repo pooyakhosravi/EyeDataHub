@@ -39,11 +39,11 @@ def test_dashboard_index_includes_loader_counts_and_status():
     payload = build_static_dataset_index(REGISTRY.list_datasets())
     rows = {row["name"]: row for row in payload["datasets"]}
 
-    assert payload["summary"]["datasets"] == 386
+    assert payload["summary"]["datasets"] == 479
     assert payload["summary"]["loaders_implemented"] == 75
     assert payload["summary"]["primary_categories"] == 18
     assert payload["summary"]["transfer_tested_routes"] == 54
-    assert payload["facets"]["modality"]["fundus"] == 125
+    assert payload["facets"]["modality"]["fundus"] == 143
     assert payload["facets"]["modality"]["confocal"] == 6
     assert rows["airogs"]["loader_status"] == "implemented"
     assert rows["nd_iris_0405"]["loader_status"] == "metadata_only"
@@ -104,7 +104,7 @@ def test_llms_full_exposes_tasks_sources_access_and_loader_status(tmp_path: Path
     assert "LOAD=implemented" in text
     assert "LOAD=metadata_only" in text
     assert "URL=https://" in text
-    assert "300 with a primary reported quantity" in text
+    assert "328 with a primary reported quantity" in text
     assert "N=69_b_scans" in text
     assert "mixed source records" not in text
     assert "ds.download(" not in text

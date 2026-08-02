@@ -19,6 +19,7 @@ ENV/
 # EyeDataHub data cache
 *.json.bak
 .download_complete
+.audit-work/
 
 # Legacy benchmark run outputs (v1 CLI omits benchmarking)
 results/

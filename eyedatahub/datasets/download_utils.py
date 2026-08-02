@@ -1174,9 +1174,9 @@ def download_mendeley(
         )
         if resp.status_code in (401, 403):
             raise PermissionError(
-                f"Mendeley Data denied API access to '{dataset_id}' v{version}.\n"
-                "The public API may require a MENDELEY_TOKEN or may be blocking "
-                "automated requests from this network.\n"
+                f"Mendeley Data API access for '{dataset_id}' v{version} requires "
+                "platform credentials, a compatible client, or access setup.\n"
+                "This response does not establish that the dataset is unavailable.\n"
                 f"Use the source page: https://data.mendeley.com/datasets/{dataset_id}/{version}"
             )
         if resp.status_code == 404:
