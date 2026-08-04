@@ -128,4 +128,4 @@ Retina Identification Database (RIDB). Mendeley Data, V2. doi:10.17632/tjw3zwntv
 - [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
 - [papila](./papila.md): PAPILA: Glaucoma Fundus Dataset with Clinical Data (488 images, `cc-by`)
 - [dryad_diabetes_retinal_capillary](./dryad_diabetes_retinal_capillary.md): Diabetes Retinal Capillary Rarefaction Dataset (73 participants, `cc0`)
-- [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
+- [mendeley_two_photon_excited_fluorescence_scanning_laser](./mendeley_two_photon_excited_fluorescence_scanning_laser.md): Two-photon excited fluorescence scanning laser ophthalmoscopy images and software for data processing (1 participants, `cc-by`)

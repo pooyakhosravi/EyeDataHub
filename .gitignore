@@ -76,3 +76,9 @@ release/
 # Private catalog-wide audit log contains local absolute paths. The public
 # archive uses the redacted metadata file and path-free CSV row export.
 hub/audit/download_load_verification_2026-07-30.json
+
+# Local subjective catalog reviews from tools/dataset_reviewer. These are kept
+# out of public releases unless the author explicitly chooses to share them.
+/data/internal_dataset_review_decisions.json
+/data/internal_dataset_review_decisions.json.bak
+/data/internal_dataset_review_decisions.json.tmp

@@ -124,3 +124,5 @@ Fineide FA, Bair J, Utheim TP, Riegler MA, Dartt DA. Development of Human Conjun
 ## Similar resources by shared modality
 
 - [hesc_retinal_organoid_early_differentiation](./hesc_retinal_organoid_early_differentiation.md): hESC-Derived Retinal Organoid Early Differentiation Imaging Dataset (Not reported, `cc-by`)
+- [mendeley_digital_holograms_rbcs_glaucoma_patients_healthy](./mendeley_digital_holograms_rbcs_glaucoma_patients_healthy.md): Digital holograms of RBCs from the glaucoma patients and healthy controls (Not reported, `cc-by`)
+- [mendeley_ocular_sebaceous_neoplasms](./mendeley_ocular_sebaceous_neoplasms.md): Ocular sebaceous neoplasms (Not reported, `cc-by`)

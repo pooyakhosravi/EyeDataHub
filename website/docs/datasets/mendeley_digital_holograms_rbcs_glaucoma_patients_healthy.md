@@ -3,7 +3,7 @@ id: mendeley_digital_holograms_rbcs_glaucoma_patients_healthy
 title: "Digital holograms of RBCs from the glaucoma patients and healthy controls"
 sidebar_label: mendeley_digital_holograms_rbcs_glaucoma_patients_healthy
 description: "Observation-level human or human-derived measurements/signals. from Red blood cells from glaucoma patients and healthy controls."
-tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-digital-holograms-rbcs-glaucoma-patients-healthy"]
+tags: ["cell_microscopy", "tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-digital-holograms-rbcs-glaucoma-patients-healthy"]
 ---
 
 
@@ -20,10 +20,10 @@ Observation-level human or human-derived measurements/signals. from Red blood ce
 | --- | --- |
 | **Short name** | `mendeley_digital_holograms_rbcs_glaucoma_patients_healthy` |
 | **Full name** | Digital holograms of RBCs from the glaucoma patients and healthy controls |
-| **Primary category** | `tabular` |
+| **Primary category** | `cell_microscopy` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_digital_holograms_rbcs_glaucoma_patients_healthy` |
-| **Contained modalities** | tabular |
+| **Contained modalities** | cell_microscopy, tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |
 | **Classes** | Not reported (Not reported) |
@@ -119,6 +119,7 @@ Digital holograms of RBCs from the glaucoma patients and healthy controls. Mende
 
 ## Similar resources by shared modality
 
+- [mendeley_ocular_sebaceous_neoplasms](./mendeley_ocular_sebaceous_neoplasms.md): Ocular sebaceous neoplasms (Not reported, `cc-by`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
@@ -126,4 +127,3 @@ Digital holograms of RBCs from the glaucoma patients and healthy controls. Mende
 - [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
 - [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
-- [dryad_icmr_eye_see_cataract](./dryad_icmr_eye_see_cataract.md): ICMR EYE SEE Cataract and Sun Exposure Dataset (9,735 participants, `cc0`)

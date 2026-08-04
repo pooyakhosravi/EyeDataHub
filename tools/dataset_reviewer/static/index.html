@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>EyeDataHub Internal Dataset Review</title>
+    <meta
+      name="description"
+      content="Local review desk for rapidly checking EyeDataHub catalog records."
+    >
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div id="loading" class="loading-screen" role="status" aria-live="polite">
+      <div class="loading-mark">EDH</div>
+      <p>Loading the catalog and your saved reviews...</p>
+    </div>
+
+    <div id="app" class="app" hidden>
+      <header class="topbar">
+        <div class="brand-block">
+          <p class="eyebrow">Local review tool</p>
+          <div class="brand-line">
+            <h1>Dataset Review Desk</h1>
+            <span class="local-badge">Internal only</span>
+          </div>
+        </div>
+
+        <div class="topbar-actions" aria-label="Review resources">
+          <span id="save-state" class="save-state">Saved locally</span>
+          <a class="quiet-button" href="/paper/manuscript.pdf" target="_blank" rel="noopener">Manuscript</a>
+          <a class="quiet-button" href="/paper/supplement.pdf" target="_blank" rel="noopener">Supplement</a>
+          <a class="quiet-button" href="/api/export/reviews.csv" download>Export CSV</a>
+          <a class="quiet-button" href="/api/export/reviews.json" download>Export JSON</a>
+        </div>
+      </header>
+
+      <main class="review-layout">
+        <aside class="queue-panel" aria-label="Dataset review queue">
+          <section class="progress-card">
+            <div class="progress-copy">
+              <div>
+                <span class="progress-label">Review progress</span>
+                <strong id="progress-count">0 of 0</strong>
+              </div>
+              <span id="progress-percent" class="progress-percent">0%</span>
+            </div>
+            <div class="progress-track" aria-hidden="true">
+              <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <div id="decision-counts" class="decision-counts"></div>
+          </section>
+
+          <section class="filter-panel" aria-label="Queue filters">
+            <label class="search-field">
+              <span>Find a record</span>
+              <input id="search-input" type="search" placeholder="Name, disease, family, modality..." autocomplete="off">
+            </label>
+
+            <div class="filter-grid">
+              <label>
+                <span>Status</span>
+                <select id="status-filter">
+                  <option value="all">All records</option>
+                  <option value="unreviewed" selected>Unreviewed first</option>
+                  <option value="include">Include</option>
+                  <option value="needs_review">Needs review</option>
+                  <option value="exclude">Exclude</option>
+                  <option value="duplicate_or_version">Duplicate/version</option>
+                </select>
+              </label>
+              <label>
+                <span>Role</span>
+                <select id="role-filter"><option value="all">All roles</option></select>
+              </label>
+              <label>
+                <span>Modality</span>
+                <select id="modality-filter"><option value="all">All modalities</option></select>
+              </label>
+              <label>
+                <span>Source</span>
+                <select id="source-filter"><option value="all">All sources</option></select>
+              </label>
+              <label>
+                <span>Model-data screen</span>
+                <select id="scope-filter"><option value="all">All screen results</option></select>
+              </label>
+            </div>
+
+            <div class="filter-summary">
+              <span id="queue-summary">0 records</span>
+              <button id="clear-filters" type="button" class="text-button">Clear filters</button>
+            </div>
+          </section>
+
+          <div id="record-list" class="record-list" role="listbox" aria-label="Filtered datasets"></div>
+        </aside>
+
+        <section class="record-panel" aria-live="polite">
+          <nav class="record-nav" aria-label="Record navigation">
+            <button id="previous-record" type="button" class="nav-button">Previous</button>
+            <span id="record-position">Record 0 of 0</span>
+            <button id="next-record" type="button" class="nav-button primary">Next</button>
+          </nav>
+
+          <article id="record-card" class="record-card">
+            <div class="record-heading">
+              <div>
+                <div id="record-badges" class="badge-row"></div>
+                <h2 id="record-title">Dataset title</h2>
+                <p id="record-id" class="record-id"></p>
+              </div>
+              <div id="current-verdict" class="current-verdict">Unreviewed</div>
+            </div>
+
+            <p id="record-description" class="record-description"></p>
+
+            <div class="source-actions" aria-label="Source links">
+              <a id="dataset-link" class="source-button dataset" target="_blank" rel="noopener">Open dataset source</a>
+              <a id="paper-link" class="source-button paper" target="_blank" rel="noopener">Open associated paper</a>
+              <a id="scholar-link" class="source-button secondary" target="_blank" rel="noopener">Search paper</a>
+              <button id="open-both" type="button" class="source-button secondary">Open dataset + paper</button>
+            </div>
+
+            <section aria-labelledby="snapshot-heading">
+              <div class="section-heading">
+                <h3 id="snapshot-heading">Evidence snapshot</h3>
+                <span id="last-checked" class="small-muted"></span>
+              </div>
+              <dl id="evidence-grid" class="evidence-grid"></dl>
+            </section>
+
+            <section id="quantity-section" aria-labelledby="quantity-heading">
+              <h3 id="quantity-heading">Reported quantities</h3>
+              <div id="quantity-list" class="quantity-list"></div>
+            </section>
+
+            <section id="relationship-section" aria-labelledby="relationship-heading">
+              <h3 id="relationship-heading">Relationships and alternate sources</h3>
+              <div id="relationship-list" class="relationship-list"></div>
+            </section>
+
+            <section aria-labelledby="citation-heading">
+              <h3 id="citation-heading">Citation and curator notes</h3>
+              <div class="text-block">
+                <span>Citation</span>
+                <p id="record-citation"></p>
+              </div>
+              <div id="catalog-notes-block" class="text-block">
+                <span>Catalog notes</span>
+                <p id="catalog-notes"></p>
+              </div>
+            </section>
+
+            <details class="raw-details">
+              <summary>View complete machine-readable record</summary>
+              <pre id="raw-record"></pre>
+            </details>
+          </article>
+        </section>
+
+        <aside class="rating-panel" aria-label="Current dataset review">
+          <div class="rating-sticky">
+            <div class="rating-heading">
+              <div>
+                <p class="eyebrow">Your assessment</p>
+                <h2>Rate this record</h2>
+              </div>
+              <button id="keyboard-help" type="button" class="shortcut-button" aria-haspopup="dialog">Shortcuts</button>
+            </div>
+
+            <section class="rating-section" aria-labelledby="score-heading">
+              <div class="scope-rule" role="note" aria-label="Catalog scope rule">
+                <strong>Model-data rule</strong>
+                <p>
+                  Include data that can serve as a model input, target, or linked
+                  covariate. Images, video, raw signals, omics, visual fields,
+                  refraction, biometry, and spatial or topographic maps qualify.
+                  Exclude paper-result tables and derived OCT measurements when
+                  the source scans or another reusable primary modality are absent.
+                </p>
+              </div>
+              <div class="rating-label-line">
+                <h3 id="score-heading">Usefulness for models</h3>
+                <button id="clear-score" type="button" class="text-button">Clear</button>
+              </div>
+              <div id="score-buttons" class="score-buttons" role="radiogroup" aria-label="Usefulness score from 1 to 5">
+                <button type="button" data-score="1" aria-label="1, poor">1<span>Poor</span></button>
+                <button type="button" data-score="2" aria-label="2, weak">2<span>Weak</span></button>
+                <button type="button" data-score="3" aria-label="3, mixed">3<span>Mixed</span></button>
+                <button type="button" data-score="4" aria-label="4, good">4<span>Good</span></button>
+                <button type="button" data-score="5" aria-label="5, strong">5<span>Strong</span></button>
+              </div>
+            </section>
+
+            <section class="rating-section" aria-labelledby="tags-heading">
+              <h3 id="tags-heading">Review tags</h3>
+              <p class="helper-text">Apply as many as needed before choosing a decision.</p>
+              <div id="tag-buttons" class="tag-buttons"></div>
+              <form id="custom-tag-form" class="custom-tag-form">
+                <label for="custom-tag-input" class="sr-only">Add a custom review tag</label>
+                <input id="custom-tag-input" maxlength="80" placeholder="Add custom tag">
+                <button type="submit">Add</button>
+              </form>
+            </section>
+
+            <section class="rating-section" aria-labelledby="notes-heading">
+              <div class="rating-label-line">
+                <h3 id="notes-heading">Notes for follow-up</h3>
+                <span id="notes-count" class="small-muted">0 characters</span>
+              </div>
+              <textarea
+                id="review-notes"
+                rows="5"
+                maxlength="20000"
+                placeholder="What should be checked more closely?"
+              ></textarea>
+            </section>
+
+            <section class="decision-section" aria-labelledby="decision-heading">
+              <div class="rating-label-line">
+                <h3 id="decision-heading">Decision</h3>
+                <label class="auto-advance">
+                  <input id="auto-advance" type="checkbox" checked>
+                  Auto-next
+                </label>
+              </div>
+              <div class="decision-buttons">
+                <button type="button" data-decision="include" class="include"><span>1</span> Include</button>
+                <button type="button" data-decision="needs_review" class="review"><span>2</span> Needs review</button>
+                <button type="button" data-decision="exclude" class="exclude"><span>3</span> Exclude</button>
+                <button type="button" data-decision="duplicate_or_version" class="duplicate"><span>4</span> Duplicate/version</button>
+              </div>
+              <button id="clear-review" type="button" class="clear-review">Reset this record to unreviewed</button>
+            </section>
+
+            <p class="autosave-note">Every change is written immediately to the local review file.</p>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <dialog id="shortcut-dialog" class="shortcut-dialog">
+      <form method="dialog">
+        <div class="dialog-heading">
+          <h2>Keyboard shortcuts</h2>
+          <button value="close" aria-label="Close shortcuts">Close</button>
+        </div>
+        <dl>
+          <div><dt>1</dt><dd>Include and move next</dd></div>
+          <div><dt>2</dt><dd>Needs review and move next</dd></div>
+          <div><dt>3</dt><dd>Exclude and move next</dd></div>
+          <div><dt>4</dt><dd>Duplicate/version and move next</dd></div>
+          <div><dt>J or Right arrow</dt><dd>Next record</dd></div>
+          <div><dt>K or Left arrow</dt><dd>Previous record</dd></div>
+          <div><dt>O</dt><dd>Open dataset source</dd></div>
+          <div><dt>P</dt><dd>Open associated paper</dd></div>
+          <div><dt>/</dt><dd>Focus search</dd></div>
+          <div><dt>?</dt><dd>Open this shortcut guide</dd></div>
+        </dl>
+        <p>Shortcuts are disabled while typing in a field.</p>
+      </form>
+    </dialog>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js" defer></script>
+  </body>
+</html>

@@ -33,6 +33,9 @@ DEFAULT_DRYAD = ROOT / "hub" / "audit" / "dryad_discovery_decisions_2026-08-01.c
 DEFAULT_DRYAD_MODEL_REVIEW = (
     ROOT / "hub" / "audit" / "dryad_model_use_review_2026-08-02.csv"
 )
+DEFAULT_MENDELEY_MODEL_REVIEW = (
+    ROOT / "hub" / "audit" / "mendeley_model_use_review_2026-08-03.json"
+)
 DEFAULT_CATALOG = ROOT / "hub" / "catalog.csv"
 DEFAULT_OVERRIDES = (
     ROOT / "hub" / "audit" / "repository_screening_overrides_2026-08-02.json"
@@ -409,6 +412,50 @@ def _dryad_model_use_decisions(path: Path) -> dict[str, dict[str, Any]]:
     return decisions
 
 
+def _mendeley_model_use_decisions(path: Path) -> dict[str, dict[str, Any]]:
+    """Load the deposit-level Mendeley model-use review."""
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    records = payload.get("records") or []
+    decisions: dict[str, dict[str, Any]] = {}
+    excluded_mapping = {
+        "excluded_after_author_review_due_to_uncertain_scope": (
+            "excluded_not_suitable_for_model_training_or_evaluation"
+        ),
+        "excluded_derived_measurements_without_primary_data": (
+            "excluded_not_suitable_for_model_training_or_evaluation"
+        ),
+        "excluded_document_or_manuscript_support_only": (
+            "excluded_not_distinct_reusable_resource"
+        ),
+        "excluded_not_suitable_for_model_training_or_evaluation": (
+            "excluded_not_suitable_for_model_training_or_evaluation"
+        ),
+    }
+    for row in records:
+        stable_id = str(row["dataset_identifier"]).lower()
+        if stable_id in decisions:
+            raise ValueError(f"Duplicate Mendeley model-use identifier: {stable_id}")
+        included = bool(row["headline_catalog_included"])
+        decision = str(row["model_use_decision"])
+        if included and decision != "included_human_or_human_derived_model_resource":
+            raise ValueError(f"Inconsistent included Mendeley decision: {stable_id}")
+        if not included and decision not in excluded_mapping:
+            raise ValueError(
+                f"Unknown excluded Mendeley model-use decision: {decision}"
+            )
+        decisions[stable_id] = {
+            "included": included,
+            "final_decision": (
+                "existing_catalog_record" if included else excluded_mapping[decision]
+            ),
+            "record_id": row["record_id"],
+            "reason": row["reason"],
+        }
+    if len(decisions) != 141:
+        raise ValueError("The Mendeley model-use review must contain 141 records")
+    return decisions
+
+
 def _load_overrides(path: Path) -> dict[str, dict[str, Any]]:
     if not path.exists():
         return {}
@@ -519,6 +566,7 @@ def build(
     details_path: Path,
     dryad_path: Path,
     dryad_model_review_path: Path,
+    mendeley_model_review_path: Path,
     catalog_path: Path,
     overrides_path: Path,
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
@@ -531,6 +579,7 @@ def build(
     catalog = _load_catalog(catalog_path)
     dryad = _dryad_decisions(dryad_path)
     dryad_model_review = _dryad_model_use_decisions(dryad_model_review_path)
+    mendeley_model_review = _mendeley_model_use_decisions(mendeley_model_review_path)
     overrides = _load_overrides(overrides_path)
     rows: list[dict[str, Any]] = []
 
@@ -571,6 +620,19 @@ def build(
                 }
             if key in CURRENT_CANONICAL_POLICY:
                 decision = dict(CURRENT_CANONICAL_POLICY[key])
+            # The deposit-level review followed the metadata-only screening
+            # and is therefore authoritative over earlier include overrides.
+            if platform == "mendeley":
+                model_use = mendeley_model_review.get(stable_id.lower())
+                if model_use and not model_use["included"]:
+                    decision = {
+                        "final_decision": model_use["final_decision"],
+                        "canonical_record_id": model_use["record_id"],
+                        "canonical_record_ids": [model_use["record_id"]],
+                        "relationship_type": "screened_catalog_scope_exclusion",
+                        "reason": model_use["reason"],
+                        "decision_basis": ("completed_mendeley_human_model_use_review"),
+                    }
             rows.append(
                 {
                     "platform": platform,
@@ -665,6 +727,11 @@ def main() -> None:
     parser.add_argument(
         "--dryad-model-review", type=Path, default=DEFAULT_DRYAD_MODEL_REVIEW
     )
+    parser.add_argument(
+        "--mendeley-model-review",
+        type=Path,
+        default=DEFAULT_MENDELEY_MODEL_REVIEW,
+    )
     parser.add_argument("--catalog", type=Path, default=DEFAULT_CATALOG)
     parser.add_argument("--overrides", type=Path, default=DEFAULT_OVERRIDES)
     parser.add_argument("--csv-out", type=Path, default=DEFAULT_CSV)
@@ -675,6 +742,7 @@ def main() -> None:
         details_path=args.details,
         dryad_path=args.dryad,
         dryad_model_review_path=args.dryad_model_review,
+        mendeley_model_review_path=args.mendeley_model_review,
         catalog_path=args.catalog,
         overrides_path=args.overrides,
     )

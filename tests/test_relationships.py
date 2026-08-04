@@ -27,12 +27,15 @@ def test_relationship_graph_is_valid_and_matches_runtime_catalog() -> None:
         for relationship in dataset.info.relationships
     }
 
-    assert len(datasets) == 475
+    assert len(datasets) == 451
     assert len(RELATIONSHIP_EVIDENCE) == len(evidence_edges) == 145
     assert runtime_edges == evidence_edges
     assert all(source != target for source, _, target in evidence_edges)
     assert all(kind in RELATIONSHIP_TYPES for _, kind, _ in evidence_edges)
-    assert all(source in datasets and target in datasets for source, _, target in evidence_edges)
+    assert all(
+        source in datasets and target in datasets
+        for source, _, target in evidence_edges
+    )
     assert all(
         edge.evidence_url.startswith(("http://", "https://"))
         for edge in RELATIONSHIP_EVIDENCE
@@ -62,11 +65,11 @@ def test_record_level_review_and_edge_exports_match_graph() -> None:
         edge_rows = list(csv.DictReader(handle))
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
 
-    assert len(review_rows) == 475
-    assert len({row["record_id"] for row in review_rows}) == 475
+    assert len(review_rows) == 451
+    assert len({row["record_id"] for row in review_rows}) == 451
     assert len(edge_rows) == len(RELATIONSHIP_EVIDENCE) == 145
-    assert summary["catalog_record_count"] == 475
-    assert summary["reviewed_record_count"] == 475
+    assert summary["catalog_record_count"] == 451
+    assert summary["reviewed_record_count"] == 451
     assert summary["directed_relationship_edge_count"] == 145
     assert summary["records_participating_in_confirmed_relationships"] == 96
     assert summary["third_party_dataset_files_included"] is False
@@ -101,8 +104,4 @@ def test_mmrdr_derivation_from_ddr_is_directed() -> None:
     }
 
     assert ("mmrdr", "derived_from", "ddr") in edges
-    assert not {
-        edge
-        for edge in edges
-        if edge[0] == "ddr" and edge[2] == "mmrdr"
-    }
+    assert not {edge for edge in edges if edge[0] == "ddr" and edge[2] == "mmrdr"}

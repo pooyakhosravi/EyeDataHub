@@ -2,12 +2,12 @@
 id: external_eye-index
 title: "External Eye datasets"
 sidebar_label: external_eye
-description: "21 resources containing external_eye data in EyeDataHub."
+description: "26 resources containing external_eye data in EyeDataHub."
 ---
 
 # External Eye datasets
 
-**21 datasets; 17 with a primary reported quantity; 49.9 GB total** - this page indexes every EyeDataHub resource tagged as containing `external_eye` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**26 datasets; 17 with a primary reported quantity; 49.9 GB total** - this page indexes every EyeDataHub resource tagged as containing `external_eye` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -31,4 +31,9 @@ description: "21 resources containing external_eye data in EyeDataHub."
 | [`external_eye_blepharitis`](./external_eye_blepharitis.md) | External Eye Photographs for Screening Referable Blepharitis | Not reported | Not reported | `cc-by` | Mendeley Data |
 | [`thyroid_ophthalmopathy_external`](./thyroid_ophthalmopathy_external.md) | Thyroid Ophthalmopathy External Ocular Images | Not reported | Not reported | `cc-by` | Mendeley Data |
 | [`sustech_sysu_corneal_ulcers`](./sustech_sysu_corneal_ulcers.md) | SUSTech-SYSU Corneal Ulcer Dataset | Not reported | Not reported | `cc-by` | Figshare |
+| [`mendeley_nuclear_cataract_database_biomedical_machine_learning`](./mendeley_nuclear_cataract_database_biomedical_machine_learning.md) | Nuclear Cataract Database for Biomedical and Machine Learning Applications | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`mendeley_cp_anemic_conjunctival_pallor_ghana`](./mendeley_cp_anemic_conjunctival_pallor_ghana.md) | CP-AnemiC (A Conjunctival Pallor) Dataset from Ghana | Not reported | Not reported | `cc-by` | Manual (upstream-gated) |
+| [`mendeley_application_machine_learning_detecting_iron_deficiency`](./mendeley_application_machine_learning_detecting_iron_deficiency.md) | Application of Machine Learning in Detecting Iron Deficiency Anemia Using  Conjunctiva image Dataset from Ghana | Not reported | Not reported | `cc-by` | Manual (upstream-gated) |
+| [`mendeley_conjunctival_melanoma_detection_using_deep_learning`](./mendeley_conjunctival_melanoma_detection_using_deep_learning.md) | Conjunctival melanoma detection using deep learning in smartphone images | Not reported | Not reported | `cc-by-nc` | Mendeley Data |
+| [`mendeley_ocular_sebaceous_neoplasms`](./mendeley_ocular_sebaceous_neoplasms.md) | Ocular sebaceous neoplasms | Not reported | Not reported | `cc-by` | Mendeley Data |
 | [`dryad_iris_surface_features`](./dryad_iris_surface_features.md) | Iris Surface Features Dataset | Not reported | 0.0 GB | `cc0` | Dryad |

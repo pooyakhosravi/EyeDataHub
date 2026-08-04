@@ -2,12 +2,12 @@
 id: visual_field-index
 title: "Visual Field datasets"
 sidebar_label: visual_field
-description: "15 resources containing visual_field data in EyeDataHub."
+description: "14 resources containing visual_field data in EyeDataHub."
 ---
 
 # Visual Field datasets
 
-**15 datasets; 12 with a primary reported quantity; 28.6 GB total** - this page indexes every EyeDataHub resource tagged as containing `visual_field` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**14 datasets; 12 with a primary reported quantity; 28.6 GB total** - this page indexes every EyeDataHub resource tagged as containing `visual_field` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -24,5 +24,4 @@ description: "15 resources containing visual_field data in EyeDataHub."
 | [`visual_field_testing_experiment`](./visual_field_testing_experiment.md) | Visual Field Testing Experiment | 78 visual fields | 0.0 GB | `cc-by` | Kaggle |
 | [`dryad_xgxd254pk`](./dryad_xgxd254pk.md) | Supporting information for: Discrimination ability of central visual field testing using stimulus size I, II, and III and relationship with macular ganglion cell thickness in chiasmal compression | 60 eyes | 0.0 GB | `cc0` | Dryad |
 | [`visual_field_test_perception`](./visual_field_test_perception.md) | Visual Field Test Perception Dataset | Not reported | Not reported | `cc-by` | Figshare |
-| [`mendeley_clinical_assessment_scleral_canal_expansion_glaucoma`](./mendeley_clinical_assessment_scleral_canal_expansion_glaucoma.md) | Data for: Clinical Assessment of Scleral Canal Expansion in Glaucoma Using Spectral Domain Optical Coherence Tomography | Not reported | Not reported | `cc-by-nc` | Mendeley Data |
 | [`mendeley_early_detection_glaucomatous_visual_field_progression`](./mendeley_early_detection_glaucomatous_visual_field_progression.md) | Data for: Early Detection of Glaucomatous Visual Field Progression Using Pointwise Linear Regression with Binomial Test in the Central 10 Degrees | Not reported | Not reported | `cc-by` | Mendeley Data |

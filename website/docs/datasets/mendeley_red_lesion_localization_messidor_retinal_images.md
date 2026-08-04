@@ -3,7 +3,7 @@ id: mendeley_red_lesion_localization_messidor_retinal_images
 title: "Red lesion localization for MESSIDOR retinal images dataset using patch-based convolutional neural networks."
 sidebar_label: mendeley_red_lesion_localization_messidor_retinal_images
 description: "Observation-level source data, annotations, or signals. from MESSIDOR is a human retinal-image benchmark; this deposit adds lesion-localization data."
-tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-red-lesion-localization-messidor-retinal-images"]
+tags: ["fundus", "tabular", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-red-lesion-localization-messidor-retinal-images"]
 ---
 
 
@@ -20,11 +20,11 @@ Observation-level source data, annotations, or signals. from MESSIDOR is a human
 | --- | --- |
 | **Short name** | `mendeley_red_lesion_localization_messidor_retinal_images` |
 | **Full name** | Red lesion localization for MESSIDOR retinal images dataset using patch-based convolutional neural networks. |
-| **Primary category** | `tabular` |
+| **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_red_lesion_localization_messidor_retinal_images` |
-| **Contained modalities** | tabular |
-| **Tasks** | measurement |
+| **Contained modalities** | fundus, tabular |
+| **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
@@ -119,11 +119,11 @@ Red lesion localization for MESSIDOR retinal images dataset using patch-based co
 
 ## Similar resources by shared modality
 
-- [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
-- [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
-- [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
-- [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
-- [dryad_icmr_eye_see_cataract](./dryad_icmr_eye_see_cataract.md): ICMR EYE SEE Cataract and Sun Exposure Dataset (9,735 participants, `cc0`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
+- [fprm_retina](./fprm_retina.md): FPRM Multimodal Eye Imaging and Psychological Assessment Dataset (3,361 images, `research-only`)
+- [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
+- [papila](./papila.md): PAPILA: Glaucoma Fundus Dataset with Clinical Data (488 images, `cc-by`)
+- [mendeley_retina_identification_database_ridb](./mendeley_retina_identification_database_ridb.md): Retina Identification Database (RIDB) (100 images, `cc-by`)
+- [dryad_diabetes_retinal_capillary](./dryad_diabetes_retinal_capillary.md): Diabetes Retinal Capillary Rarefaction Dataset (73 participants, `cc0`)

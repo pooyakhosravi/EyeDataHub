@@ -1,6 +1,6 @@
 {
   "name": "eyedatahub-docs",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": true,
   "scripts": {
     "regen": "cd .. && python -m hub.docs.generate_dataset_pages --out website/docs",

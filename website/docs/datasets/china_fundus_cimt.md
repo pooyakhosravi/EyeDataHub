@@ -25,7 +25,7 @@ Human fundus and carotid intima-media-thickness measurements.
 | **Dataset family** | `china_fundus_cimt` |
 | **Contained modalities** | fundus |
 | **Tasks** | measurement |
-| **Primary reported quantity** | Not reported |
+| **Primary reported quantity** | 5,806 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -42,7 +42,10 @@ Human fundus and carotid intima-media-thickness measurements.
 
 ## Reported quantities
 
-No reproducible primary item count was exposed for the cataloged source version.
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 5,806 | `images` | PNG fundus images in the current Figshare version 1 deposit The complete current deposit was inspected; both source MD5 values matched and the image archive contained 5,806 PNG files. | `current_deposit_file_listing` | [https://doi.org/10.6084/m9.figshare.27907056.v1](https://doi.org/10.6084/m9.figshare.27907056.v1) |
+| Additional | 2 | `deposited_files` | Files in the current Figshare version 1 deposit The deposit contains one JSON metadata file and one ZIP archive. | `current_deposit_file_listing` | [https://doi.org/10.6084/m9.figshare.27907056.v1](https://doi.org/10.6084/m9.figshare.27907056.v1) |
 
 Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 

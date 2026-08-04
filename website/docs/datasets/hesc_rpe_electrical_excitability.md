@@ -119,4 +119,5 @@ Repository dataset record. 10.6084/m9.figshare.22246969.v2.
 - [perg_ioba](./perg_ioba.md): PERG-IOBA Ocular Electrophysiology Dataset (1,354 signals, `odc-by`)
 - [mendeley_iscev_standard_full_field_erg_reference](./mendeley_iscev_standard_full_field_erg_reference.md): ISCEV standard full-field ERG reference limits from 407 healthy subjects, derived from transference and validation of reference data between electrode types and centres (407 participants, `cc-by`)
 - [dryad_brvo_bevacizumab_multimodal](./dryad_brvo_bevacizumab_multimodal.md): BRVO Bevacizumab Multimodal Dataset (27 eyes, `cc0`)
+- [mendeley_electrooculography_eog_blink_analysis_ocular_fatigue](./mendeley_electrooculography_eog_blink_analysis_ocular_fatigue.md): Electrooculography (EOG) Dataset for Blink Analysis and Ocular Fatigue Detection (4 participants, `cc-by`)
 - [mendeley_fferg_reference_healthy_controls_university_eye](./mendeley_fferg_reference_healthy_controls_university_eye.md): ffERG Reference Data from Healthy Controls (University Eye Hospital Tuebingen) (Not reported, `cc-by`)

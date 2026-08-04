@@ -423,6 +423,7 @@ def _register_all() -> None:
         CORN1500Dataset,
         CORNCollectionDataset,
         CORNProDataset,
+        QiluCCMNerveSegmentationDataset,
     )
     from eyedatahub.datasets.stage_challenge import (
         STAGETask1Dataset,
@@ -587,6 +588,7 @@ def _register_all() -> None:
         CORN1500Dataset(),
         CORNProDataset(),
         CORNCollectionDataset(),
+        QiluCCMNerveSegmentationDataset(),
         # STAGE Challenge 2023 — OCT → visual field prediction
         STAGETask1Dataset(),
         STAGETask2Dataset(),

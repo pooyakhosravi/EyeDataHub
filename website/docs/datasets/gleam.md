@@ -25,7 +25,7 @@ SLO, circumpapillary OCT, and visual-field pattern-deviation maps with four-clas
 | **Dataset family** | `gleam` |
 | **Contained modalities** | oct |
 | **Tasks** | classification, staging |
-| **Primary reported quantity** | Not reported |
+| **Primary reported quantity** | 3,600 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | Not reported |
@@ -42,13 +42,17 @@ SLO, circumpapillary OCT, and visual-field pattern-deviation maps with four-clas
 
 ## Reported quantities
 
-No reproducible primary item count was exposed for the cataloged source version.
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 3,600 | `images` | Three image modalities for each of 1,200 distinct samples in the all_samples directory The 4,320 additional JPG files under split directories repeat samples for model-development partitions and are not additional source images. | `derived_from_reported_components` | [kaggle.com/datasets](https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset) |
+| Additional | 1,200 | `records` | Distinct tri-modal glaucoma samples Each sample contains one SLO image, one OCT thickness map, and one visual-field pattern-deviation map. | `official_source_description` | [kaggle.com/datasets](https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset) |
+| Additional | 841 | `participants` | Source-reported patient cohort | `official_source_description` | [kaggle.com/datasets](https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset) |
 
 Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
-> Source reports 1,200 tri-modal samples from 841 patients; no catalog quantity is asserted because the source unit is not controlled.
+> Source reports 1,200 tri-modal samples from 841 patients. Complete-deposit inspection confirmed three unique images per sample; copies under split directories are not counted again.
 
 ## Access information and download
 

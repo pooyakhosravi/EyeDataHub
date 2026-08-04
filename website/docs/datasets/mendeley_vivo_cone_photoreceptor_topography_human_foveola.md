@@ -3,7 +3,7 @@ id: mendeley_vivo_cone_photoreceptor_topography_human_foveola
 title: "In-vivo cone photoreceptor topography of the human foveola"
 sidebar_label: mendeley_vivo_cone_photoreceptor_topography_human_foveola
 description: "Retinal-image montages, cone annotation maps, and participant-level supporting measurements from In-vivo human foveolar imaging; individual-participant MATLAB files are stated."
-tags: ["tabular", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-vivo-cone-photoreceptor-topography-human-foveola"]
+tags: ["adaptive_optics", "tabular", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-mendeley-vivo-cone-photoreceptor-topography-human-foveola"]
 ---
 
 
@@ -20,10 +20,10 @@ Retinal-image montages, cone annotation maps, and participant-level supporting m
 | --- | --- |
 | **Short name** | `mendeley_vivo_cone_photoreceptor_topography_human_foveola` |
 | **Full name** | In-vivo cone photoreceptor topography of the human foveola |
-| **Primary category** | `tabular` |
+| **Primary category** | `adaptive_optics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_vivo_cone_photoreceptor_topography_human_foveola` |
-| **Contained modalities** | tabular |
+| **Contained modalities** | adaptive_optics, tabular |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | Not reported |
 | **Classes** | Not reported (Not reported) |
@@ -119,11 +119,11 @@ In-vivo cone photoreceptor topography of the human foveola. Mendeley Data, V1. d
 
 ## Similar resources by shared modality
 
+- [dryad_human_foveal_cones](./dryad_human_foveal_cones.md): Human foveal cone photoreceptor topography and its dependence on eye length (28 eyes, `cc0`)
+- [mendeley_sub_cone_visual_resolution_by_active](./mendeley_sub_cone_visual_resolution_by_active.md): Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola (16 participants, `cc-by`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
 - [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
-- [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
-- [dryad_icmr_eye_see_cataract](./dryad_icmr_eye_see_cataract.md): ICMR EYE SEE Cataract and Sun Exposure Dataset (9,735 participants, `cc0`)

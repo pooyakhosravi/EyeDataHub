@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "eyedatahub"
-version = "0.6.0"
+version = "0.7.0"
 description = "Versioned, source-term-aware command-line access tool for ophthalmology datasets."
 readme = "README.md"
 license = "MIT"

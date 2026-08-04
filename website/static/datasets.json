@@ -1,19 +1,19 @@
 {
   "generated_by": "hub.docs.generate_dataset_pages",
-  "total": 475,
+  "total": 451,
   "summary": {
-    "datasets": 475,
-    "dataset_families": 470,
+    "datasets": 451,
+    "dataset_families": 446,
     "primary_quantities_reported": 324,
-    "reported_quantity_entries": 389,
+    "reported_quantity_entries": 396,
     "size_gb": 3133.4,
-    "nonmanual_routes": 406,
-    "loaders_implemented": 72,
-    "commercial_ok": 347,
-    "modalities": 33,
+    "nonmanual_routes": 383,
+    "loaders_implemented": 73,
+    "commercial_ok": 328,
+    "modalities": 34,
     "primary_categories": 18,
-    "anonymous_routes": 46,
-    "authenticated_or_clickthrough_routes": 392,
+    "anonymous_routes": 47,
+    "authenticated_or_clickthrough_routes": 367,
     "controlled_routes": 29,
     "author_contact_routes": 8,
     "transfer_tested_routes": 54,
@@ -28,17 +28,17 @@
   },
   "facets": {
     "modality": {
-      "adaptive_optics": 2,
+      "adaptive_optics": 4,
       "as_oct": 2,
       "biometry": 3,
-      "cell_microscopy": 2,
-      "confocal": 6,
-      "corneal_topography": 15,
+      "cell_microscopy": 4,
+      "confocal": 7,
+      "corneal_topography": 12,
       "ct": 1,
-      "electrophysiology": 6,
-      "external_eye": 21,
-      "eye_tracking": 16,
-      "fundus": 139,
+      "electrophysiology": 7,
+      "external_eye": 26,
+      "eye_tracking": 18,
+      "fundus": 140,
       "fundus_angiography": 8,
       "fundus_autofluorescence": 2,
       "genomics": 1,
@@ -47,33 +47,34 @@
       "iris_biometrics": 7,
       "ivcm": 1,
       "microscopy": 1,
-      "oct": 79,
-      "octa": 10,
-      "ocular_ultrasound": 5,
+      "oct": 77,
+      "octa": 9,
+      "ocular_ultrasound": 6,
       "omics": 32,
       "orbital_mri": 2,
       "pupillometry": 3,
       "retcam": 1,
+      "retinal_imaging": 1,
       "retinal_oximetry": 1,
       "slit_lamp": 2,
       "surgical_video": 16,
-      "tabular": 165,
+      "tabular": 150,
       "text": 26,
       "uwf_fundus": 11,
-      "visual_field": 15
+      "visual_field": 14
     },
     "license_family": {
       "apache": 1,
-      "cc-by": 240,
-      "cc-by-nc": 12,
+      "cc-by": 222,
+      "cc-by-nc": 8,
       "cc-by-nc-nd": 11,
       "cc-by-nc-sa": 6,
       "cc-by-sa": 4,
-      "cc0": 93,
+      "cc0": 92,
       "mit": 7,
       "odc-by": 2,
       "research-only": 51,
-      "unknown": 48
+      "unknown": 47
     },
     "download_type": {
       "direct": 13,
@@ -83,10 +84,10 @@
       "github": 7,
       "huggingface": 24,
       "kaggle": 27,
-      "manual": 69,
-      "mendeley": 132,
+      "manual": 68,
+      "mendeley": 108,
       "physionet": 7,
-      "zenodo": 34
+      "zenodo": 35
     },
     "relationship_type": {
       "component_of": 3,
@@ -99,7 +100,7 @@
       "annotation_layer": 17,
       "collection": 2,
       "component_dataset": 3,
-      "current_dataset": 431,
+      "current_dataset": 407,
       "derivative_dataset": 17,
       "extension_dataset": 2,
       "task_view": 3
@@ -2551,9 +2552,32 @@
       "tasks": [
         "measurement"
       ],
-      "samples": null,
-      "item_count_unit": "unknown",
-      "reported_quantities": [],
+      "samples": 5806,
+      "item_count_unit": "images",
+      "reported_quantities": [
+        {
+          "count": 5806,
+          "unit": "images",
+          "scope": "PNG fundus images in the current Figshare version 1 deposit",
+          "evidence_url": "https://doi.org/10.6084/m9.figshare.27907056.v1",
+          "evidence_basis": "current_deposit_file_listing",
+          "primary": true,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": "The complete current deposit was inspected; both source MD5 values matched and the image archive contained 5,806 PNG files."
+        },
+        {
+          "count": 2,
+          "unit": "deposited_files",
+          "scope": "Files in the current Figshare version 1 deposit",
+          "evidence_url": "https://doi.org/10.6084/m9.figshare.27907056.v1",
+          "evidence_basis": "current_deposit_file_listing",
+          "primary": false,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": "The deposit contains one JSON metadata file and one ZIP archive."
+        }
+      ],
       "alternate_sources": [],
       "relationships": [],
       "resource_role": "current_dataset",
@@ -2574,56 +2598,6 @@
       "loader_status": "metadata_only",
       "doc_path": "/datasets/china_fundus_cimt",
       "citation": "Repository dataset record. 10.6084/m9.figshare.27907056.v1.",
-      "notes": ""
-    },
-    {
-      "name": "chronic_corneal_disorders",
-      "full_name": "Chronic Corneal Disorders Clinical Dataset",
-      "description": "Prospective tabular clinical dataset of 332 patients with chronic corneal disorders, including visual acuity, slit-lamp findings, comorbidities, diagnoses, treatments, and risk factors.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "classification",
-        "regression"
-      ],
-      "samples": 332,
-      "item_count_unit": "participants",
-      "reported_quantities": [
-        {
-          "count": 332,
-          "unit": "participants",
-          "scope": "Primary quantity reported in the reviewed catalog source",
-          "evidence_url": "https://data.mendeley.com/datasets/mcwv6thk8m/1",
-          "evidence_basis": "legacy_catalog_field",
-          "primary": true,
-          "exactness": "not_assessed",
-          "review_date": "2026-08-01",
-          "notes": ""
-        }
-      ],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "chronic_corneal_disorders",
-      "size_gb": 0.01,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/mcwv6thk8m/1",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/mcwv6thk8m/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-07-21",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/chronic_corneal_disorders",
-      "citation": "Kusumesh R, Sinha BP, Anand A, Kumar A. Epidemiological and Clinical Profile of Chronic Corneal Disorders: Insights from a Tertiary Care Hospital in Eastern India. Mendeley Data, V1, 2025. doi:10.17632/mcwv6thk8m.1",
       "notes": ""
     },
     {
@@ -3060,56 +3034,6 @@
       "loader_status": "metadata_only",
       "doc_path": "/datasets/corneal_nerve_parkinsons",
       "citation": "Repository dataset record. 10.6084/m9.figshare.28189571.v1.",
-      "notes": ""
-    },
-    {
-      "name": "corneal_parameters_kc",
-      "full_name": "Corneal Parameters Keratoconus Study",
-      "description": "Tabular keratoconus dataset with 77 eye-level rows and 60 variables describing visual acuity, contrast sensitivity, stage, and corneal elevation/shape parameters.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "classification",
-        "regression"
-      ],
-      "samples": 77,
-      "item_count_unit": "records",
-      "reported_quantities": [
-        {
-          "count": 77,
-          "unit": "records",
-          "scope": "Primary quantity reported in the reviewed catalog source",
-          "evidence_url": "https://data.mendeley.com/datasets/3nz4fkwn3y/1",
-          "evidence_basis": "legacy_catalog_field",
-          "primary": true,
-          "exactness": "not_assessed",
-          "review_date": "2026-08-01",
-          "notes": ""
-        }
-      ],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "corneal_parameters_kc",
-      "size_gb": 0.01,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/3nz4fkwn3y/1",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/3nz4fkwn3y/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-07-21",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/corneal_parameters_kc",
-      "citation": "Luguzis A, Liduma S. corneal-parameters-KC-study_2020-07-03. Mendeley Data, V1, 2020. doi:10.17632/3nz4fkwn3y.1",
       "notes": ""
     },
     {
@@ -7371,9 +7295,32 @@
       "tasks": [
         "classification"
       ],
-      "samples": null,
-      "item_count_unit": "unknown",
-      "reported_quantities": [],
+      "samples": 1,
+      "item_count_unit": "participants",
+      "reported_quantities": [
+        {
+          "count": 1,
+          "unit": "participants",
+          "scope": "Proband represented by the paired whole-exome sequencing files",
+          "evidence_url": "https://doi.org/10.5061/dryad.5qfttdz5d",
+          "evidence_basis": "official_source_description",
+          "primary": true,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": "The complete current Dryad version 2 deposit contains paired reads for one source-described proband."
+        },
+        {
+          "count": 2,
+          "unit": "deposited_files",
+          "scope": "Paired FASTQ files in the current Dryad version 2 deposit",
+          "evidence_url": "https://doi.org/10.5061/dryad.5qfttdz5d",
+          "evidence_basis": "current_deposit_file_listing",
+          "primary": false,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": "Both source checksums matched during complete-deposit inspection."
+        }
+      ],
       "alternate_sources": [],
       "relationships": [],
       "resource_role": "current_dataset",
@@ -10516,9 +10463,43 @@
         "classification",
         "staging"
       ],
-      "samples": null,
-      "item_count_unit": "unknown",
-      "reported_quantities": [],
+      "samples": 3600,
+      "item_count_unit": "images",
+      "reported_quantities": [
+        {
+          "count": 3600,
+          "unit": "images",
+          "scope": "Three image modalities for each of 1,200 distinct samples in the all_samples directory",
+          "evidence_url": "https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset",
+          "evidence_basis": "derived_from_reported_components",
+          "primary": true,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": "The 4,320 additional JPG files under split directories repeat samples for model-development partitions and are not additional source images."
+        },
+        {
+          "count": 1200,
+          "unit": "records",
+          "scope": "Distinct tri-modal glaucoma samples",
+          "evidence_url": "https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset",
+          "evidence_basis": "official_source_description",
+          "primary": false,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": "Each sample contains one SLO image, one OCT thickness map, and one visual-field pattern-deviation map."
+        },
+        {
+          "count": 841,
+          "unit": "participants",
+          "scope": "Source-reported patient cohort",
+          "evidence_url": "https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset",
+          "evidence_basis": "official_source_description",
+          "primary": false,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": ""
+        }
+      ],
       "alternate_sources": [],
       "relationships": [],
       "resource_role": "current_dataset",
@@ -10539,7 +10520,7 @@
       "loader_status": "metadata_only",
       "doc_path": "/datasets/gleam",
       "citation": "Repository dataset record. zhangyiyinge/gleam-dataset.",
-      "notes": "Source reports 1,200 tri-modal samples from 841 patients; no catalog quantity is asserted because the source unit is not controlled."
+      "notes": "Source reports 1,200 tri-modal samples from 841 patients. Complete-deposit inspection confirmed three unique images per sample; copies under split directories are not counted again."
     },
     {
       "name": "goals",
@@ -13233,49 +13214,13 @@
       "notes": "Human provenance: Source describes de-identified infant fundus images. Source-review finding: 3,010 files including 3,002 JPG images, HDF5 annotations, XLSX, ZIP, and documentation."
     },
     {
-      "name": "mendeley_anterior_segment_optical_coherence_tomography_angiography",
-      "full_name": "Data for: Anterior Segment Optical Coherence Tomography Angiography Imaging of Conjunctiva and Intrasclera in Treated Primary Open-Angle Glaucoma",
-      "description": "Observation-level human or human-derived measurements/signals. from Treated primary-open-angle-glaucoma patients.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "segmentation"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_anterior_segment_optical_coherence_tomography_angiography",
-      "size_gb": null,
-      "license": "CC BY-NC 3.0",
-      "license_family": "cc-by-nc",
-      "source_terms": "CC BY-NC 3.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/tsh3xwbkkg",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/tsh3xwbkkg/2",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_anterior_segment_optical_coherence_tomography_angiography",
-      "citation": "Data for: Anterior Segment Optical Coherence Tomography Angiography Imaging of Conjunctiva and Intrasclera in Treated Primary Open-Angle Glaucoma. Mendeley Data, V2. doi:10.17632/tsh3xwbkkg.2.",
-      "notes": "Human provenance: Treated primary-open-angle-glaucoma patients. Source-review finding: Measurement dataset for vessel density and vessel-length density."
-    },
-    {
       "name": "mendeley_application_machine_learning_detecting_iron_deficiency",
       "full_name": "Application of Machine Learning in Detecting Iron Deficiency Anemia Using  Conjunctiva image Dataset from Ghana",
       "description": "Image-level conjunctival observations with anemia target from Human conjunctiva images from Ghana used for iron-deficiency-anemia detection.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "external_eye",
+      "primary_category": "external_eye",
       "modalities": [
+        "external_eye",
         "tabular"
       ],
       "tasks": [
@@ -13565,86 +13510,13 @@
       "notes": "Human provenance: Human fibroblasts chemically reprogrammed into functional retinal pigment epithelium cells. Source-review finding: Current listing not independently retrievable; source description describes chemical reprogramming into functional RPE cells."
     },
     {
-      "name": "mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric",
-      "full_name": "Clinical Application of Cyanoacrylate Tissue Adhesive in Pediatric Ophthalmic Emergency: A Randomized Controlled Study",
-      "description": "Observation-level source data, annotations, or signals. from Pediatric ophthalmic emergency randomized-study patients are stated.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric",
-      "size_gb": null,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/ctnygyvwt5",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/ctnygyvwt5/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric",
-      "citation": "Clinical Application of Cyanoacrylate Tissue Adhesive in Pediatric Ophthalmic Emergency: A Randomized Controlled Study. Mendeley Data, V1. doi:10.17632/ctnygyvwt5.1.",
-      "notes": "Human provenance: Pediatric ophthalmic emergency randomized-study patients are stated. Source-review finding: One XLSX clinical dataset."
-    },
-    {
-      "name": "mendeley_clinical_assessment_scleral_canal_expansion_glaucoma",
-      "full_name": "Data for: Clinical Assessment of Scleral Canal Expansion in Glaucoma Using Spectral Domain Optical Coherence Tomography",
-      "description": "Observation-level source data, annotations, or signals. from Unilateral and bilateral glaucoma patient eyes are described.",
-      "modality": "visual_field",
-      "primary_category": "visual_field",
-      "modalities": [
-        "visual_field"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_clinical_assessment_scleral_canal_expansion_glaucoma",
-      "size_gb": null,
-      "license": "CC BY-NC 3.0",
-      "license_family": "cc-by-nc",
-      "source_terms": "CC BY-NC 3.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/7x3tgtskyj",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/7x3tgtskyj/2",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_clinical_assessment_scleral_canal_expansion_glaucoma",
-      "citation": "Data for: Clinical Assessment of Scleral Canal Expansion in Glaucoma Using Spectral Domain Optical Coherence Tomography. Mendeley Data, V2. doi:10.17632/7x3tgtskyj.2.",
-      "notes": "Human provenance: Unilateral and bilateral glaucoma patient eyes are described. Source-review finding: Four CSV files of demographic and optic-disc structural observations."
-    },
-    {
       "name": "mendeley_code_manuscript_fixational_eye_movements_as",
       "full_name": "Data and code for manuscript: Fixational eye movements as active sensation for high visual acuity",
       "description": "Eye-movement sequences and supporting code from Human fixation/eye-movement experiment, as stated by the linked study title.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "eye_tracking",
+      "primary_category": "eye_tracking",
       "modalities": [
+        "eye_tracking",
         "tabular"
       ],
       "tasks": [
@@ -13711,80 +13583,6 @@
       "doc_path": "/datasets/mendeley_comparison_aqueous_humor_levels_plgf_vegf",
       "citation": "Data for: Comparison of aqueous humor levels of PlGF and VEGF in proliferative diabetic retinopathy before and after intravitreal conbercept injection. Mendeley Data, V1. doi:10.17632/wtcc9fcjdy.1.",
       "notes": "Human provenance: Diabetic-retinopathy patients. Source-review finding: Anterior-chamber VEGF and PlGF level dataset."
-    },
-    {
-      "name": "mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic",
-      "full_name": "Comparison of Cervical and Ocular Vestibular Evoked Myogenic Potentials Among Individuals with Hearing Impairment Aged 50\u201370 Years",
-      "description": "Observation-level source data, annotations, or signals. from Human adults aged 50-70 with hearing impairment are described.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic",
-      "size_gb": null,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/2jkhncb5kw",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/2jkhncb5kw/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic",
-      "citation": "Comparison of Cervical and Ocular Vestibular Evoked Myogenic Potentials Among Individuals with Hearing Impairment Aged 50\u201370 Years. Mendeley Data, V1. doi:10.17632/2jkhncb5kw.1.",
-      "notes": "Human provenance: Human adults aged 50-70 with hearing impairment are described. Source-review finding: Two XLSX workbooks for cervical and ocular VEMP responses."
-    },
-    {
-      "name": "mendeley_comparison_clinical_outcomes_visual_quality_visual",
-      "full_name": "Comparison of clinical outcomes, visual quality and visual function of two presbyopia-correcting intraocular lenses made from the same material, but with different design and optics",
-      "description": "Observation-level human or human-derived measurements/signals. from Patients with presbyopia-correcting IOLs.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_comparison_clinical_outcomes_visual_quality_visual",
-      "size_gb": null,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/y6n5k7s6f7",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/y6n5k7s6f7/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_comparison_clinical_outcomes_visual_quality_visual",
-      "citation": "Comparison of clinical outcomes, visual quality and visual function of two presbyopia-correcting intraocular lenses made from the same material, but with different design and optics. Mendeley Data, V1. doi:10.17632/y6n5k7s6f7.1.",
-      "notes": "Human provenance: Patients with presbyopia-correcting IOLs. Source-review finding: Indexed metadata describes clinical outcomes, visual quality/function and satisfaction observations."
     },
     {
       "name": "mendeley_comparison_ocular_biometry_using_new_opticalcoherence",
@@ -13861,53 +13659,17 @@
       "notes": "Human provenance: Pseudoexfoliative glaucoma/syndrome and control groups are described. Source-review finding: One XLSX workbook (Total Data)."
     },
     {
-      "name": "mendeley_comparison_two_novel_comfilcon_contact_lens",
-      "full_name": "Comparison of Two Novel Comfilcon A Contact Lens Designs in the Management of Computer Vision Syndrome: A Pilot Study ",
-      "description": "Participant/eye-level subjective and visual-performance measurements from Within-subject pilot participants with computer-vision-syndrome symptoms.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "participants",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_comparison_two_novel_comfilcon_contact_lens",
-      "size_gb": null,
-      "license": "Creative Commons Attribution 4.0 International",
-      "license_family": "cc-by",
-      "source_terms": "Creative Commons Attribution 4.0 International",
-      "terms_scope": "unknown",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/fnbxs7gb82",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/fnbxs7gb82/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_comparison_two_novel_comfilcon_contact_lens",
-      "citation": "Comparison of Two Novel Comfilcon A Contact Lens Designs in the Management of Computer Vision Syndrome: A Pilot Study . Mendeley Data, V1. doi:10.17632/fnbxs7gb82.1.",
-      "notes": "Human provenance: Within-subject pilot participants with computer-vision-syndrome symptoms. Source-review finding: Current listing not independently retrievable; source description identifies subjective experience and visual-performance data for two lens designs."
-    },
-    {
       "name": "mendeley_conjunctival_melanoma_detection_using_deep_learning",
       "full_name": "Conjunctival melanoma detection using deep learning in smartphone images",
       "description": "Human/derived image or image-annotation observations. from Human ocular anterior-segment images gathered from public web sources; source-level provenance remains limited.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "external_eye",
+      "primary_category": "external_eye",
       "modalities": [
+        "external_eye",
         "tabular"
       ],
       "tasks": [
-        "segmentation"
+        "classification"
       ],
       "samples": null,
       "item_count_unit": "images",
@@ -14058,49 +13820,13 @@
       "notes": "Human provenance: 2,545 patients without corneal disease (5,074 eyes). Source-review finding: Videokeratography/Pentacam Fourier-derived corneal parameter dataset."
     },
     {
-      "name": "mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading",
-      "full_name": "Data for: Cost Effectiveness of Limited Vitrectomy for Vision Degrading Myodesopsia",
-      "description": "Observation-level source data, annotations, or signals. from Three groups of subjects undergoing limited vitrectomy are stated.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading",
-      "size_gb": null,
-      "license": "CC0 1.0",
-      "license_family": "cc0",
-      "source_terms": "CC0 1.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/487dpg7v38",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/487dpg7v38/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading",
-      "citation": "Data for: Cost Effectiveness of Limited Vitrectomy for Vision Degrading Myodesopsia. Mendeley Data, V1. doi:10.17632/487dpg7v38.1.",
-      "notes": "Human provenance: Three groups of subjects undergoing limited vitrectomy are stated. Source-review finding: One XLSX raw clinical outcome/cost-effectiveness workbook."
-    },
-    {
       "name": "mendeley_cp_anemic_conjunctival_pallor_ghana",
       "full_name": "CP-AnemiC (A Conjunctival Pallor) Dataset from Ghana",
       "description": "Image-level conjunctival-pallor observations with anemia-related target from Conjunctival photographs of children aged 6-59 months presenting at assigned Ghanaian health facilities.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "external_eye",
+      "primary_category": "external_eye",
       "modalities": [
+        "external_eye",
         "tabular"
       ],
       "tasks": [
@@ -14270,9 +13996,10 @@
       "name": "mendeley_development_deep_learning_based_system_optic",
       "full_name": "Dataset for - Development of a Deep Learning-based system for Optic Nerve characterization in Transorbital Ultrasound Images on a multicenter dataset",
       "description": "Image-level ultrasound observations with characterization target from Multicentre transorbital ultrasound imaging of human optic nerves, as stated by the dataset/paper title.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "multimodal",
+      "primary_category": "multimodal",
       "modalities": [
+        "ocular_ultrasound",
         "tabular"
       ],
       "tasks": [
@@ -14390,49 +14117,13 @@
       "notes": "Human provenance: 104 eyes with advanced proliferative diabetic retinopathy in randomized trial. Source-review finding: Indexed metadata describes longitudinal BCVA, thickness and safety outcomes."
     },
     {
-      "name": "mendeley_difference_retinal_nerve_fiber_layer_thickness",
-      "full_name": "Data for: Difference of the Retinal Nerve Fiber Layer Thickness Assessed on the Disc Center and Bruch\u2019s Membrane Opening Center in Myopic Eyes",
-      "description": "Observation-level source data, annotations, or signals. from Myopic-eye RNFL measurements are described.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_difference_retinal_nerve_fiber_layer_thickness",
-      "size_gb": null,
-      "license": "CC BY-NC 3.0",
-      "license_family": "cc-by-nc",
-      "source_terms": "CC BY-NC 3.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/dtz8wmt5xt",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/dtz8wmt5xt/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_difference_retinal_nerve_fiber_layer_thickness",
-      "citation": "Data for: Difference of the Retinal Nerve Fiber Layer Thickness Assessed on the Disc Center and Bruch\u2019s Membrane Opening Center in Myopic Eyes. Mendeley Data, V1. doi:10.17632/dtz8wmt5xt.1.",
-      "notes": "Human provenance: Myopic-eye RNFL measurements are described. Source-review finding: One CSV data file."
-    },
-    {
       "name": "mendeley_digital_holograms_rbcs_glaucoma_patients_healthy",
       "full_name": "Digital holograms of RBCs from the glaucoma patients and healthy controls",
       "description": "Observation-level human or human-derived measurements/signals. from Red blood cells from glaucoma patients and healthy controls.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "cell_microscopy",
+      "primary_category": "cell_microscopy",
       "modalities": [
+        "cell_microscopy",
         "tabular"
       ],
       "tasks": [
@@ -14686,92 +14377,6 @@
       "notes": "Human provenance: School-aged children in one-hour smartphone-gaming intervention. Source-review finding: Baseline/post-gaming symptoms, tear-film indices and wearable blink measures."
     },
     {
-      "name": "mendeley_effect_prednisone_plus_either_adalimumab_or",
-      "full_name": "Effect of prednisone plus either adalimumab or cyclosporine on dermatological symptoms in Vogt-Koyanagi-Harada disease: systemic outcomes from a randomized trial",
-      "description": "Observation-level human or human-derived measurements/signals. from Vogt\u2013Koyanagi\u2013Harada randomized-trial participants.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_effect_prednisone_plus_either_adalimumab_or",
-      "size_gb": null,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/yzv3mrvwf4",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/yzv3mrvwf4/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_effect_prednisone_plus_either_adalimumab_or",
-      "citation": "Effect of prednisone plus either adalimumab or cyclosporine on dermatological symptoms in Vogt-Koyanagi-Harada disease: systemic outcomes from a randomized trial. Mendeley Data, V1. doi:10.17632/yzv3mrvwf4.1.",
-      "notes": "Human provenance: Vogt\u2013Koyanagi\u2013Harada randomized-trial participants. Source-review finding: Ancillary dermatologic/systemic outcomes from an eye-disease trial."
-    },
-    {
-      "name": "mendeley_effects_implantable_collamer_lens_icl_implantation",
-      "full_name": "The effects of implantable collamer lens ICL implantation in high myopia patients\u2019 mental health",
-      "description": "Observation-level human or human-derived measurements/signals. from 43 ICL-surgery patients.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": 43,
-      "item_count_unit": "participants",
-      "reported_quantities": [
-        {
-          "count": 43,
-          "unit": "participants",
-          "scope": "Source-stated quantity",
-          "evidence_url": "https://data.mendeley.com/datasets/t6pmbvkvtd",
-          "evidence_basis": "official_source_description",
-          "primary": true,
-          "exactness": "exact",
-          "review_date": "2026-08-02",
-          "notes": "Preserved from the source-confirmation record."
-        }
-      ],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_effects_implantable_collamer_lens_icl_implantation",
-      "size_gb": null,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/t6pmbvkvtd",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/t6pmbvkvtd/2",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_effects_implantable_collamer_lens_icl_implantation",
-      "citation": "The effects of implantable collamer lens ICL implantation in high myopia patients\u2019 mental health. Mendeley Data, V2. doi:10.17632/t6pmbvkvtd.2.",
-      "notes": "Human provenance: 43 ICL-surgery patients. Source-review finding: XLS/XLSX survey and eye-examination tables plus scoring/questions documents."
-    },
-    {
       "name": "mendeley_efficacy_combined_orthokeratology_0_01_atropine",
       "full_name": "Dataset for: Efficacy of combined orthokeratology and 0.01% atropine solution for slowing axial elongation in children with myopia: a 2-year randomised trial",
       "description": "Observation-level human or human-derived measurements/signals. from Children completing a two-year orthokeratology/atropine trial.",
@@ -14812,9 +14417,10 @@
       "name": "mendeley_electrooculography_eog_blink_analysis_ocular_fatigue",
       "full_name": "Electrooculography (EOG) Dataset for Blink Analysis and Ocular Fatigue Detection",
       "description": "Observation-level human or human-derived measurements/signals. from Four human participants.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "electrophysiology",
+      "primary_category": "electrophysiology",
       "modalities": [
+        "electrophysiology",
         "tabular"
       ],
       "tasks": [
@@ -15092,43 +14698,6 @@
       "notes": "Human provenance: Source describes human foveolar cone observations. Source-review finding: 66 files: 44 MAT, 19 TIF, two TXT, and one PNG. Potential overlap with related foveola studies was not resolved; no record-to-record edge is encoded."
     },
     {
-      "name": "mendeley_fundus_autofluorescence_premature_infants",
-      "full_name": "Fundus Autofluorescence in Premature Infants",
-      "description": "Fundus-autofluorescence image/measurement observations from Premature infants undergoing fundus autofluorescence evaluation.",
-      "modality": "fundus",
-      "primary_category": "fundus",
-      "modalities": [
-        "fundus"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "unknown",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_fundus_autofluorescence_premature_infants",
-      "size_gb": null,
-      "license": "Creative Commons Attribution 4.0 International",
-      "license_family": "cc-by",
-      "source_terms": "Creative Commons Attribution 4.0 International",
-      "terms_scope": "unknown",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/k5jsssjtmz",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/k5jsssjtmz/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_fundus_autofluorescence_premature_infants",
-      "citation": "Fundus Autofluorescence in Premature Infants. Mendeley Data, V1. doi:10.17632/k5jsssjtmz.1.",
-      "notes": "Human provenance: Premature infants undergoing fundus autofluorescence evaluation. Source-review finding: Current listing not independently retrievable; source description identifies evaluation of fundus-autofluorescence patterns in premature infants."
-    },
-    {
       "name": "mendeley_fundus_mctn",
       "full_name": "Fundus dataset of MCTN",
       "description": "Fundus-image-level class-labelled observations from Classified human fundus images for myopia, choroidal neovascularization, tessellation, and normal categories.",
@@ -15240,43 +14809,6 @@
       "notes": "Human provenance: Human foveal cone topography and fixation locations are explicitly stated. Source-review finding: 124 files: 41 TIF images, 82 TXT coordinate files, and one MATLAB script. Potential overlap with related foveola studies was not resolved; no record-to-record edge is encoded."
     },
     {
-      "name": "mendeley_human_mesenchymal_stem_cells_derived_adipose",
-      "full_name": "Human mesenchymal stem cells derived from adipose tissue showed greater effect than from umbilical cord in promoting corneal graft survival through suppressing lymphangiogenesis",
-      "description": "Observation-level source data, annotations, or signals. from Human adipose- and umbilical-cord-derived mesenchymal stem cells are stated.",
-      "modality": "corneal_topography",
-      "primary_category": "corneal_topography",
-      "modalities": [
-        "corneal_topography"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_human_mesenchymal_stem_cells_derived_adipose",
-      "size_gb": null,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/bm45p4tcbz",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/bm45p4tcbz/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_human_mesenchymal_stem_cells_derived_adipose",
-      "citation": "Human mesenchymal stem cells derived from adipose tissue showed greater effect than from umbilical cord in promoting corneal graft survival through suppressing lymphangiogenesis. Mendeley Data, V1. doi:10.17632/bm45p4tcbz.1.",
-      "notes": "Human provenance: Human adipose- and umbilical-cord-derived mesenchymal stem cells are stated. Source-review finding: One XLSX RNA-sequencing data workbook."
-    },
-    {
       "name": "mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy",
       "full_name": "HVDROPDB Datasets for Classification and Segmentation for Research in Retinopathy of Prematurity, Ranjana Agrawal",
       "description": "Human/derived image or image-annotation observations. from Preterm infants screened at H.V. Desai Eye Hospital.",
@@ -15349,92 +14881,6 @@
       "doc_path": "/datasets/mendeley_identification_human_retinal_stem_like_cells",
       "citation": "Identification of Human Retinal Stem-Like Cells for Retina Regeneration. Mendeley Data, V3. doi:10.17632/s9wbscpsrs.3.",
       "notes": "Human provenance: Human neural retinal stem-like cells, isolated using human retinal/organoid experimental methods. Source-review finding: Source description states single-cell multi-omics and organoid technologies identify a human neural retinal stem-like subpopulation."
-    },
-    {
-      "name": "mendeley_imaging_retinal_choroidal_vasculature_using_spatio",
-      "full_name": "Imaging the retinal and choroidal vasculature using Spatio-Temporal Optical Coherence Tomography (STOC-T)",
-      "description": "Three-dimensional retinal/choroidal oct image observations from Retinal/choroidal images from eyes imaged with a STOC-T system; source description identifies a study sample but does not provide a verified count.",
-      "modality": "octa",
-      "primary_category": "octa",
-      "modalities": [
-        "octa"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "images",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_imaging_retinal_choroidal_vasculature_using_spatio",
-      "size_gb": null,
-      "license": "Creative Commons Attribution 4.0 International",
-      "license_family": "cc-by",
-      "source_terms": "Creative Commons Attribution 4.0 International",
-      "terms_scope": "unknown",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/j39vyvp8ny",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/j39vyvp8ny/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_imaging_retinal_choroidal_vasculature_using_spatio",
-      "citation": "Imaging the retinal and choroidal vasculature using Spatio-Temporal Optical Coherence Tomography (STOC-T). Mendeley Data, V1. doi:10.17632/j39vyvp8ny.1.",
-      "notes": "Human provenance: Retinal/choroidal images from eyes imaged with a STOC-T system; source description identifies a study sample but does not provide a verified count. Source-review finding: Current listing not independently retrievable; source description states high-resolution three-dimensional STOC-T retinal images."
-    },
-    {
-      "name": "mendeley_improved_retinal_displacement_quantification_between_retinal",
-      "full_name": "Improved Retinal Displacement Quantification Between Retinal Vessels and Corresponding Retinal Vessel Printings Across the 3D Spherical Surface of the Eye: Dataset of Measurements on Fundus Autofluorescence Imaging",
-      "description": "Patient/eye-level fundus-autofluorescence retinal-displacement measurements from Patients who underwent pars plana vitrectomy or pneumatic retinopexy.",
-      "modality": "fundus",
-      "primary_category": "fundus",
-      "modalities": [
-        "fundus"
-      ],
-      "tasks": [
-        "classification"
-      ],
-      "samples": 53,
-      "item_count_unit": "participants",
-      "reported_quantities": [
-        {
-          "count": 53,
-          "unit": "participants",
-          "scope": "Source-stated quantity",
-          "evidence_url": "https://data.mendeley.com/datasets/jxwkym2phr",
-          "evidence_basis": "official_source_description",
-          "primary": true,
-          "exactness": "exact",
-          "review_date": "2026-08-02",
-          "notes": "Preserved from the source-confirmation record."
-        }
-      ],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_improved_retinal_displacement_quantification_between_retinal",
-      "size_gb": null,
-      "license": "Creative Commons Attribution 4.0 International",
-      "license_family": "cc-by",
-      "source_terms": "Creative Commons Attribution 4.0 International",
-      "terms_scope": "unknown",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/jxwkym2phr",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/jxwkym2phr/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_improved_retinal_displacement_quantification_between_retinal",
-      "citation": "Improved Retinal Displacement Quantification Between Retinal Vessels and Corresponding Retinal Vessel Printings Across the 3D Spherical Surface of the Eye: Dataset of Measurements on Fundus Autofluorescence Imaging. Mendeley Data, V1. doi:10.17632/jxwkym2phr.1.",
-      "notes": "Human provenance: Patients who underwent pars plana vitrectomy or pneumatic retinopexy. Source-review finding: Source description states measurements from 53 patients, 35 treated with PPV and the remainder with PnR."
     },
     {
       "name": "mendeley_influence_angle_alpha_angle_kappa_optical",
@@ -15572,80 +15018,6 @@
       "notes": "Human provenance: Healthy volunteers and clinical-reference subjects at two centres. Source-review finding: Source description states ISCEV-standard full-field ERG component amplitude and peak-time data recorded/extracted at two centres."
     },
     {
-      "name": "mendeley_keratoconus_ukraine_children",
-      "full_name": "Keratoconus Ukraine children \u041e\u0425\u041c\u0410\u0422\u0414\u0418\u0422 ",
-      "description": "Observation-level human or human-derived measurements/signals. from Children at Ukraine\u2019s Ohmatdyt hospital.",
-      "modality": "corneal_topography",
-      "primary_category": "corneal_topography",
-      "modalities": [
-        "corneal_topography"
-      ],
-      "tasks": [
-        "classification"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_keratoconus_ukraine_children",
-      "size_gb": null,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/ydmxn3264h",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/ydmxn3264h/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_keratoconus_ukraine_children",
-      "citation": "Keratoconus Ukraine children \u041e\u0425\u041c\u0410\u0422\u0414\u0418\u0422 . Mendeley Data, V1. doi:10.17632/ydmxn3264h.1.",
-      "notes": "Human provenance: Children at Ukraine\u2019s Ohmatdyt hospital. Source-review finding: Indexed metadata describes demographic and corneal-parameter study data."
-    },
-    {
-      "name": "mendeley_long_term_results_using_gelatin_microfistulae",
-      "full_name": "Long-term results using gelatin microfistulae (XEN) implantation in glaucoma surgery.",
-      "description": "Observation-level source data, annotations, or signals. from Glaucoma-surgery clinical observations are stated.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_long_term_results_using_gelatin_microfistulae",
-      "size_gb": null,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/7xjcbsmzzc",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/7xjcbsmzzc/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_long_term_results_using_gelatin_microfistulae",
-      "citation": "Long-term results using gelatin microfistulae (XEN) implantation in glaucoma surgery.. Mendeley Data, V1. doi:10.17632/7xjcbsmzzc.1.",
-      "notes": "Human provenance: Glaucoma-surgery clinical observations are stated. Source-review finding: Two de-identified CSV files for IOP and medication history."
-    },
-    {
       "name": "mendeley_long_term_safety_efficacy_limited_vitrectomy",
       "full_name": "Data for: Long-Term Safety and Efficacy of Limited Vitrectomy for Vision Degrading Vitreopathy from Vitreous Floaters",
       "description": "Observation-level source data, annotations, or signals. from Study reports human subjects with vision-degrading vitreopathy.",
@@ -15718,43 +15090,6 @@
       "doc_path": "/datasets/mendeley_micro_go_study_transcriptional_profiling_orbital",
       "citation": "MICRO-GO study: transcriptional profiling of orbital tissues in Graves\u2019 orbitopathy & microbiome composition. Mendeley Data. doi:10.17632/mrvmsrn9r6.",
       "notes": "Human provenance: Orbital tissue from people with Graves' orbitopathy and relevant human microbiome samples. Source-review finding: Current listing not independently retrievable; source description identifies transcriptional profiling of orbital tissues and microbiome composition."
-    },
-    {
-      "name": "mendeley_microvascular_changes_poag_after_npds",
-      "full_name": "Microvascular changes in POAG after NPDS",
-      "description": "Observation-level human or human-derived measurements/signals. from Primary-open-angle-glaucoma patients after surgery.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_microvascular_changes_poag_after_npds",
-      "size_gb": null,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/vc99wcmvk2",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/vc99wcmvk2/2",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_microvascular_changes_poag_after_npds",
-      "citation": "Microvascular changes in POAG after NPDS. Mendeley Data, V2. doi:10.17632/vc99wcmvk2.2.",
-      "notes": "Human provenance: Primary-open-angle-glaucoma patients after surgery. Source-review finding: Indexed record describes peripapillary/macular microvascular measurements."
     },
     {
       "name": "mendeley_multi_class_retinal_fundus_image_deep",
@@ -15981,9 +15316,10 @@
       "name": "mendeley_nuclear_cataract_database_biomedical_machine_learning",
       "full_name": "Nuclear Cataract Database for Biomedical and Machine Learning Applications",
       "description": "Observation-level source data, annotations, or signals. from Source describes clinical slit-lamp images for nuclear cataract classification.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "external_eye",
+      "primary_category": "external_eye",
       "modalities": [
+        "external_eye",
         "tabular"
       ],
       "tasks": [
@@ -16055,13 +15391,15 @@
       "name": "mendeley_ocular_sebaceous_neoplasms",
       "full_name": "Ocular sebaceous neoplasms",
       "description": "Human/derived image or image-annotation observations. from Human ocular-neoplasm cases are indicated by clinical and histopathology images.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "external_eye",
+      "primary_category": "external_eye",
       "modalities": [
+        "external_eye",
+        "cell_microscopy",
         "tabular"
       ],
       "tasks": [
-        "measurement"
+        "classification"
       ],
       "samples": null,
       "item_count_unit": "images",
@@ -16311,80 +15649,6 @@
       "notes": "Human provenance: Source explicitly identifies 3,000 unique patients. Source-review finding: Nine files including Images.zip, four CSV files, analysis script, and documentation. Source-stated quantity retained without normalization: 3000 axial-power anterior maps (3,000 unique patients)."
     },
     {
-      "name": "mendeley_performance_corneal_vs_scleral_rigid_gas",
-      "full_name": "Data for: Performance of corneal vs. scleral rigid gas permeable contact lenses for ectatic corneal disorders",
-      "description": "Participant/eye-level clinical and lens-performance outcomes from People with keratoconus or related corneal ectatic disorders in the randomized contact-lens study.",
-      "modality": "corneal_topography",
-      "primary_category": "corneal_topography",
-      "modalities": [
-        "corneal_topography"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "unknown",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_performance_corneal_vs_scleral_rigid_gas",
-      "size_gb": null,
-      "license": "Attribution-NonCommercial 3.0 Unported",
-      "license_family": "unknown",
-      "source_terms": "Attribution-NonCommercial 3.0 Unported",
-      "terms_scope": "unknown",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/gmrbh4fvt2",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/gmrbh4fvt2/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_performance_corneal_vs_scleral_rigid_gas",
-      "citation": "Data for: Performance of corneal vs. scleral rigid gas permeable contact lenses for ectatic corneal disorders. Mendeley Data, V1. doi:10.17632/gmrbh4fvt2.1.",
-      "notes": "Human provenance: People with keratoconus or related corneal ectatic disorders in the randomized contact-lens study. Source-review finding: Current listing not independently retrievable; source description identifies the corneal-versus-scleral RGP clinical comparison."
-    },
-    {
-      "name": "mendeley_peripapillary_retinal_nerve_fiber_layer_thinning",
-      "full_name": "Data for: Peripapillary Retinal Nerve Fiber Layer Thinning in Genetic Generalized Epilepsy",
-      "description": "Observation-level human or human-derived measurements/signals. from Participants with genetic generalized epilepsy.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "measurement"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_peripapillary_retinal_nerve_fiber_layer_thinning",
-      "size_gb": null,
-      "license": "CC BY-NC 3.0",
-      "license_family": "cc-by-nc",
-      "source_terms": "CC BY-NC 3.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/wyys4gvk4n",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/wyys4gvk4n/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_peripapillary_retinal_nerve_fiber_layer_thinning",
-      "citation": "Data for: Peripapillary Retinal Nerve Fiber Layer Thinning in Genetic Generalized Epilepsy. Mendeley Data, V1. doi:10.17632/wyys4gvk4n.1.",
-      "notes": "Human provenance: Participants with genetic generalized epilepsy. Source-review finding: Clinical-characteristics appendix with device-derived RNFL thickness by eye/quadrant."
-    },
-    {
       "name": "mendeley_plasma_energy_metabolomics_patients_ocular_disease",
       "full_name": "plasma energy metabolomics in patients with ocular disease",
       "description": "Observation-level human or human-derived measurements/signals. from Patients with ocular disease, including POAG context.",
@@ -16582,43 +15846,6 @@
       "notes": "Human provenance: Source explicitly identifies 22 people with and without proliferative retinopathy. Source-review finding: One normalized microarray expression matrix TXT file."
     },
     {
-      "name": "mendeley_radial_peripapillary_capillary_density_as_predictive",
-      "full_name": "Radial peripapillary capillary density as a predictive factor for glaucoma in eyes with ocular hypertension",
-      "description": "Eye-level octa/peripapillary microcirculation measurements from De-identified human research data concerning radial peripapillary microcirculation in ocular hypertension/glaucoma.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "prediction"
-      ],
-      "samples": null,
-      "item_count_unit": "unknown",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_radial_peripapillary_capillary_density_as_predictive",
-      "size_gb": null,
-      "license": "Creative Commons Attribution 4.0 International",
-      "license_family": "cc-by",
-      "source_terms": "Creative Commons Attribution 4.0 International",
-      "terms_scope": "unknown",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/h9tntd4gkf",
-      "download_type": "manual",
-      "download_url": "https://data.mendeley.com/datasets/h9tntd4gkf",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "guided_instructions_only",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_radial_peripapillary_capillary_density_as_predictive",
-      "citation": "Radial peripapillary capillary density as a predictive factor for glaucoma in eyes with ocular hypertension. Mendeley Data. doi:10.17632/h9tntd4gkf.",
-      "notes": "Human provenance: De-identified human research data concerning radial peripapillary microcirculation in ocular hypertension/glaucoma. Source-review finding: Current listing not independently retrievable; source description calls the deposit de-identified original-research data on radial peripapillary plexus alterations."
-    },
-    {
       "name": "mendeley_raw_manuscript_light_responsive_microrna_molecules",
       "full_name": "RAW DATA to manuscript: Light-Responsive MicroRNA Molecules in Human Retinal Organoids are Differentially Regulated by Distinct Wavelengths of Light",
       "description": "Observation-level source data, annotations, or signals. from Human retinal organoids are explicitly stated.",
@@ -16659,13 +15886,14 @@
       "name": "mendeley_red_lesion_localization_messidor_retinal_images",
       "full_name": "Red lesion localization for MESSIDOR retinal images dataset using patch-based convolutional neural networks.",
       "description": "Observation-level source data, annotations, or signals. from MESSIDOR is a human retinal-image benchmark; this deposit adds lesion-localization data.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "fundus",
+      "primary_category": "fundus",
       "modalities": [
+        "fundus",
         "tabular"
       ],
       "tasks": [
-        "measurement"
+        "segmentation"
       ],
       "samples": null,
       "item_count_unit": "signals",
@@ -16783,9 +16011,10 @@
       "name": "mendeley_retinal_blood_vessel_segmentation_rop",
       "full_name": "Retinal blood vessel segmentation(ROP)",
       "description": "Fundus-image-level vessel-segmentation data from Retinopathy-of-prematurity retinal images; human infant provenance is inherent to the stated ROP source.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "fundus",
+      "primary_category": "fundus",
       "modalities": [
+        "fundus",
         "tabular"
       ],
       "tasks": [
@@ -16891,43 +16120,6 @@
       "notes": "Human provenance: Human adult donor-eye cells and hESC-derived ocular lineages. Source-review finding: Current listing not independently retrievable; source description concerns SARS-CoV-2 infection of human adult donor-eye and hESC-derived ocular cells."
     },
     {
-      "name": "mendeley_selective_laser_trabeculoplasty_patients_angle_recession",
-      "full_name": "Data for: Selective Laser Trabeculoplasty in patients with angle recession glaucoma: a case series.",
-      "description": "Patient/eye-level demographics, baseline clinical profile, laser details, and follow-up from Patients with angle-recession glaucoma treated with selective laser trabeculoplasty.",
-      "modality": "tabular",
-      "primary_category": "tabular",
-      "modalities": [
-        "tabular"
-      ],
-      "tasks": [
-        "classification"
-      ],
-      "samples": null,
-      "item_count_unit": "participants",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_selective_laser_trabeculoplasty_patients_angle_recession",
-      "size_gb": null,
-      "license": "Creative Commons Attribution 4.0 International",
-      "license_family": "cc-by",
-      "source_terms": "Creative Commons Attribution 4.0 International",
-      "terms_scope": "unknown",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/rvw8k4k8g7",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/rvw8k4k8g7/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_selective_laser_trabeculoplasty_patients_angle_recession",
-      "citation": "Data for: Selective Laser Trabeculoplasty in patients with angle recession glaucoma: a case series.. Mendeley Data, V1. doi:10.17632/rvw8k4k8g7.1.",
-      "notes": "Human provenance: Patients with angle-recession glaucoma treated with selective laser trabeculoplasty. Source-review finding: Source description explicitly lists demographic, clinical pre-laser, laser-treatment, and follow-up fields in a data sheet."
-    },
-    {
       "name": "mendeley_serum_proteomic_profiles_keratoconus_post_laser",
       "full_name": "Serum proteomic profiles in keratoconus, post-laser vision correction ectasia, and pellucid marginal degeneration",
       "description": "Observation-level human or human-derived measurements/signals. from Keratoconus, post-laser ectasia, PMD and control participants.",
@@ -17002,49 +16194,14 @@
       "notes": "Human provenance: Plasma measurements from people with primary angle-closure glaucoma, as stated by the linked study title and source description. Source-review finding: Current listing not independently retrievable; source description states mass-spectrometric plasma amino-acid and carnitine analysis data."
     },
     {
-      "name": "mendeley_spatio_temporal_optical_coherence_tomography_provides",
-      "full_name": "Spatio-Temporal Optical Coherence Tomography provides full thickness imaging of the chorioretinal complex",
-      "description": "Observation-level source data, annotations, or signals. from Source describes chorioretinal OCT imaging; verify whether recordings are human at record addition.",
-      "modality": "oct",
-      "primary_category": "oct",
-      "modalities": [
-        "oct"
-      ],
-      "tasks": [
-        "classification"
-      ],
-      "samples": null,
-      "item_count_unit": "signals",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_spatio_temporal_optical_coherence_tomography_provides",
-      "size_gb": null,
-      "license": "CC BY 4.0",
-      "license_family": "cc-by",
-      "source_terms": "CC BY 4.0",
-      "terms_scope": "dataset_files",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/9pzm3mbp7w",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/9pzm3mbp7w/2",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_spatio_temporal_optical_coherence_tomography_provides",
-      "citation": "Spatio-Temporal Optical Coherence Tomography provides full thickness imaging of the chorioretinal complex. Mendeley Data, V2. doi:10.17632/9pzm3mbp7w.2.",
-      "notes": "Human provenance: Source describes chorioretinal OCT imaging; verify whether recordings are human at record addition. Source-review finding: 81 raw acquisition files: 39 MRAW and 42 CIH."
-    },
-    {
       "name": "mendeley_sub_cone_visual_resolution_by_active",
       "full_name": "Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola",
       "description": "Human/derived image or image-annotation observations. from 16 human participants, both eyes.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "adaptive_optics",
+      "primary_category": "adaptive_optics",
       "modalities": [
+        "adaptive_optics",
+        "eye_tracking",
         "tabular"
       ],
       "tasks": [
@@ -17251,9 +16408,11 @@
       "name": "mendeley_two_photon_excited_fluorescence_scanning_laser",
       "full_name": "Two-photon excited fluorescence scanning laser ophthalmoscopy images and software for data processing",
       "description": "Ophthalmoscopy image/measurement data plus processing software from Exemplary two-photon fluorescence ophthalmoscope recordings from a healthy subject's eye.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "fundus",
+      "primary_category": "fundus",
       "modalities": [
+        "fundus",
+        "retinal_imaging",
         "tabular"
       ],
       "tasks": [
@@ -17344,49 +16503,13 @@
       "notes": "Human provenance: Uses human retinal-image benchmarks; it contributes clinician disc tracings. Source-review finding: Two ZIP archives of original and ellipse-fitted disc tracings."
     },
     {
-      "name": "mendeley_vivo_analysis_comparison_anterior_segment_structures",
-      "full_name": "In Vivo Analysis and Comparison of Anterior Segment Structures of Both Eyes in Unilateral Herpetic Anterior Uveitis",
-      "description": "Eye-level anterior-segment sd-oct structural measurements from People with unilateral herpetic anterior uveitis and fellow-eye comparison.",
-      "modality": "oct",
-      "primary_category": "oct",
-      "modalities": [
-        "oct"
-      ],
-      "tasks": [
-        "segmentation"
-      ],
-      "samples": null,
-      "item_count_unit": "unknown",
-      "reported_quantities": [],
-      "alternate_sources": [],
-      "relationships": [],
-      "resource_role": "current_dataset",
-      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
-      "dataset_family_id": "mendeley_vivo_analysis_comparison_anterior_segment_structures",
-      "size_gb": null,
-      "license": "Creative Commons Attribution 4.0 International",
-      "license_family": "cc-by",
-      "source_terms": "Creative Commons Attribution 4.0 International",
-      "terms_scope": "unknown",
-      "terms_evidence_url": "https://data.mendeley.com/datasets/hmz2cz3jcg",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/hmz2cz3jcg/1",
-      "access_friction": "self_service_authenticated",
-      "availability_status": "available",
-      "route_last_checked": "2026-08-02",
-      "acquisition_support": "standard_platform_supported",
-      "loader_status": "metadata_only",
-      "doc_path": "/datasets/mendeley_vivo_analysis_comparison_anterior_segment_structures",
-      "citation": "In Vivo Analysis and Comparison of Anterior Segment Structures of Both Eyes in Unilateral Herpetic Anterior Uveitis. Mendeley Data, V1. doi:10.17632/hmz2cz3jcg.1.",
-      "notes": "Human provenance: People with unilateral herpetic anterior uveitis and fellow-eye comparison. Source-review finding: Current listing not independently retrievable; source abstract describes Schlemm-canal and iris features measured with AS SD-OCT."
-    },
-    {
       "name": "mendeley_vivo_cone_photoreceptor_topography_human_foveola",
       "full_name": "In-vivo cone photoreceptor topography of the human foveola",
       "description": "Retinal-image montages, cone annotation maps, and participant-level supporting measurements from In-vivo human foveolar imaging; individual-participant MATLAB files are stated.",
-      "modality": "tabular",
-      "primary_category": "tabular",
+      "modality": "adaptive_optics",
+      "primary_category": "adaptive_optics",
       "modalities": [
+        "adaptive_optics",
         "tabular"
       ],
       "tasks": [
@@ -21079,6 +20202,91 @@
       "doc_path": "/datasets/puwf_av",
       "citation": "Repository dataset record. 10.6084/m9.figshare.32509329.v1.",
       "notes": ""
+    },
+    {
+      "name": "qilu_ccm_nerve_segmentation",
+      "full_name": "Qilu Annotated Corneal Confocal Microscopy Nerve Segmentation Dataset",
+      "description": "A human corneal confocal microscopy dataset containing 410 source images from 88 participants, 410 filename-matched pixel-level nerve segmentation masks, 20 repeat annotations, and image-linked clinical and demographic data.",
+      "modality": "confocal",
+      "primary_category": "confocal",
+      "modalities": [
+        "confocal",
+        "tabular"
+      ],
+      "tasks": [
+        "segmentation",
+        "classification",
+        "measurement"
+      ],
+      "samples": 410,
+      "item_count_unit": "images",
+      "reported_quantities": [
+        {
+          "count": 410,
+          "unit": "images",
+          "scope": "Original CCM images in Set1 and Set2",
+          "evidence_url": "https://doi.org/10.1038/s41597-026-07418-6",
+          "evidence_basis": "associated_publication",
+          "primary": true,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": "Set1 contains 210 images and Set2 contains 200 images."
+        },
+        {
+          "count": 410,
+          "unit": "annotated_images",
+          "scope": "Filename-matched binary nerve segmentation masks",
+          "evidence_url": "https://doi.org/10.1038/s41597-026-07418-6",
+          "evidence_basis": "associated_publication",
+          "primary": false,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": "One expert-reviewed pixel-level mask per source image."
+        },
+        {
+          "count": 88,
+          "unit": "participants",
+          "scope": "Participants represented across Set1 and Set2",
+          "evidence_url": "https://doi.org/10.1038/s41597-026-07418-6",
+          "evidence_basis": "associated_publication",
+          "primary": false,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": "Set1 has 34 participants and Set2 has 54 participants."
+        },
+        {
+          "count": 20,
+          "unit": "annotated_images",
+          "scope": "Subset with repeat annotations",
+          "evidence_url": "https://doi.org/10.1038/s41597-026-07418-6",
+          "evidence_basis": "associated_publication",
+          "primary": false,
+          "exactness": "exact",
+          "review_date": "2026-08-02",
+          "notes": "These are repeat labels for existing images, not 20 additional images."
+        }
+      ],
+      "alternate_sources": [],
+      "relationships": [],
+      "resource_role": "current_dataset",
+      "resource_role_definition": "A current cataloged data product without a more specific structural role.",
+      "dataset_family_id": "qilu_ccm_nerve_segmentation",
+      "size_gb": 0.06370422896,
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_family": "cc-by",
+      "source_terms": "Creative Commons Attribution 4.0 International",
+      "terms_scope": "dataset_files",
+      "terms_evidence_url": "https://zenodo.org/records/18779434",
+      "download_type": "zenodo",
+      "download_url": "https://zenodo.org/records/18779434",
+      "access_friction": "anonymous_direct",
+      "availability_status": "available",
+      "route_last_checked": "2026-08-02",
+      "acquisition_support": "standard_platform_supported",
+      "loader_status": "implemented",
+      "doc_path": "/datasets/qilu_ccm_nerve_segmentation",
+      "citation": "Qiao Q, Cao J, Hou X. An Annotated Corneal Confocal Microscopy Dataset for Nerve Segmentation and Clinical Characterization. Scientific Data. 2026;13:1051. doi:10.1038/s41597-026-07418-6. Dataset: doi:10.5281/zenodo.18779434.",
+      "notes": "The current Zenodo deposit contains one 68,401,895-byte archive with 410 source PNG images, 410 corresponding masks, 20 repeat annotations, and one linked workbook. The version-specific dataset DOI is 10.5281/zenodo.18779434 and the concept DOI is 10.5281/zenodo.17570502. Reference 35 in the published article lists 10.5281/zenodo.17570504, which resolves to an unrelated record; the article's Data Records section and the official deposit identify 10.5281/zenodo.18779434."
     },
     {
       "name": "rao_fundus",

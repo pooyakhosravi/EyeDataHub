@@ -117,6 +117,60 @@ DRYAD_SCOPE_EXCLUSIONS = {
 }
 
 
+# The complete Mendeley subset was reviewed again after the official current
+# deposits were downloaded and their file structures were inspected. These
+# records remain in their source modules and dated audit logs, but they are not
+# part of the headline catalog because they do not meet the retained
+# human/model-use boundary.
+MENDELEY_NOT_USEFUL_RECORD_IDS = frozenset(
+    {
+        "chronic_corneal_disorders",
+        "corneal_parameters_kc",
+        "mendeley_anterior_segment_optical_coherence_tomography_angiography",
+        "mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric",
+        "mendeley_clinical_assessment_scleral_canal_expansion_glaucoma",
+        "mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic",
+        "mendeley_comparison_two_novel_comfilcon_contact_lens",
+        "mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading",
+        "mendeley_difference_retinal_nerve_fiber_layer_thickness",
+        "mendeley_effect_prednisone_plus_either_adalimumab_or",
+        "mendeley_effects_implantable_collamer_lens_icl_implantation",
+        "mendeley_improved_retinal_displacement_quantification_between_retinal",
+        "mendeley_keratoconus_ukraine_children",
+        "mendeley_long_term_results_using_gelatin_microfistulae",
+        "mendeley_microvascular_changes_poag_after_npds",
+        "mendeley_performance_corneal_vs_scleral_rigid_gas",
+        "mendeley_peripapillary_retinal_nerve_fiber_layer_thinning",
+        "mendeley_radial_peripapillary_capillary_density_as_predictive",
+        "mendeley_selective_laser_trabeculoplasty_patients_angle_recession",
+        "mendeley_vivo_analysis_comparison_anterior_segment_structures",
+    }
+)
+
+
+MENDELEY_AUTHOR_REMOVED_UNCERTAIN_RECORD_IDS = frozenset(
+    {
+        "mendeley_comparison_clinical_outcomes_visual_quality_visual",
+        "mendeley_fundus_autofluorescence_premature_infants",
+        "mendeley_human_mesenchymal_stem_cells_derived_adipose",
+        "mendeley_imaging_retinal_choroidal_vasculature_using_spatio",
+        "mendeley_spatio_temporal_optical_coherence_tomography_provides",
+    }
+)
+
+
+MENDELEY_SCOPE_EXCLUSIONS = {
+    **{
+        record_id: "not_suitable_for_model_training_or_evaluation"
+        for record_id in MENDELEY_NOT_USEFUL_RECORD_IDS
+    },
+    **{
+        record_id: "excluded_after_author_review_due_to_uncertain_scope"
+        for record_id in MENDELEY_AUTHOR_REMOVED_UNCERTAIN_RECORD_IDS
+    },
+}
+
+
 # Earlier releases remain documented as ``previous_version`` links on the
 # retained current record. They are not separate catalog records.
 SUPERSEDED_VERSION_RECORD_IDS = frozenset(
@@ -140,6 +194,7 @@ DUPLICATE_OR_SUBSET_MIRROR_RECORD_IDS = frozenset(
 
 CATALOG_SCOPE_EXCLUSIONS = {
     **DRYAD_SCOPE_EXCLUSIONS,
+    **MENDELEY_SCOPE_EXCLUSIONS,
     **{
         record_id: "superseded_by_current_version"
         for record_id in SUPERSEDED_VERSION_RECORD_IDS
@@ -155,5 +210,11 @@ if len(NONHUMAN_DRYAD_RECORD_IDS) != 58:
     raise RuntimeError("Expected 58 reviewed nonhuman Dryad records")
 if len(DRYAD_SCOPE_EXCLUSIONS) != 63:
     raise RuntimeError("Expected 63 reviewed Dryad scope exclusions")
-if len(CATALOG_SCOPE_EXCLUSIONS) != 67:
-    raise RuntimeError("Expected 67 total catalog exclusions")
+if len(MENDELEY_NOT_USEFUL_RECORD_IDS) != 20:
+    raise RuntimeError("Expected 20 reviewed Mendeley model-use exclusions")
+if len(MENDELEY_AUTHOR_REMOVED_UNCERTAIN_RECORD_IDS) != 5:
+    raise RuntimeError("Expected 5 author-removed uncertain Mendeley records")
+if len(MENDELEY_SCOPE_EXCLUSIONS) != 25:
+    raise RuntimeError("Expected 25 reviewed Mendeley scope exclusions")
+if len(CATALOG_SCOPE_EXCLUSIONS) != 92:
+    raise RuntimeError("Expected 92 total catalog exclusions")

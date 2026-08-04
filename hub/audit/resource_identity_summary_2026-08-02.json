@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "catalog_version": "0.6.0",
+  "catalog_version": "0.7.0",
   "catalog_search_cutoff": "2026-08-02",
   "identity_review_date": "2026-08-02",
-  "current_catalog_record_count": 475,
-  "dataset_family_count": 470,
+  "current_catalog_record_count": 451,
+  "dataset_family_count": 446,
   "records_in_multi_record_families": 8,
   "multi_record_family_count": 3,
   "multi_record_families": {
@@ -27,7 +27,7 @@
     "annotation_layer": 17,
     "collection": 2,
     "component_dataset": 3,
-    "current_dataset": 431,
+    "current_dataset": 407,
     "derivative_dataset": 17,
     "extension_dataset": 2,
     "task_view": 3

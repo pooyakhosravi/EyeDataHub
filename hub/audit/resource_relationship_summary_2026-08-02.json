@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "catalog_version": "0.6.0",
+  "catalog_version": "0.7.0",
   "catalog_search_cutoff": "2026-08-02",
   "relationship_review_date": "2026-08-02",
-  "catalog_record_count": 475,
-  "reviewed_record_count": 475,
+  "catalog_record_count": 451,
+  "reviewed_record_count": 451,
   "directed_relationship_edge_count": 145,
   "records_participating_in_confirmed_relationships": 96,
   "records_with_outgoing_relationships": 48,
@@ -20,7 +20,7 @@
   "review_outcomes": {
     "confirmed_catalog_relationship": 96,
     "external_or_unresolved_relationship_only": 9,
-    "no_documented_catalog_relationship_identified": 370
+    "no_documented_catalog_relationship_identified": 346
   },
   "unresolved_or_external_item_count": 54,
   "reviewed_rejected_candidate_count": 16,

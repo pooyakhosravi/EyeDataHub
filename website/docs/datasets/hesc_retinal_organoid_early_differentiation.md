@@ -120,3 +120,5 @@ Repository dataset record. 10.6084/m9.figshare.30102802.v1.
 ## Similar resources by shared modality
 
 - [goblet_cell_segmentation](./goblet_cell_segmentation.md): Human Conjunctival Goblet Cell Segmentation Dataset (24 images, `cc-by`)
+- [mendeley_digital_holograms_rbcs_glaucoma_patients_healthy](./mendeley_digital_holograms_rbcs_glaucoma_patients_healthy.md): Digital holograms of RBCs from the glaucoma patients and healthy controls (Not reported, `cc-by`)
+- [mendeley_ocular_sebaceous_neoplasms](./mendeley_ocular_sebaceous_neoplasms.md): Ocular sebaceous neoplasms (Not reported, `cc-by`)

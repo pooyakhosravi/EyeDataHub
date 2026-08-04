@@ -10,10 +10,11 @@ from eyedatahub.datasets.registry import REGISTRY
 from eyedatahub.datasets.scope_exclusions import (
     CATALOG_SCOPE_EXCLUSIONS,
     DRYAD_SCOPE_EXCLUSIONS,
+    MENDELEY_SCOPE_EXCLUSIONS,
 )
 
 
-EXPECTED_DATASET_COUNT = 475
+EXPECTED_DATASET_COUNT = 451
 
 
 def test_registry_export_and_count():
@@ -142,11 +143,7 @@ def test_corrected_oct_loaders_follow_released_layouts(tmp_path):
 
     rpedc_root = tmp_path / "duke_rpedc"
     amd = rpedc_root / "AMD" / "Farsiu_Ophthalmology_2013_AMD_Subject_1.mat"
-    normal = (
-        rpedc_root
-        / "Normal"
-        / "Farsiu_Ophthalmology_2013_Normal_Subject_2.mat"
-    )
+    normal = rpedc_root / "Normal" / "Farsiu_Ophthalmology_2013_Normal_Subject_2.mat"
     amd.parent.mkdir(parents=True)
     normal.parent.mkdir(parents=True)
     amd.touch()
@@ -244,9 +241,7 @@ def test_dryad_backend_resolves_latest_version(monkeypatch, tmp_path):
                         {
                             "path": "nested/data.csv",
                             "_links": {
-                                "stash:download": {
-                                    "href": "/api/v2/files/2/download"
-                                }
+                                "stash:download": {"href": "/api/v2/files/2/download"}
                             },
                         }
                     ]
@@ -308,18 +303,14 @@ def test_mendeley_backend_uses_public_v4_api(monkeypatch, tmp_path):
     monkeypatch.setattr(download_utils.requests, "get", fake_get)
     monkeypatch.setattr(download_utils, "download_file", fake_download_file)
 
-    paths = download_utils.download_mendeley(
-        "sncdhf53xc", 4, tmp_path, extract=False
-    )
+    paths = download_utils.download_mendeley("sncdhf53xc", 4, tmp_path, extract=False)
 
     assert paths == [tmp_path / "octdl.zip"]
     assert calls[0][0] == (
         "https://api.data.mendeley.com/datasets/publics/sncdhf53xc/files"
     )
     assert calls[0][2] == {"version": 4, "$start": 0, "$limit": 100}
-    assert calls[0][1]["Accept"] == (
-        "application/vnd.mendeley-public-dataset.1+json"
-    )
+    assert calls[0][1]["Accept"] == ("application/vnd.mendeley-public-dataset.1+json")
 
 
 def test_cli_show_json_and_copy_python():
@@ -341,16 +332,16 @@ def test_modality_alias_resolution():
     # category differs from a contained modality.
     assert len(_resolve_datasets("uwf")) == 11
     assert len(_resolve_datasets("uwf_fundus")) == 11
-    assert len(_resolve_datasets("octa")) == 10
-    assert len(_resolve_datasets("ivcm")) == 6
-    assert len(_resolve_datasets("external_eye")) == 21
-    assert len(_resolve_datasets("eyelid")) == 21
+    assert len(_resolve_datasets("octa")) == 9
+    assert len(_resolve_datasets("ivcm")) == 7
+    assert len(_resolve_datasets("external_eye")) == 26
+    assert len(_resolve_datasets("eyelid")) == 26
     assert len(_resolve_datasets("surgical")) == 16
-    assert len(_resolve_datasets("aoslo")) == 2
-    assert len(_resolve_datasets("cell_microscopy")) == 2
+    assert len(_resolve_datasets("aoslo")) == 4
+    assert len(_resolve_datasets("cell_microscopy")) == 4
     assert len(_resolve_datasets("genomics")) == 32
-    assert len(_resolve_datasets("gaze")) == 16
-    assert len(_resolve_datasets("pupil")) == 16
+    assert len(_resolve_datasets("gaze")) == 18
+    assert len(_resolve_datasets("pupil")) == 18
     assert len(_resolve_datasets("iris")) == 7
     assert len(_resolve_datasets("ocular_biometrics")) == 7
 
@@ -375,7 +366,9 @@ def test_url_audit_report_has_reproducibility_metadata():
     assert "ok" in report["metadata"]["status_definitions"]
     assert report["summary"]["total"] == len(report["findings"])
     audited = {item["name"] for item in report["findings"]}
-    assert audited <= set(REGISTRY.names())
+    # The URL report is a dated audit artifact and retains rows for records
+    # removed by later scope review.
+    assert audited <= set(REGISTRY.names()) | set(CATALOG_SCOPE_EXCLUSIONS)
 
 
 def test_discovery_refresh_decision_log_matches_registry():
@@ -406,10 +399,23 @@ def test_discovery_refresh_decision_log_matches_registry():
         + dryad_summary["final_decision_counts"]["included_new_record"]
         - len(DRYAD_SCOPE_EXCLUSIONS)
         + repository_summary["overall_counts"]["included_new_record"]
+        # Two Mendeley-backed records were already part of the earlier
+        # catalog and were removed by the later deposit-level review. The
+        # other 23 removals are already absent from included_new_record.
+        - len(
+            {
+                "chronic_corneal_disorders",
+                "corneal_parameters_kc",
+            }
+            & set(MENDELEY_SCOPE_EXCLUSIONS)
+        )
         # REFUGE 2018 and the two EyePACS repackages predate the repository
         # sweep and are removed here. The raw glaucoma COT release is already
         # removed from the repository included-new count above.
         - 3
+        # Qilu CCM was supplied directly during the author review after the
+        # repository screening sweep and was verified against its Zenodo deposit.
+        + 1
         == EXPECTED_DATASET_COUNT
     )
     included = {item["slug"] for item in log["included"]}

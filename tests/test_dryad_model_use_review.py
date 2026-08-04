@@ -23,7 +23,7 @@ def test_reviewed_dryad_scope_counts() -> None:
     assert len(INSUFFICIENT_MODEL_EVIDENCE_IDS) == 1
     assert len(RELATIONSHIP_ONLY_RESOURCE_IDS) == 1
     assert len(DRYAD_SCOPE_EXCLUSIONS) == 63
-    assert len(CATALOG_SCOPE_EXCLUSIONS) == 67
+    assert len(CATALOG_SCOPE_EXCLUSIONS) == 92
     assert not set(CATALOG_SCOPE_EXCLUSIONS).intersection(REGISTRY.names())
     assert len([name for name in REGISTRY.names() if name.startswith("dryad_")]) == 82
 
@@ -60,18 +60,23 @@ def test_dryad_review_is_record_level_and_complete() -> None:
     included = [row for row in rows if row["headline_catalog_included"]]
     assert len(included) == 82
     assert all(
-        row["source_data_origin"] != "nonhuman_or_nonhuman_derived"
-        for row in included
+        row["source_data_origin"] != "nonhuman_or_nonhuman_derived" for row in included
     )
-    assert sum(
-        row["file_review_level"]
-        == "complete_current_deposit_structurally_inspected"
-        for row in included
-    ) == 75
-    assert sum(
-        row["file_review_level"] == "complete_official_file_listing"
-        for row in included
-    ) == 7
+    assert (
+        sum(
+            row["file_review_level"]
+            == "complete_current_deposit_structurally_inspected"
+            for row in included
+        )
+        == 75
+    )
+    assert (
+        sum(
+            row["file_review_level"] == "complete_official_file_listing"
+            for row in included
+        )
+        == 7
+    )
     assert summary["included_complete_deposit_structure_reviews"] == 75
     assert summary["included_official_file_listing_reviews"] == 7
     assert all(row["data_granularity"] for row in included)

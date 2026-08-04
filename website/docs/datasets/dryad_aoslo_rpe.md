@@ -123,3 +123,5 @@ Human retinal pigment epithelium: in vivo cell morphometry, multispectral autofl
 ## Similar resources by shared modality
 
 - [dryad_human_foveal_cones](./dryad_human_foveal_cones.md): Human foveal cone photoreceptor topography and its dependence on eye length (28 eyes, `cc0`)
+- [mendeley_sub_cone_visual_resolution_by_active](./mendeley_sub_cone_visual_resolution_by_active.md): Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola (16 participants, `cc-by`)
+- [mendeley_vivo_cone_photoreceptor_topography_human_foveola](./mendeley_vivo_cone_photoreceptor_topography_human_foveola.md): In-vivo cone photoreceptor topography of the human foveola (Not reported, `cc-by`)

@@ -19,7 +19,7 @@ python -m hub.docs.generate_dataset_pages --out website/docs
 
 This writes:
 
-- `website/docs/datasets/<name>.md` - one per current catalog resource (475 today)
+- `website/docs/datasets/<name>.md` - one per current catalog resource (451 in release 0.7.0)
 - `website/docs/datasets/<modality>-index.md` - one per modality
 - `website/docs/datasets/index.md` - top-level datasets landing
 - `website/sidebars.js` - auto-generated sidebar manifest

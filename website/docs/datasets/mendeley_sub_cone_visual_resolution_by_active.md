@@ -3,7 +3,7 @@ id: mendeley_sub_cone_visual_resolution_by_active
 title: "Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola"
 sidebar_label: mendeley_sub_cone_visual_resolution_by_active
 description: "Human/derived image or image-annotation observations. from 16 human participants, both eyes."
-tags: ["tabular", "cc-by", "mendeley", "prediction", "resource-role-current-dataset", "dataset-family-mendeley-sub-cone-visual-resolution-by-active"]
+tags: ["adaptive_optics", "eye_tracking", "tabular", "cc-by", "mendeley", "prediction", "resource-role-current-dataset", "dataset-family-mendeley-sub-cone-visual-resolution-by-active"]
 ---
 
 
@@ -20,10 +20,10 @@ Human/derived image or image-annotation observations. from 16 human participants
 | --- | --- |
 | **Short name** | `mendeley_sub_cone_visual_resolution_by_active` |
 | **Full name** | Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola |
-| **Primary category** | `tabular` |
+| **Primary category** | `adaptive_optics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_sub_cone_visual_resolution_by_active` |
-| **Contained modalities** | tabular |
+| **Contained modalities** | adaptive_optics, eye_tracking, tabular |
 | **Tasks** | prediction |
 | **Primary reported quantity** | 16 participants |
 | **Classes** | Not reported (Not reported) |
@@ -121,11 +121,11 @@ Data from: Sub-cone visual resolution by active, adaptive sampling in the human 
 
 ## Similar resources by shared modality
 
+- [dryad_human_foveal_cones](./dryad_human_foveal_cones.md): Human foveal cone photoreceptor topography and its dependence on eye length (28 eyes, `cc0`)
+- [mendeley_code_manuscript_fixational_eye_movements_as](./mendeley_code_manuscript_fixational_eye_movements_as.md): Data and code for manuscript: Fixational eye movements as active sensation for high visual acuity (Not reported, `cc-by`)
+- [mendeley_vivo_cone_photoreceptor_topography_human_foveola](./mendeley_vivo_cone_photoreceptor_topography_human_foveola.md): In-vivo cone photoreceptor topography of the human foveola (Not reported, `cc-by`)
+- [teyed](./teyed.md): TEyeD Real-World Eye-Tracking Dataset (20,666,096 images, `unknown`)
+- [gaze_capture](./gaze_capture.md): GazeCapture Mobile Eye-Tracking Dataset (2,445,504 frames, `unknown`)
+- [eth_xgaze](./eth_xgaze.md): ETH-XGaze Extreme-Pose Gaze Estimation Dataset (1,083,492 images, `cc-by-nc-sa`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
-- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
-- [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
-- [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
-- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
-- [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
-- [dryad_icmr_eye_see_cataract](./dryad_icmr_eye_see_cataract.md): ICMR EYE SEE Cataract and Sun Exposure Dataset (9,735 participants, `cc0`)
+- [mpii_gaze](./mpii_gaze.md): MPIIGaze Appearance-Based Gaze Estimation Dataset (213,659 images, `cc-by-nc-sa`)

@@ -3,7 +3,7 @@ id: mendeley_cp_anemic_conjunctival_pallor_ghana
 title: "CP-AnemiC (A Conjunctival Pallor) Dataset from Ghana"
 sidebar_label: mendeley_cp_anemic_conjunctival_pallor_ghana
 description: "Image-level conjunctival-pallor observations with anemia-related target from Conjunctival photographs of children aged 6-59 months presenting at assigned Ghanaian health facilities."
-tags: ["tabular", "cc-by", "manual", "classification", "resource-role-current-dataset", "dataset-family-mendeley-cp-anemic-conjunctival-pallor-ghana"]
+tags: ["external_eye", "tabular", "cc-by", "manual", "classification", "resource-role-current-dataset", "dataset-family-mendeley-cp-anemic-conjunctival-pallor-ghana"]
 ---
 
 
@@ -20,10 +20,10 @@ Image-level conjunctival-pallor observations with anemia-related target from Con
 | --- | --- |
 | **Short name** | `mendeley_cp_anemic_conjunctival_pallor_ghana` |
 | **Full name** | CP-AnemiC (A Conjunctival Pallor) Dataset from Ghana |
-| **Primary category** | `tabular` |
+| **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_cp_anemic_conjunctival_pallor_ghana` |
-| **Contained modalities** | tabular |
+| **Contained modalities** | external_eye, tabular |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |
 | **Classes** | Not reported (Not reported) |
@@ -119,11 +119,11 @@ CP-AnemiC (A Conjunctival Pallor) Dataset from Ghana. Mendeley Data. doi:10.1763
 
 ## Similar resources by shared modality
 
-- [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
-- [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
-- [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
-- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
-- [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
-- [dryad_icmr_eye_see_cataract](./dryad_icmr_eye_see_cataract.md): ICMR EYE SEE Cataract and Sun Exposure Dataset (9,735 participants, `cc0`)
+- [uveitis_smote](./uveitis_smote.md): Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation (3,245 images, `cc-by`)
+- [eed_astig](./eed_astig.md): EED-Astig Pediatric External-Eye Dataset (3,088 images, `research-only`)
+- [dryad_sbcc2fr6n](./dryad_sbcc2fr6n.md): Exploring phenotypic diversity of pigmented traits and iris features in Pakistani population (514 participants, `cc0`)
+- [dryad_iris_surface_features](./dryad_iris_surface_features.md): Iris Surface Features Dataset (Not reported, `cc0`)
+- [mendeley_application_machine_learning_detecting_iron_deficiency](./mendeley_application_machine_learning_detecting_iron_deficiency.md): Application of Machine Learning in Detecting Iron Deficiency Anemia Using  Conjunctiva image Dataset from Ghana (Not reported, `cc-by`)
+- [mendeley_conjunctival_melanoma_detection_using_deep_learning](./mendeley_conjunctival_melanoma_detection_using_deep_learning.md): Conjunctival melanoma detection using deep learning in smartphone images (Not reported, `cc-by-nc`)
+- [mendeley_nuclear_cataract_database_biomedical_machine_learning](./mendeley_nuclear_cataract_database_biomedical_machine_learning.md): Nuclear Cataract Database for Biomedical and Machine Learning Applications (Not reported, `cc-by`)

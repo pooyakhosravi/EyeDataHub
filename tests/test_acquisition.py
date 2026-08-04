@@ -86,7 +86,7 @@ class FakeDataset(EyeDataHubDataset):
 
 def test_every_record_has_independent_access_and_automation_dimensions():
     records = REGISTRY.list_datasets()
-    assert len(records) == 475
+    assert len(records) == 451
     for dataset in records:
         info = dataset.info
         assert info.access_friction in ACCESS_FRICTION_VALUES
@@ -114,7 +114,9 @@ def test_dry_run_is_side_effect_free(tmp_path):
     assert result.exit_code == EXIT_SUCCESS
     assert result.transfer_started is False
     assert result.preflight["terms_accepted_by_eyedatahub"] is False
-    assert result.preflight["source_term_flags"]["attribution_condition_recorded"] is True
+    assert (
+        result.preflight["source_term_flags"]["attribution_condition_recorded"] is True
+    )
     assert any("attribution" in warning.lower() for warning in result.warnings)
     assert not target.exists()
     assert dataset.download_calls == 0
@@ -198,7 +200,9 @@ def test_invalid_destination_is_reported_without_transfer(tmp_path):
 
 def test_insufficient_disk_space_blocks_before_transfer(monkeypatch, tmp_path):
     dataset = FakeDataset(size_gb=1.0)
-    monkeypatch.setattr("eyedatahub.acquisition.shutil.disk_usage", lambda _: SimpleNamespace(free=1))
+    monkeypatch.setattr(
+        "eyedatahub.acquisition.shutil.disk_usage", lambda _: SimpleNamespace(free=1)
+    )
     result = acquire_dataset(dataset, tmp_path)
     assert result.status == "insufficient_disk_space"
     assert result.exit_code == EXIT_INVALID_REQUEST
@@ -238,7 +242,9 @@ def test_expected_results_fixture_is_external_to_implementation():
             modalities=tuple(filter(None, row["modalities"].split("|"))),
             tasks=tuple(filter(None, row["tasks"].split("|"))),
             access_friction=tuple(filter(None, row["access_friction"].split("|"))),
-            acquisition_support=tuple(filter(None, row["acquisition_support"].split("|"))),
+            acquisition_support=tuple(
+                filter(None, row["acquisition_support"].split("|"))
+            ),
         )
         observed = [dataset.info.name for dataset in results]
         expected = list(filter(None, row["expected_record_ids"].split("|")))
@@ -250,7 +256,9 @@ def test_oct_alias_and_multimodal_containment_are_consistent():
     oct_long = search_datasets(
         REGISTRY.list_datasets(), modalities=["optical coherence tomography"]
     )
-    assert [item.info.name for item in oct_short] == [item.info.name for item in oct_long]
+    assert [item.info.name for item in oct_short] == [
+        item.info.name for item in oct_long
+    ]
     assert any(item.info.primary_category == "multimodal" for item in oct_short)
     gamma = REGISTRY.get_dataset("gamma").info
     assert {"fundus", "oct"}.issubset(gamma.modalities)
@@ -312,7 +320,7 @@ def test_dataset_and_article_citations_remain_separate():
     payload = citation_payload(REGISTRY.get_dataset("rvo_me").info)
     assert payload["dataset"]["doi"] == "10.6084/m9.figshare.29804435.v1"
     assert payload["dataset"]["doi"] != payload["associated_article"]["doi"]
-    assert payload["software"]["version"] == "0.6.0"
+    assert payload["software"]["version"] == "0.7.0"
 
 
 def test_explicit_dataset_doi_is_not_reclassified_as_an_article_doi():

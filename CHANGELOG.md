@@ -6,6 +6,40 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-08-04
+
+### Added
+
+- Added content-level eligibility review for 141 Mendeley Data candidates and
+  retained 116 records with reusable model inputs, targets, annotations, or
+  observation-level measurements.
+- Added a release-consistency check covering the catalog, dataset-family
+  summary, route summaries, package metadata, citation metadata, website data,
+  and dated validation artifacts.
+- Added machine-readable Mendeley inventory and versioned-deposit review logs.
+
+### Changed
+
+- Reconciled the scientific snapshot to 451 current catalog records
+  representing 446 narrowly defined dataset families.
+- Excluded Mendeley deposits containing only article-support tables,
+  document-only material, peripheral analyses, derived measurements without
+  sufficient stand-alone model value, or unresolved scope.
+- Regenerated the five-repository screening flow as 18,737 hits, 18,449
+  exclusions, 288 eligible repository records, and 451 final canonical
+  resources after reconciliation with other documented routes.
+- Regenerated the catalog, identity, relationship, quantity, access, website,
+  and citation artifacts from the same 0.7.0 source state.
+- Clarified that 350 records use repository or challenge-platform API or
+  client routes; this backend grouping does not itself imply that a user
+  account is required.
+
+### Security
+
+- Preserved only redacted route and validation metadata. No credential values,
+  signed download URLs, participant-level values, local data paths, or indexed
+  third-party dataset files are included.
+
 ## [0.6.0] - 2026-08-02
 
 ### Added

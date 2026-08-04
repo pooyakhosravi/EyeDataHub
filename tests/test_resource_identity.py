@@ -28,11 +28,11 @@ def test_current_catalog_identity_counts() -> None:
     families = {dataset_family_for(record_id) for record_id in record_ids}
     role_counts = Counter(resource_role_for(record_id) for record_id in record_ids)
 
-    assert len(record_ids) == 475
-    assert len(families) == 470
+    assert len(record_ids) == 451
+    assert len(families) == 446
     assert not record_ids & retired_ids
     assert role_counts == {
-        "current_dataset": 431,
+        "current_dataset": 407,
         "annotation_layer": 17,
         "derivative_dataset": 17,
         "task_view": 3,
@@ -63,10 +63,7 @@ def test_relationship_and_annotation_identity_is_complete() -> None:
 def test_retired_routes_are_preserved_on_current_records() -> None:
     records = {dataset.info.name: dataset.info for dataset in REGISTRY.list_datasets()}
     alternate_urls = {
-        record_id: {
-            source.get("url")
-            for source in info.alternate_sources
-        }
+        record_id: {source.get("url") for source in info.alternate_sources}
         for record_id, info in records.items()
     }
 
@@ -85,12 +82,12 @@ def test_generated_identity_review_matches_runtime_catalog() -> None:
         history_rows = list(csv.DictReader(handle))
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
 
-    assert len(rows) == 475
-    assert len({row["record_id"] for row in rows}) == 475
-    assert len({row["dataset_family_id"] for row in rows}) == 470
+    assert len(rows) == 451
+    assert len({row["record_id"] for row in rows}) == 451
+    assert len({row["dataset_family_id"] for row in rows}) == 446
     assert len(history_rows) == 4
-    assert summary["current_catalog_record_count"] == 475
-    assert summary["dataset_family_count"] == 470
+    assert summary["current_catalog_record_count"] == 451
+    assert summary["dataset_family_count"] == 446
     assert summary["records_with_documented_derived_from_relationship"] == 33
     assert summary["annotation_layer_count"] == 17
     assert summary["component_dataset_count"] == 3

@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-08-02",
+  "status": "complete_current_deposit_download_confirmed",
+  "record_id": "qilu_ccm_nerve_segmentation",
+  "canonical_name": "Qilu Annotated Corneal Confocal Microscopy Nerve Segmentation Dataset",
+  "official_source_url": "https://zenodo.org/records/18779434",
+  "dataset_identifier": "10.5281/zenodo.18779434",
+  "concept_identifier": "10.5281/zenodo.17570502",
+  "associated_publication_identifier": "10.1038/s41597-026-07418-6",
+  "repository_record_id": "zenodo:18779434",
+  "source_review_date": "2026-08-02",
+  "download_verification_date": "2026-08-02",
+  "human_data": true,
+  "model_resource_scope": {
+    "eligible": true,
+    "reason": "The official deposit contains participant-derived source images, pixel-level masks, and linked clinical variables that can be used as model inputs, targets, or covariates. It is not limited to paper-supporting or derived summary tables."
+  },
+  "access": {
+    "route": "public_official_zenodo_record",
+    "authentication_required": false,
+    "api_token_required": false,
+    "manual_approval_required": false,
+    "source_stated_terms": "Creative Commons Attribution 4.0 International",
+    "terms_scope": "dataset_files"
+  },
+  "current_deposit": {
+    "record_id": 18779434,
+    "publication_date": "2026-02-26",
+    "record_updated_at": "2026-05-08T09:15:32.440569+00:00",
+    "expected_file_count": 1,
+    "downloaded_file_count": 1,
+    "expected_bytes": 68401895,
+    "downloaded_bytes": 68401895,
+    "download_completed": true,
+    "file": {
+      "name": "Dataset.zip",
+      "bytes": 68401895,
+      "source_checksum_algorithm": "md5",
+      "source_checksum": "f486e486ed066e714eb0ecc4e0cd1ae3",
+      "source_checksum_matched": true,
+      "local_sha256": "34c657a250487db58c17b3de0407f1a38fc85923f6886f1a52c193c04c995595"
+    }
+  },
+  "archive_structure": {
+    "total_entries": 845,
+    "source_png_images": 410,
+    "segmentation_mask_png_images": 410,
+    "repeat_annotation_png_images": 20,
+    "linked_workbooks": 1,
+    "source_and_mask_filenames_match": true,
+    "sets": {
+      "set1_source_images": 210,
+      "set2_source_images": 200
+    },
+    "participants": 88
+  },
+  "download_result": {
+    "initial_result": "completed",
+    "final_result": "complete_current_deposit_downloaded",
+    "failure_mode": null,
+    "official_route_remained_available": true
+  },
+  "doi_review": {
+    "data_records_section_identifier": "10.5281/zenodo.18779434",
+    "reference_35_identifier": "10.5281/zenodo.17570504",
+    "reference_35_identifier_matches_dataset": false,
+    "resolution": "Use 10.5281/zenodo.18779434. The DOI printed in reference 35 resolves to an unrelated Zenodo record."
+  },
+  "retention": {
+    "third_party_dataset_files_in_repository": false,
+    "downloaded_archive_deleted_after_verification": true,
+    "public_log_contains_credentials": false,
+    "public_log_contains_signed_urls": false,
+    "public_log_contains_local_absolute_paths": false,
+    "public_log_contains_participant_values": false
+  },
+  "software_context": {
+    "package_version": "0.6.0",
+    "base_commit": "b71f8f7e97ba4ea4c1afc0d38d66377f5d99da7a",
+    "clean_checkout": false,
+    "note": "Source and file verification occurred in the active review worktree. Release-wide analyses must be regenerated from a clean tagged commit after catalog reconciliation."
+  }
+}

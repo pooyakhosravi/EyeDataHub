@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "release_version": "0.7.0",
+  "validation_date": "2026-08-04",
+  "automated_test_count": 146,
+  "local_test_result": "146 passed",
+  "local_python_version": "3.13.13",
+  "supported_python_versions": [
+    "3.10",
+    "3.11",
+    "3.12",
+    "3.13",
+    "3.14"
+  ],
+  "release_consistency_check": "passed",
+  "release_consistency_scope": [
+    "catalog version and cutoff",
+    "record and dataset-family counts",
+    "backend and user-facing access-route counts",
+    "identity, relationship, quantity, URL, and route-review summaries",
+    "package and citation metadata",
+    "website catalog data and documentation"
+  ],
+  "github_actions_run": "pending final release-candidate run",
+  "notes": "The test count is the collected release test suite, and the declared Python matrix is defined in .github/workflows/ci.yml."
+}

@@ -25,7 +25,7 @@ The paired FASTQ files represent a defined human RPGR cone-rod-dystrophy sequenc
 | **Dataset family** | `dryad_rpgr_cone_rod_wes` |
 | **Contained modalities** | omics |
 | **Tasks** | classification |
-| **Primary reported quantity** | Not reported |
+| **Primary reported quantity** | 1 participants |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 4.478968648 GB |
@@ -42,7 +42,10 @@ The paired FASTQ files represent a defined human RPGR cone-rod-dystrophy sequenc
 
 ## Reported quantities
 
-No reproducible primary item count was exposed for the cataloged source version.
+| Role | Count | Unit | Scope | Basis | Evidence |
+| --- | ---: | --- | --- | --- | --- |
+| Primary | 1 | `participants` | Proband represented by the paired whole-exome sequencing files The complete current Dryad version 2 deposit contains paired reads for one source-described proband. | `official_source_description` | [https://doi.org/10.5061/dryad.5qfttdz5d](https://doi.org/10.5061/dryad.5qfttdz5d) |
+| Additional | 2 | `deposited_files` | Paired FASTQ files in the current Dryad version 2 deposit Both source checksums matched during complete-deposit inspection. | `current_deposit_file_listing` | [https://doi.org/10.5061/dryad.5qfttdz5d](https://doi.org/10.5061/dryad.5qfttdz5d) |
 
 Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 

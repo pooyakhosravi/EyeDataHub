@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "search_snapshot": "repository_search_candidates_2026-08-02.json",
   "screening_ledger": "repository_screening_ledger_2026-08-02.csv",
-  "review_date": "2026-08-02",
-  "catalog_record_count_at_screening": 475,
+  "review_date": "2026-08-03",
+  "catalog_record_count_at_screening": 451,
   "workflow_sources": [
     "dryad",
     "mendeley",
@@ -87,10 +87,11 @@
       "excluded_duplicate_or_alternate_deposit": 14,
       "excluded_insufficient_source_metadata": 57,
       "excluded_nonhuman_or_nonhuman_derived": 93,
+      "excluded_not_distinct_reusable_resource": 5,
       "excluded_not_eye_or_ophthalmology": 14680,
-      "excluded_not_suitable_for_model_training_or_evaluation": 277,
-      "existing_catalog_record": 29,
-      "included_new_record": 110
+      "excluded_not_suitable_for_model_training_or_evaluation": 297,
+      "existing_catalog_record": 27,
+      "included_new_record": 87
     }
   },
   "overall_counts": {
@@ -98,11 +99,11 @@
     "excluded_duplicate_or_alternate_deposit": 221,
     "excluded_insufficient_source_metadata": 1051,
     "excluded_nonhuman_or_nonhuman_derived": 165,
-    "excluded_not_distinct_reusable_resource": 485,
+    "excluded_not_distinct_reusable_resource": 490,
     "excluded_not_eye_or_ophthalmology": 16126,
-    "excluded_not_suitable_for_model_training_or_evaluation": 376,
-    "existing_catalog_record": 158,
-    "included_new_record": 155
+    "excluded_not_suitable_for_model_training_or_evaluation": 396,
+    "existing_catalog_record": 156,
+    "included_new_record": 132
   },
   "all_requested_searches_complete": true,
   "manual_review_complete": true,

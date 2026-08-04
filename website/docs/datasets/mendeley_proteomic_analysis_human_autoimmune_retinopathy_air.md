@@ -128,4 +128,4 @@ Proteomic analysis of human autoimmune retinopathy (AIR) vitreous. Mendeley Data
 - [dryad_stargardt_wes](./dryad_stargardt_wes.md): Stargardt Disease WES Variant Dataset (33 participants, `cc0`)
 - [mendeley_exome_sequencing_clec3b](./mendeley_exome_sequencing_clec3b.md): Exome sequencing data for CLEC3B (9 participants, `cc-by`)
 - [dryad_congenital_glaucoma_wes](./dryad_congenital_glaucoma_wes.md): Identification of novel variants in LTBP2 and PXDN using whole-exome sequencing in developmental and congenital glaucoma (3 families, `cc0`)
-- [cyp1b1_poag_genotypes](./cyp1b1_poag_genotypes.md): CYP1B1 Primary Open-Angle Glaucoma Genotype Dataset (Not reported, `cc-by`)
+- [dryad_rpgr_cone_rod_wes](./dryad_rpgr_cone_rod_wes.md): RPGR Cone-Rod Dystrophy WES Dataset (1 participants, `cc0`)

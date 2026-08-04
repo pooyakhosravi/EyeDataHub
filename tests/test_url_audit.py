@@ -14,7 +14,7 @@ def test_sanitize_public_url_preserves_nonsensitive_query_strings() -> None:
     assert sanitize_public_url(public) == public
 
 
-def test_platform_auth_response_is_an_access_requirement() -> None:
+def test_platform_probe_does_not_infer_user_credentials_from_403() -> None:
     platform_urls = (
         "https://data.mendeley.com/datasets/example/2",
         "https://www.kaggle.com/api/example",
@@ -25,8 +25,8 @@ def test_platform_auth_response_is_an_access_requirement() -> None:
         "https://physionet.org/content/example",
     )
     for url in platform_urls:
-        assert _classify(401, url) == "credentials_or_client_required"
-        assert _classify(403, url) == "credentials_or_client_required"
+        assert _classify(401, url) == "auth_required"
+        assert _classify(403, url) == "platform_or_browser_route"
 
 
 def test_github_and_google_drive_are_not_platform_credential_routes() -> None:

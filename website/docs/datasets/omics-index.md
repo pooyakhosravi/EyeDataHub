@@ -7,7 +7,7 @@ description: "32 resources containing omics data in EyeDataHub."
 
 # Omics datasets
 
-**32 datasets; 8 with a primary reported quantity; 73.9 GB total** - this page indexes every EyeDataHub resource tagged as containing `omics` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**32 datasets; 9 with a primary reported quantity; 73.9 GB total** - this page indexes every EyeDataHub resource tagged as containing `omics` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -19,6 +19,7 @@ description: "32 resources containing omics data in EyeDataHub."
 | [`mendeley_exome_sequencing_clec3b`](./mendeley_exome_sequencing_clec3b.md) | Exome sequencing data for CLEC3B | 9 participants | Not reported | `cc-by` | Mendeley Data |
 | [`mendeley_proteomic_analysis_human_autoimmune_retinopathy_air`](./mendeley_proteomic_analysis_human_autoimmune_retinopathy_air.md) | Proteomic analysis of human autoimmune retinopathy (AIR) vitreous | 5 participants | Not reported | `cc-by` | Mendeley Data |
 | [`dryad_congenital_glaucoma_wes`](./dryad_congenital_glaucoma_wes.md) | Identification of novel variants in LTBP2 and PXDN using whole-exome sequencing in developmental and congenital glaucoma | 3 families | 0.4 GB | `cc0` | Dryad |
+| [`dryad_rpgr_cone_rod_wes`](./dryad_rpgr_cone_rod_wes.md) | RPGR Cone-Rod Dystrophy WES Dataset | 1 participants | 4.5 GB | `cc0` | Dryad |
 | [`cyp1b1_poag_genotypes`](./cyp1b1_poag_genotypes.md) | CYP1B1 Primary Open-Angle Glaucoma Genotype Dataset | Not reported | Not reported | `cc-by` | Figshare |
 | [`mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic`](./mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic.md) | Superficial Conjunctival Cells from Dupilumab-treated Atopic Dermatitis Patients with Ocular Adverse Events Display a Transcriptomic Psoriasis Signature | Not reported | Not reported | `cc-by` | Mendeley Data |
 | [`mendeley_quantified_processed_microarray_22_individuals_without`](./mendeley_quantified_processed_microarray_22_individuals_without.md) | Quantified processed microarray data for 22 individuals with and without proliferative retinopathy | Not reported | Not reported | `cc-by` | Mendeley Data |
@@ -37,7 +38,6 @@ description: "32 resources containing omics data in EyeDataHub."
 | [`dryad_vkh_apoe`](./dryad_vkh_apoe.md) | VKH APOE Transcriptomics and Proteomics Dataset | Not reported | 68.9 GB | `cc0` | Dryad |
 | [`dryad_clcc1_retinitis_pigmentosa`](./dryad_clcc1_retinitis_pigmentosa.md) | CLCC1 Retinitis Pigmentosa Genomics Dataset | Not reported | 0.0 GB | `cc0` | Dryad |
 | [`dryad_corneal_conjunctivitis_biomarker`](./dryad_corneal_conjunctivitis_biomarker.md) | Corneal Conjunctivitis Biomarker Dataset | Not reported | 0.0 GB | `cc0` | Dryad |
-| [`dryad_rpgr_cone_rod_wes`](./dryad_rpgr_cone_rod_wes.md) | RPGR Cone-Rod Dystrophy WES Dataset | Not reported | 4.5 GB | `cc0` | Dryad |
 | [`dryad_ocular_surface_amr`](./dryad_ocular_surface_amr.md) | Ocular Surface AMR Keratitis Dataset | Not reported | 0.0 GB | `cc0` | Dryad |
 | [`dryad_tb_uveitis_ifn`](./dryad_tb_uveitis_ifn.md) | Type 1 interferon-inducible gene expression in QuantiFERON Gold TB-positive uveitis: a tool to stratify a high versus low risk of active tuberculosis? | Not reported | 0.0 GB | `cc0` | Dryad |
 | [`dryad_rao_multiomics`](./dryad_rao_multiomics.md) | Data and code from: Fatty acid metabolism reprograms immune microenvironment in retinal artery occlusion: Multi-Omics analysis highlights immunometabolic crosstalk | Not reported | 0.0 GB | `cc0` | Dryad |

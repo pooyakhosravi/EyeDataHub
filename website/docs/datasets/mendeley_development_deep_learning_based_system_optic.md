@@ -3,7 +3,7 @@ id: mendeley_development_deep_learning_based_system_optic
 title: "Dataset for - Development of a Deep Learning-based system for Optic Nerve characterization in Transorbital Ultrasound Images on a multicenter dataset"
 sidebar_label: mendeley_development_deep_learning_based_system_optic
 description: "Image-level ultrasound observations with characterization target from Multicentre transorbital ultrasound imaging of human optic nerves, as stated by the dataset/paper title."
-tags: ["tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-development-deep-learning-based-system-optic"]
+tags: ["multimodal", "ocular_ultrasound", "tabular", "cc-by", "mendeley", "measurement", "resource-role-current-dataset", "dataset-family-mendeley-development-deep-learning-based-system-optic"]
 ---
 
 
@@ -20,10 +20,10 @@ Image-level ultrasound observations with characterization target from Multicentr
 | --- | --- |
 | **Short name** | `mendeley_development_deep_learning_based_system_optic` |
 | **Full name** | Dataset for - Development of a Deep Learning-based system for Optic Nerve characterization in Transorbital Ultrasound Images on a multicenter dataset |
-| **Primary category** | `tabular` |
+| **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_development_deep_learning_based_system_optic` |
-| **Contained modalities** | tabular |
+| **Contained modalities** | ocular_ultrasound, tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |
 | **Classes** | Not reported (Not reported) |
@@ -119,11 +119,11 @@ Dataset for - Development of a Deep Learning-based system for Optic Nerve charac
 
 ## Similar resources by shared modality
 
+- [dryad_preeclampsia_ocular_octa](./dryad_preeclampsia_ocular_octa.md): Plane wave ultrasound and OCT angiography of the eye in preeclampsia (Not reported, `cc0`)
+- [dryad_rop_plane_wave_doppler](./dryad_rop_plane_wave_doppler.md): ROP Plane-Wave Doppler Dataset (Not reported, `cc0`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
+- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
 - [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
-- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
-- [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
-- [dryad_icmr_eye_see_cataract](./dryad_icmr_eye_see_cataract.md): ICMR EYE SEE Cataract and Sun Exposure Dataset (9,735 participants, `cc0`)

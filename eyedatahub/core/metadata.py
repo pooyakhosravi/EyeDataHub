@@ -538,6 +538,65 @@ _DOI_RE = re.compile(r"10\.\d{4,9}/[-._;()/:A-Z0-9]+", re.IGNORECASE)
 # type. ``primary_category`` remains a single navigation label, while
 # ``modalities`` names every data type a user can retrieve from the resource.
 COMPONENT_MODALITY_OVERRIDES: Dict[str, List[str]] = {
+    "mendeley_application_machine_learning_detecting_iron_deficiency": [
+        "external_eye",
+        "tabular",
+    ],
+    "mendeley_code_manuscript_fixational_eye_movements_as": [
+        "eye_tracking",
+        "tabular",
+    ],
+    "mendeley_conjunctival_melanoma_detection_using_deep_learning": [
+        "external_eye",
+        "tabular",
+    ],
+    "mendeley_cp_anemic_conjunctival_pallor_ghana": [
+        "external_eye",
+        "tabular",
+    ],
+    "mendeley_development_deep_learning_based_system_optic": [
+        "ocular_ultrasound",
+        "tabular",
+    ],
+    "mendeley_digital_holograms_rbcs_glaucoma_patients_healthy": [
+        "cell_microscopy",
+        "tabular",
+    ],
+    "mendeley_electrooculography_eog_blink_analysis_ocular_fatigue": [
+        "electrophysiology",
+        "tabular",
+    ],
+    "mendeley_nuclear_cataract_database_biomedical_machine_learning": [
+        "external_eye",
+        "tabular",
+    ],
+    "mendeley_ocular_sebaceous_neoplasms": [
+        "external_eye",
+        "cell_microscopy",
+        "tabular",
+    ],
+    "mendeley_red_lesion_localization_messidor_retinal_images": [
+        "fundus",
+        "tabular",
+    ],
+    "mendeley_retinal_blood_vessel_segmentation_rop": [
+        "fundus",
+        "tabular",
+    ],
+    "mendeley_sub_cone_visual_resolution_by_active": [
+        "adaptive_optics",
+        "eye_tracking",
+        "tabular",
+    ],
+    "mendeley_two_photon_excited_fluorescence_scanning_laser": [
+        "fundus",
+        "retinal_imaging",
+        "tabular",
+    ],
+    "mendeley_vivo_cone_photoreceptor_topography_human_foveola": [
+        "adaptive_optics",
+        "tabular",
+    ],
     "mmrdr": ["fundus", "oct", "uwf_fundus"],
     "grape": ["fundus", "oct", "visual_field", "tabular"],
     "gamma": ["fundus", "oct"],

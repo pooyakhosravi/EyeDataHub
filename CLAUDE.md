@@ -4,8 +4,8 @@
 
 EyeDataHub is a versioned, community-extensible, license- and access-aware
 command-line tool backed by a manually curated ophthalmology dataset snapshot.
-The current catalog contains 475 current records across 18 primary categories,
-representing 470 narrowly defined dataset families.
+Release 0.7.0 contains 451 current records across 18 primary categories,
+representing 446 narrowly defined dataset families.
 
 The scientific output is the date-stamped metadata and availability snapshot. The
 practical output is the `eyehub` command line for discovery, citation,

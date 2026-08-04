@@ -41,6 +41,7 @@ from typing import List, Union
 
 from eyedatahub.core.dataset import DatasetInfo, DatasetSample, EyeDataHubDataset
 from eyedatahub.datasets.download_utils import (
+    download_zenodo,
     print_manual_download_instructions,
 )
 
@@ -573,6 +574,228 @@ class CORNCollectionDataset(EyeDataHubDataset):
             "corn_collection contains six overlapping subsets with different "
             "tasks and layouts; no unified parser is implemented."
         )
+
+
+# ---------------------------------------------------------------------------
+# Qilu corneal confocal microscopy nerve segmentation dataset
+# ---------------------------------------------------------------------------
+
+class QiluCCMNerveSegmentationDataset(EyeDataHubDataset):
+    """Human CCM images, nerve masks, and linked clinical data from Qilu."""
+
+    _SUBDIR = "qilu_ccm_nerve_segmentation"
+    _ZENODO_URL = "https://zenodo.org/records/18779434"
+    _ZENODO_RECORD = "18779434"
+    _ARTICLE_URL = "https://doi.org/10.1038/s41597-026-07418-6"
+
+    @property
+    def info(self) -> DatasetInfo:
+        return DatasetInfo(
+            name="qilu_ccm_nerve_segmentation",
+            full_name=(
+                "Qilu Annotated Corneal Confocal Microscopy Nerve "
+                "Segmentation Dataset"
+            ),
+            description=(
+                "A human corneal confocal microscopy dataset containing 410 "
+                "source images from 88 participants, 410 filename-matched "
+                "pixel-level nerve segmentation masks, 20 repeat annotations, "
+                "and image-linked clinical and demographic data."
+            ),
+            modality="confocal",
+            modalities=["confocal", "tabular"],
+            primary_category="confocal",
+            tasks=["segmentation", "classification", "measurement"],
+            num_samples=410,
+            item_count_unit="images",
+            reported_quantities=[
+                {
+                    "count": 410,
+                    "unit": "images",
+                    "scope": "Original CCM images in Set1 and Set2",
+                    "evidence_url": self._ARTICLE_URL,
+                    "evidence_basis": "associated_publication",
+                    "primary": True,
+                    "exactness": "exact",
+                    "review_date": "2026-08-02",
+                    "notes": "Set1 contains 210 images and Set2 contains 200 images.",
+                },
+                {
+                    "count": 410,
+                    "unit": "annotated_images",
+                    "scope": "Filename-matched binary nerve segmentation masks",
+                    "evidence_url": self._ARTICLE_URL,
+                    "evidence_basis": "associated_publication",
+                    "primary": False,
+                    "exactness": "exact",
+                    "review_date": "2026-08-02",
+                    "notes": "One expert-reviewed pixel-level mask per source image.",
+                },
+                {
+                    "count": 88,
+                    "unit": "participants",
+                    "scope": "Participants represented across Set1 and Set2",
+                    "evidence_url": self._ARTICLE_URL,
+                    "evidence_basis": "associated_publication",
+                    "primary": False,
+                    "exactness": "exact",
+                    "review_date": "2026-08-02",
+                    "notes": "Set1 has 34 participants and Set2 has 54 participants.",
+                },
+                {
+                    "count": 20,
+                    "unit": "annotated_images",
+                    "scope": "Subset with repeat annotations",
+                    "evidence_url": self._ARTICLE_URL,
+                    "evidence_basis": "associated_publication",
+                    "primary": False,
+                    "exactness": "exact",
+                    "review_date": "2026-08-02",
+                    "notes": "These are repeat labels for existing images, not 20 additional images.",
+                },
+            ],
+            splits=["set1", "set2"],
+            download_type="zenodo",
+            download_url=self._ZENODO_URL,
+            license="Creative Commons Attribution 4.0 International",
+            citation=(
+                "Qiao Q, Cao J, Hou X. An Annotated Corneal Confocal "
+                "Microscopy Dataset for Nerve Segmentation and Clinical "
+                "Characterization. Scientific Data. 2026;13:1051. "
+                "doi:10.1038/s41597-026-07418-6. Dataset: "
+                "doi:10.5281/zenodo.18779434."
+            ),
+            tags=[
+                "confocal",
+                "cornea",
+                "corneal_nerve",
+                "segmentation",
+                "clinical_data",
+                "diabetes",
+                "human",
+            ],
+            size_gb=0.06370422896,
+            notes=(
+                "The current Zenodo deposit contains one 68,401,895-byte "
+                "archive with 410 source PNG images, 410 corresponding masks, "
+                "20 repeat annotations, and one linked workbook. The version-"
+                "specific dataset DOI is 10.5281/zenodo.18779434 and the "
+                "concept DOI is 10.5281/zenodo.17570502. Reference 35 in the "
+                "published article lists 10.5281/zenodo.17570504, which resolves "
+                "to an unrelated record; the article's Data Records section "
+                "and the official deposit identify 10.5281/zenodo.18779434."
+            ),
+            source_landing_page_url=self._ZENODO_URL,
+            preferred_route_type="official_repository",
+            preferred_route_url=self._ZENODO_URL,
+            access_friction="anonymous_direct",
+            requires_registration=False,
+            requires_authentication=False,
+            requires_api_token=False,
+            requires_clickthrough=False,
+            requires_manual_approval=False,
+            requires_data_use_agreement=False,
+            requires_author_contact=False,
+            requires_payment=False,
+            geographic_or_institutional_restriction="none_stated",
+            availability_status="available",
+            route_last_checked="2026-08-02",
+            route_check_result="anonymous_official_route_verified",
+            route_check_notes=(
+                "The public record metadata and complete Dataset.zip file were "
+                "retrieved without authentication on 2026-08-02."
+            ),
+            acquisition_support="standard_platform_supported",
+            loader_backend="zenodo",
+            loader_name="download_zenodo",
+            loader_version="0.6.0",
+            loader_live_tested=False,
+            loader_test_date="2026-08-02",
+            loader_test_scope="implementation_reviewed_against_verified_layout",
+            loader_test_result="new_loader_not_yet_live_tested",
+            tested_command=(
+                "eyehub download qilu_ccm_nerve_segmentation "
+                "--data-dir <directory> --json"
+            ),
+            source_terms="Creative Commons Attribution 4.0 International",
+            terms_evidence_url=self._ZENODO_URL,
+            terms_scope="dataset_files",
+            terms_component_notes=(
+                "Zenodo applies CC BY 4.0 to the deposited dataset files."
+            ),
+            dataset_doi="10.5281/zenodo.18779434",
+            repository_record_id="zenodo:18779434",
+            associated_publication_doi="10.1038/s41597-026-07418-6",
+            resource_version="Zenodo record 18779434",
+            canonical_resolver_url="https://doi.org/10.5281/zenodo.18779434",
+            item_count_evidence_url=self._ARTICLE_URL,
+            modality_evidence_url=self._ARTICLE_URL,
+            task_evidence_url=self._ARTICLE_URL,
+            citation_evidence_url=self._ARTICLE_URL,
+            author_source_checked=True,
+            source_check_date="2026-08-02",
+            source_check_status="checked_against_official_deposit_and_article",
+            access_check_status="anonymous_official_route_verified",
+            transfer_check_status=(
+                "complete_current_deposit_downloaded_via_official_route"
+            ),
+        )
+
+    @staticmethod
+    def _dataset_root(root: Path) -> Path:
+        nested = root / "Dataset"
+        return nested if nested.exists() else root
+
+    def is_downloaded(self, data_dir: Union[str, Path]) -> bool:
+        root = self._dataset_root(Path(data_dir) / self._SUBDIR)
+        image_dir = root / "images"
+        annotation_dir = root / "annotations"
+        if not image_dir.is_dir() or not annotation_dir.is_dir():
+            return False
+        image_names = {path.name for path in image_dir.glob("*.png")}
+        annotation_names = {path.name for path in annotation_dir.glob("*.png")}
+        return len(image_names) == 410 and image_names == annotation_names
+
+    def download(self, data_dir: Union[str, Path]) -> None:
+        root = Path(data_dir) / self._SUBDIR
+        download_zenodo(self._ZENODO_RECORD, root, extract=True)
+
+    def load(
+        self, data_dir: Union[str, Path], split: str = "all"
+    ) -> List[DatasetSample]:
+        if split not in {"all", "set1", "set2"}:
+            raise ValueError("split must be one of: all, set1, set2")
+
+        root = self._dataset_root(Path(data_dir) / self._SUBDIR)
+        image_dir = root / "images"
+        annotation_dir = root / "annotations"
+        if not image_dir.is_dir() or not annotation_dir.is_dir():
+            raise FileNotFoundError(
+                f"Qilu CCM images and annotations were not found in {root}."
+            )
+
+        samples: List[DatasetSample] = []
+        for image_path in sorted(image_dir.glob("*.png")):
+            set_name = f"set{image_path.stem[0]}"
+            if split != "all" and set_name != split:
+                continue
+            mask_path = annotation_dir / image_path.name
+            if not mask_path.is_file():
+                raise FileNotFoundError(
+                    f"Missing segmentation mask for {image_path.name}"
+                )
+            samples.append(
+                DatasetSample(
+                    image_path=str(image_path),
+                    label=str(mask_path),
+                    sample_id=image_path.stem,
+                    metadata={
+                        "split": set_name,
+                        "mask_path": str(mask_path),
+                    },
+                )
+            )
+        return samples
 
 
 # Backwards-compatible alias

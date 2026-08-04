@@ -68,7 +68,7 @@ def sanitize_public_url(url: str) -> str:
 STATUS_DEFINITIONS = {
     "ok": "HTTP 2xx response after redirects; technical reachability only.",
     "forbidden": "HTTP 403 response; often bot-blocked, browser-gated, or manually accessible.",
-    "credentials_or_client_required": "The official platform requires credentials, a configured client, or a browser-mediated request; this is an access requirement, not a dataset download failure.",
+    "platform_or_browser_route": "The automated page probe was denied by a repository host; use the documented official API, client, or browser route. This is not a download failure and does not by itself establish that a user account is required.",
     "auth_required": "HTTP 401 or known access-controlled host requiring authentication.",
     "not_found": "HTTP 404 response; source-page review or replacement URL required.",
     "connect_error": "Connection failure during automated request.",
@@ -159,13 +159,11 @@ def _classify(status: int, url: str) -> str:
     if status in (301, 302, 303, 307, 308):
         return "redirect"
     if status == 401:
-        if any(host in url for host in platform_hosts):
-            return "credentials_or_client_required"
         return "auth_required"
     if status == 403:
         # Some hosts return 403 to bots — annotate rather than fail
         if any(host in url for host in platform_hosts):
-            return "credentials_or_client_required"
+            return "platform_or_browser_route"
         return "auth_required" if "physionet" in url or "ieee-dataport" in url else "forbidden"
     if status == 404:
         return "not_found"
