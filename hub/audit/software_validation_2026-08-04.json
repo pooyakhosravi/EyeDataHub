@@ -21,6 +21,7 @@
     "package and citation metadata",
     "website catalog data and documentation"
   ],
-  "github_actions_run": "pending final release-candidate run",
+  "github_actions_run": "https://github.com/pooyakhosravi/EyeDataHub/actions/runs/30961615277",
+  "github_actions_result": "passed on Python 3.10, 3.11, 3.12, 3.13, and 3.14",
   "notes": "The test count is the collected release test suite, and the declared Python matrix is defined in .github/workflows/ci.yml."
 }

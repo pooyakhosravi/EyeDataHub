@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "generated_at": "2026-08-04T23:32:45.080174+00:00",
-    "elapsed_seconds": 74.8,
+    "generated_at": "2026-08-04T23:57:41.772170+00:00",
+    "elapsed_seconds": 77.2,
     "command": "python.exe -m hub.audit.verify_urls",
     "package": "eyedatahub",
     "package_version": "0.7.0",
-    "git_commit": "b71f8f7e97ba4ea4c1afc0d38d66377f5d99da7a",
-    "git_dirty": true,
+    "git_commit": "cc84b975798a16a9ab53cdc9459dcd88d579bc4c",
+    "git_dirty": false,
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "timeout_seconds": 30,
     "concurrency": 8,
@@ -293,7 +293,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1YdZm-sioiAbTdBRy4oej1q6tZL8Baft7/edit",
-      "content_length": "122276",
+      "content_length": "122560",
       "status": "ok"
     },
     {
@@ -437,7 +437,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://borealisdata.ca/dataverse/OCTID",
-      "content_length": "13005",
+      "content_length": "13012",
       "status": "ok"
     },
     {
@@ -449,7 +449,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/10Ys4xsw81evjHewZEvqHy4Kri0my8C2S/view",
-      "content_length": "123910",
+      "content_length": "122176",
       "status": "ok"
     },
     {
@@ -521,7 +521,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu/edit",
-      "content_length": "122292",
+      "content_length": "122415",
       "status": "ok"
     },
     {
@@ -761,7 +761,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/14XWD6kX0dVRfAyEc7FkZGKZibWEkvnyv/view",
-      "content_length": "122368",
+      "content_length": "122286",
       "status": "ok"
     },
     {
@@ -773,7 +773,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Qlkqj74SW8DJRKdYL_-ApC_0H5Z7uyvr/view",
-      "content_length": "122129",
+      "content_length": "122220",
       "status": "ok"
     },
     {
@@ -785,7 +785,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Uz5x0aqXb0aecjzNWQ4522oCxaRDZxBt/view",
-      "content_length": "122174",
+      "content_length": "122247",
       "status": "ok"
     },
     {
@@ -797,7 +797,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view",
-      "content_length": "122468",
+      "content_length": "122166",
       "status": "ok"
     },
     {
@@ -809,7 +809,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view",
-      "content_length": "122407",
+      "content_length": "122150",
       "status": "ok"
     },
     {
@@ -821,7 +821,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view",
-      "content_length": "122439",
+      "content_length": "122333",
       "status": "ok"
     },
     {
@@ -1174,7 +1174,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://eye.medicine.uiowa.edu/rite-dataset",
-      "content_length": "36904",
+      "content_length": "36855",
       "status": "ok"
     },
     {
@@ -5284,7 +5284,7 @@
       "download_type": "manual",
       "download_url": "https://tsapps.nist.gov/BDbC/Search/Details/371",
       "url": "https://tsapps.nist.gov/BDbC/Search/Details/371",
-      "method": "HEAD",
+      "method": "GET(Range)",
       "http_status": 200,
       "final_url": "https://tsapps.nist.gov/BDbC/Search/Details/371",
       "content_length": null,
