@@ -3,7 +3,7 @@ id: myopic_regression_fundus
 title: "Myopic Regression after Corneal Refractive Surgery Fundus Sample"
 sidebar_label: myopic_regression_fundus
 description: "Public sample fundus photographs and measurements for modeling myopic regression after corneal refractive surgery."
-tags: ["fundus", "cc-by", "mendeley", "regression", "classification"]
+tags: ["fundus", "cc-by", "mendeley", "regression", "classification", "resource-role-current-dataset", "dataset-family-myopic-regression-fundus"]
 ---
 
 
@@ -21,6 +21,8 @@ Public sample fundus photographs and measurements for modeling myopic regression
 | **Short name** | `myopic_regression_fundus` |
 | **Full name** | Myopic Regression after Corneal Refractive Surgery Fundus Sample |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `myopic_regression_fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | regression, classification |
 | **Primary reported quantity** | 330 images |
@@ -31,7 +33,7 @@ Public sample fundus photographs and measurements for modeling myopic regression
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -127,4 +129,4 @@ Machine learning predicting myopic regression after corneal refractive surgery. 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

@@ -3,7 +3,7 @@ id: cataract101_extended_labels
 title: "Cataract-101 Extended Labels"
 sidebar_label: cataract101_extended_labels
 description: "Extended phase/time labels for the Cataract-101 surgical-video dataset."
-tags: ["surgical_video", "cc-by", "zenodo", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["surgical_video", "cc-by", "zenodo", "classification", "resource-role-annotation-layer", "dataset-family-cataract101-extended-labels", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Extended phase/time labels for the Cataract-101 surgical-video dataset.
 | **Short name** | `cataract101_extended_labels` |
 | **Full name** | Cataract-101 Extended Labels |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `cataract101_extended_labels` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | classification |
 | **Primary reported quantity** | 101 videos |
@@ -31,7 +33,7 @@ Extended phase/time labels for the Cataract-101 surgical-video dataset.
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

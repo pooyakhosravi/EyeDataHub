@@ -3,7 +3,7 @@ id: eed_astig
 title: "EED-Astig Pediatric External-Eye Dataset"
 sidebar_label: eed_astig
 description: "Pediatric external-eye photographs with gaze-view annotations, corneal masks, eyelid/eyelash-line keypoints, and clinical tabular parameters for astigmatism-related research."
-tags: ["external_eye", "tabular", "research-only", "manual", "segmentation", "landmark_detection", "regression"]
+tags: ["external_eye", "tabular", "research-only", "manual", "segmentation", "landmark_detection", "regression", "resource-role-current-dataset", "dataset-family-eed-astig"]
 ---
 
 
@@ -21,6 +21,8 @@ Pediatric external-eye photographs with gaze-view annotations, corneal masks, ey
 | **Short name** | `eed_astig` |
 | **Full name** | EED-Astig Pediatric External-Eye Dataset |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `eed_astig` |
 | **Contained modalities** | external_eye, tabular |
 | **Tasks** | segmentation, landmark_detection, regression |
 | **Primary reported quantity** | 3,088 images |
@@ -122,7 +124,7 @@ Liu H, Lv Y, Li S, Liu R, Hou X, Chen F, Liu Y, You J, Wang H, Liu S. EED-Astig.
 - [uveitis_smote](./uveitis_smote.md): Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation (3,245 images, `cc-by`)
 - [dryad_sbcc2fr6n](./dryad_sbcc2fr6n.md): Exploring phenotypic diversity of pigmented traits and iris features in Pakistani population (514 participants, `cc0`)
 - [dryad_iris_surface_features](./dryad_iris_surface_features.md): Iris Surface Features Dataset (Not reported, `cc0`)
-- [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
-- [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
+- [mendeley_application_machine_learning_detecting_iron_deficiency](./mendeley_application_machine_learning_detecting_iron_deficiency.md): Application of Machine Learning in Detecting Iron Deficiency Anemia Using  Conjunctiva image Dataset from Ghana (Not reported, `cc-by`)
+- [mendeley_conjunctival_melanoma_detection_using_deep_learning](./mendeley_conjunctival_melanoma_detection_using_deep_learning.md): Conjunctival melanoma detection using deep learning in smartphone images (Not reported, `cc-by-nc`)
+- [mendeley_cp_anemic_conjunctival_pallor_ghana](./mendeley_cp_anemic_conjunctival_pallor_ghana.md): CP-AnemiC (A Conjunctival Pallor) Dataset from Ghana (Not reported, `cc-by`)
+- [mendeley_nuclear_cataract_database_biomedical_machine_learning](./mendeley_nuclear_cataract_database_biomedical_machine_learning.md): Nuclear Cataract Database for Biomedical and Machine Learning Applications (Not reported, `cc-by`)

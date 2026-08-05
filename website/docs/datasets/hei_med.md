@@ -3,7 +3,7 @@ id: hei_med
 title: "HEI-MED: Hamilton Eye Institute Macular Edema Dataset"
 sidebar_label: hei_med
 description: "A collection of 169 fundus photographs with expert exudate and bright lesion annotations, clinical metadata, optic nerve locations, vessel estimates, and image quality scores."
-tags: ["fundus", "research-only", "github", "segmentation", "classification", "quality"]
+tags: ["fundus", "research-only", "github", "segmentation", "classification", "quality", "resource-role-current-dataset", "dataset-family-hei-med"]
 ---
 
 
@@ -21,6 +21,8 @@ A collection of 169 fundus photographs with expert exudate and bright lesion ann
 | **Short name** | `hei_med` |
 | **Full name** | HEI-MED: Hamilton Eye Institute Macular Edema Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `hei_med` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation, classification, quality |
 | **Primary reported quantity** | 169 images |
@@ -127,4 +129,4 @@ Giancardo L, Meriaudeau F, Karnowski TP, et al. Exudate-based diabetic macular e
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

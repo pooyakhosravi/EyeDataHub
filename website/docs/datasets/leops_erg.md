@@ -3,7 +3,7 @@ id: leops_erg
 title: "LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset"
 sidebar_label: leops_erg
 description: "Light-adapted electroretinogram and oscillatory-potential waveform dataset from 253 pediatric participants, with structured JSON, tabular metadata, and electrode-position eye images."
-tags: ["electrophysiology", "tabular", "cc-by", "mendeley", "classification", "regression"]
+tags: ["electrophysiology", "tabular", "cc-by", "mendeley", "classification", "regression", "resource-role-current-dataset", "dataset-family-leops-erg"]
 ---
 
 
@@ -21,6 +21,8 @@ Light-adapted electroretinogram and oscillatory-potential waveform dataset from 
 | **Short name** | `leops_erg` |
 | **Full name** | LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset |
 | **Primary category** | `electrophysiology` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `leops_erg` |
 | **Contained modalities** | electrophysiology, tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 9,743 signals |
@@ -31,7 +33,7 @@ Light-adapted electroretinogram and oscillatory-potential waveform dataset from 
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -123,10 +125,10 @@ Constable P, Thompson D, Lee I, Loh L, Zhdanov A, Kulyabin M, Maier A. Light-Ada
 ## Similar resources by shared modality
 
 - [perg_ioba](./perg_ioba.md): PERG-IOBA Ocular Electrophysiology Dataset (1,354 signals, `odc-by`)
-- [dryad_5xfad_retina_dlgn](./dryad_5xfad_retina_dlgn.md): 5xFAD Retina and dLGN Disease-Model Dataset (Not reported, `cc0`)
-- [dryad_d12d9f](./dryad_d12d9f.md): Excitatory neurotransmission activates compartmentalized calcium transients in Müller glia without affecting lateral process motility (Not reported, `cc0`)
-- [dryad_htr1b_mouse_retina](./dryad_htr1b_mouse_retina.md): &lt;em&gt;Htr1b&lt;/em&gt; is necessary for normal retinal function in mice (Not reported, `cc0`)
-- [dryad_mouse_pupil_masking_retinal_deg](./dryad_mouse_pupil_masking_retinal_deg.md): Pupil and masking responses to light as functional measures of retinal degeneration in mice Mus Musculus (Not reported, `cc0`)
-- [dryad_pzgmsbcmk](./dryad_pzgmsbcmk.md): Two-photon calcium recordings of cones (Not reported, `cc0`)
-- [dryad_zebrafish_thrb_photoreceptors](./dryad_zebrafish_thrb_photoreceptors.md): Thyroid hormone receptor beta mutations alter photoreceptor development and function in Danio rerio (zebrafish) (Not reported, `cc0`)
-- [dryad_zkh1893nt](./dryad_zkh1893nt.md): Glaucoma-associated optineurin mutations increase transcellular degradation of mitochondria in a vertebrate optic nerve (Not reported, `cc0`)
+- [mendeley_electrooculography_eog_blink_analysis_ocular_fatigue](./mendeley_electrooculography_eog_blink_analysis_ocular_fatigue.md): Electrooculography (EOG) Dataset for Blink Analysis and Ocular Fatigue Detection (4 participants, `cc-by`)
+- [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
+- [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
+- [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
+- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)

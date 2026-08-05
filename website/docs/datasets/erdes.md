@@ -3,7 +3,7 @@ id: erdes
 title: "ERDES: Ocular Ultrasound Video Benchmark (Retinal Detachment + Macula)"
 sidebar_label: erdes
 description: "5,381 B-scan ocular ultrasound video clips with retinal-detachment presence and macula-on/off status labels. Total runtime approximately 5 hours 10 minutes. Only public ocular ultrasound video benchma"
-tags: ["multimodal", "ocular_ultrasound", "unknown", "manual", "classification"]
+tags: ["multimodal", "ocular_ultrasound", "unknown", "manual", "classification", "resource-role-current-dataset", "dataset-family-erdes"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `erdes` |
 | **Full name** | ERDES: Ocular Ultrasound Video Benchmark (Retinal Detachment + Macula) |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `erdes` |
 | **Contained modalities** | ocular_ultrasound |
 | **Tasks** | classification |
 | **Primary reported quantity** | 5,381 video clips |
@@ -124,3 +126,4 @@ Ozkut Y, Navard P, Adhikari S, et al., 'ERDES: A benchmark video dataset for ret
 - [ophthalvqa](./ophthalvqa.md): OphthalVQA Dataset (600 question answer pairs, `cc-by`)
 - [dryad_preeclampsia_ocular_octa](./dryad_preeclampsia_ocular_octa.md): Plane wave ultrasound and OCT angiography of the eye in preeclampsia (Not reported, `cc0`)
 - [dryad_rop_plane_wave_doppler](./dryad_rop_plane_wave_doppler.md): ROP Plane-Wave Doppler Dataset (Not reported, `cc0`)
+- [mendeley_development_deep_learning_based_system_optic](./mendeley_development_deep_learning_based_system_optic.md): Dataset for - Development of a Deep Learning-based system for Optic Nerve characterization in Transorbital Ultrasound Images on a multicenter dataset (Not reported, `cc-by`)

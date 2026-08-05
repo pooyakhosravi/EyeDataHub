@@ -490,6 +490,32 @@ class REFUGE2Dataset(EyeDataHubDataset):
             ),
             tags=["fundus", "glaucoma", "classification", "segmentation", "refuge", "ichallenge"],
             size_gb=1.2,
+            notes=(
+                "Current release containing all 1,200 REFUGE 2018 images plus "
+                "800 additional images. REFUGE 2018 is retained as version "
+                "history below and is not counted separately."
+            ),
+            alternate_sources=[
+                {
+                    "platform": "grand_challenge",
+                    "role": "previous_version",
+                    "url": "https://refuge.grand-challenge.org/",
+                    "identifier": "REFUGE-2018",
+                    "version": "2018",
+                    "notes": (
+                        "Earlier 1,200-image release incorporated into REFUGE2; "
+                        "not counted as a separate current catalog record."
+                    ),
+                },
+                {
+                    "platform": "kaggle",
+                    "role": "mirror",
+                    "url": "https://www.kaggle.com/datasets/victorlemosml/refuge2",
+                    "identifier": "victorlemosml/refuge2",
+                    "version": "",
+                    "notes": "Non-authoritative mirror of the current REFUGE2 release.",
+                },
+            ],
         )
 
     def is_downloaded(self, data_dir: Union[str, Path]) -> bool:

@@ -3,7 +3,7 @@ id: mpii_gaze
 title: "MPIIGaze Appearance-Based Gaze Estimation Dataset"
 sidebar_label: mpii_gaze
 description: "Longitudinal laptop-camera images captured during natural daily use with gaze targets, face geometry, and normalized views."
-tags: ["eye_tracking", "cc-by-nc-sa", "manual", "gaze_estimation", "regression"]
+tags: ["eye_tracking", "cc-by-nc-sa", "manual", "gaze_estimation", "regression", "resource-role-current-dataset", "dataset-family-mpii-gaze"]
 ---
 
 
@@ -21,6 +21,8 @@ Longitudinal laptop-camera images captured during natural daily use with gaze ta
 | **Short name** | `mpii_gaze` |
 | **Full name** | MPIIGaze Appearance-Based Gaze Estimation Dataset |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mpii_gaze` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | gaze_estimation, regression |
 | **Primary reported quantity** | 213,659 images |
@@ -126,5 +128,5 @@ Zhang X, Sugano Y, Fritz M, Bulling A. Appearance-Based Gaze Estimation in the W
 - [gaze360](./gaze360.md): Gaze360 Physically Unconstrained Gaze Dataset (172,000 frames, `unknown`)
 - [lpw](./lpw.md): LPW Labelled Pupils in the Wild (130,856 frames, `research-only`)
 - [glaucoma_eye_movements](./glaucoma_eye_movements.md): Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss (270 participants, `cc-by`)
-- [dryad_biocular_eye_tracking](./dryad_biocular_eye_tracking.md): Bi-Ocular Vertebrate Eye-Tracking Dataset (Not reported, `cc0`)
-- [dryad_eye_head_visual_selection](./dryad_eye_head_visual_selection.md): Eye and Head Visual Selection Dataset (Not reported, `cc0`)
+- [mendeley_sub_cone_visual_resolution_by_active](./mendeley_sub_cone_visual_resolution_by_active.md): Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola (16 participants, `cc-by`)
+- [asd_eye_tracking](./asd_eye_tracking.md): Autism Spectrum Disorder Eye-Tracking Dataset (Not reported, `cc-by`)

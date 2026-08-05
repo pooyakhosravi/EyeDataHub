@@ -3,7 +3,7 @@ id: rfmid2
 title: "RFMiD 2.0 Auxiliary Multi-Disease Fundus Dataset"
 sidebar_label: rfmid2
 description: "Auxiliary RFMiD 2.0 retinal fundus dataset spanning 51 disease categories."
-tags: ["fundus", "cc-by", "zenodo", "classification", "multilabel", "documented-relationship", "relationship-derived_from", "relationship-extension_of"]
+tags: ["fundus", "cc-by", "zenodo", "classification", "multilabel", "resource-role-extension-dataset", "dataset-family-rfmid2", "documented-relationship", "relationship-derived_from", "relationship-extension_of"]
 ---
 
 
@@ -21,6 +21,8 @@ Auxiliary RFMiD 2.0 retinal fundus dataset spanning 51 disease categories.
 | **Short name** | `rfmid2` |
 | **Full name** | RFMiD 2.0 Auxiliary Multi-Disease Fundus Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `extension_dataset` |
+| **Dataset family** | `rfmid2` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, multilabel |
 | **Primary reported quantity** | 860 images |
@@ -31,7 +33,7 @@ Auxiliary RFMiD 2.0 retinal fundus dataset spanning 51 disease categories.
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -135,4 +137,4 @@ RFMiD 2.0. Zenodo, 2022. doi:10.5281/zenodo.7505822
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

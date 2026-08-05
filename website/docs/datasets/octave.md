@@ -3,7 +3,7 @@ id: octave
 title: "OCTAVE: 3D SD-OCT Retinal Segmentation Dataset"
 sidebar_label: octave
 description: "198 annotated 3D SD-OCT volumes (3,762 B-scans) with pixel-level labels for 13 anatomic and pathological retinal features: retina, choroid, vitreous, RPE, hyaloid, ERM, fluid, subretinal material, hyp"
-tags: ["oct", "cc-by-sa", "zenodo", "segmentation"]
+tags: ["oct", "cc-by-sa", "zenodo", "segmentation", "resource-role-current-dataset", "dataset-family-octave"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `octave` |
 | **Full name** | OCTAVE: 3D SD-OCT Retinal Segmentation Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `octave` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 198 volumes |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by-sa` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

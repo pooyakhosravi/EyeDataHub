@@ -220,7 +220,7 @@ DISCOVERY_RECORDS: list[dict[str, Any]] = [
         "citation": "Akram MU et al. Data on Fundus Images for Vessels Segmentation, Detection of Hypertensive Retinopathy, Diabetic Retinopathy and Papilledema. Mendeley Data, V2, 2019. doi:10.17632/3csr652p9y.2",
         "tags": ["mendeley", "fundus", "vessels", "papilledema", "pakistan"],
         "size_gb": 0.2,
-        "notes": "Mendeley Data may block automated URL probes with HTTP 403 (no bot allowed); browser link is valid.",
+        "notes": "Mendeley Data platform credentials or access setup may be required for automated listing or download requests; verify the current route before acquisition.",
         "source": {"id": "3csr652p9y", "version": 2},
     },
     {

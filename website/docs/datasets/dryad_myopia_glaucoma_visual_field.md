@@ -3,7 +3,7 @@ id: dryad_myopia_glaucoma_visual_field
 title: "Myopia and Glaucoma Visual Field Prognosis Dataset"
 sidebar_label: dryad_myopia_glaucoma_visual_field
 description: "The 270-eye glaucoma visual-field dataset directly supports prognosis and progression analysis."
-tags: ["visual_field", "tabular", "cc0", "dryad", "prognosis", "regression"]
+tags: ["visual_field", "tabular", "cc0", "dryad", "prognosis", "regression", "resource-role-current-dataset", "dataset-family-dryad-myopia-glaucoma-visual-field"]
 ---
 
 
@@ -21,6 +21,8 @@ The 270-eye glaucoma visual-field dataset directly supports prognosis and progre
 | **Short name** | `dryad_myopia_glaucoma_visual_field` |
 | **Full name** | Myopia and Glaucoma Visual Field Prognosis Dataset |
 | **Primary category** | `visual_field` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_myopia_glaucoma_visual_field` |
 | **Contained modalities** | visual_field, tabular |
 | **Tasks** | prognosis, regression |
 | **Primary reported quantity** | 270 eyes |
@@ -126,5 +128,5 @@ Qiu, Chen, Qian, Shaohong, Sun, Xinghuai, Zhou, Chuandi, and Meng, Fanrong. Data
 - [dryad_glaucoma_rnfl_vf](./dryad_glaucoma_rnfl_vf.md): RNFL and Visual-Field Glaucoma Diagnosis Dataset (499 records, `cc0`)
 - [dryad_xgxd254pk](./dryad_xgxd254pk.md): Supporting information for: Discrimination ability of central visual field testing using stimulus size I, II, and III and relationship with macular ganglion cell thickness in chiasmal compression (60 eyes, `cc0`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)

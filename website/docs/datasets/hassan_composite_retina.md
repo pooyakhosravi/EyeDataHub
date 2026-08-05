@@ -3,7 +3,7 @@ id: hassan_composite_retina
 title: "Composite Retinal Fundus and OCT Dataset with Clinical Markings"
 sidebar_label: hassan_composite_retina
 description: "Composite fundus and OCT dataset with retinal layer, retinal lesion, and macular/glaucomatous disorder markings."
-tags: ["multimodal", "fundus", "oct", "cc-by", "mendeley", "segmentation", "classification", "grading", "documented-relationship", "relationship-derived_from"]
+tags: ["multimodal", "fundus", "oct", "cc-by", "mendeley", "segmentation", "classification", "grading", "resource-role-current-dataset", "dataset-family-hassan-composite-retina", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Composite fundus and OCT dataset with retinal layer, retinal lesion, and macular
 | **Short name** | `hassan_composite_retina` |
 | **Full name** | Composite Retinal Fundus and OCT Dataset with Clinical Markings |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `hassan_composite_retina` |
 | **Contained modalities** | fundus, oct |
 | **Tasks** | segmentation, classification, grading |
 | **Primary reported quantity** | Not reported |
@@ -31,7 +33,7 @@ Composite fundus and OCT dataset with retinal layer, retinal lesion, and macular
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

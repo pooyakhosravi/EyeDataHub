@@ -12,8 +12,8 @@ from eyedatahub.catalog import info_to_record
 from eyedatahub.datasets.registry import REGISTRY
 
 
-CATALOG_CUTOFF = "2026-08-01"
-CATALOG_RECORD_COUNT = 386
+CATALOG_CUTOFF = "2026-08-02"
+CATALOG_RECORD_COUNT = 451
 
 
 def _csv_value(value: Any) -> Any:
@@ -40,7 +40,9 @@ def export_catalog(out_dir: Path | None = None) -> tuple[Path, Path]:
         "catalog_version": __version__,
         "catalog_search_cutoff": CATALOG_CUTOFF,
         "record_count": len(records),
-        "primary_category_count": len({record["primary_category"] for record in records}),
+        "primary_category_count": len(
+            {record["primary_category"] for record in records}
+        ),
         "scope": "complete_catalog",
         "third_party_dataset_files_included": False,
         "records": records,
@@ -48,7 +50,9 @@ def export_catalog(out_dir: Path | None = None) -> tuple[Path, Path]:
 
     json_path = target / "catalog.json"
     csv_path = target / "catalog.csv"
-    json_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    json_path.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
 
     fieldnames = list(records[0]) if records else []
     with csv_path.open("w", newline="", encoding="utf-8") as handle:
@@ -57,7 +61,9 @@ def export_catalog(out_dir: Path | None = None) -> tuple[Path, Path]:
         for record in records:
             writer.writerow({key: _csv_value(record.get(key)) for key in fieldnames})
 
-    print(f"Wrote {len(records)} complete catalog records to {json_path} and {csv_path}")
+    print(
+        f"Wrote {len(records)} complete catalog records to {json_path} and {csv_path}"
+    )
     return json_path, csv_path
 
 

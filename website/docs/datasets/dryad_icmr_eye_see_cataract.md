@@ -3,7 +3,7 @@ id: dryad_icmr_eye_see_cataract
 title: "ICMR EYE SEE Cataract and Sun Exposure Dataset"
 sidebar_label: dryad_icmr_eye_see_cataract
 description: "The large Indian cataract/UV exposure survey is direct human ophthalmic epidemiology data."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-icmr-eye-see-cataract"]
 ---
 
 
@@ -21,6 +21,8 @@ The large Indian cataract/UV exposure survey is direct human ophthalmic epidemio
 | **Short name** | `dryad_icmr_eye_see_cataract` |
 | **Full name** | ICMR EYE SEE Cataract and Sun Exposure Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_icmr_eye_see_cataract` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 9,735 participants |
@@ -121,10 +123,10 @@ Vashist, Praveen, Tandon, Radhika, Murthy, GVS, Barua, CK, Deka, Dipali, Singh, 
 ## Similar resources by shared modality
 
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
 - [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
 - [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)

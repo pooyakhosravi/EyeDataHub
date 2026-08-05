@@ -3,7 +3,7 @@ id: superccm_fineset
 title: "SuperCCM-FineSet"
 sidebar_label: superccm_fineset
 description: "Restricted corneal confocal microscopy image set with pixel-level corneal-nerve masks annotated for high-precision segmentation."
-tags: ["confocal", "unknown", "manual", "segmentation"]
+tags: ["confocal", "unknown", "manual", "segmentation", "resource-role-current-dataset", "dataset-family-superccm-fineset"]
 ---
 
 
@@ -21,6 +21,8 @@ Restricted corneal confocal microscopy image set with pixel-level corneal-nerve 
 | **Short name** | `superccm_fineset` |
 | **Full name** | SuperCCM-FineSet |
 | **Primary category** | `confocal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `superccm_fineset` |
 | **Contained modalities** | confocal |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 210 images |
@@ -121,5 +123,6 @@ Qiao Q. SuperCCM-FineSet. Zenodo, 2025. doi:10.5281/zenodo.17051148
 - [corn_collection](./corn_collection.md): CORN: Corneal Confocal Microscope Dataset Collection (12,931 images, `cc-by`)
 - [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (1,500 images, `unknown`)
 - [corn_pro](./corn_pro.md): CORN Pro: Corneal Nerve Confocal Microscopy Dataset (1,120 images, `cc-by`)
+- [qilu_ccm_nerve_segmentation](./qilu_ccm_nerve_segmentation.md): Qilu Annotated Corneal Confocal Microscopy Nerve Segmentation Dataset (410 images, `cc-by`)
 - [corneal_epithelium_confocal](./corneal_epithelium_confocal.md): Keratoconus Corneal Epithelium Confocal Fluorescence Dataset (7 participants, `cc-by`)
-- [dryad_pk0p2ngzh](./dryad_pk0p2ngzh.md): Morphometric analysis of retinal ganglionic cells (3D confocal images) analyzed using filament tracer from Imaris software (Not reported, `cc0`)
+- [corneal_nerve_parkinsons](./corneal_nerve_parkinsons.md): Corneal Nerve Parkinson Disease Dataset (Not reported, `cc-by`)

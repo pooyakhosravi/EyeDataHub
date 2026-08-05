@@ -3,7 +3,7 @@ id: dryad_namd_oct_longitudinal
 title: "Quantifying changes on optical coherence tomography in eyes receiving treatment for neovascular age-related macular degeneration"
 sidebar_label: dryad_namd_oct_longitudinal
 description: "The named longitudinal OCT measurement CSV covers 2,115 treated AMD eyes and fits core clinical OCT progression analysis."
-tags: ["oct", "tabular", "cc0", "dryad", "measurement", "progression_analysis"]
+tags: ["oct", "tabular", "cc0", "dryad", "measurement", "progression_analysis", "resource-role-current-dataset", "dataset-family-dryad-namd-oct-longitudinal"]
 ---
 
 
@@ -21,6 +21,8 @@ The named longitudinal OCT measurement CSV covers 2,115 treated AMD eyes and fit
 | **Short name** | `dryad_namd_oct_longitudinal` |
 | **Full name** | Quantifying changes on optical coherence tomography in eyes receiving treatment for neovascular age-related macular degeneration |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_namd_oct_longitudinal` |
 | **Contained modalities** | oct, tabular |
 | **Tasks** | measurement, progression_analysis |
 | **Primary reported quantity** | 2,115 eyes |

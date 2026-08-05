@@ -2,12 +2,12 @@
 id: fundus-index
 title: "Fundus datasets"
 sidebar_label: fundus
-description: "125 resources containing fundus data in EyeDataHub."
+description: "140 resources containing fundus data in EyeDataHub."
 ---
 
 # Fundus datasets
 
-**125 datasets; 121 with a primary reported quantity; 1160.2 GB total** - this page indexes every EyeDataHub resource tagged as containing `fundus` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**140 datasets; 129 with a primary reported quantity; 1147.6 GB total** - this page indexes every EyeDataHub resource tagged as containing `fundus` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -18,11 +18,10 @@ description: "125 resources containing fundus data in EyeDataHub."
 | [`eyepacs`](./eyepacs.md) | EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) | 88,702 images | 89.0 GB | `research-only` | Kaggle |
 | [`angioreport`](./angioreport.md) | AngioReport Fundus Angiography Report Dataset | 55,361 images | Not reported | `unknown` | Manual (upstream-gated) |
 | [`ffa_ir`](./ffa_ir.md) | FFA-IR Medical Report Dataset | 47,247 images | Not reported | `unknown` | PhysioNet |
-| [`bidr`](./bidr.md) | BiDR: Diabetic Retinopathy Diagnosis Dataset | 35,126 images | 1.0 GB | `unknown` | Kaggle |
-| [`dr_arranged`](./dr_arranged.md) | Diabetic Retinopathy Arranged Dataset (Tianchi 93926) | 35,126 images | 8.0 GB | `cc-by-nc-sa` | Manual (upstream-gated) |
 | [`mfiddr`](./mfiddr.md) | MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy | 34,452 images | 30.0 GB | `mit` | Manual (upstream-gated) |
 | [`lmod_plus`](./lmod_plus.md) | LMOD+ Multimodal Ophthalmology Benchmark | 32,633 annotated instances | Not reported | `unknown` | Manual (upstream-gated) |
 | [`harvard_fairvision`](./harvard_fairvision.md) | Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) | 30,000 participants | 600.0 GB | `cc-by-nc-nd` | Manual (upstream-gated) |
+| [`higancnn_generated_glaucoma`](./higancnn_generated_glaucoma.md) | HiGANCNN Generated Glaucoma Dataset | 30,000 images | Not reported | `unknown` | Kaggle |
 | [`eyeq`](./eyeq.md) | EyeQ Retinal Image Quality Assessment Dataset | 28,792 images | Not reported | `unknown` | GitHub |
 | [`mmrdr`](./mmrdr.md) | MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset | 24,460 images | 18.6 GB | `cc-by` | Figshare |
 | [`x_pcr`](./x_pcr.md) | X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark | 18,735 rows | 5.0 GB | `unknown` | HuggingFace Hub |
@@ -42,20 +41,25 @@ description: "125 resources containing fundus data in EyeDataHub."
 | [`odir2019`](./odir2019.md) | ODIR-2019: Ocular Disease Intelligent Recognition | 8,000 participants | 3.5 GB | `cc-by-sa` | Kaggle |
 | [`rop_ostrava`](./rop_ostrava.md) | Retinal Image Dataset of Infants and ROP (Ostrava) | 6,004 images | 5.0 GB | `cc-by` | Kaggle |
 | [`rop_synthetic_mendeley`](./rop_synthetic_mendeley.md) | Synthetic Medical Images for ROP Diagnosis | 5,842 images | 2.0 GB | `cc-by` | Mendeley Data |
+| [`china_fundus_cimt`](./china_fundus_cimt.md) | China Fundus and Carotid Intima-Media Thickness Dataset | 5,806 images | Not reported | `cc-by` | Figshare |
 | [`eye_disease_image_mendeley`](./eye_disease_image_mendeley.md) | Eye Disease Image Dataset | 5,335 images | 1.5 GB | `cc-by` | Mendeley Data |
 | [`mbrset`](./mbrset.md) | mBRSET: Mobile Brazilian Retinal Dataset | 5,164 images | 3.0 GB | `research-only` | PhysioNet |
 | [`hpmi`](./hpmi.md) | HPMI: High & Pathological Myopia Identification | 4,011 images | 2.0 GB | `cc-by` | Figshare |
 | [`vietai_retinal_disease`](./vietai_retinal_disease.md) | VietAI Retinal Disease Detection 2020 | 3,785 images | Not reported | `unknown` | Kaggle |
 | [`aptos2019`](./aptos2019.md) | APTOS 2019 Blindness Detection | 3,662 images | 9.0 GB | `unknown` | Kaggle |
+| [`fd3611`](./fd3611.md) | FD3611 Multi-Class Color Fundus Image Dataset | 3,611 images | Not reported | `cc-by` | Figshare |
 | [`fprm_retina`](./fprm_retina.md) | FPRM Multimodal Eye Imaging and Psychological Assessment Dataset | 3,361 images | Not reported | `research-only` | Manual (upstream-gated) |
 | [`rfmid`](./rfmid.md) | RFMiD: Retinal Fundus Multi-disease Image Dataset | 3,200 images | 1.5 GB | `cc-by-sa` | Kaggle |
 | [`drtid`](./drtid.md) | DRTiD: Diabetic Retinopathy Two-field Image Dataset | 3,100 images | 3.0 GB | `research-only` | Manual (upstream-gated) |
+| [`binocular_fundus_images`](./binocular_fundus_images.md) | Binocular Fundus Image Dataset | 2,885 image pairs | Not reported | `cc-by` | Figshare |
 | [`oct_fundus_dme_dr_mexico`](./oct_fundus_dme_dr_mexico.md) | OCT and Eye Fundus Dataset for DME and DR | 2,661 images | 0.5 GB | `unknown` | GitHub |
 | [`deepdrid`](./deepdrid.md) | DeepDRiD: Diabetic Retinopathy Grading and Image Quality Dataset | 2,256 images | 3.0 GB | `cc-by-sa` | Zenodo |
 | [`fiqs`](./fiqs.md) | FIQS: Fundus Image Quality Scores Dataset | 2,246 images | 9.1 GB | `cc-by` | Figshare |
 | [`mured`](./mured.md) | MuReD: Multi-label Retinal Diseases Dataset | 2,208 images | 2.0 GB | `cc-by` | Mendeley Data |
+| [`rop_vl`](./rop_vl.md) | ROP-VL Retinopathy of Prematurity Vision-Language Dataset | 2,020 images | Not reported | `cc-by` | Figshare |
 | [`refuge2`](./refuge2.md) | REFUGE2 — Retinal Fundus Glaucoma Challenge 2 | 2,000 images | 1.2 GB | `research-only` | Google Drive |
 | [`amdnet23`](./amdnet23.md) | AMDNet23 Fundus Image Dataset for AMD Detection | 2,000 images | Not reported | `cc-by` | Mendeley Data |
+| [`brasil_glaucoma_brg`](./brasil_glaucoma_brg.md) | Brazil Glaucoma (BrG) Dataset | 2,000 images | Not reported | `cc-by-nc` | Kaggle |
 | [`bmrd`](./bmrd.md) | Bangladesh Multi-Disease Retinal Dataset | 1,786 images | Not reported | `cc-by` | Mendeley Data |
 | [`messidor2`](./messidor2.md) | MESSIDOR-2 | 1,748 images | 3.0 GB | `research-only` | Manual (upstream-gated) |
 | [`hyamd`](./hyamd.md) | HYAMD High-Resolution Fundus Image Dataset for AMD Diagnosis | 1,560 images | Not reported | `unknown` | PhysioNet |
@@ -65,14 +69,15 @@ description: "125 resources containing fundus data in EyeDataHub."
 | [`chaksu`](./chaksu.md) | CHAKSU: Multi-Device Glaucoma Fundus Dataset | 1,345 images | 5.0 GB | `cc-by` | Figshare |
 | [`msila_fundus_dr`](./msila_fundus_dr.md) | M'Sila Retinal Fundus Dataset for Diabetic Retinopathy Classification | 1,335 images | 1.5 GB | `cc-by` | Zenodo |
 | [`mshf`](./mshf.md) | Multi-Source Heterogeneous Fundus Dataset for Image Quality Assessment | 1,302 images | 1.1 GB | `cc-by` | Figshare |
+| [`mendeley_multi_class_retinal_fundus_image_deep`](./mendeley_multi_class_retinal_fundus_image_deep.md) | A Multi-Class Retinal Fundus Image Dataset for Deep Learning-Based Ocular Disease Diagnosis | 1,222 images | Not reported | `cc-by` | Mendeley Data |
 | [`sustech_sysu`](./sustech_sysu.md) | SUSTech-SYSU Diabetic Retinopathy + Exudate Dataset | 1,219 images | 3.0 GB | `cc-by` | Figshare |
-| [`refuge2018`](./refuge2018.md) | REFUGE 2018: Retinal Fundus Glaucoma Challenge | 1,200 images | 2.5 GB | `research-only` | Manual (upstream-gated) |
 | [`palm`](./palm.md) | PALM — iChallenge Pathologic Myopia | 1,200 images | 1.5 GB | `research-only` | Google Drive |
 | [`adam_challenge`](./adam_challenge.md) | ADAM — Automatic Detection of AMD Challenge | 1,200 images | 1.5 GB | `research-only` | Google Drive |
 | [`refuge1_multirater`](./refuge1_multirater.md) | REFUGE Multi-Rater — Glaucoma with Multi-Expert Annotations | 1,200 images | 0.8 GB | `cc-by-nc-sa` | Google Drive |
 | [`grape`](./grape.md) | GRAPE: Glaucoma Real-world Appraisal Progression Ensemble | 1,115 examinations | 1.5 GB | `cc0` | Figshare |
 | [`retinal_dr_longitudinal`](./retinal_dr_longitudinal.md) | Retinal DR Longitudinal Fundus Pairs | 1,115 image pairs | 4.0 GB | `unknown` | HuggingFace Hub |
 | [`rop_uwf_intelligent`](./rop_uwf_intelligent.md) | Fundus Dataset for Intelligent ROP System | 1,099 images | 4.0 GB | `cc-by` | Figshare |
+| [`glaucoma_expert_cot_refined`](./glaucoma_expert_cot_refined.md) | Glaucoma Expert Chain-of-Thought Refined Dataset | 1,074 image report pairs | Not reported | `unknown` | HuggingFace Hub |
 | [`g1020`](./g1020.md) | G1020: Glaucoma Benchmark Fundus Dataset | 1,020 images | 2.0 GB | `cc-by` | Kaggle |
 | [`harvard_glaucoma`](./harvard_glaucoma.md) | Harvard Glaucoma Fundus Image Dataset | 1,000 images | 1.5 GB | `cc0` | Direct HTTP |
 | [`jsiec`](./jsiec.md) | JSIEC Fundus Photo Dataset | 1,000 images | 0.4 GB | `unknown` | Zenodo |
@@ -83,6 +88,7 @@ description: "125 resources containing fundus data in EyeDataHub."
 | [`hygd`](./hygd.md) | HYGD: Hillel Yaffe Glaucoma Dataset | 747 images | 1.0 GB | `odc-by` | PhysioNet |
 | [`acrima`](./acrima.md) | ACRIMA: Glaucoma Optic Disc Fundus Database | 705 images | 0.5 GB | `cc-by` | Figshare |
 | [`irfdrd`](./irfdrd.md) | Iraqi Retinal Fundus Diabetic Retinopathy Dataset | 700 images | Not reported | `cc-by` | Zenodo |
+| [`pco_namd`](./pco_namd.md) | PCO-nAMD Paired CFP and OCT Dataset | 654 image pairs | Not reported | `cc-by` | Figshare |
 | [`beh`](./beh.md) | BEH: Bangladesh Eye Hospital Glaucoma Dataset | 634 images | 0.3 GB | `research-only` | Google Drive |
 | [`cataract`](./cataract.md) | Cataract Fundus Classification Dataset | 601 images | 0.1 GB | `unknown` | Kaggle |
 | [`ophthalvqa`](./ophthalvqa.md) | OphthalVQA Dataset | 600 question answer pairs | 0.0 GB | `cc-by` | Figshare |
@@ -114,10 +120,12 @@ description: "125 resources containing fundus data in EyeDataHub."
 | [`fundus_avseg`](./fundus_avseg.md) | Fundus-AVSeg: Artery-Vein-Crossing Segmentation | 100 images | 0.5 GB | `cc-by` | Figshare |
 | [`roc`](./roc.md) | ROC: Retinopathy Online Challenge | 100 images | 0.3 GB | `research-only` | Manual (upstream-gated) |
 | [`afio_fundus_vessels`](./afio_fundus_vessels.md) | AFIO Fundus Images for Vessel Segmentation and Disease Annotation | 100 images | 0.2 GB | `cc-by` | Mendeley Data |
+| [`mendeley_retina_identification_database_ridb`](./mendeley_retina_identification_database_ridb.md) | Retina Identification Database (RIDB) | 100 images | Not reported | `cc-by` | Mendeley Data |
 | [`trend_fundus`](./trend_fundus.md) | TREND Portable Fundus Microvascular Network Dataset | 82 images | 0.1 GB | `cc-by` | Zenodo |
 | [`reta_benchmark`](./reta_benchmark.md) | RETA Benchmark for Retinal Vascular Tree Analysis | 81 images | 0.8 GB | `cc-by` | Figshare |
 | [`dryad_diabetes_retinal_capillary`](./dryad_diabetes_retinal_capillary.md) | Diabetes Retinal Capillary Rarefaction Dataset | 73 participants | 0.0 GB | `cc0` | Dryad |
 | [`fimd`](./fimd.md) | Fundus Image Myopia Development Dataset | 70 image pairs | 0.2 GB | `cc-by` | Mendeley Data |
+| [`puwf_av`](./puwf_av.md) | PUWF-AV Pediatric Ultra-Widefield Fundus Artery-Vein Dataset | 60 images | Not reported | `cc-by` | Figshare |
 | [`data_oct_fundus_glaucoma`](./data_oct_fundus_glaucoma.md) | Data on OCT and Fundus Images | 50 images | 0.1 GB | `cc-by` | Mendeley Data |
 | [`dridb`](./dridb.md) | DRiDB: Diabetic Retinopathy Image Database | 50 images | Not reported | `research-only` | Manual (upstream-gated) |
 | [`hrf`](./hrf.md) | HRF: High-Resolution Fundus Image Database | 45 images | 0.5 GB | `cc-by` | Manual (upstream-gated) |
@@ -131,8 +139,15 @@ description: "125 resources containing fundus data in EyeDataHub."
 | [`trend2_fundus`](./trend2_fundus.md) | TREND2 Chronic Disease Portable Fundus Dataset | 28 images | 0.1 GB | `cc-by` | Zenodo |
 | [`agar300`](./agar300.md) | AGAR300 Microaneurysm Fundus Image Dataset | 28 images | Not reported | `cc-by` | Manual (upstream-gated) |
 | [`stare`](./stare.md) | STARE: Structured Analysis of the Retina | 20 images | 0.0 GB | `research-only` | Direct HTTP |
-| [`dryad_retinal_vasomotion`](./dryad_retinal_vasomotion.md) | Retinal Laser Speckle Vasomotion Dataset | 8 experimental eyes | 1.1 GB | `cc0` | Dryad |
+| [`mendeley_two_photon_excited_fluorescence_scanning_laser`](./mendeley_two_photon_excited_fluorescence_scanning_laser.md) | Two-photon excited fluorescence scanning laser ophthalmoscopy images and software for data processing | 1 participants | Not reported | `cc-by` | Mendeley Data |
 | [`hassan_composite_retina`](./hassan_composite_retina.md) | Composite Retinal Fundus and OCT Dataset with Clinical Markings | Not reported | 2.0 GB | `cc-by` | Mendeley Data |
 | [`rao_fundus`](./rao_fundus.md) | RAO Retinal Artery Occlusion Fundus Photography Dataset | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`glaucoma_oct_fundus`](./glaucoma_oct_fundus.md) | Glaucoma Detection Dataset with OCT and Fundus Images | Not reported | Not reported | `cc-by` | Figshare |
+| [`mendeley_red_lesion_localization_messidor_retinal_images`](./mendeley_red_lesion_localization_messidor_retinal_images.md) | Red lesion localization for MESSIDOR retinal images dataset using patch-based convolutional neural networks. | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`mendeley_annotated_infant_fundus_images_object_detection`](./mendeley_annotated_infant_fundus_images_object_detection.md) | Annotated Infant Fundus Images for Object Detection of Key Structures (Optic Disk and Macula) | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`mendeley_development_deep_learning_model_epiretinal_membrane`](./mendeley_development_deep_learning_model_epiretinal_membrane.md) | Development of a deep learning model for epiretinal membrane detection in fundus photography | Not reported | Not reported | `cc-by` | Manual (upstream-gated) |
+| [`mendeley_retinal_blood_vessel_segmentation_rop`](./mendeley_retinal_blood_vessel_segmentation_rop.md) | Retinal blood vessel segmentation(ROP) | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`mendeley_dme_classification_fundus_imaging_vision_transformers`](./mendeley_dme_classification_fundus_imaging_vision_transformers.md) | DME Classification in Fundus Imaging with Vision Transformers and ETDRS-Guided Annotation | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`mendeley_fundus_mctn`](./mendeley_fundus_mctn.md) | Fundus dataset of MCTN | Not reported | Not reported | `cc-by` | Mendeley Data |
+| [`mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy`](./mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy.md) | HVDROPDB Datasets for Classification and Segmentation for Research in Retinopathy of Prematurity, Ranjana Agrawal | Not reported | Not reported | `cc-by` | Mendeley Data |
 | [`dryad_fundus_venous_pulsation`](./dryad_fundus_venous_pulsation.md) | Fundus Venous Pulsation Sequence Dataset | Not reported | 0.1 GB | `cc0` | Dryad |
-| [`dryad_sf7m0cggh`](./dryad_sf7m0cggh.md) | Robust semi-automatic vessel tracing in the human retinal image by an instance segmentation neural network | Not reported | 0.0 GB | `cc0` | Dryad |

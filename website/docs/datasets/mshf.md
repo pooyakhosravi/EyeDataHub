@@ -3,7 +3,7 @@ id: mshf
 title: "Multi-Source Heterogeneous Fundus Dataset for Image Quality Assessment"
 sidebar_label: mshf
 description: "Multi-source heterogeneous retinal fundus image-quality assessment dataset for training and evaluating quality-control models."
-tags: ["fundus", "cc-by", "figshare", "quality_assessment", "classification"]
+tags: ["fundus", "cc-by", "figshare", "quality_assessment", "classification", "resource-role-current-dataset", "dataset-family-mshf"]
 ---
 
 
@@ -21,6 +21,8 @@ Multi-source heterogeneous retinal fundus image-quality assessment dataset for t
 | **Short name** | `mshf` |
 | **Full name** | Multi-Source Heterogeneous Fundus Dataset for Image Quality Assessment |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mshf` |
 | **Contained modalities** | fundus |
 | **Tasks** | quality_assessment, classification |
 | **Primary reported quantity** | 1,302 images |
@@ -31,7 +33,7 @@ Multi-source heterogeneous retinal fundus image-quality assessment dataset for t
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |
@@ -128,4 +130,4 @@ Jin K, Gao Z, Jiang X, Wang Y, Ma X, Li Y, Ye J. MSHF: A Multi-Source Heterogene
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

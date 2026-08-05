@@ -3,7 +3,7 @@ id: trend2_fundus
 title: "TREND2 Chronic Disease Portable Fundus Dataset"
 sidebar_label: trend2_fundus
 description: "Extension of TREND portable fundus imaging for chronic-disease and microvascular analysis."
-tags: ["fundus", "cc-by", "zenodo", "segmentation", "regression", "documented-relationship", "relationship-extension_of"]
+tags: ["fundus", "cc-by", "zenodo", "segmentation", "regression", "resource-role-extension-dataset", "dataset-family-trend2-fundus", "documented-relationship", "relationship-extension_of"]
 ---
 
 
@@ -21,6 +21,8 @@ Extension of TREND portable fundus imaging for chronic-disease and microvascular
 | **Short name** | `trend2_fundus` |
 | **Full name** | TREND2 Chronic Disease Portable Fundus Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `extension_dataset` |
+| **Dataset family** | `trend2_fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation, regression |
 | **Primary reported quantity** | 28 images |
@@ -31,7 +33,7 @@ Extension of TREND portable fundus imaging for chronic-disease and microvascular
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -129,4 +131,4 @@ TREND2 chronic disease portable fundus dataset. Zenodo, 2023. doi:10.5281/zenodo
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

@@ -1,34 +1,45 @@
 # EyeDataHub catalog snapshot
 
-This documentation describes the 0.4.0 catalog release.
+This documentation describes the EyeDataHub 0.7.0 catalog.
 
-The catalog contains 386 manually source-checked ophthalmology data
+The catalog contains 451 current, manually source-checked ophthalmology data
 resources across 18 primary navigation categories. This is a bounded,
-date-stamped catalog, not a complete census and not a collection of 386
-independent cohorts. EyeDataHub does not host or redistribute the indexed
-third-party datasets.
+date-stamped catalog, not a complete census or a collection of independent
+cohorts. The records represent 446 narrowly defined dataset families.
+EyeDataHub does not host or redistribute the indexed third-party datasets.
 
 ## Catalog summary
 
 | Metric | Count |
 |---|---:|
-| Catalog records | 386 |
+| Current catalog records | 451 |
+| Narrowly defined dataset families | 446 |
 | Primary categories | 18 |
-| No-account source links | 160 |
-| Self-service authenticated routes | 179 |
+| No-account source links | 47 |
+| Self-service authenticated routes | 356 |
 | Self-service click-through routes | 11 |
-| Controlled or manual routes | 28 |
+| Controlled or manual routes | 29 |
 | Author-contact routes | 8 |
-| Routes without platform credentials | 33 |
-| Platform API or client routes | 293 |
-| Records with a resolved primary source-reported quantity | 300 |
-| Source-supported directed relationship assertions | 142 |
-| Records participating in documented relationships | 94 |
+| Source-hosted, Google Drive, or GitHub routes | 33 |
+| Platform API or client routes | 350 |
+| Manual, controlled, institutional, or author-contact procedures | 68 |
+| Records with a resolved primary source-reported quantity | 324 |
+| Records with documented derivation from another catalog resource | 33 |
+| Annotation layers | 17 |
+| Separately indexed component datasets | 3 |
+| Source-supported directed relationship assertions | 145 |
+| Records participating in documented relationships | 96 |
+
+The model-use review retained 82 of 145 Dryad candidates and 116 of 141
+Mendeley candidates. The dated review logs preserve all exclusions and their
+reasons; excluded source records are not counted in the headline catalog.
 
 Access requirements, download implementation, source review, and source-stated
 terms are independent dimensions. A self-service route does not establish
-permission for a proposed reuse. Relationship counts are directed assertions,
-not counts of independent cohorts.
+permission for a proposed reuse. Earlier versions and unmodified alternate
+deposits are retained as links instead of current records. Relationship counts
+are directed assertions, and dataset-family counts are not counts of
+independent cohorts.
 
 The descriptive source-term groups are:
 

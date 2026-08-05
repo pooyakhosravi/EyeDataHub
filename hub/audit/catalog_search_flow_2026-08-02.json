@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "search_dates": {
+    "dryad": {
+      "status": "archived_search_loaded",
+      "result_set_complete": true,
+      "unique_search_hits": 722
+    },
+    "mendeley": {
+      "status": "completed",
+      "result_set_complete": true,
+      "unique_search_hits": 15260
+    },
+    "kaggle": {
+      "status": "completed",
+      "result_set_complete": true,
+      "unique_search_hits": 2155
+    },
+    "figshare": {
+      "status": "completed",
+      "result_set_complete": true,
+      "unique_search_hits": 319
+    },
+    "huggingface": {
+      "status": "completed",
+      "result_set_complete": true,
+      "unique_search_hits": 281
+    }
+  },
+  "repository_search_hit_counts": {
+    "dryad": 722,
+    "mendeley": 15260,
+    "kaggle": 2155,
+    "figshare": 319,
+    "huggingface": 281
+  },
+  "total_repository_search_hits": 18737,
+  "exclusion_counts": {
+    "excluded_not_eye_or_ophthalmology": 16126,
+    "excluded_duplicate_or_alternate_deposit": 221,
+    "excluded_not_distinct_reusable_resource": 490,
+    "excluded_insufficient_source_metadata": 1051,
+    "excluded_nonhuman_or_nonhuman_derived": 165,
+    "excluded_not_suitable_for_model_training_or_evaluation": 396
+  },
+  "eligible_repository_hits": 288,
+  "unique_catalog_records_represented_by_repository_searches": 288,
+  "additional_catalog_records_from_other_documented_search_routes": 163,
+  "final_unique_catalog_records": 451,
+  "counting_note": "Repository hits and exclusions count repository records. The final catalog counts canonical resources. Alternate deposits, mirrors, and versioned copies do not add to the final total. Records in the other-routes group are a point-in-time source reconciliation, not an inferred historical discovery provenance classification.",
+  "credential_values_serialized": false,
+  "signed_or_download_urls_serialized": false
+}

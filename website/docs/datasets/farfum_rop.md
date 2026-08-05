@@ -3,7 +3,7 @@ id: farfum_rop
 title: "FARFUM-ROP: Fundus Annotation Repository for Retinopathy of Prematurity"
 sidebar_label: farfum_rop
 description: "Wide-field fundus images from premature infants for ROP staging (Stages 1–5 + Plus Disease). Expert-annotated for AI-assisted ROP diagnosis and screening."
-tags: ["fundus", "cc-by", "figshare", "classification"]
+tags: ["fundus", "cc-by", "figshare", "classification", "resource-role-current-dataset", "dataset-family-farfum-rop"]
 ---
 
 
@@ -21,6 +21,8 @@ Wide-field fundus images from premature infants for ROP staging (Stages 1–5 + 
 | **Short name** | `farfum_rop` |
 | **Full name** | FARFUM-ROP: Fundus Annotation Repository for Retinopathy of Prematurity |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `farfum_rop` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 1,533 images |
@@ -31,7 +33,7 @@ Wide-field fundus images from premature infants for ROP staging (Stages 1–5 + 
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |
@@ -134,4 +136,4 @@ Riazi-Esfahani H et al., 'FARFUM-RoP: A dataset for machine learning-based plus 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

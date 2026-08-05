@@ -3,7 +3,7 @@ id: corneal_curvature_fundus
 title: "Corneal Curvature Prediction Using Fundus Photography"
 sidebar_label: corneal_curvature_fundus
 description: "Fundus photographs grouped for corneal curvature prediction, with 50 images per group."
-tags: ["fundus", "cc-by", "mendeley", "classification", "regression"]
+tags: ["fundus", "cc-by", "mendeley", "classification", "regression", "resource-role-current-dataset", "dataset-family-corneal-curvature-fundus"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus photographs grouped for corneal curvature prediction, with 50 images per 
 | **Short name** | `corneal_curvature_fundus` |
 | **Full name** | Corneal Curvature Prediction Using Fundus Photography |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `corneal_curvature_fundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 150 images |
@@ -31,7 +33,7 @@ Fundus photographs grouped for corneal curvature prediction, with 50 images per 
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -123,4 +125,4 @@ Corneal curvature prediction using fundus photography dataset. Mendeley Data, V1
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

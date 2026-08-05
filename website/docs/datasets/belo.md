@@ -3,7 +3,7 @@ id: belo
 title: "BELO Benchmark for Evaluating Language Models in Ophthalmology"
 sidebar_label: belo
 description: "Expert-curated ophthalmology multiple-choice benchmark with rationales, assembled for held-out language-model evaluation."
-tags: ["text", "unknown", "manual", "question_answering", "evaluation", "reasoning"]
+tags: ["text", "unknown", "manual", "question_answering", "evaluation", "reasoning", "resource-role-current-dataset", "dataset-family-belo"]
 ---
 
 
@@ -21,6 +21,8 @@ Expert-curated ophthalmology multiple-choice benchmark with rationales, assemble
 | **Short name** | `belo` |
 | **Full name** | BELO Benchmark for Evaluating Language Models in Ophthalmology |
 | **Primary category** | `text` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `belo` |
 | **Contained modalities** | text |
 | **Tasks** | question_answering, evaluation, reasoning |
 | **Primary reported quantity** | 900 questions |

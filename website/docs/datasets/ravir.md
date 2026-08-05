@@ -3,7 +3,7 @@ id: ravir
 title: "RAVIR: Retinal Artery/Vein Segmentation in IR"
 sidebar_label: ravir
 description: "42 infrared reflectance fundus images with separate artery and vein segmentation masks. 23 train / 19 test."
-tags: ["fundus", "research-only", "gdrive", "segmentation"]
+tags: ["fundus", "research-only", "gdrive", "segmentation", "resource-role-current-dataset", "dataset-family-ravir"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `ravir` |
 | **Full name** | RAVIR: Retinal Artery/Vein Segmentation in IR |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ravir` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 42 images |
@@ -134,4 +136,4 @@ Hatamizadeh et al., 'RAVIR: A Dataset and Methodology for the Semantic Segmentat
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

@@ -3,7 +3,7 @@ id: cataract_lmm
 title: "Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark"
 sidebar_label: cataract_lmm
 description: "3,000 cataract surgery procedures, 1,134.2 hours of video with phase annotations, instance segmentation, tracking, and skill scoring. Largest public cataract-surgery-video resource."
-tags: ["surgical_video", "cc-by-nc-nd", "huggingface", "classification", "segmentation", "multilabel"]
+tags: ["surgical_video", "cc-by-nc-nd", "huggingface", "classification", "segmentation", "multilabel", "resource-role-current-dataset", "dataset-family-cataract-lmm"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `cataract_lmm` |
 | **Full name** | Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cataract_lmm` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | classification, segmentation, multilabel |
 | **Primary reported quantity** | 3,000 videos |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by-nc-nd` |
 | **Descriptive screening label** | Explicit noncommercial clause recorded; check source |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | HuggingFace Hub |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

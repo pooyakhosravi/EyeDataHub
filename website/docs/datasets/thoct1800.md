@@ -3,7 +3,7 @@ id: thoct1800
 title: "THOCT1800 Retinal OCT Dataset"
 sidebar_label: thoct1800
 description: "A collection of 1,800 preprocessed retinal OCT B-scans, with 600 images each for AMD, diabetic macular edema, and normal retina."
-tags: ["oct", "research-only", "github", "classification"]
+tags: ["oct", "research-only", "github", "classification", "resource-role-current-dataset", "dataset-family-thoct1800"]
 ---
 
 
@@ -21,6 +21,8 @@ A collection of 1,800 preprocessed retinal OCT B-scans, with 600 images each for
 | **Short name** | `thoct1800` |
 | **Full name** | THOCT1800 Retinal OCT Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `thoct1800` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 1,800 images |

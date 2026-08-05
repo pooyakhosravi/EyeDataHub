@@ -12,7 +12,7 @@ things to avoid.
 | Interface | Purpose |
 |---|---|
 | `llms.txt` | Repo entry points for LLM tools (follows llmstxt.org). |
-| `llms-full.txt` | Token-efficient full catalog of all 386 records. |
+| `llms-full.txt` | Token-efficient full catalog of all 451 current records. |
 | `eyehub search --json` | Machine-readable filtered catalog. |
 | `eyehub cite <name> --type {dataset,article,software}` | Typed citation output. |
 | `eyehub preflight <name> --json` | Read-only terms, access, and loader preflight. |
@@ -22,7 +22,7 @@ things to avoid.
 | `eyehub cite <name> --type dataset --format bibtex` | Typed dataset citation export. |
 | `eyehub download <name> --dry-run --json` | Side-effect-free terms and access preflight. |
 | `python -m eyedatahub.agent.mcp_server` | Stdio MCP JSON-RPC server. |
-| `from eyedatahub.datasets.registry import REGISTRY` | Direct Python access to 386 auto-registered records; `REGISTRY` is an internal compatibility name. |
+| `from eyedatahub.datasets.registry import REGISTRY` | Direct Python access to 451 auto-registered current records; `REGISTRY` is an internal compatibility name. |
 
 Use `eyedatahub` for Python imports and `eyehub` for CLI commands.
 

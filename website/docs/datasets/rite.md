@@ -3,7 +3,7 @@ id: rite
 title: "RITE: Retinal Images Vessel Tree Extraction (Artery/Vein)"
 sidebar_label: rite
 description: "40 fundus images (derived from DRIVE) with artery/vein annotations and vessel-tree structural labels."
-tags: ["fundus", "research-only", "manual", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "research-only", "manual", "segmentation", "resource-role-annotation-layer", "dataset-family-rite", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `rite` |
 | **Full name** | RITE: Retinal Images Vessel Tree Extraction (Artery/Vein) |
 | **Primary category** | `fundus` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `rite` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 40 images |
@@ -131,4 +133,4 @@ Hu et al., 'Automated Separation of Binary Overlapping Trees in Low-Contrast Col
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

@@ -3,7 +3,7 @@ id: dryad_uveal_melanoma_coog2
 title: "COOG2.1 Uveal Melanoma Prognostic Dataset"
 sidebar_label: dryad_uveal_melanoma_coog2
 description: "Multicenter uveal-melanoma gene-expression, PRAME, clinical, and metastasis-free-survival data for prognostic modeling."
-tags: ["omics", "cc0", "dryad", "classification", "survival_analysis", "prognosis"]
+tags: ["omics", "cc0", "dryad", "classification", "survival_analysis", "prognosis", "resource-role-current-dataset", "dataset-family-dryad-uveal-melanoma-coog2"]
 ---
 
 
@@ -21,6 +21,8 @@ Multicenter uveal-melanoma gene-expression, PRAME, clinical, and metastasis-free
 | **Short name** | `dryad_uveal_melanoma_coog2` |
 | **Full name** | COOG2.1 Uveal Melanoma Prognostic Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_uveal_melanoma_coog2` |
 | **Contained modalities** | omics |
 | **Tasks** | classification, survival_analysis, prognosis |
 | **Primary reported quantity** | 1,577 participants |
@@ -120,11 +122,11 @@ This catalog record provides metadata and access instructions, but it does not y
 
 ## Similar resources by shared modality
 
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [dryad_uveitis_vitreous_biomarkers](./dryad_uveitis_vitreous_biomarkers.md): Uveitis Vitreous Biomarker Dataset (234 eyes, `cc0`)
 - [dryad_dry_eye_nlrp3](./dryad_dry_eye_nlrp3.md): Dry Eye NLRP3 Ocular Surface Dataset (150 participants, `cc0`)
 - [dryad_amd_zinc_complement](./dryad_amd_zinc_complement.md): AMD Zinc Complement Dataset (72 participants, `cc0`)
 - [dryad_stargardt_wes](./dryad_stargardt_wes.md): Stargardt Disease WES Variant Dataset (33 participants, `cc0`)
+- [mendeley_exome_sequencing_clec3b](./mendeley_exome_sequencing_clec3b.md): Exome sequencing data for CLEC3B (9 participants, `cc-by`)
+- [mendeley_proteomic_analysis_human_autoimmune_retinopathy_air](./mendeley_proteomic_analysis_human_autoimmune_retinopathy_air.md): Proteomic analysis of human autoimmune retinopathy (AIR) vitreous (5 participants, `cc-by`)
 - [dryad_congenital_glaucoma_wes](./dryad_congenital_glaucoma_wes.md): Identification of novel variants in LTBP2 and PXDN using whole-exome sequencing in developmental and congenital glaucoma (3 families, `cc0`)
-- [dryad_ird_mouse_proteome](./dryad_ird_mouse_proteome.md): Retinal proteome profiling of inherited retinal degeneration across three different mouse models suggests common drug targets in retinitis pigmentosa (3 animal models, `cc0`)
-- [dryad_acanthamoeba_keratitis_transcriptome](./dryad_acanthamoeba_keratitis_transcriptome.md): Human conjunctival transcriptome in Acanthamoeba keratitis: An exploratory study (Not reported, `cc0`)
+- [dryad_rpgr_cone_rod_wes](./dryad_rpgr_cone_rod_wes.md): RPGR Cone-Rod Dystrophy WES Dataset (1 participants, `cc0`)

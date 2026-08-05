@@ -3,7 +3,7 @@ id: perg_ioba
 title: "PERG-IOBA Ocular Electrophysiology Dataset"
 sidebar_label: perg_ioba
 description: "Transient pattern electroretinogram responses from 304 subjects in 336 records with clinical metadata."
-tags: ["electrophysiology", "tabular", "odc-by", "physionet", "classification", "regression"]
+tags: ["electrophysiology", "tabular", "odc-by", "physionet", "classification", "regression", "resource-role-current-dataset", "dataset-family-perg-ioba"]
 ---
 
 
@@ -21,6 +21,8 @@ Transient pattern electroretinogram responses from 304 subjects in 336 records w
 | **Short name** | `perg_ioba` |
 | **Full name** | PERG-IOBA Ocular Electrophysiology Dataset |
 | **Primary category** | `electrophysiology` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `perg_ioba` |
 | **Contained modalities** | electrophysiology, tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 1,354 signals |
@@ -31,7 +33,7 @@ Transient pattern electroretinogram responses from 304 subjects in 336 records w
 | **Normalized terms** | `odc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | PhysioNet |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `transfer_tested_partial` |
@@ -118,10 +120,10 @@ The PERG-IOBA Dataset. PhysioNet, 2024. doi:10.13026/d24m-w054
 ## Similar resources by shared modality
 
 - [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
-- [dryad_5xfad_retina_dlgn](./dryad_5xfad_retina_dlgn.md): 5xFAD Retina and dLGN Disease-Model Dataset (Not reported, `cc0`)
-- [dryad_d12d9f](./dryad_d12d9f.md): Excitatory neurotransmission activates compartmentalized calcium transients in Müller glia without affecting lateral process motility (Not reported, `cc0`)
-- [dryad_htr1b_mouse_retina](./dryad_htr1b_mouse_retina.md): &lt;em&gt;Htr1b&lt;/em&gt; is necessary for normal retinal function in mice (Not reported, `cc0`)
-- [dryad_mouse_pupil_masking_retinal_deg](./dryad_mouse_pupil_masking_retinal_deg.md): Pupil and masking responses to light as functional measures of retinal degeneration in mice Mus Musculus (Not reported, `cc0`)
-- [dryad_pzgmsbcmk](./dryad_pzgmsbcmk.md): Two-photon calcium recordings of cones (Not reported, `cc0`)
-- [dryad_zebrafish_thrb_photoreceptors](./dryad_zebrafish_thrb_photoreceptors.md): Thyroid hormone receptor beta mutations alter photoreceptor development and function in Danio rerio (zebrafish) (Not reported, `cc0`)
-- [dryad_zkh1893nt](./dryad_zkh1893nt.md): Glaucoma-associated optineurin mutations increase transcellular degradation of mitochondria in a vertebrate optic nerve (Not reported, `cc0`)
+- [mendeley_electrooculography_eog_blink_analysis_ocular_fatigue](./mendeley_electrooculography_eog_blink_analysis_ocular_fatigue.md): Electrooculography (EOG) Dataset for Blink Analysis and Ocular Fatigue Detection (4 participants, `cc-by`)
+- [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
+- [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
+- [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
+- [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
+- [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)

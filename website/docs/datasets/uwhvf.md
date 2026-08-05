@@ -3,7 +3,7 @@ id: uwhvf
 title: "UWHVF: University of Washington Humphrey Visual Field"
 sidebar_label: uwhvf
 description: "28,943 HFA 24-2 visual field tests with per-point sensitivities, MD/PSD indices, glaucoma labels, and longitudinal follow-up data. Input: 52-element sensitivity array (not an image)."
-tags: ["visual_field", "cc-by", "direct", "classification", "regression"]
+tags: ["visual_field", "cc-by", "direct", "classification", "regression", "resource-role-current-dataset", "dataset-family-uwhvf"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `uwhvf` |
 | **Full name** | UWHVF: University of Washington Humphrey Visual Field |
 | **Primary category** | `visual_field` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `uwhvf` |
 | **Contained modalities** | visual_field |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 28,943 visual field tests |

@@ -3,7 +3,7 @@ id: dryad_aoslo_rpe
 title: "AOSLO RPE Cell Morphometry and Cone Mosaic Dataset"
 sidebar_label: dryad_aoslo_rpe
 description: "Adaptive-optics scanning-light-ophthalmoscopy montages and regions of interest for RPE morphometry and cone-to-RPE analysis."
-tags: ["adaptive_optics", "cc0", "dryad", "segmentation", "measurement"]
+tags: ["adaptive_optics", "cc0", "dryad", "segmentation", "measurement", "resource-role-current-dataset", "dataset-family-dryad-aoslo-rpe"]
 ---
 
 
@@ -21,6 +21,8 @@ Adaptive-optics scanning-light-ophthalmoscopy montages and regions of interest f
 | **Short name** | `dryad_aoslo_rpe` |
 | **Full name** | AOSLO RPE Cell Morphometry and Cone Mosaic Dataset |
 | **Primary category** | `adaptive_optics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_aoslo_rpe` |
 | **Contained modalities** | adaptive_optics |
 | **Tasks** | segmentation, measurement |
 | **Primary reported quantity** | 10 participants |
@@ -121,5 +123,5 @@ Human retinal pigment epithelium: in vivo cell morphometry, multispectral autofl
 ## Similar resources by shared modality
 
 - [dryad_human_foveal_cones](./dryad_human_foveal_cones.md): Human foveal cone photoreceptor topography and its dependence on eye length (28 eyes, `cc0`)
-- [dryad_mouse_all_optical_retina](./dryad_mouse_all_optical_retina.md): All-Optical Retinal Degeneration Mouse Dataset (Not reported, `cc0`)
-- [dryad_w3r228143](./dryad_w3r228143.md): Photoreceptor loss does not recruit neutrophils despite strong microglial activation (Not reported, `cc0`)
+- [mendeley_sub_cone_visual_resolution_by_active](./mendeley_sub_cone_visual_resolution_by_active.md): Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola (16 participants, `cc-by`)
+- [mendeley_vivo_cone_photoreceptor_topography_human_foveola](./mendeley_vivo_cone_photoreceptor_topography_human_foveola.md): In-vivo cone photoreceptor topography of the human foveola (Not reported, `cc-by`)

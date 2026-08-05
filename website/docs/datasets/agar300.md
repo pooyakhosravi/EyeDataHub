@@ -3,7 +3,7 @@ id: agar300
 title: "AGAR300 Microaneurysm Fundus Image Dataset"
 sidebar_label: agar300
 description: "The first public AGAR300 release contains 28 color fundus images with microaneurysms, captured at a 45 degree field of view and 2448 by 3264 pixel resolution."
-tags: ["fundus", "cc-by", "manual", "lesion_detection"]
+tags: ["fundus", "cc-by", "manual", "lesion_detection", "resource-role-current-dataset", "dataset-family-agar300"]
 ---
 
 
@@ -21,6 +21,8 @@ The first public AGAR300 release contains 28 color fundus images with microaneur
 | **Short name** | `agar300` |
 | **Full name** | AGAR300 Microaneurysm Fundus Image Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `agar300` |
 | **Contained modalities** | fundus |
 | **Tasks** | lesion_detection |
 | **Primary reported quantity** | 28 images |
@@ -127,4 +129,4 @@ Derwin J, Shan P. Diabetic Retinopathy - Fundus Image Dataset (AGAR300). IEEE Da
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

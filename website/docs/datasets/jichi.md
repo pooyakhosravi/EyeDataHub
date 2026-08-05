@@ -3,7 +3,7 @@ id: jichi
 title: "Jichi Medical University Diabetic Retinopathy Dataset"
 sidebar_label: jichi
 description: "9,939 color fundus images from Japanese patients with DR grading labels (Davis grading scale)."
-tags: ["fundus", "cc-by", "figshare", "grading", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "figshare", "grading", "classification", "resource-role-current-dataset", "dataset-family-jichi", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `jichi` |
 | **Full name** | Jichi Medical University Diabetic Retinopathy Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `jichi` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 9,939 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |
@@ -129,4 +131,4 @@ Takahashi et al., 'Applying artificial intelligence to disease staging: Deep lea
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

@@ -3,7 +3,7 @@ id: brset_mbrset_embeddings
 title: "Embedding-Based Representations for BRSET and mBRSET"
 sidebar_label: brset_mbrset_embeddings
 description: "Precomputed image embeddings for BRSET and mBRSET to support efficient ophthalmic AI research without raw-image redistribution."
-tags: ["tabular", "unknown", "physionet", "classification", "retrieval", "documented-relationship", "relationship-derived_from"]
+tags: ["tabular", "unknown", "physionet", "classification", "retrieval", "resource-role-derivative-dataset", "dataset-family-brset-mbrset-embeddings", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Precomputed image embeddings for BRSET and mBRSET to support efficient ophthalmi
 | **Short name** | `brset_mbrset_embeddings` |
 | **Full name** | Embedding-Based Representations for BRSET and mBRSET |
 | **Primary category** | `tabular` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `brset_mbrset_embeddings` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, retrieval |
 | **Primary reported quantity** | 53,188 embedding vectors |
@@ -127,10 +129,10 @@ Embedding-Based Representations for BRSET and mBRSET. PhysioNet, 2026.
 ## Similar resources by shared modality
 
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
 - [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
 - [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
 - [dryad_icmr_eye_see_cataract](./dryad_icmr_eye_see_cataract.md): ICMR EYE SEE Cataract and Sun Exposure Dataset (9,735 participants, `cc0`)
+- [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)

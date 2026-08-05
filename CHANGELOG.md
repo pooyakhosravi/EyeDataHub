@@ -6,6 +6,101 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-08-04
+
+### Added
+
+- Added content-level eligibility review for 141 Mendeley Data candidates and
+  retained 116 records with reusable model inputs, targets, annotations, or
+  observation-level measurements.
+- Added a release-consistency check covering the catalog, dataset-family
+  summary, route summaries, package metadata, citation metadata, website data,
+  and dated validation artifacts.
+- Added machine-readable Mendeley inventory and versioned-deposit review logs.
+
+### Changed
+
+- Reconciled the scientific snapshot to 451 current catalog records
+  representing 446 narrowly defined dataset families.
+- Excluded Mendeley deposits containing only article-support tables,
+  document-only material, peripheral analyses, derived measurements without
+  sufficient stand-alone model value, or unresolved scope.
+- Regenerated the five-repository screening flow as 18,737 hits, 18,449
+  exclusions, 288 eligible repository records, and 451 final canonical
+  resources after reconciliation with other documented routes.
+- Regenerated the catalog, identity, relationship, quantity, access, website,
+  and citation artifacts from the same 0.7.0 source state.
+- Clarified that 350 records use repository or challenge-platform API or
+  client routes; this backend grouping does not itself imply that a user
+  account is required.
+
+### Security
+
+- Preserved only redacted route and validation metadata. No credential values,
+  signed download URLs, participant-level values, local data paths, or indexed
+  third-party dataset files are included.
+
+## [0.6.0] - 2026-08-02
+
+### Added
+
+- Added machine-readable resource roles and narrowly defined dataset-family
+  identifiers to the catalog exports and website.
+- Added a reproducible identity review with separate counts for current
+  datasets, derivatives, annotation layers, components, collections,
+  extensions, and task views.
+
+### Changed
+
+- Retained 475 current canonical records representing 470 narrowly defined
+  dataset families.
+- Moved two earlier versions and two unmodified cross-platform copies out of
+  the counted catalog and retained them as source-history or alternate-source
+  links on their current canonical records.
+- Updated the manuscript, Supplementary Information, figures, tables,
+  documentation, and machine-readable exports to use the identity review.
+
+## [0.5.0] - 2026-08-02
+
+### Added
+
+- Added complete dated searches of Dryad, Mendeley Data, Kaggle, Figshare,
+  and Hugging Face, with a final screening decision for all 18,737 repository
+  records.
+- Added 156 canonical resources found through the five-repository review and
+  reconciled them with 323 retained catalog records from prior documented
+  routes, producing 479 records across 18 primary categories.
+- Added public source-confirmation and canonical-reconciliation ledgers for
+  the newly screened repository records.
+- Added a strict Dryad model-use review covering 145 candidates: 82 retained
+  human or human-derived resources and 63 documented exclusions.
+- Added website relationship links for newly confirmed versions, derivatives,
+  components, synthetic resources, and reused upstream datasets.
+
+### Changed
+
+- Updated the package and catalog version to 0.5.0 and the catalog cutoff to
+  2 August 2026.
+- Applied a human or documented human-derived eligibility boundary and
+  excluded animal-only, analysis-only, code-only, inadequately documented,
+  and non-model-resource deposits from the canonical catalog.
+- Reconciled alternate platform identifiers and DOIs so the same underlying
+  resource is counted once while meaningful derived datasets remain linked.
+- Recomputed current totals as 328 records with resolved primary quantities,
+  392 quantity statements, and 153 directed relationship assertions involving
+  100 records.
+- Updated the practical route partition to 33 routes without platform
+  credentials, 375 platform-credential routes, and 71 manual procedures.
+- Revised the Scientific Data manuscript, Supplementary Information, figures,
+  tables, website, and machine-readable exports from the same catalog state.
+
+### Security
+
+- Redacted local absolute paths found in third-party repository descriptions
+  before writing public search snapshots.
+- Confirmed that public artifacts contain no credential values, signed URLs,
+  retained third-party dataset files, or restricted local paths.
+
 ## [0.4.0] - 2026-08-01
 
 ### Added

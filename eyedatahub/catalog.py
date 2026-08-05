@@ -9,6 +9,7 @@ from typing import Any, Dict, Iterable, List, Optional, Sequence
 from eyedatahub import __version__
 from eyedatahub.core.dataset import license_matches_filter
 from eyedatahub.core.metadata import normalize_modality_label, normalize_unknown
+from eyedatahub.core.resource_identity import identity_fields_for
 
 
 def info_to_record(info: Any) -> Dict[str, Any]:
@@ -26,6 +27,7 @@ def info_to_record(info: Any) -> Dict[str, Any]:
             "license_family": info.license_family,
             "download_type": info.download_type,
             "download_url": info.download_url,
+            **identity_fields_for(info.name),
         }
     )
     return payload

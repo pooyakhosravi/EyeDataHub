@@ -3,7 +3,7 @@ id: drions_db
 title: "DRIONS-DB: Digital Retinal Images for Optic Nerve Segmentation"
 sidebar_label: drions_db
 description: "110 color fundus images with optic-disc contour annotations by two experts. Foundational OD-segmentation dataset."
-tags: ["fundus", "research-only", "direct", "segmentation"]
+tags: ["fundus", "research-only", "direct", "segmentation", "resource-role-current-dataset", "dataset-family-drions-db"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `drions_db` |
 | **Full name** | DRIONS-DB: Digital Retinal Images for Optic Nerve Segmentation |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `drions_db` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 110 images |
@@ -127,4 +129,4 @@ Carmona et al., 'Identification of the Optic Nerve Head with Genetic Algorithms'
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

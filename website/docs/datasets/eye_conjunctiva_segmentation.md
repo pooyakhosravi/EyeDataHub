@@ -3,7 +3,7 @@ id: eye_conjunctiva_segmentation
 title: "Eye Conjunctiva Segmentation Dataset"
 sidebar_label: eye_conjunctiva_segmentation
 description: "Five hundred forty-seven smartphone eye photographs with conjunctiva masks annotated independently by two annotators."
-tags: ["external_eye", "cc-by", "mendeley", "segmentation"]
+tags: ["external_eye", "cc-by", "mendeley", "segmentation", "resource-role-current-dataset", "dataset-family-eye-conjunctiva-segmentation"]
 ---
 
 
@@ -21,6 +21,8 @@ Five hundred forty-seven smartphone eye photographs with conjunctiva masks annot
 | **Short name** | `eye_conjunctiva_segmentation` |
 | **Full name** | Eye Conjunctiva Segmentation Dataset |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `eye_conjunctiva_segmentation` |
 | **Contained modalities** | external_eye |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 547 images |
@@ -31,7 +33,7 @@ Five hundred forty-seven smartphone eye photographs with conjunctiva masks annot
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

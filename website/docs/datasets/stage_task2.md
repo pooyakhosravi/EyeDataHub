@@ -3,7 +3,7 @@ id: stage_task2
 title: "STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction"
 sidebar_label: stage_task2
 description: "400 macular OCT volumes; predict 52-point Humphrey 24-2 visual field sensitivity map (0–100 dB per point). Multi-output regression."
-tags: ["oct", "visual_field", "research-only", "manual", "regression", "documented-relationship", "relationship-derived_from", "relationship-same_or_overlapping_cohort_as"]
+tags: ["oct", "visual_field", "research-only", "manual", "regression", "resource-role-task-view", "dataset-family-stage-2023", "documented-relationship", "relationship-derived_from", "relationship-same_or_overlapping_cohort_as"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `stage_task2` |
 | **Full name** | STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction |
 | **Primary category** | `oct` |
+| **Resource role** | `task_view` |
+| **Dataset family** | `stage_2023` |
 | **Contained modalities** | oct, visual_field |
 | **Tasks** | regression |
 | **Primary reported quantity** | 400 volumes |
@@ -49,6 +51,13 @@ Counts retain their source-reported units. Additional rows can describe componen
 ## Notes
 
 > Labels in task2_GT_training.xlsx (52 columns per sample). All 3 tasks share the same OCT volume set.
+
+## Dataset family
+
+This record belongs to `stage_2023`. Family links group documented collection/component records or exact task views; they do not imply independent cohorts.
+
+- [stage_task1](./stage_task1.md): STAGE 2023 Task 1 — Mean Deviation Prediction from OCT (`task_view`)
+- [stage_task3](./stage_task3.md): STAGE 2023 Task 3 — Pattern Deviation Probability Map (`task_view`)
 
 ## Documented relationships
 

@@ -3,7 +3,7 @@ id: ophthalmology_pubmed_corpus
 title: "Ophthalmology PubMed Corpus"
 sidebar_label: ophthalmology_pubmed_corpus
 description: "Ophthalmology-focused PubMed text corpus for retrieval, pretraining, or RAG experiments."
-tags: ["text", "unknown", "huggingface", "text_generation", "retrieval"]
+tags: ["text", "unknown", "huggingface", "text_generation", "retrieval", "resource-role-current-dataset", "dataset-family-ophthalmology-pubmed-corpus"]
 ---
 
 
@@ -21,6 +21,8 @@ Ophthalmology-focused PubMed text corpus for retrieval, pretraining, or RAG expe
 | **Short name** | `ophthalmology_pubmed_corpus` |
 | **Full name** | Ophthalmology PubMed Corpus |
 | **Primary category** | `text` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ophthalmology_pubmed_corpus` |
 | **Contained modalities** | text |
 | **Tasks** | text_generation, retrieval |
 | **Primary reported quantity** | 39,794 documents |
@@ -31,7 +33,7 @@ Ophthalmology-focused PubMed text corpus for retrieval, pretraining, or RAG expe
 | **Normalized terms** | `unknown` |
 | **Descriptive screening label** | Unknown or unclear; do not assume permission |
 | **Terms scope** | `unknown` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | HuggingFace Hub |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

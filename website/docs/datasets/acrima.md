@@ -3,7 +3,7 @@ id: acrima
 title: "ACRIMA: Glaucoma Optic Disc Fundus Database"
 sidebar_label: acrima
 description: "705 optic disc-centred fundus photographs (396 normal + 309 glaucoma) from Hospital Clinico San Carlos. Expert-annotated binary glaucoma classification."
-tags: ["fundus", "cc-by", "figshare", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "figshare", "classification", "resource-role-current-dataset", "dataset-family-acrima", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `acrima` |
 | **Full name** | ACRIMA: Glaucoma Optic Disc Fundus Database |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `acrima` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 705 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `guided_instructions_only` |
@@ -50,6 +52,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
+- [higancnn_generated_glaucoma](./higancnn_generated_glaucoma.md) is `derived from` this record: The official dataset description names ACRIMA, DRISHTI-GS, and HRF among the human fundus sources used to construct the synthetic glaucoma resource. ([evidence](https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection))
 - [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 
 ## Access information and download
@@ -140,4 +143,4 @@ Diaz-Pinto et al., 'Retinal Image Synthesis and Semi-Supervised Learning for Gla
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

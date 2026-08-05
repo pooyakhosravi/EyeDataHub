@@ -3,7 +3,7 @@ id: rbad
 title: "RBAD Retinal Branching-Angle Detection Benchmark"
 sidebar_label: rbad
 description: "Fundus-image benchmark with retinal vessel branching-angle annotations for evaluating branching-angle detection and measurement algorithms."
-tags: ["fundus", "research-only", "github", "landmark_detection", "measurement"]
+tags: ["fundus", "research-only", "github", "landmark_detection", "measurement", "resource-role-current-dataset", "dataset-family-rbad"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus-image benchmark with retinal vessel branching-angle annotations for evalu
 | **Short name** | `rbad` |
 | **Full name** | RBAD Retinal Branching-Angle Detection Benchmark |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `rbad` |
 | **Contained modalities** | fundus |
 | **Tasks** | landmark_detection, measurement |
 | **Primary reported quantity** | 40 images |
@@ -127,4 +129,4 @@ Yu F, Yu S, Ma S, Williams MA, Yu H. RBAD: A Dataset and Benchmark for Retinal V
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

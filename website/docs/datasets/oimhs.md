@@ -3,7 +3,7 @@ id: oimhs
 title: "OIMHS: OCT Image Macular Hole Segmentation Dataset"
 sidebar_label: oimhs
 description: "3,859 OCT B-scan images (125 eyes, 119 patients) for macular hole segmentation. Each PNG is side-by-side: left half raw B-scan, right half colour-coded mask for 4 classes: Retina, Macular Hole, Intrar"
-tags: ["oct", "cc0", "figshare", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "cc0", "figshare", "segmentation", "resource-role-current-dataset", "dataset-family-oimhs", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `oimhs` |
 | **Full name** | OIMHS: OCT Image Macular Hole Segmentation Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `oimhs` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 3,859 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc0` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

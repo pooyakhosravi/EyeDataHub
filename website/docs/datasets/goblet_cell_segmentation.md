@@ -3,7 +3,7 @@ id: goblet_cell_segmentation
 title: "Human Conjunctival Goblet Cell Segmentation Dataset"
 sidebar_label: goblet_cell_segmentation
 description: "Phase-contrast microscopy fields of cultured human conjunctival goblet cells with semantic and instance-compatible masks."
-tags: ["cell_microscopy", "cc-by", "zenodo", "segmentation", "counting"]
+tags: ["cell_microscopy", "cc-by", "zenodo", "segmentation", "counting", "resource-role-current-dataset", "dataset-family-goblet-cell-segmentation"]
 ---
 
 
@@ -21,6 +21,8 @@ Phase-contrast microscopy fields of cultured human conjunctival goblet cells wit
 | **Short name** | `goblet_cell_segmentation` |
 | **Full name** | Human Conjunctival Goblet Cell Segmentation Dataset |
 | **Primary category** | `cell_microscopy` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `goblet_cell_segmentation` |
 | **Contained modalities** | cell_microscopy |
 | **Tasks** | segmentation, counting |
 | **Primary reported quantity** | 24 images |
@@ -31,7 +33,7 @@ Phase-contrast microscopy fields of cultured human conjunctival goblet cells wit
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -121,11 +123,6 @@ Fineide FA, Bair J, Utheim TP, Riegler MA, Dartt DA. Development of Human Conjun
 
 ## Similar resources by shared modality
 
-- [dryad_5xfad_retina_dlgn](./dryad_5xfad_retina_dlgn.md): 5xFAD Retina and dLGN Disease-Model Dataset (Not reported, `cc0`)
-- [dryad_cone_synapse_computation](./dryad_cone_synapse_computation.md): Cone Photoreceptor Synapse Dataset (Not reported, `cc0`)
-- [dryad_d12d9f](./dryad_d12d9f.md): Excitatory neurotransmission activates compartmentalized calcium transients in Müller glia without affecting lateral process motility (Not reported, `cc0`)
-- [dryad_pk0p2ngzh](./dryad_pk0p2ngzh.md): Morphometric analysis of retinal ganglionic cells (3D confocal images) analyzed using filament tracer from Imaris software (Not reported, `cc0`)
-- [dryad_pzgmsbcmk](./dryad_pzgmsbcmk.md): Two-photon calcium recordings of cones (Not reported, `cc0`)
-- [dryad_q6rv0kz3](./dryad_q6rv0kz3.md): Asymmetric retinal direction tuning predicts optokinetic eye movements across stimulus conditions (Not reported, `cc0`)
-- [dryad_r4xgxd2nt](./dryad_r4xgxd2nt.md): Restoration of cone circuit functionality in the regenerating adult zebrafish retina (Not reported, `cc0`)
-- [dryad_rv15dv4bv](./dryad_rv15dv4bv.md): Late gene therapy limits the restoration of retinal function in a mouse model of retinitis pigmentosa (Not reported, `cc0`)
+- [hesc_retinal_organoid_early_differentiation](./hesc_retinal_organoid_early_differentiation.md): hESC-Derived Retinal Organoid Early Differentiation Imaging Dataset (Not reported, `cc-by`)
+- [mendeley_digital_holograms_rbcs_glaucoma_patients_healthy](./mendeley_digital_holograms_rbcs_glaucoma_patients_healthy.md): Digital holograms of RBCs from the glaucoma patients and healthy controls (Not reported, `cc-by`)
+- [mendeley_ocular_sebaceous_neoplasms](./mendeley_ocular_sebaceous_neoplasms.md): Ocular sebaceous neoplasms (Not reported, `cc-by`)

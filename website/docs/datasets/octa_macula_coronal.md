@@ -3,7 +3,7 @@ id: octa_macula_coronal
 title: "OCTA Macula Coronal Views"
 sidebar_label: octa_macula_coronal
 description: "A derived OCT angiography resource with 640 coronal PNG views for each of 129 subjects: 90 normal, 29 diabetic retinopathy, 5 AMD, and 5 choroidal neovascularization cases."
-tags: ["octa", "cc-by", "mendeley", "classification", "visualization"]
+tags: ["octa", "cc-by", "mendeley", "classification", "visualization", "resource-role-current-dataset", "dataset-family-octa-macula-coronal"]
 ---
 
 
@@ -21,6 +21,8 @@ A derived OCT angiography resource with 640 coronal PNG views for each of 129 su
 | **Short name** | `octa_macula_coronal` |
 | **Full name** | OCTA Macula Coronal Views |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `octa_macula_coronal` |
 | **Contained modalities** | octa |
 | **Tasks** | classification, visualization |
 | **Primary reported quantity** | 82,560 images |
@@ -31,7 +33,7 @@ A derived OCT angiography resource with 640 coronal PNG views for each of 129 su
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -128,3 +130,4 @@ Al-Hinnawi AR. OCTA Macula Coronal Views. Mendeley Data. 2023. doi:10.17632/p5h7
 - [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 images, `cc-by`)
 - [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (112 participants, `unknown`)
 - [dryad_preeclampsia_ocular_octa](./dryad_preeclampsia_ocular_octa.md): Plane wave ultrasound and OCT angiography of the eye in preeclampsia (Not reported, `cc0`)
+- [retinal_oct_octa_two_subjects_processed](./retinal_oct_octa_two_subjects_processed.md): Processed Retinal OCT and OCTA Two-Subject Dataset (Not reported, `cc-by`)

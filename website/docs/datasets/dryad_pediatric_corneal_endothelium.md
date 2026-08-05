@@ -3,7 +3,7 @@ id: dryad_pediatric_corneal_endothelium
 title: "Corneal endothelial morphology of healthy myopic Malaysian children of Chinese ethnicity aged 8-9 years and its association with axial length"
 sidebar_label: dryad_pediatric_corneal_endothelium
 description: "The 111-participant raw corneal endothelial dataset is direct pediatric ocular-biometric data."
-tags: ["corneal_topography", "tabular", "cc0", "dryad", "measurement"]
+tags: ["corneal_topography", "tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-pediatric-corneal-endothelium"]
 ---
 
 
@@ -21,6 +21,8 @@ The 111-participant raw corneal endothelial dataset is direct pediatric ocular-b
 | **Short name** | `dryad_pediatric_corneal_endothelium` |
 | **Full name** | Corneal endothelial morphology of healthy myopic Malaysian children of Chinese ethnicity aged 8-9 years and its association with axial length |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_pediatric_corneal_endothelium` |
 | **Contained modalities** | corneal_topography, tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 111 participants |
@@ -121,9 +123,9 @@ Corneal endothelial morphology of healthy myopic Malaysian children of Chinese e
 
 - [dryad_corneal_biomechanics_prostaglandin](./dryad_corneal_biomechanics_prostaglandin.md): Changes in corneal biomechanical properties after long-term topical prostaglandin therapy (Not reported, `cc0`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
 - [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
+- [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)

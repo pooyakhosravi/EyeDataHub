@@ -3,7 +3,7 @@ id: dryad_stargardt_wes
 title: "Stargardt Disease WES Variant Dataset"
 sidebar_label: dryad_stargardt_wes
 description: "The 33-proband Stargardt variant table is a direct inherited-retinal-disease genomics resource."
-tags: ["omics", "cc0", "dryad", "classification"]
+tags: ["omics", "cc0", "dryad", "classification", "resource-role-current-dataset", "dataset-family-dryad-stargardt-wes"]
 ---
 
 
@@ -21,6 +21,8 @@ The 33-proband Stargardt variant table is a direct inherited-retinal-disease gen
 | **Short name** | `dryad_stargardt_wes` |
 | **Full name** | Stargardt Disease WES Variant Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_stargardt_wes` |
 | **Contained modalities** | omics |
 | **Tasks** | classification |
 | **Primary reported quantity** | 33 participants |
@@ -120,11 +122,11 @@ Xin, Wei, Xiao, Xueshan, Li, Shiqiang, Jia, Xaioyun, Guo, Xiangming, Zhang, Qing
 
 ## Similar resources by shared modality
 
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [dryad_uveal_melanoma_coog2](./dryad_uveal_melanoma_coog2.md): COOG2.1 Uveal Melanoma Prognostic Dataset (1,577 participants, `cc0`)
 - [dryad_uveitis_vitreous_biomarkers](./dryad_uveitis_vitreous_biomarkers.md): Uveitis Vitreous Biomarker Dataset (234 eyes, `cc0`)
 - [dryad_dry_eye_nlrp3](./dryad_dry_eye_nlrp3.md): Dry Eye NLRP3 Ocular Surface Dataset (150 participants, `cc0`)
 - [dryad_amd_zinc_complement](./dryad_amd_zinc_complement.md): AMD Zinc Complement Dataset (72 participants, `cc0`)
+- [mendeley_exome_sequencing_clec3b](./mendeley_exome_sequencing_clec3b.md): Exome sequencing data for CLEC3B (9 participants, `cc-by`)
+- [mendeley_proteomic_analysis_human_autoimmune_retinopathy_air](./mendeley_proteomic_analysis_human_autoimmune_retinopathy_air.md): Proteomic analysis of human autoimmune retinopathy (AIR) vitreous (5 participants, `cc-by`)
 - [dryad_congenital_glaucoma_wes](./dryad_congenital_glaucoma_wes.md): Identification of novel variants in LTBP2 and PXDN using whole-exome sequencing in developmental and congenital glaucoma (3 families, `cc0`)
-- [dryad_ird_mouse_proteome](./dryad_ird_mouse_proteome.md): Retinal proteome profiling of inherited retinal degeneration across three different mouse models suggests common drug targets in retinitis pigmentosa (3 animal models, `cc0`)
-- [dryad_acanthamoeba_keratitis_transcriptome](./dryad_acanthamoeba_keratitis_transcriptome.md): Human conjunctival transcriptome in Acanthamoeba keratitis: An exploratory study (Not reported, `cc0`)
+- [dryad_rpgr_cone_rod_wes](./dryad_rpgr_cone_rod_wes.md): RPGR Cone-Rod Dystrophy WES Dataset (1 participants, `cc0`)

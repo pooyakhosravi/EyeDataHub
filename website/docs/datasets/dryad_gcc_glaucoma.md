@@ -3,7 +3,7 @@ id: dryad_gcc_glaucoma
 title: "Glaucoma Ganglion Cell Complex Clinical Dataset"
 sidebar_label: dryad_gcc_glaucoma
 description: "Eye-level demographics, clinical measurements, and SD-OCT-derived macular ganglion-cell-complex thickness for glaucoma assessment."
-tags: ["tabular", "cc0", "dryad", "classification", "regression"]
+tags: ["tabular", "cc0", "dryad", "classification", "regression", "resource-role-current-dataset", "dataset-family-dryad-gcc-glaucoma"]
 ---
 
 
@@ -21,6 +21,8 @@ Eye-level demographics, clinical measurements, and SD-OCT-derived macular gangli
 | **Short name** | `dryad_gcc_glaucoma` |
 | **Full name** | Glaucoma Ganglion Cell Complex Clinical Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_gcc_glaucoma` |
 | **Contained modalities** | tabular |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 406 eyes |
@@ -122,10 +124,10 @@ Poudel A, Gautam Adhikari P, Ghimire B, Thapa M. Diagnostic capability of gangli
 ## Similar resources by shared modality
 
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
 - [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
 - [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
+- [dryad_icmr_eye_see_cataract](./dryad_icmr_eye_see_cataract.md): ICMR EYE SEE Cataract and Sun Exposure Dataset (9,735 participants, `cc0`)

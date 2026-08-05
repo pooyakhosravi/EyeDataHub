@@ -1,19 +1,19 @@
 {
   "metadata": {
-    "generated_at": "2026-08-02T01:37:08.448367+00:00",
-    "elapsed_seconds": 58.1,
+    "generated_at": "2026-08-04T23:57:41.772170+00:00",
+    "elapsed_seconds": 77.2,
     "command": "python.exe -m hub.audit.verify_urls",
     "package": "eyedatahub",
-    "package_version": "0.4.0",
-    "git_commit": "3f055cf73e5cd352a8a85b55e0199226ee51f2ea",
-    "git_dirty": true,
+    "package_version": "0.7.0",
+    "git_commit": "cc84b975798a16a9ab53cdc9459dcd88d579bc4c",
+    "git_dirty": false,
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "timeout_seconds": 30,
     "concurrency": 8,
     "status_definitions": {
       "ok": "HTTP 2xx response after redirects; technical reachability only.",
       "forbidden": "HTTP 403 response; often bot-blocked, browser-gated, or manually accessible.",
-      "credentials_or_client_required": "The official platform requires credentials, a configured client, or a browser-mediated request; this is an access requirement, not a dataset download failure.",
+      "platform_or_browser_route": "The automated page probe was denied by a repository host; use the documented official API, client, or browser route. This is not a download failure and does not by itself establish that a user account is required.",
       "auth_required": "HTTP 401 or known access-controlled host requiring authentication.",
       "not_found": "HTTP 404 response; source-page review or replacement URL required.",
       "connect_error": "Connection failure during automated request.",
@@ -25,19 +25,26 @@
     }
   },
   "summary": {
-    "total": 386,
+    "total": 451,
     "by_status": {
-      "ok": 306,
-      "credentials_or_client_required": 67,
+      "ok": 283,
+      "platform_or_browser_route": 153,
       "forbidden": 10,
-      "ssl_error": 3
+      "ssl_error": 3,
+      "timeout": 1,
+      "auth_required": 1
     },
-    "broken_count": 3,
+    "broken_count": 4,
     "broken": [
       {
         "name": "stare",
         "status": "ssl_error",
         "url": "https://cecas.clemson.edu/~ahoover/stare/"
+      },
+      {
+        "name": "harvard_fairvision",
+        "status": "timeout",
+        "url": "https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k"
       },
       {
         "name": "drions_db",
@@ -130,7 +137,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://www.adcis.net/en/third-party/messidor2/",
-      "content_length": "23340",
+      "content_length": null,
       "status": "ok"
     },
     {
@@ -142,7 +149,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid",
-      "content_length": "24164",
+      "content_length": "24177",
       "status": "ok"
     },
     {
@@ -182,30 +189,6 @@
       "status": "ok"
     },
     {
-      "name": "bidr",
-      "modality": "fundus",
-      "download_type": "kaggle",
-      "download_url": "https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy",
-      "url": "https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy",
-      "method": "GET(Range)",
-      "http_status": 200,
-      "final_url": "https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dr_arranged",
-      "modality": "fundus",
-      "download_type": "manual",
-      "download_url": "https://tianchi.aliyun.com/dataset/93926",
-      "url": "https://tianchi.aliyun.com/dataset/93926",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://tianchi.aliyun.com/dataset/93926",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "mmrdr",
       "modality": "multimodal",
       "download_type": "figshare",
@@ -215,18 +198,6 @@
       "http_status": 202,
       "final_url": "https://figshare.com/articles/dataset/MMRDR/29423747",
       "content_length": "2009",
-      "status": "ok"
-    },
-    {
-      "name": "refuge2018",
-      "modality": "fundus",
-      "download_type": "manual",
-      "download_url": "https://refuge.grand-challenge.org/",
-      "url": "https://refuge.grand-challenge.org/",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://refuge.grand-challenge.org/",
-      "content_length": null,
       "status": "ok"
     },
     {
@@ -275,7 +246,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/5793241",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "papila",
@@ -287,7 +258,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/6379970",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "harvard_glaucoma",
@@ -322,7 +293,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1YdZm-sioiAbTdBRy4oej1q6tZL8Baft7/edit",
-      "content_length": "122257",
+      "content_length": "122560",
       "status": "ok"
     },
     {
@@ -383,7 +354,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/record/3477553",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "cataract",
@@ -407,7 +378,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/8kt969dhx6/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "aod",
@@ -466,7 +437,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://borealisdata.ca/dataverse/OCTID",
-      "content_length": "13010",
+      "content_length": "13012",
       "status": "ok"
     },
     {
@@ -478,7 +449,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/10Ys4xsw81evjHewZEvqHy4Kri0my8C2S/view",
-      "content_length": "122278",
+      "content_length": "122176",
       "status": "ok"
     },
     {
@@ -491,7 +462,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/10280359",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "oct_c8",
@@ -515,7 +486,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/sncdhf53xc/4",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "oct_cirrus",
@@ -539,7 +510,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/7105232",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "rasti_oct",
@@ -550,7 +521,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu/edit",
-      "content_length": "122388",
+      "content_length": "122415",
       "status": "ok"
     },
     {
@@ -647,7 +618,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/14580071",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "cavri",
@@ -707,7 +678,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/5880419",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "corn_pro",
@@ -719,7 +690,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/14263883",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "corn_collection",
@@ -731,7 +702,19 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/19689814",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "qilu_ccm_nerve_segmentation",
+      "modality": "confocal",
+      "download_type": "zenodo",
+      "download_url": "https://zenodo.org/records/18779434",
+      "url": "https://zenodo.org/records/18779434",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://zenodo.org/records/18779434",
+      "content_length": "763",
+      "status": "platform_or_browser_route"
     },
     {
       "name": "stage_task1",
@@ -778,7 +761,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/14XWD6kX0dVRfAyEc7FkZGKZibWEkvnyv/view",
-      "content_length": "122277",
+      "content_length": "122286",
       "status": "ok"
     },
     {
@@ -790,7 +773,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Qlkqj74SW8DJRKdYL_-ApC_0H5Z7uyvr/view",
-      "content_length": "121977",
+      "content_length": "122220",
       "status": "ok"
     },
     {
@@ -802,7 +785,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1Uz5x0aqXb0aecjzNWQ4522oCxaRDZxBt/view",
-      "content_length": "122239",
+      "content_length": "122247",
       "status": "ok"
     },
     {
@@ -814,7 +797,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view",
-      "content_length": "122149",
+      "content_length": "122166",
       "status": "ok"
     },
     {
@@ -826,7 +809,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view",
-      "content_length": "122197",
+      "content_length": "122150",
       "status": "ok"
     },
     {
@@ -838,7 +821,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view",
-      "content_length": "122064",
+      "content_length": "122333",
       "status": "ok"
     },
     {
@@ -863,7 +846,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/10035093",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "tsukazaki_uwf",
@@ -911,7 +894,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/8248825",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "uwf_dr",
@@ -991,11 +974,7 @@
       "download_type": "manual",
       "download_url": "https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k",
       "url": "https://ophai.hms.harvard.edu/datasets/harvard-fairvision30k",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://ophai.hms.harvard.edu/code/fairvision/",
-      "content_length": null,
-      "status": "ok"
+      "status": "timeout"
     },
     {
       "name": "oct5k",
@@ -1019,7 +998,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/15270469",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "multieye",
@@ -1195,7 +1174,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://eye.medicine.uiowa.edu/rite-dataset",
-      "content_length": "36854",
+      "content_length": "36855",
       "status": "ok"
     },
     {
@@ -1277,7 +1256,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/pc4mb3h8hz/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "sustech_sysu",
@@ -1301,7 +1280,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/record/4647952",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "jichi",
@@ -1361,7 +1340,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/doi/10.5281/zenodo.12775880",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "octa_500",
@@ -1372,7 +1351,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/octa-500",
-      "content_length": "17728",
+      "content_length": "17708",
       "status": "ok"
     },
     {
@@ -1384,7 +1363,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset",
-      "content_length": "17379",
+      "content_length": "17377",
       "status": "ok"
     },
     {
@@ -1396,7 +1375,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/cataracts",
-      "content_length": "18243",
+      "content_length": "18246",
       "status": "ok"
     },
     {
@@ -1433,7 +1412,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/19438128",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "cataract_101",
@@ -1480,7 +1459,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://arxiv.org/abs/2503.04525",
-      "content_length": "41362",
+      "content_length": "41352",
       "status": "ok"
     },
     {
@@ -1661,7 +1640,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/2rnnz5nz74/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "afio_fundus_vessels",
@@ -1673,7 +1652,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/3csr652p9y/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "hassan_composite_retina",
@@ -1685,7 +1664,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/trghs22fpg/4",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "csc_fundus_segmentation",
@@ -1697,7 +1676,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/4k64fwnp4k/5",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "eye_disease_image_mendeley",
@@ -1709,7 +1688,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/s9bfhswzjb/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "external_eye_blepharitis",
@@ -1721,7 +1700,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/bp37vw4z8d/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "eye_conjunctiva_segmentation",
@@ -1733,7 +1712,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/yxwjgcndg2/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "thyroid_ophthalmopathy_external",
@@ -1745,7 +1724,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/z7ys7r4bdn/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "bmrd",
@@ -1757,7 +1736,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/959whsbc6v/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "rao_fundus",
@@ -1769,7 +1748,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/5428684j44/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "amdnet23",
@@ -1781,7 +1760,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/yj35kjgrv3/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "eyecatcher_visual_field",
@@ -1793,7 +1772,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/swsfj47cxw/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "leops_erg",
@@ -1805,7 +1784,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/w3yx7hdds7/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "bajwa_multi_eye",
@@ -1817,7 +1796,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/rgwpd4m785/3",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "retinal_corrugations_oct",
@@ -1829,7 +1808,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/bzsc7gd9p3/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "myopic_regression_fundus",
@@ -1841,7 +1820,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/k34rvfw3dg/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "corneal_curvature_fundus",
@@ -1853,7 +1832,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/bc2jfr7dv9/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "corneal_tomography_iol",
@@ -1865,7 +1844,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/wddj7bh9p9/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "ghana_eye_screening",
@@ -1877,7 +1856,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/mfv6sb5wyc/4",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "uveitis_smote",
@@ -1889,31 +1868,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/n9zp473wfw/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
-    },
-    {
-      "name": "corneal_parameters_kc",
-      "modality": "tabular",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/3nz4fkwn3y/1",
-      "url": "https://data.mendeley.com/datasets/3nz4fkwn3y/1",
-      "method": "GET(stream)",
-      "http_status": 403,
-      "final_url": "https://data.mendeley.com/datasets/3nz4fkwn3y/1",
-      "content_length": null,
-      "status": "credentials_or_client_required"
-    },
-    {
-      "name": "chronic_corneal_disorders",
-      "modality": "tabular",
-      "download_type": "mendeley",
-      "download_url": "https://data.mendeley.com/datasets/mcwv6thk8m/1",
-      "url": "https://data.mendeley.com/datasets/mcwv6thk8m/1",
-      "method": "GET(stream)",
-      "http_status": 403,
-      "final_url": "https://data.mendeley.com/datasets/mcwv6thk8m/1",
-      "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "anterior_segment_smile",
@@ -1925,7 +1880,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/vkdxsnhkrm/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "corneal_epithelium_confocal",
@@ -1937,7 +1892,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/n3gky25brh/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "fimd",
@@ -1949,7 +1904,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/jkzsh6pcv4/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "rop_synthetic_mendeley",
@@ -1961,7 +1916,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/fscyyhg6vt/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "msila_fundus_dr",
@@ -1973,7 +1928,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/19169587",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "popeye_nir",
@@ -1985,7 +1940,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/18430187",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "superccm_fineset",
@@ -1997,7 +1952,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/17051148",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "eed_astig",
@@ -2021,7 +1976,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/20542091",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "jrc_multimodal_vessels",
@@ -2033,7 +1988,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/17874693",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "irfdrd",
@@ -2045,7 +2000,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/12552326",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "glaucoma_eye_movements",
@@ -2057,7 +2012,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/7761477",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "trend_fundus",
@@ -2069,7 +2024,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/4521044",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "trend2_fundus",
@@ -2081,7 +2036,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/7678656",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "aptos_arcade_onh_masks",
@@ -2093,7 +2048,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/20711325",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "dme_vqa",
@@ -2105,7 +2060,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/6784358",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "dme_vqa_logical",
@@ -2117,7 +2072,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/7777849",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "sics155",
@@ -2129,7 +2084,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/19482928",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "cataract101_extended_labels",
@@ -2141,7 +2096,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/4984167",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "rfmid2",
@@ -2153,7 +2108,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/7505822",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "hrf_seg_plus",
@@ -2165,7 +2120,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/16744782",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "ut_fsocta",
@@ -2177,7 +2132,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/6476639",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "riga_plus",
@@ -2189,7 +2144,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/6325549",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "fundus_domain_generalization",
@@ -2201,7 +2156,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/8009107",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "retinal_vessel_robustness",
@@ -2213,7 +2168,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/12659652",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "ophtho_readability",
@@ -2225,7 +2180,7 @@
       "http_status": 403,
       "final_url": "https://zenodo.org/records/16592100",
       "content_length": "763",
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "fprm_retina",
@@ -2528,6 +2483,1590 @@
       "status": "ok"
     },
     {
+      "name": "sustech_sysu_corneal_ulcers",
+      "modality": "external_eye",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.10247501.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.10247501.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://springernature.figshare.com/articles/The_SUSTech-SYSU_dataset_for_automatically_segmenting_and_classifying_corneal_ulcers/10247501/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "visual_field_test_perception",
+      "modality": "visual_field",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.12443594.v2",
+      "url": "https://doi.org/10.6084/m9.figshare.12443594.v2",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/DATABASE_xlsx/12443594/2",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "cyp1b1_poag_genotypes",
+      "modality": "omics",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.25451/flinders.16545561.v1",
+      "url": "https://doi.org/10.25451/flinders.16545561.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://open.flinders.edu.au/articles/dataset/Tag_single_nucleotide_polymorphisms_SNPs_in_CYP1B1_-_investigation_of_effect_on_Primary_Open_Angle_Glaucoma_POAG_dataset/16545561/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "dual_scheimpflug_ss_oct_biometry",
+      "modality": "tabular",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.16828996.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.16828996.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Dataset_Clinical_Evaluation_of_Ocular_Biometry_of_Dual_Scheimpflug_Analyzer_and_Swept_Source_Optical_Coherence_Tomography_xlsx/16828996/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "retinal_optic_flow_locomotion",
+      "modality": "eye_tracking",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.25452/figshare.plus.17113883.v1",
+      "url": "https://doi.org/10.25452/figshare.plus.17113883.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://plus.figshare.com/articles/dataset/Retinal_Optic_Flow_During_Natural_Locomotion_-_Dataset/17113883/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "pimd_visual_preference_eye_tracking",
+      "modality": "eye_tracking",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.1371/journal.pone.0266176.s010",
+      "url": "https://doi.org/10.1371/journal.pone.0266176.s010",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0266176/1/pone.0266176.s010.xlsx",
+      "content_length": "238066",
+      "status": "ok"
+    },
+    {
+      "name": "asd_eye_tracking",
+      "modality": "eye_tracking",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.20113592.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.20113592.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Eye-Tracking_Dataset_to_Support_the_Research_on_Autism_Spectrum_Disorder/20113592/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "retinal_photoplethysmography_rnfl",
+      "modality": "oct",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.21197173.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.21197173.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Retinal_photoplethysmography_study_dataset/21197173/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "hesc_rpe_electrical_excitability",
+      "modality": "electrophysiology",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.22246969.v2",
+      "url": "https://doi.org/10.6084/m9.figshare.22246969.v2",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Electrical_excitability_and_its_lateral_spread_in_the_retinal_pigment_epithelium_dataset/22246969/2",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "pupillometry_eeg_fmri_salience",
+      "modality": "eye_tracking",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.22518010.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.22518010.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Pupillary_response_is_associated_with_the_reset_and_switching_of_functional_brain_networks_during_salience_processing_A_simultaneous_pupillometry-EEG-fMRI_study_dataset_and_demo_/22518010/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "cataract_iol_biometry_outcomes",
+      "modality": "tabular",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.22736687.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.22736687.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Minimal_dataset_for_PONE-D-2304227_This_dataset_includes_measurements_of_the_IOLMaster_700_biometer_and_Casia2_tomographer_before_cataract_surgery_and_Casia2_tomographer_after_cataract_surgery_together_with_the_power_of_the_implanted_lens_a/22736687/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "parkinsons_outer_retinal_structure",
+      "modality": "oct",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.26188/24138420.v2",
+      "url": "https://doi.org/10.26188/24138420.v2",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://melbourne.figshare.com/articles/dataset/Altered_Outer_Retinal_Structure_Electrophysiology_and_Visual_Perception_in_Parkinson_s_Disease_Study_Dataset/24138420/2",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "slid_e",
+      "modality": "external_eye",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.26172919.v2",
+      "url": "https://doi.org/10.6084/m9.figshare.26172919.v2",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/_i_SLID-E_Slit_Lamp_Image_Dataset_for_Epiphora_-_A_Benchmark_Resource_for_Automated_Tear_Overflow_Analysis_i_/26172919/2",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "casia2_keratometric_astigmatism",
+      "modality": "corneal_topography",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.26395018.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.26395018.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Minimal_dataset_supporting_the_results_of_the_PlosONE_paper_Evaluation_of_keratometric_and_total_corneal_astigmatism_measurements_from_optical_biometers/26395018/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "china_fundus_cimt",
+      "modality": "fundus",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.27907056.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.27907056.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://springernature.figshare.com/articles/dataset/High-resolution_fundus_images_for_ophthalmomics_and_early_cardiovascular_disease_prediction_China_Fundus_Carotid_Intima-Media_Thickness_dataset/27907056/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "spectrosense_pupil_light_exposure",
+      "modality": "eye_tracking",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.28176839.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.28176839.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/_b_Joint_infrared_pupil_images_and_near-corneal-plane_spectral_light_exposure_data_under_natural_conditions_across_the_adult_lifespan_b_b_Dataset_b_/28176839/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "corneal_nerve_parkinsons",
+      "modality": "confocal",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.28189571.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.28189571.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/_b_Cross-Sectional_Study_of_Corneal_Nerve_Parameters_Datasets_b_/28189571/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "casia2_as_oct_repeatability",
+      "modality": "corneal_topography",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.29302664.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.29302664.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Minimal_dataset_for_the_Casia_2_anterior_segment_OCT_repeatability_study/29302664/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "hesc_retinal_organoid_early_differentiation",
+      "modality": "cell_microscopy",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.30102802.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.30102802.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Human_Embryonic_Stem_Cell-Derived_Retinal_Organoid_Early_Differentiation_Imaging_Dataset/30102802/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "rop_vl",
+      "modality": "fundus",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.30143461.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.30143461.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/ROP-VL_An_Open_Dataset_Integrating_Fundus_Photograph_and_Clinical_Knowledge_for_Retinopathy_of_Prematurity/30143461/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "post_glaucoma_surgery_ptosis_strabismus",
+      "modality": "tabular",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.1371/journal.pone.0335074.s001",
+      "url": "https://doi.org/10.1371/journal.pone.0335074.s001",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0335074/1/pone.0335074.s001.xls",
+      "content_length": "228352",
+      "status": "ok"
+    },
+    {
+      "name": "natural_scene_eye_tracking_collection",
+      "modality": "eye_tracking",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.30520733.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.30520733.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Eye_Tracking_Dataset_Indoor_scene_2/30520733/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "parkinsons_directional_oct",
+      "modality": "oct",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.26188/30750011.v1",
+      "url": "https://doi.org/10.26188/30750011.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.unimelb.edu.au/articles/dataset/_b_i_Detailed_outer_retinal_assessment_in_Parkinson_s_disease_using_directional_OCT_study_i_b_dataset/30750011/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "mpxv_ocular_manifestations_south_kivu",
+      "modality": "tabular",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.1371/journal.pgph.0005971.s001",
+      "url": "https://doi.org/10.1371/journal.pgph.0005971.s001",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pgph.0005971/1/pgph.0005971.s001.xls",
+      "content_length": "201728",
+      "status": "ok"
+    },
+    {
+      "name": "tunisian_retinal_oct_multidisease",
+      "modality": "oct",
+      "download_type": "manual",
+      "download_url": "https://doi.org/10.6084/m9.figshare.31385596.v3",
+      "url": "https://doi.org/10.6084/m9.figshare.31385596.v3",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Tunisian_OCT_Dataset_for_Multi-Disease_Retinal_ClassificationTunisian_OCT_Dataset_for_Multi-Disease_Retinal_Classification/31385596/3",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "ocular_generalized_myasthenia_korea",
+      "modality": "tabular",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.31981347.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.31981347.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Comparative_study_of_ocular_and_generalized_myasthenia_gravis_in_a_South_Korean_cohort/31981347/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "binocular_fundus_images",
+      "modality": "fundus",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.31981557.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.31981557.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/binocular_fundus_image_dataset/31981557/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "glaucoma_oct_fundus",
+      "modality": "fundus",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.32051124.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.32051124.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/_b_Glaucoma_Detection_Dataset_with_OCT_and_Fundus_Images_b_/32051124/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "anterior_uveitis_corneal_endothelium",
+      "modality": "tabular",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.32054064.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.32054064.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Minimal_dataset_for_Corneal_endothelial_changes_in_anterior_uveitis/32054064/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "fd3611",
+      "modality": "fundus",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.32086296.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.32086296.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/_b_FD3611_b_A_Multi-Class_Color_Fundus_Image_Dataset_for_Retinal_Disease_Classification/32086296/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "aqp4_optic_neuritis_oct_layers",
+      "modality": "oct",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.3209908.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.3209908.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/The_dataset_for_study_Structural_Alterations_of_Segmented_Macular_Inner_Layers_in_Aquaporin4-Antibody-Positive_Optic_Neuritis_Patients_in_a_Chinese_Population_/3209908/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "puwf_av",
+      "modality": "fundus",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.32509329.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.32509329.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/PUWF-AV_A_pediatric_ultra-widefield_fundus_image_dataset_for_artery-vein_segmentation/32509329/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "slp_vld",
+      "modality": "external_eye",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.32576697.v3",
+      "url": "https://doi.org/10.6084/m9.figshare.32576697.v3",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/SLP-VLD_anonymized_SD_dataset/32576697/3",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "cataract_lenstar_biometric_symmetry",
+      "modality": "tabular",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.32833895.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.32833895.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/Minimal_dataset_for_PONE-D-25-51348R1_Lateral_similarity_and_symmetry_of_biometric_data_from_the_LenStar_in_a_population_with_cataract/32833895/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "pco_namd",
+      "modality": "fundus",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.6084/m9.figshare.32873501.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.32873501.v1",
+      "method": "HEAD",
+      "http_status": 202,
+      "final_url": "https://figshare.com/articles/dataset/PCO-nAMD_Paired_CFP_and_OCT_Dataset_for_Neovascular_Age-Related_Macular_Degeneration/32873501/1",
+      "content_length": "2009",
+      "status": "ok"
+    },
+    {
+      "name": "central_retinal_vessel_trunk_oag",
+      "modality": "tabular",
+      "download_type": "figshare",
+      "download_url": "https://doi.org/10.1371/journal.pone.0158443.s001",
+      "url": "https://doi.org/10.1371/journal.pone.0158443.s001",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0158443/1/pone.0158443.s001.csv",
+      "content_length": "24495",
+      "status": "ok"
+    },
+    {
+      "name": "doomgan_ocular_morphs",
+      "modality": "iris_biometrics",
+      "download_type": "huggingface",
+      "download_url": "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs",
+      "url": "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs",
+      "content_length": "477915",
+      "status": "ok"
+    },
+    {
+      "name": "synthetic_retinal_oct_biomarkers",
+      "modality": "oct",
+      "download_type": "huggingface",
+      "download_url": "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images",
+      "url": "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images",
+      "content_length": "413038",
+      "status": "ok"
+    },
+    {
+      "name": "glaucoma_expert_cot_refined",
+      "modality": "fundus",
+      "download_type": "huggingface",
+      "download_url": "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077",
+      "url": "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077",
+      "method": "GET(stream)",
+      "http_status": 401,
+      "final_url": "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077",
+      "content_length": "52197",
+      "status": "auth_required"
+    },
+    {
+      "name": "itec_iris_pupil",
+      "modality": "surgical_video",
+      "download_type": "manual",
+      "download_url": "https://ftp.itec.aau.at/datasets/ovid/iris_pupil_seg/index.html",
+      "url": "https://ftp.itec.aau.at/datasets/ovid/iris_pupil_seg/index.html",
+      "method": "HEAD",
+      "http_status": 200,
+      "final_url": "https://ftp.itec.aau.at/datasets/ovid/iris_pupil_seg/index.html",
+      "content_length": "2687",
+      "status": "ok"
+    },
+    {
+      "name": "brasil_glaucoma_brg",
+      "modality": "fundus",
+      "download_type": "kaggle",
+      "download_url": "https://www.kaggle.com/datasets/clerimar/brasil-glaucoma-brg",
+      "url": "https://www.kaggle.com/datasets/clerimar/brasil-glaucoma-brg",
+      "method": "GET(Range)",
+      "http_status": 200,
+      "final_url": "https://www.kaggle.com/datasets/clerimar/brasil-glaucoma-brg",
+      "content_length": null,
+      "status": "ok"
+    },
+    {
+      "name": "retinal_oct_octa_two_subjects_processed",
+      "modality": "octa",
+      "download_type": "kaggle",
+      "download_url": "https://www.kaggle.com/datasets/cnzakimuena/retinal-oct-and-octa-data-3",
+      "url": "https://www.kaggle.com/datasets/cnzakimuena/retinal-oct-and-octa-data-3",
+      "method": "GET(Range)",
+      "http_status": 200,
+      "final_url": "https://www.kaggle.com/datasets/cnzakimuena/retinal-oct-and-octa-data-3",
+      "content_length": null,
+      "status": "ok"
+    },
+    {
+      "name": "higancnn_generated_glaucoma",
+      "modality": "fundus",
+      "download_type": "kaggle",
+      "download_url": "https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection",
+      "url": "https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection",
+      "method": "GET(Range)",
+      "http_status": 200,
+      "final_url": "https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection",
+      "content_length": null,
+      "status": "ok"
+    },
+    {
+      "name": "hybridgaze",
+      "modality": "eye_tracking",
+      "download_type": "kaggle",
+      "download_url": "https://www.kaggle.com/datasets/michachwesiuk/hybridgaze",
+      "url": "https://www.kaggle.com/datasets/michachwesiuk/hybridgaze",
+      "method": "GET(Range)",
+      "http_status": 200,
+      "final_url": "https://www.kaggle.com/datasets/michachwesiuk/hybridgaze",
+      "content_length": null,
+      "status": "ok"
+    },
+    {
+      "name": "gleam",
+      "modality": "oct",
+      "download_type": "kaggle",
+      "download_url": "https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset",
+      "url": "https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset",
+      "method": "GET(Range)",
+      "http_status": 200,
+      "final_url": "https://www.kaggle.com/datasets/zhangyiyinge/gleam-dataset",
+      "content_length": null,
+      "status": "ok"
+    },
+    {
+      "name": "mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/222mnygnjz/1",
+      "url": "https://data.mendeley.com/datasets/222mnygnjz/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/222mnygnjz/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_corneal_higher_order_aberrations_stevens_johnson",
+      "modality": "corneal_topography",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/2k96xky4rf/1",
+      "url": "https://data.mendeley.com/datasets/2k96xky4rf/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/2k96xky4rf/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_fferg_reference_healthy_controls_university_eye",
+      "modality": "electrophysiology",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/37wxt2ybvj/1",
+      "url": "https://data.mendeley.com/datasets/37wxt2ybvj/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/37wxt2ybvj/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_cust_iris",
+      "modality": "iris_biometrics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/3j6skjpsng/2",
+      "url": "https://data.mendeley.com/datasets/3j6skjpsng/2",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/3j6skjpsng/2",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_comparison_retinal_choroidal_vascular_changes_via",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/3m8fcfmp9j/1",
+      "url": "https://data.mendeley.com/datasets/3m8fcfmp9j/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/3m8fcfmp9j/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_red_lesion_localization_messidor_retinal_images",
+      "modality": "fundus",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/3r5m3nfdkv/1",
+      "url": "https://data.mendeley.com/datasets/3r5m3nfdkv/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/3r5m3nfdkv/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_ocular_biometry",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/4twnn4546j/1",
+      "url": "https://data.mendeley.com/datasets/4twnn4546j/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/4twnn4546j/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora",
+      "modality": "oct",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/53nxz6xr5j/1",
+      "url": "https://data.mendeley.com/datasets/53nxz6xr5j/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/53nxz6xr5j/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_postural_stargardt_s_syndrome_patients",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/5rz9j8t6p4/2",
+      "url": "https://data.mendeley.com/datasets/5rz9j8t6p4/2",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/5rz9j8t6p4/2",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_nuclear_cataract_database_biomedical_machine_learning",
+      "modality": "external_eye",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/6wv33nbcvv/2",
+      "url": "https://data.mendeley.com/datasets/6wv33nbcvv/2",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/6wv33nbcvv/2",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_quantified_processed_microarray_22_individuals_without",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/72b47vpgtz/1",
+      "url": "https://data.mendeley.com/datasets/72b47vpgtz/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/72b47vpgtz/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_ocular_surface_disorders_affect_quality_life",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/73r8vrxksx/1",
+      "url": "https://data.mendeley.com/datasets/73r8vrxksx/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/73r8vrxksx/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_orbscan_iiz_anterior_maps",
+      "modality": "corneal_topography",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/78wt2nc387/3",
+      "url": "https://data.mendeley.com/datasets/78wt2nc387/3",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/78wt2nc387/3",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/7r7xt6pf6x/5",
+      "url": "https://data.mendeley.com/datasets/7r7xt6pf6x/5",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/7r7xt6pf6x/5",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_utilizing_responsive_web_portal_studying_disc",
+      "modality": "oct",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/7xv5rzxgrh/1",
+      "url": "https://data.mendeley.com/datasets/7xv5rzxgrh/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/7xv5rzxgrh/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_et_pd_vis_eye_tracking_visualization",
+      "modality": "eye_tracking",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/83htprx9y6/1",
+      "url": "https://data.mendeley.com/datasets/83htprx9y6/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/83htprx9y6/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_foveal_cone_photoreceptor_outer_segment_length",
+      "modality": "oct",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/89rykrg8j2/1",
+      "url": "https://data.mendeley.com/datasets/89rykrg8j2/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/89rykrg8j2/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_deep_learning_prediction_uncorrected_refractive_error",
+      "modality": "oct",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/89z7h5gnpw/2",
+      "url": "https://data.mendeley.com/datasets/89z7h5gnpw/2",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/89z7h5gnpw/2",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_raw_manuscript_light_responsive_microrna_molecules",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/8ksg9fssd9/1",
+      "url": "https://data.mendeley.com/datasets/8ksg9fssd9/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/8ksg9fssd9/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_analysis_macular_pigment_carotenoids_human_blood",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/8pwpbcrjd8/1",
+      "url": "https://data.mendeley.com/datasets/8pwpbcrjd8/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/8pwpbcrjd8/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_human_foveal_cone_topography_preferred_retinal",
+      "modality": "eye_tracking",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/9gkpxsmz23/1",
+      "url": "https://data.mendeley.com/datasets/9gkpxsmz23/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/9gkpxsmz23/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_annotated_infant_fundus_images_object_detection",
+      "modality": "fundus",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/9kvk7nkhx6/4",
+      "url": "https://data.mendeley.com/datasets/9kvk7nkhx6/4",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/9kvk7nkhx6/4",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_ophthalmic_anthropometry_malawians",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/bctfh4m93c/1",
+      "url": "https://data.mendeley.com/datasets/bctfh4m93c/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/bctfh4m93c/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_hpsc_derived_photoreceptor_axon_extension_growth",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/cpy5j23354/1",
+      "url": "https://data.mendeley.com/datasets/cpy5j23354/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/cpy5j23354/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_refractive_error_visual_impairment_among_school",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/crgbf93fnw/2",
+      "url": "https://data.mendeley.com/datasets/crgbf93fnw/2",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/crgbf93fnw/2",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_long_term_safety_efficacy_limited_vitrectomy",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/dnss5ttn73/1",
+      "url": "https://data.mendeley.com/datasets/dnss5ttn73/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/dnss5ttn73/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_set_relationship_between_plasma_amino_acid",
+      "modality": "omics",
+      "download_type": "manual",
+      "download_url": "https://data.mendeley.com/datasets/fn9986thfh",
+      "url": "https://data.mendeley.com/datasets/fn9986thfh",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/fn9986thfh",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_towards_ocular_biomarkers_sarcopenia_result_korean",
+      "modality": "tabular",
+      "download_type": "manual",
+      "download_url": "https://data.mendeley.com/datasets/h547645876",
+      "url": "https://data.mendeley.com/datasets/h547645876",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/h547645876",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_dry_eye_symptoms_children_can_we",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/h79366vw73/1",
+      "url": "https://data.mendeley.com/datasets/h79366vw73/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/h79366vw73/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_optical_coherence_tomography_oct_images_proliferative",
+      "modality": "oct",
+      "download_type": "manual",
+      "download_url": "https://data.mendeley.com/datasets/hbr5pwk5w5",
+      "url": "https://data.mendeley.com/datasets/hbr5pwk5w5",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/hbr5pwk5w5",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_demographic_profile_clinical_characteristics_patients_presenting",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/hwnm88jyzg/1",
+      "url": "https://data.mendeley.com/datasets/hwnm88jyzg/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/hwnm88jyzg/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_contrast_sensitivity_visual_acuity_multifocal_contact",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/j5cw4wn23y/1",
+      "url": "https://data.mendeley.com/datasets/j5cw4wn23y/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/j5cw4wn23y/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_myopia_metal_mixture_exposure",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/jgh7dxdwyy/1",
+      "url": "https://data.mendeley.com/datasets/jgh7dxdwyy/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/jgh7dxdwyy/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_sars_cov_2_infection_ocular_cells",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/jgw2mcgb67/1",
+      "url": "https://data.mendeley.com/datasets/jgw2mcgb67/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/jgw2mcgb67/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_effect_central_hole_location_phakic_intraocular",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/jjknx3wbkf/1",
+      "url": "https://data.mendeley.com/datasets/jjknx3wbkf/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/jjknx3wbkf/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_development_deep_learning_model_epiretinal_membrane",
+      "modality": "fundus",
+      "download_type": "manual",
+      "download_url": "https://data.mendeley.com/datasets/jrgntpv8b8",
+      "url": "https://data.mendeley.com/datasets/jrgntpv8b8",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/jrgntpv8b8",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_iscev_standard_full_field_erg_reference",
+      "modality": "electrophysiology",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/kcptb9jrf5/1",
+      "url": "https://data.mendeley.com/datasets/kcptb9jrf5/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/kcptb9jrf5/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_development_deep_learning_based_system_optic",
+      "modality": "multimodal",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/kw8gvp8m8x/1",
+      "url": "https://data.mendeley.com/datasets/kw8gvp8m8x/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/kw8gvp8m8x/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_comparison_ocular_biometry_using_new_opticalcoherence",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/kwv73shvxh/1",
+      "url": "https://data.mendeley.com/datasets/kwv73shvxh/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/kwv73shvxh/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_cp_anemic_conjunctival_pallor_ghana",
+      "modality": "external_eye",
+      "download_type": "manual",
+      "download_url": "https://data.mendeley.com/datasets/m53vz6b7fx",
+      "url": "https://data.mendeley.com/datasets/m53vz6b7fx",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/m53vz6b7fx",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_vivo_cone_photoreceptor_topography_human_foveola",
+      "modality": "adaptive_optics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/m5nkpb8phv/1",
+      "url": "https://data.mendeley.com/datasets/m5nkpb8phv/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/m5nkpb8phv/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_on_comparison_ocular_surface_disease_index",
+      "modality": "tabular",
+      "download_type": "manual",
+      "download_url": "https://data.mendeley.com/datasets/m7fzwvsm77",
+      "url": "https://data.mendeley.com/datasets/m7fzwvsm77",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/m7fzwvsm77",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_micro_go_study_transcriptional_profiling_orbital",
+      "modality": "omics",
+      "download_type": "manual",
+      "download_url": "https://data.mendeley.com/datasets/mrvmsrn9r6",
+      "url": "https://data.mendeley.com/datasets/mrvmsrn9r6",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/mrvmsrn9r6",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_two_photon_excited_fluorescence_scanning_laser",
+      "modality": "fundus",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/nhpnt78ssy/1",
+      "url": "https://data.mendeley.com/datasets/nhpnt78ssy/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/nhpnt78ssy/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/npt7rp69gm/1",
+      "url": "https://data.mendeley.com/datasets/npt7rp69gm/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/npt7rp69gm/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_application_machine_learning_detecting_iron_deficiency",
+      "modality": "external_eye",
+      "download_type": "manual",
+      "download_url": "https://data.mendeley.com/datasets/nt7r8hv2pz",
+      "url": "https://data.mendeley.com/datasets/nt7r8hv2pz",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/nt7r8hv2pz",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_code_manuscript_fixational_eye_movements_as",
+      "modality": "eye_tracking",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/p7dyyrfds6/2",
+      "url": "https://data.mendeley.com/datasets/p7dyyrfds6/2",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/p7dyyrfds6/2",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_retinal_blood_vessel_segmentation_rop",
+      "modality": "fundus",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/prcy36j53v/1",
+      "url": "https://data.mendeley.com/datasets/prcy36j53v/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/prcy36j53v/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_evaluation_refractive_visual_outcomes_as_well",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/r2v99nw7vg/1",
+      "url": "https://data.mendeley.com/datasets/r2v99nw7vg/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/r2v99nw7vg/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_netarsudil_on_kdb_treated_eyes",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/r6gw6fnvdm/1",
+      "url": "https://data.mendeley.com/datasets/r6gw6fnvdm/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/r6gw6fnvdm/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_identification_human_retinal_stem_like_cells",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/s9wbscpsrs/3",
+      "url": "https://data.mendeley.com/datasets/s9wbscpsrs/3",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/s9wbscpsrs/3",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_dme_classification_fundus_imaging_vision_transformers",
+      "modality": "fundus",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/sdcfn87pvs/1",
+      "url": "https://data.mendeley.com/datasets/sdcfn87pvs/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/sdcfn87pvs/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/sg2rywwwxb/1",
+      "url": "https://data.mendeley.com/datasets/sg2rywwwxb/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/sg2rywwwxb/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_cell_types_human_retina_its_organoids",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/sm67hr5bpm/1",
+      "url": "https://data.mendeley.com/datasets/sm67hr5bpm/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/sm67hr5bpm/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_fundus_mctn",
+      "modality": "fundus",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/spz4b8tbzt/1",
+      "url": "https://data.mendeley.com/datasets/spz4b8tbzt/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/spz4b8tbzt/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_interocular_retinal_nerve_fiber_layer_thickness",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/ss2nynfc8s/1",
+      "url": "https://data.mendeley.com/datasets/ss2nynfc8s/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/ss2nynfc8s/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_conjunctival_melanoma_detection_using_deep_learning",
+      "modality": "external_eye",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/t75wjsw6bw/2",
+      "url": "https://data.mendeley.com/datasets/t75wjsw6bw/2",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/t75wjsw6bw/2",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_proteomic_analysis_human_autoimmune_retinopathy_air",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/t7yrm5x3ws/1",
+      "url": "https://data.mendeley.com/datasets/t7yrm5x3ws/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/t7yrm5x3ws/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_retina_identification_database_ridb",
+      "modality": "multimodal",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/tjw3zwntv6/2",
+      "url": "https://data.mendeley.com/datasets/tjw3zwntv6/2",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/tjw3zwntv6/2",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_digital_holograms_rbcs_glaucoma_patients_healthy",
+      "modality": "cell_microscopy",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/tryd7r3wct/3",
+      "url": "https://data.mendeley.com/datasets/tryd7r3wct/3",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/tryd7r3wct/3",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/tsf8b4yj3j/1",
+      "url": "https://data.mendeley.com/datasets/tsf8b4yj3j/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/tsf8b4yj3j/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_ophthalmic_stroke_biomarkers_south_asia",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/whpsmdc2gk/1",
+      "url": "https://data.mendeley.com/datasets/whpsmdc2gk/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/whpsmdc2gk/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_plasma_energy_metabolomics_patients_ocular_disease",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/tybzw7zsng/1",
+      "url": "https://data.mendeley.com/datasets/tybzw7zsng/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/tybzw7zsng/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_blinking_its_relationship_ocular_surface_digital",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/vyb5fv6ppp/1",
+      "url": "https://data.mendeley.com/datasets/vyb5fv6ppp/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/vyb5fv6ppp/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_early_detection_glaucomatous_visual_field_progression",
+      "modality": "visual_field",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/w34s5mhvpm/1",
+      "url": "https://data.mendeley.com/datasets/w34s5mhvpm/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/w34s5mhvpm/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_influence_angle_alpha_angle_kappa_optical",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/w5ws4pzzxr/1",
+      "url": "https://data.mendeley.com/datasets/w5ws4pzzxr/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/w5ws4pzzxr/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_electrooculography_eog_blink_analysis_ocular_fatigue",
+      "modality": "electrophysiology",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/w7hm97cts5/2",
+      "url": "https://data.mendeley.com/datasets/w7hm97cts5/2",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/w7hm97cts5/2",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_comparison_aqueous_humor_levels_plgf_vegf",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/wtcc9fcjdy/1",
+      "url": "https://data.mendeley.com/datasets/wtcc9fcjdy/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/wtcc9fcjdy/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_effect_adlay_seed_extract_on_level",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/x7rcj9yz65/1",
+      "url": "https://data.mendeley.com/datasets/x7rcj9yz65/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/x7rcj9yz65/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_exome_sequencing_clec3b",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/xcw5x5z49r/1",
+      "url": "https://data.mendeley.com/datasets/xcw5x5z49r/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/xcw5x5z49r/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_ocular_sebaceous_neoplasms",
+      "modality": "external_eye",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/xg9jcjn388/1",
+      "url": "https://data.mendeley.com/datasets/xg9jcjn388/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/xg9jcjn388/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy",
+      "modality": "fundus",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/xw5xc7xrmp/3",
+      "url": "https://data.mendeley.com/datasets/xw5xc7xrmp/3",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/xw5xc7xrmp/3",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/xzf382pby9/1",
+      "url": "https://data.mendeley.com/datasets/xzf382pby9/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/xzf382pby9/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_efficacy_combined_orthokeratology_0_01_atropine",
+      "modality": "corneal_topography",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/y58rh8bfkv/7",
+      "url": "https://data.mendeley.com/datasets/y58rh8bfkv/7",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/y58rh8bfkv/7",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_corneal_refractive_parameters_age_patients_without",
+      "modality": "corneal_topography",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/yr8hbwmsvy/1",
+      "url": "https://data.mendeley.com/datasets/yr8hbwmsvy/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/yr8hbwmsvy/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_biomechanical_properties_adult_patients_high_myopia",
+      "modality": "corneal_topography",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/yry4r9y9v5/1",
+      "url": "https://data.mendeley.com/datasets/yry4r9y9v5/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/yry4r9y9v5/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_serum_proteomic_profiles_keratoconus_post_laser",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/yzsktrxh6y/1",
+      "url": "https://data.mendeley.com/datasets/yzsktrxh6y/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/yzsktrxh6y/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_multi_class_retinal_fundus_image_deep",
+      "modality": "fundus",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/z227d626vm/1",
+      "url": "https://data.mendeley.com/datasets/z227d626vm/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/z227d626vm/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_dex_combined_ppv_pdr",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/zcmpcczdhs/1",
+      "url": "https://data.mendeley.com/datasets/zcmpcczdhs/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/zcmpcczdhs/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_biochemical_parameters_tear_fluid_chemical_burns",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/zhk775h6n4/1",
+      "url": "https://data.mendeley.com/datasets/zhk775h6n4/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/zhk775h6n4/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_test_results_article_motion_perception_glaucoma",
+      "modality": "omics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/zhz8kjsykf/1",
+      "url": "https://data.mendeley.com/datasets/zhz8kjsykf/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/zhz8kjsykf/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_effect_one_hour_smartphone_gaming_on",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/zn64p6r992/1",
+      "url": "https://data.mendeley.com/datasets/zn64p6r992/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/zn64p6r992/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_sub_cone_visual_resolution_by_active",
+      "modality": "adaptive_optics",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/zp6d5w8kdv/1",
+      "url": "https://data.mendeley.com/datasets/zp6d5w8kdv/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/zp6d5w8kdv/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/zsxt8wk4sh/1",
+      "url": "https://data.mendeley.com/datasets/zsxt8wk4sh/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/zsxt8wk4sh/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_3_year_follow_up_optic_neuritis",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/zvb55v8mzw/1",
+      "url": "https://data.mendeley.com/datasets/zvb55v8mzw/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/zvb55v8mzw/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_nagyz_liberty_677my_vs_alcon_acrysof",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/zygxgyf4ns/1",
+      "url": "https://data.mendeley.com/datasets/zygxgyf4ns/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/zygxgyf4ns/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
+      "name": "mendeley_evaluation_dry_eye_severity_ocular_surface",
+      "modality": "tabular",
+      "download_type": "mendeley",
+      "download_url": "https://data.mendeley.com/datasets/zzgw9t9jsy/1",
+      "url": "https://data.mendeley.com/datasets/zzgw9t9jsy/1",
+      "method": "GET(stream)",
+      "http_status": 403,
+      "final_url": "https://data.mendeley.com/datasets/zzgw9t9jsy/1",
+      "content_length": null,
+      "status": "platform_or_browser_route"
+    },
+    {
       "name": "dryad_toric_iol_incision",
       "modality": "tabular",
       "download_type": "dryad",
@@ -2564,18 +4103,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_cone_synapse_computation",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.0p2ngf25g",
-      "url": "https://doi.org/10.5061/dryad.0p2ngf25g",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.0p2ngf25g",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_stargardt_wes",
       "modality": "omics",
       "download_type": "dryad",
@@ -2596,18 +4123,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.13bp2",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_retinal_vasomotion",
-      "modality": "fundus",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.163mp",
-      "url": "https://doi.org/10.5061/dryad.163mp",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.163mp",
       "content_length": null,
       "status": "ok"
     },
@@ -2648,30 +4163,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_bbs1_retinal_degeneration",
-      "modality": "oct",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.2rbnzs7jm",
-      "url": "https://doi.org/10.5061/dryad.2rbnzs7jm",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.2rbnzs7jm",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_eye_head_visual_selection",
-      "modality": "eye_tracking",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.33kh1",
-      "url": "https://doi.org/10.5061/dryad.33kh1",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.33kh1",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_vkh_apoe",
       "modality": "omics",
       "download_type": "dryad",
@@ -2708,18 +4199,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_spata7_canine_retinal_degeneration",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.3tx95x6n6",
-      "url": "https://doi.org/10.5061/dryad.3tx95x6n6",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.3tx95x6n6",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_clcc1_retinitis_pigmentosa",
       "modality": "omics",
       "download_type": "dryad",
@@ -2728,18 +4207,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.3vv31qq",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_primate_on_dsgc",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.47d7wm3kx",
-      "url": "https://doi.org/10.5061/dryad.47d7wm3kx",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.47d7wm3kx",
       "content_length": null,
       "status": "ok"
     },
@@ -2816,18 +4283,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_rod_cone_dystrophy_genes",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.59zw3r2b7",
-      "url": "https://doi.org/10.5061/dryad.59zw3r2b7",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.59zw3r2b7",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_gca_optic_nerve_dwi",
       "modality": "multimodal",
       "download_type": "dryad",
@@ -2900,30 +4355,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_nhp_trachoma_immunity",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.69p8cz982",
-      "url": "https://doi.org/10.5061/dryad.69p8cz982",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.69p8cz982",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_canine_pra_cea_genotypes",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.6djh9w17c",
-      "url": "https://doi.org/10.5061/dryad.6djh9w17c",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.6djh9w17c",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_diabetic_retinopathy_renal",
       "modality": "tabular",
       "download_type": "dryad",
@@ -2960,42 +4391,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_zebrafish_rpe_phagocytosis",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.76hdr7t64",
-      "url": "https://doi.org/10.5061/dryad.76hdr7t64",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.76hdr7t64",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_rhesus_maculopathy_metabolomics",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.7pvmcvf8d",
-      "url": "https://doi.org/10.5061/dryad.7pvmcvf8d",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.7pvmcvf8d",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_mouse_all_optical_retina",
-      "modality": "adaptive_optics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.7q37g6b",
-      "url": "https://doi.org/10.5061/dryad.7q37g6b",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.7q37g6b",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_karachi_cataract_outcomes",
       "modality": "tabular",
       "download_type": "dryad",
@@ -3016,18 +4411,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.7vn28",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_biocular_eye_tracking",
-      "modality": "eye_tracking",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.84hc0",
-      "url": "https://doi.org/10.5061/dryad.84hc0",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.84hc0",
       "content_length": null,
       "status": "ok"
     },
@@ -3064,18 +4447,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.8jk03jd",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_mouse_oct_beam_tilt",
-      "modality": "oct",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.95x69p8th",
-      "url": "https://doi.org/10.5061/dryad.95x69p8th",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.95x69p8th",
       "content_length": null,
       "status": "ok"
     },
@@ -3128,66 +4499,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_mouse_pupil_masking_retinal_deg",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.9kd51c5g5",
-      "url": "https://doi.org/10.5061/dryad.9kd51c5g5",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.9kd51c5g5",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_prpf31_gene_augmentation",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.bcc2fqzf1",
-      "url": "https://doi.org/10.5061/dryad.bcc2fqzf1",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.bcc2fqzf1",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_glaucoma_tears_mirna",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.bcc2fqzj1",
-      "url": "https://doi.org/10.5061/dryad.bcc2fqzj1",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.bcc2fqzj1",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_fungal_keratitis_azole_assay",
-      "modality": "tabular",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.bk3j9kdjf",
-      "url": "https://doi.org/10.5061/dryad.bk3j9kdjf",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.bk3j9kdjf",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_htr1b_mouse_retina",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.bk3j9kdps",
-      "url": "https://doi.org/10.5061/dryad.bk3j9kdps",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.bk3j9kdps",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_pediatric_optical_quality",
       "modality": "tabular",
       "download_type": "dryad",
@@ -3208,30 +4519,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.c2fqz615c",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_retinal_explant_metabolomics",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.c2fqz61hr",
-      "url": "https://doi.org/10.5061/dryad.c2fqz61hr",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.c2fqz61hr",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_ird_mouse_proteome",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.c2fqz61pc",
-      "url": "https://doi.org/10.5061/dryad.c2fqz61pc",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.c2fqz61pc",
       "content_length": null,
       "status": "ok"
     },
@@ -3284,42 +4571,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_5xfad_retina_dlgn",
-      "modality": "multimodal",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.dbrv15fbk",
-      "url": "https://doi.org/10.5061/dryad.dbrv15fbk",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.dbrv15fbk",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_zebrafish_crystallin_lens",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.f4qrfj730",
-      "url": "https://doi.org/10.5061/dryad.f4qrfj730",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.f4qrfj730",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_macaque_cone_ratio",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.gf1vhhmsc",
-      "url": "https://doi.org/10.5061/dryad.gf1vhhmsc",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.gf1vhhmsc",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_taizhou_cataract_outdoors",
       "modality": "tabular",
       "download_type": "dryad",
@@ -3328,18 +4579,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.gt410",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_retinal_pufa_aging_mouse",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.gxd25480h",
-      "url": "https://doi.org/10.5061/dryad.gxd25480h",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.gxd25480h",
       "content_length": null,
       "status": "ok"
     },
@@ -3404,18 +4643,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_subretinal_fibrosis_adora2a",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.hx3ffbgmv",
-      "url": "https://doi.org/10.5061/dryad.hx3ffbgmv",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.hx3ffbgmv",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_preeclampsia_ocular_octa",
       "modality": "octa",
       "download_type": "dryad",
@@ -3440,18 +4667,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_ocular_gvhd_mouse",
-      "modality": "tabular",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.k6djh9w8z",
-      "url": "https://doi.org/10.5061/dryad.k6djh9w8z",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.k6djh9w8z",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_congenital_glaucoma_wes",
       "modality": "omics",
       "download_type": "dryad",
@@ -3460,18 +4675,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.k7455",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_angle_closure_rabbit",
-      "modality": "external_eye",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.ks48tt4",
-      "url": "https://doi.org/10.5061/dryad.ks48tt4",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.ks48tt4",
       "content_length": null,
       "status": "ok"
     },
@@ -3496,18 +4699,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.mcvdnck22",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_zebrafish_thrb_photoreceptors",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.msbcc2fvr",
-      "url": "https://doi.org/10.5061/dryad.msbcc2fvr",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.msbcc2fvr",
       "content_length": null,
       "status": "ok"
     },
@@ -3560,30 +4751,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_pg4f4qrwf",
-      "modality": "tabular",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.pg4f4qrwf",
-      "url": "https://doi.org/10.5061/dryad.pg4f4qrwf",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.pg4f4qrwf",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_pk0p2ngzh",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.pk0p2ngzh",
-      "url": "https://doi.org/10.5061/dryad.pk0p2ngzh",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.pk0p2ngzh",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_pk31jt2",
       "modality": "tabular",
       "download_type": "dryad",
@@ -3620,30 +4787,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_pzgmsbcmk",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.pzgmsbcmk",
-      "url": "https://doi.org/10.5061/dryad.pzgmsbcmk",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.pzgmsbcmk",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_q83bk3jnw",
-      "modality": "tabular",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.q83bk3jnw",
-      "url": "https://doi.org/10.5061/dryad.q83bk3jnw",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.q83bk3jnw",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_qfttdz0dr",
       "modality": "tabular",
       "download_type": "dryad",
@@ -3656,18 +4799,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_r4xgxd2nt",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.r4xgxd2nt",
-      "url": "https://doi.org/10.5061/dryad.r4xgxd2nt",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.r4xgxd2nt",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_r7s04",
       "modality": "tabular",
       "download_type": "dryad",
@@ -3676,18 +4807,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.r7s04",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_r7sqv9sqs",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.r7sqv9sqs",
-      "url": "https://doi.org/10.5061/dryad.r7sqv9sqs",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.r7sqv9sqs",
       "content_length": null,
       "status": "ok"
     },
@@ -3728,54 +4847,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_rn8pk0pmm",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.rn8pk0pmm",
-      "url": "https://doi.org/10.5061/dryad.rn8pk0pmm",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.rn8pk0pmm",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_rs2qp",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.rs2qp",
-      "url": "https://doi.org/10.5061/dryad.rs2qp",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.rs2qp",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_rv15dv4bv",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.rv15dv4bv",
-      "url": "https://doi.org/10.5061/dryad.rv15dv4bv",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.rv15dv4bv",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_s1rn8pkhb",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.s1rn8pkhb",
-      "url": "https://doi.org/10.5061/dryad.s1rn8pkhb",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.s1rn8pkhb",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_sbcc2fr6n",
       "modality": "iris_biometrics",
       "download_type": "dryad",
@@ -3800,18 +4871,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_sf7m0cggh",
-      "modality": "fundus",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.sf7m0cggh",
-      "url": "https://doi.org/10.5061/dryad.sf7m0cggh",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.sf7m0cggh",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_sn02v6x2x",
       "modality": "tabular",
       "download_type": "dryad",
@@ -3820,30 +4879,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.sn02v6x2x",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_tb2rbp0cq",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.tb2rbp0cq",
-      "url": "https://doi.org/10.5061/dryad.tb2rbp0cq",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.tb2rbp0cq",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_tdz08kq8t",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.tdz08kq8t",
-      "url": "https://doi.org/10.5061/dryad.tdz08kq8t",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.tdz08kq8t",
       "content_length": null,
       "status": "ok"
     },
@@ -3884,78 +4919,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_vq83bk3s8",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.vq83bk3s8",
-      "url": "https://doi.org/10.5061/dryad.vq83bk3s8",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.vq83bk3s8",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_vx0k6djwf",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.vx0k6djwf",
-      "url": "https://doi.org/10.5061/dryad.vx0k6djwf",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.vx0k6djwf",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_w3r228143",
-      "modality": "adaptive_optics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.w3r228143",
-      "url": "https://doi.org/10.5061/dryad.w3r228143",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.w3r228143",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_wdbrv15rj",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.wdbrv15rj",
-      "url": "https://doi.org/10.5061/dryad.wdbrv15rj",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.wdbrv15rj",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_wstqjq2n5",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.wstqjq2n5",
-      "url": "https://doi.org/10.5061/dryad.wstqjq2n5",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.wstqjq2n5",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_x95x69pmq",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.x95x69pmq",
-      "url": "https://doi.org/10.5061/dryad.x95x69pmq",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.x95x69pmq",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_xgxd254pk",
       "modality": "visual_field",
       "download_type": "dryad",
@@ -3964,54 +4927,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.xgxd254pk",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_xpnvx0kb6",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.xpnvx0kb6",
-      "url": "https://doi.org/10.5061/dryad.xpnvx0kb6",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.xpnvx0kb6",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_xwdbrv1kd",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.xwdbrv1kd",
-      "url": "https://doi.org/10.5061/dryad.xwdbrv1kd",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.xwdbrv1kd",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_z08kprrk3",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.z08kprrk3",
-      "url": "https://doi.org/10.5061/dryad.z08kprrk3",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.z08kprrk3",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_z08kprrk6",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.z08kprrk6",
-      "url": "https://doi.org/10.5061/dryad.z08kprrk6",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.z08kprrk6",
       "content_length": null,
       "status": "ok"
     },
@@ -4028,54 +4943,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_z8w9ghx9f",
-      "modality": "tabular",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.z8w9ghx9f",
-      "url": "https://doi.org/10.5061/dryad.z8w9ghx9f",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.z8w9ghx9f",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_z8w9ghxpp",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.z8w9ghxpp",
-      "url": "https://doi.org/10.5061/dryad.z8w9ghxpp",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.z8w9ghxpp",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_zkh1893nt",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.zkh1893nt",
-      "url": "https://doi.org/10.5061/dryad.zkh1893nt",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.zkh1893nt",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_zs7h44jd9",
-      "modality": "cell_microscopy",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.zs7h44jd9",
-      "url": "https://doi.org/10.5061/dryad.zs7h44jd9",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.zs7h44jd9",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_d1zd5s",
       "modality": "omics",
       "download_type": "dryad",
@@ -4084,66 +4951,6 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://datadryad.org/dataset/doi:10.5068/D1ZD5S",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_j0707ztm",
-      "modality": "tabular",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.6075/j0707ztm",
-      "url": "https://doi.org/10.6075/j0707ztm",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.6075/J0707ZTM",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_d12d9f",
-      "modality": "electrophysiology",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.6078/d12d9f",
-      "url": "https://doi.org/10.6078/d12d9f",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.6078/D12D9F",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_d1895r",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.6078/d1895r",
-      "url": "https://doi.org/10.6078/d1895r",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.6078/D1895R",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_q6rv0kz3",
-      "modality": "multimodal",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.7272/q6rv0kz3",
-      "url": "https://doi.org/10.7272/q6rv0kz3",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.7272/Q6RV0KZ3",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_q6w37t8b",
-      "modality": "omics",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.7272/q6w37t8b",
-      "url": "https://doi.org/10.7272/q6w37t8b",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.7272/Q6W37T8B",
       "content_length": null,
       "status": "ok"
     },
@@ -4217,7 +5024,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/mkwxn7rjpm/2",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "angioreport",
@@ -4340,30 +5147,6 @@
       "status": "ok"
     },
     {
-      "name": "dryad_retinal_vein_cannulation",
-      "modality": "multimodal",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.3ffbg79zd",
-      "url": "https://doi.org/10.5061/dryad.3ffbg79zd",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.3ffbg79zd",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
-      "name": "dryad_subretinal_robot",
-      "modality": "multimodal",
-      "download_type": "dryad",
-      "download_url": "https://doi.org/10.5061/dryad.w0vt4b91w",
-      "url": "https://doi.org/10.5061/dryad.w0vt4b91w",
-      "method": "HEAD",
-      "http_status": 200,
-      "final_url": "https://datadryad.org/dataset/doi:10.5061/dryad.w0vt4b91w",
-      "content_length": null,
-      "status": "ok"
-    },
-    {
       "name": "dryad_cornea_oct_pentacam",
       "modality": "multimodal",
       "download_type": "dryad",
@@ -4468,7 +5251,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://arxiv.org/abs/2102.02115",
-      "content_length": "45441",
+      "content_length": "44892",
       "status": "ok"
     },
     {
@@ -4501,7 +5284,7 @@
       "download_type": "manual",
       "download_url": "https://tsapps.nist.gov/BDbC/Search/Details/371",
       "url": "https://tsapps.nist.gov/BDbC/Search/Details/371",
-      "method": "HEAD",
+      "method": "GET(Range)",
       "http_status": 200,
       "final_url": "https://tsapps.nist.gov/BDbC/Search/Details/371",
       "content_length": null,
@@ -4516,7 +5299,7 @@
       "method": "HEAD",
       "http_status": 200,
       "final_url": "https://ieee-dataport.org/open-access/diabetic-retinopathy-fundus-image-datasetagar300",
-      "content_length": "17977",
+      "content_length": "18021",
       "status": "ok"
     },
     {
@@ -4601,7 +5384,7 @@
       "http_status": 403,
       "final_url": "https://data.mendeley.com/datasets/p5h7x55zw7/1",
       "content_length": null,
-      "status": "credentials_or_client_required"
+      "status": "platform_or_browser_route"
     },
     {
       "name": "fang_sbsdi_oct",

@@ -3,7 +3,7 @@ id: nehut
 title: "NEH-UT Retinal OCT Dataset"
 sidebar_label: nehut
 description: "Retinal OCT B-scans from Noor Eye Hospital for classification of Normal, Drusen, and CNV (choroidal neovascularisation) cases. 16,822 B-scans from 441 eyes (Normal 120 / Drusen 160 / CNV 161 eyes)."
-tags: ["oct", "cc-by", "mendeley", "classification"]
+tags: ["oct", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-nehut"]
 ---
 
 
@@ -21,6 +21,8 @@ Retinal OCT B-scans from Noor Eye Hospital for classification of Normal, Drusen,
 | **Short name** | `nehut` |
 | **Full name** | NEH-UT Retinal OCT Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `nehut` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 16,822 images |
@@ -31,7 +33,7 @@ Retinal OCT B-scans from Noor Eye Hospital for classification of Normal, Drusen,
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

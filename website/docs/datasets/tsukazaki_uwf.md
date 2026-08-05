@@ -3,7 +3,7 @@ id: tsukazaki_uwf
 title: "Tsukazaki Hospital UWF Fundus Dataset"
 sidebar_label: tsukazaki_uwf
 description: "13,047 ultra-widefield fundus photographs (Optos, 200° FOV) from Tsukazaki Hospital, annotated with 8 binary disease labels: AO, AMD, DR, Glaucoma, MH, RD, RP, RVO. Associated with Scientific Data 202"
-tags: ["uwf_fundus", "research-only", "github", "multilabel", "classification"]
+tags: ["uwf_fundus", "research-only", "github", "multilabel", "classification", "resource-role-current-dataset", "dataset-family-tsukazaki-uwf"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `tsukazaki_uwf` |
 | **Full name** | Tsukazaki Hospital UWF Fundus Dataset |
 | **Primary category** | `uwf_fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `tsukazaki_uwf` |
 | **Contained modalities** | uwf_fundus |
 | **Tasks** | multilabel, classification |
 | **Primary reported quantity** | 13,047 images |

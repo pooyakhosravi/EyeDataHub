@@ -3,7 +3,7 @@ id: syn_oct
 title: "SYN-OCT Synthetic Glaucoma OCT Dataset"
 sidebar_label: syn_oct
 description: "Synthetic circumpapillary OCT images for healthy and glaucomatous eyes with retinal-layer masks and RNFL thickness values."
-tags: ["oct", "cc-by", "zenodo", "classification", "segmentation", "regression"]
+tags: ["oct", "cc-by", "zenodo", "classification", "segmentation", "regression", "resource-role-current-dataset", "dataset-family-syn-oct"]
 ---
 
 
@@ -21,6 +21,8 @@ Synthetic circumpapillary OCT images for healthy and glaucomatous eyes with reti
 | **Short name** | `syn_oct` |
 | **Full name** | SYN-OCT Synthetic Glaucoma OCT Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `syn_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | classification, segmentation, regression |
 | **Primary reported quantity** | 200,000 images |
@@ -31,7 +33,7 @@ Synthetic circumpapillary OCT images for healthy and glaucomatous eyes with reti
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

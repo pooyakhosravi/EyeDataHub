@@ -3,7 +3,7 @@ id: prime_fp20
 title: "PRIME-FP20: Ultra-Widefield Vessel Segmentation"
 sidebar_label: prime_fp20
 description: "15 ultra-widefield (Optos) fundus images with pixel-level vessel segmentation ground truth."
-tags: ["uwf_fundus", "cc-by", "manual", "segmentation"]
+tags: ["uwf_fundus", "cc-by", "manual", "segmentation", "resource-role-current-dataset", "dataset-family-prime-fp20"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `prime_fp20` |
 | **Full name** | PRIME-FP20: Ultra-Widefield Vessel Segmentation |
 | **Primary category** | `uwf_fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `prime_fp20` |
 | **Contained modalities** | uwf_fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 15 images |

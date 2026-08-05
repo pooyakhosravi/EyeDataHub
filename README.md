@@ -12,41 +12,63 @@ suitability.
 
 [![License: MIT](https://img.shields.io/badge/code-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
-[![Catalog](https://img.shields.io/badge/catalog-386%20records-brightgreen.svg)](DATASETS.md)
-[![Tests](https://img.shields.io/badge/tests-73%20passing-brightgreen.svg)](tests)
+[![Catalog](https://img.shields.io/badge/catalog-451%20current%20records-brightgreen.svg)](DATASETS.md)
+[![Tests](https://img.shields.io/badge/tests-146%20passing-brightgreen.svg)](tests)
 
 ## One-minute overview
 
-The current catalog contains 386 manually source-checked records across 18
-primary categories. At the catalog cutoff on 1 August 2026:
+Release 0.7.0 contains 451 manually source-checked records across
+18 primary categories, representing 446 narrowly defined dataset families. At the
+catalog cutoff on 2 August 2026:
 
-- 33 use source-hosted, Google Drive, or GitHub routes without platform credentials;
-- 293 use platform clients or APIs with the user's corresponding credentials or configuration;
-- 60 use manual, controlled, institutional, or author-contact procedures.
+- 33 use source-hosted file, Google Drive, or GitHub routes;
+- 350 use repository or challenge-platform APIs or clients;
+- 68 use manual, controlled, institutional, or author-contact procedures.
 
 These practical groups are mutually exclusive. Separately, the catalog records
 the source interaction visible to a user:
 
-- 160 used a source link requiring neither an account nor manual approval;
-- 179 required immediate self-service authentication;
+- 47 used a source link requiring neither an account nor manual approval;
+- 356 required immediate self-service authentication;
 - 11 required user click-through;
-- 28 required controlled or manual access;
+- 29 required controlled or manual access;
 - 8 required author contact.
 
-A publicly viewable source page can still require a credential for its API or
-client, so these two classifications are intentionally not interchangeable.
+Backend and user-facing access requirements are intentionally separate. A
+publicly viewable repository record may use an API or client route without
+requiring an authenticated user account.
 
-All 386 records were also reviewed for documented reuse, derivation, subset,
-version, mirror, component, and cohort-overlap relationships. The reviewed
-graph contains 142 directed assertions involving 94 records. The complete
+The 451-record working catalog was reviewed for documented reuse, derivation,
+subset, version, mirror, component, and cohort-overlap relationships. The reviewed
+graph contains 145 directed assertions involving 96 records. Thirty-three
+records have documented derivation from another catalog resource, including 16
+of the 17 annotation layers; three records are separately indexed components.
+The current-version review preserves two earlier releases and two unmodified
+repository copies as links rather than catalog records. The complete
 record matrix, edge evidence, unresolved upstream resources, and rejected
-false-positive links are in `hub/audit/resource_relationship_*_2026-08-01.*`.
+false-positive links are in `hub/audit/resource_relationship_*_2026-08-02.*`;
+the role, family, and current-version decisions are in
+`hub/audit/resource_identity_*_2026-08-02.*`.
 
-A separate source review resolved a primary reported quantity for 300 records
-and retained 364 quantity-evidence rows. Totals are reported only within exact
+A separate source review resolved a primary reported quantity for 324 records
+and retained 396 quantity-evidence rows. Totals are reported only within exact
 units because related resources can overlap and different modalities use
 different counting units. The record, evidence, unit-summary, and unresolved
-files are in `hub/audit/resource_quantity_*_2026-08-01.*`.
+files are in `hub/audit/resource_quantity_*_2026-08-02.*`.
+
+The repository searches returned 18,737 records across Dryad, Mendeley Data,
+Kaggle, Figshare, and Hugging Face. Human/model-use screening, duplicate
+reconciliation, and source review identified 288 eligible repository records;
+163 catalog records came from the other documented search routes. Within the
+145 Dryad-backed candidates reviewed specifically for reusable model inputs or
+targets, 82 were retained and 63 were excluded. The exclusions remain visible
+in the dated screening ledger, including 58 nonhuman records and two
+analysis-only deposits.
+
+The corresponding Mendeley review examined 141 records after official deposit
+inspection. It retained 116 resources and excluded 25: 20 did not meet the
+model-use boundary, and five records with uncertain value were removed at the
+author's direction.
 
 The complete machine-readable exports are `hub/catalog.json` and
 `hub/catalog.csv`. Legacy `hub/metadata.*` and
@@ -55,11 +77,10 @@ complete-catalog exports, and are not used for current manuscript counts.
 
 ## Install
 
-After the 0.4.0 release is published to
-[PyPI](https://pypi.org/project/eyedatahub/):
+Install release 0.7.0 from [PyPI](https://pypi.org/project/eyedatahub/):
 
 ```bash
-python -m pip install "eyedatahub==0.4.0"
+python -m pip install "eyedatahub==0.7.0"
 ```
 
 EyeDataHub is tested on Python 3.10 through 3.14.
@@ -67,7 +88,7 @@ EyeDataHub is tested on Python 3.10 through 3.14.
 To install the same release directly from its Git tag:
 
 ```bash
-python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.4.0"
+python -m pip install "git+https://github.com/pooyakhosravi/EyeDataHub.git@v0.7.0"
 ```
 
 For development:
@@ -157,10 +178,11 @@ source-hosted file links. Support varies by record and is exposed through
 
 ## Release record
 
-The 0.4.0 release contains the catalog, schema, source-review logs, resource
-citations, documentation, and regeneration scripts, but no indexed third-party
-dataset files. A version-specific archival DOI can be added when that release
-archive is published.
+The 0.7.0 release contains the catalog, schema, source-review logs, resource
+citations, documentation, regeneration scripts, and release checksums, but no
+indexed third-party dataset files. The Git tag and attached scientific archive
+identify the same immutable catalog state. The version-specific scientific
+archive is available at [doi:10.5281/zenodo.21798623](https://doi.org/10.5281/zenodo.21798623).
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for reviewed additions and
 [CLAUDE.md](CLAUDE.md) for the canonical agent guide.

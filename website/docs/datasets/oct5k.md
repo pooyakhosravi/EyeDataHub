@@ -3,7 +3,7 @@ id: oct5k
 title: "OCT5k: Multi-Disease Retinal Layer Annotations"
 sidebar_label: oct5k
 description: "1,672 OCT B-scans from AMD, DME, and healthy controls with 5,016 multi-grader layer annotations + lesion detection labels."
-tags: ["oct", "cc0", "figshare", "segmentation", "classification"]
+tags: ["oct", "cc0", "figshare", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-oct5k"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `oct5k` |
 | **Full name** | OCT5k: Multi-Disease Retinal Layer Annotations |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `oct5k` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation, classification |
 | **Primary reported quantity** | 1,672 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc0` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

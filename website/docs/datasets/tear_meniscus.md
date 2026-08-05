@@ -3,7 +3,7 @@ id: tear_meniscus
 title: "Multicentre Tear Meniscus Segmentation Dataset"
 sidebar_label: tear_meniscus
 description: "1,693 color and 1,739 infrared ocular-surface images from five clinical centers with pixel-level tear-meniscus segmentation. First multi-center dry-eye imaging benchmark."
-tags: ["multimodal", "external_eye", "infrared", "cc-by", "figshare", "segmentation"]
+tags: ["multimodal", "external_eye", "infrared", "cc-by", "figshare", "segmentation", "resource-role-current-dataset", "dataset-family-tear-meniscus"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `tear_meniscus` |
 | **Full name** | Multicentre Tear Meniscus Segmentation Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `tear_meniscus` |
 | **Contained modalities** | external_eye, infrared |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 3,432 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

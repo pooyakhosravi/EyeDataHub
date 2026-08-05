@@ -3,7 +3,7 @@ id: thyroid_ophthalmopathy_external
 title: "Thyroid Ophthalmopathy External Ocular Images"
 sidebar_label: thyroid_ophthalmopathy_external
 description: "External ocular photographs of thyroid eye disease collected from web sources, with surgery-related images removed by the source curator."
-tags: ["external_eye", "cc-by", "mendeley", "classification"]
+tags: ["external_eye", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-thyroid-ophthalmopathy-external"]
 ---
 
 
@@ -21,6 +21,8 @@ External ocular photographs of thyroid eye disease collected from web sources, w
 | **Short name** | `thyroid_ophthalmopathy_external` |
 | **Full name** | Thyroid Ophthalmopathy External Ocular Images |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `thyroid_ophthalmopathy_external` |
 | **Contained modalities** | external_eye |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |
@@ -31,7 +33,7 @@ External ocular photographs of thyroid eye disease collected from web sources, w
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

@@ -3,7 +3,7 @@ id: hrf_seg_plus
 title: "HRF-Seg+: Multi-Structure Fundus Annotations"
 sidebar_label: hrf_seg_plus
 description: "Extended HRF annotations for optic disc, cup, retinal vessels, and alpha/beta peripapillary zones."
-tags: ["fundus", "cc-by", "zenodo", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "zenodo", "segmentation", "resource-role-annotation-layer", "dataset-family-hrf-seg-plus", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Extended HRF annotations for optic disc, cup, retinal vessels, and alpha/beta pe
 | **Short name** | `hrf_seg_plus` |
 | **Full name** | HRF-Seg+: Multi-Structure Fundus Annotations |
 | **Primary category** | `fundus` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `hrf_seg_plus` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 45 images |
@@ -31,7 +33,7 @@ Extended HRF annotations for optic disc, cup, retinal vessels, and alpha/beta pe
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -133,4 +135,4 @@ HRF-Seg+: A multi-structure annotated fundus image dataset. Zenodo, 2026. doi:10
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

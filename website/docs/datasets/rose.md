@@ -3,7 +3,7 @@ id: rose
 title: "ROSE: Retinal OCT-Angiography Vessel Segmentation"
 sidebar_label: rose
 description: "229 OCTA images (ROSE-1 + ROSE-2) with pixel-level retinal vessel segmentation ground truth."
-tags: ["octa", "cc-by", "zenodo", "segmentation"]
+tags: ["octa", "cc-by", "zenodo", "segmentation", "resource-role-current-dataset", "dataset-family-rose"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `rose` |
 | **Full name** | ROSE: Retinal OCT-Angiography Vessel Segmentation |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `rose` |
 | **Contained modalities** | octa |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 229 images |
@@ -125,3 +127,4 @@ Ma et al., 'ROSE: A Retinal OCT-Angiography Vessel Segmentation Dataset and New 
 - [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 images, `cc-by`)
 - [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (112 participants, `unknown`)
 - [dryad_preeclampsia_ocular_octa](./dryad_preeclampsia_ocular_octa.md): Plane wave ultrasound and OCT angiography of the eye in preeclampsia (Not reported, `cc0`)
+- [retinal_oct_octa_two_subjects_processed](./retinal_oct_octa_two_subjects_processed.md): Processed Retinal OCT and OCTA Two-Subject Dataset (Not reported, `cc-by`)

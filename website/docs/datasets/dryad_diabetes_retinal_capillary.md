@@ -3,7 +3,7 @@ id: dryad_diabetes_retinal_capillary
 title: "Diabetes Retinal Capillary Rarefaction Dataset"
 sidebar_label: dryad_diabetes_retinal_capillary
 description: "The human diabetic retinal-capillary case-control measurements directly support retinal vascular analysis."
-tags: ["fundus", "tabular", "cc0", "dryad", "vessel_analysis", "regression"]
+tags: ["fundus", "tabular", "cc0", "dryad", "vessel_analysis", "regression", "resource-role-current-dataset", "dataset-family-dryad-diabetes-retinal-capillary"]
 ---
 
 
@@ -21,6 +21,8 @@ The human diabetic retinal-capillary case-control measurements directly support 
 | **Short name** | `dryad_diabetes_retinal_capillary` |
 | **Full name** | Diabetes Retinal Capillary Rarefaction Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_diabetes_retinal_capillary` |
 | **Contained modalities** | fundus, tabular |
 | **Tasks** | vessel_analysis, regression |
 | **Primary reported quantity** | 73 participants |
@@ -126,5 +128,5 @@ Jumar, Agnes, Harazny, Joanna M., Ott, Christian, Friedrich, Stefanie, Kistner, 
 - [fprm_retina](./fprm_retina.md): FPRM Multimodal Eye Imaging and Psychological Assessment Dataset (3,361 images, `research-only`)
 - [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
 - [papila](./papila.md): PAPILA: Glaucoma Fundus Dataset with Clinical Data (488 images, `cc-by`)
-- [dryad_sf7m0cggh](./dryad_sf7m0cggh.md): Robust semi-automatic vessel tracing in the human retinal image by an instance segmentation neural network (Not reported, `cc0`)
-- [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
+- [mendeley_retina_identification_database_ridb](./mendeley_retina_identification_database_ridb.md): Retina Identification Database (RIDB) (100 images, `cc-by`)
+- [mendeley_two_photon_excited_fluorescence_scanning_laser](./mendeley_two_photon_excited_fluorescence_scanning_laser.md): Two-photon excited fluorescence scanning laser ophthalmoscopy images and software for data processing (1 participants, `cc-by`)

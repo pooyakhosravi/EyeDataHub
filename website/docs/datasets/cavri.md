@@ -3,7 +3,7 @@ id: cavri
 title: "CAVRI: Computer Analysis of VitreoRetinal Interface Dataset"
 sidebar_label: cavri
 description: "50 annotated 3D SD-OCT volumes (7,050 B-scans, 640×385 px) from subjects with vitreomacular adhesion (VMA, 25 eyes) and vitreomacular traction (VMT, 25 eyes). Each volume: 141 B-scans over 2×7×7 mm. A"
-tags: ["oct", "research-only", "manual", "segmentation"]
+tags: ["oct", "research-only", "manual", "segmentation", "resource-role-current-dataset", "dataset-family-cavri"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `cavri` |
 | **Full name** | CAVRI: Computer Analysis of VitreoRetinal Interface Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cavri` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 50 volumes |

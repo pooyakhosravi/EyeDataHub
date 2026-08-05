@@ -3,7 +3,7 @@ id: aptos2019
 title: "APTOS 2019 Blindness Detection"
 sidebar_label: aptos2019
 description: "3662 fundus images from Aravind Eye Hospital, graded 0-4 for diabetic retinopathy severity."
-tags: ["fundus", "unknown", "kaggle", "grading", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "unknown", "kaggle", "grading", "classification", "resource-role-current-dataset", "dataset-family-aptos2019", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `aptos2019` |
 | **Full name** | APTOS 2019 Blindness Detection |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `aptos2019` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 3,662 images |
@@ -142,4 +144,4 @@ Karthik et al., APTOS 2019 Blindness Detection. Kaggle competition, 2019.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

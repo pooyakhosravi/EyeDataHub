@@ -3,7 +3,7 @@ id: fundus_domain_generalization
 title: "Fundus Dataset for Domain Generalization in Optic Disc/Cup Segmentation"
 sidebar_label: fundus_domain_generalization
 description: "Five-domain optic disc/cup segmentation benchmark composed from REFUGE, Drishti-GS, ORIGA, RIGA, and related sources."
-tags: ["fundus", "cc-by", "zenodo", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "zenodo", "segmentation", "resource-role-derivative-dataset", "dataset-family-fundus-domain-generalization", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Five-domain optic disc/cup segmentation benchmark composed from REFUGE, Drishti-
 | **Short name** | `fundus_domain_generalization` |
 | **Full name** | Fundus Dataset for Domain Generalization in Optic Disc/Cup Segmentation |
 | **Primary category** | `fundus` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `fundus_domain_generalization` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 1,441 images |
@@ -31,7 +33,7 @@ Five-domain optic disc/cup segmentation benchmark composed from REFUGE, Drishti-
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -54,9 +56,9 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
-- This record is `derived from` [drishti_gs](./drishti_gs.md): The official description states that the benchmark is based on REFUGE, Drishti-GS, ORIGA, and RIGA. ([evidence](https://zenodo.org/records/8009107))
-- This record is `derived from` [refuge2018](./refuge2018.md): The official description states that the benchmark is based on REFUGE, Drishti-GS, ORIGA, and RIGA. ([evidence](https://zenodo.org/records/8009107))
-- This record is `derived from` [riga](./riga.md): The official description states that the benchmark is based on REFUGE, Drishti-GS, ORIGA, and RIGA. ([evidence](https://zenodo.org/records/8009107))
+- This record is `derived from` [drishti_gs](./drishti_gs.md): The official description states that the benchmark is based on the original REFUGE images, now represented by the current REFUGE2 record, plus Drishti-GS, ORIGA, and RIGA. ([evidence](https://zenodo.org/records/8009107))
+- This record is `derived from` [refuge2](./refuge2.md): The official description states that the benchmark is based on the original REFUGE images, now represented by the current REFUGE2 record, plus Drishti-GS, ORIGA, and RIGA. ([evidence](https://zenodo.org/records/8009107))
+- This record is `derived from` [riga](./riga.md): The official description states that the benchmark is based on the original REFUGE images, now represented by the current REFUGE2 record, plus Drishti-GS, ORIGA, and RIGA. ([evidence](https://zenodo.org/records/8009107))
 
 ## Access information and download
 
@@ -135,4 +137,4 @@ A Fundus Image Dataset for Domain Generalization in Joint Segmentation of Optic 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

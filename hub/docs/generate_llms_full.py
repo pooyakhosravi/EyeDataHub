@@ -14,6 +14,7 @@ import argparse
 from pathlib import Path
 
 from eyedatahub.agent.planner import access_state, loader_status
+from eyedatahub.core.resource_identity import dataset_family_for, resource_role_for
 from eyedatahub.datasets.registry import REGISTRY
 
 
@@ -29,7 +30,8 @@ def build(root: Path) -> Path:
         "> software clients. One line per record. Regenerate with:",
         ">   python -m hub.docs.generate_llms_full",
         "",
-        f"## Summary: {len(all_ds)} records; "
+        f"## Summary: {len(all_ds)} current records in "
+        f"{len({dataset_family_for(d.info.name) for d in all_ds})} dataset families; "
         f"{sum(d.info.num_samples is not None for d in all_ds)} with a primary reported quantity; "
         f"{sum(d.info.size_gb or 0 for d in all_ds):.0f} GB",
         "",
@@ -40,11 +42,13 @@ def build(root: Path) -> Path:
         "- BAK: recorded access backend",
         "- ACCESS: human action, credentials or terms, or explicit download required",
         "- LOAD: `implemented` or `metadata_only`",
+        "- ROLE: reviewed resource role",
+        "- DFAM: narrow dataset-family identifier",
         "",
         "## Format",
         "",
         "```",
-        "<name> | <modality> | TASK=<tasks> | FAM=<family> SNC=<y/n/?> | BAK=<backend> ACCESS=<state> LOAD=<status> | N=<reported_count and unit> | URL=<source> | <full_name>: <description>",
+        "<name> | <modality> | TASK=<tasks> | ROLE=<role> DFAM=<dataset_family> | FAM=<license_family> SNC=<y/n/?> | BAK=<backend> ACCESS=<state> LOAD=<status> | N=<reported_count and unit> | URL=<source> | <full_name>: <description>",
         "```",
         "",
     ]
@@ -68,6 +72,8 @@ def build(root: Path) -> Path:
         lines.append(
             f"- `{info.name}` | {info.modality} | "
             f"TASK={tasks} | "
+            f"ROLE={resource_role_for(info.name)} "
+            f"DFAM={dataset_family_for(info.name)} | "
             f"FAM={info.license_family} SNC={com} | "
             f"BAK={info.download_type} ACCESS={access_state(d)} "
             f"LOAD={loader_status(d)} | N={n} | URL={source} | "

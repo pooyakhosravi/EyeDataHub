@@ -3,7 +3,7 @@ id: migs_video
 title: "Multicenter Fine-Annotated MIGS Surgical Video Dataset"
 sidebar_label: migs_video
 description: "A multicenter collection of 186 minimally invasive glaucoma surgery (MIGS) videos with annotations for surgical-phase recognition and semantic segmentation of instruments and anatomical structures."
-tags: ["surgical_video", "cc-by", "zenodo", "classification", "segmentation"]
+tags: ["surgical_video", "cc-by", "zenodo", "classification", "segmentation", "resource-role-current-dataset", "dataset-family-migs-video"]
 ---
 
 
@@ -21,6 +21,8 @@ A multicenter collection of 186 minimally invasive glaucoma surgery (MIGS) video
 | **Short name** | `migs_video` |
 | **Full name** | Multicenter Fine-Annotated MIGS Surgical Video Dataset |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `migs_video` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 186 videos |

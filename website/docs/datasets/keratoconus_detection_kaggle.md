@@ -3,7 +3,7 @@ id: keratoconus_detection_kaggle
 title: "Keratoconus Detection Corneal Maps"
 sidebar_label: keratoconus_detection_kaggle
 description: "Corneal map images for three-class keratoconus detection."
-tags: ["corneal_topography", "unknown", "kaggle", "classification"]
+tags: ["corneal_topography", "unknown", "kaggle", "classification", "resource-role-current-dataset", "dataset-family-keratoconus-detection-kaggle"]
 ---
 
 
@@ -21,6 +21,8 @@ Corneal map images for three-class keratoconus detection.
 | **Short name** | `keratoconus_detection_kaggle` |
 | **Full name** | Keratoconus Detection Corneal Maps |
 | **Primary category** | `corneal_topography` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `keratoconus_detection_kaggle` |
 | **Contained modalities** | corneal_topography |
 | **Tasks** | classification |
 | **Primary reported quantity** | 573 images |
@@ -116,7 +118,11 @@ Keratoconus detection dataset. Kaggle, accessed 2026-07.
 
 ## Similar resources by shared modality
 
+- [mendeley_corneal_refractive_parameters_age_patients_without](./mendeley_corneal_refractive_parameters_age_patients_without.md): corneal refractive parameters with age in patients without corneal diseases based on Fourier analysis  (2,545 participants, `cc-by`)
 - [cornorb](./cornorb.md): CornOrb: Orbscan Corneal Topography and Clinical Annotations (1,454 eyes, `cc-by`)
 - [dryad_pediatric_corneal_endothelium](./dryad_pediatric_corneal_endothelium.md): Corneal endothelial morphology of healthy myopic Malaysian children of Chinese ethnicity aged 8-9 years and its association with axial length (111 participants, `cc0`)
+- [mendeley_biomechanical_properties_adult_patients_high_myopia](./mendeley_biomechanical_properties_adult_patients_high_myopia.md): Biomechanical properties of adult patients with high myopia after implantable collamer lens (ICL, V4) implantation (110 eyes, `cc-by`)
 - [dryad_cornea_oct_pentacam](./dryad_cornea_oct_pentacam.md): Corneal OCT and Pentacam Tomography Dataset (52 participants, `cc0`)
+- [casia2_as_oct_repeatability](./casia2_as_oct_repeatability.md): CASIA2 Anterior-Segment OCT Repeatability Dataset (Not reported, `cc-by`)
+- [casia2_keratometric_astigmatism](./casia2_keratometric_astigmatism.md): CASIA2 Keratometric Astigmatism Dataset (Not reported, `cc-by`)
 - [dryad_corneal_biomechanics_prostaglandin](./dryad_corneal_biomechanics_prostaglandin.md): Changes in corneal biomechanical properties after long-term topical prostaglandin therapy (Not reported, `cc0`)

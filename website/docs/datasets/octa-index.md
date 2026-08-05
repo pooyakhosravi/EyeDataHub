@@ -2,12 +2,12 @@
 id: octa-index
 title: "Octa datasets"
 sidebar_label: octa
-description: "8 resources containing octa data in EyeDataHub."
+description: "9 resources containing octa data in EyeDataHub."
 ---
 
 # Octa datasets
 
-**8 datasets; 7 with a primary reported quantity; 72.2 GB total** - this page indexes every EyeDataHub resource tagged as containing `octa` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**9 datasets; 7 with a primary reported quantity; 72.2 GB total** - this page indexes every EyeDataHub resource tagged as containing `octa` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -18,4 +18,5 @@ description: "8 resources containing octa data in EyeDataHub."
 | [`soul_octa`](./soul_octa.md) | SOUL: OCTA Human-Machine Collaborative Annotation Dataset | 178 longitudinal samples | 0.1 GB | `cc-by` | Figshare |
 | [`drac22`](./drac22.md) | DRAC 2022: Diabetic Retinopathy Analysis Challenge | 174 images | 0.3 GB | `cc-by` | Zenodo |
 | [`ut_fsocta`](./ut_fsocta.md) | UTHealth Fundus and Synthetic OCTA Dataset | 112 participants | Not reported | `unknown` | Zenodo |
+| [`retinal_oct_octa_two_subjects_processed`](./retinal_oct_octa_two_subjects_processed.md) | Processed Retinal OCT and OCTA Two-Subject Dataset | Not reported | Not reported | `cc-by` | Kaggle |
 | [`dryad_preeclampsia_ocular_octa`](./dryad_preeclampsia_ocular_octa.md) | Plane wave ultrasound and OCT angiography of the eye in preeclampsia | Not reported | 0.0 GB | `cc0` | Dryad |

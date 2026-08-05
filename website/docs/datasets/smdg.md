@@ -3,7 +3,7 @@ id: smdg
 title: "SMDG-19: Standardized Multi-channel Glaucoma Benchmark"
 sidebar_label: smdg
 description: "~12,000 fundus images aggregated from 19 public glaucoma datasets with standardized disc/cup/vessel channels and unified labels. CC0 — fully public domain."
-tags: ["fundus", "cc0", "kaggle", "classification", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc0", "kaggle", "classification", "segmentation", "resource-role-derivative-dataset", "dataset-family-smdg", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `smdg` |
 | **Full name** | SMDG-19: Standardized Multi-channel Glaucoma Benchmark |
 | **Primary category** | `fundus` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `smdg` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 12,449 images |
@@ -63,7 +65,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - This record is `derived from` [jsiec](./jsiec.md): The official SMDG source table lists this catalog record among the 19 standardized source domains. ([evidence](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset))
 - This record is `derived from` [odir2019](./odir2019.md): The official SMDG source table lists this catalog record among the 19 standardized source domains. ([evidence](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset))
 - This record is `derived from` [papila](./papila.md): The official SMDG source table lists this catalog record among the 19 standardized source domains. ([evidence](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset))
-- This record is `derived from` [refuge2018](./refuge2018.md): The official SMDG source table lists this catalog record among the 19 standardized source domains. ([evidence](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset))
+- This record is `derived from` [refuge2](./refuge2.md): The official SMDG source table lists this catalog record among the 19 standardized source domains. ([evidence](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset))
 
 ## Access information and download
 
@@ -142,4 +144,4 @@ Kiefer, 'Standardized Multi-channel Dataset for Glaucoma (SMDG-19)', Kaggle 2022
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

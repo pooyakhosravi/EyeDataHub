@@ -3,7 +3,7 @@ id: mcoa
 title: "MCOA: Multimodal Corneal Opacity Assessment Dataset"
 sidebar_label: mcoa
 description: "6,272 AS-OCT images + 392 anterior-segment photographs for corneal opacity assessment with expert grading. First large public multimodal AS-OCT + photo dataset for cornea."
-tags: ["multimodal", "oct", "external_eye", "cc-by", "figshare", "classification", "grading"]
+tags: ["multimodal", "oct", "external_eye", "cc-by", "figshare", "classification", "grading", "resource-role-current-dataset", "dataset-family-mcoa"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `mcoa` |
 | **Full name** | MCOA: Multimodal Corneal Opacity Assessment Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mcoa` |
 | **Contained modalities** | oct, external_eye |
 | **Tasks** | classification, grading |
 | **Primary reported quantity** | 6,664 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

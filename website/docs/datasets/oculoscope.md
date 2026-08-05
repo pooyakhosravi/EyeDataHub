@@ -3,7 +3,7 @@ id: oculoscope
 title: "OculoScope: Fairer AI in Ophthalmology Dataset"
 sidebar_label: oculoscope
 description: "16,530 ultra-widefield fundus images from 8,405+ patients (age 0–90) annotated for 38 ophthalmic diseases and 67 fundus features. Released alongside the FairerOPTH study on sexism and ageism in ophtha"
-tags: ["uwf_fundus", "tabular", "cc-by", "figshare", "classification", "multilabel"]
+tags: ["uwf_fundus", "tabular", "cc-by", "figshare", "classification", "multilabel", "resource-role-current-dataset", "dataset-family-oculoscope"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `oculoscope` |
 | **Full name** | OculoScope: Fairer AI in Ophthalmology Dataset |
 | **Primary category** | `uwf_fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `oculoscope` |
 | **Contained modalities** | uwf_fundus, tabular |
 | **Tasks** | classification, multilabel |
 | **Primary reported quantity** | 16,530 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `guided_instructions_only` |
@@ -132,10 +134,10 @@ FairerOPTH Study — OculoScope Dataset. Nature Communications 2024. https://www
 ## Similar resources by shared modality
 
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [mmrdr](./mmrdr.md): MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset (24,460 images, `cc-by`)
 - [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [tsukazaki_uwf](./tsukazaki_uwf.md): Tsukazaki Hospital UWF Fundus Dataset (13,047 images, `research-only`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
+- [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)

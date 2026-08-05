@@ -3,7 +3,7 @@ id: oct_ms_jhu
 title: "OCT Retinal Layer Segmentation — MS & Healthy Controls (JHU/IACL)"
 sidebar_label: oct_ms_jhu
 description: "35 Spectralis OCT volumes (1,715 B-scans) with 9 manually delineated retinal layer boundaries. 14 healthy controls, 21 MS subjects."
-tags: ["oct", "cc-by-nc-nd", "direct", "segmentation"]
+tags: ["oct", "cc-by-nc-nd", "direct", "segmentation", "resource-role-current-dataset", "dataset-family-oct-ms-jhu"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `oct_ms_jhu` |
 | **Full name** | OCT Retinal Layer Segmentation — MS & Healthy Controls (JHU/IACL) |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `oct_ms_jhu` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 1,715 b scans |

@@ -3,7 +3,7 @@ id: messidor2
 title: "MESSIDOR-2"
 sidebar_label: messidor2
 description: "1748 fundus images with DR grading (0-3 Retinopathy Grade) and macular edema risk (0-2)."
-tags: ["fundus", "research-only", "manual", "grading", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "research-only", "manual", "grading", "classification", "resource-role-current-dataset", "dataset-family-messidor2", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `messidor2` |
 | **Full name** | MESSIDOR-2 |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `messidor2` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 1,748 images |
@@ -144,4 +146,4 @@ Decencière et al., 'Feedback on a publicly distributed image database: the Mess
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

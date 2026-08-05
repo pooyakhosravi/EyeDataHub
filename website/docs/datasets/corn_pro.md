@@ -3,7 +3,7 @@ id: corn_pro
 title: "CORN Pro: Corneal Nerve Confocal Microscopy Dataset"
 sidebar_label: corn_pro
 description: "1,120 in-vivo confocal microscopy images with pixel-level annotations for corneal subbasal nerves and corneal cells. The source describes 560 images with nerves and Langerhans cells and 560 images wit"
-tags: ["confocal", "cc-by", "manual", "segmentation", "documented-relationship", "relationship-has_component", "relationship-component_of"]
+tags: ["confocal", "cc-by", "manual", "segmentation", "resource-role-component-dataset", "dataset-family-corn-collection", "documented-relationship", "relationship-has_component", "relationship-component_of"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `corn_pro` |
 | **Full name** | CORN Pro: Corneal Nerve Confocal Microscopy Dataset |
 | **Primary category** | `confocal` |
+| **Resource role** | `component_dataset` |
+| **Dataset family** | `corn_collection` |
 | **Contained modalities** | confocal |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 1,120 images |
@@ -53,6 +55,13 @@ Counts retain their source-reported units. Additional rows can describe componen
 >   2. Visit https://zenodo.org/records/14263883
 >   3. Click 'Request access' with affiliation & purpose
 > Full CORN database: https://imed.nimte.ac.cn/CORN.html
+
+## Dataset family
+
+This record belongs to `corn_collection`. Family links group documented collection/component records or exact task views; they do not imply independent cohorts.
+
+- [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (`component_dataset`)
+- [corn_collection](./corn_collection.md): CORN: Corneal Confocal Microscope Dataset Collection (`collection`)
 
 ## Documented relationships
 
@@ -141,6 +150,7 @@ CORN database (https://imed.nimte.ac.cn/CORN.html). Zenodo record 14263883: http
 
 - [corn_collection](./corn_collection.md): CORN: Corneal Confocal Microscope Dataset Collection (12,931 images, `cc-by`)
 - [corn1500](./corn1500.md): CORN-1500: Corneal Nerve Tortuosity Grading (1,500 images, `unknown`)
+- [qilu_ccm_nerve_segmentation](./qilu_ccm_nerve_segmentation.md): Qilu Annotated Corneal Confocal Microscopy Nerve Segmentation Dataset (410 images, `cc-by`)
 - [superccm_fineset](./superccm_fineset.md): SuperCCM-FineSet (210 images, `unknown`)
 - [corneal_epithelium_confocal](./corneal_epithelium_confocal.md): Keratoconus Corneal Epithelium Confocal Fluorescence Dataset (7 participants, `cc-by`)
-- [dryad_pk0p2ngzh](./dryad_pk0p2ngzh.md): Morphometric analysis of retinal ganglionic cells (3D confocal images) analyzed using filament tracer from Imaris software (Not reported, `cc0`)
+- [corneal_nerve_parkinsons](./corneal_nerve_parkinsons.md): Corneal Nerve Parkinson Disease Dataset (Not reported, `cc-by`)

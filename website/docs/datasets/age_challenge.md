@@ -3,7 +3,7 @@ id: age_challenge
 title: "AGE — Angle-Closure Glaucoma Evaluation Challenge (AS-OCT)"
 sidebar_label: age_challenge
 description: "4800 AS-OCT images from 199 patients. Two tasks: angle closure classification and scleral spur localization."
-tags: ["oct", "research-only", "gdrive", "classification"]
+tags: ["oct", "research-only", "gdrive", "classification", "resource-role-current-dataset", "dataset-family-age-challenge"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `age_challenge` |
 | **Full name** | AGE — Angle-Closure Glaucoma Evaluation Challenge (AS-OCT) |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `age_challenge` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 4,800 images |

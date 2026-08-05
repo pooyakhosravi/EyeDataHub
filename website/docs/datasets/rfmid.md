@@ -3,7 +3,7 @@ id: rfmid
 title: "RFMiD: Retinal Fundus Multi-disease Image Dataset"
 sidebar_label: rfmid
 description: "3200 fundus images annotated for 45 retinal conditions. Used for multi-label disease classification."
-tags: ["fundus", "cc-by-sa", "kaggle", "multilabel", "classification", "documented-relationship", "relationship-derived_from", "relationship-extension_of"]
+tags: ["fundus", "cc-by-sa", "kaggle", "multilabel", "classification", "resource-role-current-dataset", "dataset-family-rfmid", "documented-relationship", "relationship-derived_from", "relationship-extension_of"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `rfmid` |
 | **Full name** | RFMiD: Retinal Fundus Multi-disease Image Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `rfmid` |
 | **Contained modalities** | fundus |
 | **Tasks** | multilabel, classification |
 | **Primary reported quantity** | 3,200 images |
@@ -145,4 +147,4 @@ Pachade et al., 'Retinal Fundus Multi-disease Image Dataset (RFMiD): A Dataset f
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

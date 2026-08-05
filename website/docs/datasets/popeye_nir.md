@@ -3,7 +3,7 @@ id: popeye_nir
 title: "PopEYE Infrared Ocular Image Dataset"
 sidebar_label: popeye_nir
 description: "Fourteen thousand nine hundred seventy-six near-infrared ocular images for eye-state detection and coarse gaze-direction classification during ophthalmic measurement workflows."
-tags: ["external_eye", "cc-by", "zenodo", "classification"]
+tags: ["external_eye", "cc-by", "zenodo", "classification", "resource-role-current-dataset", "dataset-family-popeye-nir"]
 ---
 
 
@@ -21,6 +21,8 @@ Fourteen thousand nine hundred seventy-six near-infrared ocular images for eye-s
 | **Short name** | `popeye_nir` |
 | **Full name** | PopEYE Infrared Ocular Image Dataset |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `popeye_nir` |
 | **Contained modalities** | external_eye |
 | **Tasks** | classification |
 | **Primary reported quantity** | 14,976 images |
@@ -31,7 +33,7 @@ Fourteen thousand nine hundred seventy-six near-infrared ocular images for eye-s
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

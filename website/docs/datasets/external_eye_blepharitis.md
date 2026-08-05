@@ -3,7 +3,7 @@ id: external_eye_blepharitis
 title: "External Eye Photographs for Screening Referable Blepharitis"
 sidebar_label: external_eye_blepharitis
 description: "External eye photographs curated from publicly available web sources for binary classification of referable blepharitis versus normal."
-tags: ["external_eye", "cc-by", "mendeley", "classification"]
+tags: ["external_eye", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-external-eye-blepharitis"]
 ---
 
 
@@ -21,6 +21,8 @@ External eye photographs curated from publicly available web sources for binary 
 | **Short name** | `external_eye_blepharitis` |
 | **Full name** | External Eye Photographs for Screening Referable Blepharitis |
 | **Primary category** | `external_eye` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `external_eye_blepharitis` |
 | **Contained modalities** | external_eye |
 | **Tasks** | classification |
 | **Primary reported quantity** | Not reported |
@@ -31,7 +33,7 @@ External eye photographs curated from publicly available web sources for binary 
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

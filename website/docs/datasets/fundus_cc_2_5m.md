@@ -3,7 +3,7 @@ id: fundus_cc_2_5m
 title: "Fundus-CC-2.5M Text Corpus"
 sidebar_label: fundus_cc_2_5m
 description: "Large fundus-related multilingual text corpus for LLM pretraining or retrieval."
-tags: ["text", "unknown", "huggingface", "text_generation", "retrieval"]
+tags: ["text", "unknown", "huggingface", "text_generation", "retrieval", "resource-role-current-dataset", "dataset-family-fundus-cc-2-5m"]
 ---
 
 
@@ -21,6 +21,8 @@ Large fundus-related multilingual text corpus for LLM pretraining or retrieval.
 | **Short name** | `fundus_cc_2_5m` |
 | **Full name** | Fundus-CC-2.5M Text Corpus |
 | **Primary category** | `text` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fundus_cc_2_5m` |
 | **Contained modalities** | text |
 | **Tasks** | text_generation, retrieval |
 | **Primary reported quantity** | 2,500,000 text items |
@@ -31,7 +33,7 @@ Large fundus-related multilingual text corpus for LLM pretraining or retrieval.
 | **Normalized terms** | `unknown` |
 | **Descriptive screening label** | Unknown or unclear; do not assume permission |
 | **Terms scope** | `unknown` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | HuggingFace Hub |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

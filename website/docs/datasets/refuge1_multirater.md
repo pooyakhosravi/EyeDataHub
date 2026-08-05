@@ -3,7 +3,7 @@ id: refuge1_multirater
 title: "REFUGE Multi-Rater — Glaucoma with Multi-Expert Annotations"
 sidebar_label: refuge1_multirater
 description: "1200 fundus images from REFUGE1 with optic disc/cup segmentation masks annotated by multiple expert raters."
-tags: ["fundus", "cc-by-nc-sa", "gdrive", "classification", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by-nc-sa", "gdrive", "classification", "segmentation", "resource-role-annotation-layer", "dataset-family-refuge1-multirater", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `refuge1_multirater` |
 | **Full name** | REFUGE Multi-Rater — Glaucoma with Multi-Expert Annotations |
 | **Primary category** | `fundus` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `refuge1_multirater` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 1,200 images |
@@ -50,7 +52,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
-- This record is `derived from` [refuge2018](./refuge2018.md): The source provides seven-rater annotations for the 1,200 REFUGE challenge images. ([evidence](https://huggingface.co/datasets/realslimman/REFUGE-MultiRater))
+- This record is `derived from` [refuge2](./refuge2.md): The source provides seven-rater annotations for the 1,200 original REFUGE images incorporated into the current REFUGE2 release. ([evidence](https://huggingface.co/datasets/realslimman/REFUGE-MultiRater))
 
 ## Access information and download
 
@@ -140,4 +142,4 @@ Orlando J.I. et al., 'REFUGE Challenge: A Unified Framework for Evaluating Autom
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

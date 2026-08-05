@@ -3,7 +3,7 @@ id: nd_iris_0405
 title: "ND-IRIS-0405 Iris Image Dataset"
 sidebar_label: nd_iris_0405
 description: "Longitudinal near-infrared iris images with subject, eye, age, sex, and ethnicity metadata used in ICE iris-recognition evaluations."
-tags: ["iris_biometrics", "research-only", "manual", "biometric_recognition", "classification", "demographic_analysis"]
+tags: ["iris_biometrics", "research-only", "manual", "biometric_recognition", "classification", "demographic_analysis", "resource-role-current-dataset", "dataset-family-nd-iris-0405"]
 ---
 
 
@@ -21,6 +21,8 @@ Longitudinal near-infrared iris images with subject, eye, age, sex, and ethnicit
 | **Short name** | `nd_iris_0405` |
 | **Full name** | ND-IRIS-0405 Iris Image Dataset |
 | **Primary category** | `iris_biometrics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `nd_iris_0405` |
 | **Contained modalities** | iris_biometrics |
 | **Tasks** | biometric_recognition, classification, demographic_analysis |
 | **Primary reported quantity** | 64,980 images |
@@ -120,5 +122,7 @@ Bowyer KW, Flynn PJ. The ND-IRIS-0405 Iris Image Dataset. arXiv:1606.04853. 2016
 
 - [casia_iris_v4](./casia_iris_v4.md): CASIA-IrisV4 Iris Image Database (54,601 images, `cc0`)
 - [ubiris_v2](./ubiris_v2.md): UBIRIS.v2 Noisy Visible-Wavelength Iris Database (11,102 images, `unknown`)
+- [doomgan_ocular_morphs](./doomgan_ocular_morphs.md): DOOMGAN Ocular Morph-Attack Dataset (10,000 images, `mit`)
+- [mendeley_cust_iris](./mendeley_cust_iris.md): CUST-Iris (2,880 images, `cc-by`)
 - [dryad_sbcc2fr6n](./dryad_sbcc2fr6n.md): Exploring phenotypic diversity of pigmented traits and iris features in Pakistani population (514 participants, `cc0`)
 - [dryad_iris_surface_features](./dryad_iris_surface_features.md): Iris Surface Features Dataset (Not reported, `cc0`)

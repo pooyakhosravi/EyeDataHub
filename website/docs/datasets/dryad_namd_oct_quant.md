@@ -3,7 +3,7 @@ id: dryad_namd_oct_quant
 title: "Moorfields nAMD Quantitative OCT Biomarker Dataset"
 sidebar_label: dryad_namd_oct_quant
 description: "Anonymized clinical metadata and automated 3D OCT segmentation volumes for neovascular age-related macular degeneration."
-tags: ["tabular", "oct", "cc0", "dryad", "regression", "prognosis", "fairness_analysis", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
+tags: ["tabular", "oct", "cc0", "dryad", "regression", "prognosis", "fairness_analysis", "resource-role-current-dataset", "dataset-family-dryad-namd-oct-quant", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
 ---
 
 
@@ -21,6 +21,8 @@ Anonymized clinical metadata and automated 3D OCT segmentation volumes for neova
 | **Short name** | `dryad_namd_oct_quant` |
 | **Full name** | Moorfields nAMD Quantitative OCT Biomarker Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_namd_oct_quant` |
 | **Contained modalities** | tabular, oct |
 | **Tasks** | regression, prognosis, fairness_analysis |
 | **Primary reported quantity** | 2,966 volumes |

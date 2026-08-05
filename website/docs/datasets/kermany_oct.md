@@ -3,7 +3,7 @@ id: kermany_oct
 title: "Kermany OCT 2018: Retinal OCT Image Classification"
 sidebar_label: kermany_oct
 description: "~84,000 retinal OCT B-scan images across 4 classes: CNV, DME, DRUSEN, NORMAL. Train: ~83,484 / Test: 1000."
-tags: ["oct", "cc-by", "kaggle", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["oct", "cc-by", "kaggle", "classification", "resource-role-current-dataset", "dataset-family-kermany-oct", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `kermany_oct` |
 | **Full name** | Kermany OCT 2018: Retinal OCT Image Classification |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `kermany_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 84,484 images |
@@ -53,6 +55,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - [intraretinal_cystoid_fluid](./intraretinal_cystoid_fluid.md) is `derived from` this record: The source states that 1,000 training images were selected from the Kermany Retinal OCT Images DME class; 200 test images were collected separately. ([evidence](https://www.kaggle.com/datasets/zeeshanahmed13/intraretinal-cystoid-fluid))
 - [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 - [multieye](./multieye.md) is `derived from` this record: The MultiEYE paper names this record as one of the public fundus or OCT sources assembled for the benchmark. ([evidence](https://arxiv.org/abs/2412.09402))
+- [synthetic_retinal_oct_biomarkers](./synthetic_retinal_oct_biomarkers.md) is `derived from` this record: The official dataset card documents the Kermany retinal OCT collection as the source for the four synthetic diagnostic classes. ([evidence](https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images))
 - [x_pcr](./x_pcr.md) is `derived from` this record: Source labels in the version-pinned public X-PCR deposit identify this catalog record as upstream material. ([evidence](https://huggingface.co/datasets/Fantasy666/X-PCR/tree/06a318fd852230326386e3c6514d8a11b7a6b4af))
 
 ## Access information and download

@@ -3,7 +3,7 @@ id: rimone_dl
 title: "RIM-ONE DL"
 sidebar_label: rimone_dl
 description: "485 fundus images (313 normal, 172 glaucoma) with optic disc region of interest crops for deep learning."
-tags: ["fundus", "cc-by", "kaggle", "classification"]
+tags: ["fundus", "cc-by", "kaggle", "classification", "resource-role-current-dataset", "dataset-family-rimone-dl"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `rimone_dl` |
 | **Full name** | RIM-ONE DL |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `rimone_dl` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 485 images |
@@ -134,4 +136,4 @@ Fumero et al., 'RIM-ONE DL: A Unified Retinal Image Database for Assessing Glauc
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

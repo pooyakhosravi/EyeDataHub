@@ -3,7 +3,7 @@ id: dryad_rop_plane_wave_doppler
 title: "ROP Plane-Wave Doppler Dataset"
 sidebar_label: dryad_rop_plane_wave_doppler
 description: "The ROP Doppler examination table is a defined direct neonatal retinal measurement resource."
-tags: ["tabular", "ocular_ultrasound", "cc0", "dryad", "measurement"]
+tags: ["tabular", "ocular_ultrasound", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-rop-plane-wave-doppler"]
 ---
 
 
@@ -21,6 +21,8 @@ The ROP Doppler examination table is a defined direct neonatal retinal measureme
 | **Short name** | `dryad_rop_plane_wave_doppler` |
 | **Full name** | ROP Plane-Wave Doppler Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_rop_plane_wave_doppler` |
 | **Contained modalities** | tabular, ocular_ultrasound |
 | **Tasks** | measurement |
 | **Primary reported quantity** | Not reported |
@@ -119,9 +121,9 @@ Silverman, Ronald. Data from: Plane wave Doppler determination of blood flow in 
 ## Similar resources by shared modality
 
 - [dryad_preeclampsia_ocular_octa](./dryad_preeclampsia_ocular_octa.md): Plane wave ultrasound and OCT angiography of the eye in preeclampsia (Not reported, `cc0`)
+- [mendeley_development_deep_learning_based_system_optic](./mendeley_development_deep_learning_based_system_optic.md): Dataset for - Development of a Deep Learning-based system for Optic Nerve characterization in Transorbital Ultrasound Images on a multicenter dataset (Not reported, `cc-by`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
 - [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)

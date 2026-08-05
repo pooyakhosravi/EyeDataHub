@@ -3,7 +3,7 @@ id: retinal_dr_longitudinal
 title: "Retinal DR Longitudinal Fundus Pairs"
 sidebar_label: retinal_dr_longitudinal
 description: "Baseline and two-year follow-up color fundus image pairs from Tianjin Medical University for diabetic-retinopathy progression research."
-tags: ["fundus", "unknown", "huggingface", "progression", "classification"]
+tags: ["fundus", "unknown", "huggingface", "progression", "classification", "resource-role-current-dataset", "dataset-family-retinal-dr-longitudinal"]
 ---
 
 
@@ -21,6 +21,8 @@ Baseline and two-year follow-up color fundus image pairs from Tianjin Medical Un
 | **Short name** | `retinal_dr_longitudinal` |
 | **Full name** | Retinal DR Longitudinal Fundus Pairs |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `retinal_dr_longitudinal` |
 | **Contained modalities** | fundus |
 | **Tasks** | progression, classification |
 | **Primary reported quantity** | 1,115 image pairs |
@@ -31,7 +33,7 @@ Baseline and two-year follow-up color fundus image pairs from Tianjin Medical Un
 | **Normalized terms** | `unknown` |
 | **Descriptive screening label** | Unknown or unclear; do not assume permission |
 | **Terms scope** | `unknown` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | HuggingFace Hub |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -129,4 +131,4 @@ Retinal DR longitudinal fundus pairs, Tianjin Medical University. HuggingFace, 2
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

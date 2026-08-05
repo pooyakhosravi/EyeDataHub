@@ -3,7 +3,7 @@ id: hpmi
 title: "HPMI: High & Pathological Myopia Identification"
 sidebar_label: hpmi
 description: "4,011 color fundus images labeled for high-myopia vs pathological-myopia classification — largest public dataset for HM/PM separation."
-tags: ["fundus", "cc-by", "figshare", "classification"]
+tags: ["fundus", "cc-by", "figshare", "classification", "resource-role-current-dataset", "dataset-family-hpmi"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `hpmi` |
 | **Full name** | HPMI: High & Pathological Myopia Identification |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `hpmi` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 4,011 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |
@@ -127,4 +129,4 @@ Huang et al., 'HPMI: A retinal fundus image dataset for identification of high a
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

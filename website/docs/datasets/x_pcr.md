@@ -3,7 +3,7 @@ id: x_pcr
 title: "X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark"
 sidebar_label: x_pcr
 description: "The version-pinned public deposit contains 18,735 ophthalmic image-text benchmark rows across CFP, external-eye, FFA, OCT, and RetCam subsets."
-tags: ["multimodal", "fundus", "fundus_angiography", "oct", "external_eye", "retcam", "text", "unknown", "huggingface", "visual_question_answering", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["multimodal", "fundus", "fundus_angiography", "oct", "external_eye", "retcam", "text", "unknown", "huggingface", "visual_question_answering", "classification", "resource-role-derivative-dataset", "dataset-family-x-pcr", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ The version-pinned public deposit contains 18,735 ophthalmic image-text benchmar
 | **Short name** | `x_pcr` |
 | **Full name** | X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark |
 | **Primary category** | `multimodal` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `x_pcr` |
 | **Contained modalities** | fundus, fundus_angiography, oct, external_eye, retcam, text |
 | **Tasks** | visual_question_answering, classification |
 | **Primary reported quantity** | 18,735 rows |
@@ -31,7 +33,7 @@ The version-pinned public deposit contains 18,735 ophthalmic image-text benchmar
 | **Normalized terms** | `unknown` |
 | **Descriptive screening label** | Unknown or unclear; do not assume permission |
 | **Terms scope** | `unknown` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | HuggingFace Hub |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

@@ -3,7 +3,7 @@ id: ophthalwechat
 title: "OphthalWeChat Dataset"
 sidebar_label: ophthalwechat
 description: "Ophthalmology-oriented WeChat article metadata and image-link dataset for visual question answering and multimodal language-model evaluation."
-tags: ["text", "cc-by", "figshare", "visual_question_answering", "retrieval"]
+tags: ["text", "cc-by", "figshare", "visual_question_answering", "retrieval", "resource-role-current-dataset", "dataset-family-ophthalwechat"]
 ---
 
 
@@ -21,6 +21,8 @@ Ophthalmology-oriented WeChat article metadata and image-link dataset for visual
 | **Short name** | `ophthalwechat` |
 | **Full name** | OphthalWeChat Dataset |
 | **Primary category** | `text` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ophthalwechat` |
 | **Contained modalities** | text |
 | **Tasks** | visual_question_answering, retrieval |
 | **Primary reported quantity** | 30,120 question answer pairs |
@@ -31,7 +33,7 @@ Ophthalmology-oriented WeChat article metadata and image-link dataset for visual
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `mixed_components` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

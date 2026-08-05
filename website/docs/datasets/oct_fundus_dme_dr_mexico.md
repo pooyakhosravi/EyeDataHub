@@ -3,7 +3,7 @@ id: oct_fundus_dme_dr_mexico
 title: "OCT and Eye Fundus Dataset for DME and DR"
 sidebar_label: oct_fundus_dme_dr_mexico
 description: "Linked color fundus and macular OCT images for diabetic macular edema and diabetic retinopathy classification, with CSV labels and shared patient/eye/image nomenclature."
-tags: ["multimodal", "fundus", "oct", "unknown", "github", "classification", "grading"]
+tags: ["multimodal", "fundus", "oct", "unknown", "github", "classification", "grading", "resource-role-current-dataset", "dataset-family-oct-fundus-dme-dr-mexico"]
 ---
 
 
@@ -21,6 +21,8 @@ Linked color fundus and macular OCT images for diabetic macular edema and diabet
 | **Short name** | `oct_fundus_dme_dr_mexico` |
 | **Full name** | OCT and Eye Fundus Dataset for DME and DR |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `oct_fundus_dme_dr_mexico` |
 | **Contained modalities** | fundus, oct |
 | **Tasks** | classification, grading |
 | **Primary reported quantity** | 2,661 images |

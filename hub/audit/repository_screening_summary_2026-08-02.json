@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "search_snapshot": "repository_search_candidates_2026-08-02.json",
+  "screening_ledger": "repository_screening_ledger_2026-08-02.csv",
+  "review_date": "2026-08-03",
+  "catalog_record_count_at_screening": 451,
+  "workflow_sources": [
+    "dryad",
+    "mendeley",
+    "kaggle",
+    "figshare",
+    "huggingface"
+  ],
+  "source_search_status": {
+    "dryad": {
+      "status": "archived_search_loaded",
+      "result_set_complete": true,
+      "unique_search_hits": 722
+    },
+    "mendeley": {
+      "status": "completed",
+      "result_set_complete": true,
+      "unique_search_hits": 15260
+    },
+    "kaggle": {
+      "status": "completed",
+      "result_set_complete": true,
+      "unique_search_hits": 2155
+    },
+    "figshare": {
+      "status": "completed",
+      "result_set_complete": true,
+      "unique_search_hits": 319
+    },
+    "huggingface": {
+      "status": "completed",
+      "result_set_complete": true,
+      "unique_search_hits": 281
+    }
+  },
+  "platform_counts": {
+    "dryad": {
+      "unique_search_hits": 722,
+      "excluded_duplicate_or_alternate_deposit": 2,
+      "excluded_insufficient_source_metadata": 1,
+      "excluded_nonhuman_or_nonhuman_derived": 58,
+      "excluded_not_distinct_reusable_resource": 79,
+      "excluded_not_eye_or_ophthalmology": 497,
+      "excluded_not_suitable_for_model_training_or_evaluation": 3,
+      "existing_catalog_record": 82
+    },
+    "figshare": {
+      "unique_search_hits": 319,
+      "excluded_duplicate_or_alternate_deposit": 24,
+      "excluded_insufficient_source_metadata": 32,
+      "excluded_nonhuman_or_nonhuman_derived": 4,
+      "excluded_not_distinct_reusable_resource": 129,
+      "excluded_not_eye_or_ophthalmology": 30,
+      "excluded_not_suitable_for_model_training_or_evaluation": 49,
+      "existing_catalog_record": 15,
+      "included_new_record": 36
+    },
+    "huggingface": {
+      "unique_search_hits": 281,
+      "excluded_duplicate_or_alternate_deposit": 13,
+      "excluded_insufficient_source_metadata": 69,
+      "excluded_nonhuman_or_nonhuman_derived": 3,
+      "excluded_not_distinct_reusable_resource": 26,
+      "excluded_not_eye_or_ophthalmology": 124,
+      "excluded_not_suitable_for_model_training_or_evaluation": 29,
+      "existing_catalog_record": 14,
+      "included_new_record": 3
+    },
+    "kaggle": {
+      "unique_search_hits": 2155,
+      "excluded_duplicate_or_alternate_deposit": 168,
+      "excluded_insufficient_source_metadata": 892,
+      "excluded_nonhuman_or_nonhuman_derived": 7,
+      "excluded_not_distinct_reusable_resource": 251,
+      "excluded_not_eye_or_ophthalmology": 795,
+      "excluded_not_suitable_for_model_training_or_evaluation": 18,
+      "existing_catalog_record": 18,
+      "included_new_record": 6
+    },
+    "mendeley": {
+      "unique_search_hits": 15260,
+      "excluded_duplicate_or_alternate_deposit": 14,
+      "excluded_insufficient_source_metadata": 57,
+      "excluded_nonhuman_or_nonhuman_derived": 93,
+      "excluded_not_distinct_reusable_resource": 5,
+      "excluded_not_eye_or_ophthalmology": 14680,
+      "excluded_not_suitable_for_model_training_or_evaluation": 297,
+      "existing_catalog_record": 27,
+      "included_new_record": 87
+    }
+  },
+  "overall_counts": {
+    "unique_search_hits": 18737,
+    "excluded_duplicate_or_alternate_deposit": 221,
+    "excluded_insufficient_source_metadata": 1051,
+    "excluded_nonhuman_or_nonhuman_derived": 165,
+    "excluded_not_distinct_reusable_resource": 490,
+    "excluded_not_eye_or_ophthalmology": 16126,
+    "excluded_not_suitable_for_model_training_or_evaluation": 396,
+    "existing_catalog_record": 156,
+    "included_new_record": 132
+  },
+  "all_requested_searches_complete": true,
+  "manual_review_complete": true,
+  "manuscript_flow_ready": true,
+  "credential_values_serialized": false,
+  "signed_or_download_urls_serialized": false,
+  "interpretation": "Counts are direct row counts. A credential_required source means that its search awaits the required platform credential; it is not an acquisition failure. Manuscript flow figures must not be generated while manuscript_flow_ready is false."
+}

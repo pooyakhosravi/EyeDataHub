@@ -3,7 +3,7 @@ id: dryad_namd_visual_prediction
 title: "Moorfields nAMD Visual-Change Prediction Dataset"
 sidebar_label: dryad_namd_visual_prediction
 description: "Longitudinal quantitative OCT biomarkers and treatment-response variables for predicting visual acuity in neovascular AMD."
-tags: ["tabular", "oct", "cc0", "dryad", "regression", "prognosis", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
+tags: ["tabular", "oct", "cc0", "dryad", "regression", "prognosis", "resource-role-current-dataset", "dataset-family-dryad-namd-visual-prediction", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
 ---
 
 
@@ -21,6 +21,8 @@ Longitudinal quantitative OCT biomarkers and treatment-response variables for pr
 | **Short name** | `dryad_namd_visual_prediction` |
 | **Full name** | Moorfields nAMD Visual-Change Prediction Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_namd_visual_prediction` |
 | **Contained modalities** | tabular, oct |
 | **Tasks** | regression, prognosis |
 | **Primary reported quantity** | 926 eyes |

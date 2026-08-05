@@ -3,7 +3,7 @@ id: drtid
 title: "DRTiD: Diabetic Retinopathy Two-field Image Dataset"
 sidebar_label: drtid
 description: "3,100 paired two-field fundus images with DR grading labels. Only public two-field paired DR benchmark."
-tags: ["fundus", "research-only", "manual", "grading", "classification"]
+tags: ["fundus", "research-only", "manual", "grading", "classification", "resource-role-current-dataset", "dataset-family-drtid"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `drtid` |
 | **Full name** | DRTiD: Diabetic Retinopathy Two-field Image Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `drtid` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 3,100 images |
@@ -125,4 +127,4 @@ Hou et al., 'Cross-Field Transformer for Diabetic Retinopathy Grading on Two-fie
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

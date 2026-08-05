@@ -3,7 +3,7 @@ id: eyeq
 title: "EyeQ Retinal Image Quality Assessment Dataset"
 sidebar_label: eyeq
 description: "Quality labels for 28,792 EyePACS fundus images, graded as good, usable, or reject and divided into the original EyePACS train and test partitions."
-tags: ["fundus", "unknown", "github", "quality", "grading", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "unknown", "github", "quality", "grading", "resource-role-annotation-layer", "dataset-family-eyeq", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Quality labels for 28,792 EyePACS fundus images, graded as good, usable, or reje
 | **Short name** | `eyeq` |
 | **Full name** | EyeQ Retinal Image Quality Assessment Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `eyeq` |
 | **Contained modalities** | fundus |
 | **Tasks** | quality, grading |
 | **Primary reported quantity** | 28,792 images |
@@ -133,4 +135,4 @@ Fu H, Wang B, Shen J, et al. Evaluation of retinal image quality assessment netw
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

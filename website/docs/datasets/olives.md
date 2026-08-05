@@ -3,7 +3,7 @@ id: olives
 title: "OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics"
 sidebar_label: olives
 description: "Longitudinal OCT + fundus dataset from AMD/DME patients across multiple clinical visits. 9,408 OCT B-scans have biomarker labels for 8 categories (fluid, drusen, scarring, PED variants, etc.); 78,000+"
-tags: ["oct", "fundus", "tabular", "cc-by", "zenodo", "multilabel", "classification"]
+tags: ["oct", "fundus", "tabular", "cc-by", "zenodo", "multilabel", "classification", "resource-role-current-dataset", "dataset-family-olives"]
 ---
 
 
@@ -21,6 +21,8 @@ Longitudinal OCT + fundus dataset from AMD/DME patients across multiple clinical
 | **Short name** | `olives` |
 | **Full name** | OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `olives` |
 | **Contained modalities** | oct, fundus, tabular |
 | **Tasks** | multilabel, classification |
 | **Primary reported quantity** | 9,408 b scans |
@@ -31,7 +33,7 @@ Longitudinal OCT + fundus dataset from AMD/DME patients across multiple clinical
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

@@ -3,7 +3,7 @@ id: uwf_tumor
 title: "UWF Fundus Intraocular Tumor Dataset"
 sidebar_label: uwf_tumor
 description: "2,031 ultra-widefield fundus images for AI-assisted intraocular tumor detection and classification. Six categories: Normal, Choroidal Hemangioma (CH), Retinal Capillary Hemangioma (RCH), Choroidal Ost"
-tags: ["uwf_fundus", "cc-by", "figshare", "classification"]
+tags: ["uwf_fundus", "cc-by", "figshare", "classification", "resource-role-current-dataset", "dataset-family-uwf-tumor"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `uwf_tumor` |
 | **Full name** | UWF Fundus Intraocular Tumor Dataset |
 | **Primary category** | `uwf_fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `uwf_tumor` |
 | **Contained modalities** | uwf_fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 2,031 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

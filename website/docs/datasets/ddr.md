@@ -3,7 +3,7 @@ id: ddr
 title: "DDR: Diabetic Retinopathy Detection & Grading"
 sidebar_label: ddr
 description: "12522 fundus images with DR grading (0-5) and lesion-level segmentation annotations."
-tags: ["fundus", "mit", "gdrive", "grading", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "mit", "gdrive", "grading", "classification", "resource-role-current-dataset", "dataset-family-ddr", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `ddr` |
 | **Full name** | DDR: Diabetic Retinopathy Detection & Grading |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ddr` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 12,522 images |
@@ -51,6 +53,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
 - [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
+- [mmrdr](./mmrdr.md) is `derived from` this record: The MMRDR Data Descriptor identifies OIA-DDR as the source of its CFP images; MMRDR also adds independently collected OCT and UWF cohorts and new annotations. ([evidence](https://doi.org/10.1038/s41597-026-07005-9))
 - [multieye](./multieye.md) is `derived from` this record: The MultiEYE paper names this record as one of the public fundus or OCT sources assembled for the benchmark. ([evidence](https://arxiv.org/abs/2412.09402))
 
 ## Access information and download
@@ -141,4 +144,4 @@ Li et al., 'Diagnostic Assessment of Deep Learning Algorithms for Diabetic Retin
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

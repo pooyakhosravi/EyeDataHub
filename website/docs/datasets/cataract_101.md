@@ -3,7 +3,7 @@ id: cataract_101
 title: "Cataract-101: 101 Cataract Surgery Videos with Phase Annotations"
 sidebar_label: cataract_101
 description: "101 cataract surgery videos with 10-phase workflow annotations. Canonical older cataract benchmark."
-tags: ["surgical_video", "research-only", "manual", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["surgical_video", "research-only", "manual", "classification", "resource-role-current-dataset", "dataset-family-cataract-101", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `cataract_101` |
 | **Full name** | Cataract-101: 101 Cataract Surgery Videos with Phase Annotations |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cataract_101` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | classification |
 | **Primary reported quantity** | 101 videos |
@@ -56,6 +58,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 
 - [cataract101_extended_labels](./cataract101_extended_labels.md) is `derived from` this record: The deposit provides extended labels for the Cataract-101 videos. ([evidence](https://zenodo.org/records/4984167))
 - [insegcat](./insegcat.md) is `derived from` this record: InSegCat Dataset 1 selects and annotates frames from Cataract-101 videos. ([evidence](https://ftp.itec.aau.at/datasets/ovid/InSegCat/))
+- [itec_iris_pupil](./itec_iris_pupil.md) is `derived from` this record: The official ITEC page states that the annotated iris and pupil frames were selected from Cataract-101 surgery videos. ([evidence](https://ftp.itec.aau.at/datasets/ovid/iris_pupil_seg/index.html))
 
 ## Access information and download
 

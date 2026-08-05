@@ -2,12 +2,12 @@
 id: surgical_video-index
 title: "Surgical Video datasets"
 sidebar_label: surgical_video
-description: "17 resources containing surgical_video data in EyeDataHub."
+description: "16 resources containing surgical_video data in EyeDataHub."
 ---
 
 # Surgical Video datasets
 
-**17 datasets; 17 with a primary reported quantity; 1490.2 GB total** - this page indexes every EyeDataHub resource tagged as containing `surgical_video` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
+**16 datasets; 16 with a primary reported quantity; 1480.2 GB total** - this page indexes every EyeDataHub resource tagged as containing `surgical_video` data. A resource can appear on more than one modality page. Primary quantities retain their source-reported units and are not summed here.
 
 | Name | Full name | Primary quantity | Size | License | Backend |
 | --- | --- | ---:| ---:| --- | --- |
@@ -24,7 +24,6 @@ description: "17 resources containing surgical_video data in EyeDataHub."
 | [`sics155`](./sics155.md) | SICS-155 Small Incision Cataract Surgery Videos | 155 videos | 30.0 GB | `cc-by-nc` | Zenodo |
 | [`cataract_101`](./cataract_101.md) | Cataract-101: 101 Cataract Surgery Videos with Phase Annotations | 101 videos | 25.0 GB | `research-only` | Manual (upstream-gated) |
 | [`cataract101_extended_labels`](./cataract101_extended_labels.md) | Cataract-101 Extended Labels | 101 videos | 0.0 GB | `cc-by` | Zenodo |
+| [`itec_iris_pupil`](./itec_iris_pupil.md) | ITEC Iris and Pupil Segmentation Dataset | 82 frames | Not reported | `unknown` | Manual (upstream-gated) |
 | [`cataracts2017`](./cataracts2017.md) | CATARACTS 2017: Surgical Tool Detection Challenge | 50 videos | 50.0 GB | `cc-by` | Manual (upstream-gated) |
 | [`fovea`](./fovea.md) | FOVEA: Pre/Intra-Operative Fundus + Biomicroscopy | 40 participants | 4.0 GB | `cc-by` | Figshare |
-| [`dryad_retinal_vein_cannulation`](./dryad_retinal_vein_cannulation.md) | Autonomous Retinal Vein Cannulation Data and Code | 26 experimental eyes | 7.5 GB | `cc0` | Dryad |
-| [`dryad_subretinal_robot`](./dryad_subretinal_robot.md) | Head-Mounted Robot Subretinal Injection Dataset | 21 experimental eyes | 2.5 GB | `cc0` | Dryad |

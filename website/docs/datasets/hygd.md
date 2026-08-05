@@ -3,7 +3,7 @@ id: hygd
 title: "HYGD: Hillel Yaffe Glaucoma Dataset"
 sidebar_label: hygd
 description: "747 fundus images from 288 patients with glaucoma labels confirmed by paired OCT + visual field. First public dataset with gold-standard multimodal glaucoma confirmation."
-tags: ["fundus", "odc-by", "physionet", "classification"]
+tags: ["fundus", "odc-by", "physionet", "classification", "resource-role-current-dataset", "dataset-family-hygd"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `hygd` |
 | **Full name** | HYGD: Hillel Yaffe Glaucoma Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `hygd` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 747 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `odc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | PhysioNet |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |
@@ -127,4 +129,4 @@ Hillel Yaffe Glaucoma Dataset, PhysioNet 2024 (v1.1.0). Labels gold-standardized
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

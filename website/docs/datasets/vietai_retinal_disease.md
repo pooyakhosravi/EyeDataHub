@@ -3,7 +3,7 @@ id: vietai_retinal_disease
 title: "VietAI Retinal Disease Detection 2020"
 sidebar_label: vietai_retinal_disease
 description: "A multilabel fundus classification challenge with 3,435 labeled training images and 350 test images covering six disease groups and normal findings."
-tags: ["fundus", "unknown", "kaggle", "multilabel", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "unknown", "kaggle", "multilabel", "classification", "resource-role-current-dataset", "dataset-family-vietai-retinal-disease", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ A multilabel fundus classification challenge with 3,435 labeled training images 
 | **Short name** | `vietai_retinal_disease` |
 | **Full name** | VietAI Retinal Disease Detection 2020 |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `vietai_retinal_disease` |
 | **Contained modalities** | fundus |
 | **Tasks** | multilabel, classification |
 | **Primary reported quantity** | 3,785 images |
@@ -133,4 +135,4 @@ VietAI Advance Course Retinal Disease Detection. Kaggle. 2020.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

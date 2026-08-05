@@ -3,7 +3,7 @@ id: idrid
 title: "IDRiD: Indian Diabetic Retinopathy Image Dataset"
 sidebar_label: idrid
 description: "516 fundus images with DR grade (0-4), macular edema grade (0-2), and pixel-level lesion segmentation for 81 images."
-tags: ["fundus", "cc-by", "manual", "grading", "classification", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "manual", "grading", "classification", "segmentation", "resource-role-current-dataset", "dataset-family-idrid", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `idrid` |
 | **Full name** | IDRiD: Indian Diabetic Retinopathy Image Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `idrid` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification, segmentation |
 | **Primary reported quantity** | 516 images |
@@ -147,4 +149,4 @@ Porwal et al., 'Indian diabetic retinopathy image dataset (IDRiD): A database fo
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

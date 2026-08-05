@@ -3,7 +3,7 @@ id: eyecatcher_visual_field
 title: "Eyecatcher Tablet-Based Visual Field Home-Monitoring Data"
 sidebar_label: eyecatcher_visual_field
 description: "Visual-field data from glaucoma home monitoring: mean deviation, duration, and pointwise differential light sensitivity values across HFA and Eyecatcher tests."
-tags: ["visual_field", "cc-by", "mendeley", "regression", "classification"]
+tags: ["visual_field", "cc-by", "mendeley", "regression", "classification", "resource-role-current-dataset", "dataset-family-eyecatcher-visual-field"]
 ---
 
 
@@ -21,6 +21,8 @@ Visual-field data from glaucoma home monitoring: mean deviation, duration, and p
 | **Short name** | `eyecatcher_visual_field` |
 | **Full name** | Eyecatcher Tablet-Based Visual Field Home-Monitoring Data |
 | **Primary category** | `visual_field` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `eyecatcher_visual_field` |
 | **Contained modalities** | visual_field |
 | **Tasks** | regression, classification |
 | **Primary reported quantity** | 440 visual field tests |
@@ -31,7 +33,7 @@ Visual-field data from glaucoma home monitoring: mean deviation, duration, and p
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

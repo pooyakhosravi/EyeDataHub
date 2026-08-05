@@ -3,7 +3,7 @@ id: ru_medical_texts_ophthalmology
 title: "Ophthalmology Russian-English Medical Text Translations"
 sidebar_label: ru_medical_texts_ophthalmology
 description: "Russian-English ophthalmology sentence-pair and glossary dataset for translation and LLM evaluation."
-tags: ["text", "cc-by", "kaggle", "translation", "text_generation"]
+tags: ["text", "cc-by", "kaggle", "translation", "text_generation", "resource-role-current-dataset", "dataset-family-ru-medical-texts-ophthalmology"]
 ---
 
 
@@ -21,6 +21,8 @@ Russian-English ophthalmology sentence-pair and glossary dataset for translation
 | **Short name** | `ru_medical_texts_ophthalmology` |
 | **Full name** | Ophthalmology Russian-English Medical Text Translations |
 | **Primary category** | `text` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ru_medical_texts_ophthalmology` |
 | **Contained modalities** | text |
 | **Tasks** | translation, text_generation |
 | **Primary reported quantity** | 3,473 sentence pairs |

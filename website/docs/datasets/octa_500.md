@@ -3,7 +3,7 @@ id: octa_500
 title: "OCTA-500: Large-scale OCTA Multi-task Benchmark"
 sidebar_label: octa_500
 description: "500 subjects with OCTA volumes, vessel segmentation, FAZ (foveal avascular zone) annotations, and layer segmentation. Largest public OCTA dataset."
-tags: ["octa", "research-only", "manual", "segmentation", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["octa", "research-only", "manual", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-octa-500", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `octa_500` |
 | **Full name** | OCTA-500: Large-scale OCTA Multi-task Benchmark |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `octa_500` |
 | **Contained modalities** | octa |
 | **Tasks** | segmentation, classification |
 | **Primary reported quantity** | 500 participants |
@@ -131,3 +133,4 @@ Li et al., 'OCTA-500: A retinal dataset for optical coherence tomography angiogr
 - [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 images, `cc-by`)
 - [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (112 participants, `unknown`)
 - [dryad_preeclampsia_ocular_octa](./dryad_preeclampsia_ocular_octa.md): Plane wave ultrasound and OCT angiography of the eye in preeclampsia (Not reported, `cc0`)
+- [retinal_oct_octa_two_subjects_processed](./retinal_oct_octa_two_subjects_processed.md): Processed Retinal OCT and OCTA Two-Subject Dataset (Not reported, `cc-by`)

@@ -3,7 +3,7 @@ id: aptos_arcade_onh_masks
 title: "APTOS Vascular Arcade and Optic Nerve Head Masks"
 sidebar_label: aptos_arcade_onh_masks
 description: "Segmentation masks for the vascular arcade and optic nerve head derived from APTOS 2019 fundus images."
-tags: ["fundus", "apache", "zenodo", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "apache", "zenodo", "segmentation", "resource-role-annotation-layer", "dataset-family-aptos-arcade-onh-masks", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Segmentation masks for the vascular arcade and optic nerve head derived from APT
 | **Short name** | `aptos_arcade_onh_masks` |
 | **Full name** | APTOS Vascular Arcade and Optic Nerve Head Masks |
 | **Primary category** | `fundus` |
+| **Resource role** | `annotation_layer` |
+| **Dataset family** | `aptos_arcade_onh_masks` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 500 images |
@@ -31,7 +33,7 @@ Segmentation masks for the vascular arcade and optic nerve head derived from APT
 | **Normalized terms** | `apache` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; verify that it applies to data |
 | **Terms scope** | `unknown` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -133,4 +135,4 @@ APTOS vascular arcade and optic nerve head masks. Zenodo, 2026. doi:10.5281/zeno
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

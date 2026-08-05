@@ -3,7 +3,7 @@ id: aod
 title: "AOD: Augmented Ocular Diseases Dataset"
 sidebar_label: aod
 description: "Augmented ODIR-5K fundus photographs for 8-class ocular disease classification: Normal, Diabetes, Glaucoma, Cataract, AMD, Hypertension, Myopia, Other. Preprocessing includes CLAHE and standard augmen"
-tags: ["fundus", "unknown", "kaggle", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "unknown", "kaggle", "classification", "resource-role-derivative-dataset", "dataset-family-aod", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Augmented ODIR-5K fundus photographs for 8-class ocular disease classification: 
 | **Short name** | `aod` |
 | **Full name** | AOD: Augmented Ocular Diseases Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `aod` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 14,813 images |
@@ -143,4 +145,4 @@ AOD Dataset. Kaggle. https://www.kaggle.com/datasets/nurmukhammed7/augemnted-ocu
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

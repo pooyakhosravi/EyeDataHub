@@ -3,7 +3,7 @@ id: aroma_octa
 title: "AROMA Retinal OCTA Artifact Dataset"
 sidebar_label: aroma_octa
 description: "Retinal OCTA scans labeled for artifact type, artifact severity, signal strength, and image quality."
-tags: ["octa", "cc-by", "zenodo", "quality_assessment", "classification", "grading"]
+tags: ["octa", "cc-by", "zenodo", "quality_assessment", "classification", "grading", "resource-role-current-dataset", "dataset-family-aroma-octa"]
 ---
 
 
@@ -21,6 +21,8 @@ Retinal OCTA scans labeled for artifact type, artifact severity, signal strength
 | **Short name** | `aroma_octa` |
 | **Full name** | AROMA Retinal OCTA Artifact Dataset |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `aroma_octa` |
 | **Contained modalities** | octa |
 | **Tasks** | quality_assessment, classification, grading |
 | **Primary reported quantity** | 281 images |
@@ -31,7 +33,7 @@ Retinal OCTA scans labeled for artifact type, artifact severity, signal strength
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -127,3 +129,4 @@ Szwarcberg L, Anwer A, Gozlan A, et al. The AROMA Dataset for Automatic Detectio
 - [drac22](./drac22.md): DRAC 2022: Diabetic Retinopathy Analysis Challenge (174 images, `cc-by`)
 - [ut_fsocta](./ut_fsocta.md): UTHealth Fundus and Synthetic OCTA Dataset (112 participants, `unknown`)
 - [dryad_preeclampsia_ocular_octa](./dryad_preeclampsia_ocular_octa.md): Plane wave ultrasound and OCT angiography of the eye in preeclampsia (Not reported, `cc0`)
+- [retinal_oct_octa_two_subjects_processed](./retinal_oct_octa_two_subjects_processed.md): Processed Retinal OCT and OCTA Two-Subject Dataset (Not reported, `cc-by`)

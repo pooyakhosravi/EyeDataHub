@@ -598,11 +598,28 @@ class OCTDLDataset(EyeDataHubDataset):
     def download(self, data_dir: Union[str, Path]) -> None:
         dest = Path(data_dir) / self._SUBDIR
         dest.mkdir(parents=True, exist_ok=True)
-        # Try Mendeley auto-download first (no credentials needed)
+        # Try the platform transfer first.  Public records can still require
+        # platform credentials, a compatible client, or other access setup.
         try:
             from eyedatahub.datasets.download_utils import download_mendeley
             download_mendeley(self._MENDELEY_ID, self._MENDELEY_VERSION, dest, extract=True)
             return
+        except PermissionError as exc:
+            print_manual_download_instructions(
+                "OCTDL",
+                self._MENDELEY_URL,
+                dest,
+                extra_notes=(
+                    "The automated Mendeley request requires platform credentials "
+                    "or access setup. This does not establish that the dataset is "
+                    "unavailable. Use the canonical source route and review its "
+                    "current access requirements."
+                ),
+            )
+            raise PermissionError(
+                "OCTDL automated Mendeley transfer requires credentials or access "
+                "setup; see the canonical source instructions above."
+            ) from exc
         except Exception:
             pass
         # Fallback: manual instructions with the canonical Mendeley page.
@@ -619,7 +636,10 @@ class OCTDLDataset(EyeDataHubDataset):
                 "  octdl/VID/*.jpg"
             ),
         )
-        raise RuntimeError("OCTDL: Mendeley auto-download failed. See instructions above.")
+        raise RuntimeError(
+            "OCTDL automated Mendeley transfer did not complete. Verify the "
+            "canonical source route and current access requirements above."
+        )
 
     def load(self, data_dir: Union[str, Path], split: str = "all") -> List[DatasetSample]:
         root = Path(data_dir) / self._SUBDIR

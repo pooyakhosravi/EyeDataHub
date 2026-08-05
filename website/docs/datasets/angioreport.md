@@ -3,7 +3,7 @@ id: angioreport
 title: "AngioReport Fundus Angiography Report Dataset"
 sidebar_label: angioreport
 description: "De-identified fluorescein and indocyanine-green angiography images paired with structured lesion descriptions and reports."
-tags: ["multimodal", "fundus", "fundus_angiography", "text", "unknown", "manual", "report_generation", "multilabel", "classification"]
+tags: ["multimodal", "fundus", "fundus_angiography", "text", "unknown", "manual", "report_generation", "multilabel", "classification", "resource-role-current-dataset", "dataset-family-angioreport"]
 ---
 
 
@@ -21,6 +21,8 @@ De-identified fluorescein and indocyanine-green angiography images paired with s
 | **Short name** | `angioreport` |
 | **Full name** | AngioReport Fundus Angiography Report Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `angioreport` |
 | **Contained modalities** | fundus, fundus_angiography, text |
 | **Tasks** | report_generation, multilabel, classification |
 | **Primary reported quantity** | 55,361 images |

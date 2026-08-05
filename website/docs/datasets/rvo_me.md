@@ -3,7 +3,7 @@ id: rvo_me
 title: "RVO-ME: Retinal Vein Occlusion Macular Edema OCT Dataset"
 sidebar_label: rvo_me
 description: "3,012 OCT B-scans from 146 eyes / 130 patients with retinal vein occlusion. Dual-task labels: fluid segmentation + retinal-layer segmentation. Detection of macular lesions."
-tags: ["oct", "cc-by", "figshare", "segmentation", "classification"]
+tags: ["oct", "cc-by", "figshare", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-rvo-me"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `rvo_me` |
 | **Full name** | RVO-ME: Retinal Vein Occlusion Macular Edema OCT Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `rvo_me` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation, classification |
 | **Primary reported quantity** | 3,012 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

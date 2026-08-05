@@ -3,7 +3,7 @@ id: dryad_amd_zinc_complement
 title: "AMD Zinc Complement Dataset"
 sidebar_label: dryad_amd_zinc_complement
 description: "AMD complement/zinc clinical-trial data directly support human retinal disease biomarker and outcome analysis."
-tags: ["omics", "tabular", "cc0", "dryad", "regression"]
+tags: ["omics", "tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-amd-zinc-complement"]
 ---
 
 
@@ -21,6 +21,8 @@ AMD complement/zinc clinical-trial data directly support human retinal disease b
 | **Short name** | `dryad_amd_zinc_complement` |
 | **Full name** | AMD Zinc Complement Dataset |
 | **Primary category** | `omics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_amd_zinc_complement` |
 | **Contained modalities** | omics, tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 72 participants |
@@ -120,11 +122,11 @@ Smailhodzic, Dzenita, van Asten, Freekje, Blom, Anna M., Mohlin, Frida C., den H
 
 ## Similar resources by shared modality
 
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [dryad_uveitis_vitreous_biomarkers](./dryad_uveitis_vitreous_biomarkers.md): Uveitis Vitreous Biomarker Dataset (234 eyes, `cc0`)
 - [dryad_dry_eye_nlrp3](./dryad_dry_eye_nlrp3.md): Dry Eye NLRP3 Ocular Surface Dataset (150 participants, `cc0`)
 - [dryad_congenital_glaucoma_wes](./dryad_congenital_glaucoma_wes.md): Identification of novel variants in LTBP2 and PXDN using whole-exome sequencing in developmental and congenital glaucoma (3 families, `cc0`)
-- [dryad_ird_mouse_proteome](./dryad_ird_mouse_proteome.md): Retinal proteome profiling of inherited retinal degeneration across three different mouse models suggests common drug targets in retinitis pigmentosa (3 animal models, `cc0`)
 - [dryad_acanthamoeba_keratitis_transcriptome](./dryad_acanthamoeba_keratitis_transcriptome.md): Human conjunctival transcriptome in Acanthamoeba keratitis: An exploratory study (Not reported, `cc0`)
 - [dryad_corneal_conjunctivitis_biomarker](./dryad_corneal_conjunctivitis_biomarker.md): Corneal Conjunctivitis Biomarker Dataset (Not reported, `cc0`)
 - [dryad_glaucoma_lhon_mitochondrial](./dryad_glaucoma_lhon_mitochondrial.md): Glaucoma and LHON Mitochondrial Function Dataset (Not reported, `cc0`)
+- [dryad_ocular_surface_amr](./dryad_ocular_surface_amr.md): Ocular Surface AMR Keratitis Dataset (Not reported, `cc0`)
+- [dryad_rao_multiomics](./dryad_rao_multiomics.md): Data and code from: Fatty acid metabolism reprograms immune microenvironment in retinal artery occlusion: Multi-Omics analysis highlights immunometabolic crosstalk (Not reported, `cc0`)

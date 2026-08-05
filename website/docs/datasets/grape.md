@@ -3,7 +3,7 @@ id: grape
 title: "GRAPE: Glaucoma Real-world Appraisal Progression Ensemble"
 sidebar_label: grape
 description: "263 eyes × 1,115 visits. Multi-modal: VF (HFA 24-2), fundus photographs, OCT RNFL, IOP, CCT. Labels: VF progression, OD segmentation, glaucoma stage."
-tags: ["multimodal", "fundus", "oct", "visual_field", "tabular", "cc0", "figshare", "regression", "segmentation", "classification"]
+tags: ["multimodal", "fundus", "oct", "visual_field", "tabular", "cc0", "figshare", "regression", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-grape"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `grape` |
 | **Full name** | GRAPE: Glaucoma Real-world Appraisal Progression Ensemble |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `grape` |
 | **Contained modalities** | fundus, oct, visual_field, tabular |
 | **Tasks** | regression, segmentation, classification |
 | **Primary reported quantity** | 1,115 examinations |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc0` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

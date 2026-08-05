@@ -3,7 +3,7 @@ id: dryad_xgxd254pk
 title: "Supporting information for: Discrimination ability of central visual field testing using stimulus size I, II, and III and relationship with macular ganglion cell thickness in chiasmal compression"
 sidebar_label: dryad_xgxd254pk
 description: "Official Dryad deposit of source-described visual-field and retinal measurement data for the associated study."
-tags: ["visual_field", "tabular", "cc0", "dryad", "measurement"]
+tags: ["visual_field", "tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-xgxd254pk"]
 ---
 
 
@@ -21,6 +21,8 @@ Official Dryad deposit of source-described visual-field and retinal measurement 
 | **Short name** | `dryad_xgxd254pk` |
 | **Full name** | Supporting information for: Discrimination ability of central visual field testing using stimulus size I, II, and III and relationship with macular ganglion cell thickness in chiasmal compression |
 | **Primary category** | `visual_field` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_xgxd254pk` |
 | **Contained modalities** | visual_field, tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 60 eyes |
@@ -126,5 +128,5 @@ Monteiro Mario, Rocha Arthur, Benassi Thais, Mello Luiz, Zacharias Leandro, Pret
 - [dryad_glaucoma_rnfl_vf](./dryad_glaucoma_rnfl_vf.md): RNFL and Visual-Field Glaucoma Diagnosis Dataset (499 records, `cc0`)
 - [dryad_myopia_glaucoma_visual_field](./dryad_myopia_glaucoma_visual_field.md): Myopia and Glaucoma Visual Field Prognosis Dataset (270 eyes, `cc0`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)

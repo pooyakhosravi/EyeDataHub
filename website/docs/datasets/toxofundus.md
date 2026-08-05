@@ -3,7 +3,7 @@ id: toxofundus
 title: "ToxoFundus: Ocular Toxoplasmosis Fundus Dataset"
 sidebar_label: toxofundus
 description: "Fundus photographs for ocular toxoplasmosis detection: active toxoplasmosis, inactive (scarred) lesions, and normal. ~412 images total (adult + pediatric cases)."
-tags: ["fundus", "cc-by", "kaggle", "classification"]
+tags: ["fundus", "cc-by", "kaggle", "classification", "resource-role-current-dataset", "dataset-family-toxofundus"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus photographs for ocular toxoplasmosis detection: active toxoplasmosis, ina
 | **Short name** | `toxofundus` |
 | **Full name** | ToxoFundus: Ocular Toxoplasmosis Fundus Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `toxofundus` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 412 images |
@@ -134,4 +136,4 @@ Nafisi & Sadri, 'ToxoFundus: Ocular Toxoplasmosis Fundus Image Dataset', Data in
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

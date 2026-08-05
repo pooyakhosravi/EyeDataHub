@@ -3,7 +3,7 @@ id: umn_parhi_oct
 title: "UMN Parhi Lab AMD OCT Fluid Segmentation Dataset"
 sidebar_label: umn_parhi_oct
 description: "600 Spectralis OCT B-scans from 24 exudative AMD subjects. Three fluid region classes: IRF, SRF, PED. Dual expert annotation."
-tags: ["oct", "research-only", "direct", "segmentation"]
+tags: ["oct", "research-only", "direct", "segmentation", "resource-role-current-dataset", "dataset-family-umn-parhi-oct"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `umn_parhi_oct` |
 | **Full name** | UMN Parhi Lab AMD OCT Fluid Segmentation Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `umn_parhi_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 600 images |

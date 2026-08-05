@@ -3,9 +3,9 @@
 The ledger combines author-conducted source reconciliation with the automated
 URL probe.  A successful HTTP response is never promoted to route verification
 on its own, and an automated probe failure does not overwrite a documented
-manual source check. Transfer evidence is represented separately in the
-record-level acquisition-verification ledger and is never inferred from an
-implementation label here.
+manual source check. File-listing and download checks are represented in their
+dated repository-specific logs and are never inferred from an implementation
+label here.
 """
 from __future__ import annotations
 
@@ -33,18 +33,20 @@ PLATFORM_CLIENT_BACKENDS = {
 
 
 def _authentication_state(info: Any) -> str:
-    if info.download_type in PLATFORM_CLIENT_BACKENDS:
-        return "platform_credentials_or_client_configuration_required"
-    if info.access_friction == "anonymous_direct":
-        return "unauthenticated"
     if info.requires_api_token is True:
-        return "credentials_required_not_stored"
+        return "api_token_required_not_stored"
     if info.requires_authentication is True:
         return "user_authentication_required"
+    if info.requires_clickthrough is True:
+        return "user_clickthrough_required"
     if info.requires_manual_approval is True:
         return "manual_authorization_required"
     if info.requires_author_contact is True:
         return "author_correspondence_required"
+    if info.access_friction == "anonymous_direct":
+        return "unauthenticated"
+    if info.download_type in PLATFORM_CLIENT_BACKENDS:
+        return "platform_api_or_client_route_authentication_not_inferred"
     return "not_applicable_or_unknown"
 
 
@@ -74,7 +76,7 @@ def generate_rows(url_report: dict[str, Any]) -> list[dict[str, Any]]:
         elif probe_status in {
             "ok",
             "auth_required",
-            "credentials_or_client_required",
+            "platform_or_browser_route",
         }:
             result = info.route_check_result
             limitation = info.route_check_notes
@@ -137,7 +139,9 @@ def write_rows(rows: list[dict[str, Any]], output: Path, url_report: dict[str, A
                     "source_page_reviewed": "official source page checked",
                     "route_confirmed": "current acquisition route checked and reconciled with the record",
                     "unavailable_or_failed": "source or represented route unavailable or failed at the verification date",
-                    "transfer_evidence_location": "data/acquisition_verification_ledger.csv",
+                    "file_review_evidence": (
+                        "Dated repository-specific inventory and content-review logs"
+                    ),
                     "http_probe_limitation": (
                         "HTTP reachability is supporting evidence only and does not establish "
                         "that a response is the intended acquisition endpoint."

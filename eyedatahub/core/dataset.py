@@ -1,4 +1,5 @@
 """Base dataset interface."""
+
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Tuple, Union
@@ -15,24 +16,43 @@ import numpy as np
 _LICENSE_FAMILIES: Dict[str, List[str]] = {
     # Standard source labels.  Classification does not determine permission
     # and terms scope is recorded independently.
-    "cc0":          ["cc0", "public domain", "cc0 1.0"],
-    "cc-by":        ["cc by 4.0", "cc by 3.0", "cc by 2.0", "cc by 1.0",
-                     "creative commons attribution"],
-    "cc-by-sa":     ["cc by-sa", "cc by-sa 4.0"],
-    "mit":          ["mit license", "license: mit", " mit", "mit"],
-    "apache":       ["apache-2.0", "apache 2.0", "apache license", "apache"],
-    "odc-by":       ["odc-by", "open data commons attribution"],
+    "cc0": ["cc0", "public domain", "cc0 1.0"],
+    "cc-by": [
+        "cc by 4.0",
+        "cc by 3.0",
+        "cc by 2.0",
+        "cc by 1.0",
+        "creative commons attribution",
+    ],
+    "cc-by-sa": ["cc by-sa", "cc by-sa 4.0"],
+    "mit": ["mit license", "license: mit", " mit", "mit"],
+    "apache": ["apache-2.0", "apache 2.0", "apache license", "apache"],
+    "odc-by": ["odc-by", "open data commons attribution"],
     # Non-commercial Creative Commons
-    "cc-by-nc":     ["cc by-nc 4.0", "cc by-nc 3.0", "cc by-nc 2.0"],
-    "cc-by-nc-sa":  ["cc by-nc-sa", "cc by-nc-sa 4.0"],
-    "cc-by-nc-nd":  ["cc by-nc-nd", "cc by-nc-nd 4.0"],
+    "cc-by-nc": ["cc by-nc 4.0", "cc by-nc 3.0", "cc by-nc 2.0"],
+    "cc-by-nc-sa": ["cc by-nc-sa", "cc by-nc-sa 4.0"],
+    "cc-by-nc-nd": ["cc by-nc-nd", "cc by-nc-nd 4.0"],
     # Explicit use restrictions stated by the source.
-    "research-only": ["research only", "research use only", "research use",
-                      "for research", "academic research", "non-commercial research",
-                      "educational", "challenge-specific", "challenge data-use",
-                      "non-commercial scientific use"],
-    "unknown":      ["unknown", "see dataset page", "see huggingface",
-                     "see dataset", "see kaggle", "see paper"],
+    "research-only": [
+        "research only",
+        "research use only",
+        "research use",
+        "for research",
+        "academic research",
+        "non-commercial research",
+        "educational",
+        "challenge-specific",
+        "challenge data-use",
+        "non-commercial scientific use",
+    ],
+    "unknown": [
+        "unknown",
+        "see dataset page",
+        "see huggingface",
+        "see dataset",
+        "see kaggle",
+        "see paper",
+    ],
 }
 
 # Broader groupings for the --license-type filter flag
@@ -45,7 +65,17 @@ _LICENSE_GROUPS: Dict[str, List[str]] = {
     "non-commercial": ["cc-by-nc", "cc-by-nc-sa", "cc-by-nc-nd"],
     # Backward-compatible legacy alias; public documentation uses descriptive
     # source-term labels instead of calling this group "open".
-    "open": ["cc0", "cc-by", "cc-by-sa", "mit", "apache", "odc-by", "cc-by-nc", "cc-by-nc-sa", "cc-by-nc-nd"],
+    "open": [
+        "cc0",
+        "cc-by",
+        "cc-by-sa",
+        "mit",
+        "apache",
+        "odc-by",
+        "cc-by-nc",
+        "cc-by-nc-sa",
+        "cc-by-nc-nd",
+    ],
     # Fully restricted
     "research-only": ["research-only"],
     # Unknown / unclear
@@ -109,21 +139,22 @@ def license_short(license_str: str) -> str:
         return "MIT"
     family = classify_license(license_str)
     _DISPLAY = {
-        "cc0":          "CC0",
-        "cc-by":        "CC BY",
-        "cc-by-sa":     "CC BY-SA",
-        "mit":          "MIT",
-        "apache":       "Apache",
-        "odc-by":       "ODC-BY",
-        "cc-by-nc":     "CC BY-NC",
-        "cc-by-nc-sa":  "CC BY-NC-SA",
-        "cc-by-nc-nd":  "CC BY-NC-ND",
+        "cc0": "CC0",
+        "cc-by": "CC BY",
+        "cc-by-sa": "CC BY-SA",
+        "mit": "MIT",
+        "apache": "Apache",
+        "odc-by": "ODC-BY",
+        "cc-by-nc": "CC BY-NC",
+        "cc-by-nc-sa": "CC BY-NC-SA",
+        "cc-by-nc-nd": "CC BY-NC-ND",
         "research-only": "Research only",
-        "unknown":      "?",
+        "unknown": "?",
     }
     display = _DISPLAY.get(family, "?")
     # Preserve version if present
     import re
+
     m = re.search(r"\b(\d\.\d)\b", license_str)
     if m and family not in ("research-only", "unknown"):
         display = f"{display} {m.group(1)}"
@@ -133,11 +164,14 @@ def license_short(license_str: str) -> str:
 @dataclass
 class DatasetInfo:
     """Metadata about a dataset."""
+
     name: str
     full_name: str
     description: str
     modality: str  # "fundus", "oct", "visual_field", "slit_lamp", "multimodal"
-    tasks: List[str]  # list of: "classification", "segmentation", "grading", "multilabel", "regression"
+    tasks: List[
+        str
+    ]  # list of: "classification", "segmentation", "grading", "multilabel", "regression"
     num_samples: Optional[int]
     splits: List[str]  # ["train", "val", "test"] or subset
     classes: Optional[List[str]] = None
@@ -197,6 +231,7 @@ class DatasetInfo:
     challenge_identifier: Optional[str] = None
     resource_version: Optional[str] = None
     canonical_resolver_url: Optional[str] = None
+    alternate_sources: List[Dict[str, str]] = field(default_factory=list)
     relationships: List[Dict[str, str]] = field(default_factory=list)
     item_count_evidence_url: Optional[str] = None
     modality_evidence_url: Optional[str] = None
@@ -227,6 +262,7 @@ class DatasetInfo:
 @dataclass
 class DatasetSample:
     """A single sample from a dataset."""
+
     image_path: str
     label: Any  # int, List[int], np.ndarray (mask), float
     sample_id: str = ""
@@ -256,6 +292,7 @@ class EyeDataHubDataset(ABC):
     def mark_downloaded(self, data_dir: Union[str, Path]) -> None:
         """Write the sentinel file to indicate a successful download."""
         import datetime
+
         sp = self.sentinel_path(data_dir)
         sp.parent.mkdir(parents=True, exist_ok=True)
         sp.write_text(
@@ -280,7 +317,9 @@ class EyeDataHubDataset(ABC):
         pass
 
     @abstractmethod
-    def load(self, data_dir: Union[str, Path], split: str = "test") -> List[DatasetSample]:
+    def load(
+        self, data_dir: Union[str, Path], split: str = "test"
+    ) -> List[DatasetSample]:
         """
         Load dataset samples.
 

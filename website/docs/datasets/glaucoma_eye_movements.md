@@ -3,7 +3,7 @@ id: glaucoma_eye_movements
 title: "Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss"
 sidebar_label: glaucoma_eye_movements
 description: "Raw and processed eye-tracking data from glaucoma patients with asymmetrical visual-field loss during free viewing."
-tags: ["eye_tracking", "cc-by", "zenodo", "regression", "classification"]
+tags: ["eye_tracking", "cc-by", "zenodo", "regression", "classification", "resource-role-current-dataset", "dataset-family-glaucoma-eye-movements"]
 ---
 
 
@@ -21,6 +21,8 @@ Raw and processed eye-tracking data from glaucoma patients with asymmetrical vis
 | **Short name** | `glaucoma_eye_movements` |
 | **Full name** | Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss |
 | **Primary category** | `eye_tracking` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `glaucoma_eye_movements` |
 | **Contained modalities** | eye_tracking |
 | **Tasks** | regression, classification |
 | **Primary reported quantity** | 270 participants |
@@ -31,7 +33,7 @@ Raw and processed eye-tracking data from glaucoma patients with asymmetrical vis
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -122,5 +124,5 @@ Data on eye movements of glaucoma patients with asymmetrical visual field loss d
 - [mpii_gaze](./mpii_gaze.md): MPIIGaze Appearance-Based Gaze Estimation Dataset (213,659 images, `cc-by-nc-sa`)
 - [gaze360](./gaze360.md): Gaze360 Physically Unconstrained Gaze Dataset (172,000 frames, `unknown`)
 - [lpw](./lpw.md): LPW Labelled Pupils in the Wild (130,856 frames, `research-only`)
-- [dryad_biocular_eye_tracking](./dryad_biocular_eye_tracking.md): Bi-Ocular Vertebrate Eye-Tracking Dataset (Not reported, `cc0`)
-- [dryad_eye_head_visual_selection](./dryad_eye_head_visual_selection.md): Eye and Head Visual Selection Dataset (Not reported, `cc0`)
+- [mendeley_sub_cone_visual_resolution_by_active](./mendeley_sub_cone_visual_resolution_by_active.md): Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola (16 participants, `cc-by`)
+- [asd_eye_tracking](./asd_eye_tracking.md): Autism Spectrum Disorder Eye-Tracking Dataset (Not reported, `cc-by`)

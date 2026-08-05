@@ -3,7 +3,7 @@ id: stare
 title: "STARE: Structured Analysis of the Retina"
 sidebar_label: stare
 description: "20 fundus images with manual vessel segmentation (two annotators)."
-tags: ["fundus", "research-only", "direct", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "research-only", "direct", "segmentation", "resource-role-current-dataset", "dataset-family-stare", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `stare` |
 | **Full name** | STARE: Structured Analysis of the Retina |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `stare` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 20 images |
@@ -143,4 +145,4 @@ Hoover et al., 'Locating blood vessels in retinal images by piece-wise threshold
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

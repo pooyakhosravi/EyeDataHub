@@ -3,7 +3,7 @@ id: dryad_fundus_venous_pulsation
 title: "Fundus Venous Pulsation Sequence Dataset"
 sidebar_label: dryad_fundus_venous_pulsation
 description: "Twelve human fundus-image sequences are a direct ocular imaging resource for venous-pulsation measurement."
-tags: ["fundus", "infrared", "cc0", "dryad", "vessel_analysis", "measurement"]
+tags: ["fundus", "infrared", "cc0", "dryad", "vessel_analysis", "measurement", "resource-role-current-dataset", "dataset-family-dryad-fundus-venous-pulsation"]
 ---
 
 
@@ -21,6 +21,8 @@ Twelve human fundus-image sequences are a direct ocular imaging resource for ven
 | **Short name** | `dryad_fundus_venous_pulsation` |
 | **Full name** | Fundus Venous Pulsation Sequence Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_fundus_venous_pulsation` |
 | **Contained modalities** | fundus, infrared |
 | **Tasks** | vessel_analysis, measurement |
 | **Primary reported quantity** | Not reported |

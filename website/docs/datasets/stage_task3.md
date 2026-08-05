@@ -3,7 +3,7 @@ id: stage_task3
 title: "STAGE 2023 Task 3 — Pattern Deviation Probability Map"
 sidebar_label: stage_task3
 description: "400 macular OCT volumes; predict 52-point pattern deviation probability map from 24-2 Humphrey visual field test. Multi-output regression."
-tags: ["oct", "visual_field", "research-only", "manual", "regression", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
+tags: ["oct", "visual_field", "research-only", "manual", "regression", "resource-role-task-view", "dataset-family-stage-2023", "documented-relationship", "relationship-same_or_overlapping_cohort_as"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `stage_task3` |
 | **Full name** | STAGE 2023 Task 3 — Pattern Deviation Probability Map |
 | **Primary category** | `oct` |
+| **Resource role** | `task_view` |
+| **Dataset family** | `stage_2023` |
 | **Contained modalities** | oct, visual_field |
 | **Tasks** | regression |
 | **Primary reported quantity** | 400 volumes |
@@ -45,6 +47,13 @@ import TabItem from '@theme/TabItem';
 | Primary | 400 | `volumes` | Primary quantity reported in the reviewed catalog source | `legacy_catalog_field` | [aistudio.baidu.com/aistudio](https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets) |
 
 Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
+
+## Dataset family
+
+This record belongs to `stage_2023`. Family links group documented collection/component records or exact task views; they do not imply independent cohorts.
+
+- [stage_task1](./stage_task1.md): STAGE 2023 Task 1 — Mean Deviation Prediction from OCT (`task_view`)
+- [stage_task2](./stage_task2.md): STAGE 2023 Task 2 — Visual Field Sensitivity Map Prediction (`task_view`)
 
 ## Documented relationships
 

@@ -3,13 +3,60 @@ from __future__ import annotations
 import subprocess
 import zipfile
 from pathlib import Path
+from types import SimpleNamespace
 
 import pytest
 import requests
 
 from eyedatahub.acquisition import preflight_dataset
+from eyedatahub.core.metadata import _derive_access
 from eyedatahub.datasets import download_utils
 from eyedatahub.datasets.registry import REGISTRY
+
+
+@pytest.mark.parametrize("status_code", (401, 403))
+def test_mendeley_auth_responses_are_access_setup_not_unavailability(
+    monkeypatch: pytest.MonkeyPatch, tmp_path: Path, status_code: int
+) -> None:
+    class AccessResponse:
+        def __init__(self, code: int) -> None:
+            self.status_code = code
+
+    monkeypatch.setattr(
+        download_utils.requests,
+        "get",
+        lambda *args, **kwargs: AccessResponse(status_code),
+    )
+
+    with pytest.raises(PermissionError, match="credentials.*access setup") as exc_info:
+        download_utils.download_mendeley("example-id", 1, tmp_path, extract=False)
+
+    assert "does not establish that the dataset is unavailable" in str(exc_info.value)
+
+
+@pytest.mark.parametrize(
+    "backend",
+    ("huggingface", "kaggle", "mendeley", "zenodo", "figshare", "dryad", "physionet"),
+)
+def test_platform_backends_default_to_credential_route(backend: str) -> None:
+    info = SimpleNamespace(name=f"test-{backend}", download_type=backend, download_url=None)
+
+    access = _derive_access(info, "")
+
+    assert access["access_friction"] == "self_service_authenticated"
+    assert access["requires_registration"] is True
+    assert access["requires_authentication"] is True
+
+
+@pytest.mark.parametrize("backend", ("github", "gdrive"))
+def test_github_and_drive_default_to_no_platform_credential_route(backend: str) -> None:
+    info = SimpleNamespace(name=f"test-{backend}", download_type=backend, download_url=None)
+
+    access = _derive_access(info, "")
+
+    assert access["access_friction"] == "anonymous_direct"
+    assert access["requires_registration"] is False
+    assert access["requires_authentication"] is False
 
 
 def test_nested_released_layouts_load(tmp_path: Path) -> None:
@@ -438,6 +485,22 @@ def test_rar_extraction_uses_validated_system_tar(
 
 
 def test_corrected_access_and_size_metadata() -> None:
+    for record_id in ("octdl", "oct5k"):
+        record = REGISTRY.get_dataset(record_id)
+        assert record.info.access_friction == "self_service_authenticated"
+        assert record.info.requires_registration is True
+        assert record.info.requires_authentication is True
+
+    # APTOS 2019 retains its source-specific click-through requirement; platform
+    # defaults must not erase a more specific route distinction.
+    assert REGISTRY.get_dataset("aptos2019").info.access_friction == "self_service_clickthrough"
+
+    for record_id in ("aptos2019", "octdl"):
+        record = REGISTRY.get_dataset(record_id)
+        assert record.info.loader_test_scope == "automated_platform_probe"
+        assert record.info.loader_test_result == "credentials_or_access_setup_required"
+        assert record.info.failure_reason is None
+
     hyamd = REGISTRY.get_dataset("hyamd")
     assert hyamd.info.dataset_doi == "10.13026/ydf1-z238"
     assert hyamd.info.access_friction == "controlled_or_manual"

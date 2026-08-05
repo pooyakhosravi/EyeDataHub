@@ -3,7 +3,7 @@ id: ophthalvqa
 title: "OphthalVQA Dataset"
 sidebar_label: ophthalvqa
 description: "Ophthalmic visual question-answering benchmark dataset released as supplementary data for evaluating multimodal language models in ophthalmology."
-tags: ["multimodal", "fundus", "fundus_angiography", "oct", "ocular_ultrasound", "external_eye", "text", "cc-by", "figshare", "visual_question_answering", "classification"]
+tags: ["multimodal", "fundus", "fundus_angiography", "oct", "ocular_ultrasound", "external_eye", "text", "cc-by", "figshare", "visual_question_answering", "classification", "resource-role-current-dataset", "dataset-family-ophthalvqa"]
 ---
 
 
@@ -21,6 +21,8 @@ Ophthalmic visual question-answering benchmark dataset released as supplementary
 | **Short name** | `ophthalvqa` |
 | **Full name** | OphthalVQA Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ophthalvqa` |
 | **Contained modalities** | fundus, fundus_angiography, oct, ocular_ultrasound, external_eye, text |
 | **Tasks** | visual_question_answering, classification |
 | **Primary reported quantity** | 600 question answer pairs |
@@ -31,7 +33,7 @@ Ophthalmic visual question-answering benchmark dataset released as supplementary
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

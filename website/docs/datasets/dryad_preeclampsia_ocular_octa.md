@@ -3,7 +3,7 @@ id: dryad_preeclampsia_ocular_octa
 title: "Plane wave ultrasound and OCT angiography of the eye in preeclampsia"
 sidebar_label: dryad_preeclampsia_ocular_octa
 description: "The defined plane-wave ultrasound/OCTA data file and README directly support human ocular vascular measurement."
-tags: ["octa", "ocular_ultrasound", "tabular", "cc0", "dryad", "vessel_analysis"]
+tags: ["octa", "ocular_ultrasound", "tabular", "cc0", "dryad", "vessel_analysis", "resource-role-current-dataset", "dataset-family-dryad-preeclampsia-ocular-octa"]
 ---
 
 
@@ -21,6 +21,8 @@ The defined plane-wave ultrasound/OCTA data file and README directly support hum
 | **Short name** | `dryad_preeclampsia_ocular_octa` |
 | **Full name** | Plane wave ultrasound and OCT angiography of the eye in preeclampsia |
 | **Primary category** | `octa` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_preeclampsia_ocular_octa` |
 | **Contained modalities** | octa, ocular_ultrasound, tabular |
 | **Tasks** | vessel_analysis |
 | **Primary reported quantity** | Not reported |
@@ -119,9 +121,9 @@ Plane wave ultrasound and OCT angiography of the eye in preeclampsia. Dryad Data
 
 - [soul_octa](./soul_octa.md): SOUL: OCTA Human-Machine Collaborative Annotation Dataset (178 longitudinal samples, `cc-by`)
 - [dryad_rop_plane_wave_doppler](./dryad_rop_plane_wave_doppler.md): ROP Plane-Wave Doppler Dataset (Not reported, `cc0`)
+- [mendeley_development_deep_learning_based_system_optic](./mendeley_development_deep_learning_based_system_optic.md): Dataset for - Development of a Deep Learning-based system for Optic Nerve characterization in Transorbital Ultrasound Images on a multicenter dataset (Not reported, `cc-by`)
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
 - [eyecare_100k](./eyecare_100k.md): Eyecare-100K: Multimodal Ophthalmology VQA Corpus (102,000 question answer pairs, `unknown`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [octa_macula_coronal](./octa_macula_coronal.md): OCTA Macula Coronal Views (82,560 images, `cc-by`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)

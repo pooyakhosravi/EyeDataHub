@@ -3,7 +3,7 @@ id: oct_cirrus
 title: "Duke Srinivasan Retinal OCT Dataset"
 sidebar_label: oct_cirrus
 description: "Forty-five retinal OCT volumes acquired with a Spectralis system: 15 dry AMD, 15 diabetic macular edema, and 15 normal volumes. The official Duke release provides the study data."
-tags: ["oct", "research-only", "manual", "classification"]
+tags: ["oct", "research-only", "manual", "classification", "resource-role-current-dataset", "dataset-family-oct-cirrus"]
 ---
 
 
@@ -21,6 +21,8 @@ Forty-five retinal OCT volumes acquired with a Spectralis system: 15 dry AMD, 15
 | **Short name** | `oct_cirrus` |
 | **Full name** | Duke Srinivasan Retinal OCT Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `oct_cirrus` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 45 volumes |

@@ -3,7 +3,7 @@ id: harvard_glaucoma
 title: "Harvard Glaucoma Fundus Image Dataset"
 sidebar_label: harvard_glaucoma
 description: "Fundus images for glaucoma detection from Harvard Medical School / Mass Eye and Ear. Binary glaucoma classification."
-tags: ["fundus", "cc0", "direct", "classification"]
+tags: ["fundus", "cc0", "direct", "classification", "resource-role-current-dataset", "dataset-family-harvard-glaucoma"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus images for glaucoma detection from Harvard Medical School / Mass Eye and 
 | **Short name** | `harvard_glaucoma` |
 | **Full name** | Harvard Glaucoma Fundus Image Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `harvard_glaucoma` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 1,000 images |
@@ -134,4 +136,4 @@ Luo X. et al., 'Harvard Glaucoma Detection and Progression Dataset', Harvard Dat
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

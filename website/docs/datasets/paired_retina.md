@@ -3,7 +3,7 @@ id: paired_retina
 title: "Paired Retina Dataset: Cross-Device Fundus Pairs"
 sidebar_label: paired_retina
 description: "Paired tabletop and portable retinal images from the same patients, enabling cross-device domain-adaptation research."
-tags: ["fundus", "unknown", "huggingface", "classification", "regression"]
+tags: ["fundus", "unknown", "huggingface", "classification", "regression", "resource-role-current-dataset", "dataset-family-paired-retina"]
 ---
 
 
@@ -21,6 +21,8 @@ Paired tabletop and portable retinal images from the same patients, enabling cro
 | **Short name** | `paired_retina` |
 | **Full name** | Paired Retina Dataset: Cross-Device Fundus Pairs |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `paired_retina` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, regression |
 | **Primary reported quantity** | 399 images |
@@ -31,7 +33,7 @@ Paired tabletop and portable retinal images from the same patients, enabling cro
 | **Normalized terms** | `unknown` |
 | **Descriptive screening label** | Unknown or unclear; do not assume permission |
 | **Terms scope** | `unknown` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | HuggingFace Hub |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -128,4 +130,4 @@ Paired Retina Dataset: Cross-device fundus pairs. HuggingFace, 2025.
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

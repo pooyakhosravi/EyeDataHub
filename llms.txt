@@ -1,7 +1,8 @@
 # EyeDataHub
 
 > Versioned command-line access tool backed by a manually curated snapshot of
-> 386 ophthalmology data resources across 18 categories.
+> 451 current ophthalmology data-resource records across 18 categories,
+> representing 446 narrowly defined dataset families.
 
 EyeDataHub helps software clients find, inspect, cite, preflight, and acquire
 supported resources from official hosts. It does not host third-party data,

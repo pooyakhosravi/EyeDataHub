@@ -3,7 +3,7 @@ id: hrf
 title: "HRF: High-Resolution Fundus Image Database"
 sidebar_label: hrf
 description: "45 high-resolution fundus images (healthy/DR/glaucoma) with manual vessel segmentation."
-tags: ["fundus", "cc-by", "manual", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "manual", "segmentation", "resource-role-current-dataset", "dataset-family-hrf", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `hrf` |
 | **Full name** | HRF: High-Resolution Fundus Image Database |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `hrf` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 45 images |
@@ -55,6 +57,7 @@ Counts retain their source-reported units. Additional rows can describe componen
 These links record source-supported lineage or overlap, not merely similar modality tags.
 
 - [amdnet23](./amdnet23.md) is `derived from` this record: AMDNet23 compiles preprocessed images from ODIR, RFMiD, HRF, ARIA, DR_200, and Fundus Dataset. ([evidence](https://doi.org/10.17632/yj35kjgrv3.1))
+- [higancnn_generated_glaucoma](./higancnn_generated_glaucoma.md) is `derived from` this record: The official dataset description names ACRIMA, DRISHTI-GS, and HRF among the human fundus sources used to construct the synthetic glaucoma resource. ([evidence](https://www.kaggle.com/datasets/hindsaud/datasets-higancnn-glaucoma-detection))
 - [hrf_seg_plus](./hrf_seg_plus.md) is `derived from` this record: HRF-Seg+ adds multi-structure annotations to the 45 HRF images. ([evidence](https://zenodo.org/records/16744782))
 - [mm_retinal_reason](./mm_retinal_reason.md) is `derived from` this record: The version-pinned official dataset card lists this record among the CFP or OCT sources used to construct MM-Retinal-Reason. ([evidence](https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/tree/d6243baa82c0914dba3c6f43ca79fdbf856982ef))
 - [smdg](./smdg.md) is `derived from` this record: The official SMDG source table lists this catalog record among the 19 standardized source domains. ([evidence](https://www.kaggle.com/datasets/deathtrooper/multichannel-glaucoma-benchmark-dataset))
@@ -147,4 +150,4 @@ Budai et al., 'Robust vessel segmentation in fundus images', Intl Journal of Bio
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

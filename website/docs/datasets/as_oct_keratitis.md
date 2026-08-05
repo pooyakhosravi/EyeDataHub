@@ -3,7 +3,7 @@ id: as_oct_keratitis
 title: "AS-OCT Keratitis Segmentation Dataset"
 sidebar_label: as_oct_keratitis
 description: "1,168 anterior-segment OCT images of keratitis with per-pixel lesion, cornea, and iris segmentation labels. Enables 3D reconstruction from B-scan stacks."
-tags: ["oct", "cc0", "figshare", "segmentation"]
+tags: ["oct", "cc0", "figshare", "segmentation", "resource-role-current-dataset", "dataset-family-as-oct-keratitis"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `as_oct_keratitis` |
 | **Full name** | AS-OCT Keratitis Segmentation Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `as_oct_keratitis` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 1,168 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc0` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

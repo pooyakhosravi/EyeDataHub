@@ -3,7 +3,7 @@ id: rasti_oct
 title: "Rasti OCT Dataset (Noor Eye Hospital, Tehran)"
 sidebar_label: rasti_oct
 description: "148 Heidelberg Spectralis SD-OCT volumes (~4,254 B-scans) for 3-class volume-level classification: Normal (50 volumes), AMD (48 volumes), DME (50 volumes). Variable B-scans per volume: 19, 25, 31, or "
-tags: ["oct", "research-only", "manual", "classification"]
+tags: ["oct", "research-only", "manual", "classification", "resource-role-current-dataset", "dataset-family-rasti-oct"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `rasti_oct` |
 | **Full name** | Rasti OCT Dataset (Noor Eye Hospital, Tehran) |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `rasti_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | classification |
 | **Primary reported quantity** | 4,254 b scans |

@@ -3,7 +3,7 @@ id: fprm_retina
 title: "FPRM Multimodal Eye Imaging and Psychological Assessment Dataset"
 sidebar_label: fprm_retina
 description: "Fundus photography, multispectral and functional retinal imaging, retinal blood-flow and pupillary-light videos, retina-characteristic labels, quality labels, demographics, and psychological assessmen"
-tags: ["multimodal", "fundus", "retinal_oximetry", "pupillometry", "tabular", "research-only", "manual", "classification", "quality_assessment", "regression"]
+tags: ["multimodal", "fundus", "retinal_oximetry", "pupillometry", "tabular", "research-only", "manual", "classification", "quality_assessment", "regression", "resource-role-current-dataset", "dataset-family-fprm-retina"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus photography, multispectral and functional retinal imaging, retinal blood-
 | **Short name** | `fprm_retina` |
 | **Full name** | FPRM Multimodal Eye Imaging and Psychological Assessment Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fprm_retina` |
 | **Contained modalities** | fundus, retinal_oximetry, pupillometry, tabular |
 | **Tasks** | classification, quality_assessment, regression |
 | **Primary reported quantity** | 3,361 images |
@@ -125,6 +127,6 @@ Zhang G, Qu Y, Zhang Y, et al. Multimodal Eye Imaging, Retina Characteristics, a
 - [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
 - [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
 - [papila](./papila.md): PAPILA: Glaucoma Fundus Dataset with Clinical Data (488 images, `cc-by`)
+- [mendeley_retina_identification_database_ridb](./mendeley_retina_identification_database_ridb.md): Retina Identification Database (RIDB) (100 images, `cc-by`)
 - [dryad_diabetes_retinal_capillary](./dryad_diabetes_retinal_capillary.md): Diabetes Retinal Capillary Rarefaction Dataset (73 participants, `cc0`)
-- [dryad_sf7m0cggh](./dryad_sf7m0cggh.md): Robust semi-automatic vessel tracing in the human retinal image by an instance segmentation neural network (Not reported, `cc0`)
-- [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
+- [mendeley_two_photon_excited_fluorescence_scanning_laser](./mendeley_two_photon_excited_fluorescence_scanning_laser.md): Two-photon excited fluorescence scanning laser ophthalmoscopy images and software for data processing (1 participants, `cc-by`)

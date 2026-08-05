@@ -3,7 +3,7 @@ id: csc_fundus_segmentation
 title: "Central Serous Chorioretinopathy Fundus Segmentation Dataset"
 sidebar_label: csc_fundus_segmentation
 description: "Fundus photographs and segmentation masks for subretinal fluid in central serous chorioretinopathy, with healthy-eye classification controls."
-tags: ["fundus", "cc-by", "mendeley", "segmentation", "classification"]
+tags: ["fundus", "cc-by", "mendeley", "segmentation", "classification", "resource-role-current-dataset", "dataset-family-csc-fundus-segmentation"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus photographs and segmentation masks for subretinal fluid in central serous
 | **Short name** | `csc_fundus_segmentation` |
 | **Full name** | Central Serous Chorioretinopathy Fundus Segmentation Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `csc_fundus_segmentation` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation, classification |
 | **Primary reported quantity** | 287 images |
@@ -31,7 +33,7 @@ Fundus photographs and segmentation masks for subretinal fluid in central serous
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -123,4 +125,4 @@ Yang HK et al. Data for deep-learning-based segmentation of central serous chori
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

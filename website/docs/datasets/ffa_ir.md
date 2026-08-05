@@ -3,7 +3,7 @@ id: ffa_ir
 title: "FFA-IR Medical Report Dataset"
 sidebar_label: ffa_ir
 description: "Fundus fluorescein angiography images paired with Chinese and translated English reports for report-generation research."
-tags: ["multimodal", "fundus", "fundus_angiography", "text", "unknown", "physionet", "report_generation", "text_generation"]
+tags: ["multimodal", "fundus", "fundus_angiography", "text", "unknown", "physionet", "report_generation", "text_generation", "resource-role-current-dataset", "dataset-family-ffa-ir"]
 ---
 
 
@@ -21,6 +21,8 @@ Fundus fluorescein angiography images paired with Chinese and translated English
 | **Short name** | `ffa_ir` |
 | **Full name** | FFA-IR Medical Report Dataset |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ffa_ir` |
 | **Contained modalities** | fundus, fundus_angiography, text |
 | **Tasks** | report_generation, text_generation |
 | **Primary reported quantity** | 47,247 images |

@@ -3,7 +3,7 @@ id: mbrset
 title: "mBRSET: Mobile Brazilian Retinal Dataset"
 sidebar_label: mbrset
 description: "5,164 fundus images from 1,291 patients captured with the Phelcom Eyer handheld smartphone-based fundus camera. Labels for DR grading + clinical/demographic prediction."
-tags: ["fundus", "research-only", "physionet", "grading", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "research-only", "physionet", "grading", "classification", "resource-role-current-dataset", "dataset-family-mbrset", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `mbrset` |
 | **Full name** | mBRSET: Mobile Brazilian Retinal Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `mbrset` |
 | **Contained modalities** | fundus |
 | **Tasks** | grading, classification |
 | **Primary reported quantity** | 5,164 images |
@@ -131,4 +133,4 @@ Wu C, Restrepo D, Nakayama LF, et al., 'A portable retina fundus photos dataset 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

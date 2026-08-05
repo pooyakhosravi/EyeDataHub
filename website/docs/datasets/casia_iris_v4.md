@@ -3,7 +3,7 @@ id: casia_iris_v4
 title: "CASIA-IrisV4 Iris Image Database"
 sidebar_label: casia_iris_v4
 description: "Six near-infrared or synthetic iris subsets spanning close-range, lamp variation, twins, distance, large-scale, and synthetic recognition."
-tags: ["iris_biometrics", "cc0", "manual", "biometric_recognition", "classification"]
+tags: ["iris_biometrics", "cc0", "manual", "biometric_recognition", "classification", "resource-role-current-dataset", "dataset-family-casia-iris-v4"]
 ---
 
 
@@ -21,6 +21,8 @@ Six near-infrared or synthetic iris subsets spanning close-range, lamp variation
 | **Short name** | `casia_iris_v4` |
 | **Full name** | CASIA-IrisV4 Iris Image Database |
 | **Primary category** | `iris_biometrics` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `casia_iris_v4` |
 | **Contained modalities** | iris_biometrics |
 | **Tasks** | biometric_recognition, classification |
 | **Primary reported quantity** | 54,601 images |
@@ -121,5 +123,7 @@ Chinese Academy of Sciences Institute of Automation. CASIA Iris Image Database V
 
 - [nd_iris_0405](./nd_iris_0405.md): ND-IRIS-0405 Iris Image Dataset (64,980 images, `research-only`)
 - [ubiris_v2](./ubiris_v2.md): UBIRIS.v2 Noisy Visible-Wavelength Iris Database (11,102 images, `unknown`)
+- [doomgan_ocular_morphs](./doomgan_ocular_morphs.md): DOOMGAN Ocular Morph-Attack Dataset (10,000 images, `mit`)
+- [mendeley_cust_iris](./mendeley_cust_iris.md): CUST-Iris (2,880 images, `cc-by`)
 - [dryad_sbcc2fr6n](./dryad_sbcc2fr6n.md): Exploring phenotypic diversity of pigmented traits and iris features in Pakistani population (514 participants, `cc0`)
 - [dryad_iris_surface_features](./dryad_iris_surface_features.md): Iris Surface Features Dataset (Not reported, `cc0`)

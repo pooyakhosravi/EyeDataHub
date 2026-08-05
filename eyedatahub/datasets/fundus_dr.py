@@ -608,7 +608,39 @@ class EyePACSDataset(EyeDataHubDataset):
             ),
             tags=["diabetic_retinopathy", "grading", "fundus", "large_scale", "kaggle"],
             size_gb=89.0,
-            notes="Very large (~89 GB). Kaggle competition account and acceptance of rules required.",
+            notes=(
+                "Very large (~89 GB). Kaggle competition account and acceptance "
+                "of rules required. BiDR and Tianchi 93926 are unmodified "
+                "repackages of the 35,126-image training split and are recorded "
+                "below as alternate routes rather than separate datasets."
+            ),
+            alternate_sources=[
+                {
+                    "platform": "kaggle",
+                    "role": "repository_copy",
+                    "url": (
+                        "https://www.kaggle.com/datasets/pkdarabi/"
+                        "diagnosis-of-diabetic-retinopathy"
+                    ),
+                    "identifier": "pkdarabi/diagnosis-of-diabetic-retinopathy",
+                    "version": "",
+                    "notes": (
+                        "BiDR repackage of the 35,126-image EyePACS training "
+                        "split; not counted as a separate catalog record."
+                    ),
+                },
+                {
+                    "platform": "tianchi",
+                    "role": "repository_copy",
+                    "url": "https://tianchi.aliyun.com/dataset/93926",
+                    "identifier": "93926",
+                    "version": "",
+                    "notes": (
+                        "Arranged mirror of the same 35,126-image EyePACS "
+                        "training split; not counted as a separate catalog record."
+                    ),
+                },
+            ],
         )
 
     def is_downloaded(self, data_dir: Union[str, Path]) -> bool:
@@ -1010,6 +1042,8 @@ class MMRDRDataset(EyeDataHubDataset):
             size_gb=18.61,
             notes=(
                 "Contains 24,460 images across CFP, OCT, and UWF modalities. "
+                "The CFP component is derived from OIA-DDR; OCT and UWF "
+                "components are independently collected QEH cohorts. "
                 "The source-reported unit is images rather than unique patients. "
                 "Evaluation code: https://github.com/Vladimirovich2019/MMRDR_Evaluation"
             ),

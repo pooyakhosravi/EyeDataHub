@@ -3,7 +3,7 @@ id: amdnet23
 title: "AMDNet23 Fundus Image Dataset for AMD Detection"
 sidebar_label: amdnet23
 description: "Two thousand preprocessed fundus images compiled from six public sources for normal, diabetes, cataract, and age-related macular degeneration classification."
-tags: ["fundus", "cc-by", "mendeley", "classification", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "mendeley", "classification", "resource-role-derivative-dataset", "dataset-family-amdnet23", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Two thousand preprocessed fundus images compiled from six public sources for nor
 | **Short name** | `amdnet23` |
 | **Full name** | AMDNet23 Fundus Image Dataset for AMD Detection |
 | **Primary category** | `fundus` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `amdnet23` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 2,000 images |
@@ -31,7 +33,7 @@ Two thousand preprocessed fundus images compiled from six public sources for nor
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -135,4 +137,4 @@ Ali MA. AMDNet23: Fundus Image Dataset for Age-Related Macular Degeneration Dise
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

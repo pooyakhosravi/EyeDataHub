@@ -3,7 +3,7 @@ id: adam_challenge
 title: "ADAM — Automatic Detection of AMD Challenge"
 sidebar_label: adam_challenge
 description: "1200 fundus images for AMD classification, five-class lesion segmentation, fovea/optic disc localisation."
-tags: ["fundus", "research-only", "gdrive", "classification", "segmentation"]
+tags: ["fundus", "research-only", "gdrive", "classification", "segmentation", "resource-role-current-dataset", "dataset-family-adam-challenge"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `adam_challenge` |
 | **Full name** | ADAM — Automatic Detection of AMD Challenge |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `adam_challenge` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification, segmentation |
 | **Primary reported quantity** | 1,200 images |
@@ -132,4 +134,4 @@ Fang H. et al., 'ADAM Challenge: Detecting AMD from Fundus Images', IEEE TMI 202
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

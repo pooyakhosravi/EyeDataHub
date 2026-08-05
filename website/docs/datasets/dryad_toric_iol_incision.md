@@ -3,7 +3,7 @@ id: dryad_toric_iol_incision
 title: "Toric Intraocular Lens Incision Outcome Dataset"
 sidebar_label: dryad_toric_iol_incision
 description: "Human toric-IOL surgical outcome table directly supports cataract-surgery outcome analysis."
-tags: ["tabular", "cc0", "dryad", "regression"]
+tags: ["tabular", "cc0", "dryad", "regression", "resource-role-current-dataset", "dataset-family-dryad-toric-iol-incision"]
 ---
 
 
@@ -21,6 +21,8 @@ Human toric-IOL surgical outcome table directly supports cataract-surgery outcom
 | **Short name** | `dryad_toric_iol_incision` |
 | **Full name** | Toric Intraocular Lens Incision Outcome Dataset |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_toric_iol_incision` |
 | **Contained modalities** | tabular |
 | **Tasks** | regression |
 | **Primary reported quantity** | 60 participants |
@@ -121,10 +123,10 @@ He, Wenwen, Zhu, Xiangjia, Du, Yu, Yang, Jin, and Lu, Yi. Data from: Clinical ef
 ## Similar resources by shared modality
 
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
 - [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
 - [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
+- [dryad_icmr_eye_see_cataract](./dryad_icmr_eye_see_cataract.md): ICMR EYE SEE Cataract and Sun Exposure Dataset (9,735 participants, `cc0`)

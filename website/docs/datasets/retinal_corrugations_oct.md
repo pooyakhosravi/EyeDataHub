@@ -3,7 +3,7 @@ id: retinal_corrugations_oct
 title: "Outer Retinal Corrugations Imaging Dataset"
 sidebar_label: retinal_corrugations_oct
 description: "High-resolution swept-source OCT images and mechanical-model data for outer retinal corrugations in rhegmatogenous retinal detachment."
-tags: ["oct", "cc-by", "mendeley", "segmentation", "regression"]
+tags: ["oct", "cc-by", "mendeley", "segmentation", "regression", "resource-role-current-dataset", "dataset-family-retinal-corrugations-oct"]
 ---
 
 
@@ -21,6 +21,8 @@ High-resolution swept-source OCT images and mechanical-model data for outer reti
 | **Short name** | `retinal_corrugations_oct` |
 | **Full name** | Outer Retinal Corrugations Imaging Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `retinal_corrugations_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | segmentation, regression |
 | **Primary reported quantity** | 69 b scans |
@@ -31,7 +33,7 @@ High-resolution swept-source OCT images and mechanical-model data for outer reti
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

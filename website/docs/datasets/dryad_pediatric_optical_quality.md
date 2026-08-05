@@ -3,7 +3,7 @@ id: dryad_pediatric_optical_quality
 title: "Intra- and intersession repeatability of an optical quality and intraocular scattering measurement system in children"
 sidebar_label: dryad_pediatric_optical_quality
 description: "The 42-eye pediatric optical-quality workbook is directly usable for ocular-biometric measurement and repeatability evaluation."
-tags: ["tabular", "cc0", "dryad", "measurement"]
+tags: ["tabular", "cc0", "dryad", "measurement", "resource-role-current-dataset", "dataset-family-dryad-pediatric-optical-quality"]
 ---
 
 
@@ -21,6 +21,8 @@ The 42-eye pediatric optical-quality workbook is directly usable for ocular-biom
 | **Short name** | `dryad_pediatric_optical_quality` |
 | **Full name** | Intra- and intersession repeatability of an optical quality and intraocular scattering measurement system in children |
 | **Primary category** | `tabular` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `dryad_pediatric_optical_quality` |
 | **Contained modalities** | tabular |
 | **Tasks** | measurement |
 | **Primary reported quantity** | 42 eyes |
@@ -120,10 +122,10 @@ Intra- and intersession repeatability of an optical quality and intraocular scat
 ## Similar resources by shared modality
 
 - [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)
-- [dryad_canine_pra_cea_genotypes](./dryad_canine_pra_cea_genotypes.md): Canine PRA and CEA Genotype Dataset (86,667 records, `cc0`)
 - [brset_mbrset_embeddings](./brset_mbrset_embeddings.md): Embedding-Based Representations for BRSET and mBRSET (53,188 embedding vectors, `unknown`)
 - [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)
 - [oculoscope](./oculoscope.md): OculoScope: Fairer AI in Ophthalmology Dataset (16,530 images, `cc-by`)
 - [dryad_r7s04](./dryad_r7s04.md): Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany (15,160 participants, `cc0`)
 - [fairvlmed](./fairvlmed.md): FairVLMed: Fair Vision-Language Medical Ophthalmic Dataset (10,000 images, `cc-by-nc-nd`)
 - [leops_erg](./leops_erg.md): LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset (9,743 signals, `cc-by`)
+- [dryad_icmr_eye_see_cataract](./dryad_icmr_eye_see_cataract.md): ICMR EYE SEE Cataract and Sun Exposure Dataset (9,735 participants, `cc0`)

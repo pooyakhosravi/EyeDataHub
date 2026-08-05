@@ -18,7 +18,9 @@ from hub.audit import generate_quantity_review as quantity_review
 from hub.export_catalog import export_catalog
 
 
-def test_reviewed_primary_override_replaces_legacy_count_and_preserves_exactness() -> None:
+def test_reviewed_primary_override_replaces_legacy_count_and_preserves_exactness() -> (
+    None
+):
     """A central review can correct the compatibility primary-count fields."""
 
     info = DatasetInfo(
@@ -47,7 +49,9 @@ def test_reviewed_primary_override_replaces_legacy_count_and_preserves_exactness
     }
 
 
-def test_record_level_quantity_evidence_is_preserved_when_no_central_review_exists() -> None:
+def test_record_level_quantity_evidence_is_preserved_when_no_central_review_exists() -> (
+    None
+):
     evidence = {
         "count": 12,
         "unit": "participants",
@@ -88,6 +92,25 @@ def test_multiple_quantities_keep_component_scopes_and_units_separate() -> None:
     assert "not an independent cohort" in entries[2]["notes"]
 
 
+def test_complete_deposit_inspection_resolves_three_primary_quantities() -> None:
+    china = REGISTRY.get_dataset("china_fundus_cimt").info
+    assert (china.num_samples, china.item_count_unit) == (5806, "images")
+    assert [entry["count"] for entry in china.reported_quantities] == [5806, 2]
+
+    gleam = REGISTRY.get_dataset("gleam").info
+    assert (gleam.num_samples, gleam.item_count_unit) == (3600, "images")
+    assert [(entry["count"], entry["unit"]) for entry in gleam.reported_quantities] == [
+        (3600, "images"),
+        (1200, "records"),
+        (841, "participants"),
+    ]
+    assert "repeat samples" in gleam.reported_quantities[0]["notes"]
+
+    rpgr = REGISTRY.get_dataset("dryad_rpgr_cone_rod_wes").info
+    assert (rpgr.num_samples, rpgr.item_count_unit) == (1, "participants")
+    assert [entry["count"] for entry in rpgr.reported_quantities] == [1, 2]
+
+
 def test_retinal_corrugations_uses_current_source_version_and_flags_conflict() -> None:
     info = REGISTRY.get_dataset("retinal_corrugations_oct").info
 
@@ -99,7 +122,9 @@ def test_retinal_corrugations_uses_current_source_version_and_flags_conflict() -
     assert info.reported_quantities[1]["unit"] == "participants"
 
 
-def test_runtime_quantities_match_the_public_schema_and_controlled_vocabularies() -> None:
+def test_runtime_quantities_match_the_public_schema_and_controlled_vocabularies() -> (
+    None
+):
     for dataset in REGISTRY.list_datasets():
         for quantity in dataset.info.reported_quantities:
             assert tuple(quantity) == PUBLIC_QUANTITY_FIELDS
@@ -113,18 +138,20 @@ def test_catalog_json_and_csv_serialize_reported_quantities(tmp_path) -> None:
     payload = json.loads(json_path.read_text(encoding="utf-8"))
     by_id = {record["record_id"]: record for record in payload["records"]}
 
-    assert by_id["ut_fsocta"]["reported_quantities"] == REGISTRY.get_dataset(
-        "ut_fsocta"
-    ).info.reported_quantities
+    assert (
+        by_id["ut_fsocta"]["reported_quantities"]
+        == REGISTRY.get_dataset("ut_fsocta").info.reported_quantities
+    )
 
     with csv_path.open(newline="", encoding="utf-8") as handle:
         rows = {row["record_id"]: row for row in csv.DictReader(handle)}
-    assert json.loads(rows["ut_fsocta"]["reported_quantities"]) == by_id["ut_fsocta"][
-        "reported_quantities"
-    ]
+    assert (
+        json.loads(rows["ut_fsocta"]["reported_quantities"])
+        == by_id["ut_fsocta"]["reported_quantities"]
+    )
 
 
-def test_quantity_review_reports_300_resolved_and_never_sums_unlike_units(
+def test_quantity_review_reports_current_counts_and_never_sums_unlike_units(
     monkeypatch, tmp_path
 ) -> None:
     monkeypatch.setattr(quantity_review, "REVIEW_PATH", tmp_path / "review.csv")
@@ -136,10 +163,10 @@ def test_quantity_review_reports_300_resolved_and_never_sums_unlike_units(
     _, _, unit_path, unresolved_path, summary_path = quantity_review.generate()
     summary = json.loads(summary_path.read_text(encoding="utf-8"))
 
-    assert summary["catalog_record_count"] == 386
-    assert summary["records_with_resolved_primary_quantity"] == 300
-    assert summary["records_with_unresolved_primary_quantity"] == 86
-    assert len(summary["unresolved_record_ids"]) == 86
+    assert summary["catalog_record_count"] == 451
+    assert summary["records_with_resolved_primary_quantity"] == 324
+    assert summary["records_with_unresolved_primary_quantity"] == 127
+    assert len(summary["unresolved_record_ids"]) == 127
     assert "retinal_corrugations_oct" not in summary["unresolved_record_ids"]
 
     with unit_path.open(newline="", encoding="utf-8") as handle:

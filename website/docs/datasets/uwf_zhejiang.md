@@ -3,7 +3,7 @@ id: uwf_zhejiang
 title: "Open UWF Fundus Dataset with Disease + Quality Labels"
 sidebar_label: uwf_zhejiang
 description: "700 Optos ultra-wide-field fundus images with multi-disease classification labels and image-quality flags from real-world clinical practice."
-tags: ["uwf_fundus", "cc-by", "figshare", "classification", "quality"]
+tags: ["uwf_fundus", "cc-by", "figshare", "classification", "quality", "resource-role-current-dataset", "dataset-family-uwf-zhejiang"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `uwf_zhejiang` |
 | **Full name** | Open UWF Fundus Dataset with Disease + Quality Labels |
 | **Primary category** | `uwf_fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `uwf_zhejiang` |
 | **Contained modalities** | uwf_fundus |
 | **Tasks** | classification, quality |
 | **Primary reported quantity** | 700 images |
@@ -31,7 +33,7 @@ import TabItem from '@theme/TabItem';
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Figshare |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `end_to_end_tested` |

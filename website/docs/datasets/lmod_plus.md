@@ -3,7 +3,7 @@ id: lmod_plus
 title: "LMOD+ Multimodal Ophthalmology Benchmark"
 sidebar_label: lmod_plus
 description: "Composite multimodal ophthalmology benchmark with multi-granular anatomical, diagnostic, staging, demographic, and text annotations."
-tags: ["multimodal", "fundus", "oct", "external_eye", "surgical_video", "text", "tabular", "unknown", "manual", "visual_question_answering", "classification", "grading", "detection", "documented-relationship", "relationship-derived_from"]
+tags: ["multimodal", "fundus", "oct", "external_eye", "surgical_video", "text", "tabular", "unknown", "manual", "visual_question_answering", "classification", "grading", "detection", "resource-role-derivative-dataset", "dataset-family-lmod-plus", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Composite multimodal ophthalmology benchmark with multi-granular anatomical, dia
 | **Short name** | `lmod_plus` |
 | **Full name** | LMOD+ Multimodal Ophthalmology Benchmark |
 | **Primary category** | `multimodal` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `lmod_plus` |
 | **Contained modalities** | fundus, oct, external_eye, surgical_video, text, tabular |
 | **Tasks** | visual_question_answering, classification, grading, detection |
 | **Primary reported quantity** | 32,633 annotated instances |
@@ -58,7 +60,7 @@ These links record source-supported lineage or overlap, not merely similar modal
 - This record is `derived from` [g1020](./g1020.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
 - This record is `derived from` [idrid](./idrid.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
 - This record is `derived from` [oimhs](./oimhs.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
-- This record is `derived from` [refuge2018](./refuge2018.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
+- This record is `derived from` [refuge2](./refuge2.md): The LMOD+ project page lists nine component datasets, including the five cataloged targets represented by these edges. ([evidence](https://kfzyqin.github.io/lmod_plus/))
 
 ## Access information and download
 
@@ -137,4 +139,4 @@ Qin Z, Liu Y, Yin Y, et al. LMOD+: A Comprehensive Multimodal Dataset and Benchm
 - [olives](./olives.md): OLIVES: Ophthalmic Labels for Investigating Visual Eye Semantics (9,408 b scans, `cc-by`)
 - [grape](./grape.md): GRAPE: Glaucoma Real-world Appraisal Progression Ensemble (1,115 examinations, `cc0`)
 - [mm_retinal_reason](./mm_retinal_reason.md): MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset (130 question answer pairs, `unknown`)
-- [dryad_subretinal_robot](./dryad_subretinal_robot.md): Head-Mounted Robot Subretinal Injection Dataset (21 experimental eyes, `cc0`)
+- [ocular_chat_vqa](./ocular_chat_vqa.md): OcularChat-VQA: AREDS-Derived Patient-Physician Dialogue Dataset (844,000 records, `cc-by-nc-sa`)

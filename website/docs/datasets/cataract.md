@@ -3,7 +3,7 @@ id: cataract
 title: "Cataract Fundus Classification Dataset"
 sidebar_label: cataract
 description: "601 fundus images in 4 classes: Normal, Cataract, Glaucoma, and Retina Disease. Intended for ocular disease classification."
-tags: ["fundus", "unknown", "kaggle", "classification"]
+tags: ["fundus", "unknown", "kaggle", "classification", "resource-role-current-dataset", "dataset-family-cataract"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `cataract` |
 | **Full name** | Cataract Fundus Classification Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `cataract` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 601 images |
@@ -134,4 +136,4 @@ Kaggle dataset by jr2ngb (2019). https://www.kaggle.com/datasets/jr2ngb/cataract
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

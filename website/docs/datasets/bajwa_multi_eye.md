@@ -3,7 +3,7 @@ id: bajwa_multi_eye
 title: "Bajwa Hospital Multi Eye Disease Dataset"
 sidebar_label: bajwa_multi_eye
 description: "Small four-class eye-disease image dataset with normal, cataract, glaucoma, and retinal disease categories."
-tags: ["fundus", "cc-by", "mendeley", "classification"]
+tags: ["fundus", "cc-by", "mendeley", "classification", "resource-role-current-dataset", "dataset-family-bajwa-multi-eye"]
 ---
 
 
@@ -21,6 +21,8 @@ Small four-class eye-disease image dataset with normal, cataract, glaucoma, and 
 | **Short name** | `bajwa_multi_eye` |
 | **Full name** | Bajwa Hospital Multi Eye Disease Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `bajwa_multi_eye` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 300 images |
@@ -31,7 +33,7 @@ Small four-class eye-disease image dataset with normal, cataract, glaucoma, and 
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
@@ -123,4 +125,4 @@ Kaur P. Bajwa Hospital (Multi Eye Disease Dataset). Mendeley Data, V3, 2022. doi
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

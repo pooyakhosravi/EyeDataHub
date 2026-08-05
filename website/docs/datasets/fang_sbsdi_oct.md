@@ -2,8 +2,8 @@
 id: fang_sbsdi_oct
 title: "Duke Fang SBSDI Retinal OCT Dataset"
 sidebar_label: fang_sbsdi_oct
-description: "Paired low signal and high signal retinal OCT data used to study sparse acquisition, denoising, interpolation, and reconstruction in normal and non-neovascular AMD eyes."
-tags: ["oct", "research-only", "manual", "reconstruction", "denoising"]
+description: "Human and human-derived paired retinal OCT images used to study sparse acquisition, denoising, interpolation, and reconstruction in healthy and non-neovascular AMD eyes."
+tags: ["oct", "research-only", "manual", "reconstruction", "denoising", "resource-role-current-dataset", "dataset-family-fang-sbsdi-oct"]
 ---
 
 
@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 # Duke Fang SBSDI Retinal OCT Dataset
 
-Paired low signal and high signal retinal OCT data used to study sparse acquisition, denoising, interpolation, and reconstruction in normal and non-neovascular AMD eyes.
+Human and human-derived paired retinal OCT images used to study sparse acquisition, denoising, interpolation, and reconstruction in healthy and non-neovascular AMD eyes.
 
 ## At a glance
 
@@ -21,9 +21,11 @@ Paired low signal and high signal retinal OCT data used to study sparse acquisit
 | **Short name** | `fang_sbsdi_oct` |
 | **Full name** | Duke Fang SBSDI Retinal OCT Dataset |
 | **Primary category** | `oct` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `fang_sbsdi_oct` |
 | **Contained modalities** | oct |
 | **Tasks** | reconstruction, denoising |
-| **Primary reported quantity** | 41 participants |
+| **Primary reported quantity** | 323 images |
 | **Classes** | Not reported (Not reported) |
 | **Splits** | all |
 | **Size** | 0.45 GB |
@@ -42,13 +44,14 @@ Paired low signal and high signal retinal OCT data used to study sparse acquisit
 
 | Role | Count | Unit | Scope | Basis | Evidence |
 | --- | ---: | --- | --- | --- | --- |
-| Primary | 41 | `participants` | Human participants described by the associated paper The archive also contains software and mouse imaging data; a file-level image count is not asserted. | `associated_publication` | [https://doi.org/10.1109/TMI.2013.2271904](https://doi.org/10.1109/TMI.2013.2271904) |
+| Primary | 323 | `images` | TIFF images in the separately named human and human-derived components of the official source archive Includes 195 real-human TIFFs, 108 human-derived synthetic TIFFs, and 20 human-derived dictionary-training TIFFs. Software, demonstrations, and nonhuman source-archive components are excluded. | `current_deposit_file_listing` | [people.duke.edu/~sf59](https://people.duke.edu/~sf59/Fang_TMI_2013.htm) |
+| Additional | 41 | `participants` | Twenty-eight eyes from 28 participants used for human-derived synthetic data and 13 participants used for real acquisitions Participant groups are distinct in the associated paper. | `associated_publication` | [https://doi.org/10.1109/TMI.2013.2271904](https://doi.org/10.1109/TMI.2013.2271904) |
 
 Counts retain their source-reported units. Additional rows can describe components, paired items, or derivative copies and are not automatically added to the primary quantity.
 
 ## Notes
 
-> The count records the 41 human participants described in the paper, not the number of files. The archive is organized by experiment rather than an official train and test split and also includes software and mouse imaging data.
+> The catalog scope is limited to the source archive's separately named human and human-derived components: 195 real-human TIFFs, 108 human-derived synthetic TIFFs, and 20 human-derived dictionary-training TIFFs. Other source-archive components are outside this record's scope. The associated paper describes 28 eyes from 28 participants for the synthetic experiments and 13 participants for the real experiments.
 
 ## Access information and download
 

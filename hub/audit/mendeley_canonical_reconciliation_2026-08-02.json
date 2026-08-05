@@ -1,0 +1,2192 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-08-02",
+  "status": "completed_canonical_reconciliation",
+  "source_ledgers": [
+    "mendeley_canonical_reconciliation.json"
+  ],
+  "scope": [
+    "Reconciliation of all source-confirmed Mendeley proposed inclusions against the current catalog and one another. No catalog records were edited."
+  ],
+  "criteria": [],
+  "record_count": 140,
+  "unique_record_ids": 140,
+  "decision_counts": {
+    "alternate_source_to_existing": 1,
+    "exclude_after_reconciliation": 29,
+    "new_canonical_record": 110
+  },
+  "credential_values_serialized": false,
+  "signed_or_download_urls_serialized": false,
+  "local_absolute_paths_serialized": false,
+  "participant_values_serialized": false,
+  "records": [
+    {
+      "stable_id": "222mnygnjz",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic",
+      "canonical_target": "mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/222mnygnjz",
+        "https://data.mendeley.com/public-api/datasets/222mnygnjz"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "26g6m7h7t8",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/26g6m7h7t8",
+        "https://data.mendeley.com/public-api/datasets/26g6m7h7t8"
+      ],
+      "concise_reason": "Three files: two XLS gene-list/FPKM workbooks and one PDF; no sample-level sequence matrix is listed.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "289dznw7v5",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/289dznw7v5",
+        "https://data.mendeley.com/public-api/datasets/289dznw7v5"
+      ],
+      "concise_reason": "14 files: eight DOCX tables, five JPG figures, one PDF; article-supporting outputs rather than observation-level data.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "29w6jd6tvs",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/29w6jd6tvs",
+        "https://data.mendeley.com/public-api/datasets/29w6jd6tvs"
+      ],
+      "concise_reason": "Current version lists zero files and zero bytes.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "2jkhncb5kw",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic",
+      "canonical_target": "mendeley_comparison_cervical_ocular_vestibular_evoked_myogenic",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/2jkhncb5kw",
+        "https://data.mendeley.com/public-api/datasets/2jkhncb5kw"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "2k96xky4rf",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_corneal_higher_order_aberrations_stevens_johnson",
+      "canonical_target": "mendeley_corneal_higher_order_aberrations_stevens_johnson",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/2k96xky4rf",
+        "https://data.mendeley.com/public-api/datasets/2k96xky4rf"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "2wxnrd832j",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "mendeley_possibility_combination_oct_fundus_images_improving",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/2wxnrd832j",
+        "https://data.mendeley.com/public-api/datasets/2wxnrd832j"
+      ],
+      "concise_reason": "The source lists AMD OCT/fundus material but does not explicitly confirm human or human-derived provenance in the reviewed public evidence.",
+      "confidence": "High",
+      "final_screening_decision": "excluded_insufficient_source_metadata"
+    },
+    {
+      "stable_id": "37wxt2ybvj",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_fferg_reference_healthy_controls_university_eye",
+      "canonical_target": "mendeley_fferg_reference_healthy_controls_university_eye",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/37wxt2ybvj",
+        "https://data.mendeley.com/public-api/datasets/37wxt2ybvj"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "3j6skjpsng",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_cust_iris",
+      "canonical_target": "mendeley_cust_iris",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/3j6skjpsng",
+        "https://data.mendeley.com/public-api/datasets/3j6skjpsng"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "3m8fcfmp9j",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_comparison_retinal_choroidal_vascular_changes_via",
+      "canonical_target": "mendeley_comparison_retinal_choroidal_vascular_changes_via",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/3m8fcfmp9j",
+        "https://data.mendeley.com/public-api/datasets/3m8fcfmp9j"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "3r5m3nfdkv",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_red_lesion_localization_messidor_retinal_images",
+      "canonical_target": "mendeley_red_lesion_localization_messidor_retinal_images",
+      "relationship_type": "derived_from",
+      "related_targets": [
+        "messidor2"
+      ],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/3r5m3nfdkv",
+        "https://data.mendeley.com/public-api/datasets/3r5m3nfdkv"
+      ],
+      "concise_reason": "The deposit adds red-lesion localization material to a MESSIDOR retinal-image family; retain as a distinct annotation layer.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "487dpg7v38",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading",
+      "canonical_target": "mendeley_cost_effectiveness_limited_vitrectomy_vision_degrading",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/487dpg7v38",
+        "https://data.mendeley.com/public-api/datasets/487dpg7v38"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "4twnn4546j",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_ocular_biometry",
+      "canonical_target": "mendeley_ocular_biometry",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/4twnn4546j",
+        "https://data.mendeley.com/public-api/datasets/4twnn4546j"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "Moderate"
+    },
+    {
+      "stable_id": "53nxz6xr5j",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora",
+      "canonical_target": "mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/53nxz6xr5j",
+        "https://data.mendeley.com/public-api/datasets/53nxz6xr5j"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "5rz9j8t6p4",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_postural_stargardt_s_syndrome_patients",
+      "canonical_target": "mendeley_postural_stargardt_s_syndrome_patients",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/5rz9j8t6p4",
+        "https://data.mendeley.com/public-api/datasets/5rz9j8t6p4"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "6rxy66854k",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "mendeley_refractive_status_corneal_biomechanics",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/6rxy66854k",
+        "https://data.mendeley.com/public-api/datasets/6rxy66854k"
+      ],
+      "concise_reason": "The source lists refractive-status and corneal-biomechanics observations but does not explicitly confirm human provenance in the reviewed evidence.",
+      "confidence": "High",
+      "final_screening_decision": "excluded_insufficient_source_metadata"
+    },
+    {
+      "stable_id": "6ry9n79gb4",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/6ry9n79gb4",
+        "https://data.mendeley.com/public-api/datasets/6ry9n79gb4"
+      ],
+      "concise_reason": "No current-version listing was reproducibly retrieved.",
+      "confidence": "Moderate"
+    },
+    {
+      "stable_id": "6wv33nbcvv",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_nuclear_cataract_database_biomedical_machine_learning",
+      "canonical_target": "mendeley_nuclear_cataract_database_biomedical_machine_learning",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/6wv33nbcvv",
+        "https://data.mendeley.com/public-api/datasets/6wv33nbcvv"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "72b47vpgtz",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_quantified_processed_microarray_22_individuals_without",
+      "canonical_target": "mendeley_quantified_processed_microarray_22_individuals_without",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/72b47vpgtz",
+        "https://data.mendeley.com/public-api/datasets/72b47vpgtz"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "73r8vrxksx",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_ocular_surface_disorders_affect_quality_life",
+      "canonical_target": "mendeley_ocular_surface_disorders_affect_quality_life",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/73r8vrxksx",
+        "https://data.mendeley.com/public-api/datasets/73r8vrxksx"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "78wt2nc387",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_orbscan_iiz_anterior_maps",
+      "canonical_target": "mendeley_orbscan_iiz_anterior_maps",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/78wt2nc387",
+        "https://data.mendeley.com/public-api/datasets/78wt2nc387"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "7r7xt6pf6x",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic",
+      "canonical_target": "mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/7r7xt6pf6x",
+        "https://data.mendeley.com/public-api/datasets/7r7xt6pf6x"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "Moderate"
+    },
+    {
+      "stable_id": "7x3tgtskyj",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_clinical_assessment_scleral_canal_expansion_glaucoma",
+      "canonical_target": "mendeley_clinical_assessment_scleral_canal_expansion_glaucoma",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/7x3tgtskyj",
+        "https://data.mendeley.com/public-api/datasets/7x3tgtskyj"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "7xjcbsmzzc",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_long_term_results_using_gelatin_microfistulae",
+      "canonical_target": "mendeley_long_term_results_using_gelatin_microfistulae",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/7xjcbsmzzc",
+        "https://data.mendeley.com/public-api/datasets/7xjcbsmzzc"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "7xv5rzxgrh",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_utilizing_responsive_web_portal_studying_disc",
+      "canonical_target": "mendeley_utilizing_responsive_web_portal_studying_disc",
+      "relationship_type": "derived_from",
+      "related_targets": [
+        "drishti_gs"
+      ],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/7xv5rzxgrh",
+        "https://data.mendeley.com/public-api/datasets/7xv5rzxgrh"
+      ],
+      "concise_reason": "The deposit contributes clinician disc tracings over an existing retinal-image benchmark.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "83htprx9y6",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_et_pd_vis_eye_tracking_visualization",
+      "canonical_target": "mendeley_et_pd_vis_eye_tracking_visualization",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/83htprx9y6",
+        "https://data.mendeley.com/public-api/datasets/83htprx9y6"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "Moderate"
+    },
+    {
+      "stable_id": "89rykrg8j2",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_foveal_cone_photoreceptor_outer_segment_length",
+      "canonical_target": "mendeley_foveal_cone_photoreceptor_outer_segment_length",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/89rykrg8j2",
+        "https://data.mendeley.com/public-api/datasets/89rykrg8j2"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "89z7h5gnpw",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_deep_learning_prediction_uncorrected_refractive_error",
+      "canonical_target": "mendeley_deep_learning_prediction_uncorrected_refractive_error",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/89z7h5gnpw",
+        "https://data.mendeley.com/public-api/datasets/89z7h5gnpw"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "Moderate"
+    },
+    {
+      "stable_id": "8dxmc9xryb",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/8dxmc9xryb",
+        "https://data.mendeley.com/public-api/datasets/8dxmc9xryb"
+      ],
+      "concise_reason": "20 files are predominantly 15 PDFs and three DOCX documents, with only two image files.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "8ksg9fssd9",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_raw_manuscript_light_responsive_microrna_molecules",
+      "canonical_target": "mendeley_raw_manuscript_light_responsive_microrna_molecules",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/8ksg9fssd9",
+        "https://data.mendeley.com/public-api/datasets/8ksg9fssd9"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "8pwpbcrjd8",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_analysis_macular_pigment_carotenoids_human_blood",
+      "canonical_target": "mendeley_analysis_macular_pigment_carotenoids_human_blood",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/8pwpbcrjd8",
+        "https://data.mendeley.com/public-api/datasets/8pwpbcrjd8"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "9gkpxsmz23",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_human_foveal_cone_topography_preferred_retinal",
+      "canonical_target": "mendeley_human_foveal_cone_topography_preferred_retinal",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/9gkpxsmz23",
+        "https://data.mendeley.com/public-api/datasets/9gkpxsmz23"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "9kvk7nkhx6",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_annotated_infant_fundus_images_object_detection",
+      "canonical_target": "mendeley_annotated_infant_fundus_images_object_detection",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/9kvk7nkhx6",
+        "https://data.mendeley.com/public-api/datasets/9kvk7nkhx6"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "9pzm3mbp7w",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_spatio_temporal_optical_coherence_tomography_provides",
+      "canonical_target": "mendeley_spatio_temporal_optical_coherence_tomography_provides",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/9pzm3mbp7w",
+        "https://data.mendeley.com/public-api/datasets/9pzm3mbp7w"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "Moderate"
+    },
+    {
+      "stable_id": "9wt33wjc9p",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/9wt33wjc9p",
+        "https://data.mendeley.com/public-api/datasets/9wt33wjc9p"
+      ],
+      "concise_reason": "One XLSX workbook named Meta analysis Data.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "bctfh4m93c",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_ophthalmic_anthropometry_malawians",
+      "canonical_target": "mendeley_ophthalmic_anthropometry_malawians",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/bctfh4m93c",
+        "https://data.mendeley.com/public-api/datasets/bctfh4m93c"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "bm45p4tcbz",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_human_mesenchymal_stem_cells_derived_adipose",
+      "canonical_target": "mendeley_human_mesenchymal_stem_cells_derived_adipose",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/bm45p4tcbz",
+        "https://data.mendeley.com/public-api/datasets/bm45p4tcbz"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "cpy5j23354",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_hpsc_derived_photoreceptor_axon_extension_growth",
+      "canonical_target": "mendeley_hpsc_derived_photoreceptor_axon_extension_growth",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/cpy5j23354",
+        "https://data.mendeley.com/public-api/datasets/cpy5j23354"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "crgbf93fnw",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_refractive_error_visual_impairment_among_school",
+      "canonical_target": "mendeley_refractive_error_visual_impairment_among_school",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/crgbf93fnw",
+        "https://data.mendeley.com/public-api/datasets/crgbf93fnw"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "ctnygyvwt5",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric",
+      "canonical_target": "mendeley_clinical_application_cyanoacrylate_tissue_adhesive_pediatric",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/ctnygyvwt5",
+        "https://data.mendeley.com/public-api/datasets/ctnygyvwt5"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "d56n7mmr2t",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/d56n7mmr2t",
+        "https://data.mendeley.com/public-api/datasets/d56n7mmr2t"
+      ],
+      "concise_reason": "Eight files: six DOCX outputs and two JPG figures.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "dky9h7fc63",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/dky9h7fc63",
+        "https://data.mendeley.com/public-api/datasets/dky9h7fc63"
+      ],
+      "concise_reason": "One XLSX results workbook.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "dnss5ttn73",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_long_term_safety_efficacy_limited_vitrectomy",
+      "canonical_target": "mendeley_long_term_safety_efficacy_limited_vitrectomy",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/dnss5ttn73",
+        "https://data.mendeley.com/public-api/datasets/dnss5ttn73"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "dtkv5tgng8",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/dtkv5tgng8",
+        "https://data.mendeley.com/public-api/datasets/dtkv5tgng8"
+      ],
+      "concise_reason": "One TIFF supplementary figure only.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "dtz8wmt5xt",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_difference_retinal_nerve_fiber_layer_thickness",
+      "canonical_target": "mendeley_difference_retinal_nerve_fiber_layer_thickness",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/dtz8wmt5xt",
+        "https://data.mendeley.com/public-api/datasets/dtz8wmt5xt"
+      ],
+      "concise_reason": "Current public version exposes human/human-derived observation-level material suitable for the defined model-resource boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "fdnb2kyz4f",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/fdnb2kyz4f",
+        "https://data.mendeley.com/public-api/datasets/fdnb2kyz4f"
+      ],
+      "concise_reason": "One XLSX workbook named Participants characteristics.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "ffn745r57z",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/ffn745r57z",
+        "https://data.mendeley.com/public-api/datasets/ffn745r57z"
+      ],
+      "concise_reason": "Four files: three PNG instructions/results and one MAT file.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "fn9986thfh",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_set_relationship_between_plasma_amino_acid",
+      "canonical_target": "mendeley_set_relationship_between_plasma_amino_acid",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/fn9986thfh",
+        "https://doi.org/10.17632/fn9986thfh",
+        "https://doi.org/10.1016/j.exer.2022.109366"
+      ],
+      "concise_reason": "The described human plasma measurements are reusable observation-level model inputs.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "fnbxs7gb82",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_comparison_two_novel_comfilcon_contact_lens",
+      "canonical_target": "mendeley_comparison_two_novel_comfilcon_contact_lens",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/fnbxs7gb82",
+        "https://doi.org/10.17632/fnbxs7gb82.1"
+      ],
+      "concise_reason": "The source describes human observation-level outcomes, not only article aggregates.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "g3hhczkc44",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/g3hhczkc44",
+        "https://doi.org/10.1016/j.jtemb.2018.02.028"
+      ],
+      "concise_reason": "The unresolved dataset record and ambiguous table-only description do not establish a reusable resource.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "gmrbh4fvt2",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_performance_corneal_vs_scleral_rigid_gas",
+      "canonical_target": "mendeley_performance_corneal_vs_scleral_rigid_gas",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/gmrbh4fvt2",
+        "https://doi.org/10.17632/gmrbh4fvt2.1",
+        "https://doi.org/10.1016/j.clae.2019.12.007"
+      ],
+      "concise_reason": "The described trial data are observation-level human ophthalmic measurements.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "gstmy5tzdv",
+      "source_confirmation": "exclude_nonhuman",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/gstmy5tzdv",
+        "https://doi.org/10.17632/gstmy5tzdv.1"
+      ],
+      "concise_reason": "It is a robotic vision resource rather than human or human-derived ophthalmic data.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "gv6hyfp8f2",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/gv6hyfp8f2",
+        "https://doi.org/10.17632/gv6hyfp8f2.1",
+        "https://doi.org/10.1016/j.devcel.2024.09.006"
+      ],
+      "concise_reason": "Raw figure-support images are article supplementary results, not a model-resource dataset under the stated boundary.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "h547645876",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_towards_ocular_biomarkers_sarcopenia_result_korean",
+      "canonical_target": "mendeley_towards_ocular_biomarkers_sarcopenia_result_korean",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/h547645876",
+        "https://doi.org/10.17632/h547645876"
+      ],
+      "concise_reason": "The source explicitly describes reusable human measurement inputs and prediction target.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "h79366vw73",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_dry_eye_symptoms_children_can_we",
+      "canonical_target": "mendeley_dry_eye_symptoms_children_can_we",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/h79366vw73",
+        "https://doi.org/10.17632/h79366vw73.1",
+        "https://doi.org/10.1111/opo.12762"
+      ],
+      "concise_reason": "The described measurements are human observation-level inputs/outcomes.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "h9tntd4gkf",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_radial_peripapillary_capillary_density_as_predictive",
+      "canonical_target": "mendeley_radial_peripapillary_capillary_density_as_predictive",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/h9tntd4gkf",
+        "https://doi.org/10.17632/h9tntd4gkf"
+      ],
+      "concise_reason": "Human eye-level microcirculation data are a reusable model input/target resource.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "hbr5pwk5w5",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_optical_coherence_tomography_oct_images_proliferative",
+      "canonical_target": "mendeley_optical_coherence_tomography_oct_images_proliferative",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/hbr5pwk5w5",
+        "https://doi.org/10.17632/hbr5pwk5w5"
+      ],
+      "concise_reason": "The stated content is human ophthalmic imaging rather than article-only results.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "hmz2cz3jcg",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_vivo_analysis_comparison_anterior_segment_structures",
+      "canonical_target": "mendeley_vivo_analysis_comparison_anterior_segment_structures",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/hmz2cz3jcg",
+        "https://doi.org/10.17632/hmz2cz3jcg.1",
+        "https://doi.org/10.1080/09273948.2020.1760311"
+      ],
+      "concise_reason": "It describes reusable individual eye structural measurements.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "hwnm88jyzg",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_demographic_profile_clinical_characteristics_patients_presenting",
+      "canonical_target": "mendeley_demographic_profile_clinical_characteristics_patients_presenting",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/hwnm88jyzg",
+        "https://doi.org/10.17632/hwnm88jyzg.1",
+        "https://doi.org/10.4103/ijo.ijo_3330_22"
+      ],
+      "concise_reason": "The stated Excel data are patient-level clinical observations.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "j39vyvp8ny",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_imaging_retinal_choroidal_vasculature_using_spatio",
+      "canonical_target": "mendeley_imaging_retinal_choroidal_vasculature_using_spatio",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/j39vyvp8ny",
+        "https://doi.org/10.17632/j39vyvp8ny.1"
+      ],
+      "concise_reason": "The described retinal imaging is an observation-level resource.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "j5cw4wn23y",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_contrast_sensitivity_visual_acuity_multifocal_contact",
+      "canonical_target": "mendeley_contrast_sensitivity_visual_acuity_multifocal_contact",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/j5cw4wn23y",
+        "https://doi.org/10.17632/j5cw4wn23y.1",
+        "https://doi.org/10.1016/j.clae.2019.12.002"
+      ],
+      "concise_reason": "Human visual-function measurements satisfy the observation-level boundary.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "jg2z4xgtmz",
+      "source_confirmation": "duplicate_or_alternate",
+      "canonical_action": "alternate_source_to_existing",
+      "proposed_canonical_slug": null,
+      "canonical_target": "dridb",
+      "relationship_type": "mirror_of",
+      "related_targets": [
+        "dridb"
+      ],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/jg2z4xgtmz",
+        "https://doi.org/10.17632/jg2z4xgtmz.1"
+      ],
+      "concise_reason": "The source explicitly identifies DRiDB as upstream, so it is an alternate packaging rather than a new canonical resource.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "jgh7dxdwyy",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_myopia_metal_mixture_exposure",
+      "canonical_target": "mendeley_myopia_metal_mixture_exposure",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/jgh7dxdwyy",
+        "https://doi.org/10.17632/jgh7dxdwyy.1"
+      ],
+      "concise_reason": "This is a distinct, human myopia/exposure feature layer rather than a generic NHANES mirror.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "jgw2mcgb67",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_sars_cov_2_infection_ocular_cells",
+      "canonical_target": "mendeley_sars_cov_2_infection_ocular_cells",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/jgw2mcgb67",
+        "https://doi.org/10.17632/jgw2mcgb67.1",
+        "https://doi.org/10.1016/j.stem.2021.04.028"
+      ],
+      "concise_reason": "Human-derived ocular cell data meet the requested provenance boundary.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "jjknx3wbkf",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_effect_central_hole_location_phakic_intraocular",
+      "canonical_target": "mendeley_effect_central_hole_location_phakic_intraocular",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/jjknx3wbkf",
+        "https://doi.org/10.17632/jjknx3wbkf.1",
+        "https://doi.org/10.1016/j.jcrs.2019.06.022"
+      ],
+      "concise_reason": "The deposit is explicitly raw human visual-function data.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "jrgntpv8b8",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_development_deep_learning_model_epiretinal_membrane",
+      "canonical_target": "mendeley_development_deep_learning_model_epiretinal_membrane",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/jrgntpv8b8",
+        "https://doi.org/10.17632/jrgntpv8b8"
+      ],
+      "concise_reason": "Direct human fundus image data for a defined detection task are stated.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "jxwkym2phr",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_improved_retinal_displacement_quantification_between_retinal",
+      "canonical_target": "mendeley_improved_retinal_displacement_quantification_between_retinal",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/jxwkym2phr",
+        "https://doi.org/10.17632/jxwkym2phr.1",
+        "https://doi.org/10.1016/j.ajo.2022.01.024"
+      ],
+      "concise_reason": "Human postoperative imaging measurements are reusable observation-level data.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "k5jsssjtmz",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_fundus_autofluorescence_premature_infants",
+      "canonical_target": "mendeley_fundus_autofluorescence_premature_infants",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/k5jsssjtmz",
+        "https://doi.org/10.17632/k5jsssjtmz.1",
+        "https://doi.org/10.1038/s41598-021-88262-z"
+      ],
+      "concise_reason": "The stated content is human infant ophthalmic imaging.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "kcptb9jrf5",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_iscev_standard_full_field_erg_reference",
+      "canonical_target": "mendeley_iscev_standard_full_field_erg_reference",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/kcptb9jrf5",
+        "https://doi.org/10.17632/kcptb9jrf5.1",
+        "https://doi.org/10.1007/s10633-025-10009-2"
+      ],
+      "concise_reason": "It is a reusable human electrophysiology signal/measurement resource.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "kw8gvp8m8x",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_development_deep_learning_based_system_optic",
+      "canonical_target": "mendeley_development_deep_learning_based_system_optic",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/kw8gvp8m8x",
+        "https://doi.org/10.17632/kw8gvp8m8x.1",
+        "https://doi.org/10.1016/j.ultrasmedbio.2023.05.011"
+      ],
+      "concise_reason": "The stated source includes the human imaging data used for the model, not code alone.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "kwv73shvxh",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_comparison_ocular_biometry_using_new_opticalcoherence",
+      "canonical_target": "mendeley_comparison_ocular_biometry_using_new_opticalcoherence",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/kwv73shvxh",
+        "https://doi.org/10.17632/kwv73shvxh.1",
+        "https://doi.org/10.3341/kjo.2017.0091"
+      ],
+      "concise_reason": "The linked study and source title establish eye-level device measurements, although fields need file-level validation.",
+      "confidence": "low"
+    },
+    {
+      "stable_id": "m53vz6b7fx",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_cp_anemic_conjunctival_pallor_ghana",
+      "canonical_target": "mendeley_cp_anemic_conjunctival_pallor_ghana",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/m53vz6b7fx",
+        "https://doi.org/10.17632/m53vz6b7fx",
+        "https://doi.org/10.1016/j.medntd.2023.100244"
+      ],
+      "concise_reason": "It is a direct human external-eye imaging/clinical-classification resource.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "m5nkpb8phv",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_vivo_cone_photoreceptor_topography_human_foveola",
+      "canonical_target": "mendeley_vivo_cone_photoreceptor_topography_human_foveola",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/m5nkpb8phv",
+        "https://doi.org/10.17632/m5nkpb8phv.1",
+        "https://doi.org/10.1167/iovs.66.11.13"
+      ],
+      "concise_reason": "This is an unusually clear human imaging-plus-annotation resource.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "m7fzwvsm77",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_on_comparison_ocular_surface_disease_index",
+      "canonical_target": "mendeley_on_comparison_ocular_surface_disease_index",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/m7fzwvsm77",
+        "https://doi.org/10.17632/m7fzwvsm77"
+      ],
+      "concise_reason": "The stated clinical test outcomes are reusable human measurements.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "mrvmsrn9r6",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_micro_go_study_transcriptional_profiling_orbital",
+      "canonical_target": "mendeley_micro_go_study_transcriptional_profiling_orbital",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/mrvmsrn9r6",
+        "https://doi.org/10.17632/mrvmsrn9r6"
+      ],
+      "concise_reason": "The described human-derived molecular measurements meet the stated boundary.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "nhpnt78ssy",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_two_photon_excited_fluorescence_scanning_laser",
+      "canonical_target": "mendeley_two_photon_excited_fluorescence_scanning_laser",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/nhpnt78ssy",
+        "https://doi.org/10.17632/nhpnt78ssy.1"
+      ],
+      "concise_reason": "Despite the small source-stated sample, it includes human eye imaging data rather than code alone.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "npt7rp69gm",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive",
+      "canonical_target": "mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/npt7rp69gm",
+        "https://doi.org/10.17632/npt7rp69gm.1"
+      ],
+      "concise_reason": "A data file of outcome measures is explicitly stated, so this is not code-only.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "nt7r8hv2pz",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_application_machine_learning_detecting_iron_deficiency",
+      "canonical_target": "mendeley_application_machine_learning_detecting_iron_deficiency",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/nt7r8hv2pz",
+        "https://doi.org/10.17632/nt7r8hv2pz"
+      ],
+      "concise_reason": "The source explicitly identifies a human conjunctival image dataset for ML.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "p5dpj7j7w9",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/p5dpj7j7w9",
+        "https://doi.org/10.17632/p5dpj7j7w9.1",
+        "https://doi.org/10.1016/j.asoc.2019.106042"
+      ],
+      "concise_reason": "The resource is an OCT segmentation dataset, but no ocular or relevant human-visual domain is established.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "p656wtzjv8",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/p656wtzjv8",
+        "https://doi.org/10.17632/p656wtzjv8.1"
+      ],
+      "concise_reason": "The current evidence identifies article-support material, not a reusable observation-level corpus.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "p7dyyrfds6",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_code_manuscript_fixational_eye_movements_as",
+      "canonical_target": "mendeley_code_manuscript_fixational_eye_movements_as",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/p7dyyrfds6",
+        "https://doi.org/10.17632/p7dyyrfds6.2",
+        "https://doi.org/10.1073/pnas.2416266122"
+      ],
+      "concise_reason": "The source expressly contains data, and its eye-movement signals are observation-level model inputs.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "prcy36j53v",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_retinal_blood_vessel_segmentation_rop",
+      "canonical_target": "mendeley_retinal_blood_vessel_segmentation_rop",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/prcy36j53v",
+        "https://doi.org/10.17632/prcy36j53v.1"
+      ],
+      "concise_reason": "The deposit is described as an annotated ROP vessel-segmentation resource; terms require reconciliation.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "r2v99nw7vg",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_evaluation_refractive_visual_outcomes_as_well",
+      "canonical_target": "mendeley_evaluation_refractive_visual_outcomes_as_well",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/r2v99nw7vg",
+        "https://doi.org/10.17632/r2v99nw7vg.1",
+        "https://doi.org/10.1159/000513894"
+      ],
+      "concise_reason": "It describes human eye-level longitudinal measurements.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "r5gy4rrkrg",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/r5gy4rrkrg",
+        "https://doi.org/10.17632/r5gy4rrkrg.1",
+        "https://doi.org/10.1016/j.jfo.2026.104846"
+      ],
+      "concise_reason": "Only descriptive/aggregate values are evidenced, which falls outside the resource boundary.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "r6gw6fnvdm",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_netarsudil_on_kdb_treated_eyes",
+      "canonical_target": "mendeley_netarsudil_on_kdb_treated_eyes",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/r6gw6fnvdm",
+        "https://doi.org/10.17632/r6gw6fnvdm.1",
+        "https://doi.org/10.1007/s00417-022-05609-6"
+      ],
+      "concise_reason": "Human eye-level treatment outcomes are identified rather than an aggregate-only result.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "rvw8k4k8g7",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_selective_laser_trabeculoplasty_patients_angle_recession",
+      "canonical_target": "mendeley_selective_laser_trabeculoplasty_patients_angle_recession",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/rvw8k4k8g7",
+        "https://doi.org/10.17632/rvw8k4k8g7.1",
+        "https://doi.org/10.1016/j.ajoc.2020.100835"
+      ],
+      "concise_reason": "The stated data sheet contains individual clinical and longitudinal observations.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "s9wbscpsrs",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_identification_human_retinal_stem_like_cells",
+      "canonical_target": "mendeley_identification_human_retinal_stem_like_cells",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/s9wbscpsrs",
+        "https://doi.org/10.17632/s9wbscpsrs.3"
+      ],
+      "concise_reason": "Human-derived single-cell/multi-omics data meet the stated resource definition.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "sdcfn87pvs",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_dme_classification_fundus_imaging_vision_transformers",
+      "canonical_target": "mendeley_dme_classification_fundus_imaging_vision_transformers",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/sdcfn87pvs",
+        "https://doi.org/10.17632/sdcfn87pvs.1"
+      ],
+      "concise_reason": "It explicitly describes fundus images plus a distinct clinical annotation/task layer.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "sdpv6wyrmv",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/sdpv6wyrmv",
+        "https://doi.org/10.17632/sdpv6wyrmv",
+        "https://doi.org/10.1016/j.gim.2022.02.012"
+      ],
+      "concise_reason": "Public text establishes a gene-discovery article result but not a reusable per-sample sequencing/annotation resource.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "sg2rywwwxb",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal",
+      "canonical_target": "mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/sg2rywwwxb",
+        "https://doi.org/10.17632/sg2rywwwxb.1",
+        "https://doi.org/10.1111/cpr.13785"
+      ],
+      "concise_reason": "Human-derived cell data are indicated; detailed file content still warrants inclusion-time verification.",
+      "confidence": "low"
+    },
+    {
+      "stable_id": "sm67hr5bpm",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_cell_types_human_retina_its_organoids",
+      "canonical_target": "mendeley_cell_types_human_retina_its_organoids",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/sm67hr5bpm",
+        "https://doi.org/10.17632/sm67hr5bpm.1",
+        "https://doi.org/10.1016/j.cell.2020.08.013"
+      ],
+      "concise_reason": "This is a clearly reusable human/human-derived single-cell measurement resource.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "spz4b8tbzt",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_fundus_mctn",
+      "canonical_target": "mendeley_fundus_mctn",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/spz4b8tbzt",
+        "https://doi.org/10.17632/spz4b8tbzt.1"
+      ],
+      "concise_reason": "It states a human fundus image corpus with disease/normal classifications.",
+      "confidence": "high"
+    },
+    {
+      "stable_id": "ss2nynfc8s",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_interocular_retinal_nerve_fiber_layer_thickness",
+      "canonical_target": "mendeley_interocular_retinal_nerve_fiber_layer_thickness",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/ss2nynfc8s",
+        "https://doi.org/10.17632/ss2nynfc8s.1",
+        "https://doi.org/10.1167/iovs.15-16541"
+      ],
+      "concise_reason": "The stated supplement is a dense location-level ophthalmic measurement resource.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "stpz7s5s5j",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/stpz7s5s5j",
+        "https://doi.org/10.17632/stpz7s5s5j",
+        "https://doi.org/10.1167/iovs.64.2.22"
+      ],
+      "concise_reason": "The available evidence identifies article supporting material, not an independently reusable model-resource dataset.",
+      "confidence": "medium"
+    },
+    {
+      "stable_id": "swf4xtf3cr",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/swf4xtf3cr",
+        "https://data.mendeley.com/public-api/datasets/swf4xtf3cr"
+      ],
+      "concise_reason": null,
+      "confidence": "Current version has no downloadable data files; metadata description alone is not a reusable model resource."
+    },
+    {
+      "stable_id": "t6pmbvkvtd",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_effects_implantable_collamer_lens_icl_implantation",
+      "canonical_target": "mendeley_effects_implantable_collamer_lens_icl_implantation",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/t6pmbvkvtd",
+        "https://data.mendeley.com/public-api/datasets/t6pmbvkvtd"
+      ],
+      "concise_reason": "ICL survey and postoperative eye measurements are observation-level data.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "t75wjsw6bw",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_conjunctival_melanoma_detection_using_deep_learning",
+      "canonical_target": "mendeley_conjunctival_melanoma_detection_using_deep_learning",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/t75wjsw6bw",
+        "https://data.mendeley.com/public-api/datasets/t75wjsw6bw"
+      ],
+      "concise_reason": "images",
+      "confidence": "Distinct image classification layer; deposit licence does not establish rights in web-sourced components."
+    },
+    {
+      "stable_id": "t7yrm5x3ws",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_proteomic_analysis_human_autoimmune_retinopathy_air",
+      "canonical_target": "mendeley_proteomic_analysis_human_autoimmune_retinopathy_air",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/t7yrm5x3ws",
+        "https://data.mendeley.com/public-api/datasets/t7yrm5x3ws"
+      ],
+      "concise_reason": "Human specimen-level proteomic measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "t92xrb2r4g",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/t92xrb2r4g",
+        "https://data.mendeley.com/public-api/datasets/t92xrb2r4g"
+      ],
+      "concise_reason": "No public file-level evidence supports a reusable resource.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "tjw3zwntv6",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_retina_identification_database_ridb",
+      "canonical_target": "mendeley_retina_identification_database_ridb",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/tjw3zwntv6",
+        "https://data.mendeley.com/public-api/datasets/tjw3zwntv6"
+      ],
+      "concise_reason": "Distinct human fundus biometric-image dataset.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "tryd7r3wct",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_digital_holograms_rbcs_glaucoma_patients_healthy",
+      "canonical_target": "mendeley_digital_holograms_rbcs_glaucoma_patients_healthy",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/tryd7r3wct",
+        "https://data.mendeley.com/public-api/datasets/tryd7r3wct"
+      ],
+      "concise_reason": "Human-derived cell hologram signals are reusable model inputs.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "tsf8b4yj3j",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy",
+      "canonical_target": "mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/tsf8b4yj3j",
+        "https://data.mendeley.com/public-api/datasets/tsf8b4yj3j"
+      ],
+      "concise_reason": "Longitudinal functional measurements meet the boundary.",
+      "confidence": "Medium"
+    },
+    {
+      "stable_id": "tsh3xwbkkg",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_anterior_segment_optical_coherence_tomography_angiography",
+      "canonical_target": "mendeley_anterior_segment_optical_coherence_tomography_angiography",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/tsh3xwbkkg",
+        "https://data.mendeley.com/public-api/datasets/tsh3xwbkkg"
+      ],
+      "concise_reason": "Observation-level OCTA-derived measurements are a distinct resource.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "txfn4vgjvn",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/txfn4vgjvn",
+        "https://data.mendeley.com/public-api/datasets/txfn4vgjvn"
+      ],
+      "concise_reason": "Cannot confirm current version, files, or reusable granularity.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "tybzw7zsng",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_plasma_energy_metabolomics_patients_ocular_disease",
+      "canonical_target": "mendeley_plasma_energy_metabolomics_patients_ocular_disease",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/tybzw7zsng",
+        "https://data.mendeley.com/public-api/datasets/tybzw7zsng"
+      ],
+      "concise_reason": "Human biospecimen metabolomic measurements.",
+      "confidence": "Medium"
+    },
+    {
+      "stable_id": "vc99wcmvk2",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_microvascular_changes_poag_after_npds",
+      "canonical_target": "mendeley_microvascular_changes_poag_after_npds",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/vc99wcmvk2",
+        "https://data.mendeley.com/public-api/datasets/vc99wcmvk2"
+      ],
+      "concise_reason": "Distinct postoperative microvascular measurement layer.",
+      "confidence": "Medium"
+    },
+    {
+      "stable_id": "vcv2893vyz",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": "mendeley_retinal_ga_multi_time_points",
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/vcv2893vyz",
+        "https://data.mendeley.com/public-api/datasets/vcv2893vyz"
+      ],
+      "concise_reason": "The indexed description implies geographic-atrophy cases but does not explicitly establish human provenance or the deposited row structure.",
+      "confidence": "High",
+      "final_screening_decision": "excluded_insufficient_source_metadata"
+    },
+    {
+      "stable_id": "vyb5fv6ppp",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_blinking_its_relationship_ocular_surface_digital",
+      "canonical_target": "mendeley_blinking_its_relationship_ocular_surface_digital",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/vyb5fv6ppp",
+        "https://data.mendeley.com/public-api/datasets/vyb5fv6ppp"
+      ],
+      "concise_reason": "Participant-level blink and ocular-surface measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "w34s5mhvpm",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_early_detection_glaucomatous_visual_field_progression",
+      "canonical_target": "mendeley_early_detection_glaucomatous_visual_field_progression",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/w34s5mhvpm",
+        "https://data.mendeley.com/public-api/datasets/w34s5mhvpm"
+      ],
+      "concise_reason": "Longitudinal visual-field measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "w5ws4pzzxr",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_influence_angle_alpha_angle_kappa_optical",
+      "canonical_target": "mendeley_influence_angle_alpha_angle_kappa_optical",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/w5ws4pzzxr",
+        "https://data.mendeley.com/public-api/datasets/w5ws4pzzxr"
+      ],
+      "concise_reason": "Eye-level repeated outcome measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "w7hm97cts5",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_electrooculography_eog_blink_analysis_ocular_fatigue",
+      "canonical_target": "mendeley_electrooculography_eog_blink_analysis_ocular_fatigue",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/w7hm97cts5",
+        "https://data.mendeley.com/public-api/datasets/w7hm97cts5"
+      ],
+      "concise_reason": "Raw ocular electrical signals are directly reusable.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "whpsmdc2gk",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_ophthalmic_stroke_biomarkers_south_asia",
+      "canonical_target": "mendeley_ophthalmic_stroke_biomarkers_south_asia",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/whpsmdc2gk",
+        "https://data.mendeley.com/public-api/datasets/whpsmdc2gk"
+      ],
+      "concise_reason": "Participant-level clinical/ophthalmic biomarker observations.",
+      "confidence": "Medium"
+    },
+    {
+      "stable_id": "wjtg6sjxcc",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/wjtg6sjxcc",
+        "https://data.mendeley.com/public-api/datasets/wjtg6sjxcc"
+      ],
+      "concise_reason": "No public evidence of reusable observations or files.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "wtcc9fcjdy",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_comparison_aqueous_humor_levels_plgf_vegf",
+      "canonical_target": "mendeley_comparison_aqueous_humor_levels_plgf_vegf",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/wtcc9fcjdy",
+        "https://data.mendeley.com/public-api/datasets/wtcc9fcjdy"
+      ],
+      "concise_reason": "Human aqueous-humor biomarker measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "wyys4gvk4n",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_peripapillary_retinal_nerve_fiber_layer_thinning",
+      "canonical_target": "mendeley_peripapillary_retinal_nerve_fiber_layer_thinning",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/wyys4gvk4n",
+        "https://data.mendeley.com/public-api/datasets/wyys4gvk4n"
+      ],
+      "concise_reason": "Eye-level structural retinal measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "x38yzs6cd3",
+      "source_confirmation": "exclude_not_model_resource",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/x38yzs6cd3",
+        "https://data.mendeley.com/public-api/datasets/x38yzs6cd3"
+      ],
+      "concise_reason": "Supplement-only/article-result resource does not clear the boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "x7rcj9yz65",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_effect_adlay_seed_extract_on_level",
+      "canonical_target": "mendeley_effect_adlay_seed_extract_on_level",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/x7rcj9yz65",
+        "https://data.mendeley.com/public-api/datasets/x7rcj9yz65"
+      ],
+      "concise_reason": "Human-derived cellular expression measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "xcw5x5z49r",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_exome_sequencing_clec3b",
+      "canonical_target": "mendeley_exome_sequencing_clec3b",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/xcw5x5z49r",
+        "https://data.mendeley.com/public-api/datasets/xcw5x5z49r"
+      ],
+      "concise_reason": "Human genomic observations meet the human-derived boundary.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "xg9jcjn388",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_ocular_sebaceous_neoplasms",
+      "canonical_target": "mendeley_ocular_sebaceous_neoplasms",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/xg9jcjn388",
+        "https://data.mendeley.com/public-api/datasets/xg9jcjn388"
+      ],
+      "concise_reason": "Distinct human pathology/clinical image layer.",
+      "confidence": "Medium"
+    },
+    {
+      "stable_id": "xw5xc7xrmp",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy",
+      "canonical_target": "mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/xw5xc7xrmp",
+        "https://data.mendeley.com/public-api/datasets/xw5xc7xrmp"
+      ],
+      "concise_reason": "Distinct ROP image-and-annotation resource.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "xzf382pby9",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal",
+      "canonical_target": "mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/xzf382pby9",
+        "https://data.mendeley.com/public-api/datasets/xzf382pby9"
+      ],
+      "concise_reason": "Human-derived cellular measurement table.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "y4zcnvc3z5",
+      "source_confirmation": "exclude_insufficient",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/y4zcnvc3z5",
+        "https://data.mendeley.com/public-api/datasets/y4zcnvc3z5"
+      ],
+      "concise_reason": "No public file/observation-level evidence.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "y58rh8bfkv",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_efficacy_combined_orthokeratology_0_01_atropine",
+      "canonical_target": "mendeley_efficacy_combined_orthokeratology_0_01_atropine",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/y58rh8bfkv",
+        "https://data.mendeley.com/public-api/datasets/y58rh8bfkv"
+      ],
+      "concise_reason": "Distinct participant-level trial measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "y6n5k7s6f7",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_comparison_clinical_outcomes_visual_quality_visual",
+      "canonical_target": "mendeley_comparison_clinical_outcomes_visual_quality_visual",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/y6n5k7s6f7",
+        "https://data.mendeley.com/public-api/datasets/y6n5k7s6f7"
+      ],
+      "concise_reason": "Participant/eye-level postoperative outcomes.",
+      "confidence": "Medium"
+    },
+    {
+      "stable_id": "ydmxn3264h",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_keratoconus_ukraine_children",
+      "canonical_target": "mendeley_keratoconus_ukraine_children",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/ydmxn3264h",
+        "https://data.mendeley.com/public-api/datasets/ydmxn3264h"
+      ],
+      "concise_reason": "Pediatric corneal observations are a distinct resource.",
+      "confidence": "Medium"
+    },
+    {
+      "stable_id": "yr8hbwmsvy",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_corneal_refractive_parameters_age_patients_without",
+      "canonical_target": "mendeley_corneal_refractive_parameters_age_patients_without",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/yr8hbwmsvy",
+        "https://data.mendeley.com/public-api/datasets/yr8hbwmsvy"
+      ],
+      "concise_reason": "Large eye-measurement dataset with stated provenance.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "yry4r9y9v5",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_biomechanical_properties_adult_patients_high_myopia",
+      "canonical_target": "mendeley_biomechanical_properties_adult_patients_high_myopia",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/yry4r9y9v5",
+        "https://data.mendeley.com/public-api/datasets/yry4r9y9v5"
+      ],
+      "concise_reason": "Eye-level corneal biomechanical measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "yzsktrxh6y",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_serum_proteomic_profiles_keratoconus_post_laser",
+      "canonical_target": "mendeley_serum_proteomic_profiles_keratoconus_post_laser",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/yzsktrxh6y",
+        "https://data.mendeley.com/public-api/datasets/yzsktrxh6y"
+      ],
+      "concise_reason": "Human serum proteomics with linked sample metadata.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "yzv3mrvwf4",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_effect_prednisone_plus_either_adalimumab_or",
+      "canonical_target": "mendeley_effect_prednisone_plus_either_adalimumab_or",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/yzv3mrvwf4",
+        "https://data.mendeley.com/public-api/datasets/yzv3mrvwf4"
+      ],
+      "concise_reason": "Participant-level treatment outcome data, distinct ancillary layer.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "z227d626vm",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_multi_class_retinal_fundus_image_deep",
+      "canonical_target": "mendeley_multi_class_retinal_fundus_image_deep",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/z227d626vm",
+        "https://data.mendeley.com/public-api/datasets/z227d626vm"
+      ],
+      "concise_reason": "Original human images and labels are a distinct model resource; treat augmentation as derivative.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "z6cz6gpsxb",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "exclude_after_reconciliation",
+      "proposed_canonical_slug": null,
+      "canonical_target": null,
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/z6cz6gpsxb",
+        "https://data.mendeley.com/public-api/datasets/z6cz6gpsxb"
+      ],
+      "concise_reason": "Raw western-blot figure images are not a reusable observation-level model resource after canonical review.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "zcmpcczdhs",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_dex_combined_ppv_pdr",
+      "canonical_target": "mendeley_dex_combined_ppv_pdr",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/zcmpcczdhs",
+        "https://data.mendeley.com/public-api/datasets/zcmpcczdhs"
+      ],
+      "concise_reason": "Eye-level prospective trial observations.",
+      "confidence": "Medium"
+    },
+    {
+      "stable_id": "zhk775h6n4",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_biochemical_parameters_tear_fluid_chemical_burns",
+      "canonical_target": "mendeley_biochemical_parameters_tear_fluid_chemical_burns",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/zhk775h6n4",
+        "https://data.mendeley.com/public-api/datasets/zhk775h6n4"
+      ],
+      "concise_reason": "Human tear-fluid biochemical measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "zhz8kjsykf",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_test_results_article_motion_perception_glaucoma",
+      "canonical_target": "mendeley_test_results_article_motion_perception_glaucoma",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/zhz8kjsykf",
+        "https://data.mendeley.com/public-api/datasets/zhz8kjsykf"
+      ],
+      "concise_reason": "Participant-level psychophysical measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "zn64p6r992",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_effect_one_hour_smartphone_gaming_on",
+      "canonical_target": "mendeley_effect_one_hour_smartphone_gaming_on",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/zn64p6r992",
+        "https://data.mendeley.com/public-api/datasets/zn64p6r992"
+      ],
+      "concise_reason": "Repeated pediatric ocular-surface and signal measurements; source demographic count is internally inconsistent, so omitted.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "zp6d5w8kdv",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_sub_cone_visual_resolution_by_active",
+      "canonical_target": "mendeley_sub_cone_visual_resolution_by_active",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/zp6d5w8kdv",
+        "https://data.mendeley.com/public-api/datasets/zp6d5w8kdv"
+      ],
+      "concise_reason": "Distinct high-resolution retinal imaging and eye-motion resource.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "zsxt8wk4sh",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes",
+      "canonical_target": "mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/zsxt8wk4sh",
+        "https://data.mendeley.com/public-api/datasets/zsxt8wk4sh"
+      ],
+      "concise_reason": "Eye-level longitudinal treatment measurements.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "zvb55v8mzw",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_3_year_follow_up_optic_neuritis",
+      "canonical_target": "mendeley_3_year_follow_up_optic_neuritis",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/zvb55v8mzw",
+        "https://data.mendeley.com/public-api/datasets/zvb55v8mzw"
+      ],
+      "concise_reason": "Longitudinal human clinical/OCT observations; current record is marked embargoed but that is access friction, not a boundary failure.",
+      "confidence": "Medium"
+    },
+    {
+      "stable_id": "zygxgyf4ns",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_nagyz_liberty_677my_vs_alcon_acrysof",
+      "canonical_target": "mendeley_nagyz_liberty_677my_vs_alcon_acrysof",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/zygxgyf4ns",
+        "https://data.mendeley.com/public-api/datasets/zygxgyf4ns"
+      ],
+      "concise_reason": "Eye-level longitudinal surgical outcomes.",
+      "confidence": "High"
+    },
+    {
+      "stable_id": "zzgw9t9jsy",
+      "source_confirmation": "confirmed_include_new",
+      "canonical_action": "new_canonical_record",
+      "proposed_canonical_slug": "mendeley_evaluation_dry_eye_severity_ocular_surface",
+      "canonical_target": "mendeley_evaluation_dry_eye_severity_ocular_surface",
+      "relationship_type": null,
+      "related_targets": [],
+      "evidence_urls": [
+        "https://data.mendeley.com/datasets/zzgw9t9jsy",
+        "https://data.mendeley.com/public-api/datasets/zzgw9t9jsy"
+      ],
+      "concise_reason": "Human ocular-surface biomarker/clinical measurements.",
+      "confidence": "High"
+    }
+  ],
+  "id_parity": {
+    "proposal_include_count": 140,
+    "source_confirmation_count": 140,
+    "exact_match": true
+  },
+  "duplicate_doi_family_checks": {
+    "method": "Mendeley DOI family = 10.17632/<stable_id>, excluding the trailing version suffix.",
+    "duplicate_family_count_among_140": 0
+  },
+  "unresolved_mappings": [
+    "3r5m3nfdkv: verify MESSIDOR versus MESSIDOR-2 upstream edition",
+    "89rykrg8j2, 9gkpxsmz23, m5nkpb8phv, zp6d5w8kdv: verify possible foveola-cohort overlap",
+    "kw8gvp8m8x, p7dyyrfds6: separate source observations from code assets"
+  ],
+  "post_reconciliation_amendments": [
+    {
+      "stable_id": "2wxnrd832j",
+      "final_screening_decision": "excluded_insufficient_source_metadata",
+      "reason": "The source lists AMD OCT/fundus material but does not explicitly confirm human or human-derived provenance in the reviewed public evidence."
+    },
+    {
+      "stable_id": "6rxy66854k",
+      "final_screening_decision": "excluded_insufficient_source_metadata",
+      "reason": "The source lists refractive-status and corneal-biomechanics observations but does not explicitly confirm human provenance in the reviewed evidence."
+    },
+    {
+      "stable_id": "vcv2893vyz",
+      "final_screening_decision": "excluded_insufficient_source_metadata",
+      "reason": "The indexed description implies geographic-atrophy cases but does not explicitly establish human provenance or the deposited row structure."
+    }
+  ]
+}

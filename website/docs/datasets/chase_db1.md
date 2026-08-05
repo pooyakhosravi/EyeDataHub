@@ -3,7 +3,7 @@ id: chase_db1
 title: "CHASE_DB1: Child Heart and Health Study in England"
 sidebar_label: chase_db1
 description: "28 fundus images with manual vessel segmentations (two annotators)."
-tags: ["fundus", "cc-by", "manual", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "cc-by", "manual", "segmentation", "resource-role-current-dataset", "dataset-family-chase-db1", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `chase_db1` |
 | **Full name** | CHASE_DB1: Child Heart and Health Study in England |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `chase_db1` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 28 images |
@@ -144,4 +146,4 @@ Owen et al., 'Measuring retinal vessel tortuosity in 10-year-old children: valid
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

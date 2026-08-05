@@ -42,7 +42,17 @@ jobs:
       - name: Import smoke test
         run: |
           python -c "import eyedatahub; print('eyedatahub', eyedatahub.__file__)"
-          python -c "from eyedatahub.datasets.registry import REGISTRY; assert len(REGISTRY.list_datasets()) == 386; print(f'{len(REGISTRY.list_datasets())} catalog records loaded')"
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          from eyedatahub.datasets.registry import REGISTRY
+
+          expected = json.loads(Path("hub/catalog.json").read_text(encoding="utf-8"))["record_count"]
+          actual = len(REGISTRY.list_datasets())
+          assert actual == expected, f"registry={actual}, catalog_export={expected}"
+          print(f"{actual} catalog records loaded")
+          PY
 
       - name: CLI smoke test
         run: |

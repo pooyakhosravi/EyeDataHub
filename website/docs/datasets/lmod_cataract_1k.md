@@ -3,7 +3,7 @@ id: lmod_cataract_1k
 title: "LMOD-Cataract-1K"
 sidebar_label: lmod_cataract_1k
 description: "Processed Cataract-1K surgical-frame dataset for segmentation/object-detection workflows."
-tags: ["surgical_video", "cc-by", "huggingface", "segmentation", "detection", "documented-relationship", "relationship-derived_from"]
+tags: ["surgical_video", "cc-by", "huggingface", "segmentation", "detection", "resource-role-derivative-dataset", "dataset-family-lmod-cataract-1k", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ Processed Cataract-1K surgical-frame dataset for segmentation/object-detection w
 | **Short name** | `lmod_cataract_1k` |
 | **Full name** | LMOD-Cataract-1K |
 | **Primary category** | `surgical_video` |
+| **Resource role** | `derivative_dataset` |
+| **Dataset family** | `lmod_cataract_1k` |
 | **Contained modalities** | surgical_video |
 | **Tasks** | segmentation, detection |
 | **Primary reported quantity** | 2,256 images |
@@ -31,7 +33,7 @@ Processed Cataract-1K surgical-frame dataset for segmentation/object-detection w
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | HuggingFace Hub |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

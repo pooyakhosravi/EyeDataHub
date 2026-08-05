@@ -3,7 +3,7 @@ id: justraigs
 title: "JustRAIGS: Just Referral AI Glaucoma Screening Dataset"
 sidebar_label: justraigs
 description: "101,442 gradable fundus images labeled as referable (RG) or non-referable (NRG) for glaucoma. Image data from EyePACS LLC; labels from Rotterdam Eye Hospital expert graders."
-tags: ["fundus", "cc-by-nc-nd", "zenodo", "classification"]
+tags: ["fundus", "cc-by-nc-nd", "zenodo", "classification", "resource-role-current-dataset", "dataset-family-justraigs"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `justraigs` |
 | **Full name** | JustRAIGS: Just Referral AI Glaucoma Screening Dataset |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `justraigs` |
 | **Contained modalities** | fundus |
 | **Tasks** | classification |
 | **Primary reported quantity** | 101,442 images |
@@ -137,5 +139,5 @@ Thakoor et al., 'JustRAIGS: Justify Your Artificial Intelligence Prediction for 
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
-- [dr_arranged](./dr_arranged.md): Diabetic Retinopathy Arranged Dataset (Tianchi 93926) (35,126 images, `cc-by-nc-sa`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)
+- [lmod_plus](./lmod_plus.md): LMOD+ Multimodal Ophthalmology Benchmark (32,633 annotated instances, `unknown`)

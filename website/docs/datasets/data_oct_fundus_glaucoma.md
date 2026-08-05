@@ -3,7 +3,7 @@ id: data_oct_fundus_glaucoma
 title: "Data on OCT and Fundus Images"
 sidebar_label: data_oct_fundus_glaucoma
 description: "Fifty OCT and fundus images with healthy/glaucomatous labels and cup-to-disc ratio annotations by ophthalmologists."
-tags: ["multimodal", "fundus", "oct", "cc-by", "mendeley", "classification", "grading"]
+tags: ["multimodal", "fundus", "oct", "cc-by", "mendeley", "classification", "grading", "resource-role-current-dataset", "dataset-family-data-oct-fundus-glaucoma"]
 ---
 
 
@@ -21,6 +21,8 @@ Fifty OCT and fundus images with healthy/glaucomatous labels and cup-to-disc rat
 | **Short name** | `data_oct_fundus_glaucoma` |
 | **Full name** | Data on OCT and Fundus Images |
 | **Primary category** | `multimodal` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `data_oct_fundus_glaucoma` |
 | **Contained modalities** | fundus, oct |
 | **Tasks** | classification, grading |
 | **Primary reported quantity** | 50 images |
@@ -31,7 +33,7 @@ Fifty OCT and fundus images with healthy/glaucomatous labels and cup-to-disc rat
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Mendeley Data |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |

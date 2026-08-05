@@ -3,7 +3,7 @@ id: e_ophtha
 title: "E-ophtha (EX + MA): Exudate and Microaneurysm Segmentation"
 sidebar_label: e_ophtha
 description: "463 color fundus images with pixel-level segmentation: 82 with exudate (EX) + 381 with microaneurysm (MA) annotations. Standard DR lesion-segmentation benchmark."
-tags: ["fundus", "research-only", "kaggle", "segmentation", "documented-relationship", "relationship-derived_from"]
+tags: ["fundus", "research-only", "kaggle", "segmentation", "resource-role-current-dataset", "dataset-family-e-ophtha", "documented-relationship", "relationship-derived_from"]
 ---
 
 
@@ -21,6 +21,8 @@ import TabItem from '@theme/TabItem';
 | **Short name** | `e_ophtha` |
 | **Full name** | E-ophtha (EX + MA): Exudate and Microaneurysm Segmentation |
 | **Primary category** | `fundus` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `e_ophtha` |
 | **Contained modalities** | fundus |
 | **Tasks** | segmentation |
 | **Primary reported quantity** | 463 images |
@@ -132,4 +134,4 @@ Decencière et al., 'TeleOphta: Machine Learning and Image Processing Methods fo
 - [eyepacs](./eyepacs.md): EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) (88,702 images, `research-only`)
 - [angioreport](./angioreport.md): AngioReport Fundus Angiography Report Dataset (55,361 images, `unknown`)
 - [ffa_ir](./ffa_ir.md): FFA-IR Medical Report Dataset (47,247 images, `unknown`)
-- [bidr](./bidr.md): BiDR: Diabetic Retinopathy Diagnosis Dataset (35,126 images, `unknown`)
+- [mfiddr](./mfiddr.md): MFIDDR: Multi-Field Imaging Dataset for Diabetic Retinopathy (34,452 images, `mit`)

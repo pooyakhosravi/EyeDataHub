@@ -3,7 +3,7 @@ id: ophtho_readability
 title: "Language and Readability Barriers in Ophthalmology Dataset"
 sidebar_label: ophtho_readability
 description: "Text/tabular dataset supporting readability and language-access analyses in ophthalmology."
-tags: ["text", "tabular", "cc-by", "zenodo", "text_generation", "classification"]
+tags: ["text", "tabular", "cc-by", "zenodo", "text_generation", "classification", "resource-role-current-dataset", "dataset-family-ophtho-readability"]
 ---
 
 
@@ -21,6 +21,8 @@ Text/tabular dataset supporting readability and language-access analyses in opht
 | **Short name** | `ophtho_readability` |
 | **Full name** | Language and Readability Barriers in Ophthalmology Dataset |
 | **Primary category** | `text` |
+| **Resource role** | `current_dataset` |
+| **Dataset family** | `ophtho_readability` |
 | **Contained modalities** | text, tabular |
 | **Tasks** | text_generation, classification |
 | **Primary reported quantity** | 139 documents |
@@ -31,7 +33,7 @@ Text/tabular dataset supporting readability and language-access analyses in opht
 | **Normalized terms** | `cc-by` |
 | **Descriptive screening label** | Standard label without an explicit NC clause; not a permission finding |
 | **Terms scope** | `dataset_files` |
-| **Access friction** | `anonymous_direct` |
+| **Access friction** | `self_service_authenticated` |
 | **Route backend** | Zenodo |
 | **Availability** | `available` (checked 2026-07-21) |
 | **Acquisition support** | `standard_platform_supported` |
