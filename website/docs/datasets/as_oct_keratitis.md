@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `as_oct_keratitis` |
 | **Full name** | AS-OCT Keratitis Segmentation Dataset |
+| **First published** | 2024-06-11 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/collections/7036994/versions/1) |
+| **Publication date source field** | collection.timeline.firstOnline (Figshare collection version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `as_oct_keratitis` |

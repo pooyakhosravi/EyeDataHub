@@ -20,6 +20,11 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_v6wwpzh1b` |
 | **Full name** | Data from: Micropulse transscleral cyclophotocoagulation results in secondary glaucoma |
+| **First published** | 2024-05-10 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.v6wwpzh1b](https://doi.org/10.5061/dryad.v6wwpzh1b) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_v6wwpzh1b` |

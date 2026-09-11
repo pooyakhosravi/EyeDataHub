@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `drac22` |
 | **Full name** | DRAC 2022: Diabetic Retinopathy Analysis Challenge |
+| **First published** | 2022-07-08 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [drac22.grand-challenge.org/Timeline](https://drac22.grand-challenge.org/Timeline/) |
+| **Publication date source field** | official DRAC22 challenge timeline: training sets for Tasks 2 and 3 released |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `octa` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `drac22` |

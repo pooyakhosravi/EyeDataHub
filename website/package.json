@@ -3,6 +3,7 @@
   "version": "0.7.0",
   "private": true,
   "scripts": {
+    "test": "node --test tests/*.test.mjs",
     "regen": "cd .. && python -m hub.docs.generate_dataset_pages --out website/docs",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

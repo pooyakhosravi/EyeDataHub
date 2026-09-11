@@ -20,6 +20,11 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_sbcc2fr7r` |
 | **Full name** | Gender and age-related differences of ccular biometric parameters in patients undergoing cataract surgery in Bosnia and Herzegovina |
+| **First published** | 2023-11-03 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.sbcc2fr7r](https://doi.org/10.5061/dryad.sbcc2fr7r) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_sbcc2fr7r` |

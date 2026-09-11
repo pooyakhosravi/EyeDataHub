@@ -20,6 +20,11 @@ A set of 1,110 optic nerve head OCT volumes from 624 patients, including 847 sca
 | --- | --- |
 | **Short name** | `maetschke_glaucoma_oct` |
 | **Full name** | OCT Volumes for Glaucoma Detection |
+| **First published** | 2018-11-09 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/1481223) |
+| **Publication date source field** | metadata.publication_date (earliest repository version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `maetschke_glaucoma_oct` |

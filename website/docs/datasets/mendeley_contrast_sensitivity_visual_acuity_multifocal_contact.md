@@ -20,6 +20,11 @@ Participant/eye-level visual-acuity and contrast-sensitivity measurements from S
 | --- | --- |
 | **Short name** | `mendeley_contrast_sensitivity_visual_acuity_multifocal_contact` |
 | **Full name** | Data for: Contrast sensitivity and visual acuity with multifocal contact lenses with high additions dedicated for myopia progression control  |
+| **First published** | 2019-12-16 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/j5cw4wn23y/1) |
+| **Publication date source field** | citation_publication_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_contrast_sensitivity_visual_acuity_multifocal_contact` |

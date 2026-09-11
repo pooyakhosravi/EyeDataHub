@@ -20,6 +20,11 @@ The ROP Doppler examination table is a defined direct neonatal retinal measureme
 | --- | --- |
 | **Short name** | `dryad_rop_plane_wave_doppler` |
 | **Full name** | ROP Plane-Wave Doppler Dataset |
+| **First published** | 2024-03-18 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.612jm649r](https://doi.org/10.5061/dryad.612jm649r) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_rop_plane_wave_doppler` |

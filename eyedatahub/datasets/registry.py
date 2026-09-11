@@ -78,10 +78,13 @@ class DatasetRegistry:
 
     def validation_errors(self) -> List[str]:
         """Return deterministic schema and consistency errors for the registry."""
+        from eyedatahub.core.publication_dates import publication_date_errors
+
         errors: List[str] = []
         for key, dataset in self._datasets.items():
             info = dataset.info
             prefix = f"{key}:"
+            errors.extend(f"{prefix} {error}" for error in publication_date_errors(info))
             if key != info.name.lower():
                 errors.append(f"{prefix} registry key does not match info.name")
             if info.name != info.name.lower():

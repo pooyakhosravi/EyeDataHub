@@ -20,6 +20,11 @@ De-identified per-patient glaucoma fundus/OCT images with processed labels and a
 | --- | --- |
 | **Short name** | `glaucoma_oct_fundus` |
 | **Full name** | Glaucoma Detection Dataset with OCT and Fundus Images |
+| **First published** | 2026-04-20 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/32051124/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `glaucoma_oct_fundus` |

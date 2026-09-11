@@ -1,0 +1,1605 @@
+{
+  "records": [
+    {
+      "record_id": "afio_fundus_vessels",
+      "publication_date": "2019-11-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/3csr652p9y/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"5 November 2019\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "amdnet23",
+      "publication_date": "2025-04-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/yj35kjgrv3/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"23 April 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "anterior_segment_smile",
+      "publication_date": "2026-02-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/vkdxsnhkrm/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"16 February 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "bajwa_multi_eye",
+      "publication_date": "2022-07-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/rgwpd4m785/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"15 July 2022\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "bmrd",
+      "publication_date": "2025-10-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/959whsbc6v/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"7 October 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "corneal_curvature_fundus",
+      "publication_date": "2023-01-31",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/bc2jfr7dv9/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"31 January 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "corneal_epithelium_confocal",
+      "publication_date": "2025-10-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/n3gky25brh/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"2 October 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "corneal_tomography_iol",
+      "publication_date": "2026-04-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/wddj7bh9p9/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"20 April 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "csc_fundus_segmentation",
+      "publication_date": "2021-08-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/4k64fwnp4k/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"20 August 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "data_oct_fundus_glaucoma",
+      "publication_date": "2019-10-30",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/2rnnz5nz74/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"30 October 2019\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "dryad_diabetic_retinopathy_renal",
+      "publication_date": "2019-08-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.6kg1sd7",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Aug 09, 2019 on Dryad"
+    },
+    {
+      "record_id": "dryad_dome_shaped_macula",
+      "publication_date": "2018-11-21",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.h544560",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Nov 21, 2018 on Dryad"
+    },
+    {
+      "record_id": "dryad_dry_eye_nlrp3",
+      "publication_date": "2015-05-21",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.7vn28",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published May 21, 2015 on Dryad"
+    },
+    {
+      "record_id": "dryad_eye_care_quality_of_life",
+      "publication_date": "2024-06-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.h44j0zpv3",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jun 22, 2024 on Dryad"
+    },
+    {
+      "record_id": "dryad_functional_oct_alzheimer",
+      "publication_date": "2019-11-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.msbcc2ftc/versions",
+      "publication_date_source_field": "versions[versionNumber=4].publicationDate (earliest public version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version=4; visibility=public; publicationDate=\"2019-11-18\"; later public version date=\"2020-03-13\""
+    },
+    {
+      "record_id": "dryad_fundus_venous_pulsation",
+      "publication_date": "2016-07-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.56f1h",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jul 08, 2016 on Dryad"
+    },
+    {
+      "record_id": "dryad_fungal_keratitis_cci",
+      "publication_date": "2024-01-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.8931zcrw5",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jan 23, 2024 on Dryad"
+    },
+    {
+      "record_id": "dryad_ga_biofeedback",
+      "publication_date": "2026-02-11",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.ngf1vhj81",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Feb 11, 2026 on Dryad"
+    },
+    {
+      "record_id": "dryad_gca_optic_nerve_dwi",
+      "publication_date": "2022-09-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.59zw3r2bk",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Sep 22, 2022 on Dryad"
+    },
+    {
+      "record_id": "dryad_gcc_glaucoma",
+      "publication_date": "2026-04-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.xwdbrv1tn",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Apr 14, 2026 on Dryad"
+    },
+    {
+      "record_id": "dryad_glaucoma_lhon_mitochondrial",
+      "publication_date": "2016-10-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.2k4v4",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Oct 05, 2016 on Dryad"
+    },
+    {
+      "record_id": "dryad_glaucoma_rnfl_vf",
+      "publication_date": "2018-05-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.q6ft5",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published May 05, 2018 on Dryad"
+    },
+    {
+      "record_id": "dryad_human_foveal_cones",
+      "publication_date": "2019-08-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.nh0fp1b",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Aug 05, 2019 on Dryad"
+    },
+    {
+      "record_id": "dryad_huntingtons_retinal_oct",
+      "publication_date": "2025-10-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.ncjsxksxr",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Oct 07, 2025 on Dryad"
+    },
+    {
+      "record_id": "dryad_icmr_eye_see_cataract",
+      "publication_date": "2020-01-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.5qfttdz19",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jan 08, 2020 on Dryad"
+    },
+    {
+      "record_id": "dryad_iris_surface_features",
+      "publication_date": "2015-12-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.0kt87",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Dec 14, 2015 on Dryad"
+    },
+    {
+      "record_id": "dryad_karachi_cataract_outcomes",
+      "publication_date": "2016-06-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.7q5c7",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jun 16, 2016 on Dryad"
+    },
+    {
+      "record_id": "dryad_lens_fluorescence_twins",
+      "publication_date": "2021-08-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.mcvdnck22",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Aug 25, 2021 on Dryad"
+    },
+    {
+      "record_id": "dryad_lvpei_cataract_outcomes",
+      "publication_date": "2016-11-30",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.71hp4",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Nov 30, 2016 on Dryad"
+    },
+    {
+      "record_id": "dryad_moorfields_amd_1_2_year",
+      "publication_date": "2019-05-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.97r9289/versions",
+      "publication_date_source_field": "versions[versionNumber=1].publicationDate (earliest public version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version=1; visibility=public; publicationDate=\"2019-05-22\"; later public version date=\"2020-07-29\""
+    },
+    {
+      "record_id": "dryad_moorfields_namd_fellow_eye",
+      "publication_date": "2019-10-01",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.4mw6m906b/versions",
+      "publication_date_source_field": "versions[versionNumber=5].publicationDate (earliest public version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version=5; visibility=public; publicationDate=\"2019-10-01\"; later public version date=\"2020-12-18\""
+    },
+    {
+      "record_id": "dryad_myopia_glaucoma_visual_field",
+      "publication_date": "2015-07-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.1n50q",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jul 29, 2015 on Dryad"
+    },
+    {
+      "record_id": "dryad_namd_12_year_survival",
+      "publication_date": "2020-11-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.nvx0k6dqg/versions",
+      "publication_date_source_field": "versions[versionNumber=4].publicationDate (earliest public version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version=4; visibility=public; publicationDate=\"2020-11-05\"; later public version date=\"2020-11-23\""
+    },
+    {
+      "record_id": "dryad_namd_oct_longitudinal",
+      "publication_date": "2024-08-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.8cz8w9h0v/versions",
+      "publication_date_source_field": "versions[versionNumber=9].publicationDate (earliest public version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version=9; visibility=public; publicationDate=\"2024-08-23\"; later public version date=\"2024-11-01\""
+    },
+    {
+      "record_id": "dryad_namd_oct_quant",
+      "publication_date": "2020-09-30",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs7m4/versions",
+      "publication_date_source_field": "versions[versionNumber=2].publicationDate (earliest public version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version=2; visibility=public; publicationDate=\"2020-09-30\"; later public version date=\"2020-10-07\""
+    },
+    {
+      "record_id": "dryad_namd_ten_year_survival",
+      "publication_date": "2020-09-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.9cnp5hqfm",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Sep 25, 2020 on Dryad"
+    },
+    {
+      "record_id": "dryad_namd_visual_prediction",
+      "publication_date": "2021-02-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.573n5tb5d",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Feb 04, 2021 on Dryad"
+    },
+    {
+      "record_id": "dryad_nigeria_cataract_services",
+      "publication_date": "2018-08-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.13bp2",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Aug 07, 2018 on Dryad"
+    },
+    {
+      "record_id": "dryad_ocular_chemical_injuries_shanghai",
+      "publication_date": "2020-01-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.9707661",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jan 09, 2020 on Dryad"
+    },
+    {
+      "record_id": "dryad_ocular_surface_amr",
+      "publication_date": "2025-05-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.6t1g1jx9s",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published May 22, 2025 on Dryad"
+    },
+    {
+      "record_id": "dryad_optic_neuritis_metacontrast",
+      "publication_date": "2017-09-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.cp4j7",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Sep 26, 2017 on Dryad"
+    },
+    {
+      "record_id": "dryad_pediatric_corneal_endothelium",
+      "publication_date": "2022-03-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.hhmgqnkjc",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Mar 17, 2022 on Dryad"
+    },
+    {
+      "record_id": "dryad_pediatric_myopia_longitudinal",
+      "publication_date": "2019-10-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.d4mb3pn",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Oct 07, 2019 on Dryad"
+    },
+    {
+      "record_id": "dryad_pediatric_optical_quality",
+      "publication_date": "2016-11-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.bm8nv",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Nov 02, 2016 on Dryad"
+    },
+    {
+      "record_id": "dryad_pediatric_secondary_iol",
+      "publication_date": "2015-08-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.5t9d1",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Aug 07, 2015 on Dryad"
+    },
+    {
+      "record_id": "dryad_pk31jt2",
+      "publication_date": "2019-08-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.pk31jt2",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Aug 07, 2019 on Dryad"
+    },
+    {
+      "record_id": "dryad_pnvx0k6hv",
+      "publication_date": "2020-10-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.pnvx0k6hv",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Oct 29, 2020 on Dryad"
+    },
+    {
+      "record_id": "dryad_preeclampsia_ocular_octa",
+      "publication_date": "2023-11-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.j0zpc86kg",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Nov 08, 2023 on Dryad"
+    },
+    {
+      "record_id": "dryad_pvd_diagnostic_oct",
+      "publication_date": "2023-06-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.h44j0zpnp",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jun 26, 2023 on Dryad"
+    },
+    {
+      "record_id": "dryad_pzgmsbcfw",
+      "publication_date": "2020-07-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.pzgmsbcfw",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jul 02, 2020 on Dryad"
+    },
+    {
+      "record_id": "dryad_qfttdz0dr",
+      "publication_date": "2020-12-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.qfttdz0dr",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Dec 10, 2020 on Dryad"
+    },
+    {
+      "record_id": "dryad_r7s04",
+      "publication_date": "2017-02-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.r7s04",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Feb 08, 2017 on Dryad"
+    },
+    {
+      "record_id": "dryad_rao_multiomics",
+      "publication_date": "2026-05-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.98sf7m0wt",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published May 28, 2026 on Dryad"
+    },
+    {
+      "record_id": "dryad_ravi_cataract_outcomes",
+      "publication_date": "2017-11-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.4p55b",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Nov 29, 2017 on Dryad"
+    },
+    {
+      "record_id": "dryad_retinal_prosthesis_navigation",
+      "publication_date": "2015-08-11",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.c6147",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Aug 11, 2015 on Dryad"
+    },
+    {
+      "record_id": "dryad_rn38r",
+      "publication_date": "2018-01-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.rn38r",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jan 17, 2018 on Dryad"
+    },
+    {
+      "record_id": "dryad_rn8pk0p70",
+      "publication_date": "2021-05-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.rn8pk0p70",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published May 18, 2021 on Dryad"
+    },
+    {
+      "record_id": "dryad_rn8pk0pdp",
+      "publication_date": "2022-10-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.rn8pk0pdp",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Oct 16, 2022 on Dryad"
+    },
+    {
+      "record_id": "dryad_rop_plane_wave_doppler",
+      "publication_date": "2024-03-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.612jm649r",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Mar 18, 2024 on Dryad"
+    },
+    {
+      "record_id": "dryad_rpgr_cone_rod_wes",
+      "publication_date": "2021-06-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.5qfttdz5d",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jun 09, 2021 on Dryad"
+    },
+    {
+      "record_id": "dryad_sbcc2fr6n",
+      "publication_date": "2021-07-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.sbcc2fr6n",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jul 08, 2021 on Dryad"
+    },
+    {
+      "record_id": "dryad_sbcc2fr7r",
+      "publication_date": "2023-11-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.sbcc2fr7r",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Nov 03, 2023 on Dryad"
+    },
+    {
+      "record_id": "dryad_shanghai_myopia_2014_2018",
+      "publication_date": "2020-11-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.c2fqz615c",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Nov 09, 2020 on Dryad"
+    },
+    {
+      "record_id": "dryad_sn02v6x2x",
+      "publication_date": "2020-12-11",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.sn02v6x2x",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Dec 11, 2020 on Dryad"
+    },
+    {
+      "record_id": "dryad_stargardt_wes",
+      "publication_date": "2016-06-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.0qk7f",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jun 29, 2016 on Dryad"
+    },
+    {
+      "record_id": "dryad_taizhou_cataract_outdoors",
+      "publication_date": "2016-08-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.gt410",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Aug 07, 2016 on Dryad"
+    },
+    {
+      "record_id": "dryad_tb_uveitis_ifn",
+      "publication_date": "2018-11-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.8jk03jd",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Nov 07, 2018 on Dryad"
+    },
+    {
+      "record_id": "dryad_tmpg4f4vb",
+      "publication_date": "2020-02-06",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.tmpg4f4vb",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Feb 06, 2020 on Dryad"
+    },
+    {
+      "record_id": "dryad_toric_iol_incision",
+      "publication_date": "2018-07-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.01n20",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jul 10, 2018 on Dryad"
+    },
+    {
+      "record_id": "dryad_uveal_melanoma_coog2",
+      "publication_date": "2025-02-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.n8pk0p340",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Feb 26, 2025 on Dryad"
+    },
+    {
+      "record_id": "dryad_uveitis_vitreous_biomarkers",
+      "publication_date": "2017-09-11",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.597ch",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Sep 11, 2017 on Dryad"
+    },
+    {
+      "record_id": "dryad_v6wwpzh1b",
+      "publication_date": "2024-05-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.v6wwpzh1b",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published May 10, 2024 on Dryad"
+    },
+    {
+      "record_id": "dryad_v9p0b",
+      "publication_date": "2018-03-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.v9p0b",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Mar 16, 2018 on Dryad"
+    },
+    {
+      "record_id": "dryad_vkh_apoe",
+      "publication_date": "2025-11-24",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.37pvmcvzx",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Nov 24, 2025 on Dryad"
+    },
+    {
+      "record_id": "dryad_xgxd254pk",
+      "publication_date": "2024-01-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.xgxd254pk",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jan 29, 2024 on Dryad"
+    },
+    {
+      "record_id": "dryad_young_adult_uv_transmission",
+      "publication_date": "2019-06-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.hg000c2",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Jun 29, 2019 on Dryad"
+    },
+    {
+      "record_id": "dryad_z8w9ghx9c",
+      "publication_date": "2020-10-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.z8w9ghx9c",
+      "publication_date_source_field": "Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Oct 26, 2020 on Dryad"
+    },
+    {
+      "record_id": "external_eye_blepharitis",
+      "publication_date": "2025-09-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/bp37vw4z8d/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"29 September 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "eye_conjunctiva_segmentation",
+      "publication_date": "2023-08-31",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/yxwjgcndg2/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"31 August 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "eye_disease_image_mendeley",
+      "publication_date": "2024-04-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/s9bfhswzjb/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"2 April 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "eyecatcher_visual_field",
+      "publication_date": "2021-04-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/swsfj47cxw/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"26 April 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "fimd",
+      "publication_date": "2023-09-27",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/jkzsh6pcv4/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"27 September 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "fociset_pamm",
+      "publication_date": "2024-06-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/mkwxn7rjpm/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"17 June 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "ghana_eye_screening",
+      "publication_date": "2026-03-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/mfv6sb5wyc/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"3 March 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "hassan_composite_retina",
+      "publication_date": "2021-03-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/trghs22fpg/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"19 March 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "leops_erg",
+      "publication_date": "2026-04-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/w3yx7hdds7/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"17 April 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal",
+      "publication_date": "2026-07-27",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/xzf382pby9/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"27 July 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_analysis_macular_pigment_carotenoids_human_blood",
+      "publication_date": "2024-08-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/8pwpbcrjd8/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"8 August 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_annotated_infant_fundus_images_object_detection",
+      "publication_date": "2021-03-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/9kvk7nkhx6/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"16 March 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy",
+      "publication_date": "2021-08-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/tsf8b4yj3j/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"23 August 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_code_manuscript_fixational_eye_movements_as",
+      "publication_date": "2025-01-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/p7dyyrfds6/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"17 January 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_comparison_retinal_choroidal_vascular_changes_via",
+      "publication_date": "2024-10-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/3m8fcfmp9j/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"14 October 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_conjunctival_melanoma_detection_using_deep_learning",
+      "publication_date": "2020-09-01",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/t75wjsw6bw/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"1 September 2020\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_corneal_refractive_parameters_age_patients_without",
+      "publication_date": "2025-07-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/yr8hbwmsvy/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"7 July 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_cust_iris",
+      "publication_date": "2026-06-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/3j6skjpsng/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"22 June 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_deep_learning_prediction_uncorrected_refractive_error",
+      "publication_date": "2023-04-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/89z7h5gnpw/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"5 April 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_development_deep_learning_based_system_optic",
+      "publication_date": "2023-06-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/kw8gvp8m8x/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"16 June 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_dex_combined_ppv_pdr",
+      "publication_date": "2026-04-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zcmpcczdhs/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"17 April 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_digital_holograms_rbcs_glaucoma_patients_healthy",
+      "publication_date": "2025-04-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/tryd7r3wct/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"8 April 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_early_detection_glaucomatous_visual_field_progression",
+      "publication_date": "2020-03-31",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/w34s5mhvpm/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"31 March 2020\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_effect_adlay_seed_extract_on_level",
+      "publication_date": "2024-07-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/x7rcj9yz65/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"22 July 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_efficacy_combined_orthokeratology_0_01_atropine",
+      "publication_date": "2019-12-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/y58rh8bfkv/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"3 December 2019\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_electrooculography_eog_blink_analysis_ocular_fatigue",
+      "publication_date": "2026-06-13",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/w7hm97cts5/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"13 June 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_et_pd_vis_eye_tracking_visualization",
+      "publication_date": "2026-07-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/83htprx9y6/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"8 July 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_evaluation_dry_eye_severity_ocular_surface",
+      "publication_date": "2022-12-12",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zzgw9t9jsy/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"12 December 2022\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_evaluation_refractive_visual_outcomes_as_well",
+      "publication_date": "2020-04-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/r2v99nw7vg/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"15 April 2020\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_exome_sequencing_clec3b",
+      "publication_date": "2022-03-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/public-api/datasets/xcw5x5z49r",
+      "publication_date_source_field": "versions[version=1].publish_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version=1; publish_date=\"2022-03-10T15:11:10.297Z\"; available=False"
+    },
+    {
+      "record_id": "mendeley_fferg_reference_healthy_controls_university_eye",
+      "publication_date": "2026-04-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/37wxt2ybvj/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"17 April 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_foveal_cone_photoreceptor_outer_segment_length",
+      "publication_date": "2023-11-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/89rykrg8j2/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"17 November 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_fundus_mctn",
+      "publication_date": "2025-03-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/spz4b8tbzt/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"19 March 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_hpsc_derived_photoreceptor_axon_extension_growth",
+      "publication_date": "2022-03-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/cpy5j23354/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"17 March 2022\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_human_foveal_cone_topography_preferred_retinal",
+      "publication_date": "2021-08-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/9gkpxsmz23/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"3 August 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy",
+      "publication_date": "2023-11-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/public-api/datasets/xw5xc7xrmp",
+      "publication_date_source_field": "versions[version=1].publish_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version=1; publish_date=\"2023-11-14T06:23:18.546Z\"; available=False"
+    },
+    {
+      "record_id": "mendeley_identification_human_retinal_stem_like_cells",
+      "publication_date": "2023-09-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/s9wbscpsrs/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"18 September 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_influence_angle_alpha_angle_kappa_optical",
+      "publication_date": "2021-12-06",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/w5ws4pzzxr/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"6 December 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_interocular_retinal_nerve_fiber_layer_thickness",
+      "publication_date": "2020-07-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/ss2nynfc8s/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"10 July 2020\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_iscev_standard_full_field_erg_reference",
+      "publication_date": "2025-08-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/kcptb9jrf5/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"15 August 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_long_term_safety_efficacy_limited_vitrectomy",
+      "publication_date": "2018-05-11",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/dnss5ttn73/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"11 May 2018\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_multi_class_retinal_fundus_image_deep",
+      "publication_date": "2026-07-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/z227d626vm/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"14 July 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_myopia_metal_mixture_exposure",
+      "publication_date": "2026-03-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/jgh7dxdwyy/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"4 March 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_nagyz_liberty_677my_vs_alcon_acrysof",
+      "publication_date": "2022-01-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zygxgyf4ns/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"10 January 2022\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_netarsudil_on_kdb_treated_eyes",
+      "publication_date": "2021-04-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/r6gw6fnvdm/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"26 April 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive",
+      "publication_date": "2020-03-31",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/npt7rp69gm/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"31 March 2020\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_nuclear_cataract_database_biomedical_machine_learning",
+      "publication_date": "2023-03-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/6wv33nbcvv/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"29 March 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_ocular_biometry",
+      "publication_date": "2024-04-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/4twnn4546j/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"2 April 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_ocular_sebaceous_neoplasms",
+      "publication_date": "2025-08-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/xg9jcjn388/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"18 August 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_ocular_surface_disorders_affect_quality_life",
+      "publication_date": "2022-09-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/73r8vrxksx/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"26 September 2022\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_ophthalmic_anthropometry_malawians",
+      "publication_date": "2018-11-21",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/bctfh4m93c/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"21 November 2018\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_ophthalmic_stroke_biomarkers_south_asia",
+      "publication_date": "2025-07-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/whpsmdc2gk/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"25 July 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_orbscan_iiz_anterior_maps",
+      "publication_date": "2026-06-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/78wt2nc387/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"16 June 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_plasma_energy_metabolomics_patients_ocular_disease",
+      "publication_date": "2025-02-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/tybzw7zsng/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"7 February 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora",
+      "publication_date": "2019-06-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/53nxz6xr5j/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"10 June 2019\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_postural_stargardt_s_syndrome_patients",
+      "publication_date": "2021-04-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/5rz9j8t6p4/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"26 April 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_proteomic_analysis_human_autoimmune_retinopathy_air",
+      "publication_date": "2021-12-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/t7yrm5x3ws/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"22 December 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_quantified_processed_microarray_22_individuals_without",
+      "publication_date": "2020-02-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/72b47vpgtz/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"17 February 2020\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_raw_manuscript_light_responsive_microrna_molecules",
+      "publication_date": "2023-05-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/8ksg9fssd9/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"16 May 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_red_lesion_localization_messidor_retinal_images",
+      "publication_date": "2019-05-30",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/3r5m3nfdkv/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"30 May 2019\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_refractive_error_visual_impairment_among_school",
+      "publication_date": "2024-08-07",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/crgbf93fnw/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"7 August 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_retina_identification_database_ridb",
+      "publication_date": "2020-06-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/tjw3zwntv6/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"10 June 2020\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_retinal_blood_vessel_segmentation_rop",
+      "publication_date": "2020-07-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/prcy36j53v/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"15 July 2020\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic",
+      "publication_date": "2021-03-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/7r7xt6pf6x/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"4 March 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_sars_cov_2_infection_ocular_cells",
+      "publication_date": "2021-04-06",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/jgw2mcgb67/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"6 April 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_serum_proteomic_profiles_keratoconus_post_laser",
+      "publication_date": "2026-02-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/yzsktrxh6y/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"15 February 2026\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_sub_cone_visual_resolution_by_active",
+      "publication_date": "2024-10-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zp6d5w8kdv/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"2 October 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic",
+      "publication_date": "2024-09-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/222mnygnjz/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"4 September 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_test_results_article_motion_perception_glaucoma",
+      "publication_date": "2023-07-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zhz8kjsykf/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"25 July 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes",
+      "publication_date": "2020-03-31",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zsxt8wk4sh/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"31 March 2020\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_two_photon_excited_fluorescence_scanning_laser",
+      "publication_date": "2022-12-06",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/nhpnt78ssy/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"6 December 2022\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_utilizing_responsive_web_portal_studying_disc",
+      "publication_date": "2021-05-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/7xv5rzxgrh/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"5 May 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mendeley_vivo_cone_photoreceptor_topography_human_foveola",
+      "publication_date": "2025-07-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/m5nkpb8phv/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"8 July 2025\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "mured",
+      "publication_date": "2022-07-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/pc4mb3h8hz/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"25 July 2022\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "myopic_regression_fundus",
+      "publication_date": "2021-11-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/k34rvfw3dg/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"8 November 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "nehut",
+      "publication_date": "2021-10-06",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/8kt969dhx6/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"6 October 2021\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "octa_macula_coronal",
+      "publication_date": "2023-07-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/p5h7x55zw7/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"5 July 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "octdl",
+      "publication_date": "2023-12-13",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/sncdhf53xc/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"13 December 2023\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "rao_fundus",
+      "publication_date": "2024-11-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/5428684j44/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"8 November 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "retinal_corrugations_oct",
+      "publication_date": "2022-09-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/bzsc7gd9p3/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"5 September 2022\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "rop_synthetic_mendeley",
+      "publication_date": "2022-02-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/fscyyhg6vt/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"14 February 2022\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "thyroid_ophthalmopathy_external",
+      "publication_date": "2024-09-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/z7ys7r4bdn/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"4 September 2024\"; citation_volume=\"1\""
+    },
+    {
+      "record_id": "uveitis_smote",
+      "publication_date": "2024-11-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/n9zp473wfw/1",
+      "publication_date_source_field": "citation_publication_date (version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "citation_publication_date=\"28 November 2024\"; citation_volume=\"1\""
+    }
+  ],
+  "unresolved": []
+}

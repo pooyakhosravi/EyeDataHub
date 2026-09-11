@@ -20,6 +20,11 @@ Human anterior-segment OCT keratometric-astigmatism measurements.
 | --- | --- |
 | **Short name** | `casia2_keratometric_astigmatism` |
 | **Full name** | CASIA2 Keratometric Astigmatism Dataset |
+| **First published** | 2024-07-29 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/26395018/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `casia2_keratometric_astigmatism` |

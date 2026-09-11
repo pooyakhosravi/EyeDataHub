@@ -20,6 +20,11 @@ The prospective multicentre uveitis vitreous biomarker table is direct human ocu
 | --- | --- |
 | **Short name** | `dryad_uveitis_vitreous_biomarkers` |
 | **Full name** | Uveitis Vitreous Biomarker Dataset |
+| **First published** | 2017-09-11 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.597ch](https://doi.org/10.5061/dryad.597ch) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_uveitis_vitreous_biomarkers` |

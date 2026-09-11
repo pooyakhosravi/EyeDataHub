@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from Six inherite
 | --- | --- |
 | **Short name** | `mendeley_exome_sequencing_clec3b` |
 | **Full name** | Exome sequencing data for CLEC3B |
+| **First published** | 2022-03-10 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/public-api](https://data.mendeley.com/public-api/datasets/xcw5x5z49r) |
+| **Publication date source field** | versions[version=1].publish_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_exome_sequencing_clec3b` |

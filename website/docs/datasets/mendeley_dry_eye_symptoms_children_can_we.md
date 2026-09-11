@@ -20,6 +20,11 @@ Participant-level questionnaire/repeatability measurements from Child participan
 | --- | --- |
 | **Short name** | `mendeley_dry_eye_symptoms_children_can_we` |
 | **Full name** | Dry eye symptoms in children: can we reliably measure them? |
+| **First published** | 2020-04-11 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/h79366vw73/1) |
+| **Publication date source field** | citation_publication_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_dry_eye_symptoms_children_can_we` |

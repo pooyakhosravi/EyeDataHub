@@ -20,6 +20,11 @@ Orbscan corneal topography maps and structured clinical annotations for keratoco
 | --- | --- |
 | **Short name** | `cornorb` |
 | **Full name** | CornOrb: Orbscan Corneal Topography and Clinical Annotations |
+| **First published** | 2025-09-15 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/17121302) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cornorb` |

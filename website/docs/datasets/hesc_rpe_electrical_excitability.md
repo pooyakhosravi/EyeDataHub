@@ -20,6 +20,11 @@ Human embryonic-stem-cell-derived RPE electrophysiology data.
 | --- | --- |
 | **Short name** | `hesc_rpe_electrical_excitability` |
 | **Full name** | hESC-Derived RPE Electrical Excitability Dataset |
+| **First published** | 2023-03-10 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/22246969/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `electrophysiology` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `hesc_rpe_electrical_excitability` |

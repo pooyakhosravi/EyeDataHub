@@ -316,6 +316,11 @@ def at_a_glance_table(dataset: EyeDataHubDataset) -> str:
         "| --- | --- |\n"
         f"| **Short name** | `{info.name}` |\n"
         f"| **Full name** | {mdx_table_cell(info.full_name)} |\n"
+        f"| **First published** | {mdx_table_cell(info.publication_date or 'Unknown')} |\n"
+        f"| **Publication date precision** | {mdx_table_cell(info.publication_date_precision or 'Unknown')} |\n"
+        f"| **Publication date evidence** | {source_link(info.publication_date_source_url) if info.publication_date_source_url else 'Unknown'} |\n"
+        f"| **Publication date source field** | {mdx_table_cell(info.publication_date_source_field or 'Unknown')} |\n"
+        f"| **Publication date reviewed** | {mdx_table_cell(info.publication_date_reviewed_on or 'Unknown')} |\n"
         f"| **Primary category** | `{info.primary_category}` |\n"
         f"| **Resource role** | `{resource_role}` |\n"
         f"| **Dataset family** | `{dataset_family}` |\n"
@@ -891,6 +896,7 @@ def build_sidebars_js(
 
 def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
     """Return dashboard-friendly dataset and summary metadata."""
+    from eyedatahub.core.publication_dates import publication_fields
     records_by_name = {dataset.info.name: dataset for dataset in all_ds}
     rows = []
     for d in sorted(all_ds, key=lambda ds: ds.info.name):
@@ -914,6 +920,7 @@ def build_static_dataset_index(all_ds: list[EyeDataHubDataset]) -> dict:
                 "name": i.name,
                 "full_name": i.full_name,
                 "description": i.description,
+                **publication_fields(i),
                 "modality": i.modality,
                 "primary_category": i.primary_category,
                 "modalities": list(i.modalities),

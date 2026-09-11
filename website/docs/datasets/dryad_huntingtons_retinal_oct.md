@@ -20,6 +20,11 @@ The named CSV and README form a direct human retinal OCT biomarker resource.
 | --- | --- |
 | **Short name** | `dryad_huntingtons_retinal_oct` |
 | **Full name** | Is retina affected in Huntington's disease? Is optical coherence tomography a good biomarker? |
+| **First published** | 2025-10-07 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.ncjsxksxr](https://doi.org/10.5061/dryad.ncjsxksxr) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_huntingtons_retinal_oct` |

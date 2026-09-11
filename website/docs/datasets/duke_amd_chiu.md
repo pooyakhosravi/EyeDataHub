@@ -20,6 +20,11 @@ Twenty OCT volumes with 220 selected B-scans from eyes with non-neovascular AMD,
 | --- | --- |
 | **Short name** | `duke_amd_chiu` |
 | **Full name** | Duke AMD Pathology OCT Segmentation Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `duke_amd_chiu` |

@@ -1,0 +1,258 @@
+{
+  "records": [
+    {
+      "record_id": "amd_sd",
+      "publication_date": "2024-09-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/collections/7157554/articles",
+      "publication_date_source_field": "articles[0].published_date / timeline.firstOnline",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "An Optical Coherence Tomography Image Dataset for wet AMD Lesions Segmentation; published_date 2024-09-17T16:28:16Z; timeline.firstOnline 2024-09-17.",
+      "notes": "Catalog identifies Kaggle as a mirror and Figshare collection 7157554 as the primary source; the Figshare first-online date is used instead of the later Kaggle v1 date (2024-09-30)."
+    },
+    {
+      "record_id": "aod",
+      "publication_date": "2021-08-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/nurmukhammed7/augemnted-ocular-diseases",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2021-08-20T01:56:33.883Z; versionNotes Initial release.",
+      "notes": "The catalog resource is the augmented ODIR-derived Kaggle dataset itself; its public v1 release is dated directly by Kaggle API metadata."
+    },
+    {
+      "record_id": "cataract",
+      "publication_date": "2019-08-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/jr2ngb/cataractdataset",
+      "publication_date_source_field": "versions[1].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version 1 creationDate 2019-08-23T07:08:21.697Z, versionNotes Initial release; version 2 is an Automatic Update later the same day.",
+      "notes": "Earliest public Kaggle version is used; the later automatic update is not substituted."
+    },
+    {
+      "record_id": "higancnn_generated_glaucoma",
+      "publication_date": "2022-08-13",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/hindsaud/datasets-higancnn-glaucoma-detection",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2022-08-13T15:16:37.683Z; versionNotes Initial release.",
+      "notes": "Public Kaggle v1 is the release of this synthetic/assembled resource; no earlier standalone release route was identified."
+    },
+    {
+      "record_id": "hybridgaze",
+      "publication_date": "2025-10-13",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/michachwesiuk/hybridgaze",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version 1 creationDate 2025-10-13T20:11:32.633Z, versionNotes Initial release; version 2 is an update later the same day.",
+      "notes": "Earliest public Kaggle version is used."
+    },
+    {
+      "record_id": "keratoconus_detection_kaggle",
+      "publication_date": "2023-01-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/elmehdi12/keratoconus-detection",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2023-01-28T13:57:32.313Z; versionNotes Initial release.",
+      "notes": "Public Kaggle v1 is the cataloged resource release."
+    },
+    {
+      "record_id": "kermany_oct",
+      "publication_date": "2017-12-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.datacite.org/dois/10.17632/rscbjbr9sj.1",
+      "publication_date_source_field": "dates[0].date where dateType=Issued (Mendeley Data v1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "DOI 10.17632/rscbjbr9sj.1; title Labeled Optical Coherence Tomography (OCT) for Classification; creator Kermany, Daniel; publisher Mendeley; Issued 2017-12-25.",
+      "notes": "The Mendeley v1 title, creator, and description match the cataloged four-class Kermany OCT resource; Kaggle v1 (2018-03-22) is treated as a later mirror."
+    },
+    {
+      "record_id": "oct_c8",
+      "publication_date": "2021-10-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/obulisainaren/retinal-oct-c8",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version 1 creationDate 2021-10-05T03:56:35.113Z; versionNotes Initial release; v2 is Normalised Version and v3 adds a README.",
+      "notes": "Earliest public Kaggle version is used."
+    },
+    {
+      "record_id": "oct_macular_hole_postsurgery",
+      "publication_date": "2021-12-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/mathieugodbout/oct-postsurgery-visual-improvement",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2021-12-23T00:22:20.867Z; versionNotes Initial release; v2 is a later data update.",
+      "notes": "Earliest public Kaggle version is used."
+    },
+    {
+      "record_id": "retinal_oct_octa_two_subjects_processed",
+      "publication_date": "2021-01-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/cnzakimuena/retinal-oct-and-octa-data-3",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2021-01-23T23:22:06.88Z; versionNotes Initial release.",
+      "notes": "Public Kaggle v1 is the cataloged processed two-subject resource; no earlier independent release was identified."
+    },
+    {
+      "record_id": "rfmid",
+      "publication_date": "2020-11-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://riadd.grand-challenge.org/",
+      "publication_date_source_field": "Official RIADD Important Dates: Training Data Release (Images + Ground truth)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "22 Nov 2020: Training Data Release (Images + Ground truth).",
+      "notes": "The official RIADD challenge release predates the Kaggle mirror v1 (2021-08-16) and is used for the represented RFMiD resource."
+    },
+    {
+      "record_id": "rop_ostrava",
+      "publication_date": "2022-11-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/jananowakova/retinal-image-dataset-of-infants-and-rop",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version 1 creationDate 2022-11-02T14:36:37.383Z; versionNotes Initial release; later versions are updates in 2024-2025.",
+      "notes": "Kaggle v1 is an explicit public version release. The later article states a published-dataset release date of 2023-04-04; that publication milestone is not substituted for the earlier public Kaggle v1."
+    },
+    {
+      "record_id": "ru_medical_texts_ophthalmology",
+      "publication_date": "2024-12-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/cheshrcat/ru-medical-texts-ophtalmology",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version 1 creationDate 2024-12-16T17:51:21.437Z; versionNotes Initial release; subsequent versions add splits/glossary and scores.",
+      "notes": "Earliest public Kaggle version is used."
+    },
+    {
+      "record_id": "toxofundus",
+      "publication_date": "2021-01-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/5156953/versions",
+      "publication_date_source_field": "hits.hits[index=0].metadata.publication_date (Zenodo concept version index 0)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Ocular Toxoplasmosis Fundus Images Dataset concept 4439566; earliest version record 4441200 has version index 0 and metadata.publication_date 2021-01-14; later record 5156953 is index 4.",
+      "notes": "The cataloged Kaggle route is a later mirror; Zenodo concept history establishes the original resource release date."
+    },
+    {
+      "record_id": "visual_field_testing_experiment",
+      "publication_date": "2021-10-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/shozosaeki/visual-field-testing-experiment",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2021-10-04T02:38:43.11Z; versionNotes Initial release.",
+      "notes": "Public Kaggle v1 is the cataloged experiment-data release; the linked preprint date is not used."
+    }
+  ],
+  "unresolved": [
+    {
+      "record_id": "intraretinal_cystoid_fluid",
+      "reason": "The Kaggle API exposes only current version 3 (2022-06-18 Data Update) and no public v1 history. The Kaggle DataCite DOI exposes created/registered timestamps but no Issued/Available date or version-history field; DOI registration is not treated as publication evidence, so the initial resource date remains unresolved.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/zeeshanahmed13/intraretinal-cystoid-fluid",
+        "https://api.datacite.org/dois/10.34740/KAGGLE/DS/2277068",
+        "https://www.kaggle.com/ds/2277068"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "brasil_glaucoma_brg",
+      "reason": "Kaggle API v1 is dated 2025-05-22, but an official 2026 PMC data-availability statement records the same Kaggle resource as publicly available by 2025-01-28. The Kaggle creation date therefore cannot establish initial public release, and no earlier official resource-release field was found.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/clerimar/brasil-glaucoma-brg",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12984144/",
+        "https://www.mdpi.com/2227-9032/10/12/2345"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "drishti_gs",
+      "reason": "Kaggle v1 is a later mirror (2021-10-18). The official CVIT Drishti-GS page confirms the dataset and availability but exposes no dated initial-release or version-history field, so the Kaggle date is not substituted.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/lokeshsaipureddi/drishtigs-retina-dataset-for-onh-segmentation",
+        "https://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/Home.php"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "e_ophtha",
+      "reason": "Kaggle v1 is a later mirror (2026-03-29). The official ADCIS e-ophtha page confirms the database and download route but has no dated initial-release/version field; the 2013 article year is not used as a resource-release date.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/samriddhibagchi/e-ophtha-diabetic-retinopathy-datasets-ex-ma",
+        "https://www.adcis.net/en/third-party/e-ophtha/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "gleam",
+      "reason": "Kaggle API exposes only current version 3 (2026-01-24), with no public v1 history. The linked official GitHub repository has no releases or tags establishing an earlier public data release, so the current update date is not used.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/zhangyiyinge/gleam-dataset",
+        "https://github.com/microewing/HAMM",
+        "https://api.github.com/repos/microewing/HAMM/releases?per_page=10",
+        "https://api.github.com/repos/microewing/HAMM/tags?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "itec_iris_pupil",
+      "reason": "Kaggle v1 is a later mirror (2025-08-25). The official ITEC Iris and Pupil Segmentation page confirms the resource and its 2020 paper but exposes no dated initial-release/version field; the paper year is not substituted.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/arwabasal/itec-iris-and-pupil-segmentation",
+        "https://ftp.itec.aau.at/datasets/ovid/iris_pupil_seg/index.html"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "odir2019",
+      "reason": "Kaggle v1 is dated 2020-04-19, while the official ODIR-2019 challenge page identifies the original challenge/resource but exposes no dated data-release or version-history field. The challenge title/year alone is insufficient to establish the initial public release date.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/andrewmvd/ocular-disease-recognition-odir5k",
+        "https://odir2019.grand-challenge.org/",
+        "https://odir2019.grand-challenge.org/dataset/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "rimone_dl",
+      "reason": "Kaggle v1 is a later mirror (2025-04-18). The official project GitHub page confirms the RIM-ONE DL dataset but has no public release object, tag, or dated dataset-release announcement; the 2020 article/publication date is not substituted.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/orvile/rim-one-retinal-dataset-for-assessing-glaucoma",
+        "https://github.com/miag-ull/rim-one-dl",
+        "https://api.github.com/repos/miag-ull/rim-one-dl/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "smdg",
+      "reason": "Kaggle API exposes only current version 10 (2023-04-23), not v1. The public Kaggle DOI was created 2023-04-25, while the resource citation describes it as Kaggle 2022; these fields conflict and do not establish an initial release date.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/deathtrooper/multichannel-glaucoma-benchmark-dataset",
+        "https://api.datacite.org/dois/10.34740/KAGGLE/DS/2329670"
+      ],
+      "review_date": "2026-09-11"
+    }
+  ]
+}

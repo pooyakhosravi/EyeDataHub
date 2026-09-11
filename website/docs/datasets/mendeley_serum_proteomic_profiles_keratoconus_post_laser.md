@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from Keratoconus,
 | --- | --- |
 | **Short name** | `mendeley_serum_proteomic_profiles_keratoconus_post_laser` |
 | **Full name** | Serum proteomic profiles in keratoconus, post-laser vision correction ectasia, and pellucid marginal degeneration |
+| **First published** | 2026-02-15 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yzsktrxh6y/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_serum_proteomic_profiles_keratoconus_post_laser` |

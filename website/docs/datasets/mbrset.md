@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `mbrset` |
 | **Full name** | mBRSET: Mobile Brazilian Retinal Dataset |
+| **First published** | 2024-06-26 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [physionet.org/content](https://physionet.org/content/mbrset/1.0/) |
+| **Publication date source field** | PhysioNet landing page: Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mbrset` |

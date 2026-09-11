@@ -20,6 +20,11 @@ Fundus photographs for ocular toxoplasmosis detection: active toxoplasmosis, ina
 | --- | --- |
 | **Short name** | `toxofundus` |
 | **Full name** | ToxoFundus: Ocular Toxoplasmosis Fundus Dataset |
+| **First published** | 2021-01-14 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/5156953/versions) |
+| **Publication date source field** | hits.hits[index=0].metadata.publication_date (Zenodo concept version index 0) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `toxofundus` |

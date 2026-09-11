@@ -20,6 +20,11 @@ VKH PBMC transcriptomics and proteomics are a direct translational uveitis bioma
 | --- | --- |
 | **Short name** | `dryad_vkh_apoe` |
 | **Full name** | VKH APOE Transcriptomics and Proteomics Dataset |
+| **First published** | 2025-11-24 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.37pvmcvzx](https://doi.org/10.5061/dryad.37pvmcvzx) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_vkh_apoe` |

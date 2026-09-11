@@ -20,6 +20,11 @@ Fundus fluorescein angiography images paired with Chinese and translated English
 | --- | --- |
 | **Short name** | `ffa_ir` |
 | **Full name** | FFA-IR Medical Report Dataset |
+| **First published** | 2021-09-21 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [physionet.org/content](https://www.physionet.org/content/ffa-ir-medical-report/1.0.0/) |
+| **Publication date source field** | PhysioNet landing page: Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ffa_ir` |

@@ -20,6 +20,11 @@ Synthetic circumpapillary OCT images for healthy and glaucomatous eyes with reti
 | --- | --- |
 | **Short name** | `syn_oct` |
 | **Full name** | SYN-OCT Synthetic Glaucoma OCT Dataset |
+| **First published** | 2025-09-18 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/17151869) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `syn_oct` |

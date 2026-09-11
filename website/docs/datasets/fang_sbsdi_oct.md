@@ -20,6 +20,11 @@ Human and human-derived paired retinal OCT images used to study sparse acquisiti
 | --- | --- |
 | **Short name** | `fang_sbsdi_oct` |
 | **Full name** | Duke Fang SBSDI Retinal OCT Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `fang_sbsdi_oct` |

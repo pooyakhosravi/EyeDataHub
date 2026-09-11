@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `aptos2019` |
 | **Full name** | APTOS 2019 Blindness Detection |
+| **First published** | 2019-06-27 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [kaggle.com/competitions](https://www.kaggle.com/competitions/aptos2019-blindness-detection/overview/prizes) |
+| **Publication date source field** | Kaggle competition Overview: Start |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `aptos2019` |

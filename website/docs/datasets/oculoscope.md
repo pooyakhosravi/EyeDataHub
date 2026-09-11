@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `oculoscope` |
 | **Full name** | OculoScope: Fairer AI in Ophthalmology Dataset |
+| **First published** | 2023-12-03 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/10403889) |
+| **Publication date source field** | metadata.publication_date (author Zenodo dataset record) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `uwf_fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `oculoscope` |

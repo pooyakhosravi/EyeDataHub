@@ -20,6 +20,11 @@ Official Dryad deposit of source-described visual-field and retinal measurement 
 | --- | --- |
 | **Short name** | `dryad_xgxd254pk` |
 | **Full name** | Supporting information for: Discrimination ability of central visual field testing using stimulus size I, II, and III and relationship with macular ganglion cell thickness in chiasmal compression |
+| **First published** | 2024-01-29 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.xgxd254pk](https://doi.org/10.5061/dryad.xgxd254pk) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `visual_field` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_xgxd254pk` |

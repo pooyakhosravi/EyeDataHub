@@ -20,6 +20,11 @@ Karachi cataract-surgery quality data are direct human ophthalmic population out
 | --- | --- |
 | **Short name** | `dryad_karachi_cataract_outcomes` |
 | **Full name** | Karachi Cataract Surgery Quality Dataset |
+| **First published** | 2016-06-16 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.7q5c7](https://doi.org/10.5061/dryad.7q5c7) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_karachi_cataract_outcomes` |

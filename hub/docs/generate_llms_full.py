@@ -44,11 +44,12 @@ def build(root: Path) -> Path:
         "- LOAD: `implemented` or `metadata_only`",
         "- ROLE: reviewed resource role",
         "- DFAM: narrow dataset-family identifier",
+        "- PUB: initial public dataset release (YYYY, YYYY-MM, or YYYY-MM-DD); ? = unknown. Source evidence is available via eyehub show --json.",
         "",
         "## Format",
         "",
         "```",
-        "<name> | <modality> | TASK=<tasks> | ROLE=<role> DFAM=<dataset_family> | FAM=<license_family> SNC=<y/n/?> | BAK=<backend> ACCESS=<state> LOAD=<status> | N=<reported_count and unit> | URL=<source> | <full_name>: <description>",
+        "<name> | <modality> | TASK=<tasks> | PUB=<initial_publication_date> | ROLE=<role> DFAM=<dataset_family> | FAM=<license_family> SNC=<y/n/?> | BAK=<backend> ACCESS=<state> LOAD=<status> | N=<reported_count and unit> | URL=<source> | <full_name>: <description>",
         "```",
         "",
     ]
@@ -72,6 +73,7 @@ def build(root: Path) -> Path:
         lines.append(
             f"- `{info.name}` | {info.modality} | "
             f"TASK={tasks} | "
+            f"PUB={info.publication_date or '?'} | "
             f"ROLE={resource_role_for(info.name)} "
             f"DFAM={dataset_family_for(info.name)} | "
             f"FAM={info.license_family} SNC={com} | "

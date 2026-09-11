@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Source describes de
 | --- | --- |
 | **Short name** | `mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora` |
 | **Full name** | Data for: Post-Intravitreal Injection Ciprofloxacin and Conjunctival Flora Resistance |
+| **First published** | 2019-06-10 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/53nxz6xr5j/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_post_intravitreal_injection_ciprofloxacin_conjunctival_flora` |

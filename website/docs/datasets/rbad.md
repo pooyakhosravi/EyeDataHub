@@ -20,6 +20,11 @@ Fundus-image benchmark with retinal vessel branching-angle annotations for evalu
 | --- | --- |
 | **Short name** | `rbad` |
 | **Full name** | RBAD Retinal Branching-Angle Detection Benchmark |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `rbad` |

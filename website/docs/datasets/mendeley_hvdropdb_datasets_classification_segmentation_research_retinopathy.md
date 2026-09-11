@@ -20,6 +20,11 @@ Human/derived image or image-annotation observations. from Preterm infants scree
 | --- | --- |
 | **Short name** | `mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy` |
 | **Full name** | HVDROPDB Datasets for Classification and Segmentation for Research in Retinopathy of Prematurity, Ranjana Agrawal |
+| **First published** | 2023-11-14 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/public-api](https://data.mendeley.com/public-api/datasets/xw5xc7xrmp) |
+| **Publication date source field** | versions[version=1].publish_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_hvdropdb_datasets_classification_segmentation_research_retinopathy` |

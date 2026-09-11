@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `csdi` |
 | **Full name** | CSDI: Cataract Severity Diagnostic Image Dataset |
+| **First published** | 2025 |
+| **Publication date precision** | year |
+| **Publication date evidence** | [api.datacite.org/dois](https://api.datacite.org/dois/10.57967/hf/7249) |
+| **Publication date source field** | data.attributes.publicationYear |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `csdi` |

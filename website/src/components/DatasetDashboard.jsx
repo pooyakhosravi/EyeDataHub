@@ -2,6 +2,7 @@ import React from 'react';
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import catalogPayload from '@site/static/datasets.json';
+import {comparePublicationDates, matchesPublicationDate, validYearRange} from './publicationDates.mjs';
 
 const STANDARD_NO_NC = new Set(['cc0', 'cc-by', 'cc-by-sa', 'mit', 'apache', 'odc-by']);
 const QUICK_START_COMMANDS = [
@@ -75,6 +76,9 @@ export default function DatasetDashboard() {
   const [reuse, setReuse] = React.useState('all');
   const [relationshipType, setRelationshipType] = React.useState('all');
   const [sort, setSort] = React.useState('name');
+  const [publishedFrom, setPublishedFrom] = React.useState('');
+  const [publishedThrough, setPublishedThrough] = React.useState('');
+  const [publicationStatus, setPublicationStatus] = React.useState('any');
   const [copiedToken, setCopiedToken] = React.useState(null);
   const [selectedNames, setSelectedNames] = React.useState([]);
 
@@ -113,6 +117,7 @@ export default function DatasetDashboard() {
         row.name,
         row.full_name,
         row.description,
+        row.publication_date || '',
         row.primary_category,
         ...(row.modalities || []),
         row.license_family,
@@ -127,6 +132,7 @@ export default function DatasetDashboard() {
       ].join(' ').toLowerCase();
       return (
         (!q || haystack.includes(q)) &&
+        matchesPublicationDate(row, publishedFrom, publishedThrough, publicationStatus) &&
         (modality === 'all' || (row.modalities || []).includes(modality)) &&
         (license === 'all' || row.license_family === license) &&
         (backend === 'all' || row.download_type === backend) &&
@@ -138,6 +144,9 @@ export default function DatasetDashboard() {
     });
 
     result.sort((a, b) => {
+      if (sort === 'publication-date' || sort === 'publication-date-desc') {
+        return comparePublicationDates(a, b, sort === 'publication-date-desc');
+      }
       if (sort === 'name') return a.name.localeCompare(b.name);
       if (sort === 'modality') {
         return (a.modalities || []).join(',').localeCompare((b.modalities || []).join(','))
@@ -147,7 +156,8 @@ export default function DatasetDashboard() {
       return (b.samples || 0) - (a.samples || 0) || a.name.localeCompare(b.name);
     });
     return result;
-  }, [rows, query, modality, license, backend, reuse, relationshipType, sort]);
+  }, [rows, query, modality, license, backend, reuse, relationshipType, sort,
+    publishedFrom, publishedThrough, publicationStatus]);
 
   const visibleRows = React.useMemo(() => filtered.slice(0, 120), [filtered]);
   const selectedRows = React.useMemo(
@@ -331,11 +341,41 @@ export default function DatasetDashboard() {
             <select value={sort} onChange={(e) => setSort(e.target.value)}>
               <option value="samples">Numeric quantity (mixed units)</option>
               <option value="name">Name</option>
+              <option value="publication-date">First published: oldest first</option>
+              <option value="publication-date-desc">First published: newest first</option>
               <option value="modality">Modality</option>
               <option value="license">License</option>
             </select>
           </label>
+          <label>
+            <span>Published from year</span>
+            <input type="number" min="1" max="9999" step="1" placeholder="YYYY"
+              value={publishedFrom} onChange={(e) => setPublishedFrom(e.target.value)}
+              aria-describedby="publication-date-help" />
+          </label>
+          <label>
+            <span>Published through year</span>
+            <input type="number" min="1" max="9999" step="1" placeholder="YYYY"
+              value={publishedThrough} onChange={(e) => setPublishedThrough(e.target.value)}
+              aria-describedby="publication-date-help" />
+          </label>
+          <label>
+            <span>Publication date coverage</span>
+            <select value={publicationStatus} onChange={(e) => setPublicationStatus(e.target.value)}>
+              <option value="any">Known and unknown dates</option>
+              <option value="known">Known dates only</option>
+              <option value="unknown">Unknown dates only</option>
+            </select>
+          </label>
         </div>
+        <p id="publication-date-help">
+          First public dataset release. Source precision is retained.
+          Year bounds are inclusive; records without
+          dates are excluded from a year range and sort last in either date order.
+        </p>
+        {!validYearRange(publishedFrom, publishedThrough) && (
+          <p role="alert">Enter four-digit years, with the start year no later than the end year.</p>
+        )}
 
         <section className="edh-selected" aria-label="Selected datasets">
           <div className="edh-selected-head">
@@ -431,6 +471,7 @@ export default function DatasetDashboard() {
                 <th>Select</th>
                 <th>Dataset</th>
                 <th>Modality</th>
+                <th>First published</th>
                 <th>Tasks</th>
                 <th>Primary quantity</th>
                 <th>License</th>
@@ -469,6 +510,17 @@ export default function DatasetDashboard() {
                         <span key={value}>{titleCase(value)}</span>
                       ))}
                     </div>
+                  </td>
+                  <td>
+                    {row.publication_date ? (
+                      <>
+                        <a href={row.publication_date_source_url} target="_blank" rel="noopener noreferrer"
+                          title={`Source field: ${row.publication_date_source_field}; reviewed ${row.publication_date_reviewed_on}`}>
+                          {row.publication_date}
+                        </a>
+                        <small> ({row.publication_date_precision})</small>
+                      </>
+                    ) : 'Unknown'}
                   </td>
                   <td>{(row.tasks || []).slice(0, 3).map((task) => <em key={task}>{task}</em>)}</td>
                   <td>{formatPrimaryQuantity(row)}</td>

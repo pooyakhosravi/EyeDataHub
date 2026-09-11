@@ -20,6 +20,11 @@ Anonymized South Korean cohort clinical, serologic, electrophysiologic, thymic, 
 | --- | --- |
 | **Short name** | `ocular_generalized_myasthenia_korea` |
 | **Full name** | Ocular and Generalized Myasthenia Gravis Korea Dataset |
+| **First published** | 2026-04-10 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/31981347/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ocular_generalized_myasthenia_korea` |

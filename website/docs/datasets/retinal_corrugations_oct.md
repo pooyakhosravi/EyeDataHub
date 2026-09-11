@@ -20,6 +20,11 @@ High-resolution swept-source OCT images and mechanical-model data for outer reti
 | --- | --- |
 | **Short name** | `retinal_corrugations_oct` |
 | **Full name** | Outer Retinal Corrugations Imaging Dataset |
+| **First published** | 2022-09-05 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bzsc7gd9p3/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `retinal_corrugations_oct` |

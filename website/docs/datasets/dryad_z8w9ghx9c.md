@@ -20,6 +20,11 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_z8w9ghx9c` |
 | **Full name** | Accuracy of intraocular lens calculation formulas in cataract patients with steep corneal curvature |
+| **First published** | 2020-10-26 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.z8w9ghx9c](https://doi.org/10.5061/dryad.z8w9ghx9c) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_z8w9ghx9c` |

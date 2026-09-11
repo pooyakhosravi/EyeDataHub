@@ -20,6 +20,11 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_pzgmsbcfw` |
 | **Full name** | Anti-vegf therapy in diabetic macular oedema patients over four years |
+| **First published** | 2020-07-02 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.pzgmsbcfw](https://doi.org/10.5061/dryad.pzgmsbcfw) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_pzgmsbcfw` |

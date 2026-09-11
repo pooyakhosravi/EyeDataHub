@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `cataract_lmm` |
 | **Full name** | Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark |
+| **First published** | 2026 |
+| **Publication date precision** | year |
+| **Publication date evidence** | [api.datacite.org/dois](https://api.datacite.org/dois/10.57967/hf/8673) |
+| **Publication date source field** | data.attributes.publicationYear |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cataract_lmm` |

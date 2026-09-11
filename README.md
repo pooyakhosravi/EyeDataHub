@@ -17,6 +17,11 @@ suitability.
 
 ## One-minute overview
 
+The development branch supports initial dataset publication dates, sourced
+date entries, chronological search, and website year filters. Unknown dates
+remain explicit. See [publication dates](docs/PUBLICATION_DATES.md) for the
+field definitions, search examples, and how to contribute missing dates.
+
 Release 0.7.0 contains 451 manually source-checked records across
 18 primary categories, representing 446 narrowly defined dataset families. At the
 catalog cutoff on 2 August 2026:

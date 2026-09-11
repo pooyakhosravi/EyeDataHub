@@ -20,6 +20,11 @@ Individual human iris-feature records are directly reusable for iris biometrics 
 | --- | --- |
 | **Short name** | `dryad_iris_surface_features` |
 | **Full name** | Iris Surface Features Dataset |
+| **First published** | 2015-12-14 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.0kt87](https://doi.org/10.5061/dryad.0kt87) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `iris_biometrics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_iris_surface_features` |

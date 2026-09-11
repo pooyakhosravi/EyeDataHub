@@ -20,6 +20,11 @@ A multicenter collection of 186 minimally invasive glaucoma surgery (MIGS) video
 | --- | --- |
 | **Short name** | `migs_video` |
 | **Full name** | Multicenter Fine-Annotated MIGS Surgical Video Dataset |
+| **First published** | 2026-01-23 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/18231909) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `migs_video` |

@@ -20,6 +20,11 @@ Text/tabular dataset supporting readability and language-access analyses in opht
 | --- | --- |
 | **Short name** | `ophtho_readability` |
 | **Full name** | Language and Readability Barriers in Ophthalmology Dataset |
+| **First published** | 2025-07-30 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/16592100) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `text` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ophtho_readability` |

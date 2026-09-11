@@ -1,0 +1,450 @@
+{
+  "records": [
+    {
+      "record_id": "cataract_lmm",
+      "publication_date": "2026",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://api.datacite.org/dois/10.57967/hf/8673",
+      "publication_date_source_field": "data.attributes.publicationYear",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "title=\"Cataract-LMM\"; publicationYear=2026; resourceTypeGeneral=\"Dataset\"",
+      "notes": "HF DOI DataCite publicationYear is explicit dataset publication metadata; no day is inferred. HF repository commit-list timestamps were retained only as candidate evidence; no historical-tree claim is used."
+    },
+    {
+      "record_id": "csdi",
+      "publication_date": "2025",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://api.datacite.org/dois/10.57967/hf/7249",
+      "publication_date_source_field": "data.attributes.publicationYear",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "title=\"CSDI\"; publicationYear=2025; resourceTypeGeneral=\"Dataset\"",
+      "notes": "HF DOI DataCite publicationYear is explicit dataset publication metadata; no day is inferred. HF repository commit-list timestamps were retained only as candidate evidence; no historical-tree claim is used."
+    },
+    {
+      "record_id": "fundus_report_dataset",
+      "publication_date": "2026",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://api.datacite.org/dois/10.57967/hf/9303",
+      "publication_date_source_field": "data.attributes.publicationYear",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "title=\"fundus-report-dataset\"; publicationYear=2026; resourceTypeGeneral=\"Dataset\"",
+      "notes": "HF DOI DataCite publicationYear is explicit dataset publication metadata; no day is inferred. Component-source and HF repository timestamps were not substituted."
+    },
+    {
+      "record_id": "ophnet2024",
+      "publication_date": "2024-10",
+      "publication_date_precision": "month",
+      "publication_date_source_url": "https://raw.githubusercontent.com/minghu0830/OphNet-benchmark/master/README.md",
+      "publication_date_source_field": "Official project README News: Oct 2024 dataset release",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "[Oct, 2024] We realeased OphNet2024 challenge dataset !",
+      "notes": "Official project README and HF history checked. The README gives month precision; no day is inferred from the later HF commit."
+    },
+    {
+      "record_id": "retina_age_analysis",
+      "publication_date": "2025",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://huggingface.co/datasets/ramankamran/retina-age-analysis/raw/main/README.md",
+      "publication_date_source_field": "@dataset citation year",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "@dataset citation: title=\"Retina Age Analysis Dataset\"; year = {2025}; publisher = {Hugging Face}",
+      "notes": "The official dataset card labels this as an @dataset citation with year 2025; no day is inferred. HF repository commit-list timestamps were retained only as candidate evidence; no historical-tree claim is used."
+    }
+  ],
+  "unresolved": [
+    {
+      "record_id": "doomgan_ocular_morphs",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs",
+        "https://huggingface.co/api/datasets/BharathK333/DOOMGAN-Ocular-Morphs",
+        "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs/raw/main/README.md",
+        "https://huggingface.co/api/datasets/BharathK333/DOOMGAN-Ocular-Morphs/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/BharathK333/DOOMGAN-Ocular-Morphs/tree/main?recursive=true",
+        "https://arxiv.org/abs/2507.17158",
+        "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "BharathK333/DOOMGAN-Ocular-Morphs",
+        "commit_sha": "8044706457e90e580ddd6c9d85e195f32e60ed5a",
+        "commit_date": "2025-08-01T03:19:45Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/BharathK333/DOOMGAN-Ocular-Morphs/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "fairvlmed",
+      "reason": "The official FairCLIP README says the repository provides the dataset but gives no dated release statement; the GitHub commit timestamp cannot establish when the repository became public. HF upload history is later and is not used.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
+        "https://huggingface.co/api/datasets/harvardairobotics/FairVLMed",
+        "https://huggingface.co/datasets/harvardairobotics/FairVLMed/raw/main/README.md",
+        "https://github.com/Harvard-Ophthalmology-AI-Lab/FairCLIP",
+        "https://raw.githubusercontent.com/Harvard-Ophthalmology-AI-Lab/FairCLIP/628b4acc462cf0fe93e63764aac5e733e0e6f12d/README.md"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "GitHub commit candidate (not release evidence)",
+        "repository": "Harvard-Ophthalmology-AI-Lab/FairCLIP",
+        "commit_sha": "628b4acc462cf0fe93e63764aac5e733e0e6f12d",
+        "commit_date": "2024-03-31T00:26:59Z",
+        "commit_url": "https://github.com/Harvard-Ophthalmology-AI-Lab/FairCLIP/commit/628b4acc462cf0fe93e63764aac5e733e0e6f12d",
+        "evidence": "GitHub commit with README dataset-access statement; timestamp is a candidate only because the statement is undated"
+      }
+    },
+    {
+      "record_id": "fundus_105k",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-105K",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-105K",
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-105K/raw/main/README.md",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-105K/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-105K/tree/main?recursive=true",
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-105K/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "PJMixers-Dev/Fundus-105K",
+        "commit_sha": "f3a17ca2b391336c97544ef0a907dfc8d5f29017",
+        "commit_date": "2024-12-08T09:36:34Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/PJMixers-Dev/Fundus-105K/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-105K/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "fundus_cc_2_5m",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-CC-2.5M",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-CC-2.5M",
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-CC-2.5M/raw/main/README.md",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-CC-2.5M/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-CC-2.5M/tree/main?recursive=true",
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-CC-2.5M/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "PJMixers-Dev/Fundus-CC-2.5M",
+        "commit_sha": "98d96a6267664241d8aa667cbb46f5f40ff7e0f4",
+        "commit_date": "2024-12-29T12:40:41Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/PJMixers-Dev/Fundus-CC-2.5M/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-CC-2.5M/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "glaucoma_expert_cot_refined",
+      "reason": "The recorded HF dataset path returned a 404 page, the alternate API path returned 401, and the raw README returned 401. No public dataset card, version history, or linked release announcement was available to establish an initial public date.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077",
+        "https://huggingface.co/api/datasets/yuzhench/glaucoma-expert-cot-refined",
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined/raw/main/README.md"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "lmod_cataract_1k",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K",
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K/raw/main/README.md",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K/tree/main?recursive=true",
+        "https://github.com/Negin-Ghamsarian/Cataract-1K",
+        "https://kfzyqin.github.io/lmod/",
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "mehti/LMOD-Cataract-1K",
+        "commit_sha": "c707c227972d1825b680fe794e9d98dde8f0d963",
+        "commit_date": "2026-02-03T09:46:10Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "lmod_cataract_1k_cot",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot",
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/raw/main/README.md",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/tree/main?recursive=true",
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K",
+        "https://kfzyqin.github.io/lmod/",
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "mehti/LMOD-Cataract-1K-surgical-analysis-cot",
+        "commit_sha": "a81084b9e8d9225139b15081a3eac61f94e30349",
+        "commit_date": "2026-02-17T09:37:53Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "mm_retinal_reason",
+      "reason": "The card says an initial subset was published but gives no date; linked paper/project dates are not dataset release dates. The HF initial commit timestamp is retained only as a candidate lead.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason",
+        "https://huggingface.co/api/datasets/lxirich/MM-Retinal-Reason",
+        "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/raw/main/README.md",
+        "https://arxiv.org/abs/2508.16129",
+        "https://github.com/lxirich/OphthaReason",
+        "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/lxirich/MM-Retinal-Reason/tree/main?recursive=true"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "lxirich/MM-Retinal-Reason",
+        "commit_sha": "868d8e8771742ccd11275b449b6bf627ff4972ef",
+        "commit_date": "2026-07-29T17:02:05Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/lxirich/MM-Retinal-Reason/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "multieye",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/Luxuriant16/MultiEYE",
+        "https://huggingface.co/api/datasets/Luxuriant16/MultiEYE",
+        "https://huggingface.co/datasets/Luxuriant16/MultiEYE/raw/main/README.md",
+        "https://huggingface.co/api/datasets/Luxuriant16/MultiEYE/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/Luxuriant16/MultiEYE/tree/main?recursive=true",
+        "https://arxiv.org/abs/2412.09402",
+        "https://huggingface.co/datasets/Luxuriant16/MultiEYE/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "Luxuriant16/MultiEYE",
+        "commit_sha": "12b8c32ced47a3cd61ab1c5892f872a010ff5906",
+        "commit_date": "2025-11-06T04:50:48Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/Luxuriant16/MultiEYE/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/Luxuriant16/MultiEYE/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "ocular_chat_vqa",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/ncbi/OcularChat-VQA",
+        "https://huggingface.co/api/datasets/ncbi/OcularChat-VQA",
+        "https://huggingface.co/datasets/ncbi/OcularChat-VQA/raw/main/README.md",
+        "https://huggingface.co/api/datasets/ncbi/OcularChat-VQA/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/ncbi/OcularChat-VQA/tree/main?recursive=true",
+        "https://huggingface.co/datasets/ncbi/OcularChat-VQA/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "ncbi/OcularChat-VQA",
+        "commit_sha": "16d9fd808f1889faabb44afa38ffbb475484dbab",
+        "commit_date": "2026-02-13T17:02:15Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/ncbi/OcularChat-VQA/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/ncbi/OcularChat-VQA/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "ophora",
+      "reason": "The official project README says the dataset is released but gives no release date; its commit date cannot establish when the repository became public. HF card/API are accessible but the raw card is gated and exposes no dated dataset-release field.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K",
+        "https://huggingface.co/api/datasets/General-Medical-AI/Ophora-160K",
+        "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K/raw/main/README.md",
+        "https://github.com/uni-medical/Ophora",
+        "https://raw.githubusercontent.com/uni-medical/Ophora/c3e606e9bd606668c19075530c70c2bb3936e28c/README.md"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "GitHub commit candidate (not release evidence)",
+        "repository": "uni-medical/Ophora",
+        "commit_sha": "c3e606e9bd606668c19075530c70c2bb3936e28c",
+        "commit_date": "2025-07-16T05:57:24Z",
+        "commit_url": "https://github.com/uni-medical/Ophora/commit/c3e606e9bd606668c19075530c70c2bb3936e28c",
+        "evidence": "GitHub commit; README says dataset is released, but the statement is undated"
+      }
+    },
+    {
+      "record_id": "ophthalmology_eqa_v3",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-EQA-v3",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-EQA-v3",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-EQA-v3/raw/main/README.md",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-EQA-v3/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-EQA-v3/tree/main?recursive=true",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-EQA-v3/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "BaekSeungJu/Ophthalmology-EQA-v3",
+        "commit_sha": "cd653c7f861a817d91952108fecc2cc016f9bcc4",
+        "commit_date": "2025-01-08T07:01:17Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-EQA-v3/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-EQA-v3/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "ophthalmology_mcqa_v3",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-MCQA-v3",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-MCQA-v3",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/raw/main/README.md",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/tree/main?recursive=true",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "BaekSeungJu/Ophthalmology-MCQA-v3",
+        "commit_sha": "f46c21ad62b915417b0635b706f2c747f016d03c",
+        "commit_date": "2025-01-13T16:00:20Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "ophthalmology_pubmed_corpus",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/raw/main/README.md",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/tree/main?recursive=true",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "BaekSeungJu/Ophthalmology-PubMed-Corpus",
+        "commit_sha": "ce0abdc4d4f3a9cae2f48e019f6eb9b11082421",
+        "commit_date": "2025-01-16T12:37:46Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "paired_retina",
+      "reason": "The official card explicitly says the whole dataset will be released after acceptance. Although the current tree exposes image files, no dated release statement establishes when they became public or that this is the initial release of the represented dataset; DOI publicationYear alone is not sufficient to resolve the conflict.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/smartretina2025/paired_retina",
+        "https://huggingface.co/api/datasets/smartretina2025/paired_retina",
+        "https://huggingface.co/datasets/smartretina2025/paired_retina/raw/main/README.md",
+        "https://api.datacite.org/dois/10.57967/hf/5433",
+        "https://huggingface.co/datasets/smartretina2025/paired_retina/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/smartretina2025/paired_retina/tree/main?recursive=true"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "smartretina2025/paired_retina",
+        "commit_sha": "e55db02c38a815f2dbcbaf29248ed4160cf78940",
+        "commit_date": "2025-01-02T21:40:46Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/smartretina2025/paired_retina/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/smartretina2025/paired_retina/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "retinal_dr_longitudinal",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/usama10/retinal-dr-longitudinal",
+        "https://huggingface.co/api/datasets/usama10/retinal-dr-longitudinal",
+        "https://huggingface.co/datasets/usama10/retinal-dr-longitudinal/raw/main/README.md",
+        "https://huggingface.co/api/datasets/usama10/retinal-dr-longitudinal/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/usama10/retinal-dr-longitudinal/tree/main?recursive=true",
+        "https://github.com/Usama1002/retinal-diffusion",
+        "https://huggingface.co/datasets/usama10/retinal-dr-longitudinal/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "usama10/retinal-dr-longitudinal",
+        "commit_sha": "7e9455c4a4ceab7db3f0bc2c87264c5bb5dea67d",
+        "commit_date": "2026-04-07T08:47:09Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/usama10/retinal-dr-longitudinal/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/usama10/retinal-dr-longitudinal/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "synthetic_retinal_oct_biomarkers",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images",
+        "https://huggingface.co/api/datasets/serag-ai/Synthetic-Ophthalmology-Images",
+        "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images/raw/main/README.md",
+        "https://huggingface.co/api/datasets/serag-ai/Synthetic-Ophthalmology-Images/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/serag-ai/Synthetic-Ophthalmology-Images/tree/main?recursive=true",
+        "https://github.com/serag-ai/I-SynMed",
+        "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1454441/abstract",
+        "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "serag-ai/Synthetic-Ophthalmology-Images",
+        "commit_sha": "faaba68a140796e85018de23be3680f39976db47",
+        "commit_date": "2024-11-28T11:04:18Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/serag-ai/Synthetic-Ophthalmology-Images/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "x_pcr",
+      "reason": "The official card says Dataset and code will be publicly released. The current HF tree exposes data-bearing parquet paths, but this does not establish when they became public; the future-release wording leaves release semantics unresolved.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/Fantasy666/X-PCR",
+        "https://huggingface.co/api/datasets/Fantasy666/X-PCR",
+        "https://huggingface.co/datasets/Fantasy666/X-PCR/raw/main/README.md",
+        "https://huggingface.co/datasets/Fantasy666/X-PCR/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/Fantasy666/X-PCR/tree/main?recursive=true"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "Fantasy666/X-PCR",
+        "commit_sha": "d06e3b54c7e5c8c34454a7107f9c4544789043b",
+        "commit_date": "2026-05-15T07:05:15Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/Fantasy666/X-PCR/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/Fantasy666/X-PCR/tree/main?recursive=true"
+      }
+    }
+  ]
+}

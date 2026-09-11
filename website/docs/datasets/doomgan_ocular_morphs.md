@@ -20,6 +20,11 @@ Synthetic visible-spectrum ocular biometric morph images generated from document
 | --- | --- |
 | **Short name** | `doomgan_ocular_morphs` |
 | **Full name** | DOOMGAN Ocular Morph-Attack Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `iris_biometrics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `doomgan_ocular_morphs` |

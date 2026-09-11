@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Pseudoexfoliative g
 | --- | --- |
 | **Short name** | `mendeley_comparison_retinal_choroidal_vascular_changes_via` |
 | **Full name** | Comparison of retinal and choroidal vascular changes via optical coherence tomography angiography between Pseudoexfoliative glaucoma and Pseudoexfoliative syndrome and control group |
+| **First published** | 2024-10-14 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3m8fcfmp9j/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_comparison_retinal_choroidal_vascular_changes_via` |

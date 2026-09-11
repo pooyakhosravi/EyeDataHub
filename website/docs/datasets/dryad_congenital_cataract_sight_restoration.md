@@ -20,6 +20,11 @@ Experiment tables and scripts evaluate postural stability and optic-flow sensiti
 | --- | --- |
 | **Short name** | `dryad_congenital_cataract_sight_restoration` |
 | **Full name** | Congenital Cataract Sight Restoration Dataset |
+| **First published** | 2025-05-06 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [datadryad.org/api](https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.0gb5mkm9b) |
+| **Publication date source field** | publicationDate |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_congenital_cataract_sight_restoration` |

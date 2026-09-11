@@ -332,6 +332,10 @@ def list_datasets(
     help="Availability status.",
 )
 @click.option("--json", "as_json", is_flag=True, help="Emit deterministic JSON.")
+@click.option("--published-from", help="Inclusive first-publication range start: YYYY[-MM[-DD]].")
+@click.option("--published-through", help="Inclusive range end; partial dates match overlapping intervals.")
+@click.option("--publication-date-status", type=click.Choice(["any", "known", "unknown"]), default="any")
+@click.option("--sort", type=click.Choice(["name", "publication-date", "publication-date-desc"]), default="name", help="Publication-date sorts keep unknown dates last.")
 def search_catalog(
     query,
     modalities,
@@ -341,18 +345,29 @@ def search_catalog(
     automation_values,
     availability_values,
     as_json,
+    published_from,
+    published_through,
+    publication_date_status,
+    sort,
 ):
     """Search the catalog without initiating a transfer."""
-    results = search_datasets(
-        _get_registry().list_datasets(),
-        query=query,
-        modalities=modalities,
-        tasks=tasks,
-        access_friction=access_values,
-        source_terms=term_values,
-        acquisition_support=automation_values,
-        availability_status=availability_values,
-    )
+    try:
+        results = search_datasets(
+            _get_registry().list_datasets(),
+            query=query,
+            modalities=modalities,
+            tasks=tasks,
+            access_friction=access_values,
+            source_terms=term_values,
+            acquisition_support=automation_values,
+            availability_status=availability_values,
+            published_from=published_from,
+            published_through=published_through,
+            publication_date_status=publication_date_status,
+            sort=sort,
+        )
+    except ValueError as exc:
+        raise click.UsageError(str(exc)) from exc
     if as_json:
         click.echo(json.dumps([dataset_to_record(item) for item in results], indent=2))
         return
@@ -361,6 +376,7 @@ def search_catalog(
         return
     table = Table(title=f"EyeDataHub search ({len(results)} records)", header_style="bold cyan")
     table.add_column("Record")
+    table.add_column("First published")
     table.add_column("Primary category")
     table.add_column("Modalities")
     table.add_column("Access")
@@ -370,6 +386,7 @@ def search_catalog(
         info = dataset.info
         table.add_row(
             info.name,
+            info.publication_date or "Unknown",
             info.primary_category,
             ", ".join(info.modalities),
             info.access_friction,
@@ -548,6 +565,12 @@ def show_dataset(name, copy, as_json, data_dir):
     tbl.add_column("Field", style="bold")
     tbl.add_column("Value")
     tbl.add_row("Short name", f"[bold]{info.name}[/]")
+    tbl.add_row("First published", info.publication_date or "Unknown")
+    if info.publication_date:
+        tbl.add_row("Publication date precision", info.publication_date_precision)
+        tbl.add_row("Publication date evidence", info.publication_date_source_url)
+        tbl.add_row("Publication date source field", info.publication_date_source_field)
+        tbl.add_row("Publication date reviewed", info.publication_date_reviewed_on)
     tbl.add_row("Primary category", info.primary_category)
     tbl.add_row("Modalities", ", ".join(info.modalities))
     tbl.add_row("Tasks", ", ".join(info.tasks) if info.tasks else "-")

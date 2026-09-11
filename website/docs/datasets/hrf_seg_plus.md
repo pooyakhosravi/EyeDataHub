@@ -20,6 +20,11 @@ Extended HRF annotations for optic disc, cup, retinal vessels, and alpha/beta pe
 | --- | --- |
 | **Short name** | `hrf_seg_plus` |
 | **Full name** | HRF-Seg+: Multi-Structure Fundus Annotations |
+| **First published** | 2025-08-05 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/16744782) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `hrf_seg_plus` |

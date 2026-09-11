@@ -20,6 +20,11 @@ Multi-source heterogeneous retinal fundus image-quality assessment dataset for t
 | --- | --- |
 | **Short name** | `mshf` |
 | **Full name** | Multi-Source Heterogeneous Fundus Dataset for Image Quality Assessment |
+| **First published** | 2022-11-06 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/21507564/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mshf` |

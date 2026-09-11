@@ -20,6 +20,11 @@ Patient-level demographic and clinical tabular observations from Patients with a
 | --- | --- |
 | **Short name** | `mendeley_demographic_profile_clinical_characteristics_patients_presenting` |
 | **Full name** | Demographic profile and clinical characteristics of patients presenting with acute ocular burns |
+| **First published** | 2023-04-24 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/hwnm88jyzg/1) |
+| **Publication date source field** | citation_publication_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_demographic_profile_clinical_characteristics_patients_presenting` |

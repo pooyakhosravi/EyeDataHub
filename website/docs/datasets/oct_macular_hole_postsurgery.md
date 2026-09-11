@@ -20,6 +20,11 @@ HD-OCT scans and clinical outcome variables for macular-hole visual-improvement 
 | --- | --- |
 | **Short name** | `oct_macular_hole_postsurgery` |
 | **Full name** | HD-OCT of Macular Hole Before and After Surgery |
+| **First published** | 2021-12-23 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [kaggle.com/api](https://www.kaggle.com/api/v1/datasets/view/mathieugodbout/oct-postsurgery-visual-improvement) |
+| **Publication date source field** | versions[0].creationDate (version 1, Initial release) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `oct_macular_hole_postsurgery` |

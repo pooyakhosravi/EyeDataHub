@@ -1,0 +1,306 @@
+{
+  "records": [
+    {
+      "record_id": "dryad_acanthamoeba_keratitis_transcriptome",
+      "publication_date": "2024-05-27",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd5fx",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 4."
+    },
+    {
+      "record_id": "dryad_amd_zinc_complement",
+      "publication_date": "2015-10-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.3gq6t",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    {
+      "record_id": "dryad_aoslo_rpe",
+      "publication_date": "2019-03-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.b41j15h",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    {
+      "record_id": "dryad_bariatric_ophthalmology",
+      "publication_date": "2019-05-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.1g6vm34",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    {
+      "record_id": "dryad_brvo_bevacizumab_multimodal",
+      "publication_date": "2017-08-30",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.3cp54",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    {
+      "record_id": "dryad_clcc1_retinitis_pigmentosa",
+      "publication_date": "2019-07-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.3vv31qq",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    {
+      "record_id": "dryad_congenital_cataract_sight_restoration",
+      "publication_date": "2025-05-06",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.0gb5mkm9b",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 13."
+    },
+    {
+      "record_id": "dryad_congenital_glaucoma_wes",
+      "publication_date": "2016-12-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.k7455",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    {
+      "record_id": "dryad_cornea_oct_pentacam",
+      "publication_date": "2021-12-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.tht76hf0c",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 5."
+    },
+    {
+      "record_id": "dryad_corneal_biomechanics_prostaglandin",
+      "publication_date": "2017-05-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.d35s0",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    {
+      "record_id": "dryad_corneal_conjunctivitis_biomarker",
+      "publication_date": "2025-10-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.4j0zpc8mm",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 3."
+    },
+    {
+      "record_id": "dryad_corneal_laser_procedure",
+      "publication_date": "2022-02-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.m905qfv2r",
+      "publication_date_source_field": "Published (initial release on Dryad)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Published Feb 03, 2022 on Dryad",
+      "notes": "The landing page records the initial publication on 2022-02-03; API publicationDate 2022-03-01 refers to a later version."
+    },
+    {
+      "record_id": "dryad_crvo_vegf_tortuosity",
+      "publication_date": "2016-07-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.5dn13",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    {
+      "record_id": "dryad_d1zd5s",
+      "publication_date": "2021-04-21",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5068%2Fd1zd5s",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 9."
+    },
+    {
+      "record_id": "dryad_diabetes_retinal_capillary",
+      "publication_date": "2017-11-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.58791",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    {
+      "record_id": "mendeley_corneal_higher_order_aberrations_stevens_johnson",
+      "publication_date": "2019-07-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/2k96xky4rf/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_comparison_ocular_biometry_using_new_opticalcoherence",
+      "publication_date": "2019-08-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/kwv73shvxh/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_contrast_sensitivity_visual_acuity_multifocal_contact",
+      "publication_date": "2019-12-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/j5cw4wn23y/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_comparison_aqueous_humor_levels_plgf_vegf",
+      "publication_date": "2020-02-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/wtcc9fcjdy/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_effect_central_hole_location_phakic_intraocular",
+      "publication_date": "2020-03-31",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/jjknx3wbkf/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_dry_eye_symptoms_children_can_we",
+      "publication_date": "2020-04-11",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/h79366vw73/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_cell_types_human_retina_its_organoids",
+      "publication_date": "2020-09-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/sm67hr5bpm/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_3_year_follow_up_optic_neuritis",
+      "publication_date": "2021-01-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zvb55v8mzw/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_blinking_its_relationship_ocular_surface_digital",
+      "publication_date": "2021-07-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/vyb5fv6ppp/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_biochemical_parameters_tear_fluid_chemical_burns",
+      "publication_date": "2021-08-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zhk775h6n4/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_effect_one_hour_smartphone_gaming_on",
+      "publication_date": "2022-02-24",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zn64p6r992/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_demographic_profile_clinical_characteristics_patients_presenting",
+      "publication_date": "2023-04-24",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/hwnm88jyzg/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_biomechanical_properties_adult_patients_high_myopia",
+      "publication_date": "2024-11-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/yry4r9y9v5/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal",
+      "publication_date": "2025-01-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/sg2rywwwxb/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    {
+      "record_id": "mendeley_dme_classification_fundus_imaging_vision_transformers",
+      "publication_date": "2026-06-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/sdcfn87pvs/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    }
+  ],
+  "unresolved": []
+}

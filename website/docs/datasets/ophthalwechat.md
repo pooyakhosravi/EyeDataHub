@@ -20,6 +20,11 @@ Ophthalmology-oriented WeChat article metadata and image-link dataset for visual
 | --- | --- |
 | **Short name** | `ophthalwechat` |
 | **Full name** | OphthalWeChat Dataset |
+| **First published** | 2025-11-07 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/29064149/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `text` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ophthalwechat` |

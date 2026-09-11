@@ -20,6 +20,11 @@ Large-scale multi-procedure ophthalmic surgical video dataset covering 66 surger
 | --- | --- |
 | **Short name** | `ophnet2024` |
 | **Full name** | OphNet2024: Ophthalmic Surgical Video Dataset |
+| **First published** | 2024-10 |
+| **Publication date precision** | month |
+| **Publication date evidence** | [raw.githubusercontent.com/minghu0830](https://raw.githubusercontent.com/minghu0830/OphNet-benchmark/master/README.md) |
+| **Publication date source field** | Official project README News: Oct 2024 dataset release |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ophnet2024` |

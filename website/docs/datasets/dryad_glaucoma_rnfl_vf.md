@@ -20,6 +20,11 @@ Clinical records combining retinal nerve fiber layer, visual-field, corneal-thic
 | --- | --- |
 | **Short name** | `dryad_glaucoma_rnfl_vf` |
 | **Full name** | RNFL and Visual-Field Glaucoma Diagnosis Dataset |
+| **First published** | 2018-05-05 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.q6ft5](https://doi.org/10.5061/dryad.q6ft5) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_glaucoma_rnfl_vf` |

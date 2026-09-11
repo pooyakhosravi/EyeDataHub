@@ -20,6 +20,11 @@ Text-only ophthalmology multiple-choice question-answering dataset for LLM train
 | --- | --- |
 | **Short name** | `ophthalmology_mcqa_v3` |
 | **Full name** | Ophthalmology-MCQA-v3 |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `text` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ophthalmology_mcqa_v3` |

@@ -20,6 +20,11 @@ Human/derived image or image-annotation observations. from Human ocular-neoplasm
 | --- | --- |
 | **Short name** | `mendeley_ocular_sebaceous_neoplasms` |
 | **Full name** | Ocular sebaceous neoplasms |
+| **First published** | 2025-08-18 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/xg9jcjn388/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_ocular_sebaceous_neoplasms` |

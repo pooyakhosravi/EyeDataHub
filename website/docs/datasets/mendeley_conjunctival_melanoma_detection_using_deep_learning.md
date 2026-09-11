@@ -20,6 +20,11 @@ Human/derived image or image-annotation observations. from Human ocular anterior
 | --- | --- |
 | **Short name** | `mendeley_conjunctival_melanoma_detection_using_deep_learning` |
 | **Full name** | Conjunctival melanoma detection using deep learning in smartphone images |
+| **First published** | 2020-09-01 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/t75wjsw6bw/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_conjunctival_melanoma_detection_using_deep_learning` |

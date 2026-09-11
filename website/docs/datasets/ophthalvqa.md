@@ -20,6 +20,11 @@ Ophthalmic visual question-answering benchmark dataset released as supplementary
 | --- | --- |
 | **Short name** | `ophthalvqa` |
 | **Full name** | OphthalVQA Dataset |
+| **First published** | 2025-03-03 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/25624917/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ophthalvqa` |

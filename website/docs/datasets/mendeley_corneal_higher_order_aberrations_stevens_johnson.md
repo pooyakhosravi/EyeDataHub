@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Patients with Steve
 | --- | --- |
 | **Short name** | `mendeley_corneal_higher_order_aberrations_stevens_johnson` |
 | **Full name** | Data for: Corneal Higher-order Aberrations in Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis |
+| **First published** | 2019-07-18 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/2k96xky4rf/1) |
+| **Publication date source field** | citation_publication_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_corneal_higher_order_aberrations_stevens_johnson` |

@@ -20,6 +20,11 @@ Pediatric external-eye photographs with gaze-view annotations, corneal masks, ey
 | --- | --- |
 | **Short name** | `eed_astig` |
 | **Full name** | EED-Astig Pediatric External-Eye Dataset |
+| **First published** | 2025-09-28 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/17217106) |
+| **Publication date source field** | metadata.publication_date (earliest listed public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `eed_astig` |

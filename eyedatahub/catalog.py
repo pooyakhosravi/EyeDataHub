@@ -10,6 +10,7 @@ from eyedatahub import __version__
 from eyedatahub.core.dataset import license_matches_filter
 from eyedatahub.core.metadata import normalize_modality_label, normalize_unknown
 from eyedatahub.core.resource_identity import identity_fields_for
+from eyedatahub.core.publication_dates import date_interval
 
 
 def info_to_record(info: Any) -> Dict[str, Any]:
@@ -50,6 +51,10 @@ def search_datasets(
     source_terms: Sequence[str] = (),
     acquisition_support: Sequence[str] = (),
     availability_status: Sequence[str] = (),
+    published_from: Optional[str] = None,
+    published_through: Optional[str] = None,
+    publication_date_status: str = "any",
+    sort: str = "name",
 ) -> List[Any]:
     """Filter catalog records deterministically without initiating transfer."""
     canonical_modalities = {normalize_modality_label(value) for value in modalities if value}
@@ -59,10 +64,29 @@ def search_datasets(
     availability_values = {value.strip().lower() for value in availability_status if value}
     term_values = {value.strip().lower() for value in source_terms if value}
     needle = (query or "").strip().casefold()
+    if publication_date_status not in {"any", "known", "unknown"}:
+        raise ValueError("publication_date_status must be any, known, or unknown")
+    if sort not in {"name", "publication-date", "publication-date-desc"}:
+        raise ValueError("sort must be name, publication-date, or publication-date-desc")
+    lower = date_interval(published_from)[0] if published_from else None
+    upper = date_interval(published_through)[1] if published_through else None
+    if lower and upper and lower > upper:
+        raise ValueError("published_from must not be after published_through")
 
     results: List[Any] = []
     for dataset in datasets:
         info = dataset.info
+        published = info.publication_date
+        if publication_date_status == "known" and not published:
+            continue
+        if publication_date_status == "unknown" and published:
+            continue
+        if lower or upper:
+            if not published:
+                continue
+            first, last = date_interval(published)
+            if (lower and last < lower) or (upper and first > upper):
+                continue
         if canonical_modalities and not canonical_modalities.intersection(info.modalities):
             continue
         if task_values and not task_values.issubset({task.lower() for task in info.tasks}):
@@ -87,12 +111,21 @@ def search_datasets(
                     " ".join(info.tags),
                     " ".join(info.tasks),
                     " ".join(info.modalities),
+                    published or "",
                 ]
             ).casefold()
             if needle not in haystack:
                 continue
         results.append(dataset)
-    return sorted(results, key=lambda item: item.info.name)
+    if sort == "name":
+        return sorted(results, key=lambda item: item.info.name)
+
+    def date_key(item: Any) -> tuple:
+        value = item.info.publication_date
+        ordinal = date_interval(value)[0].toordinal() if value else 0
+        return (value is None, -ordinal if sort.endswith("-desc") else ordinal, item.info.name)
+
+    return sorted(results, key=date_key)
 
 
 def _bibtex_key(info: Any, suffix: str = "") -> str:

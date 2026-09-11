@@ -20,6 +20,11 @@ Longitudinal laptop-camera images captured during natural daily use with gaze ta
 | --- | --- |
 | **Short name** | `mpii_gaze` |
 | **Full name** | MPIIGaze Appearance-Based Gaze Estimation Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mpii_gaze` |

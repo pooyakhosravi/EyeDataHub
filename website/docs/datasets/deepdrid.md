@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `deepdrid` |
 | **Full name** | DeepDRiD: Diabetic Retinopathy Grading and Image Quality Dataset |
+| **First published** | 2020-01-22 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [biomedicalimaging.org/2020](https://biomedicalimaging.org/2020/wp-content/uploads/static-html-to-wp/data/dff0d41695bbae509355435cd32ecf5d/index-29.htm) |
+| **Publication date source field** | official ISBI 2020 challenge timeline: Training Data Release (Images + Groundtruth) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `deepdrid` |

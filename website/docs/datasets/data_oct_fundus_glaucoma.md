@@ -20,6 +20,11 @@ Fifty OCT and fundus images with healthy/glaucomatous labels and cup-to-disc rat
 | --- | --- |
 | **Short name** | `data_oct_fundus_glaucoma` |
 | **Full name** | Data on OCT and Fundus Images |
+| **First published** | 2019-10-30 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/2rnnz5nz74/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `data_oct_fundus_glaucoma` |

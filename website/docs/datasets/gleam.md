@@ -20,6 +20,11 @@ SLO, circumpapillary OCT, and visual-field pattern-deviation maps with four-clas
 | --- | --- |
 | **Short name** | `gleam` |
 | **Full name** | GLEAM Multimodal Glaucoma Staging Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `gleam` |

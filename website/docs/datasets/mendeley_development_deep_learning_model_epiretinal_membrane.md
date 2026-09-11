@@ -20,6 +20,11 @@ Fundus-image-level erm observations/labels from Retrospectively collected colour
 | --- | --- |
 | **Short name** | `mendeley_development_deep_learning_model_epiretinal_membrane` |
 | **Full name** | Development of a deep learning model for epiretinal membrane detection in fundus photography |
+| **First published** | 2023-07-31 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/jrgntpv8b8/1) |
+| **Publication date source field** | Mendeley dataset version 1 page: Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_development_deep_learning_model_epiretinal_membrane` |

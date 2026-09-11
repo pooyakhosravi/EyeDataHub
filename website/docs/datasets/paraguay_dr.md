@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `paraguay_dr` |
 | **Full name** | Paraguay Color Fundus DR Dataset |
+| **First published** | 2021-02-10 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/4532361) |
+| **Publication date source field** | metadata.publication_date (earliest repository version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `paraguay_dr` |

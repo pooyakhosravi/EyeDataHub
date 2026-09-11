@@ -20,6 +20,11 @@ The paired FASTQ files represent a defined human RPGR cone-rod-dystrophy sequenc
 | --- | --- |
 | **Short name** | `dryad_rpgr_cone_rod_wes` |
 | **Full name** | RPGR Cone-Rod Dystrophy WES Dataset |
+| **First published** | 2021-06-09 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.5qfttdz5d](https://doi.org/10.5061/dryad.5qfttdz5d) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_rpgr_cone_rod_wes` |

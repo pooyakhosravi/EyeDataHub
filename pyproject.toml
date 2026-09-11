@@ -59,6 +59,9 @@ eyehub = "eyedatahub.cli:main"
 where = ["."]
 include = ["eyedatahub*"]
 
+[tool.setuptools.package-data]
+"eyedatahub.core" = ["publication_dates.json"]
+
 [project.urls]
 Homepage = "https://github.com/pooyakhosravi/EyeDataHub"
 Documentation = "https://khosravipooya.com/EyeDataHub/"

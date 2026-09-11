@@ -20,6 +20,11 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_pk31jt2` |
 | **Full name** | Data from: Low incidence of choroidal neovascularization following subthreshold diode micropulse laser (SDM) in high-risk AMD |
+| **First published** | 2019-08-07 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.pk31jt2](https://doi.org/10.5061/dryad.pk31jt2) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_pk31jt2` |

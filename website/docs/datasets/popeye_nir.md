@@ -20,6 +20,11 @@ Fourteen thousand nine hundred seventy-six near-infrared ocular images for eye-s
 | --- | --- |
 | **Short name** | `popeye_nir` |
 | **Full name** | PopEYE Infrared Ocular Image Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `popeye_nir` |

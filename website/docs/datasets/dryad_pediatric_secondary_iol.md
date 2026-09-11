@@ -20,6 +20,11 @@ The pediatric secondary-IOL spreadsheet is a defined direct clinical ophthalmic 
 | --- | --- |
 | **Short name** | `dryad_pediatric_secondary_iol` |
 | **Full name** | Pediatric Secondary IOL Outcome Dataset |
+| **First published** | 2015-08-07 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.5t9d1](https://doi.org/10.5061/dryad.5t9d1) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_pediatric_secondary_iol` |

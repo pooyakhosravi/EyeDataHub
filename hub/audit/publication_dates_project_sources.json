@@ -1,0 +1,136 @@
+{
+  "records": [
+    {
+      "record_id": "brset",
+      "publication_date": "2023-03-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/brazilian-ophthalmological/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The version 1.0.0 PhysioNet page states Published: March 8, 2023; this is the initial version, not the later version 1.0.1."
+    },
+    {
+      "record_id": "mbrset",
+      "publication_date": "2024-06-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/mbrset/1.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The version 1.0 PhysioNet page states Published: June 26, 2024 and its Release Notes identify v1.0 as the first public release."
+    },
+    {
+      "record_id": "ffa_ir",
+      "publication_date": "2021-09-21",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.physionet.org/content/ffa-ir-medical-report/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The version 1.0.0 PhysioNet page states Published: Sept. 21, 2021. The page also records a later access suspension; the date is the original public release."
+    },
+    {
+      "record_id": "perg_ioba",
+      "publication_date": "2024-01-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/perg-ioba-dataset/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The version 1.0.0 PhysioNet page states Published: Jan. 19, 2024; the Versions section lists only 1.0.0."
+    },
+    {
+      "record_id": "hygd",
+      "publication_date": "2025-06-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The version 1.0.0 PhysioNet page states Published: June 3, 2025 and labels Release Notes version 1.0.0 as Initial release; later 1.1.0 is not used."
+    },
+    {
+      "record_id": "hyamd",
+      "publication_date": "2025-09-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The version 1.0.0 PhysioNet page states Published: Sept. 9, 2025 and its Release Notes identify version 1.0.0 as Initial release."
+    },
+    {
+      "record_id": "brset_mbrset_embeddings",
+      "publication_date": "2026-03-30",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/embedding-brset-mbrset/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The version 1.0.0 PhysioNet page states Published: March 30, 2026; this is the initial public release of the derived embedding resource, not the dates of its BRSET or mBRSET parents."
+    },
+    {
+      "record_id": "ravir",
+      "publication_date": "2022-07",
+      "publication_date_precision": "month",
+      "publication_date_source_url": "https://ravirdataset.github.io/data/",
+      "publication_date_source_field": "Official project page: News",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official RAVIR project page says '[Jul 2022] RAVIR Dataset is now publicly available!'; no day is given, so precision is month."
+    },
+    {
+      "record_id": "erdes",
+      "publication_date": "2025-07-31",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://github.com/OSUPCVLab/ERDES",
+      "publication_date_source_field": "Official GitHub README: News",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official ERDES repository README states '(July 31, 2025): Release of the dataset.' Later Hugging Face and Zenodo dates are explicitly separate releases."
+    }
+  ],
+  "unresolved": [
+    {
+      "record_id": "fire",
+      "reason": "The official project page provides the dataset and citations but no dated initial-public-availability or release-history field; the 2017 paper date was not substituted for a release date.",
+      "source": "https://projects.ics.forth.gr/cvrl/fire/"
+    },
+    {
+      "record_id": "stare",
+      "reason": "The official project page describes the project history and current downloads but does not establish when the dataset first became publicly available; project/article years were not substituted.",
+      "source": "https://cecas.clemson.edu/~ahoover/stare/"
+    },
+    {
+      "record_id": "eyeq",
+      "reason": "The official GitHub README describes the dataset and its 2019 project context but does not state an initial public-release date; repository creation/history was not used.",
+      "source": "https://github.com/HzFu/EyeQ"
+    },
+    {
+      "record_id": "hei_med",
+      "reason": "The official GitHub README states collection and cleaning completed in 2010 and cites a 2012 paper, but neither establishes the first public-availability date; article year was not used.",
+      "source": "https://github.com/lgiancaUTH/HEI-MED"
+    },
+    {
+      "record_id": "rbad",
+      "reason": "The official GitHub README describes the open benchmark but contains no dated release announcement or initial-public-availability field; repository creation/history was not used.",
+      "source": "https://github.com/Retinal-Research/RBAD"
+    },
+    {
+      "record_id": "thoct1800",
+      "reason": "The official GitHub project provides the dataset but no dated initial-release statement; repository history and related article dates were not used.",
+      "source": "https://github.com/SJD095/OCT-Segmentation"
+    },
+    {
+      "record_id": "tsukazaki_uwf",
+      "reason": "The official GitHub route is access-oriented and does not state a first public-release date; the associated paper year was not substituted.",
+      "source": "https://github.com/DateCazuki/Fundus_Diagnosis"
+    },
+    {
+      "record_id": "uwhvf",
+      "reason": "The official GitHub route exposes the dataset but no dated initial-release or public-availability field; repository history and article year were not used.",
+      "source": "https://github.com/uw-biomedical-ml/uwhvf"
+    }
+  ]
+}

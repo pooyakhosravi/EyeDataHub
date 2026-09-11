@@ -20,6 +20,11 @@ Large fundus-related multilingual text corpus for LLM pretraining or retrieval.
 | --- | --- |
 | **Short name** | `fundus_cc_2_5m` |
 | **Full name** | Fundus-CC-2.5M Text Corpus |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `text` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `fundus_cc_2_5m` |

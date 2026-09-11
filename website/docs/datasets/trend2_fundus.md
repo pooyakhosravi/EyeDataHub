@@ -20,6 +20,11 @@ Extension of TREND portable fundus imaging for chronic-disease and microvascular
 | --- | --- |
 | **Short name** | `trend2_fundus` |
 | **Full name** | TREND2 Chronic Disease Portable Fundus Dataset |
+| **First published** | 2023-02-26 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/7678656) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `extension_dataset` |
 | **Dataset family** | `trend2_fundus` |

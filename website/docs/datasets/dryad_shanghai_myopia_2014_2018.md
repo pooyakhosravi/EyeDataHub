@@ -20,6 +20,11 @@ The named DATA.xls and README define a human pediatric ocular-biometry cohort ev
 | --- | --- |
 | **Short name** | `dryad_shanghai_myopia_2014_2018` |
 | **Full name** | Age-related change of axial length, spherical equivalent, prevalence of myopia and high myopia in school-age children in Shanghai: 2014 to 2018 |
+| **First published** | 2020-11-09 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.c2fqz615c](https://doi.org/10.5061/dryad.c2fqz615c) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_shanghai_myopia_2014_2018` |

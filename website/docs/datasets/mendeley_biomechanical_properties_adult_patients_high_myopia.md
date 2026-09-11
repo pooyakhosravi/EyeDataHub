@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from 55 high-myop
 | --- | --- |
 | **Short name** | `mendeley_biomechanical_properties_adult_patients_high_myopia` |
 | **Full name** | Biomechanical properties of adult patients with high myopia after implantable collamer lens (ICL, V4) implantation |
+| **First published** | 2024-11-22 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yry4r9y9v5/1) |
+| **Publication date source field** | citation_publication_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_biomechanical_properties_adult_patients_high_myopia` |

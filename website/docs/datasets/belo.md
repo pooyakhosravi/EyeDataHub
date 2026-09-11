@@ -20,6 +20,11 @@ Expert-curated ophthalmology multiple-choice benchmark with rationales, assemble
 | --- | --- |
 | **Short name** | `belo` |
 | **Full name** | BELO Benchmark for Evaluating Language Models in Ophthalmology |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `text` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `belo` |

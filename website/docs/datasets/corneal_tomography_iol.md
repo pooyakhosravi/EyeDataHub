@@ -20,6 +20,11 @@ Pentacam-derived corneal tomography variables for intraocular-lens and corneal s
 | --- | --- |
 | **Short name** | `corneal_tomography_iol` |
 | **Full name** | Multi-Parameter Corneal Tomography Dataset for IOL Selection |
+| **First published** | 2026-04-20 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/wddj7bh9p9/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `corneal_tomography_iol` |

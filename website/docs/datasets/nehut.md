@@ -20,6 +20,11 @@ Retinal OCT B-scans from Noor Eye Hospital for classification of Normal, Drusen,
 | --- | --- |
 | **Short name** | `nehut` |
 | **Full name** | NEH-UT Retinal OCT Dataset |
+| **First published** | 2021-10-06 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/8kt969dhx6/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `nehut` |

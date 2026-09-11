@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `rfmid` |
 | **Full name** | RFMiD: Retinal Fundus Multi-disease Image Dataset |
+| **First published** | 2020-11-22 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [riadd.grand-challenge.org](https://riadd.grand-challenge.org/) |
+| **Publication date source field** | Official RIADD Important Dates: Training Data Release (Images + Ground truth) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `rfmid` |

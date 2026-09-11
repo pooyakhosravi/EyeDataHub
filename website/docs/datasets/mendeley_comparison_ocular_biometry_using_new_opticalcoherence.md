@@ -20,6 +20,11 @@ Eye-level device biometry measurements from Human ocular-biometry comparison stu
 | --- | --- |
 | **Short name** | `mendeley_comparison_ocular_biometry_using_new_opticalcoherence` |
 | **Full name** | Comparison of ocular biometry using new OpticalCoherence Tomography-based Optical Biometer with Other Device.  |
+| **First published** | 2019-08-19 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/kwv73shvxh/1) |
+| **Publication date source field** | citation_publication_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_comparison_ocular_biometry_using_new_opticalcoherence` |
