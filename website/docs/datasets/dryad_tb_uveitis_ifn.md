@@ -20,6 +20,11 @@ The human uveitis expression workbook has a stated 103-enrollment cohort and sup
 | --- | --- |
 | **Short name** | `dryad_tb_uveitis_ifn` |
 | **Full name** | Type 1 interferon-inducible gene expression in QuantiFERON Gold TB-positive uveitis: a tool to stratify a high versus low risk of active tuberculosis? |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_tb_uveitis_ifn` |

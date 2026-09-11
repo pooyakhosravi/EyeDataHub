@@ -20,6 +20,11 @@ The named longitudinal OCT measurement CSV covers 2,115 treated AMD eyes and fit
 | --- | --- |
 | **Short name** | `dryad_namd_oct_longitudinal` |
 | **Full name** | Quantifying changes on optical coherence tomography in eyes receiving treatment for neovascular age-related macular degeneration |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_namd_oct_longitudinal` |

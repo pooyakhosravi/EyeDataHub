@@ -20,6 +20,11 @@ Synthetic surgical-analysis instruction/chain-of-thought dataset derived from Ca
 | --- | --- |
 | **Short name** | `lmod_cataract_1k_cot` |
 | **Full name** | Cataract-1K Surgical Analysis Chain-of-Thought Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `multimodal` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `lmod_cataract_1k_cot` |

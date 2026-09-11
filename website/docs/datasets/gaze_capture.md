@@ -20,6 +20,11 @@ Crowdsourced iPhone and iPad face videos with screen-fixation coordinates for ap
 | --- | --- |
 | **Short name** | `gaze_capture` |
 | **Full name** | GazeCapture Mobile Eye-Tracking Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `gaze_capture` |

@@ -20,6 +20,11 @@ Eye-level demographics, clinical measurements, and SD-OCT-derived macular gangli
 | --- | --- |
 | **Short name** | `dryad_gcc_glaucoma` |
 | **Full name** | Glaucoma Ganglion Cell Complex Clinical Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_gcc_glaucoma` |

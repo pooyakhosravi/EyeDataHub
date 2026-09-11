@@ -20,6 +20,11 @@ Human tissue transcriptional and microbiome measurements from Orbital tissue fro
 | --- | --- |
 | **Short name** | `mendeley_micro_go_study_transcriptional_profiling_orbital` |
 | **Full name** | MICRO-GO study: transcriptional profiling of orbital tissues in Graves’ orbitopathy & microbiome composition |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_micro_go_study_transcriptional_profiling_orbital` |

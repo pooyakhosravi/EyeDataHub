@@ -20,6 +20,11 @@ Fundus images and age labels for retinal age prediction and regression.
 | --- | --- |
 | **Short name** | `retina_age_analysis` |
 | **Full name** | Retina Age Analysis |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `retina_age_analysis` |

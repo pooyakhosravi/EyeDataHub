@@ -20,6 +20,11 @@ Raw and processed eye-tracking data from glaucoma patients with asymmetrical vis
 | --- | --- |
 | **Short name** | `glaucoma_eye_movements` |
 | **Full name** | Eye Movements of Glaucoma Patients with Asymmetrical Visual Field Loss |
+| **First published** | 2023-03-23 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/7761477) |
+| **Publication date source field** | metadata.publication_date (earliest repository version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `glaucoma_eye_movements` |

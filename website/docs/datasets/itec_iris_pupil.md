@@ -20,6 +20,11 @@ Human cataract-surgery video frames with iris and pupil pixel masks.
 | --- | --- |
 | **Short name** | `itec_iris_pupil` |
 | **Full name** | ITEC Iris and Pupil Segmentation Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `itec_iris_pupil` |

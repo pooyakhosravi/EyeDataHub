@@ -243,10 +243,22 @@ class DatasetInfo:
     access_check_status: str = ""
     transfer_check_status: str = ""
 
+    # First public release of this dataset, independent of article/version dates.
+    # Partial ISO dates retain the source's precision; unknown values stay None.
+    publication_date: Optional[str] = None
+    publication_date_precision: Optional[str] = None
+    publication_date_source_url: Optional[str] = None
+    publication_date_source_field: Optional[str] = None
+    publication_date_scope: Optional[str] = None
+    publication_date_reviewed_on: Optional[str] = None
+    publication_date_notes: Optional[str] = None
+
     def __post_init__(self) -> None:
         from eyedatahub.core.metadata import enrich_dataset_info
+        from eyedatahub.core.publication_dates import enrich_publication_date
 
         enrich_dataset_info(self)
+        enrich_publication_date(self)
 
     @property
     def license_family(self) -> str:

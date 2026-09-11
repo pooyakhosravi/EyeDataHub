@@ -20,6 +20,11 @@ Fundus/UWF image-report dataset derived from DeepDRiD and OUWFD-style resources 
 | --- | --- |
 | **Short name** | `fundus_report_dataset` |
 | **Full name** | Fundus Report Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `multimodal` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `fundus_report_dataset` |

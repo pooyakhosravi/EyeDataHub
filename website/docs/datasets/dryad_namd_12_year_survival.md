@@ -20,6 +20,11 @@ The anonymized 7,802-eye human AMD CSV is a clearly defined long-term ophthalmic
 | --- | --- |
 | **Short name** | `dryad_namd_12_year_survival` |
 | **Full name** | Insights from survival analyses during 12 years of anti-VEGF therapy for neovascular age-related macular degeneration |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_namd_12_year_survival` |

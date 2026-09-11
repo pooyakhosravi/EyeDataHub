@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Patient and non-dis
 | --- | --- |
 | **Short name** | `mendeley_ocular_surface_disorders_affect_quality_life` |
 | **Full name** | Ocular Surface Disorders Affect Quality of Life in Patients with Autoimmune Blistering Skin Diseases: A Cross-Sectional Study |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_ocular_surface_disorders_affect_quality_life` |

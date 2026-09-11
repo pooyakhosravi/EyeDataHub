@@ -20,6 +20,11 @@ Human retinal photoplethysmography and retinal-nerve-fiber-layer measurements.
 | --- | --- |
 | **Short name** | `retinal_photoplethysmography_rnfl` |
 | **Full name** | Retinal Photoplethysmography and RNFL Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `retinal_photoplethysmography_rnfl` |

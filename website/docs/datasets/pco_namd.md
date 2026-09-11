@@ -20,6 +20,11 @@ Paired color-fundus/OCT images with expert MNV subtype labels and treatment-resp
 | --- | --- |
 | **Short name** | `pco_namd` |
 | **Full name** | PCO-nAMD Paired CFP and OCT Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `pco_namd` |

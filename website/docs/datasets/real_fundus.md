@@ -20,6 +20,11 @@ One hundred twenty paired low quality and high quality clinical fundus photograp
 | --- | --- |
 | **Short name** | `real_fundus` |
 | **Full name** | Real Fundus Clinical Image Restoration Benchmark |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `real_fundus` |

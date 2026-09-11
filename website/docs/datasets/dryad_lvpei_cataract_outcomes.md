@@ -20,6 +20,11 @@ The 2,049-surgery cataract outcome file is direct human ophthalmic care data.
 | --- | --- |
 | **Short name** | `dryad_lvpei_cataract_outcomes` |
 | **Full name** | LVPEI Cataract Surgery Outcome Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_lvpei_cataract_outcomes` |

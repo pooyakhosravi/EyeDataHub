@@ -20,6 +20,11 @@ The 452-participant longitudinal pediatric biometric workbook is core myopia pro
 | --- | --- |
 | **Short name** | `dryad_pediatric_myopia_longitudinal` |
 | **Full name** | Axial length elongation and myopia incidence increase in primary school-age children: 3-year follow-up study |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_pediatric_myopia_longitudinal` |

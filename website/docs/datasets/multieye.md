@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `multieye` |
 | **Full name** | MultiEYE: OCT-Enhanced Fundus Multi-Disease Benchmark |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `multimodal` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `multieye` |

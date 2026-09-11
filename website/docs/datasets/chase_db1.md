@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `chase_db1` |
 | **Full name** | CHASE_DB1: Child Heart and Health Study in England |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `chase_db1` |

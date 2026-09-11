@@ -20,6 +20,11 @@ Twelve human fundus-image sequences are a direct ocular imaging resource for ven
 | --- | --- |
 | **Short name** | `dryad_fundus_venous_pulsation` |
 | **Full name** | Fundus Venous Pulsation Sequence Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_fundus_venous_pulsation` |

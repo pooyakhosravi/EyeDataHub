@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `gamma` |
 | **Full name** | GAMMA — Glaucoma Grading from Multi-Modality Images |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `multimodal` |
 | **Resource role** | `component_dataset` |
 | **Dataset family** | `ichallenge_gamma` |

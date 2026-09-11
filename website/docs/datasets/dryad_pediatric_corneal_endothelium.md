@@ -20,6 +20,11 @@ The 111-participant raw corneal endothelial dataset is direct pediatric ocular-b
 | --- | --- |
 | **Short name** | `dryad_pediatric_corneal_endothelium` |
 | **Full name** | Corneal endothelial morphology of healthy myopic Malaysian children of Chinese ethnicity aged 8-9 years and its association with axial length |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_pediatric_corneal_endothelium` |

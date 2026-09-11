@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Source describes de
 | --- | --- |
 | **Short name** | `mendeley_annotated_infant_fundus_images_object_detection` |
 | **Full name** | Annotated Infant Fundus Images for Object Detection of Key Structures (Optic Disk and Macula) |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_annotated_infant_fundus_images_object_detection` |

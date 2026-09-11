@@ -20,6 +20,11 @@ The 1,384-eye high-myopia database is a directly reusable human macular clinical
 | --- | --- |
 | **Short name** | `dryad_dome_shaped_macula` |
 | **Full name** | Observational study of clinical characteristics of dome-shaped macula in Chinese Han with high myopia at Zhongshan Ophthalmic Center |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_dome_shaped_macula` |

@@ -20,6 +20,11 @@ The 131-participant longitudinal lens-fluorescence workbook is core human ocular
 | --- | --- |
 | **Short name** | `dryad_lens_fluorescence_twins` |
 | **Full name** | Long-term development of lens fluorescence in a twin cohort: Heritability and effects of age and lifestyle |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_lens_fluorescence_twins` |

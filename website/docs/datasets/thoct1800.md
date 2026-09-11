@@ -20,6 +20,11 @@ A collection of 1,800 preprocessed retinal OCT B-scans, with 600 images each for
 | --- | --- |
 | **Short name** | `thoct1800` |
 | **Full name** | THOCT1800 Retinal OCT Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `thoct1800` |

@@ -20,6 +20,11 @@ Fundus-image-level vessel-segmentation data from Retinopathy-of-prematurity reti
 | --- | --- |
 | **Short name** | `mendeley_retinal_blood_vessel_segmentation_rop` |
 | **Full name** | Retinal blood vessel segmentation(ROP) |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_retinal_blood_vessel_segmentation_rop` |

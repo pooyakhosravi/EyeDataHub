@@ -20,6 +20,11 @@ AMD complement/zinc clinical-trial data directly support human retinal disease b
 | --- | --- |
 | **Short name** | `dryad_amd_zinc_complement` |
 | **Full name** | AMD Zinc Complement Dataset |
+| **First published** | 2015-10-10 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [datadryad.org/api](https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.3gq6t) |
+| **Publication date source field** | publicationDate |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_amd_zinc_complement` |

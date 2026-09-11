@@ -20,6 +20,11 @@ Visual-field and psychophysics experiment data for scotoma-detection comparisons
 | --- | --- |
 | **Short name** | `visual_field_testing_experiment` |
 | **Full name** | Visual Field Testing Experiment |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `visual_field` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `visual_field_testing_experiment` |

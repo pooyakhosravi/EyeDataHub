@@ -20,6 +20,11 @@ Grand Challenge OCT classification dataset for diabetic-retinopathy related OCT 
 | --- | --- |
 | **Short name** | `rocc` |
 | **Full name** | ROCC: Retinal OCT Classification Challenge |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `rocc` |

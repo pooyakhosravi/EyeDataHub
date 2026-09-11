@@ -20,6 +20,11 @@ One hundred retinal fundus images from Armed Forces Institute of Ophthalmology, 
 | --- | --- |
 | **Short name** | `afio_fundus_vessels` |
 | **Full name** | AFIO Fundus Images for Vessel Segmentation and Disease Annotation |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `afio_fundus_vessels` |

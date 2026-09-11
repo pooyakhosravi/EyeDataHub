@@ -20,6 +20,11 @@ Systemic mitochondrial-function measurements are directly linked to human glauco
 | --- | --- |
 | **Short name** | `dryad_glaucoma_lhon_mitochondrial` |
 | **Full name** | Glaucoma and LHON Mitochondrial Function Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_glaucoma_lhon_mitochondrial` |

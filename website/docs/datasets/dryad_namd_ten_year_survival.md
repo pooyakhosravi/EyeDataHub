@@ -20,6 +20,11 @@ The 103-patient ten-year AMD outcome CSV is a clearly defined human survival-ana
 | --- | --- |
 | **Short name** | `dryad_namd_ten_year_survival` |
 | **Full name** | Ten-year survival trends of neovascular age-related macular degeneration at first presentation |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_namd_ten_year_survival` |

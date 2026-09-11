@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Source explicitly d
 | --- | --- |
 | **Short name** | `mendeley_cust_iris` |
 | **Full name** | CUST-Iris |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `iris_biometrics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_cust_iris` |

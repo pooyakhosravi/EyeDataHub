@@ -20,6 +20,11 @@ A derived OCT angiography resource with 640 coronal PNG views for each of 129 su
 | --- | --- |
 | **Short name** | `octa_macula_coronal` |
 | **Full name** | OCTA Macula Coronal Views |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `octa` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `octa_macula_coronal` |

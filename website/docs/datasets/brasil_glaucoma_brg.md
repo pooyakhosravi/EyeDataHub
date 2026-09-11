@@ -20,6 +20,11 @@ Portable/smartphone fundus photographs of Brazilian glaucoma and non-glaucoma vo
 | --- | --- |
 | **Short name** | `brasil_glaucoma_brg` |
 | **Full name** | Brazil Glaucoma (BrG) Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `brasil_glaucoma_brg` |

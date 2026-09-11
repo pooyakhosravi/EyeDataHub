@@ -20,6 +20,11 @@ Color fundus photographs paired with biological metadata and structured descript
 | --- | --- |
 | **Short name** | `rop_vl` |
 | **Full name** | ROP-VL Retinopathy of Prematurity Vision-Language Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `rop_vl` |

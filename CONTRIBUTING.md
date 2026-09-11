@@ -11,6 +11,7 @@ Use `eyedatahub` for Python imports and `eyehub` for CLI examples.
 
 - [Add a new dataset](#add-a-new-dataset)
 - [Verify a dataset's license](#verify-a-datasets-license)
+- [Add publication dates](#add-publication-dates)
 - [Test before opening a PR](#test-before-opening-a-pr)
 - [Open a PR](#open-a-pr)
 - [AI-agent workflow](#ai-agent-workflow)
@@ -186,6 +187,16 @@ Source-term verification and scope recording are mandatory.
 EyeDataHub reports source documentation; it does not make a legal
 determination. If a source term or scope appears wrong, open an evidence-backed
 issue or pull request.
+
+## Add Publication Dates
+
+Publication dates are first-class `DatasetInfo` fields. Add sourced initial
+public-release dates to `eyedatahub/core/publication_dates.json`, keyed by the
+existing record ID, or set the fields explicitly in a dataset class. Include
+precision, official evidence URL, source field, scope, and review date. Leave
+unknown dates empty; do not substitute article or latest-version dates.
+See [the publication-date guide](docs/PUBLICATION_DATES.md) for the field schema,
+version and mirror rules, chronological search, and backfill checks.
 
 ## Test Before Opening A PR
 

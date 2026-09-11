@@ -20,6 +20,11 @@ Baseline and two-year follow-up color fundus image pairs from Tianjin Medical Un
 | --- | --- |
 | **Short name** | `retinal_dr_longitudinal` |
 | **Full name** | Retinal DR Longitudinal Fundus Pairs |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `retinal_dr_longitudinal` |

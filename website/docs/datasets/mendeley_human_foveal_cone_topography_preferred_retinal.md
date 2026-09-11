@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Human foveal cone t
 | --- | --- |
 | **Short name** | `mendeley_human_foveal_cone_topography_preferred_retinal` |
 | **Full name** | Human foveal cone topography and preferred retinal locus of fixation |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_human_foveal_cone_topography_preferred_retinal` |

@@ -20,6 +20,11 @@ Human retinal optic-flow and locomotion observations.
 | --- | --- |
 | **Short name** | `retinal_optic_flow_locomotion` |
 | **Full name** | Retinal Optic Flow and Locomotion Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `retinal_optic_flow_locomotion` |

@@ -20,6 +20,11 @@ Longitudinal human ophthalmic and OCT measurements in the bariatric cohort are d
 | --- | --- |
 | **Short name** | `dryad_bariatric_ophthalmology` |
 | **Full name** | Bariatric Surgery Ophthalmic Evaluation Dataset |
+| **First published** | 2019-05-23 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [datadryad.org/api](https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.1g6vm34) |
+| **Publication date source field** | publicationDate |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_bariatric_ophthalmology` |

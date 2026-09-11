@@ -20,6 +20,11 @@ The 17-participant optic-neuritis psychophysics archive is a direct human visual
 | --- | --- |
 | **Short name** | `dryad_optic_neuritis_metacontrast` |
 | **Full name** | Dichoptic metacontrast masking functions to infer transmission delay in optic neuritis |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_optic_neuritis_metacontrast` |

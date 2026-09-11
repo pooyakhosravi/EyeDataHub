@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from Chinese new-
 | --- | --- |
 | **Short name** | `mendeley_3_year_follow_up_optic_neuritis` |
 | **Full name** | a 3-year follow-up of optic neuritis phenotypes in Chinese cohort |
+| **First published** | 2021-01-14 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zvb55v8mzw/1) |
+| **Publication date source field** | citation_publication_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_3_year_follow_up_optic_neuritis` |

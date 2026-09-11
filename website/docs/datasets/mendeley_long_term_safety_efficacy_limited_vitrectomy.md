@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Study reports human
 | --- | --- |
 | **Short name** | `mendeley_long_term_safety_efficacy_limited_vitrectomy` |
 | **Full name** | Data for: Long-Term Safety and Efficacy of Limited Vitrectomy for Vision Degrading Vitreopathy from Vitreous Floaters |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_long_term_safety_efficacy_limited_vitrectomy` |

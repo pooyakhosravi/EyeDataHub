@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Healthy controls at
 | --- | --- |
 | **Short name** | `mendeley_fferg_reference_healthy_controls_university_eye` |
 | **Full name** | ffERG Reference Data from Healthy Controls (University Eye Hospital Tuebingen) |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `electrophysiology` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_fferg_reference_healthy_controls_university_eye` |

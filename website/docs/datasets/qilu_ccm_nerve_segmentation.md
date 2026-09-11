@@ -20,6 +20,11 @@ A human corneal confocal microscopy dataset containing 410 source images from 88
 | --- | --- |
 | **Short name** | `qilu_ccm_nerve_segmentation` |
 | **Full name** | Qilu Annotated Corneal Confocal Microscopy Nerve Segmentation Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `confocal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `qilu_ccm_nerve_segmentation` |

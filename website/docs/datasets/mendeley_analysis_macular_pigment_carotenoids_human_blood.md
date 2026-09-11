@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Glaucoma patients a
 | --- | --- |
 | **Short name** | `mendeley_analysis_macular_pigment_carotenoids_human_blood` |
 | **Full name** | Analysis of macular pigment carotenoids in human blood serum of glaucoma patients as a measure of ocular health: A Raman spectroscopic study |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_analysis_macular_pigment_carotenoids_human_blood` |

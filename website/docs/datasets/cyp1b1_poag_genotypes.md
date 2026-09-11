@@ -20,6 +20,11 @@ Human POAG genotype observations.
 | --- | --- |
 | **Short name** | `cyp1b1_poag_genotypes` |
 | **Full name** | CYP1B1 Primary Open-Angle Glaucoma Genotype Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cyp1b1_poag_genotypes` |

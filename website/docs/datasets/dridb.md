@@ -20,6 +20,11 @@ Fifty color fundus images with expert markings of diabetic retinopathy lesions, 
 | --- | --- |
 | **Short name** | `dridb` |
 | **Full name** | DRiDB: Diabetic Retinopathy Image Database |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dridb` |

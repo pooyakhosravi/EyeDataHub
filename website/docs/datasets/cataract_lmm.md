@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `cataract_lmm` |
 | **Full name** | Cataract-LMM: Large-Scale Multi-Source Multi-Task Cataract Surgery Benchmark |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cataract_lmm` |

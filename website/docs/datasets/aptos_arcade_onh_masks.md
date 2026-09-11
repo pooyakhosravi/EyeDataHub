@@ -20,6 +20,11 @@ Segmentation masks for the vascular arcade and optic nerve head derived from APT
 | --- | --- |
 | **Short name** | `aptos_arcade_onh_masks` |
 | **Full name** | APTOS Vascular Arcade and Optic Nerve Head Masks |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `aptos_arcade_onh_masks` |

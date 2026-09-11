@@ -20,6 +20,11 @@ Corneal map images for three-class keratoconus detection.
 | --- | --- |
 | **Short name** | `keratoconus_detection_kaggle` |
 | **Full name** | Keratoconus Detection Corneal Maps |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `keratoconus_detection_kaggle` |

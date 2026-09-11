@@ -20,6 +20,11 @@ Small corneal confocal fluorescence imaging dataset for keratoconus epithelium a
 | --- | --- |
 | **Short name** | `corneal_epithelium_confocal` |
 | **Full name** | Keratoconus Corneal Epithelium Confocal Fluorescence Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `confocal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `corneal_epithelium_confocal` |

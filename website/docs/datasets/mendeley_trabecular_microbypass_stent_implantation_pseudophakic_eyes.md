@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from Pseudophakic
 | --- | --- |
 | **Short name** | `mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes` |
 | **Full name** | Data for: Trabecular microbypass stent implantation in pseudophakic eyes with open-angle glaucoma: long-term results |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_trabecular_microbypass_stent_implantation_pseudophakic_eyes` |

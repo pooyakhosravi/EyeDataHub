@@ -20,6 +20,11 @@ One thousand seven hundred eighty-six original color fundus images for diabetic 
 | --- | --- |
 | **Short name** | `bmrd` |
 | **Full name** | Bangladesh Multi-Disease Retinal Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `bmrd` |

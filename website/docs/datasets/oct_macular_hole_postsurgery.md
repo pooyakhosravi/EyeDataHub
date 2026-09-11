@@ -20,6 +20,11 @@ HD-OCT scans and clinical outcome variables for macular-hole visual-improvement 
 | --- | --- |
 | **Short name** | `oct_macular_hole_postsurgery` |
 | **Full name** | HD-OCT of Macular Hole Before and After Surgery |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `oct_macular_hole_postsurgery` |

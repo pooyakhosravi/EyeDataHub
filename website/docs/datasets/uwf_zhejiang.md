@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `uwf_zhejiang` |
 | **Full name** | Open UWF Fundus Dataset with Disease + Quality Labels |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `uwf_fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `uwf_zhejiang` |

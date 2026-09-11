@@ -20,6 +20,11 @@ The 270-eye glaucoma visual-field dataset directly supports prognosis and progre
 | --- | --- |
 | **Short name** | `dryad_myopia_glaucoma_visual_field` |
 | **Full name** | Myopia and Glaucoma Visual Field Prognosis Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `visual_field` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_myopia_glaucoma_visual_field` |

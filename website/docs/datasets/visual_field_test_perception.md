@@ -20,6 +20,11 @@ Human visual-field perception observations.
 | --- | --- |
 | **Short name** | `visual_field_test_perception` |
 | **Full name** | Visual Field Test Perception Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `visual_field` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `visual_field_test_perception` |

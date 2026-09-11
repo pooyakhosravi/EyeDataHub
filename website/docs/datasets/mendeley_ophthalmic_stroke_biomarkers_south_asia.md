@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from Hospital-bas
 | --- | --- |
 | **Short name** | `mendeley_ophthalmic_stroke_biomarkers_south_asia` |
 | **Full name** | Ophthalmic Stroke Biomarkers in south Asia |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_ophthalmic_stroke_biomarkers_south_asia` |

@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from Children com
 | --- | --- |
 | **Short name** | `mendeley_efficacy_combined_orthokeratology_0_01_atropine` |
 | **Full name** | Dataset for: Efficacy of combined orthokeratology and 0.01% atropine solution for slowing axial elongation in children with myopia: a 2-year randomised trial |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_efficacy_combined_orthokeratology_0_01_atropine` |

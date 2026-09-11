@@ -1,0 +1,617 @@
+{
+  "definition": "Initial public release of the represented dataset, not its article, latest version, or a later mirror.",
+  "records": {
+    "aqp4_optic_neuritis_oct_layers": {
+      "publication_date": "2016-05-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/3209908/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "No version suffix in catalog route; Figshare v2 API versions list v1 as earliest public version."
+    },
+    "asd_eye_tracking": {
+      "publication_date": "2022-06-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/20113592/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    "brset": {
+      "publication_date": "2023-03-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/brazilian-ophthalmological/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "The version 1.0.0 PhysioNet page states Published: March 8, 2023; this is the initial version, not the later version 1.0.1."
+    },
+    "brset_mbrset_embeddings": {
+      "publication_date": "2026-03-30",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/embedding-brset-mbrset/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "The version 1.0.0 PhysioNet page states Published: March 30, 2026; this is the initial public release of the derived embedding resource, not the dates of its BRSET or mBRSET parents."
+    },
+    "casia2_keratometric_astigmatism": {
+      "publication_date": "2024-07-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/26395018/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    "cataract_iol_biometry_outcomes": {
+      "publication_date": "2023-05-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/22736687/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    "cataract101_extended_labels": {
+      "publication_date": "2021-06-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/4984167",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Derivative annotation layer; Zenodo API record is the only listed version and its publication field is used."
+    },
+    "chaksu": {
+      "publication_date": "2023-01-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/20123135/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Current Figshare article is v2; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    "coph100": {
+      "publication_date": "2025-01-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/27061084/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    "deepdrid": {
+      "publication_date": "2020-01-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://biomedicalimaging.org/2020/wp-content/uploads/static-html-to-wp/data/dff0d41695bbae509355435cd32ecf5d/index-29.htm",
+      "publication_date_source_field": "official ISBI 2020 challenge timeline: Training Data Release (Images + Groundtruth)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official ISBI 2020 challenge timeline dates the first public training-data release to 2020-01-22; challenge access required registration. Zenodo v1 (record 6452623, published 2022-04-12) is a later archive/mirror and is not used for the resource-level initial date."
+    },
+    "dme_vqa": {
+      "publication_date": "2022-06-27",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/6784358",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Derivative VQA annotation layer; Zenodo API record is the only listed version and its publication field is used."
+    },
+    "drac22": {
+      "publication_date": "2022-07-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://drac22.grand-challenge.org/Timeline/",
+      "publication_date_source_field": "official DRAC22 challenge timeline: training sets for Tasks 2 and 3 released",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "DRAC22 official timeline records Task 2 and Task 3 training-set release on 2022-07-08, before Task 1 training on 2022-08-02 and testing sets for all tasks on 2022-08-08. Zenodo record 10280359 (metadata publication_date year 2023) is a later archive, not the resource-level initial release."
+    },
+    "dryad_acanthamoeba_keratitis_transcriptome": {
+      "publication_date": "2024-05-27",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd5fx",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 4."
+    },
+    "dryad_amd_zinc_complement": {
+      "publication_date": "2015-10-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.3gq6t",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    "dryad_aoslo_rpe": {
+      "publication_date": "2019-03-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.b41j15h",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    "dryad_bariatric_ophthalmology": {
+      "publication_date": "2019-05-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.1g6vm34",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    "dryad_brvo_bevacizumab_multimodal": {
+      "publication_date": "2017-08-30",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.3cp54",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    "dryad_clcc1_retinitis_pigmentosa": {
+      "publication_date": "2019-07-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.3vv31qq",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    "dryad_congenital_cataract_sight_restoration": {
+      "publication_date": "2025-05-06",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.0gb5mkm9b",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 13."
+    },
+    "dryad_congenital_glaucoma_wes": {
+      "publication_date": "2016-12-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.k7455",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    "dryad_cornea_oct_pentacam": {
+      "publication_date": "2021-12-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.tht76hf0c",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 5."
+    },
+    "dryad_corneal_biomechanics_prostaglandin": {
+      "publication_date": "2017-05-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.d35s0",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    "dryad_corneal_conjunctivitis_biomarker": {
+      "publication_date": "2025-10-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.4j0zpc8mm",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 3."
+    },
+    "dryad_corneal_laser_procedure": {
+      "publication_date": "2022-03-01",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.m905qfv2r",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 8."
+    },
+    "dryad_crvo_vegf_tortuosity": {
+      "publication_date": "2016-07-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.5dn13",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    "dryad_d1zd5s": {
+      "publication_date": "2021-04-21",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5068%2Fd1zd5s",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 9."
+    },
+    "dryad_diabetes_retinal_capillary": {
+      "publication_date": "2017-11-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.58791",
+      "publication_date_source_field": "publicationDate",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date."
+    },
+    "dual_scheimpflug_ss_oct_biometry": {
+      "publication_date": "2021-10-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/16828996/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    "erdes": {
+      "publication_date": "2025-07-31",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://github.com/OSUPCVLab/ERDES",
+      "publication_date_source_field": "Official GitHub README: News",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "The official ERDES repository README states '(July 31, 2025): Release of the dataset.' Later Hugging Face and Zenodo dates are explicitly separate releases."
+    },
+    "ffa_ir": {
+      "publication_date": "2021-09-21",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.physionet.org/content/ffa-ir-medical-report/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "The version 1.0.0 PhysioNet page states Published: Sept. 21, 2021. The page also records a later access suspension; the date is the original public release."
+    },
+    "fives": {
+      "publication_date": "2022-05-01",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/19688169/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    "fundus_avseg": {
+      "publication_date": "2024-12-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/27938034/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Current Figshare article is v2; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    "glaucoma_eye_movements": {
+      "publication_date": "2023-03-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/7761477",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    "hesc_rpe_electrical_excitability": {
+      "publication_date": "2023-03-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/22246969/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Current Figshare article is v2; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    "hpmi": {
+      "publication_date": "2023-12-13",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/24800232/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Current Figshare article is v2; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    "hyamd": {
+      "publication_date": "2025-09-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "The version 1.0.0 PhysioNet page states Published: Sept. 9, 2025 and its Release Notes identify version 1.0.0 as Initial release."
+    },
+    "hygd": {
+      "publication_date": "2025-06-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "The version 1.0.0 PhysioNet page states Published: June 3, 2025 and labels Release Notes version 1.0.0 as Initial release; later 1.1.0 is not used."
+    },
+    "irfdrd": {
+      "publication_date": "2024-06-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/12552326",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    "jichi": {
+      "publication_date": "2017-04-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/4879853/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    "jsiec": {
+      "publication_date": "2019-10-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/3477553",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    "justraigs": {
+      "publication_date": "2024-01-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/10035093",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    "maetschke_glaucoma_oct": {
+      "publication_date": "2018-11-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/1481223",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    "mbrset": {
+      "publication_date": "2024-06-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/mbrset/1.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "The version 1.0 PhysioNet page states Published: June 26, 2024 and its Release Notes identify v1.0 as the first public release."
+    },
+    "mendeley_3_year_follow_up_optic_neuritis": {
+      "publication_date": "2021-01-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zvb55v8mzw/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_biochemical_parameters_tear_fluid_chemical_burns": {
+      "publication_date": "2021-08-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zhk775h6n4/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_biomechanical_properties_adult_patients_high_myopia": {
+      "publication_date": "2024-11-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/yry4r9y9v5/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_blinking_its_relationship_ocular_surface_digital": {
+      "publication_date": "2021-07-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/vyb5fv6ppp/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_cell_types_human_retina_its_organoids": {
+      "publication_date": "2020-09-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/sm67hr5bpm/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal": {
+      "publication_date": "2025-01-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/sg2rywwwxb/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_comparison_aqueous_humor_levels_plgf_vegf": {
+      "publication_date": "2020-02-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/wtcc9fcjdy/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_comparison_ocular_biometry_using_new_opticalcoherence": {
+      "publication_date": "2019-08-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/kwv73shvxh/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_contrast_sensitivity_visual_acuity_multifocal_contact": {
+      "publication_date": "2019-12-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/j5cw4wn23y/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_corneal_higher_order_aberrations_stevens_johnson": {
+      "publication_date": "2019-07-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/2k96xky4rf/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_demographic_profile_clinical_characteristics_patients_presenting": {
+      "publication_date": "2023-04-24",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/hwnm88jyzg/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_dme_classification_fundus_imaging_vision_transformers": {
+      "publication_date": "2026-06-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/sdcfn87pvs/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_dry_eye_symptoms_children_can_we": {
+      "publication_date": "2020-04-11",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/h79366vw73/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_effect_central_hole_location_phakic_intraocular": {
+      "publication_date": "2020-03-31",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/jjknx3wbkf/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "mendeley_effect_one_hour_smartphone_gaming_on": {
+      "publication_date": "2022-02-24",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/zn64p6r992/1",
+      "publication_date_source_field": "citation_publication_date",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit."
+    },
+    "oct5k": {
+      "publication_date": "2023-04-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/22128671/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Current Figshare article is v4; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    "octave": {
+      "publication_date": "2025-06-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/14580071",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    "olives": {
+      "publication_date": "2022-06-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/6622145",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo versions history for current record 7105232 identifies record 6622145 as the earliest version; date is the earliest version publication field."
+    },
+    "paraguay_dr": {
+      "publication_date": "2021-02-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/4532361",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo versions history for current record 4647952 identifies record 4532361 as the earliest version; date is the earliest version publication field."
+    },
+    "perg_ioba": {
+      "publication_date": "2024-01-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://physionet.org/content/perg-ioba-dataset/1.0.0/",
+      "publication_date_source_field": "PhysioNet landing page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "The version 1.0.0 PhysioNet page states Published: Jan. 19, 2024; the Versions section lists only 1.0.0."
+    },
+    "ravir": {
+      "publication_date": "2022-07",
+      "publication_date_precision": "month",
+      "publication_date_source_url": "https://ravirdataset.github.io/data/",
+      "publication_date_source_field": "Official project page: News",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "The official RAVIR project page says '[Jul 2022] RAVIR Dataset is now publicly available!'; no day is given, so precision is month."
+    },
+    "reta_benchmark": {
+      "publication_date": "2022-05-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/16960855/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    "rfmid2": {
+      "publication_date": "2023-01-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/7505822",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    "soul_octa": {
+      "publication_date": "2023-12-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/24893358/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Current Figshare article is v3; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    "ut_fsocta": {
+      "publication_date": "2022-04-21",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/6476639",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    }
+  }
+}

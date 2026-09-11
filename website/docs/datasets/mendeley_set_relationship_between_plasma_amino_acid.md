@@ -20,6 +20,11 @@ Sample-level mass-spectrometry metabolomics measurements from Plasma measurement
 | --- | --- |
 | **Short name** | `mendeley_set_relationship_between_plasma_amino_acid` |
 | **Full name** | data set of Relationship between plasma amino acid and carnitine levels and primary angle closure glaucoma based on mass spectrometry metabolomics |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_set_relationship_between_plasma_amino_acid` |

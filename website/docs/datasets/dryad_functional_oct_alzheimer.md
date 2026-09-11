@@ -20,6 +20,11 @@ Repeated light/dark SD-OCT acquisitions and retinal reflectivity profiles from h
 | --- | --- |
 | **Short name** | `dryad_functional_oct_alzheimer` |
 | **Full name** | Functional OCT Retinal Response Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_functional_oct_alzheimer` |

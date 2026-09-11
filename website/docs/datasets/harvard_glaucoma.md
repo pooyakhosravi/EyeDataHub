@@ -20,6 +20,11 @@ Fundus images for glaucoma detection from Harvard Medical School / Mass Eye and 
 | --- | --- |
 | **Short name** | `harvard_glaucoma` |
 | **Full name** | Harvard Glaucoma Fundus Image Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `harvard_glaucoma` |

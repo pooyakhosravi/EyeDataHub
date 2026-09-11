@@ -20,6 +20,11 @@ The first public AGAR300 release contains 28 color fundus images with microaneur
 | --- | --- |
 | **Short name** | `agar300` |
 | **Full name** | AGAR300 Microaneurysm Fundus Image Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `agar300` |

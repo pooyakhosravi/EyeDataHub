@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `uwf_tumor` |
 | **Full name** | UWF Fundus Intraocular Tumor Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `uwf_fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `uwf_tumor` |

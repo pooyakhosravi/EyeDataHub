@@ -20,6 +20,11 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_v9p0b` |
 | **Full name** | Data from: Retinal capillary rarefaction in patients with untreated mild-moderate hypertension |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_v9p0b` |

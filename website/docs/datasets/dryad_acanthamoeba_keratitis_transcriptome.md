@@ -20,6 +20,11 @@ Counts and metadata for 22 people form a directly translational human keratitis 
 | --- | --- |
 | **Short name** | `dryad_acanthamoeba_keratitis_transcriptome` |
 | **Full name** | Human conjunctival transcriptome in Acanthamoeba keratitis: An exploratory study |
+| **First published** | 2024-05-27 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [datadryad.org/api](https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd5fx) |
+| **Publication date source field** | publicationDate |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_acanthamoeba_keratitis_transcriptome` |

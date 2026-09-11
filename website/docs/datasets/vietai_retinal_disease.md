@@ -20,6 +20,11 @@ A multilabel fundus classification challenge with 3,435 labeled training images 
 | --- | --- |
 | **Short name** | `vietai_retinal_disease` |
 | **Full name** | VietAI Retinal Disease Detection 2020 |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `vietai_retinal_disease` |

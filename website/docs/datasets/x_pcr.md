@@ -20,6 +20,11 @@ The version-pinned public deposit contains 18,735 ophthalmic image-text benchmar
 | --- | --- |
 | **Short name** | `x_pcr` |
 | **Full name** | X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `multimodal` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `x_pcr` |

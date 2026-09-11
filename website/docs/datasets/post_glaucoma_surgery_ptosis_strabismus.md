@@ -20,6 +20,11 @@ De-identified human glaucoma-surgery clinical records with postoperative ptosis 
 | --- | --- |
 | **Short name** | `post_glaucoma_surgery_ptosis_strabismus` |
 | **Full name** | Post-Glaucoma-Surgery Ptosis and Strabismus Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `post_glaucoma_surgery_ptosis_strabismus` |

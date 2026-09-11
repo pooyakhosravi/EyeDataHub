@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Schoolchildren in B
 | --- | --- |
 | **Short name** | `mendeley_refractive_error_visual_impairment_among_school` |
 | **Full name** | Refractive error and Visual Impairment data among school children in Blantyre, Southern Malawi |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_refractive_error_visual_impairment_among_school` |

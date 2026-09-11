@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from Patients wit
 | --- | --- |
 | **Short name** | `mendeley_plasma_energy_metabolomics_patients_ocular_disease` |
 | **Full name** | plasma energy metabolomics in patients with ocular disease |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_plasma_energy_metabolomics_patients_ocular_disease` |

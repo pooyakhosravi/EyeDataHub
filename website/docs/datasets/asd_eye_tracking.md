@@ -20,6 +20,11 @@ Human eye-tracking observations from an ASD study.
 | --- | --- |
 | **Short name** | `asd_eye_tracking` |
 | **Full name** | Autism Spectrum Disorder Eye-Tracking Dataset |
+| **First published** | 2022-06-22 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/20113592/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `asd_eye_tracking` |

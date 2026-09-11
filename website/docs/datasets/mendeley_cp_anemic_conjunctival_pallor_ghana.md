@@ -20,6 +20,11 @@ Image-level conjunctival-pallor observations with anemia-related target from Con
 | --- | --- |
 | **Short name** | `mendeley_cp_anemic_conjunctival_pallor_ghana` |
 | **Full name** | CP-AnemiC (A Conjunctival Pallor) Dataset from Ghana |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_cp_anemic_conjunctival_pallor_ghana` |

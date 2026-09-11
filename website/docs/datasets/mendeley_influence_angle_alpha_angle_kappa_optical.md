@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from 28 cataract 
 | --- | --- |
 | **Short name** | `mendeley_influence_angle_alpha_angle_kappa_optical` |
 | **Full name** | The influence of angle alpha, angle kappa and optical aberra-tions on the visual outcomes after implantation of a high-addition trifocal IOL_2021 |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_influence_angle_alpha_angle_kappa_optical` |

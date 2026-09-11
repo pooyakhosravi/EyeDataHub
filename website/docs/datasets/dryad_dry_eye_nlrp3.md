@@ -20,6 +20,11 @@ Dry-eye clinical, tear, and ocular-surface molecular data directly support human
 | --- | --- |
 | **Short name** | `dryad_dry_eye_nlrp3` |
 | **Full name** | Dry Eye NLRP3 Ocular Surface Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_dry_eye_nlrp3` |

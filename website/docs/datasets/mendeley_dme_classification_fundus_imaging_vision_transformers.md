@@ -20,6 +20,11 @@ Fundus-image-level dme class labels and etdrs-guided annotations from Fundus ima
 | --- | --- |
 | **Short name** | `mendeley_dme_classification_fundus_imaging_vision_transformers` |
 | **Full name** | DME Classification in Fundus Imaging with Vision Transformers and ETDRS-Guided Annotation |
+| **First published** | 2026-06-15 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/sdcfn87pvs/1) |
+| **Publication date source field** | citation_publication_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_dme_classification_fundus_imaging_vision_transformers` |

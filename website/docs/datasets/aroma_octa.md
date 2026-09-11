@@ -20,6 +20,11 @@ Retinal OCTA scans labeled for artifact type, artifact severity, signal strength
 | --- | --- |
 | **Short name** | `aroma_octa` |
 | **Full name** | AROMA Retinal OCTA Artifact Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `octa` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `aroma_octa` |

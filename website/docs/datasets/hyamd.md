@@ -20,6 +20,11 @@ High-resolution fundus images from Hillel Yaffe Medical Center for age-related m
 | --- | --- |
 | **Short name** | `hyamd` |
 | **Full name** | HYAMD High-Resolution Fundus Image Dataset for AMD Diagnosis |
+| **First published** | 2025-09-09 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [physionet.org/content](https://physionet.org/content/hillel-yaffe-fundus-amd/1.0.0/) |
+| **Publication date source field** | PhysioNet landing page: Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `hyamd` |

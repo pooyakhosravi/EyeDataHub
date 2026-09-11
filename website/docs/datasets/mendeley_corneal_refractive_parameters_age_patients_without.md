@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from 2,545 patien
 | --- | --- |
 | **Short name** | `mendeley_corneal_refractive_parameters_age_patients_without` |
 | **Full name** | corneal refractive parameters with age in patients without corneal diseases based on Fourier analysis  |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_corneal_refractive_parameters_age_patients_without` |

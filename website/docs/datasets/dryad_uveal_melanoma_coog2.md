@@ -20,6 +20,11 @@ Multicenter uveal-melanoma gene-expression, PRAME, clinical, and metastasis-free
 | --- | --- |
 | **Short name** | `dryad_uveal_melanoma_coog2` |
 | **Full name** | COOG2.1 Uveal Melanoma Prognostic Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_uveal_melanoma_coog2` |

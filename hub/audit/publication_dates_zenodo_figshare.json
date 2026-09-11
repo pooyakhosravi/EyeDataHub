@@ -1,0 +1,402 @@
+{
+  "schema_version": "publication_date_audit.v1",
+  "reviewed_on": "2026-09-11",
+  "publication_date_scope": "initial_public_release",
+  "scope_note": "Bounded first batch: 14 Zenodo and 15 Figshare records. Dates are resource-level initial public-release evidence from the earliest official challenge release where a later repository archive was identified, otherwise from the earliest listed public repository version; they are not article dates, draft creation timestamps, modified dates, or current/latest-version dates. Other catalog records were not included in this bounded batch.",
+  "records": [
+    {
+      "record_id": "cataract101_extended_labels",
+      "publication_date": "2021-06-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/4984167",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":4984167,\"metadata\":{\"publication_date\":\"2021-06-18\",\"version\":\"01\"}}",
+      "notes": "Derivative annotation layer; Zenodo API record is the only listed version and its publication field is used."
+    },
+    {
+      "record_id": "deepdrid",
+      "publication_date": "2020-01-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://biomedicalimaging.org/2020/wp-content/uploads/static-html-to-wp/data/dff0d41695bbae509355435cd32ecf5d/index-29.htm",
+      "publication_date_source_field": "official ISBI 2020 challenge timeline: Training Data Release (Images + Groundtruth)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Training Data Release (Images + Groundtruth) | January 22, 2020",
+      "notes": "Official ISBI 2020 challenge timeline dates the first public training-data release to 2020-01-22; challenge access required registration. Zenodo v1 (record 6452623, published 2022-04-12) is a later archive/mirror and is not used for the resource-level initial date."
+    },
+    {
+      "record_id": "dme_vqa",
+      "publication_date": "2022-06-27",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/6784358",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":6784358,\"metadata\":{\"publication_date\":\"2022-06-27\",\"version\":\"1.0\"}}",
+      "notes": "Derivative VQA annotation layer; Zenodo API record is the only listed version and its publication field is used."
+    },
+    {
+      "record_id": "drac22",
+      "publication_date": "2022-07-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://drac22.grand-challenge.org/Timeline/",
+      "publication_date_source_field": "official DRAC22 challenge timeline: training sets for Tasks 2 and 3 released",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "8th July 2022 Release of training sets for Task 2 and Task 3.",
+      "notes": "DRAC22 official timeline records Task 2 and Task 3 training-set release on 2022-07-08, before Task 1 training on 2022-08-02 and testing sets for all tasks on 2022-08-08. Zenodo record 10280359 (metadata publication_date year 2023) is a later archive, not the resource-level initial release."
+    },
+    {
+      "record_id": "glaucoma_eye_movements",
+      "publication_date": "2023-03-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/7761477",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":7761477,\"metadata\":{\"publication_date\":\"2023-03-23\"}}",
+      "notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    {
+      "record_id": "irfdrd",
+      "publication_date": "2024-06-26",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/12552326",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":12552326,\"metadata\":{\"publication_date\":\"2024-06-26\",\"version\":\"IRFDRD\"}}",
+      "notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    {
+      "record_id": "jsiec",
+      "publication_date": "2019-10-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/3477553",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":3477553,\"metadata\":{\"publication_date\":\"2019-10-08\"}}",
+      "notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    {
+      "record_id": "justraigs",
+      "publication_date": "2024-01-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/10035093",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":10035093,\"metadata\":{\"publication_date\":\"2024-01-08\"}}",
+      "notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    {
+      "record_id": "maetschke_glaucoma_oct",
+      "publication_date": "2018-11-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/1481223",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":1481223,\"metadata\":{\"publication_date\":\"2018-11-09\",\"version\":\"1.0.0\"}}",
+      "notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    {
+      "record_id": "octave",
+      "publication_date": "2025-06-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/14580071",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":14580071,\"metadata\":{\"publication_date\":\"2025-06-02\",\"version\":\"1\"}}",
+      "notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    {
+      "record_id": "olives",
+      "publication_date": "2022-06-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/6622145",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":6622145,\"metadata\":{\"publication_date\":\"2022-06-09\"}}",
+      "notes": "Zenodo versions history for current record 7105232 identifies record 6622145 as the earliest version; date is the earliest version publication field."
+    },
+    {
+      "record_id": "paraguay_dr",
+      "publication_date": "2021-02-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/4532361",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":4532361,\"metadata\":{\"publication_date\":\"2021-02-10\",\"version\":\"0.1\"}}",
+      "notes": "Zenodo versions history for current record 4647952 identifies record 4532361 as the earliest version; date is the earliest version publication field."
+    },
+    {
+      "record_id": "rfmid2",
+      "publication_date": "2023-01-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/7505822",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":7505822,\"metadata\":{\"publication_date\":\"2023-01-05\"}}",
+      "notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    {
+      "record_id": "ut_fsocta",
+      "publication_date": "2022-04-21",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/6476639",
+      "publication_date_source_field": "metadata.publication_date (earliest repository version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":6476639,\"metadata\":{\"publication_date\":\"2022-04-21\",\"version\":\"1.0\"}}",
+      "notes": "Zenodo versions history lists this as the only version; metadata.publication_date is used."
+    },
+    {
+      "record_id": "aqp4_optic_neuritis_oct_layers",
+      "publication_date": "2016-05-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/3209908/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2016-05-05T02:43:45Z\"}",
+      "notes": "No version suffix in catalog route; Figshare v2 API versions list v1 as earliest public version."
+    },
+    {
+      "record_id": "asd_eye_tracking",
+      "publication_date": "2022-06-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/20113592/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2022-06-22T00:35:24Z\"}",
+      "notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    {
+      "record_id": "casia2_keratometric_astigmatism",
+      "publication_date": "2024-07-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/26395018/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2024-07-29T10:18:10Z\"}",
+      "notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    {
+      "record_id": "cataract_iol_biometry_outcomes",
+      "publication_date": "2023-05-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/22736687/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2023-05-03T07:08:12Z\"}",
+      "notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    {
+      "record_id": "chaksu",
+      "publication_date": "2023-01-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/20123135/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2023-01-25T07:06:52Z\"}",
+      "notes": "Current Figshare article is v2; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    {
+      "record_id": "coph100",
+      "publication_date": "2025-01-18",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/27061084/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2025-01-18T08:02:43Z\"}",
+      "notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    {
+      "record_id": "dual_scheimpflug_ss_oct_biometry",
+      "publication_date": "2021-10-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/16828996/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2021-10-19T03:30:11Z\"}",
+      "notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    {
+      "record_id": "fives",
+      "publication_date": "2022-05-01",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/19688169/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2022-05-01T00:57:39Z\"}",
+      "notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    {
+      "record_id": "fundus_avseg",
+      "publication_date": "2024-12-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/27938034/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2024-12-02T08:04:05Z\"}",
+      "notes": "Current Figshare article is v2; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    {
+      "record_id": "hesc_rpe_electrical_excitability",
+      "publication_date": "2023-03-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/22246969/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2023-03-10T03:13:20Z\"}",
+      "notes": "Current Figshare article is v2; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    {
+      "record_id": "hpmi",
+      "publication_date": "2023-12-13",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/24800232/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2023-12-13T17:06:06Z\"}",
+      "notes": "Current Figshare article is v2; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    {
+      "record_id": "jichi",
+      "publication_date": "2017-04-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/4879853/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2017-04-15T12:39:15Z\"}",
+      "notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    {
+      "record_id": "oct5k",
+      "publication_date": "2023-04-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/22128671/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2023-04-14T09:36:03Z\"}",
+      "notes": "Current Figshare article is v4; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    {
+      "record_id": "reta_benchmark",
+      "publication_date": "2022-05-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/16960855/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2022-05-16T08:24:51Z\"}",
+      "notes": "Figshare v2 API versions list v1 as earliest public version."
+    },
+    {
+      "record_id": "soul_octa",
+      "publication_date": "2023-12-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/24893358/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"version\":1,\"published_date\":\"2023-12-22T09:57:51Z\"}",
+      "notes": "Current Figshare article is v3; v2 API versions list v1 as earliest public version and its published_date is used."
+    }
+  ],
+  "unresolved": [
+    {
+      "record_id": "acrima",
+      "backend": "figshare",
+      "source_url": "https://figshare.com/s/c2d31f850af14c5b5232",
+      "reason": "Catalog route is a figshare short-link/collection; no stable article ID and version-1 publication field could be tied to this record in the official v2 API pass."
+    },
+    {
+      "record_id": "oculoscope",
+      "backend": "figshare",
+      "source_url": "https://figshare.com/s/926c2c2ef9e77ab5eb9d",
+      "reason": "Catalog route is a figshare short-link/collection; no stable article ID and version-1 publication field could be tied to this record in the official v2 API pass."
+    },
+    {
+      "record_id": "as_oct_keratitis",
+      "backend": "figshare",
+      "source_url": "https://doi.org/10.6084/m9.figshare.c.7036994.v1",
+      "reason": "Collection DOI route; API article response does not establish that the collection's date is the initial public release of the cataloged dataset."
+    },
+    {
+      "record_id": "farfum_rop",
+      "backend": "figshare",
+      "source_url": "https://doi.org/10.6084/m9.figshare.c.6721269",
+      "reason": "Collection DOI route returned no usable article/version-1 record in the official v2 API pass."
+    },
+    {
+      "record_id": "grape",
+      "backend": "figshare",
+      "source_url": "https://doi.org/10.6084/m9.figshare.c.6406319",
+      "reason": "Collection DOI route returned no usable article/version-1 record in the official v2 API pass."
+    },
+    {
+      "record_id": "rose",
+      "backend": "zenodo",
+      "source_url": "https://zenodo.org/api/records/12775880",
+      "reason": "Zenodo current record reports metadata.publication_date 2021-07-19 but top-level created is 2024-07-19 and the versions endpoint returned no history; possible mirror/redeposit conflict, so not silently dated."
+    },
+    {
+      "record_id": "trend_fundus",
+      "backend": "zenodo",
+      "source_url": "https://zenodo.org/api/records/4521044/versions",
+      "reason": "Current record has a publication field, but the versions-history check was rate-limited; current v1.1 was not independently proven earliest in this pass."
+    },
+    {
+      "record_id": "central_retinal_vessel_trunk_oag",
+      "backend": "figshare",
+      "source_url": "https://api.figshare.com/v2/articles/3917574/versions/1",
+      "reason": "Journal supplementary-item record (PLOS DOI), not clearly an original dataset deposit; repository date may be article-supplement posting rather than initial dataset release."
+    },
+    {
+      "record_id": "mpxv_ocular_manifestations_south_kivu",
+      "backend": "figshare",
+      "source_url": "https://api.figshare.com/v2/articles/31364760/versions/1",
+      "reason": "Journal supplementary-item record (PLOS DOI), not clearly an original dataset deposit; repository date may be article-supplement posting rather than initial dataset release."
+    },
+    {
+      "record_id": "pimd_visual_preference_eye_tracking",
+      "backend": "figshare",
+      "source_url": "https://api.figshare.com/v2/articles/19598133/versions/1",
+      "reason": "Journal supplementary-item record (PLOS DOI), not clearly an original dataset deposit; repository date may be article-supplement posting rather than initial dataset release."
+    },
+    {
+      "record_id": "post_glaucoma_surgery_ptosis_strabismus",
+      "backend": "figshare",
+      "source_url": "https://api.figshare.com/v2/articles/30491856/versions/1",
+      "reason": "Journal supplementary-item record (PLOS DOI), not clearly an original dataset deposit; repository date may be article-supplement posting rather than initial dataset release."
+    },
+    {
+      "record_id": "mario",
+      "backend": "zenodo",
+      "source_url": "https://youvenz.github.io/MARIO_challenge.github.io/news/",
+      "candidate_repository_url": "https://zenodo.org/api/records/15270469",
+      "reason": "The official MARIO important-dates page labels 2024-05-02 as a proposed timeline subject to adjustment, and the official News pages contain no actual data-release confirmation. Zenodo publication_date 2025-04-23 is a later archive; initial resource-level release remains unresolved."
+    }
+  ]
+}

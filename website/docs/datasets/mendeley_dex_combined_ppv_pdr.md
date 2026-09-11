@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from 104 eyes wit
 | --- | --- |
 | **Short name** | `mendeley_dex_combined_ppv_pdr` |
 | **Full name** | DEX combined PPV in PDR |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_dex_combined_ppv_pdr` |

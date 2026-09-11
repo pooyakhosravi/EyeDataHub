@@ -20,6 +20,11 @@ Time-series bright-field imaging of human embryonic-stem-cell-derived retinal or
 | --- | --- |
 | **Short name** | `hesc_retinal_organoid_early_differentiation` |
 | **Full name** | hESC-Derived Retinal Organoid Early Differentiation Imaging Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `cell_microscopy` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `hesc_retinal_organoid_early_differentiation` |

@@ -20,6 +20,11 @@ Image-level conjunctival observations with anemia target from Human conjunctiva 
 | --- | --- |
 | **Short name** | `mendeley_application_machine_learning_detecting_iron_deficiency` |
 | **Full name** | Application of Machine Learning in Detecting Iron Deficiency Anemia Using  Conjunctiva image Dataset from Ghana |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_application_machine_learning_detecting_iron_deficiency` |

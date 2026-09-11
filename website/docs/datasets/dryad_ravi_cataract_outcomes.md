@@ -20,6 +20,11 @@ RAVI cataract-surgery outcomes are direct human ophthalmic population data.
 | --- | --- |
 | **Short name** | `dryad_ravi_cataract_outcomes` |
 | **Full name** | RAVI Cataract Surgery Outcome Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_ravi_cataract_outcomes` |

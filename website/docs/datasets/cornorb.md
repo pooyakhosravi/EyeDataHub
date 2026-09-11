@@ -20,6 +20,11 @@ Orbscan corneal topography maps and structured clinical annotations for keratoco
 | --- | --- |
 | **Short name** | `cornorb` |
 | **Full name** | CornOrb: Orbscan Corneal Topography and Clinical Annotations |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cornorb` |

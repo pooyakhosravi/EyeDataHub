@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `erdes` |
 | **Full name** | ERDES: Ocular Ultrasound Video Benchmark (Retinal Detachment + Macula) |
+| **First published** | 2025-07-31 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [github.com/OSUPCVLab](https://github.com/OSUPCVLab/ERDES) |
+| **Publication date source field** | Official GitHub README: News |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `erdes` |

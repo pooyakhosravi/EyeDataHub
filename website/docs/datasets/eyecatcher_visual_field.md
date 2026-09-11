@@ -20,6 +20,11 @@ Visual-field data from glaucoma home monitoring: mean deviation, duration, and p
 | --- | --- |
 | **Short name** | `eyecatcher_visual_field` |
 | **Full name** | Eyecatcher Tablet-Based Visual Field Home-Monitoring Data |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `visual_field` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `eyecatcher_visual_field` |

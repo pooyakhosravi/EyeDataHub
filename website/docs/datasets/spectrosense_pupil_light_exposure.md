@@ -20,6 +20,11 @@ Human pupil and light-exposure measurements.
 | --- | --- |
 | **Short name** | `spectrosense_pupil_light_exposure` |
 | **Full name** | SpectroSense Pupil Light Exposure Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `spectrosense_pupil_light_exposure` |

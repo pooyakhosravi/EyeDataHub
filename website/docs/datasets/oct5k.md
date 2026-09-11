@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `oct5k` |
 | **Full name** | OCT5k: Multi-Disease Retinal Layer Annotations |
+| **First published** | 2023-04-14 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/22128671/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `oct5k` |

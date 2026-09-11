@@ -20,6 +20,11 @@ The de-identified 8,174-eye Moorfields AMD CSV is an explicitly released human l
 | --- | --- |
 | **Short name** | `dryad_moorfields_amd_1_2_year` |
 | **Full name** | One and two year visual outcomes from the Moorfields age-related macular degeneration database: a retrospective cohort study and an open science resource |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_moorfields_amd_1_2_year` |

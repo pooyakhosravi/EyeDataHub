@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `cataracts2017` |
 | **Full name** | CATARACTS 2017: Surgical Tool Detection Challenge |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cataracts2017` |

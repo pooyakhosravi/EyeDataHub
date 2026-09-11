@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from Glaucoma and
 | --- | --- |
 | **Short name** | `mendeley_test_results_article_motion_perception_glaucoma` |
 | **Full name** | Test results - Article "Motion perception and glaucoma" |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_test_results_article_motion_perception_glaucoma` |

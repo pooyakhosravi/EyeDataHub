@@ -20,6 +20,11 @@ Two thousand preprocessed fundus images compiled from six public sources for nor
 | --- | --- |
 | **Short name** | `amdnet23` |
 | **Full name** | AMDNet23 Fundus Image Dataset for AMD Detection |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `amdnet23` |

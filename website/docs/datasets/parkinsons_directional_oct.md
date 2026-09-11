@@ -20,6 +20,11 @@ Processed outer-retinal thickness and reflectance measurements from a Parkinson 
 | --- | --- |
 | **Short name** | `parkinsons_directional_oct` |
 | **Full name** | Parkinson Disease Directional OCT Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `parkinsons_directional_oct` |

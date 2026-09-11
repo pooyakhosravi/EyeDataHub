@@ -20,6 +20,11 @@ Longitudinal quantitative OCT biomarkers and treatment-response variables for pr
 | --- | --- |
 | **Short name** | `dryad_namd_visual_prediction` |
 | **Full name** | Moorfields nAMD Visual-Change Prediction Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_namd_visual_prediction` |

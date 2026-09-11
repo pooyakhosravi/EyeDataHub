@@ -20,6 +20,11 @@ Seventy retinal image pairs with visible myopia development and manually annotat
 | --- | --- |
 | **Short name** | `fimd` |
 | **Full name** | Fundus Image Myopia Development Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `fimd` |

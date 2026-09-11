@@ -20,6 +20,11 @@ Wide-field fundus images from premature infants for ROP staging (Stages 1–5 + 
 | --- | --- |
 | **Short name** | `farfum_rop` |
 | **Full name** | FARFUM-ROP: Fundus Annotation Repository for Retinopathy of Prematurity |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `farfum_rop` |

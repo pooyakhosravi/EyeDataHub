@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Source describes cl
 | --- | --- |
 | **Short name** | `mendeley_nuclear_cataract_database_biomedical_machine_learning` |
 | **Full name** | Nuclear Cataract Database for Biomedical and Machine Learning Applications |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_nuclear_cataract_database_biomedical_machine_learning` |

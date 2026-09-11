@@ -20,6 +20,11 @@ Small-incision cataract surgery video dataset with train/validation/test video a
 | --- | --- |
 | **Short name** | `sics155` |
 | **Full name** | SICS-155 Small Incision Cataract Surgery Videos |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `sics155` |

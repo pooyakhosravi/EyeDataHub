@@ -20,6 +20,11 @@ Swept-source OCT volumes for AMD and DME with three-dimensional pigment epitheli
 | --- | --- |
 | **Short name** | `amd_dme_3d_oct` |
 | **Full name** | Comprehensive 3D OCT Dataset for AMD and DME |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `amd_dme_3d_oct` |

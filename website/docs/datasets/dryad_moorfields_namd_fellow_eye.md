@@ -20,6 +20,11 @@ The Moorfields nAMD fellow-eye dataset is direct human retinal-disease longitudi
 | --- | --- |
 | **Short name** | `dryad_moorfields_namd_fellow_eye` |
 | **Full name** | Moorfields nAMD Fellow-Eye Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_moorfields_namd_fellow_eye` |

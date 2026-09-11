@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Source explicitly i
 | --- | --- |
 | **Short name** | `mendeley_orbscan_iiz_anterior_maps` |
 | **Full name** | Multimodal Orbscan IIz Dataset: 3,000 Axial Power Anterior Maps with OCR-Extracted Clinical Parameters from 3,000 Unique Patients |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_orbscan_iiz_anterior_maps` |

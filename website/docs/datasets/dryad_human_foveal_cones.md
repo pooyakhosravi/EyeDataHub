@@ -20,6 +20,11 @@ The 28-eye human adaptive-optics archive is directly reusable for foveal cellula
 | --- | --- |
 | **Short name** | `dryad_human_foveal_cones` |
 | **Full name** | Human foveal cone photoreceptor topography and its dependence on eye length |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `adaptive_optics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_human_foveal_cones` |

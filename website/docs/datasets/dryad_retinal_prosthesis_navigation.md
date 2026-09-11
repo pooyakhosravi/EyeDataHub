@@ -20,6 +20,11 @@ The four retinal-prosthesis participant dataset is a direct human device-rehabil
 | --- | --- |
 | **Short name** | `dryad_retinal_prosthesis_navigation` |
 | **Full name** | Visual and non-visual navigation in blind patients with a retinal prosthesis |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_retinal_prosthesis_navigation` |

@@ -20,6 +20,11 @@ This 160-patient clinical workbook is directly relevant to ocular injury outcome
 | --- | --- |
 | **Short name** | `dryad_ocular_chemical_injuries_shanghai` |
 | **Full name** | Clinical characteristics of patients hospitalized for ocular chemical injuries in Shanghai from 2012 to 2017 |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_ocular_chemical_injuries_shanghai` |

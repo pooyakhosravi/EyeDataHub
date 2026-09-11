@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `octave` |
 | **Full name** | OCTAVE: 3D SD-OCT Retinal Segmentation Dataset |
+| **First published** | 2025-06-02 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/14580071) |
+| **Publication date source field** | metadata.publication_date (earliest repository version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `octave` |

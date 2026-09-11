@@ -20,6 +20,11 @@ Single-cell transcriptomes, organoid time series, and human retinal-periphery is
 | --- | --- |
 | **Short name** | `mendeley_cell_types_human_retina_its_organoids` |
 | **Full name** | Cell types of the human retina and its organoids at single-cell resolution. Cowan et al |
+| **First published** | 2020-09-17 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/sm67hr5bpm/1) |
+| **Publication date source field** | citation_publication_date |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_cell_types_human_retina_its_organoids` |

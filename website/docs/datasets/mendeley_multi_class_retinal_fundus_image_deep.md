@@ -20,6 +20,11 @@ Human/derived image or image-annotation observations. from Patients imaged at Ra
 | --- | --- |
 | **Short name** | `mendeley_multi_class_retinal_fundus_image_deep` |
 | **Full name** | A Multi-Class Retinal Fundus Image Dataset for Deep Learning-Based Ocular Disease Diagnosis |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_multi_class_retinal_fundus_image_deep` |

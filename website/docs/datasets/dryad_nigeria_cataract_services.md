@@ -20,6 +20,11 @@ The documented Nigerian cataract-service survey is direct human ophthalmic epide
 | --- | --- |
 | **Short name** | `dryad_nigeria_cataract_services` |
 | **Full name** | Nigeria Cataract Services Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_nigeria_cataract_services` |

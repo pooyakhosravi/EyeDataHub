@@ -20,6 +20,11 @@ Augmented ODIR-5K fundus photographs for 8-class ocular disease classification: 
 | --- | --- |
 | **Short name** | `aod` |
 | **Full name** | AOD: Augmented Ocular Diseases Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `aod` |

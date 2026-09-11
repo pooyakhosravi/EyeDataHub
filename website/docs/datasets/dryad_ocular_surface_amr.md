@@ -20,6 +20,11 @@ Per-patient ocular-surface AMR counts and metadata are direct human keratitis tr
 | --- | --- |
 | **Short name** | `dryad_ocular_surface_amr` |
 | **Full name** | Ocular Surface AMR Keratitis Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_ocular_surface_amr` |

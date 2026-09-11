@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Human retinal organ
 | --- | --- |
 | **Short name** | `mendeley_raw_manuscript_light_responsive_microrna_molecules` |
 | **Full name** | RAW DATA to manuscript: Light-Responsive MicroRNA Molecules in Human Retinal Organoids are Differentially Regulated by Distinct Wavelengths of Light |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_raw_manuscript_light_responsive_microrna_molecules` |

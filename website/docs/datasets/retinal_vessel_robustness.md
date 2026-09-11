@@ -20,6 +20,11 @@ Augmented DRIVE, STARE, and CHASE_DB1 vessel-segmentation images for out-of-dist
 | --- | --- |
 | **Short name** | `retinal_vessel_robustness` |
 | **Full name** | Natural Robustness Benchmark for Retinal Vessel Segmentation |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `retinal_vessel_robustness` |

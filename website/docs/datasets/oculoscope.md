@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `oculoscope` |
 | **Full name** | OculoScope: Fairer AI in Ophthalmology Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `uwf_fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `oculoscope` |

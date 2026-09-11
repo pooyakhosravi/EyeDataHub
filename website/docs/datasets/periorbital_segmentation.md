@@ -20,6 +20,11 @@ Cropped periorbital images with multi-structure masks for the iris, sclera, eyel
 | --- | --- |
 | **Short name** | `periorbital_segmentation` |
 | **Full name** | Open-Source Periorbital Segmentation Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `periorbital_segmentation` |

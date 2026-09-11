@@ -20,6 +20,11 @@ High-resolution multi-camera face images with calibrated gaze targets, extreme h
 | --- | --- |
 | **Short name** | `eth_xgaze` |
 | **Full name** | ETH-XGaze Extreme-Pose Gaze Estimation Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `eth_xgaze` |

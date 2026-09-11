@@ -20,6 +20,11 @@ Light-adapted electroretinogram and oscillatory-potential waveform dataset from 
 | --- | --- |
 | **Short name** | `leops_erg` |
 | **Full name** | LEOPs Light-Adapted Electroretinogram and Oscillatory Potentials Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `electrophysiology` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `leops_erg` |

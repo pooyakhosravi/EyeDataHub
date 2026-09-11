@@ -20,6 +20,11 @@ Observation-level human or human-derived measurements/signals. from Four human p
 | --- | --- |
 | **Short name** | `mendeley_electrooculography_eog_blink_analysis_ocular_fatigue` |
 | **Full name** | Electrooculography (EOG) Dataset for Blink Analysis and Ocular Fatigue Detection |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `electrophysiology` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_electrooculography_eog_blink_analysis_ocular_fatigue` |

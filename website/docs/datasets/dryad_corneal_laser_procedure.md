@@ -20,6 +20,11 @@ Two clinical workbooks cover 72 treated eyes and directly support surgical corne
 | --- | --- |
 | **Short name** | `dryad_corneal_laser_procedure` |
 | **Full name** | Corneal Laser Procedure for safety and efficacy in vision improvement |
+| **First published** | 2022-03-01 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [datadryad.org/api](https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.m905qfv2r) |
+| **Publication date source field** | publicationDate |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_corneal_laser_procedure` |

@@ -20,6 +20,11 @@ Participant-level myopia, exposure, and covariate analytic measurements from Hum
 | --- | --- |
 | **Short name** | `mendeley_myopia_metal_mixture_exposure` |
 | **Full name** | Dataset: Myopia and Metal Mixture Exposure |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_myopia_metal_mixture_exposure` |

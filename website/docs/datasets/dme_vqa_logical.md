@@ -20,6 +20,11 @@ Extension of the DME VQA dataset with logical-relation consistency annotations.
 | --- | --- |
 | **Short name** | `dme_vqa_logical` |
 | **Full name** | DME VQA Dataset with Logical Relations |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `multimodal` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `dme_vqa_logical` |

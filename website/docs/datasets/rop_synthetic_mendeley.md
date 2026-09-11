@@ -20,6 +20,11 @@ Retinopathy-of-prematurity fundus-image dataset and synthetic-image resources fo
 | --- | --- |
 | **Short name** | `rop_synthetic_mendeley` |
 | **Full name** | Synthetic Medical Images for ROP Diagnosis |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `rop_synthetic_mendeley` |

@@ -20,6 +20,11 @@ Oct image-level disease/normal observations from OCT images labelled as prolifer
 | --- | --- |
 | **Short name** | `mendeley_optical_coherence_tomography_oct_images_proliferative` |
 | **Full name** | Optical Coherence Tomography (OCT) Images of Proliferative Vitreoretinopathy, Uveitis, and Normal Eyes |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_optical_coherence_tomography_oct_images_proliferative` |

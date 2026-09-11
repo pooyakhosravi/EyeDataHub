@@ -20,6 +20,11 @@ Synchronized human eye-tracking, webcam eye images, facial landmarks, and gaze a
 | --- | --- |
 | **Short name** | `hybridgaze` |
 | **Full name** | HybridGaze Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `hybridgaze` |

@@ -20,6 +20,11 @@ Synthetic OCT images for the four Kermany diagnostic classes.
 | --- | --- |
 | **Short name** | `synthetic_retinal_oct_biomarkers` |
 | **Full name** | Synthetic Retinal OCT Biomarker Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `synthetic_retinal_oct_biomarkers` |

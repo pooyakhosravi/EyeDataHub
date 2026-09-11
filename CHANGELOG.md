@@ -6,6 +6,14 @@ All notable changes to EyeDataHub are documented here. Format follows
 
 ## [Unreleased]
 
+### Added
+
+- First-class initial dataset publication dates with day/month/year precision,
+  official source evidence, and explicit unknown values.
+- Date-range and known/unknown filters, plus oldest/newest sorting in Python,
+  the CLI, and the website. Dataset pages and exports include the date evidence.
+- An initial sourced date backfill, contributor guidance, and date-validation tests.
+
 ## [0.7.0] - 2026-08-04
 
 ### Added

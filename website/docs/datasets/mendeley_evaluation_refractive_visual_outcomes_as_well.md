@@ -20,6 +20,11 @@ Eye-level one-year refractive, visual, and rotational-stability outcomes from Ca
 | --- | --- |
 | **Short name** | `mendeley_evaluation_refractive_visual_outcomes_as_well` |
 | **Full name** | Evaluation of refractive and visual outcomes, as well as astigmatism-correcting efficiency and rotational stability of a double-loop haptic toric intraocular lens - a one-year follow-up |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_evaluation_refractive_visual_outcomes_as_well` |

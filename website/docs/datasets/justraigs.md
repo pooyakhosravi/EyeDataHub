@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `justraigs` |
 | **Full name** | JustRAIGS: Just Referral AI Glaucoma Screening Dataset |
+| **First published** | 2024-01-08 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/10035093) |
+| **Publication date source field** | metadata.publication_date (earliest repository version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `justraigs` |

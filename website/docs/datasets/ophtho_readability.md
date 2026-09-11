@@ -20,6 +20,11 @@ Text/tabular dataset supporting readability and language-access analyses in opht
 | --- | --- |
 | **Short name** | `ophtho_readability` |
 | **Full name** | Language and Readability Barriers in Ophthalmology Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `text` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ophtho_readability` |

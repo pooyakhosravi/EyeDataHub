@@ -20,6 +20,11 @@ A multicenter collection of 186 minimally invasive glaucoma surgery (MIGS) video
 | --- | --- |
 | **Short name** | `migs_video` |
 | **Full name** | Multicenter Fine-Annotated MIGS Surgical Video Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `migs_video` |

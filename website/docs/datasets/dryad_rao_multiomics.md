@@ -20,6 +20,11 @@ The 132-participant retinal-artery-occlusion multi-omics release is directly tra
 | --- | --- |
 | **Short name** | `dryad_rao_multiomics` |
 | **Full name** | Data and code from: Fatty acid metabolism reprograms immune microenvironment in retinal artery occlusion: Multi-Omics analysis highlights immunometabolic crosstalk |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_rao_multiomics` |

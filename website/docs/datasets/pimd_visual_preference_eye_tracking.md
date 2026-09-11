@@ -20,6 +20,11 @@ Human eye-tracking observations from a visual-preference study.
 | --- | --- |
 | **Short name** | `pimd_visual_preference_eye_tracking` |
 | **Full name** | PIMD Visual Preference Eye-Tracking Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `pimd_visual_preference_eye_tracking` |

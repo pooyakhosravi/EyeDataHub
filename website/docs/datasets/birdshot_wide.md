@@ -20,6 +20,11 @@ Longitudinal widefield fundus photographs from birdshot chorioretinitis eyes and
 | --- | --- |
 | **Short name** | `birdshot_wide` |
 | **Full name** | Birdshot-WIDE Widefield Fundus Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `uwf_fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `birdshot_wide` |

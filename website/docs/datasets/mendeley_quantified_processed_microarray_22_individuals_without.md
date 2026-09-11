@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Source explicitly i
 | --- | --- |
 | **Short name** | `mendeley_quantified_processed_microarray_22_individuals_without` |
 | **Full name** | Quantified processed microarray data for 22 individuals with and without proliferative retinopathy |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_quantified_processed_microarray_22_individuals_without` |

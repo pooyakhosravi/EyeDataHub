@@ -20,6 +20,11 @@ Two COCO-format instance-segmentation datasets derived from cataract surgery vid
 | --- | --- |
 | **Short name** | `insegcat` |
 | **Full name** | InSegCat: Instance Segmentation for Cataract Surgery |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `insegcat` |

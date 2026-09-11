@@ -20,6 +20,11 @@ External eye photographs curated from publicly available web sources for binary 
 | --- | --- |
 | **Short name** | `external_eye_blepharitis` |
 | **Full name** | External Eye Photographs for Screening Referable Blepharitis |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `external_eye_blepharitis` |

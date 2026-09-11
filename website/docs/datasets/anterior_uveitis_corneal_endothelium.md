@@ -20,6 +20,11 @@ De-identified anterior-uveitis corneal-endothelial parameters and related variab
 | --- | --- |
 | **Short name** | `anterior_uveitis_corneal_endothelium` |
 | **Full name** | Anterior Uveitis Corneal Endothelium Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `anterior_uveitis_corneal_endothelium` |

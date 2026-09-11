@@ -20,6 +20,11 @@ Multi-modal retinal vessel segmentation dataset spanning fluorescence angiograph
 | --- | --- |
 | **Short name** | `jrc_multimodal_vessels` |
 | **Full name** | JRC Multi-Modal Retinal Vessel Segmentation |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `jrc_multimodal_vessels` |

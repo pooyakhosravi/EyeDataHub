@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from Source describes OC
 | --- | --- |
 | **Short name** | `mendeley_deep_learning_prediction_uncorrected_refractive_error` |
 | **Full name** | Deep Learning for the Prediction of Uncorrected Refractive Error using OCT |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_deep_learning_prediction_uncorrected_refractive_error` |

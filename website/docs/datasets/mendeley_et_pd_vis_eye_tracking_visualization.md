@@ -20,6 +20,11 @@ Observation-level source data, annotations, or signals. from The Parkinson disea
 | --- | --- |
 | **Short name** | `mendeley_et_pd_vis_eye_tracking_visualization` |
 | **Full name** | ET_PD_VIS: Eye Tracking Visualization Dataset on Trail Making Test for Parkinson’s Disease Analysis  |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_et_pd_vis_eye_tracking_visualization` |

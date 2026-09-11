@@ -20,6 +20,11 @@ Extension of TREND portable fundus imaging for chronic-disease and microvascular
 | --- | --- |
 | **Short name** | `trend2_fundus` |
 | **Full name** | TREND2 Chronic Disease Portable Fundus Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `extension_dataset` |
 | **Dataset family** | `trend2_fundus` |

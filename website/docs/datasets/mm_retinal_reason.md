@@ -20,6 +20,11 @@ Ophthalmology-specific multimodal reasoning dataset built from 45 public dataset
 | --- | --- |
 | **Short name** | `mm_retinal_reason` |
 | **Full name** | MM-Retinal-Reason: Ophthalmology Multimodal Reasoning Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `multimodal` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `mm_retinal_reason` |

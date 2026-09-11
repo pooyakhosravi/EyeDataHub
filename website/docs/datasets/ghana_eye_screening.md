@@ -20,6 +20,11 @@ Questionnaire and clinical eye-screening data from first-year university student
 | --- | --- |
 | **Short name** | `ghana_eye_screening` |
 | **Full name** | Eye Screening Data for First-Year University Students in Ghana |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ghana_eye_screening` |

@@ -20,6 +20,11 @@ Fundus-photography dataset for retinal artery occlusion diagnosis, based on web-
 | --- | --- |
 | **Short name** | `rao_fundus` |
 | **Full name** | RAO Retinal Artery Occlusion Fundus Photography Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `rao_fundus` |

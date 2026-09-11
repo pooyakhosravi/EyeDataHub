@@ -20,6 +20,11 @@ Longitudinal near-infrared iris images with subject, eye, age, sex, and ethnicit
 | --- | --- |
 | **Short name** | `nd_iris_0405` |
 | **Full name** | ND-IRIS-0405 Iris Image Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `iris_biometrics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `nd_iris_0405` |

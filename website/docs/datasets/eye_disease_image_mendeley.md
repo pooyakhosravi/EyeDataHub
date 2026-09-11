@@ -20,6 +20,11 @@ Original and augmented eye-disease image dataset covering retinitis pigmentosa, 
 | --- | --- |
 | **Short name** | `eye_disease_image_mendeley` |
 | **Full name** | Eye Disease Image Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `eye_disease_image_mendeley` |

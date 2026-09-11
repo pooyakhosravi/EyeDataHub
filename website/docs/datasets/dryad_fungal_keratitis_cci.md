@@ -20,6 +20,11 @@ The 8,697-image fungal-keratitis dataset has explicit classification and segment
 | --- | --- |
 | **Short name** | `dryad_fungal_keratitis_cci` |
 | **Full name** | CCI.net fungal keratitis cases dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_fungal_keratitis_cci` |

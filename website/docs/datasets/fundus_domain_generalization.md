@@ -20,6 +20,11 @@ Five-domain optic disc/cup segmentation benchmark composed from REFUGE, Drishti-
 | --- | --- |
 | **Short name** | `fundus_domain_generalization` |
 | **Full name** | Fundus Dataset for Domain Generalization in Optic Disc/Cup Segmentation |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `fundus_domain_generalization` |

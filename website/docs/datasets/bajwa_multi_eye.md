@@ -20,6 +20,11 @@ Small four-class eye-disease image dataset with normal, cataract, glaucoma, and 
 | --- | --- |
 | **Short name** | `bajwa_multi_eye` |
 | **Full name** | Bajwa Hospital Multi Eye Disease Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `bajwa_multi_eye` |

@@ -20,6 +20,11 @@ Five hundred forty-seven smartphone eye photographs with conjunctiva masks annot
 | --- | --- |
 | **Short name** | `eye_conjunctiva_segmentation` |
 | **Full name** | Eye Conjunctiva Segmentation Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `eye_conjunctiva_segmentation` |

@@ -20,6 +20,11 @@ Participant-level neurophysiologic and ophthalmic outcome measures from Patients
 | --- | --- |
 | **Short name** | `mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive` |
 | **Full name** | Data for: Neurophysiologic and ophthalmic markers of chemotherapy-related cognitive impairment in patients diagnosed with hematologic cancer |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_neurophysiologic_ophthalmic_markers_chemotherapy_related_cognitive` |

@@ -20,6 +20,11 @@ Participant-level ocular and clinical measurements from Korean nationwide cross-
 | --- | --- |
 | **Short name** | `mendeley_towards_ocular_biomarkers_sarcopenia_result_korean` |
 | **Full name** | Towards ocular biomarkers for sarcopenia: a result from a Korean nationwide cross-sectional study |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_towards_ocular_biomarkers_sarcopenia_result_korean` |

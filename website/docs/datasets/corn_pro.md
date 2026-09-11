@@ -20,6 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `corn_pro` |
 | **Full name** | CORN Pro: Corneal Nerve Confocal Microscopy Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `confocal` |
 | **Resource role** | `component_dataset` |
 | **Dataset family** | `corn_collection` |

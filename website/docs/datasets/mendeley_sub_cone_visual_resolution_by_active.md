@@ -20,6 +20,11 @@ Human/derived image or image-annotation observations. from 16 human participants
 | --- | --- |
 | **Short name** | `mendeley_sub_cone_visual_resolution_by_active` |
 | **Full name** | Data from: Sub-cone visual resolution by active, adaptive sampling in the human foveola |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `adaptive_optics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_sub_cone_visual_resolution_by_active` |

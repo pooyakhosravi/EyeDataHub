@@ -20,6 +20,11 @@ Bilateral LenStar biometrics from a human cataract population.
 | --- | --- |
 | **Short name** | `cataract_lenstar_biometric_symmetry` |
 | **Full name** | Cataract LenStar Biometric Symmetry Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cataract_lenstar_biometric_symmetry` |

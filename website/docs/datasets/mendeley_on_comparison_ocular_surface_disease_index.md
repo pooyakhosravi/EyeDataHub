@@ -20,6 +20,11 @@ Participant-level osdi, schirmer, and tear-film-breakup measurements from Health
 | --- | --- |
 | **Short name** | `mendeley_on_comparison_ocular_surface_disease_index` |
 | **Full name** | Dataset on comparison of the ocular surface disease index questionnaire, the tear film break-up time and Schirmer tests for the evaluation of tear film in computer users and contact lenses without dry eye symptoms |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_on_comparison_ocular_surface_disease_index` |

@@ -20,6 +20,11 @@ Human corneal-ulcer clinical images and labels.
 | --- | --- |
 | **Short name** | `sustech_sysu_corneal_ulcers` |
 | **Full name** | SUSTech-SYSU Corneal Ulcer Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `sustech_sysu_corneal_ulcers` |

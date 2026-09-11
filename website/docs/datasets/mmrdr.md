@@ -20,6 +20,11 @@ Multi-modal DR dataset combining color fundus photographs (CFP), OCT B-scans, an
 | --- | --- |
 | **Short name** | `mmrdr` |
 | **Full name** | MMRDR: Multi-Modal Retinal Diabetic Retinopathy Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `multimodal` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `mmrdr` |

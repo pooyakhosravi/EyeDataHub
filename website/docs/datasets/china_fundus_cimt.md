@@ -20,6 +20,11 @@ Human fundus and carotid intima-media-thickness measurements.
 | --- | --- |
 | **Short name** | `china_fundus_cimt` |
 | **Full name** | China Fundus and Carotid Intima-Media Thickness Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `china_fundus_cimt` |

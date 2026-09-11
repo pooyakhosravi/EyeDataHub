@@ -20,6 +20,11 @@ External ocular photographs of thyroid eye disease collected from web sources, w
 | --- | --- |
 | **Short name** | `thyroid_ophthalmopathy_external` |
 | **Full name** | Thyroid Ophthalmopathy External Ocular Images |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `thyroid_ophthalmopathy_external` |

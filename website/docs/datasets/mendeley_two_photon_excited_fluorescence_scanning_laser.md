@@ -20,6 +20,11 @@ Ophthalmoscopy image/measurement data plus processing software from Exemplary tw
 | --- | --- |
 | **Short name** | `mendeley_two_photon_excited_fluorescence_scanning_laser` |
 | **Full name** | Two-photon excited fluorescence scanning laser ophthalmoscopy images and software for data processing |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_two_photon_excited_fluorescence_scanning_laser` |

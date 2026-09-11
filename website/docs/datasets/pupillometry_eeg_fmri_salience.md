@@ -20,6 +20,11 @@ Human synchronized pupillometry, EEG, and fMRI salience measurements.
 | --- | --- |
 | **Short name** | `pupillometry_eeg_fmri_salience` |
 | **Full name** | Pupillometry, EEG, and fMRI Salience Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `pupillometry_eeg_fmri_salience` |

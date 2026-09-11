@@ -20,6 +20,11 @@ The 536-person eye-care quality-of-life dataset is directly usable for human oph
 | --- | --- |
 | **Short name** | `dryad_eye_care_quality_of_life` |
 | **Full name** | Utility index and vision related quality of life in patients awaiting specialist eye care |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_eye_care_quality_of_life` |

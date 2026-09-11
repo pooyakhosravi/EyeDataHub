@@ -20,6 +20,11 @@ Transient pattern electroretinogram responses from 304 subjects in 336 records w
 | --- | --- |
 | **Short name** | `perg_ioba` |
 | **Full name** | PERG-IOBA Ocular Electrophysiology Dataset |
+| **First published** | 2024-01-19 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [physionet.org/content](https://physionet.org/content/perg-ioba-dataset/1.0.0/) |
+| **Publication date source field** | PhysioNet landing page: Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `electrophysiology` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `perg_ioba` |

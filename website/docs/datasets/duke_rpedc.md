@@ -20,6 +20,11 @@ OCT data from 384 subjects, including 269 with AMD and 115 normal subjects, with
 | --- | --- |
 | **Short name** | `duke_rpedc` |
 | **Full name** | Duke RPE-Drusen Complex OCT Dataset |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `duke_rpedc` |

@@ -20,6 +20,11 @@ High-speed head-mounted eye-region videos with pupil-center annotations under va
 | --- | --- |
 | **Short name** | `lpw` |
 | **Full name** | LPW Labelled Pupils in the Wild |
+| **First published** | Unknown |
+| **Publication date precision** | Unknown |
+| **Publication date evidence** | Unknown |
+| **Publication date source field** | Unknown |
+| **Publication date reviewed** | Unknown |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `lpw` |
