@@ -20,11 +20,13 @@ Fundus-image VQA dataset for diabetic macular edema derived from IDRiD and e-oph
 | --- | --- |
 | **Short name** | `dme_vqa` |
 | **Full name** | Diabetic Macular Edema Visual Question Answering Dataset |
-| **First published** | 2022-06-27 |
+| **Publication date** | 2022-06-27 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/6784358) |
 | **Publication date source field** | metadata.publication_date (earliest repository version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Derivative VQA annotation layer; Zenodo API record is the only listed version and its publication field is used. |
 | **Primary category** | `multimodal` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `dme_vqa` |

@@ -20,11 +20,13 @@ Clinically acquired retinal OCT images for AMD, DME, rhegmatogenous retinal deta
 | --- | --- |
 | **Short name** | `tunisian_retinal_oct_multidisease` |
 | **Full name** | Tunisian Retinal OCT Multi-Disease Dataset |
-| **First published** | 2026-02-22 |
+| **Publication date** | 2026-02-22 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/31385596/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Catalog points to v3; v1 firstOnline/published_date is the initial repository release. |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `tunisian_retinal_oct_multidisease` |

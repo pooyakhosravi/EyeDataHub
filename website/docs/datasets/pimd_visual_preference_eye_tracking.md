@@ -20,11 +20,13 @@ Human eye-tracking observations from a visual-preference study.
 | --- | --- |
 | **Short name** | `pimd_visual_preference_eye_tracking` |
 | **Full name** | PIMD Visual Preference Eye-Tracking Dataset |
-| **First published** | 2022-04-14 |
+| **Publication date** | 2022-04-14 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/19598133/versions/1) |
 | **Publication date source field** | published_date (original PLOS Figshare supplement version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Catalog entry is the original data supplement; its first official Figshare posting is used. |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `pimd_visual_preference_eye_tracking` |

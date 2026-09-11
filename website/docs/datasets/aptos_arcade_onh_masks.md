@@ -20,11 +20,13 @@ Segmentation masks for the vascular arcade and optic nerve head derived from APT
 | --- | --- |
 | **Short name** | `aptos_arcade_onh_masks` |
 | **Full name** | APTOS Vascular Arcade and Optic Nerve Head Masks |
-| **First published** | 2026-03-08 |
+| **Publication date** | 2026-03-08 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/18905733) |
 | **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Earliest listed Zenodo version; current record is later. |
 | **Primary category** | `fundus` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `aptos_arcade_onh_masks` |

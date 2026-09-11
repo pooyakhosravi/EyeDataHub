@@ -20,11 +20,13 @@ Corneal map images for three-class keratoconus detection.
 | --- | --- |
 | **Short name** | `keratoconus_detection_kaggle` |
 | **Full name** | Keratoconus Detection Corneal Maps |
-| **First published** | 2023-01-28 |
+| **Publication date** | 2023-01-28 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [kaggle.com/api](https://www.kaggle.com/api/v1/datasets/view/elmehdi12/keratoconus-detection) |
 | **Publication date source field** | versions[0].creationDate (version 1, Initial release) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Public Kaggle v1 is the cataloged resource release. |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `keratoconus_detection_kaggle` |

@@ -20,11 +20,13 @@ Oct image-level disease/normal observations from OCT images labelled as prolifer
 | --- | --- |
 | **Short name** | `mendeley_optical_coherence_tomography_oct_images_proliferative` |
 | **Full name** | Optical Coherence Tomography (OCT) Images of Proliferative Vitreoretinopathy, Uveitis, and Normal Eyes |
-| **First published** | 2023-04-28 |
+| **Publication date** | 2023-04-28 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/hbr5pwk5w5/1) |
 | **Publication date source field** | Mendeley dataset version 1 page: Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The Mendeley version 1 page reports the dataset Published date; version 1 is the initial public version shown by the source. |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_optical_coherence_tomography_oct_images_proliferative` |

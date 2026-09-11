@@ -20,11 +20,13 @@ Right-eye corneal OCT and rotating Scheimpflug tomography data with MATLAB code 
 | --- | --- |
 | **Short name** | `dryad_cornea_oct_pentacam` |
 | **Full name** | Corneal OCT and Pentacam Tomography Dataset |
-| **First published** | 2021-12-17 |
+| **Publication date** | 2021-12-17 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [datadryad.org/api](https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.tht76hf0c) |
 | **Publication date source field** | publicationDate |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Official Dryad API v2 publicationDate; current record version 5. |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_cornea_oct_pentacam` |

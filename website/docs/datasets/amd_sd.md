@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `amd_sd` |
 | **Full name** | AMD-SD: OCT Wet AMD Lesion Segmentation Dataset |
-| **First published** | 2024-09-17 |
+| **Publication date** | 2024-09-17 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/collections/7157554/articles) |
 | **Publication date source field** | articles[0].published_date / timeline.firstOnline |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Catalog identifies Kaggle as a mirror and Figshare collection 7157554 as the primary source; the Figshare first-online date is used instead of the later Kaggle v1 date (2024-09-30). |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `amd_sd` |

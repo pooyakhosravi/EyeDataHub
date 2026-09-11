@@ -20,11 +20,13 @@ The 123-eye diagnostic workbook directly evaluates clinical OCT ultrasonography 
 | --- | --- |
 | **Short name** | `dryad_pvd_diagnostic_oct` |
 | **Full name** | Accuracy of biomicroscopy, ultrasonography and spectral-domain OCT in detection of complete posterior vitreous detachment |
-| **First published** | 2023-06-26 |
+| **Publication date** | 2023-06-26 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.h44j0zpnp](https://doi.org/10.5061/dryad.h44j0zpnp) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_pvd_diagnostic_oct` |

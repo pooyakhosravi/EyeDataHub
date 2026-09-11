@@ -20,11 +20,13 @@ Quality labels for 28,792 EyePACS fundus images, graded as good, usable, or reje
 | --- | --- |
 | **Short name** | `eyeq` |
 | **Full name** | EyeQ Retinal Image Quality Assessment Dataset |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `fundus` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `eyeq` |

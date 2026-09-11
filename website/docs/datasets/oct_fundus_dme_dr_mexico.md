@@ -20,11 +20,13 @@ Linked color fundus and macular OCT images for diabetic macular edema and diabet
 | --- | --- |
 | **Short name** | `oct_fundus_dme_dr_mexico` |
 | **Full name** | OCT and Eye Fundus Dataset for DME and DR |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `oct_fundus_dme_dr_mexico` |

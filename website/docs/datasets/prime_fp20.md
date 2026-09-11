@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `prime_fp20` |
 | **Full name** | PRIME-FP20: Ultra-Widefield Vessel Segmentation |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2020-05-03 |
+| **Date basis** | Repository deposit |
+| **Publication date precision** | day |
+| **Publication date evidence** | [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset) |
+| **Publication date source field** | IEEE DataPort page Date Created (time datetime) |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Date Created on the official IEEE DataPort record. |
 | **Primary category** | `uwf_fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `prime_fp20` |

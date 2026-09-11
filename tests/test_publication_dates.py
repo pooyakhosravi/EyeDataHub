@@ -15,6 +15,7 @@ from eyedatahub.core.publication_dates import (
     PUBLICATION_DATE_FIELDS,
     date_interval,
     publication_date_errors,
+    publication_date_basis,
     reviewed_publication_dates,
 )
 from eyedatahub.datasets.registry import REGISTRY
@@ -112,6 +113,7 @@ def test_unknown_date_not_inferred_from_title_citation_or_review():
         {"publication_date_source_field": 2020},
         {"publication_date_notes": ["invalid"]},
         {"publication_date_scope": "article_publication"},
+        {"publication_date_scope": []},
         {"publication_date_reviewed_on": "2026"},
         {"publication_date_reviewed_on": "2019-12-31"},
     ],
@@ -122,6 +124,28 @@ def test_incoherent_evidence_rejected(overrides):
 
 def test_orphan_evidence_rejected():
     assert publication_date_errors(make_info(publication_date_precision="day"))
+
+
+@pytest.mark.parametrize("scope", ["repository_deposit", "associated_publication"])
+def test_fallback_dates_require_explanation_and_retain_basis(scope):
+    info = make_info(value="2020-06", publication_date_scope=scope)
+    assert publication_date_errors(info)
+    info.publication_date_notes = (
+        "Selected the verified source date after conflicting metadata."
+    )
+    assert not publication_date_errors(info)
+    assert info_to_record(info)["publication_date_scope"] == scope
+    assert publication_date_basis(scope) != "Unknown"
+
+    class FixtureDataset:
+        def load(self, *args, **kwargs):
+            raise NotImplementedError
+
+    dataset = FixtureDataset()
+    dataset.info = info
+    page = build_page(dataset, [])
+    assert publication_date_basis(scope) in page
+    assert info.publication_date_notes in page
 
 
 def test_reviewed_entries_are_first_class_and_valid():
@@ -233,5 +257,5 @@ def test_exports_and_website_keep_date_evidence(tmp_path):
             assert csv_rows[row["name"]][field] == (row[field] or "")
     name = next(iter(reviewed_publication_dates()))
     page = build_page(REGISTRY.get_dataset(name), datasets)
-    assert "First published" in page
+    assert "Publication date" in page
     assert reviewed_publication_dates()[name]["publication_date"] in page

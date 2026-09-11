@@ -20,11 +20,13 @@ Auxiliary RFMiD 2.0 retinal fundus dataset spanning 51 disease categories.
 | --- | --- |
 | **Short name** | `rfmid2` |
 | **Full name** | RFMiD 2.0 Auxiliary Multi-Disease Fundus Dataset |
-| **First published** | 2023-01-05 |
+| **Publication date** | 2023-01-05 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/7505822) |
 | **Publication date source field** | metadata.publication_date (earliest repository version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Zenodo versions history lists this as the only version; metadata.publication_date is used. |
 | **Primary category** | `fundus` |
 | **Resource role** | `extension_dataset` |
 | **Dataset family** | `rfmid2` |

@@ -20,11 +20,13 @@ Observation-level human or human-derived measurements/signals. from 45 children 
 | --- | --- |
 | **Short name** | `mendeley_blinking_its_relationship_ocular_surface_digital` |
 | **Full name** | Blinking and its relationship with the ocular surface and digital device use in school aged children  |
-| **First published** | 2021-07-19 |
+| **Publication date** | 2021-07-19 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/vyb5fv6ppp/1) |
 | **Publication date source field** | citation_publication_date |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit. |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_blinking_its_relationship_ocular_surface_digital` |

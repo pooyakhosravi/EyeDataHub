@@ -20,11 +20,13 @@ Fundus photographs from Bangladesh Eye Hospital for glaucoma detection. Includes
 | --- | --- |
 | **Short name** | `beh` |
 | **Full name** | BEH: Bangladesh Eye Hospital Glaucoma Dataset |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `beh` |

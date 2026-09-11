@@ -20,11 +20,13 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_sn02v6x2x` |
 | **Full name** | Data from: Corneal laser procedure for vision improvement in patients with late stage dry age-related macular degeneration |
-| **First published** | 2020-12-11 |
+| **Publication date** | 2020-12-11 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.sn02v6x2x](https://doi.org/10.5061/dryad.sn02v6x2x) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_sn02v6x2x` |

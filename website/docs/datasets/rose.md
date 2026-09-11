@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `rose` |
 | **Full name** | ROSE: Retinal OCT-Angiography Vessel Segmentation |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2021-03-02 |
+| **Date basis** | Associated publication |
+| **Publication date precision** | day |
+| **Publication date evidence** | [pubmed.ncbi.nlm.nih.gov/33284751](https://pubmed.ncbi.nlm.nih.gov/33284751/) |
+| **Publication date source field** | epubdate (PubMed-indexed publisher e-publication date) |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | PubMed reports electronic publication on 2 March 2021. Crossref records DOI registration on 7 December 2020. |
 | **Primary category** | `octa` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `rose` |

@@ -20,11 +20,13 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_tmpg4f4vb` |
 | **Full name** | Effects of capsular tension ring on surgical outcomes of premium intraocular lens in patients with suspected zonular weakness |
-| **First published** | 2020-02-06 |
+| **Publication date** | 2020-02-06 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.tmpg4f4vb](https://doi.org/10.5061/dryad.tmpg4f4vb) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_tmpg4f4vb` |

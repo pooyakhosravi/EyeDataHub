@@ -20,11 +20,13 @@ Observation-level human or human-derived measurements/signals. from Red blood ce
 | --- | --- |
 | **Short name** | `mendeley_digital_holograms_rbcs_glaucoma_patients_healthy` |
 | **Full name** | Digital holograms of RBCs from the glaucoma patients and healthy controls |
-| **First published** | 2025-04-08 |
+| **Publication date** | 2025-04-08 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/tryd7r3wct/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `cell_microscopy` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_digital_holograms_rbcs_glaucoma_patients_healthy` |

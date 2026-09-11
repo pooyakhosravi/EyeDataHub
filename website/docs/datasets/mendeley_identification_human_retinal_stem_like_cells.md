@@ -20,11 +20,13 @@ Single-cell multi-omics and organoid-derived cell measurements from Human neural
 | --- | --- |
 | **Short name** | `mendeley_identification_human_retinal_stem_like_cells` |
 | **Full name** | Identification of Human Retinal Stem-Like Cells for Retina Regeneration |
-| **First published** | 2023-09-18 |
+| **Publication date** | 2023-09-18 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/s9wbscpsrs/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_identification_human_retinal_stem_like_cells` |

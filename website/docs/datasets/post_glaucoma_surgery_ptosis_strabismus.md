@@ -20,11 +20,13 @@ De-identified human glaucoma-surgery clinical records with postoperative ptosis 
 | --- | --- |
 | **Short name** | `post_glaucoma_surgery_ptosis_strabismus` |
 | **Full name** | Post-Glaucoma-Surgery Ptosis and Strabismus Dataset |
-| **First published** | 2025-10-30 |
+| **Publication date** | 2025-10-30 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/30491856/versions/1) |
 | **Publication date source field** | published_date (original PLOS Figshare supplement version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Catalog entry is the original data supplement; its first official Figshare posting is used. |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `post_glaucoma_surgery_ptosis_strabismus` |

@@ -20,11 +20,13 @@ Observation-level source data, annotations, or signals. from Source describes hu
 | --- | --- |
 | **Short name** | `mendeley_foveal_cone_photoreceptor_outer_segment_length` |
 | **Full name** | Foveal cone photoreceptor outer segment length and cone density |
-| **First published** | 2023-11-17 |
+| **Publication date** | 2023-11-17 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/89rykrg8j2/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_foveal_cone_photoreceptor_outer_segment_length` |

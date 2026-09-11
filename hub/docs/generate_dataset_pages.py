@@ -32,6 +32,7 @@ from urllib.parse import urlparse
 
 from eyedatahub.agent.planner import loader_status
 from eyedatahub.core.dataset import EyeDataHubDataset
+from eyedatahub.core.publication_dates import publication_date_basis
 from eyedatahub.core.relationships import RELATIONSHIP_EVIDENCE
 from eyedatahub.core.resource_identity import (
     RESOURCE_ROLE_DEFINITIONS,
@@ -316,11 +317,13 @@ def at_a_glance_table(dataset: EyeDataHubDataset) -> str:
         "| --- | --- |\n"
         f"| **Short name** | `{info.name}` |\n"
         f"| **Full name** | {mdx_table_cell(info.full_name)} |\n"
-        f"| **First published** | {mdx_table_cell(info.publication_date or 'Unknown')} |\n"
+        f"| **Publication date** | {mdx_table_cell(info.publication_date or 'Unknown')} |\n"
+        f"| **Date basis** | {publication_date_basis(info.publication_date_scope)} |\n"
         f"| **Publication date precision** | {mdx_table_cell(info.publication_date_precision or 'Unknown')} |\n"
         f"| **Publication date evidence** | {source_link(info.publication_date_source_url) if info.publication_date_source_url else 'Unknown'} |\n"
         f"| **Publication date source field** | {mdx_table_cell(info.publication_date_source_field or 'Unknown')} |\n"
         f"| **Publication date reviewed** | {mdx_table_cell(info.publication_date_reviewed_on or 'Unknown')} |\n"
+        f"| **Date notes** | {mdx_table_cell(info.publication_date_notes or '-')} |\n"
         f"| **Primary category** | `{info.primary_category}` |\n"
         f"| **Resource role** | `{resource_role}` |\n"
         f"| **Dataset family** | `{dataset_family}` |\n"

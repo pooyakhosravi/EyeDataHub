@@ -2,7 +2,7 @@ import React from 'react';
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import catalogPayload from '@site/static/datasets.json';
-import {comparePublicationDates, matchesPublicationDate, validYearRange} from './publicationDates.mjs';
+import {comparePublicationDates, matchesPublicationDate, publicationDateBasis, validYearRange} from './publicationDates.mjs';
 
 const STANDARD_NO_NC = new Set(['cc0', 'cc-by', 'cc-by-sa', 'mit', 'apache', 'odc-by']);
 const QUICK_START_COMMANDS = [
@@ -341,8 +341,8 @@ export default function DatasetDashboard() {
             <select value={sort} onChange={(e) => setSort(e.target.value)}>
               <option value="samples">Numeric quantity (mixed units)</option>
               <option value="name">Name</option>
-              <option value="publication-date">First published: oldest first</option>
-              <option value="publication-date-desc">First published: newest first</option>
+              <option value="publication-date">Publication date: oldest first</option>
+              <option value="publication-date-desc">Publication date: newest first</option>
               <option value="modality">Modality</option>
               <option value="license">License</option>
             </select>
@@ -369,7 +369,7 @@ export default function DatasetDashboard() {
           </label>
         </div>
         <p id="publication-date-help">
-          First public dataset release. Source precision is retained.
+          Dates use the original provider or an associated publication. Each date shows its basis.
           Year bounds are inclusive; records without
           dates are excluded from a year range and sort last in either date order.
         </p>
@@ -471,7 +471,7 @@ export default function DatasetDashboard() {
                 <th>Select</th>
                 <th>Dataset</th>
                 <th>Modality</th>
-                <th>First published</th>
+                <th>Publication date</th>
                 <th>Tasks</th>
                 <th>Primary quantity</th>
                 <th>License</th>
@@ -515,10 +515,11 @@ export default function DatasetDashboard() {
                     {row.publication_date ? (
                       <>
                         <a href={row.publication_date_source_url} target="_blank" rel="noopener noreferrer"
-                          title={`Source field: ${row.publication_date_source_field}; reviewed ${row.publication_date_reviewed_on}`}>
+                          title={`Source field: ${row.publication_date_source_field}; reviewed ${row.publication_date_reviewed_on}. ${row.publication_date_notes || ''}`}>
                           {row.publication_date}
                         </a>
                         <small> ({row.publication_date_precision})</small>
+                        <div>{publicationDateBasis(row.publication_date_scope)}</div>
                       </>
                     ) : 'Unknown'}
                   </td>

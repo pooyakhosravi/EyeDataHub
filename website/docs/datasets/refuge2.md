@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `refuge2` |
 | **Full name** | REFUGE2 — Retinal Fundus Glaucoma Challenge 2 |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2020-07-20 |
+| **Date basis** | Repository deposit |
+| **Publication date precision** | day |
+| **Publication date evidence** | [refuge.grand-challenge.org/Home2020](https://refuge.grand-challenge.org/Home2020/) |
+| **Publication date source field** | Official REFUGE2 Updates: Validation dataset is released |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Date applies to the validation dataset announced on the official REFUGE2 challenge page. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `refuge2` |

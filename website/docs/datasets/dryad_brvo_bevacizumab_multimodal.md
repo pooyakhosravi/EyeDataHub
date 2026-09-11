@@ -20,11 +20,13 @@ The 27-eye BRVO archive contains named OCT, fluorescein, and mfERG research obje
 | --- | --- |
 | **Short name** | `dryad_brvo_bevacizumab_multimodal` |
 | **Full name** | BRVO Bevacizumab Multimodal Dataset |
-| **First published** | 2017-08-30 |
+| **Publication date** | 2017-08-30 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [datadryad.org/api](https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.3cp54) |
 | **Publication date source field** | publicationDate |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Official Dryad API v2 publicationDate; current record version 1 and later lastModificationDate do not replace the publication date. |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_brvo_bevacizumab_multimodal` |

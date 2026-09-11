@@ -20,11 +20,13 @@ Two thousand preprocessed fundus images compiled from six public sources for nor
 | --- | --- |
 | **Short name** | `amdnet23` |
 | **Full name** | AMDNet23 Fundus Image Dataset for AMD Detection |
-| **First published** | 2025-04-23 |
+| **Publication date** | 2025-04-23 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/yj35kjgrv3/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `fundus` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `amdnet23` |

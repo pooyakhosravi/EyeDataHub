@@ -20,11 +20,13 @@ OCT images for intraretinal cystoid-fluid segmentation, partly derived from publ
 | --- | --- |
 | **Short name** | `intraretinal_cystoid_fluid` |
 | **Full name** | Intraretinal Cystoid Fluid OCT Segmentation Dataset |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `oct` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `intraretinal_cystoid_fluid` |

@@ -44,7 +44,7 @@ def build(root: Path) -> Path:
         "- LOAD: `implemented` or `metadata_only`",
         "- ROLE: reviewed resource role",
         "- DFAM: narrow dataset-family identifier",
-        "- PUB: initial public dataset release (YYYY, YYYY-MM, or YYYY-MM-DD); ? = unknown. Source evidence is available via eyehub show --json.",
+        "- PUB: selected publication date (YYYY, YYYY-MM, or YYYY-MM-DD); ? = unknown. Date basis and source evidence are available via eyehub show --json.",
         "",
         "## Format",
         "",

@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `grape` |
 | **Full name** | GRAPE: Glaucoma Real-world Appraisal Progression Ensemble |
-| **First published** | 2023-08-02 |
+| **Publication date** | 2023-08-02 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/collections/6406319) |
 | **Publication date source field** | collection.timeline.firstOnline (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Official Figshare collection history gives the collection firstOnline date. |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `grape` |

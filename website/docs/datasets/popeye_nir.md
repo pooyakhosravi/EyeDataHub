@@ -20,11 +20,13 @@ Fourteen thousand nine hundred seventy-six near-infrared ocular images for eye-s
 | --- | --- |
 | **Short name** | `popeye_nir` |
 | **Full name** | PopEYE Infrared Ocular Image Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2022-12-29 |
+| **Date basis** | Associated publication |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.crossref.org/works](https://api.crossref.org/works/10.3390/s23010386) |
+| **Publication date source field** | published-online; abstract states that PopEYE was collected and publicly released |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Date from the associated Sensors article describing PopEYE. |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `popeye_nir` |

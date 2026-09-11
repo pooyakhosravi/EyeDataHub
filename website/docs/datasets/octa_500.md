@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `octa_500` |
 | **Full name** | OCTA-500: Large-scale OCTA Multi-task Benchmark |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2019-12-23 |
+| **Date basis** | Repository deposit |
+| **Publication date precision** | day |
+| **Publication date evidence** | [ieee-dataport.org/open-access](https://ieee-dataport.org/open-access/octa-500) |
+| **Publication date source field** | IEEE DataPort page Date Created (time datetime) |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Date Created on the official IEEE DataPort record. |
 | **Primary category** | `octa` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `octa_500` |

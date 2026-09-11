@@ -20,11 +20,13 @@ Fundus-image-level class-labelled observations from Classified human fundus imag
 | --- | --- |
 | **Short name** | `mendeley_fundus_mctn` |
 | **Full name** | Fundus dataset of MCTN |
-| **First published** | 2025-03-19 |
+| **Publication date** | 2025-03-19 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/spz4b8tbzt/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_fundus_mctn` |

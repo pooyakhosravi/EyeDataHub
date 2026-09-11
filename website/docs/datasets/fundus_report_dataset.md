@@ -20,11 +20,13 @@ Fundus/UWF image-report dataset derived from DeepDRiD and OUWFD-style resources 
 | --- | --- |
 | **Short name** | `fundus_report_dataset` |
 | **Full name** | Fundus Report Dataset |
-| **First published** | 2026 |
+| **Publication date** | 2026 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | year |
 | **Publication date evidence** | [api.datacite.org/dois](https://api.datacite.org/dois/10.57967/hf/9303) |
 | **Publication date source field** | data.attributes.publicationYear |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | HF DOI DataCite publicationYear is explicit dataset publication metadata; no day is inferred. Component-source and HF repository timestamps were not substituted. |
 | **Primary category** | `multimodal` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `fundus_report_dataset` |

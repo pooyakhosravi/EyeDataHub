@@ -20,11 +20,13 @@ Image-level ultrasound observations with characterization target from Multicentr
 | --- | --- |
 | **Short name** | `mendeley_development_deep_learning_based_system_optic` |
 | **Full name** | Dataset for - Development of a Deep Learning-based system for Optic Nerve characterization in Transorbital Ultrasound Images on a multicenter dataset |
-| **First published** | 2023-06-16 |
+| **Publication date** | 2023-06-16 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/kw8gvp8m8x/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_development_deep_learning_based_system_optic` |

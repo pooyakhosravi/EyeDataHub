@@ -20,11 +20,13 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_rn8pk0pdp` |
 | **Full name** | Detection of SARS-CoV-2 in conjunctival secretion and tears in patients with COVID-19 in a tertiary care centre, South India |
-| **First published** | 2022-10-16 |
+| **Publication date** | 2022-10-16 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.rn8pk0pdp](https://doi.org/10.5061/dryad.rn8pk0pdp) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_rn8pk0pdp` |

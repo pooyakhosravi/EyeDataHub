@@ -20,11 +20,13 @@ Official Dryad deposit of source-described ocular omics data for the associated 
 | --- | --- |
 | **Short name** | `dryad_d1zd5s` |
 | **Full name** | Single cell transcriptomic analyses reveal the impact of bHLH factors on human retinal organoid development |
-| **First published** | 2021-04-21 |
+| **Publication date** | 2021-04-21 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [datadryad.org/api](https://datadryad.org/api/v2/datasets/doi%3A10.5068%2Fd1zd5s) |
 | **Publication date source field** | publicationDate |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Official Dryad API v2 publicationDate; current record version 9. |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_d1zd5s` |

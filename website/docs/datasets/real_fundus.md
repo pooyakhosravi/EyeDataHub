@@ -20,11 +20,13 @@ One hundred twenty paired low quality and high quality clinical fundus photograp
 | --- | --- |
 | **Short name** | `real_fundus` |
 | **Full name** | Real Fundus Clinical Image Restoration Benchmark |
-| **First published** | 2022-07-04 |
+| **Publication date** | 2022-07-04 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [github.com/dengzhuo-AI](https://github.com/dengzhuo-AI/Real-Fundus/releases/tag/v.1.0.0) |
 | **Publication date source field** | Official GitHub release: published_at |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official v.1.0.0 GitHub release is titled Real Fundus and describes the first real fundus image dataset; its published_at timestamp is July 4, 2022. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `real_fundus` |

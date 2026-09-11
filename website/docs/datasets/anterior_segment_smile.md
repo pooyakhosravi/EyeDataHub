@@ -20,11 +20,13 @@ Tabular anterior-segment and ocular-biometry measurements before and after SMILE
 | --- | --- |
 | **Short name** | `anterior_segment_smile` |
 | **Full name** | Anterior Segment Parameters After SMILE Surgery |
-| **First published** | 2026-02-16 |
+| **Publication date** | 2026-02-16 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/vkdxsnhkrm/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `anterior_segment_smile` |

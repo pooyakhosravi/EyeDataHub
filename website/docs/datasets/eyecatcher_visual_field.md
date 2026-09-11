@@ -20,11 +20,13 @@ Visual-field data from glaucoma home monitoring: mean deviation, duration, and p
 | --- | --- |
 | **Short name** | `eyecatcher_visual_field` |
 | **Full name** | Eyecatcher Tablet-Based Visual Field Home-Monitoring Data |
-| **First published** | 2021-04-26 |
+| **Publication date** | 2021-04-26 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/swsfj47cxw/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `visual_field` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `eyecatcher_visual_field` |

@@ -20,11 +20,13 @@ Synchronized human eye-tracking, webcam eye images, facial landmarks, and gaze a
 | --- | --- |
 | **Short name** | `hybridgaze` |
 | **Full name** | HybridGaze Dataset |
-| **First published** | 2025-10-13 |
+| **Publication date** | 2025-10-13 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [kaggle.com/api](https://www.kaggle.com/api/v1/datasets/view/michachwesiuk/hybridgaze) |
 | **Publication date source field** | versions[0].creationDate (version 1, Initial release) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Earliest public Kaggle version is used. |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `hybridgaze` |

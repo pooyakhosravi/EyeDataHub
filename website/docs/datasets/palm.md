@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `palm` |
 | **Full name** | PALM — iChallenge Pathologic Myopia |
-| **First published** | 2019-01-01 |
+| **Publication date** | 2019-01-01 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [palm.grand-challenge.org/Home](https://palm.grand-challenge.org/Home/) |
 | **Publication date source field** | Official PALM challenge Important Dates: Training images for the first classification task are released |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official PALM challenge page dates the first training-image release to January 1, 2019; later annotations and validation sets are not used. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `palm` |

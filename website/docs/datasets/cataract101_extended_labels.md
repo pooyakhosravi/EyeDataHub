@@ -20,11 +20,13 @@ Extended phase/time labels for the Cataract-101 surgical-video dataset.
 | --- | --- |
 | **Short name** | `cataract101_extended_labels` |
 | **Full name** | Cataract-101 Extended Labels |
-| **First published** | 2021-06-18 |
+| **Publication date** | 2021-06-18 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/4984167) |
 | **Publication date source field** | metadata.publication_date (earliest repository version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Derivative annotation layer; Zenodo API record is the only listed version and its publication field is used. |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `cataract101_extended_labels` |

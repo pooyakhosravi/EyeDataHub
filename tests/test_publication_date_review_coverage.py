@@ -39,6 +39,19 @@ def test_date_research_covers_every_record_without_duplicate_assignments():
             date.fromisoformat(row["review_date"])
             unresolved[record_id] = row
 
+    resolved = set()
+    for path in sorted(AUDIT_DIR.glob("publication_dates_conflict_resolution_*.json")):
+        audit = json.loads(path.read_text(encoding="utf-8"))
+        for row in audit["records"]:
+            record_id = row["record_id"]
+            assert record_id not in resolved, record_id
+            assert record_id in unresolved, record_id
+            assert row["original_reason"] == unresolved[record_id]["reason"]
+            assert row["resolution"].strip(), record_id
+            resolved.add(record_id)
+            del unresolved[record_id]
+            known[record_id] = row
+
     catalog = {ds.info.name: ds.info for ds in REGISTRY.list_datasets()}
     assert not known.keys() & unresolved.keys()
     assert known.keys() | unresolved.keys() == catalog.keys()

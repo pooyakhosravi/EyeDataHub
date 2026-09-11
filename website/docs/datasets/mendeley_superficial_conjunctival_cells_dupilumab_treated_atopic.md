@@ -20,11 +20,13 @@ Observation-level source data, annotations, or signals. from Adult dupilumab-tre
 | --- | --- |
 | **Short name** | `mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic` |
 | **Full name** | Superficial Conjunctival Cells from Dupilumab-treated Atopic Dermatitis Patients with Ocular Adverse Events Display a Transcriptomic Psoriasis Signature |
-| **First published** | 2024-09-04 |
+| **Publication date** | 2024-09-04 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/222mnygnjz/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_superficial_conjunctival_cells_dupilumab_treated_atopic` |

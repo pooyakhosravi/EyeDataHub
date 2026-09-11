@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `drac22` |
 | **Full name** | DRAC 2022: Diabetic Retinopathy Analysis Challenge |
-| **First published** | 2022-07-08 |
+| **Publication date** | 2022-07-08 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [drac22.grand-challenge.org/Timeline](https://drac22.grand-challenge.org/Timeline/) |
 | **Publication date source field** | official DRAC22 challenge timeline: training sets for Tasks 2 and 3 released |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | DRAC22 official timeline records Task 2 and Task 3 training-set release on 2022-07-08, before Task 1 training on 2022-08-02 and testing sets for all tasks on 2022-08-08. Zenodo record 10280359 (metadata publication_date year 2023) is a later archive, not the resource-level initial release. |
 | **Primary category** | `octa` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `drac22` |

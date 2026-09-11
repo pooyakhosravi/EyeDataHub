@@ -20,11 +20,13 @@ Multi-modal retinal vessel segmentation dataset spanning fluorescence angiograph
 | --- | --- |
 | **Short name** | `jrc_multimodal_vessels` |
 | **Full name** | JRC Multi-Modal Retinal Vessel Segmentation |
-| **First published** | 2025-12-10 |
+| **Publication date** | 2025-12-10 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/17874693) |
 | **Publication date source field** | metadata.publication_date (earliest listed public Zenodo version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Only listed Zenodo version; academic-request access is not a publication-date substitute. |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `jrc_multimodal_vessels` |

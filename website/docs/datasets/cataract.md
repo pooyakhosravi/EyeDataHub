@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `cataract` |
 | **Full name** | Cataract Fundus Classification Dataset |
-| **First published** | 2019-08-23 |
+| **Publication date** | 2019-08-23 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [kaggle.com/api](https://www.kaggle.com/api/v1/datasets/view/jr2ngb/cataractdataset) |
 | **Publication date source field** | versions[1].creationDate (version 1, Initial release) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Earliest public Kaggle version is used; the later automatic update is not substituted. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cataract` |

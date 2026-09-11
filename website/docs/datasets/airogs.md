@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `airogs` |
 | **Full name** | AIROGS: AI for Robust Glaucoma Screening |
-| **First published** | 2021-12-01 |
+| **Publication date** | 2021-12-01 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [airogs.grand-challenge.org/Updates](https://airogs.grand-challenge.org/Updates/) |
 | **Publication date source field** | official challenge Updates: Training data available |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Official challenge release confirmation; Zenodo record 5793241/5745364 is the repository route checked. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `airogs` |

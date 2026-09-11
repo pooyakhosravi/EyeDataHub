@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `mario` |
 | **Full name** | MARIO: AMD-Progression Longitudinal OCT (MICCAI 2024) |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2025-04-23 |
+| **Date basis** | Repository deposit |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/15270469) |
+| **Publication date source field** | metadata.publication_date (Zenodo provider-supplied publication date) |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Zenodo publication date selected for the archived deposit. The dataset was developed for the 2024 MARIO challenge. |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mario` |

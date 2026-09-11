@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `erdes` |
 | **Full name** | ERDES: Ocular Ultrasound Video Benchmark (Retinal Detachment + Macula) |
-| **First published** | 2025-07-31 |
+| **Publication date** | 2025-07-31 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [github.com/OSUPCVLab](https://github.com/OSUPCVLab/ERDES) |
 | **Publication date source field** | Official GitHub README: News |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official ERDES repository README states '(July 31, 2025): Release of the dataset.' Later Hugging Face and Zenodo dates are explicitly separate releases. |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `erdes` |

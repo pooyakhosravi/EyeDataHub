@@ -20,11 +20,13 @@ Observation-level source data, annotations, or signals. from Source identifies s
 | --- | --- |
 | **Short name** | `mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic` |
 | **Full name** | ROP (retinopathy of prematurity) infants' serum metabolomic data |
-| **First published** | 2021-03-04 |
+| **Publication date** | 2021-03-04 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/7r7xt6pf6x/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_rop_retinopathy_prematurity_infants_serum_metabolomic` |

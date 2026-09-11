@@ -20,11 +20,13 @@ Peripapillary RNFL and segmented-macular OCT measurements in optic-neuritis coho
 | --- | --- |
 | **Short name** | `aqp4_optic_neuritis_oct_layers` |
 | **Full name** | AQP4 Optic Neuritis OCT Layers Dataset |
-| **First published** | 2016-05-05 |
+| **Publication date** | 2016-05-05 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/3209908/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | No version suffix in catalog route; Figshare v2 API versions list v1 as earliest public version. |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `aqp4_optic_neuritis_oct_layers` |

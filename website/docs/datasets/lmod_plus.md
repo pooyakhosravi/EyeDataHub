@@ -20,11 +20,13 @@ Composite multimodal ophthalmology benchmark with multi-granular anatomical, dia
 | --- | --- |
 | **Short name** | `lmod_plus` |
 | **Full name** | LMOD+ Multimodal Ophthalmology Benchmark |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `multimodal` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `lmod_plus` |

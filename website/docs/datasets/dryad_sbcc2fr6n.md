@@ -20,11 +20,13 @@ Official Dryad deposit of source-described iris biometric data for the associate
 | --- | --- |
 | **Short name** | `dryad_sbcc2fr6n` |
 | **Full name** | Exploring phenotypic diversity of pigmented traits and iris features in Pakistani population |
-| **First published** | 2021-07-08 |
+| **Publication date** | 2021-07-08 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.sbcc2fr6n](https://doi.org/10.5061/dryad.sbcc2fr6n) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `iris_biometrics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_sbcc2fr6n` |

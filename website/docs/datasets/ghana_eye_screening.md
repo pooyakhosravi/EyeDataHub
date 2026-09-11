@@ -20,11 +20,13 @@ Questionnaire and clinical eye-screening data from first-year university student
 | --- | --- |
 | **Short name** | `ghana_eye_screening` |
 | **Full name** | Eye Screening Data for First-Year University Students in Ghana |
-| **First published** | 2026-03-03 |
+| **Publication date** | 2026-03-03 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/mfv6sb5wyc/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ghana_eye_screening` |

@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `corn_pro` |
 | **Full name** | CORN Pro: Corneal Nerve Confocal Microscopy Dataset |
-| **First published** | 2024-12-03 |
+| **Publication date** | 2024-12-03 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/14263883) |
 | **Publication date source field** | metadata.publication_date (earliest listed public Zenodo version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Only listed Zenodo version; official CORN project page identifies CORN-Pro as the component. |
 | **Primary category** | `confocal` |
 | **Resource role** | `component_dataset` |
 | **Dataset family** | `corn_collection` |

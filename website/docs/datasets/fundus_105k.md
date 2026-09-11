@@ -20,11 +20,13 @@ Fundus-focused text dataset for LLM/RAG workflows.
 | --- | --- |
 | **Short name** | `fundus_105k` |
 | **Full name** | Fundus-105K Text Dataset |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `text` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `fundus_105k` |
