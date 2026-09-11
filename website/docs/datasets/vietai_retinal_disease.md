@@ -20,11 +20,11 @@ A multilabel fundus classification challenge with 3,435 labeled training images 
 | --- | --- |
 | **Short name** | `vietai_retinal_disease` |
 | **Full name** | VietAI Retinal Disease Detection 2020 |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2020-09-06 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [kaggle.com/c](https://www.kaggle.com/c/vietai-advance-retinal-disease-detection-2020) |
+| **Publication date source field** | Kaggle competition Overview: Start |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `vietai_retinal_disease` |

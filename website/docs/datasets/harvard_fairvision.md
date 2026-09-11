@@ -20,11 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `harvard_fairvision` |
 | **Full name** | Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2023-10-03 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [ophai.hms.harvard.edu/code](https://ophai.hms.harvard.edu/code/fairvision/) |
+| **Publication date source field** | Official Harvard Ophthalmology AI Lab project page: article:published_time |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `harvard_fairvision` |

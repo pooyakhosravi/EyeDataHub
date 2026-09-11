@@ -20,11 +20,11 @@ Observation-level source data, annotations, or signals. from Uses human retinal-
 | --- | --- |
 | **Short name** | `mendeley_utilizing_responsive_web_portal_studying_disc` |
 | **Full name** | Data for: Utilizing A Responsive Web Portal For Studying Disc Tracing Agreement in Retinal Images |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2021-05-05 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/7xv5rzxgrh/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `mendeley_utilizing_responsive_web_portal_studying_disc` |

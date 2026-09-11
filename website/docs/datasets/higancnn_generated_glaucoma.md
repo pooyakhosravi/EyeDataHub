@@ -20,11 +20,11 @@ Synthetic glaucoma/normal fundus images with documented human source collections
 | --- | --- |
 | **Short name** | `higancnn_generated_glaucoma` |
 | **Full name** | HiGANCNN Generated Glaucoma Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2022-08-13 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [kaggle.com/api](https://www.kaggle.com/api/v1/datasets/view/hindsaud/datasets-higancnn-glaucoma-detection) |
+| **Publication date source field** | versions[0].creationDate (version 1, Initial release) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `higancnn_generated_glaucoma` |

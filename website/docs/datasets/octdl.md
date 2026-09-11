@@ -20,11 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `octdl` |
 | **Full name** | OCTDL: OCT Deep Learning Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2023-12-13 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/sncdhf53xc/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `octdl` |

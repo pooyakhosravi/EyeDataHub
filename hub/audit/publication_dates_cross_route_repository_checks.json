@@ -1,0 +1,117 @@
+{
+  "schema_version": "publication_date_cross_route_checks.v1",
+  "reviewed_on": "2026-09-11",
+  "records": [
+    {
+      "record_id": "airogs",
+      "publication_date": "2021-12-01",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://airogs.grand-challenge.org/Updates/",
+      "publication_date_source_field": "official challenge Updates: Training data available",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "1 December 2021 — Today the training data has been released on Zenodo (part 1 and part 2).",
+      "notes": "Official challenge release confirmation; Zenodo record 5793241/5745364 is the repository route checked."
+    },
+    {
+      "record_id": "birdshot_wide",
+      "publication_date": "2026-04-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/19474623",
+      "publication_date_source_field": "metadata.publication_date (earliest listed public Zenodo version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":19474623,\"metadata\":{\"publication_date\":\"2026-04-08\",\"resource_type\":{\"type\":\"dataset\"}}}",
+      "notes": "Only listed Zenodo version; restricted files do not alter public record publication."
+    },
+    {
+      "record_id": "corn1500",
+      "publication_date": "2022-01-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/5880419",
+      "publication_date_source_field": "metadata.publication_date (Zenodo version 1.0)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":5880419,\"metadata\":{\"publication_date\":\"2022-01-20\",\"version\":\"1.0\",\"title\":\"CORN\"}}",
+      "notes": "Own CORN-1500 repository release; official CORN project page was checked but its page update date is not substituted."
+    },
+    {
+      "record_id": "corn_collection",
+      "publication_date": "2024-07-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/12776091",
+      "publication_date_source_field": "metadata.publication_date (earliest CORN collection record/version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":12776091,\"metadata\":{\"publication_date\":\"2024-07-19\",\"title\":\"CORN: Corneal nerve fiber dataset\",\"resource_type\":{\"type\":\"dataset\"}}}",
+      "notes": "Catalog’s 2026 collection record history points to this earlier CORN collection record; official project page lists components but has no earlier exact release field."
+    },
+    {
+      "record_id": "corn_pro",
+      "publication_date": "2024-12-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/14263883",
+      "publication_date_source_field": "metadata.publication_date (earliest listed public Zenodo version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":14263883,\"metadata\":{\"publication_date\":\"2024-12-03\",\"title\":\"CORN-Pro\",\"resource_type\":{\"type\":\"dataset\"}}}",
+      "notes": "Only listed Zenodo version; official CORN project page identifies CORN-Pro as the component."
+    },
+    {
+      "record_id": "eed_astig",
+      "publication_date": "2025-09-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/17217106",
+      "publication_date_source_field": "metadata.publication_date (earliest listed public Zenodo version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":17217106,\"metadata\":{\"publication_date\":\"2025-09-28\",\"title\":\"EED-Astig\",\"resource_type\":{\"type\":\"dataset\"}}}",
+      "notes": "Earliest listed Zenodo version; later September 2025 and 2026 records are excluded."
+    },
+    {
+      "record_id": "jrc_multimodal_vessels",
+      "publication_date": "2025-12-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/17874693",
+      "publication_date_source_field": "metadata.publication_date (earliest listed public Zenodo version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":17874693,\"metadata\":{\"publication_date\":\"2025-12-10\",\"title\":\"JRC-Multi-Modal Retinal Vessel Segmentation\",\"resource_type\":{\"type\":\"dataset\"}}}",
+      "notes": "Only listed Zenodo version; academic-request access is not a publication-date substitute."
+    },
+    {
+      "record_id": "papila",
+      "publication_date": "2022-04-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/14798004/versions/1",
+      "publication_date_source_field": "published_date (original Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":14798004,\"version\":1,\"title\":\"PAPILA\",\"published_date\":\"2022-04-29T09:26:31Z\",\"timeline\":{\"firstOnline\":\"2022-04-29\"}}",
+      "notes": "Catalog Zenodo route 6379970 resolves to an unrelated soft-drink record; original PAPILA Figshare v1 is the checked direct resource route."
+    },
+    {
+      "record_id": "superccm_fineset",
+      "publication_date": "2025-09-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/17051148",
+      "publication_date_source_field": "metadata.publication_date (Zenodo version 0.1.0)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":17051148,\"metadata\":{\"publication_date\":\"2025-09-04\",\"version\":\"0.1.0\",\"title\":\"SuperCCM-FineSet\"}}",
+      "notes": "Only listed Zenodo version; restricted access does not alter public record publication."
+    },
+    {
+      "record_id": "tunisian_retinal_oct_multidisease",
+      "publication_date": "2026-02-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/31385596/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":31385596,\"version\":1,\"published_date\":\"2026-02-22T02:04:57Z\",\"timeline\":{\"firstOnline\":\"2026-02-22\"}}",
+      "notes": "Catalog points to v3; v1 firstOnline/published_date is the initial repository release."
+    }
+  ],
+  "unresolved": []
+}

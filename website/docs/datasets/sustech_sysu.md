@@ -20,11 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `sustech_sysu` |
 | **Full name** | SUSTech-SYSU Diabetic Retinopathy + Exudate Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2020-11-03 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/12570770/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `sustech_sysu` |

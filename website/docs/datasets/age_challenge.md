@@ -20,11 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `age_challenge` |
 | **Full name** | AGE — Angle-Closure Glaucoma Evaluation Challenge (AS-OCT) |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2019-07-10 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [age.grand-challenge.org/Home](https://age.grand-challenge.org/Home/) |
+| **Publication date source field** | Official AGE challenge Updates: Training images and annotations are released |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `age_challenge` |

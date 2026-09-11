@@ -20,11 +20,11 @@ Visual-field and psychophysics experiment data for scotoma-detection comparisons
 | --- | --- |
 | **Short name** | `visual_field_testing_experiment` |
 | **Full name** | Visual Field Testing Experiment |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2021-10-04 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [kaggle.com/api](https://www.kaggle.com/api/v1/datasets/view/shozosaeki/visual-field-testing-experiment) |
+| **Publication date source field** | versions[0].creationDate (version 1, Initial release) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `visual_field` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `visual_field_testing_experiment` |

@@ -20,11 +20,11 @@ Semantic segmentation labels for 4,670 frames from 25 cataract surgery videos (C
 | --- | --- |
 | **Short name** | `cadis` |
 | **Full name** | CaDIS: Cataract Dataset for Image Segmentation |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2020 |
+| **Publication date precision** | year |
+| **Publication date evidence** | [arxiv.org/abs](https://arxiv.org/abs/2110.10965) |
+| **Publication date source field** | Associated CaDIS challenge paper: explicit dataset release statement |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `cadis` |

@@ -20,11 +20,11 @@ Observation-level human or human-derived measurements/signals. from Diabetic-ret
 | --- | --- |
 | **Short name** | `mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy` |
 | **Full name** | Changes in retinal photosensitivity in diabetic retinopathy therapy |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2021-08-23 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/tsf8b4yj3j/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_changes_retinal_photosensitivity_diabetic_retinopathy_therapy` |

@@ -112,13 +112,14 @@
     },
     {
       "record_id": "dryad_corneal_laser_procedure",
-      "publication_date": "2022-03-01",
+      "publication_date": "2022-02-03",
       "publication_date_precision": "day",
-      "publication_date_source_url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.m905qfv2r",
-      "publication_date_source_field": "publicationDate",
+      "publication_date_source_url": "https://doi.org/10.5061/dryad.m905qfv2r",
+      "publication_date_source_field": "Published (initial release on Dryad)",
       "publication_date_scope": "initial_public_release",
       "publication_date_reviewed_on": "2026-09-11",
-      "notes": "Official Dryad API v2 publicationDate; current record version 8."
+      "source_response_snippet": "Published Feb 03, 2022 on Dryad",
+      "notes": "The landing page records the initial publication on 2022-02-03; API publicationDate 2022-03-01 refers to a later version."
     },
     {
       "record_id": "dryad_crvo_vegf_tortuosity",

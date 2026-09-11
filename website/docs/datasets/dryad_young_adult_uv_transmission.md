@@ -20,11 +20,11 @@ The 42-participant UV-transmission workbook is direct human ocular-optics measur
 | --- | --- |
 | **Short name** | `dryad_young_adult_uv_transmission` |
 | **Full name** | Individual variation in the transmission of ultraviolet radiation in the young adult eye. |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2019-06-29 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.hg000c2](https://doi.org/10.5061/dryad.hg000c2) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_young_adult_uv_transmission` |

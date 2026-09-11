@@ -20,11 +20,11 @@ Phase-contrast microscopy fields of cultured human conjunctival goblet cells wit
 | --- | --- |
 | **Short name** | `goblet_cell_segmentation` |
 | **Full name** | Human Conjunctival Goblet Cell Segmentation Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2026-02-07 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/18517382) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `cell_microscopy` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `goblet_cell_segmentation` |

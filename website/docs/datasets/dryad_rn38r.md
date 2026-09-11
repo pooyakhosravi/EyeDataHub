@@ -20,11 +20,11 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_rn38r` |
 | **Full name** | Data from: Do picture-based charts overestimate visual acuity? Comparison of Kay Pictures, Lea Symbols, HOTV and Keeler logMAR charts with Sloan Letters in adults and children |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2018-01-17 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.rn38r](https://doi.org/10.5061/dryad.rn38r) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_rn38r` |

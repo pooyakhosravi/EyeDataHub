@@ -369,8 +369,8 @@ export default function DatasetDashboard() {
           </label>
         </div>
         <p id="publication-date-help">
-          First public dataset release, not the paper date or latest update.
-          Source precision is retained. Year bounds are inclusive; records without
+          First public dataset release. Source precision is retained.
+          Year bounds are inclusive; records without
           dates are excluded from a year range and sort last in either date order.
         </p>
         {!validYearRange(publishedFrom, publishedThrough) && (

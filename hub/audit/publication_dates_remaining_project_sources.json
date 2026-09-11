@@ -1,0 +1,1646 @@
+{
+  "records": [
+    {
+      "record_id": "adam_challenge",
+      "publication_date": "2018-10-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://amd.grand-challenge.org/Home/",
+      "publication_date_source_field": "Official ADAM/iChallenge-AMD challenge Updates: Training images and annotations are released",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official challenge page identifies ADAM as part of the iChallenge series and dates the first training-image/annotation release to October 20, 2018; later 2020 validation and challenge dates are not used.",
+      "source_response_snippet": "20 Oct 2018: Training images and annotations are released."
+    },
+    {
+      "record_id": "cataract_lmm",
+      "publication_date": "2026",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://api.datacite.org/dois/10.57967/hf/8673",
+      "publication_date_source_field": "data.attributes.publicationYear",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "title=\"Cataract-LMM\"; publicationYear=2026; resourceTypeGeneral=\"Dataset\"",
+      "notes": "HF DOI DataCite publicationYear is explicit dataset publication metadata; no day is inferred. HF repository commit-list timestamps were retained only as candidate evidence; no historical-tree claim is used."
+    },
+    {
+      "record_id": "csdi",
+      "publication_date": "2025",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://api.datacite.org/dois/10.57967/hf/7249",
+      "publication_date_source_field": "data.attributes.publicationYear",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "title=\"CSDI\"; publicationYear=2025; resourceTypeGeneral=\"Dataset\"",
+      "notes": "HF DOI DataCite publicationYear is explicit dataset publication metadata; no day is inferred. HF repository commit-list timestamps were retained only as candidate evidence; no historical-tree claim is used."
+    },
+    {
+      "record_id": "fundus_report_dataset",
+      "publication_date": "2026",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://api.datacite.org/dois/10.57967/hf/9303",
+      "publication_date_source_field": "data.attributes.publicationYear",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "title=\"fundus-report-dataset\"; publicationYear=2026; resourceTypeGeneral=\"Dataset\"",
+      "notes": "HF DOI DataCite publicationYear is explicit dataset publication metadata; no day is inferred. Component-source and HF repository timestamps were not substituted."
+    },
+    {
+      "record_id": "retina_age_analysis",
+      "publication_date": "2025",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://huggingface.co/datasets/ramankamran/retina-age-analysis/raw/main/README.md",
+      "publication_date_source_field": "@dataset citation year",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "@dataset citation: title=\"Retina Age Analysis Dataset\"; year = {2025}; publisher = {Hugging Face}",
+      "notes": "The official dataset card labels this as an @dataset citation with year 2025; no day is inferred. HF repository commit-list timestamps were retained only as candidate evidence; no historical-tree claim is used."
+    },
+    {
+      "record_id": "age_challenge",
+      "publication_date": "2019-07-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://age.grand-challenge.org/Home/",
+      "publication_date_source_field": "Official AGE challenge Updates: Training images and annotations are released",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official AGE challenge page identifies the event as MICCAI 2019 and states that training images and annotations were released July 10; the challenge page does not give a day-independent year elsewhere, so 2019-07-10 is used.",
+      "source_response_snippet": "AGE challenge ... MICCAI 2019; July 10: Training images and annotations are released."
+    },
+    {
+      "record_id": "airogs",
+      "publication_date": "2021-12-01",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://airogs.grand-challenge.org/Updates/",
+      "publication_date_source_field": "official challenge Updates: Training data available",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "1 December 2021 — Today the training data has been released on Zenodo (part 1 and part 2).",
+      "notes": "Official challenge release confirmation; Zenodo record 5793241/5745364 is the repository route checked."
+    },
+    {
+      "record_id": "amd_sd",
+      "publication_date": "2024-09-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/collections/7157554/articles",
+      "publication_date_source_field": "articles[0].published_date / timeline.firstOnline",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "An Optical Coherence Tomography Image Dataset for wet AMD Lesions Segmentation; published_date 2024-09-17T16:28:16Z; timeline.firstOnline 2024-09-17.",
+      "notes": "Catalog identifies Kaggle as a mirror and Figshare collection 7157554 as the primary source; the Figshare first-online date is used instead of the later Kaggle v1 date (2024-09-30)."
+    },
+    {
+      "record_id": "aod",
+      "publication_date": "2021-08-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/nurmukhammed7/augemnted-ocular-diseases",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2021-08-20T01:56:33.883Z; versionNotes Initial release.",
+      "notes": "The catalog resource is the augmented ODIR-derived Kaggle dataset itself; its public v1 release is dated directly by Kaggle API metadata."
+    },
+    {
+      "record_id": "aptos2019",
+      "publication_date": "2019-06-27",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/competitions/aptos2019-blindness-detection/overview/prizes",
+      "publication_date_source_field": "Kaggle competition Overview: Start",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official Kaggle competition page reports Start: June 27, 2019; this is the competition resource's public start, not the associated article year.",
+      "source_response_snippet": "Start Jun 27, 2019"
+    },
+    {
+      "record_id": "birdshot_wide",
+      "publication_date": "2026-04-08",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/19474623",
+      "publication_date_source_field": "metadata.publication_date (earliest listed public Zenodo version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":19474623,\"metadata\":{\"publication_date\":\"2026-04-08\",\"resource_type\":{\"type\":\"dataset\"}}}",
+      "notes": "Only listed Zenodo version; restricted files do not alter public record publication."
+    },
+    {
+      "record_id": "cadis",
+      "publication_date": "2020",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://arxiv.org/abs/2110.10965",
+      "publication_date_source_field": "Associated CaDIS challenge paper: explicit dataset release statement",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The primary CaDIS challenge paper states that in 2020 the authors released pixel-wise semantic annotations for 4670 images; this explicit release statement supports year precision and is not inferred from the paper publication year.",
+      "source_response_snippet": "In 2020, we released pixel-wise semantic annotations for anatomy and instruments for 4670 images sampled from 25 videos of the CATARACTS training set."
+    },
+    {
+      "record_id": "cataract",
+      "publication_date": "2019-08-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/jr2ngb/cataractdataset",
+      "publication_date_source_field": "versions[1].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version 1 creationDate 2019-08-23T07:08:21.697Z, versionNotes Initial release; version 2 is an Automatic Update later the same day.",
+      "notes": "Earliest public Kaggle version is used; the later automatic update is not substituted."
+    },
+    {
+      "record_id": "cataracts2017",
+      "publication_date": "2017",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://arxiv.org/abs/2110.10965",
+      "publication_date_source_field": "Associated CATARACTS challenge paper: explicit dataset release statement",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The primary CaDIS challenge paper states that CATARACTS released 50 cataract-surgery videos with instrument-usage annotations in 2017; this explicit release statement supports year precision for the represented CATARACTS resource.",
+      "source_response_snippet": "In 2017, the Challenge on Automatic Tool Annotation for cataRACT Surgery (CATARACTS) released 50 cataract surgery videos accompanied by instrument usage annotations."
+    },
+    {
+      "record_id": "corn_collection",
+      "publication_date": "2024-07-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/12776091",
+      "publication_date_source_field": "metadata.publication_date (earliest CORN collection record/version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":12776091,\"metadata\":{\"publication_date\":\"2024-07-19\",\"title\":\"CORN: Corneal nerve fiber dataset\",\"resource_type\":{\"type\":\"dataset\"}}}",
+      "notes": "Catalog’s 2026 collection record history points to this earlier CORN collection record; official project page lists components but has no earlier exact release field."
+    },
+    {
+      "record_id": "corn_pro",
+      "publication_date": "2024-12-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/14263883",
+      "publication_date_source_field": "metadata.publication_date (earliest listed public Zenodo version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":14263883,\"metadata\":{\"publication_date\":\"2024-12-03\",\"title\":\"CORN-Pro\",\"resource_type\":{\"type\":\"dataset\"}}}",
+      "notes": "Only listed Zenodo version; official CORN project page identifies CORN-Pro as the component."
+    },
+    {
+      "record_id": "corn1500",
+      "publication_date": "2022-01-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/5880419",
+      "publication_date_source_field": "metadata.publication_date (Zenodo version 1.0)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":5880419,\"metadata\":{\"publication_date\":\"2022-01-20\",\"version\":\"1.0\",\"title\":\"CORN\"}}",
+      "notes": "Own CORN-1500 repository release; official CORN project page was checked but its page update date is not substituted."
+    },
+    {
+      "record_id": "eed_astig",
+      "publication_date": "2025-09-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/17217106",
+      "publication_date_source_field": "metadata.publication_date (earliest listed public Zenodo version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":17217106,\"metadata\":{\"publication_date\":\"2025-09-28\",\"title\":\"EED-Astig\",\"resource_type\":{\"type\":\"dataset\"}}}",
+      "notes": "Earliest listed Zenodo version; later September 2025 and 2026 records are excluded."
+    },
+    {
+      "record_id": "eyepacs",
+      "publication_date": "2015-02-17",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/c/diabetic-retinopathy-detection",
+      "publication_date_source_field": "Kaggle competition Overview: Start",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official Kaggle competition page reports Start: February 17, 2015; this is the competition resource's public start.",
+      "source_response_snippet": "Start Feb 17, 2015"
+    },
+    {
+      "record_id": "gaze_capture",
+      "publication_date": "2017-03",
+      "publication_date_precision": "month",
+      "publication_date_source_url": "https://github.com/CSAILVision/GazeCapture",
+      "publication_date_source_field": "Official GitHub README: History",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official project README says the original code, dataset, and models were released in March 2017; no day is given.",
+      "source_response_snippet": "March 2017: Original code, dataset and models released."
+    },
+    {
+      "record_id": "harvard_fairvision",
+      "publication_date": "2023-10-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://ophai.hms.harvard.edu/code/fairvision/",
+      "publication_date_source_field": "Official Harvard Ophthalmology AI Lab project page: article:published_time",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official project page is dated October 3, 2023 and explicitly says the FairVision code and corresponding dataset are available on the project GitHub; this page publication timestamp is used as the public announcement date, not the paper date.",
+      "source_response_snippet": "article:published_time: 2023-10-03T18:19:53-04:00; description: FairVision code with the corresponding dataset is available on our GitHub repository."
+    },
+    {
+      "record_id": "harvard_glaucoma",
+      "publication_date": "2018-11-15",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://dataverse.harvard.edu/api/datasets/:persistentId/versions/1.0?persistentId=doi:10.7910/DVN/1YRRAC",
+      "publication_date_source_field": "Harvard Dataverse API: version 1.0 releaseTime",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official Harvard Dataverse API reports version 1.0 RELEASED with releaseTime 2018-11-15; the DataCite record also labels that date Available.",
+      "source_response_snippet": "versionNumber: 1; versionState: RELEASED; releaseTime: 2018-11-15T07:21:36Z; publicationDate: 2018-11-15"
+    },
+    {
+      "record_id": "higancnn_generated_glaucoma",
+      "publication_date": "2022-08-13",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/hindsaud/datasets-higancnn-glaucoma-detection",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2022-08-13T15:16:37.683Z; versionNotes Initial release.",
+      "notes": "Public Kaggle v1 is the release of this synthetic/assembled resource; no earlier standalone release route was identified."
+    },
+    {
+      "record_id": "hybridgaze",
+      "publication_date": "2025-10-13",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/michachwesiuk/hybridgaze",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version 1 creationDate 2025-10-13T20:11:32.633Z, versionNotes Initial release; version 2 is an update later the same day.",
+      "notes": "Earliest public Kaggle version is used."
+    },
+    {
+      "record_id": "ichallenge_amd",
+      "publication_date": "2018-10-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://amd.grand-challenge.org/Home/",
+      "publication_date_source_field": "Official ADAM/iChallenge-AMD challenge Updates: Training images and annotations are released",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official challenge page dates the first training-image/annotation release to October 20, 2018; the cataloged Grand Challenge route is the official resource rather than the later mirror.",
+      "source_response_snippet": "20 Oct 2018: Training images and annotations are released."
+    },
+    {
+      "record_id": "idrid",
+      "publication_date": "2018-01-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://idrid.grand-challenge.org/Dates/",
+      "publication_date_source_field": "Official IDRiD challenge Important Dates: Training Data Release (Images + Groundtruth)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official IDRiD challenge page dates the training data release to January 20, 2018; this predates the later IEEE DataPort deposit and directly supports initial public availability.",
+      "source_response_snippet": "Training Data Release (Images + Groundtruth) | January 20, 2018"
+    },
+    {
+      "record_id": "jrc_multimodal_vessels",
+      "publication_date": "2025-12-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/17874693",
+      "publication_date_source_field": "metadata.publication_date (earliest listed public Zenodo version)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":17874693,\"metadata\":{\"publication_date\":\"2025-12-10\",\"title\":\"JRC-Multi-Modal Retinal Vessel Segmentation\",\"resource_type\":{\"type\":\"dataset\"}}}",
+      "notes": "Only listed Zenodo version; academic-request access is not a publication-date substitute."
+    },
+    {
+      "record_id": "keratoconus_detection_kaggle",
+      "publication_date": "2023-01-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/elmehdi12/keratoconus-detection",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2023-01-28T13:57:32.313Z; versionNotes Initial release.",
+      "notes": "Public Kaggle v1 is the cataloged resource release."
+    },
+    {
+      "record_id": "kermany_oct",
+      "publication_date": "2017-12-25",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/rscbjbr9sj/1",
+      "publication_date_source_field": "Mendeley Data version 1 page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Mendeley Data page shows Published: 25 December 2017 | Version 1 | DOI 10.17632/rscbjbr9sj.1 and describes the labeled OCT images.",
+      "notes": "Original Mendeley Data release is used; Kaggle mirror version dates are not substituted."
+    },
+    {
+      "record_id": "mendeley_application_machine_learning_detecting_iron_deficiency",
+      "publication_date": "2022-06-27",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/nt7r8hv2pz/1",
+      "publication_date_source_field": "Mendeley dataset version 1 page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The Mendeley version 1 page reports the dataset Published date; version 1 is the initial public version shown by the source.",
+      "source_response_snippet": "Published: 2022-06-27; Version 1; JSON-LD datePublished: 2022-06-27T15:58:50.169Z"
+    },
+    {
+      "record_id": "mendeley_cp_anemic_conjunctival_pallor_ghana",
+      "publication_date": "2023-03-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/m53vz6b7fx/1",
+      "publication_date_source_field": "Mendeley dataset version 1 page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The Mendeley version 1 page reports the dataset Published date; version 1 is the initial public version shown by the source.",
+      "source_response_snippet": "Published: 2023-03-02; Version 1; JSON-LD datePublished: 2023-03-02T13:54:10.852Z"
+    },
+    {
+      "record_id": "mendeley_development_deep_learning_model_epiretinal_membrane",
+      "publication_date": "2023-07-31",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/jrgntpv8b8/1",
+      "publication_date_source_field": "Mendeley dataset version 1 page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The Mendeley version 1 page reports the dataset Published date; version 1 is the initial public version shown by the source.",
+      "source_response_snippet": "Published: 2023-07-31; Version 1; JSON-LD datePublished: 2023-07-31T06:43:58.347Z"
+    },
+    {
+      "record_id": "mendeley_micro_go_study_transcriptional_profiling_orbital",
+      "publication_date": "2023-07-13",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/mrvmsrn9r6/1",
+      "publication_date_source_field": "Mendeley dataset version 1 page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The Mendeley version 1 page reports the dataset Published date; version 1 is the initial public version shown by the source.",
+      "source_response_snippet": "Published: 2023-07-13; Version 1; JSON-LD datePublished: 2023-07-13T12:35:55.892Z"
+    },
+    {
+      "record_id": "mendeley_on_comparison_ocular_surface_disease_index",
+      "publication_date": "2022-07-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/m7fzwvsm77/1",
+      "publication_date_source_field": "Mendeley dataset version 1 page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The Mendeley version 1 page reports the dataset Published date; version 1 is the initial public version shown by the source.",
+      "source_response_snippet": "Published: 2022-07-04; Version 1; JSON-LD datePublished: 2022-07-04T19:08:37.163Z"
+    },
+    {
+      "record_id": "mendeley_optical_coherence_tomography_oct_images_proliferative",
+      "publication_date": "2023-04-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/hbr5pwk5w5/1",
+      "publication_date_source_field": "Mendeley dataset version 1 page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The Mendeley version 1 page reports the dataset Published date; version 1 is the initial public version shown by the source.",
+      "source_response_snippet": "Published: 2023-04-28; Version 1; JSON-LD datePublished: 2023-04-28T13:03:01.270Z"
+    },
+    {
+      "record_id": "mendeley_set_relationship_between_plasma_amino_acid",
+      "publication_date": "2022-12-09",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/fn9986thfh/1",
+      "publication_date_source_field": "Mendeley dataset version 1 page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The Mendeley version 1 page reports the dataset Published date; version 1 is the initial public version shown by the source.",
+      "source_response_snippet": "Published: 2022-12-09; Version 1; JSON-LD datePublished: 2022-12-09T19:03:09.176Z"
+    },
+    {
+      "record_id": "mendeley_towards_ocular_biomarkers_sarcopenia_result_korean",
+      "publication_date": "2022-04-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://data.mendeley.com/datasets/h547645876/1",
+      "publication_date_source_field": "Mendeley dataset version 1 page: Published",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The Mendeley version 1 page reports the dataset Published date; version 1 is the initial public version shown by the source.",
+      "source_response_snippet": "Published: 2022-04-29; Version 1; JSON-LD datePublished: 2022-04-29T10:12:05.371Z"
+    },
+    {
+      "record_id": "oct_c8",
+      "publication_date": "2021-10-05",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/obulisainaren/retinal-oct-c8",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version 1 creationDate 2021-10-05T03:56:35.113Z; versionNotes Initial release; v2 is Normalised Version and v3 adds a README.",
+      "notes": "Earliest public Kaggle version is used."
+    },
+    {
+      "record_id": "oct_macular_hole_postsurgery",
+      "publication_date": "2021-12-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/mathieugodbout/oct-postsurgery-visual-improvement",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2021-12-23T00:22:20.867Z; versionNotes Initial release; v2 is a later data update.",
+      "notes": "Earliest public Kaggle version is used."
+    },
+    {
+      "record_id": "octid",
+      "publication_date": "2018-12-19",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://borealisdata.ca/api/search?q=OCTID&type=dataset&per_page=100",
+      "publication_date_source_field": "Borealis Dataverse API search: published_at / versionState",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official OCTID Dataverse search returns the OCTID citation dataset as RELEASED version 1 with published_at 2018-12-19; the OCTID dataverse contents list all eight component records with the same publicationDate.",
+      "source_response_snippet": "name: OCTID citation; published_at: 2018-12-19T16:25:18Z; versionState: RELEASED; majorVersion: 1"
+    },
+    {
+      "record_id": "palm",
+      "publication_date": "2019-01-01",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://palm.grand-challenge.org/Home/",
+      "publication_date_source_field": "Official PALM challenge Important Dates: Training images for the first classification task are released",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official PALM challenge page dates the first training-image release to January 1, 2019; later annotations and validation sets are not used.",
+      "source_response_snippet": "Jan 01 2019: Training images for the first classification task are released."
+    },
+    {
+      "record_id": "papila",
+      "publication_date": "2022-04-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/14798004/versions/1",
+      "publication_date_source_field": "published_date (original Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":14798004,\"version\":1,\"title\":\"PAPILA\",\"published_date\":\"2022-04-29T09:26:31Z\",\"timeline\":{\"firstOnline\":\"2022-04-29\"}}",
+      "notes": "Catalog Zenodo route 6379970 resolves to an unrelated soft-drink record; original PAPILA Figshare v1 is the checked direct resource route."
+    },
+    {
+      "record_id": "real_fundus",
+      "publication_date": "2022-07-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://github.com/dengzhuo-AI/Real-Fundus/releases/tag/v.1.0.0",
+      "publication_date_source_field": "Official GitHub release: published_at",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official v.1.0.0 GitHub release is titled Real Fundus and describes the first real fundus image dataset; its published_at timestamp is July 4, 2022.",
+      "source_response_snippet": "published_at: 2022-07-04T07:35:53Z; release v.1.0.0: Real Fundus"
+    },
+    {
+      "record_id": "retinal_oct_octa_two_subjects_processed",
+      "publication_date": "2021-01-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/cnzakimuena/retinal-oct-and-octa-data-3",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2021-01-23T23:22:06.88Z; versionNotes Initial release.",
+      "notes": "Public Kaggle v1 is the cataloged processed two-subject resource; no earlier independent release was identified."
+    },
+    {
+      "record_id": "retouch",
+      "publication_date": "2017-04-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://retouch.grand-challenge.org/",
+      "publication_date_source_field": "Official RETOUCH Important Dates: First part of the Training set was released (Cirrus and Spectralis)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official RETOUCH challenge page states that the first training set was released April 10, 2017; this is the initial public training-data release, before the later Topcon training part.",
+      "source_response_snippet": "10 April 2017: First part of the Training set was released (Cirrus and Spectralis)."
+    },
+    {
+      "record_id": "rfmid",
+      "publication_date": "2020-11-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://riadd.grand-challenge.org/",
+      "publication_date_source_field": "Official RIADD Important Dates: Training Data Release (Images + Ground truth)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "22 Nov 2020: Training Data Release (Images + Ground truth).",
+      "notes": "The official RIADD challenge release predates the Kaggle mirror v1 (2021-08-16) and is used for the represented RFMiD resource."
+    },
+    {
+      "record_id": "rop_ostrava",
+      "publication_date": "2022-11-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/jananowakova/retinal-image-dataset-of-infants-and-rop",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version 1 creationDate 2022-11-02T14:36:37.383Z; versionNotes Initial release; later versions are updates in 2024-2025.",
+      "notes": "Kaggle v1 is an explicit public version release. The later article states a published-dataset release date of 2023-04-04; that publication milestone is not substituted for the earlier public Kaggle v1."
+    },
+    {
+      "record_id": "ru_medical_texts_ophthalmology",
+      "publication_date": "2024-12-16",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/cheshrcat/ru-medical-texts-ophtalmology",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "version 1 creationDate 2024-12-16T17:51:21.437Z; versionNotes Initial release; subsequent versions add splits/glossary and scores.",
+      "notes": "Earliest public Kaggle version is used."
+    },
+    {
+      "record_id": "superccm_fineset",
+      "publication_date": "2025-09-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/17051148",
+      "publication_date_source_field": "metadata.publication_date (Zenodo version 0.1.0)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":17051148,\"metadata\":{\"publication_date\":\"2025-09-04\",\"version\":\"0.1.0\",\"title\":\"SuperCCM-FineSet\"}}",
+      "notes": "Only listed Zenodo version; restricted access does not alter public record publication."
+    },
+    {
+      "record_id": "toxofundus",
+      "publication_date": "2021-01-14",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/5156953/versions",
+      "publication_date_source_field": "hits.hits[index=0].metadata.publication_date (Zenodo concept version index 0)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Ocular Toxoplasmosis Fundus Images Dataset concept 4439566; earliest version record 4441200 has version index 0 and metadata.publication_date 2021-01-14; later record 5156953 is index 4.",
+      "notes": "The cataloged Kaggle route is a later mirror; Zenodo concept history establishes the original resource release date."
+    },
+    {
+      "record_id": "tunisian_retinal_oct_multidisease",
+      "publication_date": "2026-02-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.figshare.com/v2/articles/31385596/versions/1",
+      "publication_date_source_field": "published_date (Figshare version 1)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "{\"id\":31385596,\"version\":1,\"published_date\":\"2026-02-22T02:04:57Z\",\"timeline\":{\"firstOnline\":\"2026-02-22\"}}",
+      "notes": "Catalog points to v3; v1 firstOnline/published_date is the initial repository release."
+    },
+    {
+      "record_id": "vietai_retinal_disease",
+      "publication_date": "2020-09-06",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/c/vietai-advance-retinal-disease-detection-2020",
+      "publication_date_source_field": "Kaggle competition Overview: Start",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "notes": "The official Kaggle competition page reports Start: September 6, 2020; this is the competition resource's public start.",
+      "source_response_snippet": "Start Sep 6, 2020"
+    },
+    {
+      "record_id": "visual_field_testing_experiment",
+      "publication_date": "2021-10-04",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://www.kaggle.com/api/v1/datasets/view/shozosaeki/visual-field-testing-experiment",
+      "publication_date_source_field": "versions[0].creationDate (version 1, Initial release)",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "versionNumber 1; creationDate 2021-10-04T02:38:43.11Z; versionNotes Initial release.",
+      "notes": "Public Kaggle v1 is the cataloged experiment-data release; the linked preprint date is not used."
+    },
+    {
+      "record_id": "ophnet2024",
+      "publication_date": "2024-10",
+      "publication_date_precision": "month",
+      "publication_date_source_url": "https://raw.githubusercontent.com/minghu0830/OphNet-benchmark/master/README.md",
+      "publication_date_source_field": "Official project README News: Oct 2024 dataset release",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "* **[Oct, 2024]** We realeased OphNet2024 challenge dataset ! More information can be found in Data Preparation.",
+      "notes": "Official project README and HF history checked. The README gives month precision; no day is inferred from the later HF commit."
+    }
+  ],
+  "unresolved": [
+    {
+      "record_id": "agar300",
+      "reason": "IEEE DataPort page exposes Date Created 2020-11-10, but that is only a deposit-creation timestamp; no dated public-release announcement was found to establish it as first availability.",
+      "checked_urls": [
+        "https://ieee-dataport.org/open-access/diabetic-retinopathy-fundus-image-datasetagar300"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "angioreport",
+      "reason": "Official source page checked (https://tianchi.aliyun.com/dataset/170128); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://tianchi.aliyun.com/dataset/170128"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "aroi",
+      "reason": "Google Drive file/folder page checked; no created, published, or version-history field was exposed in the public resource metadata.",
+      "checked_urls": [
+        "https://drive.google.com/file/d/10Ys4xsw81evjHewZEvqHy4Kri0my8C2S/view"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "beh",
+      "reason": "Google Drive file/folder page checked; no created, published, or version-history field was exposed in the public resource metadata.",
+      "checked_urls": [
+        "https://drive.google.com/file/d/1YdZm-sioiAbTdBRy4oej1q6tZL8Baft7"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "belo",
+      "reason": "Official source page checked (https://belo-dataset.vercel.app/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://belo-dataset.vercel.app/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "brasil_glaucoma_brg",
+      "reason": "Kaggle API v1 is dated 2025-05-22, but an official 2026 PMC data-availability statement records the same Kaggle resource as publicly available by 2025-01-28. The Kaggle creation date therefore cannot establish initial public release, and no earlier official resource-release field was found.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/clerimar/brasil-glaucoma-brg",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12984144/",
+        "https://www.mdpi.com/2227-9032/10/12/2345"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "casia_iris_v4",
+      "reason": "Official CASIA Iris V4 page checked; it says the database has been released/updated since 2002 but gives no dated V4 initial release field. The page's own date is not treated as release evidence.",
+      "checked_urls": [
+        "https://hycasia.github.io/dataset/casia-irisv4/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "cataract_101",
+      "reason": "Official source page checked (https://ftp.itec.aau.at/datasets/ovid/cat-101/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://ftp.itec.aau.at/datasets/ovid/cat-101/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "cataract1k",
+      "reason": "Synapse landing page checked; public Synapse entity/version API routes returned HTTP 403, so release/version metadata could not be inspected and no date is inferred.",
+      "checked_urls": [
+        "https://www.synapse.org/#!Synapse:syn53404917",
+        "https://repo-prod.prod.sagebase.org/repo/v1/entity/syn53404917",
+        "https://repo-prod.prod.sagebase.org/repo/v1/entity/syn53404917/version/1"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "cavri",
+      "reason": "Official source page checked (https://dsp.put.poznan.pl/cavri_database-191/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://dsp.put.poznan.pl/cavri_database-191/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "chase_db1",
+      "reason": "Official source page checked (https://researchinnovation.kingston.ac.uk/en/datasets/chasedb1-retinal-vessel-reference-dataset-4/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://researchinnovation.kingston.ac.uk/en/datasets/chasedb1-retinal-vessel-reference-dataset-4/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "ddr",
+      "reason": "Google Drive file/folder page checked; no created, published, or version-history field was exposed in the public resource metadata.",
+      "checked_urls": [
+        "https://drive.google.com/drive/folders/1z6tSFmxW_aNayUqVxx6h6bY4kwGzUTEC"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "deepeyenet",
+      "reason": "GitHub repository, README, and public releases endpoint checked; no dataset release object or dated initial-release announcement was present.",
+      "checked_urls": [
+        "https://github.com/Jhhuangkay/DeepOpht-Medical-Report-Generation-for-Retinal-Images-via-Deep-Models-and-Visual-Explanation",
+        "https://api.github.com/repos/Jhhuangkay/DeepOpht-Medical-Report-Generation-for-Retinal-Images-via-Deep-Models-and-Visual-Explanation/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "doomgan_ocular_morphs",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs",
+        "https://huggingface.co/api/datasets/BharathK333/DOOMGAN-Ocular-Morphs",
+        "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs/raw/main/README.md",
+        "https://huggingface.co/api/datasets/BharathK333/DOOMGAN-Ocular-Morphs/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/BharathK333/DOOMGAN-Ocular-Morphs/tree/main?recursive=true",
+        "https://arxiv.org/abs/2507.17158",
+        "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "BharathK333/DOOMGAN-Ocular-Morphs",
+        "commit_sha": "8044706457e90e580ddd6c9d85e195f32e60ed5a",
+        "commit_date": "2025-08-01T03:19:45Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/BharathK333/DOOMGAN-Ocular-Morphs/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/BharathK333/DOOMGAN-Ocular-Morphs/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "dridb",
+      "reason": "Official source page checked (https://ipg.fer.hr/ipg/resources/image_database); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://ipg.fer.hr/ipg/resources/image_database"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "drions_db",
+      "reason": "Official source page checked (https://www.ia.uned.es/~ejcarmona/DRIONS-DB.html); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://www.ia.uned.es/~ejcarmona/DRIONS-DB.html"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "drishti_gs",
+      "reason": "Kaggle v1 is a later mirror (2021-10-18). The official CVIT Drishti-GS page confirms the dataset and availability but exposes no dated initial-release or version-history field, so the Kaggle date is not substituted.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/lokeshsaipureddi/drishtigs-retina-dataset-for-onh-segmentation",
+        "https://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/Home.php"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "drive",
+      "reason": "Official Grand Challenge route checked; landing/download page describes the resource but exposes no dated initial-release or first-version field.",
+      "checked_urls": [
+        "https://drive.grand-challenge.org/DRIVE/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "drtid",
+      "reason": "GitHub repository and public releases endpoint checked; the only release found was v1.0 CrossFiT (published 2023-01-30), a model/code release with no dataset-release announcement.",
+      "checked_urls": [
+        "https://github.com/FDU-VTS/DRTiD",
+        "https://api.github.com/repos/FDU-VTS/DRTiD/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "duke_amd_chiu",
+      "reason": "Official source page checked (https://people.duke.edu/~sf59/Chiu_IOVS_2011_dataset.htm); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://people.duke.edu/~sf59/Chiu_IOVS_2011_dataset.htm"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "duke_chiu_boe",
+      "reason": "Official Duke dataset page checked; embedded Word metadata exposes o:Created 2012-01-16, but this is document-creation metadata rather than a dataset release field; no dated public-release announcement was found.",
+      "checked_urls": [
+        "http://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "duke_rpedc",
+      "reason": "Official source page checked (https://people.duke.edu/~sf59/RPEDC_Ophth_2013_dataset.htm); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://people.duke.edu/~sf59/RPEDC_Ophth_2013_dataset.htm"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "e_ophtha",
+      "reason": "Kaggle v1 is a later mirror (2026-03-29). The official ADCIS e-ophtha page confirms the database and download route but has no dated initial-release/version field; the 2013 article year is not used as a resource-release date.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/samriddhibagchi/e-ophtha-diabetic-retinopathy-datasets-ex-ma",
+        "https://www.adcis.net/en/third-party/e-ophtha/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "eth_xgaze",
+      "reason": "Official source page checked (https://ait.ethz.ch/xgaze); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://ait.ethz.ch/xgaze"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "eyecare_100k",
+      "reason": "Hugging Face dataset page/API checked; dataset card has no explicit release/version-history field, and repository createdAt was withheld as repository-creation metadata.",
+      "checked_urls": [
+        "https://github.com/DCDmllm/EyecareGPT"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "eyeq",
+      "reason": "GitHub repository, README, and public releases endpoint checked; no dataset release object or dated initial-release announcement was present.",
+      "checked_urls": [
+        "https://github.com/HzFu/EyeQ",
+        "https://api.github.com/repos/HzFu/EyeQ/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "fairvlmed",
+      "reason": "The official FairCLIP README says the repository provides the dataset but gives no dated release statement; the GitHub commit timestamp cannot establish when the repository became public. HF upload history is later and is not used.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/harvardairobotics/FairVLMed",
+        "https://huggingface.co/api/datasets/harvardairobotics/FairVLMed",
+        "https://huggingface.co/datasets/harvardairobotics/FairVLMed/raw/main/README.md",
+        "https://github.com/Harvard-Ophthalmology-AI-Lab/FairCLIP",
+        "https://raw.githubusercontent.com/Harvard-Ophthalmology-AI-Lab/FairCLIP/628b4acc462cf0fe93e63764aac5e733e0e6f12d/README.md"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "GitHub commit candidate (not release evidence)",
+        "repository": "Harvard-Ophthalmology-AI-Lab/FairCLIP",
+        "commit_sha": "628b4acc462cf0fe93e63764aac5e733e0e6f12d",
+        "commit_date": "2024-03-31T00:26:59Z",
+        "commit_url": "https://github.com/Harvard-Ophthalmology-AI-Lab/FairCLIP/commit/628b4acc462cf0fe93e63764aac5e733e0e6f12d",
+        "evidence": "GitHub commit with README dataset-access statement; timestamp is a candidate only because the statement is undated"
+      }
+    },
+    {
+      "record_id": "fang_sbsdi_oct",
+      "reason": "Official Duke dataset page checked; embedded Word metadata exposes o:Created 2012-01-16, but this is document-creation metadata rather than a dataset release field; no dated public-release announcement was found.",
+      "checked_urls": [
+        "https://people.duke.edu/~sf59/Fang_TMI_2013.htm"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "fire",
+      "reason": "Official source page checked (https://projects.ics.forth.gr/cvrl/fire/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://projects.ics.forth.gr/cvrl/fire/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "fprm_retina",
+      "reason": "DOI landing route checked; it resolves to a cited/supplementary resource without a public initial-release/version-history field, so article/supplement dates are not substituted.",
+      "checked_urls": [
+        "https://doi.org/10.7303/syn61672643"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "fundus_105k",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-105K",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-105K",
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-105K/raw/main/README.md",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-105K/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-105K/tree/main?recursive=true",
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-105K/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "PJMixers-Dev/Fundus-105K",
+        "commit_sha": "f3a17ca2b391336c97544ef0a907dfc8d5f29017",
+        "commit_date": "2024-12-08T09:36:34Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/PJMixers-Dev/Fundus-105K/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-105K/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "fundus_cc_2_5m",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-CC-2.5M",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-CC-2.5M",
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-CC-2.5M/raw/main/README.md",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-CC-2.5M/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-CC-2.5M/tree/main?recursive=true",
+        "https://huggingface.co/datasets/PJMixers-Dev/Fundus-CC-2.5M/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "PJMixers-Dev/Fundus-CC-2.5M",
+        "commit_sha": "98d96a6267664241d8aa667cbb46f5f40ff7e0f4",
+        "commit_date": "2024-12-29T12:40:41Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/PJMixers-Dev/Fundus-CC-2.5M/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/PJMixers-Dev/Fundus-CC-2.5M/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "g1020",
+      "reason": "Official source page checked (https://arxiv.org/abs/2006.09158); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://arxiv.org/abs/2006.09158"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "gamma",
+      "reason": "Google Drive file/folder page checked; no created, published, or version-history field was exposed in the public resource metadata.",
+      "checked_urls": [
+        "https://drive.google.com/file/d/1thJDE1_TR-xa8f3H-0PwPpDxun7rV8Sw/view"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "gaze360",
+      "reason": "Official source page checked (https://gaze360.csail.mit.edu/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://gaze360.csail.mit.edu/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "glaucoma_expert_cot_refined",
+      "reason": "The recorded HF dataset path returned a 404 page, the alternate API path returned 401, and the raw README returned 401. No public dataset card, version history, or linked release announcement was available to establish an initial public date.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined-1077",
+        "https://huggingface.co/api/datasets/yuzhench/glaucoma-expert-cot-refined",
+        "https://huggingface.co/datasets/yuzhench/glaucoma-expert-cot-refined/raw/main/README.md"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "gleam",
+      "reason": "Kaggle API exposes only current version 3 (2026-01-24), with no public v1 history. The linked official GitHub repository has no releases or tags establishing an earlier public data release, so the current update date is not used.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/zhangyiyinge/gleam-dataset",
+        "https://github.com/microewing/HAMM",
+        "https://api.github.com/repos/microewing/HAMM/releases?per_page=10",
+        "https://api.github.com/repos/microewing/HAMM/tags?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "goals",
+      "reason": "Official source page checked (https://aistudio.baidu.com/competition/detail/783/0/introduction); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://aistudio.baidu.com/competition/detail/783/0/introduction"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "harvard_gdp",
+      "reason": "Google Drive file/folder page checked; no created, published, or version-history field was exposed in the public resource metadata.",
+      "checked_urls": [
+        "https://drive.google.com/drive/folders/1JMi_HCql113uc9X0DOaMkNfEWfxaDlEz"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "hei_med",
+      "reason": "GitHub repository, README, and public releases endpoint checked; no dataset release object or dated initial-release announcement was present.",
+      "checked_urls": [
+        "https://github.com/lgiancaUTH/HEI-MED",
+        "https://api.github.com/repos/lgiancaUTH/HEI-MED/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "hrf",
+      "reason": "Official source page checked (https://www5.cs.fau.de/research/data/fundus-images/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://www5.cs.fau.de/research/data/fundus-images/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "ichallenge_oct",
+      "reason": "Official source page checked (http://hdmilab.cn/ichallenge); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "http://hdmilab.cn/ichallenge"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "insegcat",
+      "reason": "The official OVID datasets page lists this resource among several cataract-surgery annotation products and cites an ACM Multimedia 2020 paper, but does not explicitly date InSegCat’s public release; the venue year is not substituted.",
+      "checked_urls": [
+        "https://ftp.itec.aau.at/datasets/ovid/InSegCat/",
+        "https://ovid.itec.aau.at/datasets/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "intraretinal_cystoid_fluid",
+      "reason": "Official Kaggle API exposes only current version 3 with versionNotes 'Data Update 2022/06/18'; no version-1 or initial-public-release field was available. The DataCite DOI created date was checked but is DOI registration metadata, not release evidence, so it is withheld.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/zeeshanahmed13/intraretinal-cystoid-fluid",
+        "https://www.kaggle.com/datasets/zeeshanahmed13/intraretinal-cystoid-fluid",
+        "https://api.datacite.org/dois/10.34740/KAGGLE/DS/2277068"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "itec_iris_pupil",
+      "reason": "Kaggle v1 is a later mirror (2025-08-25). The official ITEC Iris and Pupil Segmentation page confirms the resource and its 2020 paper but exposes no dated initial-release/version field; the paper year is not substituted.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/arwabasal/itec-iris-and-pupil-segmentation",
+        "https://ftp.itec.aau.at/datasets/ovid/iris_pupil_seg/index.html"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "lag",
+      "reason": "GitHub repository, README, and public releases endpoint checked; no dataset release object or dated initial-release announcement was present.",
+      "checked_urls": [
+        "https://github.com/smilell/AG-CNN",
+        "https://api.github.com/repos/smilell/AG-CNN/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "lmod_cataract_1k",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K",
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K/raw/main/README.md",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K/tree/main?recursive=true",
+        "https://github.com/Negin-Ghamsarian/Cataract-1K",
+        "https://kfzyqin.github.io/lmod/",
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "mehti/LMOD-Cataract-1K",
+        "commit_sha": "c707c227972d1825b680fe794e9d98dde8f0d963",
+        "commit_date": "2026-02-03T09:46:10Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "lmod_cataract_1k_cot",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot",
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/raw/main/README.md",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/tree/main?recursive=true",
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K",
+        "https://kfzyqin.github.io/lmod/",
+        "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "mehti/LMOD-Cataract-1K-surgical-analysis-cot",
+        "commit_sha": "a81084b9e8d9225139b15081a3eac61f94e30349",
+        "commit_date": "2026-02-17T09:37:53Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/mehti/LMOD-Cataract-1K-surgical-analysis-cot/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "lmod_plus",
+      "reason": "Official source page checked (https://kfzyqin.github.io/lmod_plus/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://kfzyqin.github.io/lmod_plus/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "lpw",
+      "reason": "Official source page checked (https://www.mpi-inf.mpg.de/de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/labelled-pupils-in-the-wild-lpw/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://www.mpi-inf.mpg.de/de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/labelled-pupils-in-the-wild-lpw/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "messidor2",
+      "reason": "Official source page checked (https://www.adcis.net/en/third-party/messidor2/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://www.adcis.net/en/third-party/messidor2/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "mfiddr",
+      "reason": "Official source page checked (https://github.com/mfiddr/MFIDDR); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://github.com/mfiddr/MFIDDR"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "mgd1k",
+      "reason": "Checked the official GitHub project/release history; no dated initial dataset-release announcement was available.",
+      "checked_urls": [
+        "https://mgd1k.github.io/index.html"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "mm_retinal_reason",
+      "reason": "The card says an initial subset was published but gives no date; linked paper/project dates are not dataset release dates. The HF initial commit timestamp is retained only as a candidate lead.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason",
+        "https://huggingface.co/api/datasets/lxirich/MM-Retinal-Reason",
+        "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/raw/main/README.md",
+        "https://arxiv.org/abs/2508.16129",
+        "https://github.com/lxirich/OphthaReason",
+        "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/lxirich/MM-Retinal-Reason/tree/main?recursive=true"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "lxirich/MM-Retinal-Reason",
+        "commit_sha": "868d8e8771742ccd11275b449b6bf627ff4972ef",
+        "commit_date": "2026-07-29T17:02:05Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/lxirich/MM-Retinal-Reason/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/lxirich/MM-Retinal-Reason/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "mpii_gaze",
+      "reason": "Official source page checked (https://www.mpi-inf.mpg.de/de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://www.mpi-inf.mpg.de/de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/appearance-based-gaze-estimation-in-the-wild"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "multieye",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/Luxuriant16/MultiEYE",
+        "https://huggingface.co/api/datasets/Luxuriant16/MultiEYE",
+        "https://huggingface.co/datasets/Luxuriant16/MultiEYE/raw/main/README.md",
+        "https://huggingface.co/api/datasets/Luxuriant16/MultiEYE/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/Luxuriant16/MultiEYE/tree/main?recursive=true",
+        "https://arxiv.org/abs/2412.09402",
+        "https://huggingface.co/datasets/Luxuriant16/MultiEYE/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "Luxuriant16/MultiEYE",
+        "commit_sha": "12b8c32ced47a3cd61ab1c5892f872a010ff5906",
+        "commit_date": "2025-11-06T04:50:48Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/Luxuriant16/MultiEYE/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/Luxuriant16/MultiEYE/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "nd_iris_0405",
+      "reason": "NIST BDbC record page checked; it exposes Date created: August 1, 2014 and Last updated: July 31, 2026, but does not label Date created as first public release; the creation timestamp is withheld.",
+      "checked_urls": [
+        "https://tsapps.nist.gov/BDbC/Search/Details/371"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "ochid",
+      "reason": "Official source page checked (https://imed.nimte.ac.cn/OCHID.html); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://imed.nimte.ac.cn/OCHID.html"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "oct_cirrus",
+      "reason": "Official Duke dataset page checked; embedded Word metadata exposes o:Created 2012-01-16, but this is document-creation metadata rather than a dataset release field; no dated public-release announcement was found.",
+      "checked_urls": [
+        "https://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "oct_fundus_dme_dr_mexico",
+      "reason": "GitHub repository, README, and public releases endpoint checked; no dataset release object or dated initial-release announcement was present.",
+      "checked_urls": [
+        "https://github.com/Traslational-Visual-Health-Laboratory/OCT-AND-EYE-FUNDUS-DATASET",
+        "https://api.github.com/repos/Traslational-Visual-Health-Laboratory/OCT-AND-EYE-FUNDUS-DATASET/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "oct_ms_jhu",
+      "reason": "Official source page checked (https://iacl.ece.jhu.edu/~aaron/data/OCT_Manual_Delineations-2018_June_29_b.zip); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://iacl.ece.jhu.edu/~aaron/data/OCT_Manual_Delineations-2018_June_29_b.zip"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "octa_500",
+      "reason": "IEEE DataPort page exposes Date Created 2019-12-23, but that is only a deposit-creation timestamp; no dated first-release announcement for the represented OCTA-500 product was found.",
+      "checked_urls": [
+        "https://ieee-dataport.org/open-access/octa-500"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "ocular_chat_vqa",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/ncbi/OcularChat-VQA",
+        "https://huggingface.co/api/datasets/ncbi/OcularChat-VQA",
+        "https://huggingface.co/datasets/ncbi/OcularChat-VQA/raw/main/README.md",
+        "https://huggingface.co/api/datasets/ncbi/OcularChat-VQA/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/ncbi/OcularChat-VQA/tree/main?recursive=true",
+        "https://huggingface.co/datasets/ncbi/OcularChat-VQA/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "ncbi/OcularChat-VQA",
+        "commit_sha": "16d9fd808f1889faabb44afa38ffbb475484dbab",
+        "commit_date": "2026-02-13T17:02:15Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/ncbi/OcularChat-VQA/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/ncbi/OcularChat-VQA/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "odir2019",
+      "reason": "Kaggle v1 is dated 2020-04-19, while the official ODIR-2019 challenge page identifies the original challenge/resource but exposes no dated data-release or version-history field. The challenge title/year alone is insufficient to establish the initial public release date.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/andrewmvd/ocular-disease-recognition-odir5k",
+        "https://odir2019.grand-challenge.org/",
+        "https://odir2019.grand-challenge.org/dataset/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "ophora",
+      "reason": "The official project README says the dataset is released but gives no release date; its commit date cannot establish when the repository became public. HF card/API are accessible but the raw card is gated and exposes no dated dataset-release field.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K",
+        "https://huggingface.co/api/datasets/General-Medical-AI/Ophora-160K",
+        "https://huggingface.co/datasets/General-Medical-AI/Ophora-160K/raw/main/README.md",
+        "https://github.com/uni-medical/Ophora",
+        "https://raw.githubusercontent.com/uni-medical/Ophora/c3e606e9bd606668c19075530c70c2bb3936e28c/README.md"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "GitHub commit candidate (not release evidence)",
+        "repository": "uni-medical/Ophora",
+        "commit_sha": "c3e606e9bd606668c19075530c70c2bb3936e28c",
+        "commit_date": "2025-07-16T05:57:24Z",
+        "commit_url": "https://github.com/uni-medical/Ophora/commit/c3e606e9bd606668c19075530c70c2bb3936e28c",
+        "evidence": "GitHub commit; README says dataset is released, but the statement is undated"
+      }
+    },
+    {
+      "record_id": "ophthalmology_eqa_v3",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-EQA-v3",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-EQA-v3",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-EQA-v3/raw/main/README.md",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-EQA-v3/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-EQA-v3/tree/main?recursive=true",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-EQA-v3/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "BaekSeungJu/Ophthalmology-EQA-v3",
+        "commit_sha": "cd653c7f861a817d91952108fecc2cc016f9bcc4",
+        "commit_date": "2025-01-08T07:01:17Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-EQA-v3/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-EQA-v3/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "ophthalmology_mcqa_v3",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-MCQA-v3",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-MCQA-v3",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/raw/main/README.md",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/tree/main?recursive=true",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "BaekSeungJu/Ophthalmology-MCQA-v3",
+        "commit_sha": "f46c21ad62b915417b0635b706f2c747f016d03c",
+        "commit_date": "2025-01-13T16:00:20Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-MCQA-v3/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "ophthalmology_pubmed_corpus",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/raw/main/README.md",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/tree/main?recursive=true",
+        "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "BaekSeungJu/Ophthalmology-PubMed-Corpus",
+        "commit_sha": "ce0abdc4d4f3a9cae2f48e019f6eb9b11082421",
+        "commit_date": "2025-01-16T12:37:46Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/BaekSeungJu/Ophthalmology-PubMed-Corpus/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "paired_retina",
+      "reason": "The official card explicitly says the whole dataset will be released after acceptance. Although the current tree exposes image files, no dated release statement establishes when they became public or that this is the initial release of the represented dataset; DOI publicationYear alone is not sufficient to resolve the conflict.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/smartretina2025/paired_retina",
+        "https://huggingface.co/api/datasets/smartretina2025/paired_retina",
+        "https://huggingface.co/datasets/smartretina2025/paired_retina/raw/main/README.md",
+        "https://api.datacite.org/dois/10.57967/hf/5433",
+        "https://huggingface.co/datasets/smartretina2025/paired_retina/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/smartretina2025/paired_retina/tree/main?recursive=true"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "smartretina2025/paired_retina",
+        "commit_sha": "e55db02c38a815f2dbcbaf29248ed4160cf78940",
+        "commit_date": "2025-01-02T21:40:46Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/smartretina2025/paired_retina/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/smartretina2025/paired_retina/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "prime_fp20",
+      "reason": "IEEE DataPort page exposes Date Created 2020-05-03, but that is only a deposit-creation timestamp; no dated first-release announcement was found.",
+      "checked_urls": [
+        "https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "rasti_oct",
+      "reason": "Google Drive file/folder page checked; no created, published, or version-history field was exposed in the public resource metadata.",
+      "checked_urls": [
+        "https://drive.google.com/file/d/1Rv82F7CjPveyONdy1YbRHh05emCb6_Eu"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "rbad",
+      "reason": "GitHub repository, README, and public releases endpoint checked; no dataset release object or dated initial-release announcement was present.",
+      "checked_urls": [
+        "https://github.com/Retinal-Research/RBAD",
+        "https://api.github.com/repos/Retinal-Research/RBAD/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "refuge1_multirater",
+      "reason": "The official REFUGE 2018 page dates the parent training images (2018-06-15) and parent annotations (2018-06-20), but does not date the separate multi-rater annotation layer represented by this record; the parent release dates are not substituted.",
+      "checked_urls": [
+        "https://drive.google.com/uc?export=download&id=1o8A0WJ5mN4u0Gf2Q9l4fU7q2G5h6J8K9",
+        "https://refuge.grand-challenge.org/Home2018/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "refuge2",
+      "reason": "Official REFUGE2 Home2020 page checked; it dates validation-data release July 20, 2020 but does not date the initial training-data release, so the later validation date is not substituted.",
+      "checked_urls": [
+        "https://drive.google.com/file/d/1DspRzDqypeBOxZnWPQxmXprNVmJwkBRJ/view",
+        "https://refuge.grand-challenge.org/Home2020/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "retinal_dr_longitudinal",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/usama10/retinal-dr-longitudinal",
+        "https://huggingface.co/api/datasets/usama10/retinal-dr-longitudinal",
+        "https://huggingface.co/datasets/usama10/retinal-dr-longitudinal/raw/main/README.md",
+        "https://huggingface.co/api/datasets/usama10/retinal-dr-longitudinal/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/usama10/retinal-dr-longitudinal/tree/main?recursive=true",
+        "https://github.com/Usama1002/retinal-diffusion",
+        "https://huggingface.co/datasets/usama10/retinal-dr-longitudinal/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "usama10/retinal-dr-longitudinal",
+        "commit_sha": "7e9455c4a4ceab7db3f0bc2c87264c5bb5dea67d",
+        "commit_date": "2026-04-07T08:47:09Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/usama10/retinal-dr-longitudinal/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/usama10/retinal-dr-longitudinal/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "riga",
+      "reason": "DeepBlue landing page/API route returned a Cloudflare browser-verification page (HTTP 403); no metadata fields could be inspected, so no date is inferred.",
+      "checked_urls": [
+        "https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z",
+        "https://deepblue.lib.umich.edu/data/api/items/3b591905z"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "rimone_dl",
+      "reason": "Kaggle v1 is a later mirror (2025-04-18). The official project GitHub page confirms the RIM-ONE DL dataset but has no public release object, tag, or dated dataset-release announcement; the 2020 article/publication date is not substituted.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/orvile/rim-one-retinal-dataset-for-assessing-glaucoma",
+        "https://github.com/miag-ull/rim-one-dl",
+        "https://api.github.com/repos/miag-ull/rim-one-dl/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "rite",
+      "reason": "Official source page checked (https://eye.medicine.uiowa.edu/rite-dataset); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://eye.medicine.uiowa.edu/rite-dataset"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "roc",
+      "reason": "Official ROC page checked; it says a first dataset has been released and footer copyright is 2007, but no dated release field is given, so the copyright year is not used.",
+      "checked_urls": [
+        "http://webeye.ophth.uiowa.edu/ROC/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "rocc",
+      "reason": "Official Grand Challenge route checked; landing/download page describes the resource but exposes no dated initial-release or first-version field.",
+      "checked_urls": [
+        "https://rocc.grand-challenge.org/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "slid",
+      "reason": "GitHub repository, README, and public releases endpoint checked; no dataset release object or dated initial-release announcement was present.",
+      "checked_urls": [
+        "https://github.com/xumingyu-hub/SLID",
+        "https://api.github.com/repos/xumingyu-hub/SLID/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "smdg",
+      "reason": "Kaggle API exposes only current version 10 (2023-04-23), not v1. The public Kaggle DOI was created 2023-04-25, while the resource citation describes it as Kaggle 2022; these fields conflict and do not establish an initial release date.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/deathtrooper/multichannel-glaucoma-benchmark-dataset",
+        "https://api.datacite.org/dois/10.34740/KAGGLE/DS/2329670"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "stage_task1",
+      "reason": "Official source page checked (https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "stage_task2",
+      "reason": "Official source page checked (https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "stage_task3",
+      "reason": "Official source page checked (https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://aistudio.baidu.com/aistudio/competition/detail/968/0/datasets"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "stare",
+      "reason": "Official source page checked (https://cecas.clemson.edu/~ahoover/stare/); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://cecas.clemson.edu/~ahoover/stare/"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "synthetic_retinal_oct_biomarkers",
+      "reason": "No explicit dated dataset-release announcement or dataset publication field was found. The HF commit-list timestamp is retained only as a candidate lead; repository history visibility cannot establish when the dataset became public.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images",
+        "https://huggingface.co/api/datasets/serag-ai/Synthetic-Ophthalmology-Images",
+        "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images/raw/main/README.md",
+        "https://huggingface.co/api/datasets/serag-ai/Synthetic-Ophthalmology-Images/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/serag-ai/Synthetic-Ophthalmology-Images/tree/main?recursive=true",
+        "https://github.com/serag-ai/I-SynMed",
+        "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1454441/abstract",
+        "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images/commits/main?limit=1000"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "serag-ai/Synthetic-Ophthalmology-Images",
+        "commit_sha": "faaba68a140796e85018de23be3680f39976db47",
+        "commit_date": "2024-11-28T11:04:18Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/serag-ai/Synthetic-Ophthalmology-Images/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/serag-ai/Synthetic-Ophthalmology-Images/tree/main?recursive=true"
+      }
+    },
+    {
+      "record_id": "teyed",
+      "reason": "Official source page checked (https://arxiv.org/abs/2102.02115); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://arxiv.org/abs/2102.02115"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "thoct1800",
+      "reason": "GitHub repository, README, and public releases endpoint checked; no dataset release object or dated initial-release announcement was present.",
+      "checked_urls": [
+        "https://github.com/SJD095/OCT-Segmentation",
+        "https://api.github.com/repos/SJD095/OCT-Segmentation/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "tian_oct",
+      "reason": "DOI landing route checked; it resolves to a cited/supplementary resource without a public initial-release/version-history field, so article/supplement dates are not substituted.",
+      "checked_urls": [
+        "https://doi.org/10.1371/journal.pone.0133908.s002"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "tsukazaki_uwf",
+      "reason": "GitHub repository, README, and public releases endpoint checked; no dataset release object or dated initial-release announcement was present.",
+      "checked_urls": [
+        "https://github.com/DateCazuki/Fundus_Diagnosis",
+        "https://api.github.com/repos/DateCazuki/Fundus_Diagnosis/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "ubiris_v2",
+      "reason": "Official source page checked (https://iris.di.ubi.pt/index.html); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "https://iris.di.ubi.pt/index.html"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "umn_parhi_oct",
+      "reason": "Official source page checked (http://people.ece.umn.edu/users/parhi/.DATA/OCT/DME/UMNDataset.mat); no Posted, Published, First release, or version-history field establishing initial public availability was exposed.",
+      "checked_urls": [
+        "http://people.ece.umn.edu/users/parhi/.DATA/OCT/DME/UMNDataset.mat"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "uwf_dr",
+      "reason": "Google Drive file/folder page checked; no created, published, or version-history field was exposed in the public resource metadata.",
+      "checked_urls": [
+        "https://drive.google.com/drive/folders/1wOqM-O_amSwMdli4OlFnGpf4hslPgDNu"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "uwhvf",
+      "reason": "GitHub repository, README, and public releases endpoint checked; no dataset release object or dated initial-release announcement was present.",
+      "checked_urls": [
+        "https://github.com/uw-biomedical-ml/uwhvf/archive/refs/heads/master.zip",
+        "https://github.com/uw-biomedical-ml/uwhvf",
+        "https://api.github.com/repos/uw-biomedical-ml/uwhvf/releases?per_page=10"
+      ],
+      "review_date": "2026-09-11"
+    },
+    {
+      "record_id": "x_pcr",
+      "reason": "The official card says Dataset and code will be publicly released. The current HF tree exposes data-bearing parquet paths, but this does not establish when they became public; the future-release wording leaves release semantics unresolved.",
+      "checked_urls": [
+        "https://huggingface.co/datasets/Fantasy666/X-PCR",
+        "https://huggingface.co/api/datasets/Fantasy666/X-PCR",
+        "https://huggingface.co/datasets/Fantasy666/X-PCR/raw/main/README.md",
+        "https://huggingface.co/datasets/Fantasy666/X-PCR/commits/main?limit=1000",
+        "https://huggingface.co/api/datasets/Fantasy666/X-PCR/tree/main?recursive=true"
+      ],
+      "review_date": "2026-09-11",
+      "candidate_evidence": {
+        "type": "HF commit-list timestamp candidate (not release evidence)",
+        "repository": "Fantasy666/X-PCR",
+        "commit_sha": "d06e3b54c7e5c8c34454a7107f9c4544789043b",
+        "commit_date": "2026-05-15T07:05:15Z",
+        "evidence": "The commit-list timestamp is retained as a candidate only; the current tree was checked separately, but no historical-tree claim is made.",
+        "commit_list_url": "https://huggingface.co/datasets/Fantasy666/X-PCR/commits/main?limit=1000",
+        "current_tree_url": "https://huggingface.co/api/datasets/Fantasy666/X-PCR/tree/main?recursive=true"
+      }
+    }
+  ]
+}

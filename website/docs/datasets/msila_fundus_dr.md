@@ -20,11 +20,11 @@ Anonymized retinal fundus images from an ophthalmology clinic in M'Sila, Algeria
 | --- | --- |
 | **Short name** | `msila_fundus_dr` |
 | **Full name** | M'Sila Retinal Fundus Dataset for Diabetic Retinopathy Classification |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2026-03-22 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/19169587) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `msila_fundus_dr` |

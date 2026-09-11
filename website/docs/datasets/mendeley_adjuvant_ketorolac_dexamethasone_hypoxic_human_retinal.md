@@ -20,11 +20,11 @@ Observation-level human or human-derived measurements/signals. from Human RPE an
 | --- | --- |
 | **Short name** | `mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal` |
 | **Full name** | Adjuvant Ketorolac and Dexamethasone + Hypoxic Human Retinal Pigment Epithelium (RPE) and Endothelial Cells (HREC) |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2026-07-27 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/xzf382pby9/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_adjuvant_ketorolac_dexamethasone_hypoxic_human_retinal` |

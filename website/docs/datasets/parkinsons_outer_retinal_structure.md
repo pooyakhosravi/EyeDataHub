@@ -20,11 +20,11 @@ Retinal structure, electrophysiology, and visual-perception measurements from Pa
 | --- | --- |
 | **Short name** | `parkinsons_outer_retinal_structure` |
 | **Full name** | Parkinson Disease Outer Retinal Structure and Function Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2023-09-14 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/24138420/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `parkinsons_outer_retinal_structure` |

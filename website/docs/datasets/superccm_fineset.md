@@ -20,11 +20,11 @@ Restricted corneal confocal microscopy image set with pixel-level corneal-nerve 
 | --- | --- |
 | **Short name** | `superccm_fineset` |
 | **Full name** | SuperCCM-FineSet |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2025-09-04 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/17051148) |
+| **Publication date source field** | metadata.publication_date (Zenodo version 0.1.0) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `confocal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `superccm_fineset` |

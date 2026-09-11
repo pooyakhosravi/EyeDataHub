@@ -20,11 +20,11 @@ RIGA/MESSIDOR-derived benchmark for optic disc and cup segmentation domain adapt
 | --- | --- |
 | **Short name** | `riga_plus` |
 | **Full name** | RIGA+ Domain Adaptation Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2022-03-03 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/6325549) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `riga_plus` |

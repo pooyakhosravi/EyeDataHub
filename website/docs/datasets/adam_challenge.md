@@ -20,11 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `adam_challenge` |
 | **Full name** | ADAM — Automatic Detection of AMD Challenge |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2018-10-20 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [amd.grand-challenge.org/Home](https://amd.grand-challenge.org/Home/) |
+| **Publication date source field** | Official ADAM/iChallenge-AMD challenge Updates: Training images and annotations are released |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `adam_challenge` |

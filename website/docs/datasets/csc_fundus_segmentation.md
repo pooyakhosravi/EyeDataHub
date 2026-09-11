@@ -20,11 +20,11 @@ Fundus photographs and segmentation masks for subretinal fluid in central serous
 | --- | --- |
 | **Short name** | `csc_fundus_segmentation` |
 | **Full name** | Central Serous Chorioretinopathy Fundus Segmentation Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2021-08-20 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/4k64fwnp4k/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `csc_fundus_segmentation` |

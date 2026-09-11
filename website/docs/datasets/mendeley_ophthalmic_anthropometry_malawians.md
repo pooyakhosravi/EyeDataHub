@@ -20,11 +20,11 @@ Observation-level source data, annotations, or signals. from Source describes oc
 | --- | --- |
 | **Short name** | `mendeley_ophthalmic_anthropometry_malawians` |
 | **Full name** | Ophthalmic Anthropometry of Malawians |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2018-11-21 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bctfh4m93c/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_ophthalmic_anthropometry_malawians` |

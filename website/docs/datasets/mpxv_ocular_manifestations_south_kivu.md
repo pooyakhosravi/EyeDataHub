@@ -20,11 +20,11 @@ Human clinical ocular-manifestation data from four South-Kivu health zones.
 | --- | --- |
 | **Short name** | `mpxv_ocular_manifestations_south_kivu` |
 | **Full name** | MPXV Ocular Manifestations South Kivu Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2026-02-18 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/31364760/versions/1) |
+| **Publication date source field** | published_date (original PLOS Figshare supplement version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mpxv_ocular_manifestations_south_kivu` |

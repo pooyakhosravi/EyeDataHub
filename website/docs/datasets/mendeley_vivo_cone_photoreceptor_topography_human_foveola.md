@@ -20,11 +20,11 @@ Retinal-image montages, cone annotation maps, and participant-level supporting m
 | --- | --- |
 | **Short name** | `mendeley_vivo_cone_photoreceptor_topography_human_foveola` |
 | **Full name** | In-vivo cone photoreceptor topography of the human foveola |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2025-07-08 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/m5nkpb8phv/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `adaptive_optics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_vivo_cone_photoreceptor_topography_human_foveola` |

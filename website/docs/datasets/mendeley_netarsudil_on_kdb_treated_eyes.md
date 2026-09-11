@@ -20,11 +20,11 @@ Eye-level treatment and intraocular-pressure outcome measurements from Retrospec
 | --- | --- |
 | **Short name** | `mendeley_netarsudil_on_kdb_treated_eyes` |
 | **Full name** | Netarsudil on KDB-treated Eyes |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2021-04-26 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/r6gw6fnvdm/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_netarsudil_on_kdb_treated_eyes` |

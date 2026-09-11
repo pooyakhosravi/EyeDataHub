@@ -20,11 +20,11 @@ Combined corneal confocal microscopy collection comprising CORN-1, CORN-2, CORN-
 | --- | --- |
 | **Short name** | `corn_collection` |
 | **Full name** | CORN: Corneal Confocal Microscope Dataset Collection |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2024-07-19 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/12776091) |
+| **Publication date source field** | metadata.publication_date (earliest CORN collection record/version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `confocal` |
 | **Resource role** | `collection` |
 | **Dataset family** | `corn_collection` |

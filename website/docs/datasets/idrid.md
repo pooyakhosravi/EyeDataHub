@@ -20,11 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `idrid` |
 | **Full name** | IDRiD: Indian Diabetic Retinopathy Image Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2018-01-20 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [idrid.grand-challenge.org/Dates](https://idrid.grand-challenge.org/Dates/) |
+| **Publication date source field** | Official IDRiD challenge Important Dates: Training Data Release (Images + Groundtruth) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `idrid` |

@@ -20,11 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `eyepacs` |
 | **Full name** | EyePACS — Diabetic Retinopathy Detection (Kaggle 2015) |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2015-02-17 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [kaggle.com/c](https://www.kaggle.com/c/diabetic-retinopathy-detection) |
+| **Publication date source field** | Kaggle competition Overview: Start |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `eyepacs` |

@@ -20,11 +20,11 @@ Slit-lamp photographs with expert epiphora-severity labels.
 | --- | --- |
 | **Short name** | `slid_e` |
 | **Full name** | SLID-E Slit-Lamp Image Dataset for Epiphora |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2024-07-08 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/26172919/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `slid_e` |

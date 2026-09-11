@@ -20,11 +20,11 @@ Retinal OCTA scans labeled for artifact type, artifact severity, signal strength
 | --- | --- |
 | **Short name** | `aroma_octa` |
 | **Full name** | AROMA Retinal OCTA Artifact Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2026-01-15 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/18258095) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `octa` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `aroma_octa` |

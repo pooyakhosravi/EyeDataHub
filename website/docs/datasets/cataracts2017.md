@@ -20,11 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `cataracts2017` |
 | **Full name** | CATARACTS 2017: Surgical Tool Detection Challenge |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2017 |
+| **Publication date precision** | year |
+| **Publication date evidence** | [arxiv.org/abs](https://arxiv.org/abs/2110.10965) |
+| **Publication date source field** | Associated CATARACTS challenge paper: explicit dataset release statement |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cataracts2017` |

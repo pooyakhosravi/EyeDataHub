@@ -20,11 +20,11 @@ Image and symptom dataset for normal, uveitis, conjunctivitis, cataract, and eye
 | --- | --- |
 | **Short name** | `uveitis_smote` |
 | **Full name** | Image Dataset on Eye Diseases Classification with Symptoms and SMOTE Validation |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2024-11-28 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/n9zp473wfw/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `uveitis_smote` |

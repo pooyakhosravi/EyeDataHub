@@ -20,11 +20,11 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `octid` |
 | **Full name** | OCTID: OCT Image Database |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2018-12-19 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [borealisdata.ca/api](https://borealisdata.ca/api/search?q=OCTID&type=dataset&per_page=100) |
+| **Publication date source field** | Borealis Dataverse API search: published_at / versionState |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `octid` |

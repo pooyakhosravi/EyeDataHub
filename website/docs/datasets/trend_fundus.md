@@ -20,11 +20,11 @@ Portable fundus images and segmentations for retinal microvascular network analy
 | --- | --- |
 | **Short name** | `trend_fundus` |
 | **Full name** | TREND Portable Fundus Microvascular Network Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2021-06-16 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/4521044) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `trend_fundus` |

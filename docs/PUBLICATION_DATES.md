@@ -42,7 +42,7 @@ Use permanent public evidence links, never credentials, signed download URLs,
 or local paths. A source's planned release date needs confirmation that the
 release occurred before it is used as an actual publication date.
 
-Initial sourced entries are in
+Sourced entries are in
 [`eyedatahub/core/publication_dates.json`](../eyedatahub/core/publication_dates.json),
 keyed by existing record ID. This file ships inside the Python package, so
 metadata lookup works offline. It fills the first-class `DatasetInfo` fields
@@ -66,10 +66,13 @@ not evidence for a real record):
 }
 ```
 
-The bounded research batches and reasons for withholding dates are in
-`hub/audit/publication_dates_*.json`. They are review records, not runtime inputs.
-The packaged metadata is the source of truth for the interface and exports.
-Dates remain unknown for records outside the sourced backfill.
+Source checks and reasons for withholding dates are in
+`hub/audit/publication_dates_*.json`. The initial and remaining review batches
+together cover every catalog record. Supporting second-pass files document
+additional checks; they do not represent additional catalog records.
+These files are review records, not runtime inputs. The packaged metadata is
+the source of truth for the interfaces and exports. Dates remain unknown when
+the checked sources do not establish the initial public release.
 
 ## Search and sort
 
@@ -125,3 +128,5 @@ npm run build
 
 Tests check calendar validity, precision and evidence, offline metadata exposure,
 date filtering, sorting, and agreement between exported and website values.
+A coverage test requires a sourced date or a documented source check for every
+catalog record, with no duplicate assignments across the review batches.

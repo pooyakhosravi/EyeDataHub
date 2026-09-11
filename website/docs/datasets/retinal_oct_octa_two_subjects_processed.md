@@ -20,11 +20,11 @@ Processed human OCT/OCTA data including segmentations and ETDRS-grid materials.
 | --- | --- |
 | **Short name** | `retinal_oct_octa_two_subjects_processed` |
 | **Full name** | Processed Retinal OCT and OCTA Two-Subject Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2021-01-23 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [kaggle.com/api](https://www.kaggle.com/api/v1/datasets/view/cnzakimuena/retinal-oct-and-octa-data-3) |
+| **Publication date source field** | versions[0].creationDate (version 1, Initial release) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `octa` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `retinal_oct_octa_two_subjects_processed` |

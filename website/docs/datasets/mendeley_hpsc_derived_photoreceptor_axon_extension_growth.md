@@ -20,11 +20,11 @@ Observation-level source data, annotations, or signals. from Human pluripotent s
 | --- | --- |
 | **Short name** | `mendeley_hpsc_derived_photoreceptor_axon_extension_growth` |
 | **Full name** | hPSC-derived Photoreceptor Axon Extension and Growth Cone Motility Data Sets and Code |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2022-03-17 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/cpy5j23354/1) |
+| **Publication date source field** | citation_publication_date (version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_hpsc_derived_photoreceptor_axon_extension_growth` |

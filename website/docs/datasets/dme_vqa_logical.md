@@ -20,11 +20,11 @@ Extension of the DME VQA dataset with logical-relation consistency annotations.
 | --- | --- |
 | **Short name** | `dme_vqa_logical` |
 | **Full name** | DME VQA Dataset with Logical Relations |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2023-06-18 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/7777849) |
+| **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `multimodal` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `dme_vqa_logical` |

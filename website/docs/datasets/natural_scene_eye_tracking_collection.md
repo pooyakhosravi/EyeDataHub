@@ -20,11 +20,11 @@ Tobii Pro Glasses 3 natural-scene viewing recordings with gaze, IMU, event, vide
 | --- | --- |
 | **Short name** | `natural_scene_eye_tracking_collection` |
 | **Full name** | Natural-Scene Tobii Eye-Tracking Collection |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2025-11-03 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/30520733/versions/1) |
+| **Publication date source field** | published_date (Figshare version 1) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `natural_scene_eye_tracking_collection` |

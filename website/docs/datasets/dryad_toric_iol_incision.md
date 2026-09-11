@@ -20,11 +20,11 @@ Human toric-IOL surgical outcome table directly supports cataract-surgery outcom
 | --- | --- |
 | **Short name** | `dryad_toric_iol_incision` |
 | **Full name** | Toric Intraocular Lens Incision Outcome Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2018-07-10 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.01n20](https://doi.org/10.5061/dryad.01n20) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_toric_iol_incision` |

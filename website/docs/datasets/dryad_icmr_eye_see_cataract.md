@@ -20,11 +20,11 @@ The large Indian cataract/UV exposure survey is direct human ophthalmic epidemio
 | --- | --- |
 | **Short name** | `dryad_icmr_eye_see_cataract` |
 | **Full name** | ICMR EYE SEE Cataract and Sun Exposure Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2020-01-08 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [https://doi.org/10.5061/dryad.5qfttdz19](https://doi.org/10.5061/dryad.5qfttdz19) |
+| **Publication date source field** | Published |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_icmr_eye_see_cataract` |

@@ -20,11 +20,11 @@ Russian-English ophthalmology sentence-pair and glossary dataset for translation
 | --- | --- |
 | **Short name** | `ru_medical_texts_ophthalmology` |
 | **Full name** | Ophthalmology Russian-English Medical Text Translations |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **First published** | 2024-12-16 |
+| **Publication date precision** | day |
+| **Publication date evidence** | [kaggle.com/api](https://www.kaggle.com/api/v1/datasets/view/cheshrcat/ru-medical-texts-ophtalmology) |
+| **Publication date source field** | versions[0].creationDate (version 1, Initial release) |
+| **Publication date reviewed** | 2026-09-11 |
 | **Primary category** | `text` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ru_medical_texts_ophthalmology` |
