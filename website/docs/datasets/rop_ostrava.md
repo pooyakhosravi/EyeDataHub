@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `rop_ostrava` |
 | **Full name** | Retinal Image Dataset of Infants and ROP (Ostrava) |
-| **First published** | 2022-11-02 |
+| **Publication date** | 2022-11-02 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [kaggle.com/api](https://www.kaggle.com/api/v1/datasets/view/jananowakova/retinal-image-dataset-of-infants-and-rop) |
 | **Publication date source field** | versions[0].creationDate (version 1, Initial release) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Kaggle v1 is an explicit public version release. The later article states a published-dataset release date of 2023-04-04; that publication milestone is not substituted for the earlier public Kaggle v1. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `rop_ostrava` |

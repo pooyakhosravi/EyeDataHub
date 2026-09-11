@@ -20,11 +20,13 @@ Eye-movement sequences and supporting code from Human fixation/eye-movement expe
 | --- | --- |
 | **Short name** | `mendeley_code_manuscript_fixational_eye_movements_as` |
 | **Full name** | Data and code for manuscript: Fixational eye movements as active sensation for high visual acuity |
-| **First published** | 2025-01-17 |
+| **Publication date** | 2025-01-17 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/p7dyyrfds6/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_code_manuscript_fixational_eye_movements_as` |

@@ -1,8 +1,8 @@
-"""Initial public dataset dates, with source evidence and partial precision.
+"""Dataset dates, with source evidence, date basis, and partial precision.
 
-Dates are never inferred from citations, slugs, modification timestamps, or
-private repository creation. Curated values ship with the package; reads are
-offline. A year or month represents an interval, not an invented January 1 date.
+Curators prefer the original provider and may use a verified associated
+publication as a fallback. Each entry records what its date represents.
+Curated values ship with the package; reads are offline.
 """
 
 from __future__ import annotations
@@ -25,6 +25,17 @@ PUBLICATION_DATE_FIELDS = (
     "publication_date_reviewed_on",
     "publication_date_notes",
 )
+
+PUBLICATION_DATE_SCOPE_LABELS = {
+    "initial_public_release": "Initial dataset release",
+    "repository_deposit": "Repository deposit",
+    "associated_publication": "Associated publication",
+}
+
+
+def publication_date_basis(scope: str | None) -> str:
+    """Human-readable meaning of a selected date."""
+    return PUBLICATION_DATE_SCOPE_LABELS.get(scope, "Unknown")
 
 
 def date_interval(value: str) -> tuple[date, date]:
@@ -85,8 +96,15 @@ def publication_date_errors(info: Any) -> list[str]:
         info.publication_date_notes, str
     ):
         errors.append("publication_date_notes must be a string or null")
-    if info.publication_date_scope != "initial_public_release":
-        errors.append("publication_date_scope must be initial_public_release")
+    if not isinstance(info.publication_date_scope, str) or (
+        info.publication_date_scope not in PUBLICATION_DATE_SCOPE_LABELS
+    ):
+        errors.append("publication_date_scope must name a supported date basis")
+    elif info.publication_date_scope != "initial_public_release" and (
+        not isinstance(info.publication_date_notes, str)
+        or not info.publication_date_notes.strip()
+    ):
+        errors.append("publication_date_notes must explain the fallback date")
     try:
         reviewed = info.publication_date_reviewed_on
         if not isinstance(reviewed, str) or len(reviewed) != 10:

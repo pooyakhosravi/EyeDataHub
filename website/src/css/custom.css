@@ -13,6 +13,8 @@
   --ifm-code-font-size: 92%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
   --edh-tooltip-bg: #111827;
+  --edh-table-row-bg: #ffffff;
+  --edh-table-alternate-bg: #f6f7f9;
   --edh-tooltip-fg: #ffffff;
   --edh-tooltip-border: rgba(255, 255, 255, 0.14);
 }
@@ -27,6 +29,8 @@
   --ifm-color-primary-lightest: #c9dfff;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.10);
   --edh-tooltip-bg: #f8fafc;
+  --edh-table-row-bg: #1b1b1d;
+  --edh-table-alternate-bg: #242427;
   --edh-tooltip-fg: #111827;
   --edh-tooltip-border: rgba(15, 23, 42, 0.16);
 }
@@ -574,15 +578,19 @@ main ul li {
   border-radius: 8px;
   max-height: 720px;
   overflow: auto;
+  max-width: 100%;
+  isolation: isolate;
 }
 
 .edh-dataset-table {
   display: table;
-  font-size: 0.86rem;
+  font-size: 0.875rem;
   margin: 0;
-  min-width: 1450px;
+  min-width: 1874px;
   table-layout: fixed;
   width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
 .edh-dataset-table thead th {
@@ -592,21 +600,93 @@ main ul li {
   z-index: 1;
   white-space: nowrap;
   word-break: normal;
+  text-align: left;
 }
 
-.edh-dataset-table th:nth-child(1) { width: 4%; }
-.edh-dataset-table th:nth-child(2) { width: 19%; }
-.edh-dataset-table th:nth-child(3) { width: 8%; }
-.edh-dataset-table th:nth-child(4) { width: 12%; }
-.edh-dataset-table th:nth-child(5) { width: 10%; }
-.edh-dataset-table th:nth-child(6) { width: 8%; }
-.edh-dataset-table th:nth-child(7) { width: 8%; }
-.edh-dataset-table th:nth-child(8) { width: 8%; }
-.edh-dataset-table th:nth-child(9) { width: 15%; }
-.edh-dataset-table th:nth-child(10) { width: 8%; }
+.edh-col-select { width: 64px; }
+.edh-col-name { width: 300px; }
+.edh-col-modality { width: 160px; }
+.edh-col-date { width: 200px; }
+.edh-col-tasks { width: 180px; }
+.edh-col-quantity { width: 160px; }
+.edh-col-license { width: 145px; }
+.edh-col-access { width: 145px; }
+.edh-col-loader { width: 140px; }
+.edh-col-relationships { width: 260px; }
+.edh-col-links { width: 120px; }
+
+.edh-sort-header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.45rem;
+  width: 100%;
+  padding: 0.2rem 0;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 650;
+  text-align: left;
+  cursor: pointer;
+}
+
+.edh-sort-header:hover,
+.edh-dataset-table th[aria-sort='ascending'],
+.edh-dataset-table th[aria-sort='descending'] {
+  color: var(--ifm-color-primary);
+}
+
+.edh-sort-header:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
 
 .edh-dataset-table td {
   vertical-align: top;
+  padding: 0.65rem 0.7rem;
+  line-height: 1.45;
+  overflow-wrap: break-word;
+  word-break: normal;
+  background: var(--edh-table-row-bg);
+}
+
+.edh-dataset-table tbody tr:nth-child(even) td {
+  background: var(--edh-table-alternate-bg);
+}
+
+.edh-dataset-table :is(th, td):nth-child(1) {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+.edh-dataset-table :is(th, td):nth-child(2) {
+  position: sticky;
+  left: 64px;
+  z-index: 2;
+  border-right: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: 3px 0 5px -4px var(--ifm-color-emphasis-500);
+}
+
+.edh-dataset-table thead :is(th:nth-child(1), th:nth-child(2)) {
+  z-index: 3;
+}
+
+.edh-dataset-table td:nth-child(2) a {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .edh-dataset-table :is(th, td):nth-child(1),
+  .edh-dataset-table :is(th, td):nth-child(2) {
+    position: static;
+  }
+  .edh-dataset-table thead :is(th:nth-child(1), th:nth-child(2)) {
+    position: sticky;
+    left: auto;
+  }
 }
 
 .edh-dataset-table td:first-child {
@@ -626,18 +706,24 @@ main ul li {
   margin-top: 0.2rem;
 }
 
-.edh-dataset-table td:nth-child(4) em {
+.edh-task-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.edh-task-tags em {
   background: var(--ifm-color-emphasis-100);
   border-radius: 999px;
   display: inline-block;
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   font-style: normal;
   margin: 0.1rem 0.2rem 0.1rem 0;
   padding: 0.08rem 0.42rem;
 }
 
 .edh-dataset-table td:last-child {
-  white-space: normal;
+  white-space: nowrap;
 }
 
 .edh-dataset-table td:last-child a + a {
@@ -645,8 +731,11 @@ main ul li {
 }
 
 .edh-dataset-table td:last-child a {
-  display: inline-block;
-  margin-right: 0.6rem;
+  display: block;
+  width: fit-content;
+  margin-bottom: 0.3rem;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .edh-dataset-table td:last-child .edh-icon-copy {

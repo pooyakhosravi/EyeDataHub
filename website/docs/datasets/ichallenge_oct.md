@@ -20,11 +20,13 @@ OCT challenge datasets from HDMILab covering retinal layer segmentation and flui
 | --- | --- |
 | **Short name** | `ichallenge_oct` |
 | **Full name** | iChallenge OCT Datasets (HDMILab / OMIA Workshops) |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `oct` |
 | **Resource role** | `collection` |
 | **Dataset family** | `ichallenge_gamma` |

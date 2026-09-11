@@ -20,11 +20,13 @@ A set of 2,246 fundus images with continuous mean opinion scores from 0 to 100, 
 | --- | --- |
 | **Short name** | `fiqs` |
 | **Full name** | FIQS: Fundus Image Quality Scores Dataset |
-| **First published** | 2025-01-08 |
+| **Publication date** | 2025-01-08 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/28129847/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Only listed Figshare version. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `fiqs` |

@@ -1,6 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {comparePublicationDates, matchesPublicationDate, validYearRange} from '../src/components/publicationDates.mjs';
+import {comparePublicationDates, matchesPublicationDate, publicationDateBasis, validYearRange} from '../src/components/publicationDates.mjs';
+
+test('labels the source basis of each selected date', () => {
+  assert.equal(publicationDateBasis('initial_public_release'), 'Initial dataset release');
+  assert.equal(publicationDateBasis('repository_deposit'), 'Repository deposit');
+  assert.equal(publicationDateBasis('associated_publication'), 'Associated publication');
+  assert.equal(publicationDateBasis(null), 'Unknown');
+});
 
 const rows = [
   {name: 'unknown', publication_date: null},

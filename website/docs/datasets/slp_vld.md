@@ -20,11 +20,13 @@ Anonymized slit-lamp photographs with English clinical annotations and vision-la
 | --- | --- |
 | **Short name** | `slp_vld` |
 | **Full name** | SLP-VLD Anonymized Slit-Lamp Vision-Language Dataset |
-| **First published** | 2026-06-05 |
+| **Publication date** | 2026-06-05 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/32576697/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Version 1 is earliest; current record is version 3. |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `slp_vld` |

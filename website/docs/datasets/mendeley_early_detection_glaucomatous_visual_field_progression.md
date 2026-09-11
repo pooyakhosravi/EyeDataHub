@@ -20,11 +20,13 @@ Observation-level human or human-derived measurements/signals. from Glaucoma pat
 | --- | --- |
 | **Short name** | `mendeley_early_detection_glaucomatous_visual_field_progression` |
 | **Full name** | Data for: Early Detection of Glaucomatous Visual Field Progression Using Pointwise Linear Regression with Binomial Test in the Central 10 Degrees |
-| **First published** | 2020-03-31 |
+| **Publication date** | 2020-03-31 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/w34s5mhvpm/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `visual_field` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_early_detection_glaucomatous_visual_field_progression` |

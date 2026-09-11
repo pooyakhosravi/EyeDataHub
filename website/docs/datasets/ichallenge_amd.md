@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `ichallenge_amd` |
 | **Full name** | iChallenge-AMD: Age-related Macular Degeneration |
-| **First published** | 2018-10-20 |
+| **Publication date** | 2018-10-20 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [amd.grand-challenge.org/Home](https://amd.grand-challenge.org/Home/) |
 | **Publication date source field** | Official ADAM/iChallenge-AMD challenge Updates: Training images and annotations are released |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official challenge page dates the first training-image/annotation release to October 20, 2018; the cataloged Grand Challenge route is the official resource rather than the later mirror. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ichallenge_amd` |

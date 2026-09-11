@@ -20,11 +20,13 @@ The defined plane-wave ultrasound/OCTA data file and README directly support hum
 | --- | --- |
 | **Short name** | `dryad_preeclampsia_ocular_octa` |
 | **Full name** | Plane wave ultrasound and OCT angiography of the eye in preeclampsia |
-| **First published** | 2023-11-08 |
+| **Publication date** | 2023-11-08 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.j0zpc86kg](https://doi.org/10.5061/dryad.j0zpc86kg) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `octa` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_preeclampsia_ocular_octa` |

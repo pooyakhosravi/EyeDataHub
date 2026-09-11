@@ -20,11 +20,13 @@ Processed Cataract-1K surgical-frame dataset for segmentation/object-detection w
 | --- | --- |
 | **Short name** | `lmod_cataract_1k` |
 | **Full name** | LMOD-Cataract-1K |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `lmod_cataract_1k` |

@@ -20,11 +20,13 @@ Human synchronized pupillometry, EEG, and fMRI salience measurements.
 | --- | --- |
 | **Short name** | `pupillometry_eeg_fmri_salience` |
 | **Full name** | Pupillometry, EEG, and fMRI Salience Dataset |
-| **First published** | 2023-04-03 |
+| **Publication date** | 2023-04-03 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/22518010/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Dataset-and-demo record release; only listed version. |
 | **Primary category** | `eye_tracking` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `pupillometry_eeg_fmri_salience` |

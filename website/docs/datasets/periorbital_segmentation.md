@@ -20,11 +20,13 @@ Cropped periorbital images with multi-structure masks for the iris, sclera, eyel
 | --- | --- |
 | **Short name** | `periorbital_segmentation` |
 | **Full name** | Open-Source Periorbital Segmentation Dataset |
-| **First published** | 2024-10-10 |
+| **Publication date** | 2024-10-10 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/13916845) |
 | **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Only listed public Zenodo version. |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `periorbital_segmentation` |

@@ -20,11 +20,13 @@ The version-pinned public deposit contains 18,735 ophthalmic image-text benchmar
 | --- | --- |
 | **Short name** | `x_pcr` |
 | **Full name** | X-PCR Ophthalmology Progressive Clinical Reasoning Benchmark |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2026-05-28 |
+| **Date basis** | Initial dataset release |
+| **Publication date precision** | day |
+| **Publication date evidence** | [github.com/CVI-SZU](https://github.com/CVI-SZU/X-PCR) |
+| **Publication date source field** | Official GitHub README News entry: [2026-5-28] X-PCR dataset is released on Hugging Face |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The authors' release announcement links to Fantasy666/X-PCR on Hugging Face. |
 | **Primary category** | `multimodal` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `x_pcr` |

@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `idrid` |
 | **Full name** | IDRiD: Indian Diabetic Retinopathy Image Dataset |
-| **First published** | 2018-01-20 |
+| **Publication date** | 2018-01-20 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [idrid.grand-challenge.org/Dates](https://idrid.grand-challenge.org/Dates/) |
 | **Publication date source field** | Official IDRiD challenge Important Dates: Training Data Release (Images + Groundtruth) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official IDRiD challenge page dates the training data release to January 20, 2018; this predates the later IEEE DataPort deposit and directly supports initial public availability. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `idrid` |

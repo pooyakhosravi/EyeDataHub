@@ -20,11 +20,13 @@ Composite fundus and OCT dataset with retinal layer, retinal lesion, and macular
 | --- | --- |
 | **Short name** | `hassan_composite_retina` |
 | **Full name** | Composite Retinal Fundus and OCT Dataset with Clinical Markings |
-| **First published** | 2021-03-19 |
+| **Publication date** | 2021-03-19 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/trghs22fpg/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `hassan_composite_retina` |

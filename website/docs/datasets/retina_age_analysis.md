@@ -20,11 +20,13 @@ Fundus images and age labels for retinal age prediction and regression.
 | --- | --- |
 | **Short name** | `retina_age_analysis` |
 | **Full name** | Retina Age Analysis |
-| **First published** | 2025 |
+| **Publication date** | 2025 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | year |
 | **Publication date evidence** | [huggingface.co/datasets](https://huggingface.co/datasets/ramankamran/retina-age-analysis/raw/main/README.md) |
 | **Publication date source field** | @dataset citation year |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official dataset card labels this as an @dataset citation with year 2025; no day is inferred. HF repository commit-list timestamps were retained only as candidate evidence; no historical-tree claim is used. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `retina_age_analysis` |

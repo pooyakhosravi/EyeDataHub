@@ -20,11 +20,13 @@ A collection of 169 fundus photographs with expert exudate and bright lesion ann
 | --- | --- |
 | **Short name** | `hei_med` |
 | **Full name** | HEI-MED: Hamilton Eye Institute Macular Edema Dataset |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `hei_med` |

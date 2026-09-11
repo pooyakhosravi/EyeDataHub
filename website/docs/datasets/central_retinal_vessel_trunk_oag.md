@@ -20,11 +20,13 @@ Central retinal vessel-trunk and OCT-related measurements in open-angle glaucoma
 | --- | --- |
 | **Short name** | `central_retinal_vessel_trunk_oag` |
 | **Full name** | Central Retinal Vessel Trunk Open-Angle Glaucoma Dataset |
-| **First published** | 2016-06-29 |
+| **Publication date** | 2016-06-29 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/3917574/versions/1) |
 | **Publication date source field** | published_date (original PLOS Figshare supplement version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Catalog entry is the original data supplement; its first official Figshare posting is used. |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `central_retinal_vessel_trunk_oag` |

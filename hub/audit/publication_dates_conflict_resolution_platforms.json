@@ -1,0 +1,83 @@
+{
+  "records": [
+    {
+      "record_id": "mario",
+      "publication_date": "2025-04-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/15270469",
+      "publication_date_source_field": "metadata.publication_date (Zenodo provider-supplied publication date)",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Zenodo record 15270469: metadata.publication_date 2025-04-23; record created 2025-04-25T06:56:06.904292Z; title MARIO: Monitoring Age-related Macular Degeneration Progression In Optical Coherence Tomography.",
+      "original_reason": "Official MARIO important-dates page labels release timeline proposed and official News has no actual data-release confirmation; 2025 Zenodo date is a later archive.",
+      "resolution": "Use Zenodo's explicit provider-supplied metadata.publication_date as a repository-deposit date only. This does not claim the initial resource release; the later server-created timestamp is not substituted for the provider publication date.",
+      "notes": "Zenodo publication date selected for the archived deposit. The dataset was developed for the 2024 MARIO challenge."
+    },
+    {
+      "record_id": "popeye_nir",
+      "publication_date": "2022-12-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.crossref.org/works/10.3390/s23010386",
+      "publication_date_source_field": "published-online; abstract states that PopEYE was collected and publicly released",
+      "publication_date_scope": "associated_publication",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Crossref for 10.3390/s23010386: published-online 2022-12-29; abstract says, \"we collected and publicly released PopEYE as one of the first datasets\".",
+      "original_reason": "2026 Zenodo record is a later archive; associated official publication says dataset was publicly released but gives no independent resource-release date, so article date is not substituted.",
+      "resolution": "Use the associated Sensors publication date because its abstract explicitly confirms public release of PopEYE. The Zenodo provider record created 2026-01-30 is later and is not used.",
+      "notes": "Date from the associated Sensors article describing PopEYE."
+    },
+    {
+      "record_id": "rose",
+      "publication_date": "2021-03-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://pubmed.ncbi.nlm.nih.gov/33284751/",
+      "publication_date_source_field": "epubdate (PubMed-indexed publisher e-publication date)",
+      "publication_date_scope": "associated_publication",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "PubMed PMID 33284751: epubdate 2021 Mar 2; title ROSE: A Retinal OCT-Based...; PubMed history records Entrez 2020-12-07 and PubMed 2020-12-08. Crossref DOI created 2020-12-07 but exposes no separate published-online date; issue/published date is March 2021.",
+      "original_reason": "Zenodo metadata conflicts with record creation/version history, and official project page gives an update date rather than a defensible initial-release date; 2024 Zenodo deposit is explicitly a mirror.",
+      "resolution": "Use PubMed's explicit e-publication date (2021-03-02) as the associated-publication fallback. The Crossref created date 2020-12-07 is retained as DOI-registration evidence only because no direct IEEE published-online date was available.",
+      "notes": "PubMed reports electronic publication on 2 March 2021. Crossref records DOI registration on 7 December 2020."
+    },
+    {
+      "record_id": "brasil_glaucoma_brg",
+      "publication_date": "2022-11-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.crossref.org/works/10.3390/healthcare10122345",
+      "publication_date_source_field": "published-online; abstract identifies Brazil Glaucoma as a new public dataset",
+      "publication_date_scope": "associated_publication",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Crossref for 10.3390/healthcare10122345: published-online 2022-11-22; abstract says the paper presents a new public Brazil Glaucoma dataset of 2,000 images. PMC Data Availability states it was openly available at globaleyeh.com (accessed 2022-11-17).",
+      "original_reason": "Kaggle API v1 is dated 2025-05-22, but an official 2026 PMC data-availability statement records the same Kaggle resource as publicly available by 2025-01-28. The Kaggle creation date therefore cannot establish initial public release, and no earlier official resource-release field was found.",
+      "resolution": "Use the associated Healthcare publication date because the publisher metadata and abstract identify Brazil Glaucoma as a new public dataset, while the article's data-availability statement points to the original globaleyeh.com route. The 2025 Kaggle v1 date is a later mirror/archive signal.",
+      "notes": "Date from the Healthcare article introducing Brazil Glaucoma. Its data availability statement points to globaleyeh.com."
+    },
+    {
+      "record_id": "smdg",
+      "publication_date": "2023-05-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.crossref.org/works/10.1145/3603765.3603779",
+      "publication_date_source_field": "published/issued date of the Kiefer catalog paper cited by the Kaggle SMDG record",
+      "publication_date_scope": "associated_publication",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Crossref DOI 10.1145/3603765.3603779: title A Catalog of Public Glaucoma Datasets for Machine Learning Applications; published and issued 2023-05-10. Kaggle SMDG description instructs users to cite this Kiefer catalog paper.",
+      "original_reason": "Kaggle API exposes only current version 10 (2023-04-23), not v1. The public Kaggle DOI was created 2023-04-25, while the resource citation describes it as Kaggle 2022; these fields conflict and do not establish an initial release date.",
+      "resolution": "Use the associated Kiefer publication date as the permitted fallback because the official Kaggle description explicitly identifies that paper as the required citation. This is not asserted as the initial SMDG data-release date.",
+      "notes": "Date from the publication specified by the SMDG provider. Available Kaggle version history starts with version 10."
+    }
+  ],
+  "unresolved": [
+    {
+      "record_id": "intraretinal_cystoid_fluid",
+      "reason": "The Kaggle API exposes only current version 3 (2022-06-18 Data Update) and no public v1 history. The Kaggle DataCite DOI exposes created/registered timestamps but no Issued/Available date or version-history field; DOI registration is not treated as publication evidence. The resource is derived partly from Kermany OCT, but borrowing the upstream date would not date this derivative resource.",
+      "checked_urls": [
+        "https://www.kaggle.com/api/v1/datasets/view/zeeshanahmed13/intraretinal-cystoid-fluid",
+        "https://api.datacite.org/dois/10.34740/KAGGLE/DS/2277068",
+        "https://www.kaggle.com/ds/2277068"
+      ],
+      "original_reason": "Official Kaggle API exposes only current version 3 with versionNotes 'Data Update 2022/06/18'; no version-1 or initial-public-release field was available. The DataCite DOI created date was checked but is DOI registration metadata, not release evidence, so it is withheld.",
+      "resolution": "No trusted provider or publisher field establishes the derivative resource's initial public release, repository deposit date, or associated publication date. Keep unresolved rather than infer from DOI registration or the upstream Kermany dataset.",
+      "review_date": "2026-09-11"
+    }
+  ]
+}

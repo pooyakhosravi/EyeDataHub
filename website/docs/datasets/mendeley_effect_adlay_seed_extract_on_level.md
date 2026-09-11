@@ -20,11 +20,13 @@ Observation-level human or human-derived measurements/signals. from Human nasal-
 | --- | --- |
 | **Short name** | `mendeley_effect_adlay_seed_extract_on_level` |
 | **Full name** | Effect of Adlay Seed Extract on the Level of Neuroprotection Gene Expression in Human Nasal Orbital Mesenchymal Stem Cells  |
-| **First published** | 2024-07-22 |
+| **Publication date** | 2024-07-22 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/x7rcj9yz65/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_effect_adlay_seed_extract_on_level` |

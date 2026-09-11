@@ -20,11 +20,13 @@ Human CASIA2 anterior-segment OCT repeatability measurements.
 | --- | --- |
 | **Short name** | `casia2_as_oct_repeatability` |
 | **Full name** | CASIA2 Anterior-Segment OCT Repeatability Dataset |
-| **First published** | 2025-06-12 |
+| **Publication date** | 2025-06-12 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/29302664/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Only listed Figshare version. |
 | **Primary category** | `corneal_topography` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `casia2_as_oct_repeatability` |

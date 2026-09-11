@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `age_challenge` |
 | **Full name** | AGE — Angle-Closure Glaucoma Evaluation Challenge (AS-OCT) |
-| **First published** | 2019-07-10 |
+| **Publication date** | 2019-07-10 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [age.grand-challenge.org/Home](https://age.grand-challenge.org/Home/) |
 | **Publication date source field** | Official AGE challenge Updates: Training images and annotations are released |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official AGE challenge page identifies the event as MICCAI 2019 and states that training images and annotations were released July 10; the challenge page does not give a day-independent year elsewhere, so 2019-07-10 is used. |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `age_challenge` |

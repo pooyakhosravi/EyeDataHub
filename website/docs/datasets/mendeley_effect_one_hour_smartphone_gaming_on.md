@@ -20,11 +20,13 @@ Observation-level human or human-derived measurements/signals. from School-aged 
 | --- | --- |
 | **Short name** | `mendeley_effect_one_hour_smartphone_gaming_on` |
 | **Full name** | The effect of one hour smartphone gaming on blinking, ocular symptoms and tear film function in school-aged children  |
-| **First published** | 2022-02-24 |
+| **Publication date** | 2022-02-24 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zn64p6r992/1) |
 | **Publication date source field** | citation_publication_date |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit. |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_effect_one_hour_smartphone_gaming_on` |

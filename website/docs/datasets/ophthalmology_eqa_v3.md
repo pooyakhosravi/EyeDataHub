@@ -20,11 +20,13 @@ Text-only ophthalmology explanatory/free-form question-answering dataset for LLM
 | --- | --- |
 | **Short name** | `ophthalmology_eqa_v3` |
 | **Full name** | Ophthalmology-EQA-v3 |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `text` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ophthalmology_eqa_v3` |

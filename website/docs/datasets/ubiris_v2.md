@@ -20,11 +20,13 @@ Visible-light iris images captured at a distance and on the move with realistic 
 | --- | --- |
 | **Short name** | `ubiris_v2` |
 | **Full name** | UBIRIS.v2 Noisy Visible-Wavelength Iris Database |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `iris_biometrics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ubiris_v2` |

@@ -20,11 +20,13 @@ Retinal-location/eye-level rnfl thickness measurements from Human circumpapillar
 | --- | --- |
 | **Short name** | `mendeley_interocular_retinal_nerve_fiber_layer_thickness` |
 | **Full name** | Interocular retinal nerve fiber layer thickness differences |
-| **First published** | 2020-07-10 |
+| **Publication date** | 2020-07-10 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/ss2nynfc8s/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_interocular_retinal_nerve_fiber_layer_thickness` |

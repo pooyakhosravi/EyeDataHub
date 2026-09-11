@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `papila` |
 | **Full name** | PAPILA: Glaucoma Fundus Dataset with Clinical Data |
-| **First published** | 2022-04-29 |
+| **Publication date** | 2022-04-29 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/14798004/versions/1) |
 | **Publication date source field** | published_date (original Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Catalog Zenodo route 6379970 resolves to an unrelated soft-drink record; original PAPILA Figshare v1 is the checked direct resource route. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `papila` |

@@ -2,7 +2,8 @@ import React from 'react';
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import catalogPayload from '@site/static/datasets.json';
-import {comparePublicationDates, matchesPublicationDate, validYearRange} from './publicationDates.mjs';
+import {matchesPublicationDate, publicationDateBasis, validYearRange} from './publicationDates.mjs';
+import {SORT_COLUMNS, compareTableRows, nextSort, sortDirection, sortValue} from './tableSort.mjs';
 
 const STANDARD_NO_NC = new Set(['cc0', 'cc-by', 'cc-by-sa', 'mit', 'apache', 'odc-by']);
 const QUICK_START_COMMANDS = [
@@ -143,18 +144,7 @@ export default function DatasetDashboard() {
       );
     });
 
-    result.sort((a, b) => {
-      if (sort === 'publication-date' || sort === 'publication-date-desc') {
-        return comparePublicationDates(a, b, sort === 'publication-date-desc');
-      }
-      if (sort === 'name') return a.name.localeCompare(b.name);
-      if (sort === 'modality') {
-        return (a.modalities || []).join(',').localeCompare((b.modalities || []).join(','))
-          || a.name.localeCompare(b.name);
-      }
-      if (sort === 'license') return a.license_family.localeCompare(b.license_family) || a.name.localeCompare(b.name);
-      return (b.samples || 0) - (a.samples || 0) || a.name.localeCompare(b.name);
-    });
+    result.sort((a, b) => compareTableRows(a, b, sort));
     return result;
   }, [rows, query, modality, license, backend, reuse, relationshipType, sort,
     publishedFrom, publishedThrough, publicationStatus]);
@@ -339,12 +329,12 @@ export default function DatasetDashboard() {
           <label>
             <span>Sort</span>
             <select value={sort} onChange={(e) => setSort(e.target.value)}>
-              <option value="samples">Numeric quantity (mixed units)</option>
-              <option value="name">Name</option>
-              <option value="publication-date">First published: oldest first</option>
-              <option value="publication-date-desc">First published: newest first</option>
-              <option value="modality">Modality</option>
-              <option value="license">License</option>
+              {SORT_COLUMNS.map(({key, label}) => (
+                <optgroup key={key} label={label}>
+                  <option value={sortValue(key)}>{label}: {key === 'publication-date' ? 'oldest first' : ['samples', 'relationships'].includes(key) ? 'lowest first' : 'A to Z'}</option>
+                  <option value={sortValue(key, true)}>{label}: {key === 'publication-date' ? 'newest first' : ['samples', 'relationships'].includes(key) ? 'highest first' : 'Z to A'}</option>
+                </optgroup>
+              ))}
             </select>
           </label>
           <label>
@@ -369,7 +359,7 @@ export default function DatasetDashboard() {
           </label>
         </div>
         <p id="publication-date-help">
-          First public dataset release. Source precision is retained.
+          Dates use the original provider or an associated publication. Each date shows its basis.
           Year bounds are inclusive; records without
           dates are excluded from a year range and sort last in either date order.
         </p>
@@ -466,19 +456,31 @@ export default function DatasetDashboard() {
 
         <div className="edh-table-wrap" role="region" aria-label="Dataset results" tabIndex="0">
           <table className="edh-dataset-table">
+            <colgroup>
+              <col className="edh-col-select" /><col className="edh-col-name" />
+              <col className="edh-col-modality" /><col className="edh-col-date" />
+              <col className="edh-col-tasks" /><col className="edh-col-quantity" />
+              <col className="edh-col-license" /><col className="edh-col-access" />
+              <col className="edh-col-loader" /><col className="edh-col-relationships" />
+              <col className="edh-col-links" />
+            </colgroup>
             <thead>
               <tr>
-                <th>Select</th>
-                <th>Dataset</th>
-                <th>Modality</th>
-                <th>First published</th>
-                <th>Tasks</th>
-                <th>Primary quantity</th>
-                <th>License</th>
-                <th>Access</th>
-                <th>Loader</th>
-                <th>Relationships</th>
-                <th>Links</th>
+                <th scope="col">Select</th>
+                {SORT_COLUMNS.map(({key, label}) => {
+                  const direction = sortDirection(sort, key);
+                  return (
+                    <th key={key} scope="col" aria-sort={direction}>
+                      <button type="button" className="edh-sort-header"
+                        onClick={() => setSort(nextSort(sort, key))}
+                        title={key === 'samples' ? 'Sort by numeric quantity across mixed units' : key === 'relationships' ? 'Sort by number of relationships' : undefined}
+                        aria-label={`${label}: sort ${direction === 'ascending' ? 'descending' : 'ascending'}`}>
+                        {label}<span aria-hidden="true">{direction === 'ascending' ? '↑' : direction === 'descending' ? '↓' : '↕'}</span>
+                      </button>
+                    </th>
+                  );
+                })}
+                <th scope="col">Links</th>
               </tr>
             </thead>
             <tbody>
@@ -515,14 +517,15 @@ export default function DatasetDashboard() {
                     {row.publication_date ? (
                       <>
                         <a href={row.publication_date_source_url} target="_blank" rel="noopener noreferrer"
-                          title={`Source field: ${row.publication_date_source_field}; reviewed ${row.publication_date_reviewed_on}`}>
+                          title={`Source field: ${row.publication_date_source_field}; reviewed ${row.publication_date_reviewed_on}. ${row.publication_date_notes || ''}`}>
                           {row.publication_date}
                         </a>
                         <small> ({row.publication_date_precision})</small>
+                        <div>{publicationDateBasis(row.publication_date_scope)}</div>
                       </>
                     ) : 'Unknown'}
                   </td>
-                  <td>{(row.tasks || []).slice(0, 3).map((task) => <em key={task}>{task}</em>)}</td>
+                  <td><div className="edh-task-tags">{(row.tasks || []).slice(0, 3).map((task) => <em key={task}>{task}</em>)}</div></td>
                   <td>{formatPrimaryQuantity(row)}</td>
                   <td><code>{row.license_family}</code></td>
                   <td>{titleCase(row.download_type)}</td>

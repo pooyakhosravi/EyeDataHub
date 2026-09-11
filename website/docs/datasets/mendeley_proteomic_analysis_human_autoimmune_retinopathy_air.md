@@ -20,11 +20,13 @@ Observation-level human or human-derived measurements/signals. from Vitreous fro
 | --- | --- |
 | **Short name** | `mendeley_proteomic_analysis_human_autoimmune_retinopathy_air` |
 | **Full name** | Proteomic analysis of human autoimmune retinopathy (AIR) vitreous |
-| **First published** | 2021-12-22 |
+| **Publication date** | 2021-12-22 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/t7yrm5x3ws/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_proteomic_analysis_human_autoimmune_retinopathy_air` |

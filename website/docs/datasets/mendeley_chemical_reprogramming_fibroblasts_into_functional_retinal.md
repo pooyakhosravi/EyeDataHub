@@ -20,11 +20,13 @@ Human-derived cell experimental measurements from Human fibroblasts chemically r
 | --- | --- |
 | **Short name** | `mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal` |
 | **Full name** | Chemical Reprogramming of Fibroblasts into Functional Retinal Pigment Epithelium Cells |
-| **First published** | 2025-01-23 |
+| **Publication date** | 2025-01-23 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/sg2rywwwxb/1) |
 | **Publication date source field** | citation_publication_date |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Official Mendeley Data version-1 page Published metadata; JSON-LD datePublished agrees. Version 1 is the initial public deposit. |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_chemical_reprogramming_fibroblasts_into_functional_retinal` |

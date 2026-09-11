@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `octid` |
 | **Full name** | OCTID: OCT Image Database |
-| **First published** | 2018-12-19 |
+| **Publication date** | 2018-12-19 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [borealisdata.ca/api](https://borealisdata.ca/api/search?q=OCTID&type=dataset&per_page=100) |
 | **Publication date source field** | Borealis Dataverse API search: published_at / versionState |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official OCTID Dataverse search returns the OCTID citation dataset as RELEASED version 1 with published_at 2018-12-19; the OCTID dataverse contents list all eight component records with the same publicationDate. |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `octid` |

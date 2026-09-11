@@ -20,11 +20,13 @@ The 18-participant final CSV is a direct human geographic-atrophy rehabilitation
 | --- | --- |
 | **Short name** | `dryad_ga_biofeedback` |
 | **Full name** | Biofeedback fixation training in the rehabilitation of patients suffering from geographic atrophy |
-| **First published** | 2026-02-11 |
+| **Publication date** | 2026-02-11 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.ngf1vhj81](https://doi.org/10.5061/dryad.ngf1vhj81) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_ga_biofeedback` |

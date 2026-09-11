@@ -20,11 +20,13 @@ Five-domain optic disc/cup segmentation benchmark composed from REFUGE, Drishti-
 | --- | --- |
 | **Short name** | `fundus_domain_generalization` |
 | **Full name** | Fundus Dataset for Domain Generalization in Optic Disc/Cup Segmentation |
-| **First published** | 2023-06-06 |
+| **Publication date** | 2023-06-06 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/8009107) |
 | **Publication date source field** | metadata.publication_date (earliest public Zenodo version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Derivative benchmark release; its own release is used. |
 | **Primary category** | `fundus` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `fundus_domain_generalization` |

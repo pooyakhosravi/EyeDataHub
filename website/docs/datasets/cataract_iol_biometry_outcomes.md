@@ -20,11 +20,13 @@ Human cataract-surgery biometry and clinical outcome measurements.
 | --- | --- |
 | **Short name** | `cataract_iol_biometry_outcomes` |
 | **Full name** | Cataract IOL Biometry and Outcomes Dataset |
-| **First published** | 2023-05-03 |
+| **Publication date** | 2023-05-03 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/22736687/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Figshare v2 API versions list v1 as earliest public version. |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cataract_iol_biometry_outcomes` |

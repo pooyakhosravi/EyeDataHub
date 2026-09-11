@@ -20,11 +20,13 @@ SD-OCT B-scans with bounding-box and polygon annotations for paracentral acute m
 | --- | --- |
 | **Short name** | `fociset_pamm` |
 | **Full name** | FociSet PAMM OCT Lesion Dataset |
-| **First published** | 2024-06-17 |
+| **Publication date** | 2024-06-17 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/mkwxn7rjpm/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `fociset_pamm` |
