@@ -1,4 +1,12 @@
 // Date-only comparisons avoid browser timezone shifts. Partial dates stay partial.
+export function publicationDateBasis(scope) {
+  return {
+    initial_public_release: 'Initial dataset release',
+    repository_deposit: 'Repository deposit',
+    associated_publication: 'Associated publication',
+  }[scope] || 'Unknown';
+}
+
 export function publicationYear(value) {
   if (!/^\d{4}(?:-\d{2}){0,2}$/.test(value || '')) return null;
   return Number(value.slice(0, 4));

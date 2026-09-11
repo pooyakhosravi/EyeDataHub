@@ -20,11 +20,13 @@ Small-incision cataract surgery video dataset with train/validation/test video a
 | --- | --- |
 | **Short name** | `sics155` |
 | **Full name** | SICS-155 Small Incision Cataract Surgery Videos |
-| **First published** | 2025-04-10 |
+| **Publication date** | 2025-04-10 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [medvisbonn.github.io](https://medvisbonn.github.io/) |
 | **Publication date source field** | official SICS-155 News: training and validation dataset were released |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Official challenge News confirms actual release; the timeline separately labels 10.04.2025 as estimated. |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `sics155` |

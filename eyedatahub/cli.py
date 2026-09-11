@@ -376,7 +376,7 @@ def search_catalog(
         return
     table = Table(title=f"EyeDataHub search ({len(results)} records)", header_style="bold cyan")
     table.add_column("Record")
-    table.add_column("First published")
+    table.add_column("Publication date")
     table.add_column("Primary category")
     table.add_column("Modalities")
     table.add_column("Access")
@@ -565,12 +565,17 @@ def show_dataset(name, copy, as_json, data_dir):
     tbl.add_column("Field", style="bold")
     tbl.add_column("Value")
     tbl.add_row("Short name", f"[bold]{info.name}[/]")
-    tbl.add_row("First published", info.publication_date or "Unknown")
+    tbl.add_row("Publication date", info.publication_date or "Unknown")
     if info.publication_date:
+        from eyedatahub.core.publication_dates import publication_date_basis
+
+        tbl.add_row("Date basis", publication_date_basis(info.publication_date_scope))
         tbl.add_row("Publication date precision", info.publication_date_precision)
         tbl.add_row("Publication date evidence", info.publication_date_source_url)
         tbl.add_row("Publication date source field", info.publication_date_source_field)
         tbl.add_row("Publication date reviewed", info.publication_date_reviewed_on)
+        if info.publication_date_notes:
+            tbl.add_row("Date notes", info.publication_date_notes)
     tbl.add_row("Primary category", info.primary_category)
     tbl.add_row("Modalities", ", ".join(info.modalities))
     tbl.add_row("Tasks", ", ".join(info.tasks) if info.tasks else "-")

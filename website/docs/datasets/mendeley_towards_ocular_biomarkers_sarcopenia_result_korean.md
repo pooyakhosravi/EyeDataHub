@@ -20,11 +20,13 @@ Participant-level ocular and clinical measurements from Korean nationwide cross-
 | --- | --- |
 | **Short name** | `mendeley_towards_ocular_biomarkers_sarcopenia_result_korean` |
 | **Full name** | Towards ocular biomarkers for sarcopenia: a result from a Korean nationwide cross-sectional study |
-| **First published** | 2022-04-29 |
+| **Publication date** | 2022-04-29 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/h547645876/1) |
 | **Publication date source field** | Mendeley dataset version 1 page: Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The Mendeley version 1 page reports the dataset Published date; version 1 is the initial public version shown by the source. |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_towards_ocular_biomarkers_sarcopenia_result_korean` |

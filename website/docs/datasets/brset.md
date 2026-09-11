@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `brset` |
 | **Full name** | BRSET: Brazilian Multilabel Ophthalmological Dataset |
-| **First published** | 2023-03-08 |
+| **Publication date** | 2023-03-08 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [physionet.org/content](https://physionet.org/content/brazilian-ophthalmological/1.0.0/) |
 | **Publication date source field** | PhysioNet landing page: Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The version 1.0.0 PhysioNet page states Published: March 8, 2023; this is the initial version, not the later version 1.0.1. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `brset` |

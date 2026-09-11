@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `hygd` |
 | **Full name** | HYGD: Hillel Yaffe Glaucoma Dataset |
-| **First published** | 2025-06-03 |
+| **Publication date** | 2025-06-03 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [physionet.org/content](https://physionet.org/content/hillel-yaffe-glaucoma-dataset/1.0.0/) |
 | **Publication date source field** | PhysioNet landing page: Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The version 1.0.0 PhysioNet page states Published: June 3, 2025 and labels Release Notes version 1.0.0 as Initial release; later 1.1.0 is not used. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `hygd` |

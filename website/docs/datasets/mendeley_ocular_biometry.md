@@ -20,11 +20,13 @@ Observation-level source data, annotations, or signals. from Cataract surgery da
 | --- | --- |
 | **Short name** | `mendeley_ocular_biometry` |
 | **Full name** |  OCULAR BIOMETRY DATA |
-| **First published** | 2024-04-02 |
+| **Publication date** | 2024-04-02 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/4twnn4546j/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_ocular_biometry` |

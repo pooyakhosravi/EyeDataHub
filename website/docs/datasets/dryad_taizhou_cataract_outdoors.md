@@ -20,11 +20,13 @@ The 2,006-participant original-data workbook is directly relevant to human catar
 | --- | --- |
 | **Short name** | `dryad_taizhou_cataract_outdoors` |
 | **Full name** | The association of outdoor activity and age-related cataract in a rural population of Taizhou Eye Study: phase 1 report |
-| **First published** | 2016-08-07 |
+| **Publication date** | 2016-08-07 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.gt410](https://doi.org/10.5061/dryad.gt410) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_taizhou_cataract_outdoors` |

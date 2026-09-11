@@ -20,11 +20,13 @@ Six near-infrared or synthetic iris subsets spanning close-range, lamp variation
 | --- | --- |
 | **Short name** | `casia_iris_v4` |
 | **Full name** | CASIA-IrisV4 Iris Image Database |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `iris_biometrics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `casia_iris_v4` |

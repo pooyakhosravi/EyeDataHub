@@ -20,11 +20,13 @@ Fundus images for glaucoma detection from Harvard Medical School / Mass Eye and 
 | --- | --- |
 | **Short name** | `harvard_glaucoma` |
 | **Full name** | Harvard Glaucoma Fundus Image Dataset |
-| **First published** | 2018-11-15 |
+| **Publication date** | 2018-11-15 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [dataverse.harvard.edu/api](https://dataverse.harvard.edu/api/datasets/:persistentId/versions/1.0?persistentId=doi:10.7910/DVN/1YRRAC) |
 | **Publication date source field** | Harvard Dataverse API: version 1.0 releaseTime |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official Harvard Dataverse API reports version 1.0 RELEASED with releaseTime 2018-11-15; the DataCite record also labels that date Available. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `harvard_glaucoma` |

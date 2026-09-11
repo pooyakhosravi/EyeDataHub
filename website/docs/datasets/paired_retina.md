@@ -20,11 +20,13 @@ Paired tabletop and portable retinal images from the same patients, enabling cro
 | --- | --- |
 | **Short name** | `paired_retina` |
 | **Full name** | Paired Retina Dataset: Cross-Device Fundus Pairs |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2025 |
+| **Date basis** | Repository deposit |
+| **Publication date precision** | year |
+| **Publication date evidence** | [api.datacite.org/dois](https://api.datacite.org/dois/10.57967/hf/5433) |
+| **Publication date source field** | DataCite dataset DOI attributes.publicationYear |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | DataCite gives 2025 for this deposit. The dataset card describes a future release of the complete dataset. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `paired_retina` |

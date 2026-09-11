@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `deepdrid` |
 | **Full name** | DeepDRiD: Diabetic Retinopathy Grading and Image Quality Dataset |
-| **First published** | 2020-01-22 |
+| **Publication date** | 2020-01-22 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [biomedicalimaging.org/2020](https://biomedicalimaging.org/2020/wp-content/uploads/static-html-to-wp/data/dff0d41695bbae509355435cd32ecf5d/index-29.htm) |
 | **Publication date source field** | official ISBI 2020 challenge timeline: Training Data Release (Images + Groundtruth) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Official ISBI 2020 challenge timeline dates the first public training-data release to 2020-01-22; challenge access required registration. Zenodo v1 (record 6452623, published 2022-04-12) is a later archive/mirror and is not used for the resource-level initial date. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `deepdrid` |

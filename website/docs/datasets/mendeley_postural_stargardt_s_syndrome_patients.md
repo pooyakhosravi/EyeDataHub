@@ -20,11 +20,13 @@ Observation-level source data, annotations, or signals. from Ten patients with S
 | --- | --- |
 | **Short name** | `mendeley_postural_stargardt_s_syndrome_patients` |
 | **Full name** | Data for: Postural data from Stargardt's syndrome patients |
-| **First published** | 2021-04-26 |
+| **Publication date** | 2021-04-26 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/5rz9j8t6p4/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_postural_stargardt_s_syndrome_patients` |

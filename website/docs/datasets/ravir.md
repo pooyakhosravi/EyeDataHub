@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `ravir` |
 | **Full name** | RAVIR: Retinal Artery/Vein Segmentation in IR |
-| **First published** | 2022-07 |
+| **Publication date** | 2022-07 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | month |
 | **Publication date evidence** | [ravirdataset.github.io/data](https://ravirdataset.github.io/data/) |
 | **Publication date source field** | Official project page: News |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official RAVIR project page says '[Jul 2022] RAVIR Dataset is now publicly available!'; no day is given, so precision is month. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ravir` |

@@ -20,11 +20,13 @@ Retinal vessel analysis benchmark with vessel masks, artery/vein masks and skele
 | --- | --- |
 | **Short name** | `reta_benchmark` |
 | **Full name** | RETA Benchmark for Retinal Vascular Tree Analysis |
-| **First published** | 2022-05-16 |
+| **Publication date** | 2022-05-16 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/16960855/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Figshare v2 API versions list v1 as earliest public version. |
 | **Primary category** | `fundus` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `reta_benchmark` |

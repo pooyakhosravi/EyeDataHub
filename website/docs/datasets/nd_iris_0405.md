@@ -20,11 +20,13 @@ Longitudinal near-infrared iris images with subject, eye, age, sex, and ethnicit
 | --- | --- |
 | **Short name** | `nd_iris_0405` |
 | **Full name** | ND-IRIS-0405 Iris Image Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2009 |
+| **Date basis** | Associated publication |
+| **Publication date precision** | year |
+| **Publication date evidence** | [cvrl.nd.edu/publications](https://cvrl.nd.edu/publications/) |
+| **Publication date source field** | Notre Dame CVRL publications listing: Published 2009 section and card anchor 2009-05-01 |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | CVRL lists the technical report under 2009. The associated preprint was uploaded in June 2016. |
 | **Primary category** | `iris_biometrics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `nd_iris_0405` |

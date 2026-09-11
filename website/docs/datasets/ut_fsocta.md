@@ -20,11 +20,13 @@ Fundus and synthetic OCTA vessel-segmentation resource for domain-transfer resea
 | --- | --- |
 | **Short name** | `ut_fsocta` |
 | **Full name** | UTHealth Fundus and Synthetic OCTA Dataset |
-| **First published** | 2022-04-21 |
+| **Publication date** | 2022-04-21 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/6476639) |
 | **Publication date source field** | metadata.publication_date (earliest repository version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Zenodo versions history lists this as the only version; metadata.publication_date is used. |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ut_fsocta` |

@@ -20,11 +20,13 @@ One thousand infrared meibography images with meibomian-gland masks, eyelid mask
 | --- | --- |
 | **Short name** | `mgd1k` |
 | **Full name** | MGD-1k Meibomian Gland Dataset |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mgd1k` |

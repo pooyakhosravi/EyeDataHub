@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `cataracts2017` |
 | **Full name** | CATARACTS 2017: Surgical Tool Detection Challenge |
-| **First published** | 2017 |
+| **Publication date** | 2017 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | year |
 | **Publication date evidence** | [arxiv.org/abs](https://arxiv.org/abs/2110.10965) |
 | **Publication date source field** | Associated CATARACTS challenge paper: explicit dataset release statement |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The primary CaDIS challenge paper states that CATARACTS released 50 cataract-surgery videos with instrument-usage annotations in 2017; this explicit release statement supports year precision for the represented CATARACTS resource. |
 | **Primary category** | `surgical_video` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `cataracts2017` |

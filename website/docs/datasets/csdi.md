@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `csdi` |
 | **Full name** | CSDI: Cataract Severity Diagnostic Image Dataset |
-| **First published** | 2025 |
+| **Publication date** | 2025 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | year |
 | **Publication date evidence** | [api.datacite.org/dois](https://api.datacite.org/dois/10.57967/hf/7249) |
 | **Publication date source field** | data.attributes.publicationYear |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | HF DOI DataCite publicationYear is explicit dataset publication metadata; no day is inferred. HF repository commit-list timestamps were retained only as candidate evidence; no historical-tree claim is used. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `csdi` |

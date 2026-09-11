@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `harvard_fairvision` |
 | **Full name** | Harvard-FairVision (AMD + DR + Glaucoma, paired SLO + OCT) |
-| **First published** | 2023-10-03 |
+| **Publication date** | 2023-10-03 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [ophai.hms.harvard.edu/code](https://ophai.hms.harvard.edu/code/fairvision/) |
 | **Publication date source field** | Official Harvard Ophthalmology AI Lab project page: article:published_time |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official project page is dated October 3, 2023 and explicitly says the FairVision code and corresponding dataset are available on the project GitHub; this page publication timestamp is used as the public announcement date, not the paper date. |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `harvard_fairvision` |

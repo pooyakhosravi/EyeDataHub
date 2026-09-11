@@ -20,11 +20,13 @@ Observation-level human or human-derived measurements/signals. from 50 cataract 
 | --- | --- |
 | **Short name** | `mendeley_nagyz_liberty_677my_vs_alcon_acrysof` |
 | **Full name** | NagyZ_Liberty 677MY vs. Alcon AcrySof |
-| **First published** | 2022-01-10 |
+| **Publication date** | 2022-01-10 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/zygxgyf4ns/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_nagyz_liberty_677my_vs_alcon_acrysof` |

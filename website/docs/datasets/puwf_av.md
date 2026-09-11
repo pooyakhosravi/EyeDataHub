@@ -20,11 +20,13 @@ Pediatric ultra-widefield fundus images with professional artery-vein segmentati
 | --- | --- |
 | **Short name** | `puwf_av` |
 | **Full name** | PUWF-AV Pediatric Ultra-Widefield Fundus Artery-Vein Dataset |
-| **First published** | 2026-05-30 |
+| **Publication date** | 2026-05-30 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/32509329/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Only listed Figshare version. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `puwf_av` |

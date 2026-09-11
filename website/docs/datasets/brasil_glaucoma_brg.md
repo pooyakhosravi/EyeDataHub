@@ -20,11 +20,13 @@ Portable/smartphone fundus photographs of Brazilian glaucoma and non-glaucoma vo
 | --- | --- |
 | **Short name** | `brasil_glaucoma_brg` |
 | **Full name** | Brazil Glaucoma (BrG) Dataset |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2022-11-22 |
+| **Date basis** | Associated publication |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.crossref.org/works](https://api.crossref.org/works/10.3390/healthcare10122345) |
+| **Publication date source field** | published-online; abstract identifies Brazil Glaucoma as a new public dataset |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Date from the Healthcare article introducing Brazil Glaucoma. Its data availability statement points to globaleyeh.com. |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `brasil_glaucoma_brg` |

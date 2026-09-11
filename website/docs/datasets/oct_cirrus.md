@@ -20,11 +20,13 @@ Forty-five retinal OCT volumes acquired with a Spectralis system: 15 dry AMD, 15
 | --- | --- |
 | **Short name** | `oct_cirrus` |
 | **Full name** | Duke Srinivasan Retinal OCT Dataset |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `oct_cirrus` |

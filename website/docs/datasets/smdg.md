@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `smdg` |
 | **Full name** | SMDG-19: Standardized Multi-channel Glaucoma Benchmark |
-| **First published** | Unknown |
-| **Publication date precision** | Unknown |
-| **Publication date evidence** | Unknown |
-| **Publication date source field** | Unknown |
-| **Publication date reviewed** | Unknown |
+| **Publication date** | 2023-05-10 |
+| **Date basis** | Associated publication |
+| **Publication date precision** | day |
+| **Publication date evidence** | [api.crossref.org/works](https://api.crossref.org/works/10.1145/3603765.3603779) |
+| **Publication date source field** | published/issued date of the Kiefer catalog paper cited by the Kaggle SMDG record |
+| **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Date from the publication specified by the SMDG provider. Available Kaggle version history starts with version 10. |
 | **Primary category** | `fundus` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `smdg` |

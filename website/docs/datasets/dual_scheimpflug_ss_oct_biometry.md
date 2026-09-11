@@ -20,11 +20,13 @@ Human ocular-biometry measurements from dual Scheimpflug and swept-source OCT in
 | --- | --- |
 | **Short name** | `dual_scheimpflug_ss_oct_biometry` |
 | **Full name** | Dual Scheimpflug and Swept-Source OCT Biometry Dataset |
-| **First published** | 2021-10-19 |
+| **Publication date** | 2021-10-19 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/16828996/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Figshare v2 API versions list v1 as earliest public version. |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dual_scheimpflug_ss_oct_biometry` |

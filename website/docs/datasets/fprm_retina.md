@@ -20,11 +20,13 @@ Fundus photography, multispectral and functional retinal imaging, retinal blood-
 | --- | --- |
 | **Short name** | `fprm_retina` |
 | **Full name** | FPRM Multimodal Eye Imaging and Psychological Assessment Dataset |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `fprm_retina` |

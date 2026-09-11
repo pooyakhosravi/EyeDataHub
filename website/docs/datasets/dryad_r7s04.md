@@ -20,11 +20,13 @@ Official Dryad deposit of source-described tabular ophthalmic data for the assoc
 | --- | --- |
 | **Short name** | `dryad_r7s04` |
 | **Full name** | Data from: Prevalence of depression, anxiety, adjustment disorders, and somatoform disorders in patients with age-related macular degeneration in Germany |
-| **First published** | 2017-02-08 |
+| **Publication date** | 2017-02-08 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.r7s04](https://doi.org/10.5061/dryad.r7s04) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_r7s04` |

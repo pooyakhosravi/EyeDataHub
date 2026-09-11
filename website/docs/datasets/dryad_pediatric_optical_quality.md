@@ -20,11 +20,13 @@ The 42-eye pediatric optical-quality workbook is directly usable for ocular-biom
 | --- | --- |
 | **Short name** | `dryad_pediatric_optical_quality` |
 | **Full name** | Intra- and intersession repeatability of an optical quality and intraocular scattering measurement system in children |
-| **First published** | 2016-11-02 |
+| **Publication date** | 2016-11-02 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.bm8nv](https://doi.org/10.5061/dryad.bm8nv) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_pediatric_optical_quality` |

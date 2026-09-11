@@ -20,11 +20,13 @@ Observation-level source data, annotations, or signals. from MESSIDOR is a human
 | --- | --- |
 | **Short name** | `mendeley_red_lesion_localization_messidor_retinal_images` |
 | **Full name** | Red lesion localization for MESSIDOR retinal images dataset using patch-based convolutional neural networks. |
-| **First published** | 2019-05-30 |
+| **Publication date** | 2019-05-30 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/3r5m3nfdkv/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_red_lesion_localization_messidor_retinal_images` |

@@ -20,11 +20,13 @@ Human-derived ocular cell experimental measurements from Human adult donor-eye c
 | --- | --- |
 | **Short name** | `mendeley_sars_cov_2_infection_ocular_cells` |
 | **Full name** | SARS-CoV-2 infection of ocular cells from human adult donor eyes and hESC-derived ocular lineages, Eriksen et al |
-| **First published** | 2021-04-06 |
+| **Publication date** | 2021-04-06 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/jgw2mcgb67/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_sars_cov_2_infection_ocular_cells` |

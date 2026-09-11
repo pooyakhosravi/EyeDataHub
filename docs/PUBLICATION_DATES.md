@@ -1,9 +1,9 @@
 # Dataset publication dates
 
-`DatasetInfo.publication_date` records the initial public release of the
-represented dataset. It is separate from the associated article date, the
-latest version date, the catalog cutoff, and the date of metadata review.
-"Public release" includes resources that require an account or access approval.
+`DatasetInfo.publication_date` records the selected date for chronological
+search. Prefer the original provider's release or deposit date. When that
+evidence is inconclusive, use the verified publication date of the associated
+article. `publication_date_scope` records what the selected date represents.
 
 ## Fields
 
@@ -15,9 +15,9 @@ Every Python record and JSON/CSV export exposes these optional fields:
 | `publication_date_precision` | `day`, `month`, or `year`, matching the date |
 | `publication_date_source_url` | Public official page or API URL supporting the date |
 | `publication_date_source_field` | Exact upstream field or named release announcement |
-| `publication_date_scope` | `initial_public_release` |
+| `publication_date_scope` | `initial_public_release`, `repository_deposit`, or `associated_publication` |
 | `publication_date_reviewed_on` | Date the evidence was checked, `YYYY-MM-DD` |
-| `publication_date_notes` | Optional explanation of versions, mirrors, or ambiguity |
+| `publication_date_notes` | Explanation of the source choice; required for fallback dates |
 
 Unknown dates and their evidence fields are `None` in Python, `null` in JSON,
 and empty cells in CSV. A year-only date stays year-only; do not add January 1.
@@ -28,15 +28,22 @@ The website and CLI display the date as supplied and link its evidence.
 1. Inspect the official source's History, Posted, First online, or Publication
    date. On a versioned repository, inspect the earliest public version.
 2. Check whether that deposit is a later archive or mirror of an older release.
-   Use the original resource's release evidence where available. If the evidence
-   establishes only a later upload date, leave the initial date unknown.
+   Prefer the original provider's metadata, including PhysioNet and IEEE
+   DataPort, over dates on mirrors or secondary listings.
 3. For a separately indexed derivative or annotation layer, use that product's
    own release date, not its parent dataset's date. A collection's date cannot
    be inferred from the oldest component.
-4. Record the source URL, field name, precision, and review date. Never substitute
-   article publication, private repository creation, modification, or data
-   collection dates. Conflicting dates need an explanatory note and resolution
-   before they are added.
+4. Resolve conflicts using the source closest to the original dataset. A public
+   provider's deposit date may be used with scope `repository_deposit` when
+   the initial release date cannot be established. Record competing dates
+   and the reason for selecting that source.
+5. If provider metadata remains inconclusive, verify the associated article's
+   date with its publisher and use scope `associated_publication`. Record
+   that choice in the notes. Repository commit timestamps, data collection
+   dates, and secondary directory creation dates are insufficient on their own.
+6. Use `initial_public_release` only when the evidence dates the dataset's
+   first public release. Record the source URL, field name, precision, and review
+   date for every selected value.
 
 Use permanent public evidence links, never credentials, signed download URLs,
 or local paths. A source's planned release date needs confirmation that the
@@ -68,11 +75,12 @@ not evidence for a real record):
 
 Source checks and reasons for withholding dates are in
 `hub/audit/publication_dates_*.json`. The initial and remaining review batches
-together cover every catalog record. Supporting second-pass files document
+together cover every catalog record. Conflict resolution files record later
+decisions and supersede the matching unresolved entries. Supporting review files document
 additional checks; they do not represent additional catalog records.
 These files are review records, not runtime inputs. The packaged metadata is
 the source of truth for the interfaces and exports. Dates remain unknown when
-the checked sources do not establish the initial public release.
+the checked sources do not establish a usable provider or publication date.
 
 ## Search and sort
 

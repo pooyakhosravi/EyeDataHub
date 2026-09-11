@@ -20,11 +20,13 @@ Precomputed image embeddings for BRSET and mBRSET to support efficient ophthalmi
 | --- | --- |
 | **Short name** | `brset_mbrset_embeddings` |
 | **Full name** | Embedding-Based Representations for BRSET and mBRSET |
-| **First published** | 2026-03-30 |
+| **Publication date** | 2026-03-30 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [physionet.org/content](https://physionet.org/content/embedding-brset-mbrset/1.0.0/) |
 | **Publication date source field** | PhysioNet landing page: Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The version 1.0.0 PhysioNet page states Published: March 30, 2026; this is the initial public release of the derived embedding resource, not the dates of its BRSET or mBRSET parents. |
 | **Primary category** | `tabular` |
 | **Resource role** | `derivative_dataset` |
 | **Dataset family** | `brset_mbrset_embeddings` |

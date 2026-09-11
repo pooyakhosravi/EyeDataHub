@@ -243,7 +243,7 @@ class DatasetInfo:
     access_check_status: str = ""
     transfer_check_status: str = ""
 
-    # First public release of this dataset, independent of article/version dates.
+    # Selected dataset date; scope identifies release, deposit, or publication.
     # Partial ISO dates retain the source's precision; unknown values stay None.
     publication_date: Optional[str] = None
     publication_date_precision: Optional[str] = None

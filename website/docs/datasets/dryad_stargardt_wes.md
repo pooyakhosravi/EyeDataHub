@@ -20,11 +20,13 @@ The 33-proband Stargardt variant table is a direct inherited-retinal-disease gen
 | --- | --- |
 | **Short name** | `dryad_stargardt_wes` |
 | **Full name** | Stargardt Disease WES Variant Dataset |
-| **First published** | 2016-06-29 |
+| **Publication date** | 2016-06-29 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.0qk7f](https://doi.org/10.5061/dryad.0qk7f) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `omics` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_stargardt_wes` |

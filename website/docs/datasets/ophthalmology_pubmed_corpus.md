@@ -20,11 +20,13 @@ Ophthalmology-focused PubMed text corpus for retrieval, pretraining, or RAG expe
 | --- | --- |
 | **Short name** | `ophthalmology_pubmed_corpus` |
 | **Full name** | Ophthalmology PubMed Corpus |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `text` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `ophthalmology_pubmed_corpus` |

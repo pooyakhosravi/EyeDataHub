@@ -20,11 +20,13 @@ Longitudinal OCT angiography projection maps with vessel labels, clinical text, 
 | --- | --- |
 | **Short name** | `soul_octa` |
 | **Full name** | SOUL: OCTA Human-Machine Collaborative Annotation Dataset |
-| **First published** | 2023-12-22 |
+| **Publication date** | 2023-12-22 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [api.figshare.com/v2](https://api.figshare.com/v2/articles/24893358/versions/1) |
 | **Publication date source field** | published_date (Figshare version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Current Figshare article is v3; v2 API versions list v1 as earliest public version and its published_date is used. |
 | **Primary category** | `octa` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `soul_octa` |

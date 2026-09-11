@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `kermany_oct` |
 | **Full name** | Kermany OCT 2018: Retinal OCT Image Classification |
-| **First published** | 2017-12-25 |
+| **Publication date** | 2017-12-25 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/rscbjbr9sj/1) |
 | **Publication date source field** | Mendeley Data version 1 page: Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Original Mendeley Data release is used; Kaggle mirror version dates are not substituted. |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `kermany_oct` |

@@ -20,11 +20,13 @@ Fundus photographs grouped for corneal curvature prediction, with 50 images per 
 | --- | --- |
 | **Short name** | `corneal_curvature_fundus` |
 | **Full name** | Corneal Curvature Prediction Using Fundus Photography |
-| **First published** | 2023-01-31 |
+| **Publication date** | 2023-01-31 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bc2jfr7dv9/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `corneal_curvature_fundus` |

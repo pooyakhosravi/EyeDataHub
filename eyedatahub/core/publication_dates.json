@@ -1,5 +1,5 @@
 {
-  "definition": "Initial public release of the represented dataset, not its article, latest version, or a later mirror.",
+  "definition": "Selected dataset date from the original provider or a verified associated publication; publication_date_scope identifies its basis.",
   "records": {
     "acrima": {
       "publication_date": "2019-03-15",
@@ -27,6 +27,15 @@
       "publication_date_scope": "initial_public_release",
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": null
+    },
+    "agar300": {
+      "publication_date": "2020-11-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://ieee-dataport.org/open-access/diabetic-retinopathy-fundus-image-datasetagar300",
+      "publication_date_source_field": "IEEE DataPort page Date Created (time datetime)",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Date Created on the official IEEE DataPort record."
     },
     "age_challenge": {
       "publication_date": "2019-07-10",
@@ -189,6 +198,15 @@
       "publication_date_scope": "initial_public_release",
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": null
+    },
+    "brasil_glaucoma_brg": {
+      "publication_date": "2022-11-22",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.crossref.org/works/10.3390/healthcare10122345",
+      "publication_date_source_field": "published-online; abstract identifies Brazil Glaucoma as a new public dataset",
+      "publication_date_scope": "associated_publication",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Date from the Healthcare article introducing Brazil Glaucoma. Its data availability statement points to globaleyeh.com."
     },
     "brset": {
       "publication_date": "2023-03-08",
@@ -1639,6 +1657,15 @@
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": "Version 1 is earliest; current record is version 3."
     },
+    "mario": {
+      "publication_date": "2025-04-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://zenodo.org/api/records/15270469",
+      "publication_date_source_field": "metadata.publication_date (Zenodo provider-supplied publication date)",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Zenodo publication date selected for the archived deposit. The dataset was developed for the 2024 MARIO challenge."
+    },
     "mbrset": {
       "publication_date": "2024-06-26",
       "publication_date_precision": "day",
@@ -2512,6 +2539,15 @@
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": "Collection-level catalog anchor; version 1 is earliest."
     },
+    "nd_iris_0405": {
+      "publication_date": "2009",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://cvrl.nd.edu/publications/",
+      "publication_date_source_field": "Notre Dame CVRL publications listing: Published 2009 section and card anchor 2009-05-01",
+      "publication_date_scope": "associated_publication",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "CVRL lists the technical report under 2009. The associated preprint was uploaded in June 2016."
+    },
     "nehut": {
       "publication_date": "2021-10-06",
       "publication_date_precision": "day",
@@ -2547,6 +2583,15 @@
       "publication_date_scope": "initial_public_release",
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": "Current Figshare article is v4; v2 API versions list v1 as earliest public version and its published_date is used."
+    },
+    "octa_500": {
+      "publication_date": "2019-12-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://ieee-dataport.org/open-access/octa-500",
+      "publication_date_source_field": "IEEE DataPort page Date Created (time datetime)",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Date Created on the official IEEE DataPort record."
     },
     "octa_macula_coronal": {
       "publication_date": "2023-07-05",
@@ -2656,6 +2701,15 @@
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": "Only listed public Zenodo version."
     },
+    "paired_retina": {
+      "publication_date": "2025",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://api.datacite.org/dois/10.57967/hf/5433",
+      "publication_date_source_field": "DataCite dataset DOI attributes.publicationYear",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "DataCite gives 2025 for this deposit. The dataset card describes a future release of the complete dataset."
+    },
     "palm": {
       "publication_date": "2019-01-01",
       "publication_date_precision": "day",
@@ -2737,6 +2791,15 @@
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": "Catalog entry is the original data supplement; its first official Figshare posting is used."
     },
+    "popeye_nir": {
+      "publication_date": "2022-12-29",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.crossref.org/works/10.3390/s23010386",
+      "publication_date_source_field": "published-online; abstract states that PopEYE was collected and publicly released",
+      "publication_date_scope": "associated_publication",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Date from the associated Sensors article describing PopEYE."
+    },
     "post_glaucoma_surgery_ptosis_strabismus": {
       "publication_date": "2025-10-30",
       "publication_date_precision": "day",
@@ -2745,6 +2808,15 @@
       "publication_date_scope": "initial_public_release",
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": "Catalog entry is the original data supplement; its first official Figshare posting is used."
+    },
+    "prime_fp20": {
+      "publication_date": "2020-05-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset",
+      "publication_date_source_field": "IEEE DataPort page Date Created (time datetime)",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Date Created on the official IEEE DataPort record."
     },
     "pupillometry_eeg_fmri_salience": {
       "publication_date": "2023-04-03",
@@ -2799,6 +2871,15 @@
       "publication_date_scope": "initial_public_release",
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": "The official v.1.0.0 GitHub release is titled Real Fundus and describes the first real fundus image dataset; its published_at timestamp is July 4, 2022."
+    },
+    "refuge2": {
+      "publication_date": "2020-07-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://refuge.grand-challenge.org/Home2020/",
+      "publication_date_source_field": "Official REFUGE2 Updates: Validation dataset is released",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Date applies to the validation dataset announced on the official REFUGE2 challenge page."
     },
     "reta_benchmark": {
       "publication_date": "2022-05-16",
@@ -2935,6 +3016,15 @@
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": "Only listed Figshare version."
     },
+    "rose": {
+      "publication_date": "2021-03-02",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://pubmed.ncbi.nlm.nih.gov/33284751/",
+      "publication_date_source_field": "epubdate (PubMed-indexed publisher e-publication date)",
+      "publication_date_scope": "associated_publication",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "PubMed reports electronic publication on 2 March 2021. Crossref records DOI registration on 7 December 2020."
+    },
     "ru_medical_texts_ophthalmology": {
       "publication_date": "2024-12-16",
       "publication_date_precision": "day",
@@ -2979,6 +3069,15 @@
       "publication_date_scope": "initial_public_release",
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": "Version 1 is earliest; current record is version 3."
+    },
+    "smdg": {
+      "publication_date": "2023-05-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://api.crossref.org/works/10.1145/3603765.3603779",
+      "publication_date_source_field": "published/issued date of the Kiefer catalog paper cited by the Kaggle SMDG record",
+      "publication_date_scope": "associated_publication",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "Date from the publication specified by the SMDG provider. Available Kaggle version history starts with version 10."
     },
     "soul_octa": {
       "publication_date": "2023-12-22",
@@ -3168,6 +3267,15 @@
       "publication_date_scope": "initial_public_release",
       "publication_date_reviewed_on": "2026-09-11",
       "publication_date_notes": "Public Kaggle v1 is the cataloged experiment-data release; the linked preprint date is not used."
+    },
+    "x_pcr": {
+      "publication_date": "2026-05-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://github.com/CVI-SZU/X-PCR",
+      "publication_date_source_field": "Official GitHub README News entry: [2026-5-28] X-PCR dataset is released on Hugging Face",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "publication_date_notes": "The authors' release announcement links to Fantasy666/X-PCR on Hugging Face."
     }
   }
 }

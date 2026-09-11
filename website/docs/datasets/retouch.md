@@ -20,11 +20,13 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | **Short name** | `retouch` |
 | **Full name** | RETOUCH: RETinal OCT Fluid Challenge |
-| **First published** | 2017-04-10 |
+| **Publication date** | 2017-04-10 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [retouch.grand-challenge.org](https://retouch.grand-challenge.org/) |
 | **Publication date source field** | Official RETOUCH Important Dates: First part of the Training set was released (Cirrus and Spectralis) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | The official RETOUCH challenge page states that the first training set was released April 10, 2017; this is the initial public training-data release, before the later Topcon training part. |
 | **Primary category** | `oct` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `retouch` |

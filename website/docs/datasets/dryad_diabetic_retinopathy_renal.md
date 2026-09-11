@@ -20,11 +20,13 @@ The 413-patient diabetic-retinopathy/macular-edema table is direct human ophthal
 | --- | --- |
 | **Short name** | `dryad_diabetic_retinopathy_renal` |
 | **Full name** | Diabetic Retinopathy and Renal Function Dataset |
-| **First published** | 2019-08-09 |
+| **Publication date** | 2019-08-09 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [https://doi.org/10.5061/dryad.6kg1sd7](https://doi.org/10.5061/dryad.6kg1sd7) |
 | **Publication date source field** | Published |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_diabetic_retinopathy_renal` |

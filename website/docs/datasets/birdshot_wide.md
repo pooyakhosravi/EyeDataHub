@@ -20,11 +20,13 @@ Longitudinal widefield fundus photographs from birdshot chorioretinitis eyes and
 | --- | --- |
 | **Short name** | `birdshot_wide` |
 | **Full name** | Birdshot-WIDE Widefield Fundus Dataset |
-| **First published** | 2026-04-08 |
+| **Publication date** | 2026-04-08 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [zenodo.org/api](https://zenodo.org/api/records/19474623) |
 | **Publication date source field** | metadata.publication_date (earliest listed public Zenodo version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | Only listed Zenodo version; restricted files do not alter public record publication. |
 | **Primary category** | `uwf_fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `birdshot_wide` |

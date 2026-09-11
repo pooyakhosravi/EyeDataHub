@@ -20,11 +20,13 @@ External eye photographs curated from publicly available web sources for binary 
 | --- | --- |
 | **Short name** | `external_eye_blepharitis` |
 | **Full name** | External Eye Photographs for Screening Referable Blepharitis |
-| **First published** | 2025-09-29 |
+| **Publication date** | 2025-09-29 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/bp37vw4z8d/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `external_eye` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `external_eye_blepharitis` |

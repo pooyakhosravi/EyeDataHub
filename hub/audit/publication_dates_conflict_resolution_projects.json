@@ -1,0 +1,112 @@
+{
+  "records": [
+    {
+      "record_id": "agar300",
+      "publication_date": "2020-11-10",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://ieee-dataport.org/open-access/diabetic-retinopathy-fundus-image-datasetagar300",
+      "publication_date_source_field": "IEEE DataPort page Date Created (time datetime)",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Date Created: Tue, 11/10/2020 - 15:10 (datetime 2020-11-10T15:10:08+00:00).",
+      "original_reason": "IEEE DataPort page exposes Date Created 2020-11-10, but that is only a deposit-creation timestamp; no dated public-release announcement was found to establish it as first availability.",
+      "resolution": "Record the official provider deposit timestamp with repository_deposit scope; do not label it the dataset's initial public release.",
+      "notes": "Date Created on the official IEEE DataPort record."
+    },
+    {
+      "record_id": "octa_500",
+      "publication_date": "2019-12-23",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://ieee-dataport.org/open-access/octa-500",
+      "publication_date_source_field": "IEEE DataPort page Date Created (time datetime)",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Date Created: Mon, 12/23/2019 - 13:35 (datetime 2019-12-23T13:35:38+00:00).",
+      "original_reason": "IEEE DataPort page exposes Date Created 2019-12-23, but that is only a deposit-creation timestamp; no dated first-release announcement for the represented OCTA-500 product was found.",
+      "resolution": "Record the official provider deposit timestamp with repository_deposit scope; do not label it the dataset's initial public release.",
+      "notes": "Date Created on the official IEEE DataPort record."
+    },
+    {
+      "record_id": "prime_fp20",
+      "publication_date": "2020-05-03",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset",
+      "publication_date_source_field": "IEEE DataPort page Date Created (time datetime)",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Date Created: Sun, 05/03/2020 - 17:13 (datetime 2020-05-03T17:13:58+00:00).",
+      "original_reason": "IEEE DataPort page exposes Date Created 2020-05-03, but that is only a deposit-creation timestamp; no dated first-release announcement was found.",
+      "resolution": "Record the official provider deposit timestamp with repository_deposit scope; do not label it the dataset's initial public release.",
+      "notes": "Date Created on the official IEEE DataPort record."
+    },
+    {
+      "record_id": "nd_iris_0405",
+      "publication_date": "2009",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://cvrl.nd.edu/publications/",
+      "publication_date_source_field": "Notre Dame CVRL publications listing: Published 2009 section and card anchor 2009-05-01",
+      "publication_date_scope": "associated_publication",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Notre Dame CVRL publications page places 'The ND-IRIS-0405 Iris Image Dataset' in the Published 2009 section, dated by card anchor 2009-05-01, with Kevin W. Bowyer and Patrick J. Flynn, Notre Dame CVRL Technical Report, linked to the official ND-IRIS-0405.pdf.",
+      "original_reason": "NIST BDbC record page checked; it exposes Date created: August 1, 2014 and Last updated: July 31, 2026, but does not label Date created as first public release; the creation timestamp is withheld.",
+      "resolution": "Use the earliest official Notre Dame CVRL publication listing that explicitly names the dataset, with year precision; do not use the later 2016 preprint listing.",
+      "notes": "CVRL lists the technical report under 2009. The associated preprint was uploaded in June 2016."
+    },
+    {
+      "record_id": "refuge2",
+      "publication_date": "2020-07-20",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://refuge.grand-challenge.org/Home2020/",
+      "publication_date_source_field": "Official REFUGE2 Updates: Validation dataset is released",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Updates list: July 20: Validation dataset is released; July 20: Submission and Evaluation OPEN.",
+      "original_reason": "Official REFUGE2 Home2020 page checked; it dates validation-data release July 20, 2020 but does not date the initial training-data release, so the later validation date is not substituted.",
+      "resolution": "Record the earliest explicit provider release milestone as repository_deposit, not initial_public_release.",
+      "notes": "Date applies to the validation dataset announced on the official REFUGE2 challenge page."
+    },
+    {
+      "record_id": "paired_retina",
+      "publication_date": "2025",
+      "publication_date_precision": "year",
+      "publication_date_source_url": "https://api.datacite.org/dois/10.57967/hf/5433",
+      "publication_date_source_field": "DataCite dataset DOI attributes.publicationYear",
+      "publication_date_scope": "repository_deposit",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "DataCite API identifies title=\"paired_retina\", publisher=\"Hugging Face\", resourceTypeGeneral=\"Dataset\", publicationYear=2025.",
+      "original_reason": "The official card explicitly says the whole dataset will be released after acceptance. Although the current tree exposes image files, no dated release statement establishes when they became public or that this is the initial release of the represented dataset; DOI publicationYear alone is not sufficient to resolve the conflict.",
+      "resolution": "Use the explicit Hugging Face DataCite dataset publicationYear with year precision; do not infer initial public release from repository commit history.",
+      "notes": "DataCite gives 2025 for this deposit. The dataset card describes a future release of the complete dataset."
+    },
+    {
+      "record_id": "x_pcr",
+      "publication_date": "2026-05-28",
+      "publication_date_precision": "day",
+      "publication_date_source_url": "https://github.com/CVI-SZU/X-PCR",
+      "publication_date_source_field": "Official GitHub README News entry: [2026-5-28] X-PCR dataset is released on Hugging Face",
+      "publication_date_scope": "initial_public_release",
+      "publication_date_reviewed_on": "2026-09-11",
+      "source_response_snippet": "Official X-PCR GitHub README News states '[2026-5-28] X-PCR dataset is released on Hugging Face' and links the dataset download to https://huggingface.co/datasets/Fantasy666/X-PCR.",
+      "original_reason": "The official card says Dataset and code will be publicly released. The current HF tree exposes data-bearing parquet paths, but this does not establish when they became public; the future-release wording leaves release semantics unresolved.",
+      "resolution": "Use the official GitHub README release announcement, which explicitly dates the X-PCR dataset's Hugging Face release and supersedes the stale future-release wording on the HF card.",
+      "notes": "The authors' release announcement links to Fantasy666/X-PCR on Hugging Face."
+    }
+  ],
+  "unresolved": [
+    {
+      "record_id": "refuge1_multirater",
+      "reason": "No layer-specific public release date was found for the separate seven-rater annotations of the 1,200 REFUGE1 images. REFUGE1 parent training dates and the REFUGE2 article's multi-annotation release statement were checked but do not prove this distinct annotation-layer product's first availability.",
+      "checked_urls": [
+        "https://drive.google.com/file/d/1TXTrZyaZ76faXek46pEzaYQmAejLf30d/view",
+        "https://refuge.grand-challenge.org/Home2018/",
+        "https://huggingface.co/datasets/realslimman/REFUGE-MultiRater",
+        "https://arxiv.org/abs/2202.08994"
+      ],
+      "review_date": "2026-09-11",
+      "source_response_snippet": "HF card says the resource supplies multi-rater annotations of the REFUGE Challenge Dataset, but provides no publication or release date.",
+      "original_reason": "The official REFUGE 2018 page dates the parent training images (2018-06-15) and parent annotations (2018-06-20), but does not date the separate multi-rater annotation layer represented by this record; the parent release dates are not substituted.",
+      "resolution": "Withhold rather than substitute a parent-dataset, REFUGE2, or article date.",
+      "notes": "A layer-specific provider history or release announcement is still required."
+    }
+  ]
+}

@@ -190,11 +190,13 @@ issue or pull request.
 
 ## Add Publication Dates
 
-Publication dates are first-class `DatasetInfo` fields. Add sourced initial
-public-release dates to `eyedatahub/core/publication_dates.json`, keyed by the
+Publication dates are first-class `DatasetInfo` fields. Add sourced
+dates to `eyedatahub/core/publication_dates.json`, keyed by the
 existing record ID, or set the fields explicitly in a dataset class. Include
 precision, official evidence URL, source field, scope, and review date. Leave
-unknown dates empty; do not substitute article or latest-version dates.
+unknown dates empty. Prefer the original provider's release or deposit date;
+use a verified associated publication date when provider evidence is inconclusive.
+Record the date basis in `publication_date_scope` and explain fallback choices.
 See [the publication-date guide](docs/PUBLICATION_DATES.md) for the field schema,
 version and mirror rules, chronological search, and backfill checks.
 

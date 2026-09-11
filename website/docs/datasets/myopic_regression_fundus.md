@@ -20,11 +20,13 @@ Public sample fundus photographs and measurements for modeling myopic regression
 | --- | --- |
 | **Short name** | `myopic_regression_fundus` |
 | **Full name** | Myopic Regression after Corneal Refractive Surgery Fundus Sample |
-| **First published** | 2021-11-08 |
+| **Publication date** | 2021-11-08 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/k34rvfw3dg/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `fundus` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `myopic_regression_fundus` |

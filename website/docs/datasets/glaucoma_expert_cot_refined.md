@@ -20,11 +20,13 @@ Revised glaucoma reasoning reports paired with the documented source fundus case
 | --- | --- |
 | **Short name** | `glaucoma_expert_cot_refined` |
 | **Full name** | Glaucoma Expert Chain-of-Thought Refined Dataset |
-| **First published** | Unknown |
+| **Publication date** | Unknown |
+| **Date basis** | Unknown |
 | **Publication date precision** | Unknown |
 | **Publication date evidence** | Unknown |
 | **Publication date source field** | Unknown |
 | **Publication date reviewed** | Unknown |
+| **Date notes** | - |
 | **Primary category** | `fundus` |
 | **Resource role** | `annotation_layer` |
 | **Dataset family** | `glaucoma_expert_cot_refined` |

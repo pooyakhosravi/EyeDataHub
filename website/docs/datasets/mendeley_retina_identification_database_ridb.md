@@ -20,11 +20,13 @@ Human/derived image or image-annotation observations. from 20 individuals withou
 | --- | --- |
 | **Short name** | `mendeley_retina_identification_database_ridb` |
 | **Full name** | Retina Identification Database (RIDB) |
-| **First published** | 2020-06-10 |
+| **Publication date** | 2020-06-10 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [data.mendeley.com/datasets](https://data.mendeley.com/datasets/tjw3zwntv6/1) |
 | **Publication date source field** | citation_publication_date (version 1) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `multimodal` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `mendeley_retina_identification_database_ridb` |

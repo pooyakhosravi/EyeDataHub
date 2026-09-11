@@ -20,11 +20,13 @@ Anonymized clinical metadata and automated 3D OCT segmentation volumes for neova
 | --- | --- |
 | **Short name** | `dryad_namd_oct_quant` |
 | **Full name** | Moorfields nAMD Quantitative OCT Biomarker Dataset |
-| **First published** | 2020-09-30 |
+| **Publication date** | 2020-09-30 |
+| **Date basis** | Initial dataset release |
 | **Publication date precision** | day |
 | **Publication date evidence** | [datadryad.org/api](https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.2rbnzs7m4/versions) |
 | **Publication date source field** | versions[versionNumber=2].publicationDate (earliest public version) |
 | **Publication date reviewed** | 2026-09-11 |
+| **Date notes** | - |
 | **Primary category** | `tabular` |
 | **Resource role** | `current_dataset` |
 | **Dataset family** | `dryad_namd_oct_quant` |
